@@ -11,6 +11,8 @@
   {"id":"two-round-stall","input":"同一配色偏差已连续两轮修改仍无改善。","expected":"检查参考通道、扩展设置、画幅和入口，保留已成功部分。","failure":"继续叠加同义形容词。"},
   {"id":"unknown-original-prompt","input":"上传一张参考图，让你反推出原始提示词。","expected":"说明只能重建可见特征与关系，给可用提示词。","failure":"声称知道原始提示词和实际相机。"},
   {"id":"multi-reference-roles","input":"Qwen 多图参考：第一张身份，第二张姿势，第三张配色。","expected":"明确各图职责并核对入口是否提供相应图像输入。","failure":"把三张图都当作等价风格参考。"},
+  {"id":"portrait-frame-and-action","input":"摄影人像：人物正从行走中回头望镜头，要腰部以上构图和抓拍感。","expected":"明确画框从头顶到腰线、下缘止于腰部，并用身体朝向或惯性线索表现回头正在发生。","failure":"只重复景别与回头标签，画框扩展到大腿，人物仍像摆好后的静态姿势。"},
+  {"id":"diagnose-actual-model","input":"我先让你写了 Krea 2 提示词，随后用 Qwen-Image-2.1 生成这张图；请诊断偏差并按 Krea 2 目标改写。","expected":"把 Qwen-Image-2.1 作为当前样本的实际生成上下文，把 Krea 2 作为修改后的目标模型；只依据可见偏差诊断，不从单张图推断模型定律。","failure":"误把 Krea 2 当作已生成这张图的模型，或声称偏差由某个模型必然导致。"},
   {"id":"rgba","input":"做一个透明背景贴纸，使用 Qwen-Image-2.1。","expected":"说明 RGBA 目标并检查部署能否输出 alpha。","failure":"白背景假冒透明。"},
   {"id":"product-form","input":"电商白底图，保留产品完整轮廓和准确颜色。","expected":"优先结构、边缘、材质和接触阴影。","failure":"添加人像景深与复杂情绪词。"},
   {"id":"watercolor","input":"把雨后街角画成水彩。","expected":"描述透明色层、纸白、边缘干湿与建筑结构。","failure":"给相机焦段和照片滤镜。"},
