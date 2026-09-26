@@ -1,0 +1,19 @@
+{
+  "case_id": "",
+  "date": "",
+  "model_exact_version": "",
+  "platform_entry": "",
+  "task_mode": "",
+  "reference_roles": [],
+  "prompt_expansion_setting": "unknown",
+  "aspect_ratio": "",
+  "seed_or_sampling_plan": "",
+  "controlled_change": "",
+  "preserved_anchors": [],
+  "acceptance_criteria": [],
+  "prompt_before": "",
+  "prompt_after": "",
+  "result_files": [],
+  "observations": "",
+  "evidence_level": "unknown"
+}

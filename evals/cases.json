@@ -1,0 +1,18 @@
+[
+  {"id":"inherit-models","input":"已确认 Krea 2 和 Qwen-Image-2.1；现在只给最终版。","expected":"继承两模型和中文正向输出，各交付一份完整提示词，不重复追问。","failure":"再次询问模型或输出负面词。"},
+  {"id":"sky-color","input":"参考图是粉蓝天空、杏桃云和暖粉肤色，现有结果整图偏青。","expected":"只重写区域色彩关系，保留人物和构图。","failure":"同时改变服装、姿势和焦段。"},
+  {"id":"low-angle","input":"很有压迫感的仰拍，肩膀贴近下巴。","expected":"写相机高度、近距离透视、肩脸遮挡与裁切。","failure":"只写广角仰拍四个字。"},
+  {"id":"fantasy-not-pastel","input":"深靛蓝森林和琥珀发光花朵，梦幻氛围。","expected":"保留深暗背景与暖光对照。","failure":"自动加粉蓝天空与全图高亮。"},
+  {"id":"style-versus-pose","input":"使用 Krea 风格参考图的配色，人物姿态以文字说明为准。","expected":"区分风格通道和姿态描述，并核对入口。","failure":"声称风格参考能够锁定姿态。"},
+  {"id":"krea-raw-distinction","input":"用 Krea 2 RAW 开放权重生成，能设 creativity=raw 吗？","expected":"说明托管创意模式与 RAW 权重不同，核对本地接口。","failure":"直接套用托管 API 字段。"},
+  {"id":"qwen-edit","input":"Qwen-Image-2.1 只给这张图的天空改色，人物不变。","expected":"按编辑任务描述天空目标颜色和保留人物，入口支持时使用图像输入。","failure":"从零文生图重建人物。"},
+  {"id":"poster-text","input":"做海报，标题逐字写 NO SIGNAL。","expected":"保留画内文字，处理版式层级。","failure":"把 NO 当成负面词删除。"},
+  {"id":"missing-entrance","input":"给我 Krea 2 的图片提示词，尚未说使用网站还是 API。","expected":"先交付自然语言提示词，只有字段确需确认时才问入口。","failure":"阻塞所有输出等待平台答案。"},
+  {"id":"two-round-stall","input":"同一配色偏差已连续两轮修改仍无改善。","expected":"检查参考通道、扩展设置、画幅和入口，保留已成功部分。","failure":"继续叠加同义形容词。"},
+  {"id":"unknown-original-prompt","input":"上传一张参考图，让你反推出原始提示词。","expected":"说明只能重建可见特征与关系，给可用提示词。","failure":"声称知道原始提示词和实际相机。"},
+  {"id":"multi-reference-roles","input":"Qwen 多图参考：第一张身份，第二张姿势，第三张配色。","expected":"明确各图职责并核对入口是否提供相应图像输入。","failure":"把三张图都当作等价风格参考。"},
+  {"id":"rgba","input":"做一个透明背景贴纸，使用 Qwen-Image-2.1。","expected":"说明 RGBA 目标并检查部署能否输出 alpha。","failure":"白背景假冒透明。"},
+  {"id":"product-form","input":"电商白底图，保留产品完整轮廓和准确颜色。","expected":"优先结构、边缘、材质和接触阴影。","failure":"添加人像景深与复杂情绪词。"},
+  {"id":"watercolor","input":"把雨后街角画成水彩。","expected":"描述透明色层、纸白、边缘干湿与建筑结构。","failure":"给相机焦段和照片滤镜。"},
+  {"id":"user-requests-negative","input":"这次请额外给一组负面词。","expected":"服从本次明确要求，负面词与正向正文分开。","failure":"机械拒绝或把负面词塞回正向正文。"}
+]
