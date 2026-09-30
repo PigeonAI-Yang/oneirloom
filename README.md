@@ -26,8 +26,8 @@
 
 ## 来源与限制
 
-模型事实见 [`docs/model-evidence.md`](docs/model-evidence.md)，维护规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。模型、版本和托管入口会变化；使用前核验当前接口。仓库中的示例和静态检查不等于生成效果实测。尚未得到同入口 A/B 证据的语言或长度偏好不会写成模型定律。
+模型事实见 [`docs/model-evidence.md`](docs/model-evidence.md)，维护规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。模型、版本和托管入口会变化；使用前核验当前接口。仓库中的示例不等于当前提示词的生成效果实测。尚未得到同入口 A/B 证据的语言或长度偏好不会写成模型定律。
 
-## 验证
+## 许可证
 
-运行 `python3 scripts/check_skills.py` 检查技能名称、路由、文件链接与示例。回归任务在 `evals/cases.json`，用于人工或代理评测。许可证为 MIT；Krea、Qwen 的模型与服务仍受各自条款约束。
+许可证为 MIT；Krea、Qwen 的模型与服务仍受各自条款约束。
