@@ -1,5 +1,5 @@
 ---
-name: vpd-style-design
+name: dreamweaver-style-design
 description: 为平面海报、含文字图像、商业产品图、包装与三维渲染组织提示词。聚焦版式层级、准确文案、形状材质、结构与渲染关系。
 ---
 

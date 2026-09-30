@@ -1,5 +1,5 @@
 ---
-name: vpd-style-photography
+name: dreamweaver-style-photography
 description: 为写实摄影、胶片人像、时尚抓拍、产品摄影和电影剧照组织图像生成提示词。聚焦场景、动作、光线、成像纹理与真实的镜头关系。
 ---
 

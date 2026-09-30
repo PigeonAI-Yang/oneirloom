@@ -1,5 +1,5 @@
 ---
-name: vpd-camera-composition
+name: dreamweaver-camera-composition
 description: 将景别、机位、视角、透视、遮挡、裁切和运动意图写成明确的画面空间关系。用于摄影、电影感、广角仰拍、俯拍、主体布局和参考图构图复现。
 ---
 

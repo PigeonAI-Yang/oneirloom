@@ -1,5 +1,5 @@
 ---
-name: vpd-color-light
+name: dreamweaver-color-light
 description: 把色彩、明度、对比、光向、材质受光和空气感转成区域明确的图像提示词。用于修正偏灰、偏冷、过曝、光色错位或“鲜活梦幻”等抽象氛围。
 ---
 
