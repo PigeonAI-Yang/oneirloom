@@ -1,0 +1,396 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://www.krea.ai/docs/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Krea 2 API overview
+
+> Krea 2 API reference covering models, parameters, pricing, and generative sliders for our first foundation image model built for creative control.
+
+export const ModelOverviewCard = ({name, description, icon, href}) => {
+  const resolvedIcon = (() => {
+    if (typeof icon !== "string" || !icon.startsWith("/") || icon.startsWith("//")) return icon;
+    if (typeof window === "undefined") return icon;
+    const base = "/docs";
+    const under = window.location.pathname === base || window.location.pathname.startsWith(base + "/");
+    return under && !icon.startsWith(base + "/") ? base + icon : icon;
+  })();
+  return <a href={href} className="group relative block rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-black overflow-hidden hover:border-black dark:hover:border-white transition-all duration-200 p-6">
+      {}
+      <div className="flex items-center justify-center w-8 h-8 rounded-lg mb-4 transition-colors duration-200">
+        {icon && <img src={resolvedIcon} alt={`${name} logo`} className="w-8 h-8 object-contain transition-all duration-200" />}
+      </div>
+
+      {}
+      <div className="space-y-2">
+        <h3 className="text-lg font-semibold text-black dark:text-white transition-colors">
+          {name}
+        </h3>
+        <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-4">
+          {description}
+        </p>
+      </div>
+
+      {}
+      <div className="absolute top-6 right-6 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+        <svg className="w-4 h-4 text-black dark:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </div>
+    </a>;
+};
+
+export const HeroHeader = ({image, video, title, description}) => {
+  return <div className="relative aspect-[2/1] h-[30vh] w-full rounded-lg overflow-hidden mb-8">
+      {}
+      {video && <video autoPlay muted loop playsInline className="absolute top-0 left-0 w-full h-full object-cover hidden md:block m-0" style={{
+    zIndex: 1,
+    objectPosition: "20% 20%"
+  }}>
+          <source src={video} type="video/webm" />
+        </video>}
+
+      {}
+      <img src={image} alt="" className={`absolute top-0 left-0 m-0 w-full h-full object-cover ${video ? "md:hidden" : "block"}`} style={{
+    zIndex: 1,
+    objectPosition: "20% 20%"
+  }} />
+
+      {}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-black/10 flex flex-col justify-end p-8 dark:hidden" style={{
+    zIndex: 2
+  }}>
+        <h1 className="text-4xl font-bold text-white m-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+          {title}
+        </h1>
+        <p className="text-lg text-white/95 mt-2 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
+          {description}
+        </p>
+      </div>
+
+      {}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 hidden dark:flex flex-col justify-end p-8" style={{
+    zIndex: 2
+  }}>
+        <h1 className="text-4xl font-bold text-white m-0 drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
+          {title}
+        </h1>
+        <p className="text-lg text-white/95 mt-2 drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]">
+          {description}
+        </p>
+      </div>
+    </div>;
+};
+
+<HeroHeader image="https://s.krea.ai/docs/krea-2-hero.webp" title="Krea 2" description="Our first foundation image model — built from scratch for full creative control." />
+
+Krea 2 is our first foundation image model, trained completely from scratch to give you full control over the look, feel, and creative direction of every image you generate.
+
+**What sets it apart:**
+
+* **Aesthetic diversity** — Krea 2 can generate a wide range of styles, with particular strength in artistic and expressive directions other models tend to flatten.
+* **Style transfer** — the most advanced style transfer system available. Extract the style of one or many reference images and apply it to your outputs with precision.
+* **Tunable creativity** — `creativity` is an actual parameter you can adjust. At high values, the model adds aesthetic depth, interpretation, and visual richness to whatever you give it.
+* **Moodboards** — pass in an entire moodboard of dozens of images and Krea 2 will understand the overall creative direction, producing outputs that align with it.
+
+<a href="https://www.krea.ai/k2-feed" target="_blank" rel="noopener noreferrer" className="not-prose group flex items-center justify-between gap-4 my-8 rounded-xl !bg-black !text-white dark:!bg-white dark:!text-black hover:opacity-90 transition-opacity px-5 py-4">
+  <div className="flex-1">
+    <div className="text-base font-semibold">Explore the gallery</div>
+    <div className="text-sm opacity-80">Hundreds of Krea 2 outputs with their prompts.</div>
+  </div>
+
+  <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+  </svg>
+</a>
+
+<a href="https://www.krea.ai/krea-2" className="not-prose group my-6 flex items-center justify-between gap-4 rounded-xl border border-gray-200 dark:border-gray-800 px-5 py-4 no-underline transition-colors hover:border-gray-300 dark:hover:border-gray-700">
+  <div>
+    <div className="font-semibold text-gray-900 dark:text-gray-100">Try Krea 2</div>
+    <div className="mt-0.5 text-sm text-gray-500 dark:text-gray-400">Krea's latest image model — styles, LoRAs, and photographic detail.</div>
+  </div>
+
+  <span aria-hidden="true" className="text-gray-400 transition-transform group-hover:translate-x-0.5 dark:text-gray-500">→</span>
+</a>
+
+## Choose a variant
+
+The Krea 2 API ships in two variants. Both support the same public request shape — the differences come down to speed, model size, training stage, and the character of the outputs they produce.
+
+<CardGroup cols={1}>
+  <Card title="Krea 2 Medium" icon="bolt">
+    Smaller, faster, more cost-efficient. Extensive post-training makes outputs especially stable and consistent across generations.
+
+    **Strongest on:** illustration, anime, painting, and other expressive or artistic styles.
+  </Card>
+
+  <Card title="Krea 2 Large" icon="layer-group">
+    More than 2× the size of Medium, with softer post-training. Outputs are rawer, more textured, and more flexible — at its best, Large produces results Medium can't match.
+
+    **Strongest on:** photorealism, raw looks (motion blur, grain, low dynamic range), expressive and artistic styles.
+  </Card>
+</CardGroup>
+
+<Tip>
+  **Not sure which to start with?** Use Medium for stable general-purpose output, and Large when you want the richest texture or photorealism.
+</Tip>
+
+## Pricing
+
+| Variant | Text-to-image | With style references | With moodboards |
+| - | - | - | - |
+| **Medium** | \$0.030 | \$0.035 | \$0.040 |
+| **Large** | \$0.060 | \$0.065 | \$0.070 |
+
+<Note>
+  Combining moodboards **with** style references does not increase the price per generation — you pay the moodboard rate (\$0.040 Medium / \$0.070 Large).
+</Note>
+
+## Endpoints
+
+| Variant | Endpoint |
+| - | - |
+| **Medium** | `POST /generate/image/krea/krea-2/medium` |
+| **Large** | `POST /generate/image/krea/krea-2/large` |
+
+## Quickstart
+
+Submit a generation request and poll for the result. All requests require a Bearer token — see [API Keys & Billing](/docs/developers/api-keys-and-billing) if you don't have one yet.
+
+<CodeGroup>
+  ```javascript Node.js theme={null}
+  // npm install @krea-ai/sdk
+  import { Krea } from "@krea-ai/sdk";
+
+  const krea = new Krea({ apiKey: process.env.KREA_API_KEY });
+
+  const result = await krea.subscribe("image/krea/krea-2/medium", {
+    input: {
+      prompt: "a cinematic glass cabin beside a frozen lake at sunrise",
+      aspect_ratio: "16:9",
+      resolution: "1K",
+    },
+  });
+
+  // https://gen.krea.ai/images/80ead844-02a6-467d-ba9e-fcd401bcb9a6.png
+  console.log(result.data?.urls[0]);
+  ```
+
+  ```bash cURL theme={null}
+  curl -X POST https://api.krea.ai/generate/image/krea/krea-2/medium \
+    -H "Authorization: Bearer $KREA_API_TOKEN" \
+    -H "Content-Type: application/json" \
+    -d '{
+      "prompt": "A cinematic product photo of a glass lamp on a marble table",
+      "aspect_ratio": "4:5",
+      "resolution": "1K",
+      "creativity": "medium"
+    }'
+
+  # Then poll the returned job_id
+  curl https://api.krea.ai/jobs/<job_id> \
+    -H "Authorization: Bearer $KREA_API_TOKEN"
+  ```
+
+  ```python Python theme={null}
+  import os
+  import time
+  import requests
+
+  API_BASE = "https://api.krea.ai"
+  API_TOKEN = os.environ["KREA_API_TOKEN"]
+
+  def wait_for_job(job_id):
+      while True:
+          response = requests.get(
+              f"{API_BASE}/jobs/{job_id}",
+              headers={"Authorization": f"Bearer {API_TOKEN}"},
+          )
+          response.raise_for_status()
+          job = response.json()
+          if job["status"] == "completed":
+              return job
+          if job["status"] in ("failed", "cancelled"):
+              raise RuntimeError(f"Job {job['status']}")
+          time.sleep(3)
+
+  response = requests.post(
+      f"{API_BASE}/generate/image/krea/krea-2/medium",
+      headers={
+          "Authorization": f"Bearer {API_TOKEN}",
+          "Content-Type": "application/json",
+      },
+      json={
+          "prompt": "A cinematic product photo of a glass lamp on a marble table",
+          "aspect_ratio": "4:5",
+          "resolution": "1K",
+          "creativity": "medium",
+      },
+  )
+  response.raise_for_status()
+  job = wait_for_job(response.json()["job_id"])
+  print(job["result"]["urls"])
+  ```
+
+  ```go Go theme={null}
+  package main
+
+  import (
+  	"bytes"
+  	"encoding/json"
+  	"fmt"
+  	"net/http"
+  	"os"
+  	"time"
+  )
+
+  const apiBase = "https://api.krea.ai"
+
+  func waitForJob(client *http.Client, jobID, token string) (map[string]any, error) {
+  	for {
+  		req, _ := http.NewRequest("GET", fmt.Sprintf("%s/jobs/%s", apiBase, jobID), nil)
+  		req.Header.Set("Authorization", "Bearer "+token)
+  		resp, err := client.Do(req)
+  		if err != nil {
+  			return nil, err
+  		}
+  		var job map[string]any
+  		json.NewDecoder(resp.Body).Decode(&job)
+  		resp.Body.Close()
+  		switch job["status"] {
+  		case "completed":
+  			return job, nil
+  		case "failed", "cancelled":
+  			return nil, fmt.Errorf("job %s", job["status"])
+  		}
+  		time.Sleep(3 * time.Second)
+  	}
+  }
+
+  func main() {
+  	token := os.Getenv("KREA_API_TOKEN")
+  	client := &http.Client{}
+
+  	payload, _ := json.Marshal(map[string]any{
+  		"prompt":       "A cinematic product photo of a glass lamp on a marble table",
+  		"aspect_ratio": "4:5",
+  		"resolution":   "1K",
+  		"creativity":   "medium",
+  	})
+
+  	req, _ := http.NewRequest("POST", apiBase+"/generate/image/krea/krea-2/medium", bytes.NewBuffer(payload))
+  	req.Header.Set("Authorization", "Bearer "+token)
+  	req.Header.Set("Content-Type", "application/json")
+
+  	resp, _ := client.Do(req)
+  	var created map[string]any
+  	json.NewDecoder(resp.Body).Decode(&created)
+  	resp.Body.Close()
+
+  	job, err := waitForJob(client, created["job_id"].(string), token)
+  	if err != nil {
+  		panic(err)
+  	}
+  	fmt.Println(job["result"])
+  }
+  ```
+</CodeGroup>
+
+<Tip>
+  Krea 2 Large generations can take longer to complete, so for production workloads prefer the [`X-Webhook-URL`](/docs/developers/webhooks) header over polling.
+</Tip>
+
+## Parameters
+
+`krea-2/medium` and `krea-2/large` accept the same public request body.
+
+| Field | Type | Notes |
+| - | - | - |
+| `prompt` | string | **Required.** Text prompt describing the image. |
+| `aspect_ratio` | string | One of `1:1`, `4:3`, `3:2`, `16:9`, `2.35:1`, `4:5`, `2:3`, `9:16`. |
+| `resolution` | string | Currently only `1K` is supported. |
+| `seed` | number | Optional. Use the same seed + prompt to reproduce a generation. |
+| `creativity` | enum | `raw`, `low`, `medium` (default), `high`. See below. |
+| `image_style_references` | array | Optional. See [Style transfer](/docs/developers/krea-2/style-transfer). |
+| `moodboards` | array | Optional. See [Moodboards](/docs/developers/krea-2/moodboards). Max 1 moodboard per request. |
+| `styles` | array | Optional trained styles (LoRAs). |
+| `intensity` | integer | Optional. `-100` to `100`, default `0`. See [Generative sliders](/docs/developers/krea-2/generative-sliders). |
+| `complexity` | integer | Optional. `-100` to `100`, default `0`. See [Generative sliders](/docs/developers/krea-2/generative-sliders). |
+| `movement` | integer | Optional. `-100` to `100`, default `0`. See [Generative sliders](/docs/developers/krea-2/generative-sliders). |
+
+<h3 id="creativity">
+  Creativity
+</h3>
+
+`creativity` controls how far the model expands on what you wrote. When your prompt is short or vague, the model fills in missing pieces — style, composition, camera angle, color palette — and `creativity` decides how much liberty it takes.
+
+<AccordionGroup>
+  <Accordion title="raw — no expansion">
+    The model renders only what you've explicitly described. Best for tightly art-directed prompts where every detail is already specified.
+  </Accordion>
+
+  <Accordion title="low — close to the prompt">
+    Minimal expansion. The model stays close to the literal prompt but fills in obvious gaps.
+  </Accordion>
+
+  <Accordion title="medium — balanced (default)">
+    Default behavior. The model adds reasonable interpretation without straying far from the prompt's intent.
+  </Accordion>
+
+  <Accordion title="high — expressive interpretation">
+    Strong expansion. The model takes meaningful creative liberty with style, mood, and aesthetics — best for short or open-ended prompts where you want the model to surprise you.
+  </Accordion>
+</AccordionGroup>
+
+## Feature deep-dives
+
+<CardGroup cols={2}>
+  <Card title="Style transfer" icon="palette" href="/docs/developers/krea-2/style-transfer">
+    Extract the style of one or many reference images and apply it to your outputs with tunable strength.
+  </Card>
+
+  <Card title="Moodboards" icon="grid-2" href="/docs/developers/krea-2/moodboards">
+    Reference a Krea moodboard to set the overall visual direction — palette, texture, mood, and composition.
+  </Card>
+
+  <Card title="Generative sliders" icon="sliders" href="/docs/developers/krea-2/generative-sliders">
+    Steer intensity, complexity, and movement of every generation without rewriting your prompt.
+  </Card>
+</CardGroup>
+
+## Open source
+
+Krea 2 is also available as an open-source release if you'd rather self-host or fine-tune the model instead of (or alongside) calling the hosted API. Two checkpoints are published on Hugging Face:
+
+* **Krea 2 RAW** — the undistilled base checkpoint. Diverse and malleable, intended for fine-tuning, post-training, and LoRA training.
+* **Krea 2 Turbo** — an 8-step distilled checkpoint built for fast text-to-image inference. LoRAs trained on RAW are designed to apply cleanly on Turbo.
+
+| Resource | Link |
+| - | - |
+| Checkpoints on Hugging Face | [huggingface.co/krea/Krea-2-Raw](https://krea.ai/krea-2/huggingface) |
+| Model code on GitHub | [github.com/krea-ai/krea-2](https://krea.ai/krea-2/github) |
+| Technical report | [Krea 2 technical report](https://krea.ai/krea-2/technical-report) |
+
+### Licensing
+
+The open-source release ships under two license tracks:
+
+* **[Community License](https://krea.ai/krea-2-licensing)** — free, non-exclusive use for research, personal, and non-commercial projects, plus commercial use under a revenue threshold. Subject to the [Acceptable Use Policy](https://krea.ai/krea-2-use-policy).
+* **[Commercial License](https://krea.ai/krea-2-commercial-license)** — enterprise terms for commercial use that exceeds the Community License revenue threshold. Contact `opensource@krea.ai`.
+
+<Note>
+  The hosted Krea 2 API documented on this page is governed by the standard [API terms](/docs/developers/api-keys-and-billing) — you don't need to accept the open-source license to call `krea-2/medium` or `krea-2/large`.
+</Note>
+
+## API reference
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 hidden dark:grid">
+  <ModelOverviewCard name="Krea 2 Medium" href="/docs/api-reference/krea/krea-2-medium" icon="/images/logo/krea-logo-icon-dark.svg" description="Faster, cheaper, stable across illustration, anime, and expressive styles." />
+
+  <ModelOverviewCard name="Krea 2 Large" href="/docs/api-reference/krea/krea-2-large" icon="/images/logo/krea-logo-icon-dark.svg" description="More powerful — photorealism, raw textures, and the most flexible outputs." />
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4 block dark:hidden">
+  <ModelOverviewCard name="Krea 2 Medium" href="/docs/api-reference/krea/krea-2-medium" icon="/images/logo/krea-logo-icon-light.svg" description="Faster, cheaper, stable across illustration, anime, and expressive styles." />
+
+  <ModelOverviewCard name="Krea 2 Large" href="/docs/api-reference/krea/krea-2-large" icon="/images/logo/krea-logo-icon-light.svg" description="More powerful — photorealism, raw textures, and the most flexible outputs." />
+</div>

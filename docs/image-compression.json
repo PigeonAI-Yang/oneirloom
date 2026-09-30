@@ -1,0 +1,1261 @@
+{
+  "all_images": 125,
+  "original_bytes": 158430810,
+  "compressed_bytes": 28761528,
+  "reduction_percent": 81.8,
+  "homepage_images": 18,
+  "homepage_original_bytes": 39165360,
+  "homepage_compressed_bytes": 12173326,
+  "records": [
+    {
+      "source": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.png",
+      "published": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.webp",
+      "original_bytes": 1912687,
+      "published_bytes": 1043966,
+      "original_sha256": "eb49ce0f6b9cdf7fc4b57ffc9c65d4eca7487da237dd4a341373318e888b78c8",
+      "published_sha256": "c79d5d331d0d568e7c4aa6ad54fbb62a7825f0481ad765ce6d351903790da6a9",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.png",
+      "published": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.webp",
+      "original_bytes": 3746733,
+      "published_bytes": 1902004,
+      "original_sha256": "fdc97fdce0772aa4cd2303d07da6d43fc28bff45d185aa14be759dffaa817b86",
+      "published_sha256": "82d100ba3cdd648f833b96a3b6434fadb30cddfea15e2e66450a5f56ce9b7c47",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+      "published": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp",
+      "original_bytes": 2522472,
+      "published_bytes": 1517236,
+      "original_sha256": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607",
+      "published_sha256": "4b065b4870ca1f0533556e53644320e13f31c1b0b3720ab76974c14b5cdeaa62",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+      "published": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.webp",
+      "original_bytes": 2423675,
+      "published_bytes": 1774654,
+      "original_sha256": "c0bed162a70ed3a0279ba486b4b2a216f4c44a6459a7504305262ab620ab30ae",
+      "published_sha256": "1c23ad9eca26daa148b0a3bb1dd03d854d59e23b9f1c7b501e1fa3073789c8ec",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png",
+      "published": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.webp",
+      "original_bytes": 3024239,
+      "published_bytes": 1590322,
+      "original_sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+      "published_sha256": "70b13d0c310b79fd34ea0dce640619736201c0613e232725b2e10c39c15decc2",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png",
+      "published": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.webp",
+      "original_bytes": 1735041,
+      "published_bytes": 1218620,
+      "original_sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+      "published_sha256": "00df33b13aa9ed48e7591f3850ccf407d7e6a7dc7ff4612fe7157967900b52d1",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+      "published": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.webp",
+      "original_bytes": 4806974,
+      "published_bytes": 2697424,
+      "original_sha256": "81219b00a9fbaded674c77161b3f7b69a624e7548ced5012a691750890080734",
+      "published_sha256": "0c63357eb5dcc741d2368fdead1c2a4e630d0fb6d86d1b23f4b2d72f930e4359",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.png",
+      "published": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.webp",
+      "original_bytes": 1318237,
+      "published_bytes": 833838,
+      "original_sha256": "4a3b0c86a3429c777febf60130473d7480b9d7a5ff85d7b6a05a1744c39a3435",
+      "published_sha256": "19d62f7d7a450bf919ac7803c52fceafd291793ab2141b1e7c4d5f0835c01cde",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+      "published": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp",
+      "original_bytes": 4760443,
+      "published_bytes": 2788570,
+      "original_sha256": "d5877fafe7cab1c2d090fbfc34ab567efbf5ea5accf29710ac9396f2560c0977",
+      "published_sha256": "b955f997d2c2964f9f47dd745c1694ffcc1f693d72955140f5da99b697d34584",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.png",
+      "published": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.webp",
+      "original_bytes": 1866618,
+      "published_bytes": 993986,
+      "original_sha256": "3329138426dd62be0df43b10bb70c12d8af4c2ca5d4c2d3ec53ceb4394ff19b4",
+      "published_sha256": "fd9c1f348d3ce9cd12ee2839a7acf77488bb15829b3f803b41fbab347bf50e56",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png",
+      "published": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.webp",
+      "original_bytes": 1393954,
+      "published_bytes": 879650,
+      "original_sha256": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d",
+      "published_sha256": "5defbc435e3cc88bc1437257de412a79a5dae961097de18a0219f5dd4e2a405d",
+      "lossless": true,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/hero-v3.png",
+      "published": "docs/assets/hero-v3.webp",
+      "original_bytes": 2678634,
+      "published_bytes": 325158,
+      "original_sha256": "93fe827d3f62a7721f540566ccc1d94a58c976eb71c8e05bc1c16a1c03608cb7",
+      "published_sha256": "161e74f7ed4647c2318cd289fb9b4dca28fbc0cad661e5a384d84926bc8cec4e",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/01_full.png",
+      "published": "docs/assets/portraits/01_full.webp",
+      "original_bytes": 1393954,
+      "published_bytes": 86276,
+      "original_sha256": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d",
+      "published_sha256": "91ae0801e2327b64d30d12ae74203aadcbdc64a51e77b4311ec7122bff683f02",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/09_seated.png",
+      "published": "docs/assets/portraits/09_seated.webp",
+      "original_bytes": 1478768,
+      "published_bytes": 91456,
+      "original_sha256": "00fcb72d83f701b7c7e3c1d4637ac244ae0dbce9a71dd3d1bb29ba0f233acc16",
+      "published_sha256": "5b3451624ca5b389c650de65c25b74bedbe47cd5e068487fdcf757febba86660",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/19_close_fixed.png",
+      "published": "docs/assets/portraits/19_close_fixed.webp",
+      "original_bytes": 1763145,
+      "published_bytes": 140088,
+      "original_sha256": "754cee65dd526ed0867b1d0b1bf7527f5c419fc16fd833664a9cbe735b22cfc7",
+      "published_sha256": "b4643abcfb81d53fb81dcc03c45b522e63af69967c1fe140901bc84c9d869adf",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/20_half_fixed.png",
+      "published": "docs/assets/portraits/20_half_fixed.webp",
+      "original_bytes": 1544877,
+      "published_bytes": 95274,
+      "original_sha256": "9ff7bd8b640aa33c99b7ef7e8cf9fe7978f146b624207555ac201c7791bbc601",
+      "published_sha256": "1ea7d8b24a03de2d5574ef66714297216c91fe6020ba115e77a1cd969dd55b0d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/25_hard_fixed.png",
+      "published": "docs/assets/portraits/25_hard_fixed.webp",
+      "original_bytes": 1599324,
+      "published_bytes": 97136,
+      "original_sha256": "80cbbf2b4cef821a9e6ce77287daea42aec3fd4a76b2ffe58f2a54b6d9482b29",
+      "published_sha256": "a068bc5e848d2f6c26b44b5531286ff785edbb03b8c4cc968fd0c2102fe02f1f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/26_warm_fixed.png",
+      "published": "docs/assets/portraits/26_warm_fixed.webp",
+      "original_bytes": 1446393,
+      "published_bytes": 82742,
+      "original_sha256": "a4a16743645d9db91f3a42e9718202fd232ecd0cbbf192a6b447bbfea16b23bd",
+      "published_sha256": "cf3b57df841aebd6ae1a98948d366a24b9ce3441759ddb32c9e064267fa89b9f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/e03_short.png",
+      "published": "docs/assets/portraits/e03_short.webp",
+      "original_bytes": 1432610,
+      "published_bytes": 87270,
+      "original_sha256": "9072e1f44b31aa83c22f5486c879470a297eca23646d4fd971ddd2898f46cb92",
+      "published_sha256": "300fe36f4a72124fe60f36384f4f2b012e96a3613e22e10e4685518992be46c9",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/e04_long.png",
+      "published": "docs/assets/portraits/e04_long.webp",
+      "original_bytes": 1420751,
+      "published_bytes": 83842,
+      "original_sha256": "cf4d50e0a7e24ab02f2eb27bfad640043cd836b6d201c3e2f7c54fee5502f932",
+      "published_sha256": "d2b380ad7e0a6d34003dbcb88ab5560285d2b9d9833ede25ba68b45246b01a9c",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/e07_backlace.png",
+      "published": "docs/assets/portraits/e07_backlace.webp",
+      "original_bytes": 1541165,
+      "published_bytes": 95656,
+      "original_sha256": "28a9a00352f819a884dc47461259352fd9e65437220dabfb95ffa41b8fcafcbb",
+      "published_sha256": "5748dfb77d237727fc64a98335183697f46206efffd4e7516108d0bc5f2604c9",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/e09_layeropen.png",
+      "published": "docs/assets/portraits/e09_layeropen.webp",
+      "original_bytes": 1448142,
+      "published_bytes": 89826,
+      "original_sha256": "637873929ab31ba8f5be8fae201e1c7bb3c8860d81a051c4d32d9ed954eed2cb",
+      "published_sha256": "3ee4cae6df691001e13acfbb5c67dc463b9801fced175cfcd1e69d773437dcde",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/e11_longseated.png",
+      "published": "docs/assets/portraits/e11_longseated.webp",
+      "original_bytes": 1504281,
+      "published_bytes": 100466,
+      "original_sha256": "7688982ece33ed2aa98ce18aa3433c0507e3d4c8b03f9af85a43d4a50287059a",
+      "published_sha256": "bb30025131ea4ca67270c23140def4de8cd45371e587dc94d51b1f53f99f12d6",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "docs/assets/portraits/e25_backlight.png",
+      "published": "docs/assets/portraits/e25_backlight.webp",
+      "original_bytes": 1653019,
+      "published_bytes": 118248,
+      "original_sha256": "f915075be171887746f3daa857ba8b9c4a1459e7fb741d842c8922196660e2e0",
+      "published_sha256": "ed9c5e27381429015576e7f0aca2cd1902d408543492c82f382f7057761b7e0d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-01-plan.jpg",
+      "published": "docs/assets/tutorial/figure-01-plan.webp",
+      "original_bytes": 305900,
+      "published_bytes": 92942,
+      "original_sha256": "45b2102ae0aa6effc51427f603e053a3ffca43547309c61107293d3f767bdc52",
+      "published_sha256": "3d08d03771314cca996fbd7def59421ca504f4df4262d7406a941c879f505b04",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-01-intent.jpg",
+      "published": "docs/assets/tutorial/expanded-01-intent.webp",
+      "original_bytes": 338705,
+      "published_bytes": 112064,
+      "original_sha256": "74a9f8f3a09fae4fb5a03a7e9f17a1cf57f1992c11cba0c93cddb60baa841816",
+      "published_sha256": "6aebb27e2282f0f1c55338d145c93a485aae0a0ff7aed23ea1752d1a96e1950d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-02-framing.jpg",
+      "published": "docs/assets/tutorial/figure-02-framing.webp",
+      "original_bytes": 366485,
+      "published_bytes": 120596,
+      "original_sha256": "0a0a28b51e956d7942f15d807f240b7160f39a725233af53afe2b0b4bbb18c20",
+      "published_sha256": "5d8cf72550d2610ae945f53fa6984643fa9963f0508627737e9dca1a26ea7bd1",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-02-canvas.jpg",
+      "published": "docs/assets/tutorial/expanded-02-canvas.webp",
+      "original_bytes": 341193,
+      "published_bytes": 113686,
+      "original_sha256": "35012045244ea052c04c47895850052823f84a0ba54d0523a3e4ddf028a9c6cf",
+      "published_sha256": "49c15001d11f091656608a71f674ea88e024ef1de6618a4f65999c17da4fc642",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-03-camera.jpg",
+      "published": "docs/assets/tutorial/figure-03-camera.webp",
+      "original_bytes": 335540,
+      "published_bytes": 101192,
+      "original_sha256": "7476a267f57887db6d1de652a9c51659dd7a3c43d21df66d0aec6f995f5ce583",
+      "published_sha256": "fd9ea74725b8f64c6e7494606518fa703a64dac5652a1ef56a1d70928b8e9cc3",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-03-head-camera.jpg",
+      "published": "docs/assets/tutorial/expanded-03-head-camera.webp",
+      "original_bytes": 357596,
+      "published_bytes": 114728,
+      "original_sha256": "073abf2ebe141b671ded4e7d0cf796d3fd26e23bcdf5dac6243683d82f400b74",
+      "published_sha256": "f144eaa1a6c21a8bc8ad01c53fb06bceb91f4bc128543994cb4a5bf665198acf",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-04-direction.jpg",
+      "published": "docs/assets/tutorial/figure-04-direction.webp",
+      "original_bytes": 330053,
+      "published_bytes": 96692,
+      "original_sha256": "e6ee4381133241257b0c6b639e5829bc890bd074b956aaf375ed2f3b90ab8fc2",
+      "published_sha256": "f7a7b264d594e3852dd79537599296f27f345ccd200c20bd958e24b1c8787355",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-04-body-head.jpg",
+      "published": "docs/assets/tutorial/expanded-04-body-head.webp",
+      "original_bytes": 347861,
+      "published_bytes": 104040,
+      "original_sha256": "ccccd997bef56cafbd6da93370c1366efa9c60073aee1149d074141ed3030c71",
+      "published_sha256": "a8eb97f5de5f33e0f739397801f8bdfbe13f1ef04db437ed5e2b83c25dbc5e66",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-05-composition.jpg",
+      "published": "docs/assets/tutorial/figure-05-composition.webp",
+      "original_bytes": 327968,
+      "published_bytes": 93534,
+      "original_sha256": "9393a39e0ea6447a5292cbd68227a4142a4a848a78669d22a637bf6525598bfc",
+      "published_sha256": "f338ecabdbe8050376b1cd6e697fdf8c3ee2e2f7f03bd57fc95214d1df6d5ccc",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-05-space.jpg",
+      "published": "docs/assets/tutorial/expanded-05-space.webp",
+      "original_bytes": 309041,
+      "published_bytes": 90826,
+      "original_sha256": "ba67385350e81c2c4008af28b3be9cfb6fd62ade59ccca20c8f3182c40e35166",
+      "published_sha256": "b631df5755b242907542909d7498629dda486d2e9f21462eb1010be2aa733c70",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-06-pose.jpg",
+      "published": "docs/assets/tutorial/figure-06-pose.webp",
+      "original_bytes": 336416,
+      "published_bytes": 99108,
+      "original_sha256": "88641f50b18efbdd123f29ecbb18b1aaaf92f77f2c40bbec29abd4bebc013eb0",
+      "published_sha256": "90379bcd2805203cb2f59829e97f256bd743c7892de4e2da7625dd2db2166c33",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-06-seat.jpg",
+      "published": "docs/assets/tutorial/expanded-06-seat.webp",
+      "original_bytes": 371832,
+      "published_bytes": 111076,
+      "original_sha256": "16c265e26176f4c0bb152b1cb38f4bbe772d8703048694cb474d7cae2c795950",
+      "published_sha256": "4d7a24d4f4c503f3f66897c51cbc399322b8c6427c1a2225c2e30c94c9b43354",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-07-weight.jpg",
+      "published": "docs/assets/tutorial/expanded-07-weight.webp",
+      "original_bytes": 335853,
+      "published_bytes": 96314,
+      "original_sha256": "fd84604732f52291153709f9c8abef7949f571daccc437e7c3835b7920bca172",
+      "published_sha256": "33c780f845d50a0bef0c49f2e3f7b13d73664adcc00f505714d39384534eeddd",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-07-gaze.jpg",
+      "published": "docs/assets/tutorial/figure-07-gaze.webp",
+      "original_bytes": 334030,
+      "published_bytes": 100758,
+      "original_sha256": "ef524be0f58d1d6e546c8645d3d6f6ad96ba96999313ac1c8527c7b896ce93c9",
+      "published_sha256": "d9e728b1431c5da38b0a0cabc3243f395530d40ac7a15ae3692194c3b43671b0",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-08-expression.jpg",
+      "published": "docs/assets/tutorial/expanded-08-expression.webp",
+      "original_bytes": 363352,
+      "published_bytes": 117130,
+      "original_sha256": "2bb260dfa4a50c52a55848dcef5bcd49c60470a2edd6549ab1b4b3f72d92d063",
+      "published_sha256": "38154cce195c269b09bf091287a97014177018f0f6ac2beaede0a0b48a082c20",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-08-hands.jpg",
+      "published": "docs/assets/tutorial/figure-08-hands.webp",
+      "original_bytes": 352759,
+      "published_bytes": 102584,
+      "original_sha256": "f3b1d396dc9d6e0e58bc1c03ee69667cdb1bfdae75d2db92ec92030e024b6b4f",
+      "published_sha256": "fbe94665c7a6dddab8b2af9578010318535ab5cea71ff6a22c84b688c49be6f8",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-09-contact.jpg",
+      "published": "docs/assets/tutorial/expanded-09-contact.webp",
+      "original_bytes": 370143,
+      "published_bytes": 114352,
+      "original_sha256": "eccf8f1eb7b4e86c796b3dac33d68dcec24cd7877ad8f2e48a6b94b79490abc1",
+      "published_sha256": "198a7e18766d24dcd41882546c3b9c5802753f941954fa5e1084aae64678663f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-09-room.jpg",
+      "published": "docs/assets/tutorial/figure-09-room.webp",
+      "original_bytes": 330381,
+      "published_bytes": 94182,
+      "original_sha256": "86194e8721b676c975bf8ff0a5dea291a1f8e1f13d8c4da1bb03889ca69b788a",
+      "published_sha256": "73381766ce5938f32ae1184be650f647e1820c1e8a2bf69e350bcdb4cabe853e",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-10-depth.jpg",
+      "published": "docs/assets/tutorial/expanded-10-depth.webp",
+      "original_bytes": 296790,
+      "published_bytes": 77968,
+      "original_sha256": "f20a658922c4413ac6170277a54cb2514ada0fe6ac9602e022e2e359b3962065",
+      "published_sha256": "7afa032f8c69289aa783ff9e9000e3e8dddda64032b5aed3796d6da022eb87df",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-11-silhouette.jpg",
+      "published": "docs/assets/tutorial/expanded-11-silhouette.webp",
+      "original_bytes": 338447,
+      "published_bytes": 96178,
+      "original_sha256": "d0d488b9d1e37606c0f764dc4e1edc2709d6d952c6779eb65acee8b097649b42",
+      "published_sha256": "712feddb1dc345f7038fc0c3d4cd8987da8179f2ccc5f5ab1ed0a94e4ece87f0",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-12-length.jpg",
+      "published": "docs/assets/tutorial/expanded-12-length.webp",
+      "original_bytes": 348127,
+      "published_bytes": 103074,
+      "original_sha256": "1167534362a5f988b88224b6f42ed15236f600e47e3b562247c76bd411e8b8cd",
+      "published_sha256": "ef425796118e20a8f3754d7bbc9acf56b20ae40523b409f1e3bbfd6da90882bd",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-13-neckline.jpg",
+      "published": "docs/assets/tutorial/expanded-13-neckline.webp",
+      "original_bytes": 337626,
+      "published_bytes": 102474,
+      "original_sha256": "59681d0350902b38748895e7e34c0f103d2fb7178c144b050ab4ad1b346bbb88",
+      "published_sha256": "a11dc20c3611e5910e11551b768bf1207003b8c81cae326db92fa791ff238834",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-14-back.jpg",
+      "published": "docs/assets/tutorial/expanded-14-back.webp",
+      "original_bytes": 349685,
+      "published_bytes": 104712,
+      "original_sha256": "0637ef59681a75ddc95ea35f432e9e71f98eae7dc81e590122464684707fae9f",
+      "published_sha256": "e95f30f3daefc2498da29d49f8b631af371f2a6ea1fe2df7f220f2c7da85a4a9",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-15-side.jpg",
+      "published": "docs/assets/tutorial/expanded-15-side.webp",
+      "original_bytes": 301887,
+      "published_bytes": 82370,
+      "original_sha256": "18b4f687c4376515e6da5867dfabba7e0c4e33193db5e81425989dfd356092c9",
+      "published_sha256": "9e56e18bdb61535b1c8826a2896fbd80053da72e0c38f1f6e2874bfc35787ee0",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-16-layers.jpg",
+      "published": "docs/assets/tutorial/expanded-16-layers.webp",
+      "original_bytes": 346607,
+      "published_bytes": 102362,
+      "original_sha256": "98fc7f434756a332d1f55e6889bd525c874ae2db7d16f60b9f64ecf46eaac440",
+      "published_sha256": "aec8b2527e3ba464cefa1b06d92ac1120ae7de748e68f02c7b9e6ea847ab4f86",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-17-drape.jpg",
+      "published": "docs/assets/tutorial/expanded-17-drape.webp",
+      "original_bytes": 352869,
+      "published_bytes": 103646,
+      "original_sha256": "0c753c075abbb55c5d84e77ed9a7f172c400b795bae2ad6643b77044493d3993",
+      "published_sha256": "06e34265d016becec18bc85a8d09d94648fc3f177c56aeaff3e2d936b6e9d97c",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-10-fabric.jpg",
+      "published": "docs/assets/tutorial/figure-10-fabric.webp",
+      "original_bytes": 340000,
+      "published_bytes": 105884,
+      "original_sha256": "a94e3f239bb4f5551f0ca8e91cd44bd22b2ba347810bee141913fc0a538f842a",
+      "published_sha256": "731b8f542b4772065158371a99e0ea78102123506ba77b8fac0e2c770db8dbd3",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-18-lightdirection.jpg",
+      "published": "docs/assets/tutorial/expanded-18-lightdirection.webp",
+      "original_bytes": 358310,
+      "published_bytes": 115906,
+      "original_sha256": "2356b994e95984ac55ce2b04861aa074a92904b6bb87800c77a812fcfa9eda93",
+      "published_sha256": "792c6fed9cef929795f34ed0bbefa1e856315b9523beda7f214f74342751cdc7",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-11-light.jpg",
+      "published": "docs/assets/tutorial/figure-11-light.webp",
+      "original_bytes": 338636,
+      "published_bytes": 108370,
+      "original_sha256": "306b371445b1fcf12b45c092fb55f02a245a1c83c74935050854abbd2ea77803",
+      "published_sha256": "bf4117c44f7e4b5b50eb27073f868fe4b1ad008686ee6a126000722cf64fbe54",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-12-focus.jpg",
+      "published": "docs/assets/tutorial/figure-12-focus.webp",
+      "original_bytes": 332196,
+      "published_bytes": 101620,
+      "original_sha256": "264d382cacf0f2c2f3d71e8b8ab84eba38c8a982baf7d3de38447e2fa7380504",
+      "published_sha256": "d48a39a2d3d79c36e75c5960ff3bca76090b37cad546f5cb8d16cd1a8c4c8e4f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-19-focus.jpg",
+      "published": "docs/assets/tutorial/expanded-19-focus.webp",
+      "original_bytes": 271640,
+      "published_bytes": 89314,
+      "original_sha256": "551195dd890dcdc57d60e2dc8d3e0b0add933e6b52644d02d1cdd63302f2deba",
+      "published_sha256": "150082251f4dddadf4c306ff37a89111d084c7c45d81a8cd2f1069bb802a84e4",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-13-complete.jpg",
+      "published": "docs/assets/tutorial/figure-13-complete.webp",
+      "original_bytes": 293269,
+      "published_bytes": 79858,
+      "original_sha256": "db159fcd0cd7580a02cb604c6dca1e962bea03fa48081ce2c59c257ae4f47f2c",
+      "published_sha256": "db424f03b64df48837b2f351c0a1815e5ea768aa81618f947b60a821099602e7",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-20-build.jpg",
+      "published": "docs/assets/tutorial/expanded-20-build.webp",
+      "original_bytes": 337902,
+      "published_bytes": 96824,
+      "original_sha256": "0d486474f77bfabc142b692ced3bfe4ddc8c6464d4eb0d5915550a24d93f125f",
+      "published_sha256": "da7b6a685eeeadc6debfbae5db70e1e45d5fc306579577ee453c6c5210fc3e23",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-14-repair.jpg",
+      "published": "docs/assets/tutorial/figure-14-repair.webp",
+      "original_bytes": 383419,
+      "published_bytes": 126720,
+      "original_sha256": "1ffe7b5fa013c70bd12d1b0997077323455558821a6c6a3cbaf93bd93789eb2d",
+      "published_sha256": "4b78debc74ada1608f4ab1ac3afa02a02e91befd4992660ca04af76802bc6d5f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-21-diagnose.jpg",
+      "published": "docs/assets/tutorial/expanded-21-diagnose.webp",
+      "original_bytes": 322790,
+      "published_bytes": 96232,
+      "original_sha256": "15a3844a56639eeb0aa370d72cd7b684b3db086475fdafcd1a1df15f98319f5a",
+      "published_sha256": "188f6a8bdc5a9bafb03f56f74aa5552c45da57c1573f723ed4e8e12e5073deff",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-15-grid.jpg",
+      "published": "docs/assets/tutorial/figure-15-grid.webp",
+      "original_bytes": 374840,
+      "published_bytes": 117486,
+      "original_sha256": "a1eb2b1cce1df23253c809c4ce8b0a9659dcca18541e768212f56ac79ed8de48",
+      "published_sha256": "6958c0df4d5661ad6d0ff16a99d295689d1c7170ea1d66d1bbbc48f55deab2b1",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-22-grid.jpg",
+      "published": "docs/assets/tutorial/expanded-22-grid.webp",
+      "original_bytes": 335694,
+      "published_bytes": 108142,
+      "original_sha256": "fd23b2018e27ea32f588411729ee428ecc029072a42d5944bfbccfc52780a4da",
+      "published_sha256": "8ffdd7f270ad55dce64472de33cd1fdd8574486fd7049292de057a3767e23dfb",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/figure-16-exercise.jpg",
+      "published": "docs/assets/tutorial/figure-16-exercise.webp",
+      "original_bytes": 382087,
+      "published_bytes": 126806,
+      "original_sha256": "646a8097273321501f8b90745a2ed3fe3c2f3373eda1fe2e46f70ce3f09cac34",
+      "published_sha256": "041136784f9bdd5610d63e0ef3cd3a23528a57dc0f0a244ffe320e330581f385",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/expanded-23-exercises.jpg",
+      "published": "docs/assets/tutorial/expanded-23-exercises.webp",
+      "original_bytes": 366850,
+      "published_bytes": 115092,
+      "original_sha256": "ff850353cb5ef99434c910ad841ed3665101196911a2b9b032d0f800a39680d1",
+      "published_sha256": "9c983203280d1d7aed8640fa00dc35b3db2090c82192533ee68e5ac0ddaff866",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/01_full.png",
+      "published": "docs/assets/tutorial-originals/01_full.webp",
+      "original_bytes": 1393954,
+      "published_bytes": 86276,
+      "original_sha256": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d",
+      "published_sha256": "91ae0801e2327b64d30d12ae74203aadcbdc64a51e77b4311ec7122bff683f02",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/02_close.png",
+      "published": "docs/assets/tutorial-originals/02_close.webp",
+      "original_bytes": 1419246,
+      "published_bytes": 87596,
+      "original_sha256": "801cf5ab5693f9db44f33db07fa32643503378ed0964ab27c38d88dd9974f8e1",
+      "published_sha256": "d6f36d5af6b8562d7276f4c6f86b3233bf1ff52f809a069c86e39cee410c466a",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/03_half.png",
+      "published": "docs/assets/tutorial-originals/03_half.webp",
+      "original_bytes": 1397083,
+      "published_bytes": 83026,
+      "original_sha256": "b6f6d20236fa2d985da17322dc9ba177234ffe5358ede1b5877239a1e8cc14e0",
+      "published_sha256": "da5e40a7725fc990c37a3bcd40a8686c616fea2d39f86691d5efa7f74e035d85",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/04_high.png",
+      "published": "docs/assets/tutorial-originals/04_high.webp",
+      "original_bytes": 1413080,
+      "published_bytes": 87054,
+      "original_sha256": "9cb602a4554a94b5222c1b25ffe309aa86c4bc66432401ad21bdf9faf1765552",
+      "published_sha256": "ef3d7ad03c6d0f22a6c0272368d1325ea701ad2259b9c5bb4759f1f4be900bf4",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/05_low.png",
+      "published": "docs/assets/tutorial-originals/05_low.webp",
+      "original_bytes": 1397262,
+      "published_bytes": 87886,
+      "original_sha256": "0e0ee0d68fad4f1f744d1cbfeca34919e3afc4187f4292b405756a57b6a5cd6f",
+      "published_sha256": "75b274b18d9e410a2afbfda4c6a132485d0e8328346cfe4f57d8fcd51233f2cb",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/06_side.png",
+      "published": "docs/assets/tutorial-originals/06_side.webp",
+      "original_bytes": 1389164,
+      "published_bytes": 81152,
+      "original_sha256": "2c5c59e729c0102585a66c099f964b3427e123b855a83dc7ba64b936485c2b3f",
+      "published_sha256": "46ee02e0c6adbd684f91ca12ab84e34ea3ffb4d7dd2cad5033568ba4f08f326d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/07_back.png",
+      "published": "docs/assets/tutorial-originals/07_back.webp",
+      "original_bytes": 1400180,
+      "published_bytes": 83850,
+      "original_sha256": "12e5f16f1b34192ba869bf3104373702507a657d82db7f55db6ca1ae9ff3e941",
+      "published_sha256": "b5266317e246364ef79973f36f8d87499fd921a9d59b1861071bb0181bce6c7a",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/08_left.png",
+      "published": "docs/assets/tutorial-originals/08_left.webp",
+      "original_bytes": 1382476,
+      "published_bytes": 80162,
+      "original_sha256": "940877401b7bc99384c97a36614b29fab02a98cbedd18aaebda44d3660f88e78",
+      "published_sha256": "b7ed56f40b943b958086b9653475e54661d7988028c62e04b47079e550a021e0",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/09_seated.png",
+      "published": "docs/assets/tutorial-originals/09_seated.webp",
+      "original_bytes": 1478768,
+      "published_bytes": 91456,
+      "original_sha256": "00fcb72d83f701b7c7e3c1d4637ac244ae0dbce9a71dd3d1bb29ba0f233acc16",
+      "published_sha256": "5b3451624ca5b389c650de65c25b74bedbe47cd5e068487fdcf757febba86660",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/10_walk.png",
+      "published": "docs/assets/tutorial-originals/10_walk.webp",
+      "original_bytes": 1395755,
+      "published_bytes": 87016,
+      "original_sha256": "70b3b26a2c56bda81642b33ac1d8c613a29ce303a56f6493d5859bb27f2e274a",
+      "published_sha256": "d74b864875395f5c405abbd5709d0800ce7032bb92109dff6c1490aa476c5951",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/11_gaze.png",
+      "published": "docs/assets/tutorial-originals/11_gaze.webp",
+      "original_bytes": 1399837,
+      "published_bytes": 86154,
+      "original_sha256": "43a20cf3ea95e2cde9de4ed594be5377b451f47ebea05dbd19a2256d909ee3d8",
+      "published_sha256": "95afb76fccd0bd73151cdbc78100d9cc0eb5d6fa1cce883dcc45b9b077da4863",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/12_hairhand.png",
+      "published": "docs/assets/tutorial-originals/12_hairhand.webp",
+      "original_bytes": 1490339,
+      "published_bytes": 95350,
+      "original_sha256": "ee325227df7ee037e8b5e433255f126caa0f584dddd5499c2e50a4c46daf7b3c",
+      "published_sha256": "b50b6f088f7b413bb9d14335522dc5dcc8e4738c4771bbbfefdc56b83b56d055",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/13_vague_scene.png",
+      "published": "docs/assets/tutorial-originals/13_vague_scene.webp",
+      "original_bytes": 1351944,
+      "published_bytes": 80432,
+      "original_sha256": "a8a04b83a83c28963294ac3edf09e81d7d53747ab63d3776f234b1aae082252e",
+      "published_sha256": "6fc66a8c832142c1e429229512a0c89d2171a19667f6a16f1d0d9ac9e8938d37",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/14_knit.png",
+      "published": "docs/assets/tutorial-originals/14_knit.webp",
+      "original_bytes": 1432377,
+      "published_bytes": 89422,
+      "original_sha256": "ada088d8e8ed22f800e39d19827e77b08ae9c5bab284bc7784ea74657ec1117a",
+      "published_sha256": "82cf498d348b98eda24c3120698e53f6706132400eb9768236c5b9b5078b2f41",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/15_hardlight.png",
+      "published": "docs/assets/tutorial-originals/15_hardlight.webp",
+      "original_bytes": 1483231,
+      "published_bytes": 92488,
+      "original_sha256": "af7c543e25a6ea653f2881f486517e0f6488f092dbbfb2ec4699f1d155a7cbfe",
+      "published_sha256": "f245d56ae8a2f9a2eec427dc4dd09192ebe60afacc6dc58c7dcdf0ebf954e92d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/16_warmlight.png",
+      "published": "docs/assets/tutorial-originals/16_warmlight.webp",
+      "original_bytes": 1362083,
+      "published_bytes": 78878,
+      "original_sha256": "8b67f1dc433ae224d07b7844500fa04ad919d2e2ae2083be821d5c14b7f7c027",
+      "published_sha256": "8378e2e945c42d7eeee12d36237465a12c459c5a53456ba4eccecffb46fe77dd",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/17_blur.png",
+      "published": "docs/assets/tutorial-originals/17_blur.webp",
+      "original_bytes": 1334099,
+      "published_bytes": 74692,
+      "original_sha256": "e3b9a4816afb20d98c9fe0c6494f2e89b49e1821c7ff52e47223aff92406f587",
+      "published_sha256": "daf0a45fd900cbb58d811565327e5f1dc558aee78ac90bdc9ba5726dc0f74ea9",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/18_grid.png",
+      "published": "docs/assets/tutorial-originals/18_grid.webp",
+      "original_bytes": 3104814,
+      "published_bytes": 224386,
+      "original_sha256": "2612c52d15b1553dbad96473a50b38b00735fc11d344b1a3387a2501ec5b3cc6",
+      "published_sha256": "d031019409ebfc5116ddb8bd309c53c7dd5af2168253c4e01b85a82dda640c1a",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/19_close_fixed.png",
+      "published": "docs/assets/tutorial-originals/19_close_fixed.webp",
+      "original_bytes": 1763145,
+      "published_bytes": 140088,
+      "original_sha256": "754cee65dd526ed0867b1d0b1bf7527f5c419fc16fd833664a9cbe735b22cfc7",
+      "published_sha256": "b4643abcfb81d53fb81dcc03c45b522e63af69967c1fe140901bc84c9d869adf",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/20_half_fixed.png",
+      "published": "docs/assets/tutorial-originals/20_half_fixed.webp",
+      "original_bytes": 1544877,
+      "published_bytes": 95274,
+      "original_sha256": "9ff7bd8b640aa33c99b7ef7e8cf9fe7978f146b624207555ac201c7791bbc601",
+      "published_sha256": "1ea7d8b24a03de2d5574ef66714297216c91fe6020ba115e77a1cd969dd55b0d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/21_low_fixed.png",
+      "published": "docs/assets/tutorial-originals/21_low_fixed.webp",
+      "original_bytes": 1349915,
+      "published_bytes": 70196,
+      "original_sha256": "194b2e9b10092c29d725b0deae88532780e64b94329a8f8e124c60d6f70ec7a1",
+      "published_sha256": "84ea9b73245b49e8018ec32faf59bc0645e49f71641587f3c36ae30888ce0f26",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/22_left_fixed.png",
+      "published": "docs/assets/tutorial-originals/22_left_fixed.webp",
+      "original_bytes": 1390253,
+      "published_bytes": 84308,
+      "original_sha256": "1023a75004998cb622f2973dc91b6024669ee2663edd9ccdd70aaab6fa0c7113",
+      "published_sha256": "f85d0b1686ff5a7d98f45d73682d315b362ffaedd62a7d6fb6699a0d6ef007da",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/23_gaze_fixed.png",
+      "published": "docs/assets/tutorial-originals/23_gaze_fixed.webp",
+      "original_bytes": 1524216,
+      "published_bytes": 90272,
+      "original_sha256": "3c670c53de1b4ff0a2683711fcb92a945b7fc30308ce007834fb1b5bbd630f3c",
+      "published_sha256": "95f91a4bb7635818778b7a61fd7e1b94a7a1b88a1b48cc14cba0cd88295a33f7",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/24_knit_fixed.png",
+      "published": "docs/assets/tutorial-originals/24_knit_fixed.webp",
+      "original_bytes": 1582357,
+      "published_bytes": 107546,
+      "original_sha256": "642ca058cf92d1746232e1fbffd3b540d3101f71bd640c785f6105fc6717067f",
+      "published_sha256": "b9ff739faf028f5736ba96017d6d5b97a796dc140b4639b55634cec618e045c6",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/25_hard_fixed.png",
+      "published": "docs/assets/tutorial-originals/25_hard_fixed.webp",
+      "original_bytes": 1599324,
+      "published_bytes": 97136,
+      "original_sha256": "80cbbf2b4cef821a9e6ce77287daea42aec3fd4a76b2ffe58f2a54b6d9482b29",
+      "published_sha256": "a068bc5e848d2f6c26b44b5531286ff785edbb03b8c4cc968fd0c2102fe02f1f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/26_warm_fixed.png",
+      "published": "docs/assets/tutorial-originals/26_warm_fixed.webp",
+      "original_bytes": 1446393,
+      "published_bytes": 82742,
+      "original_sha256": "a4a16743645d9db91f3a42e9718202fd232ecd0cbbf192a6b447bbfea16b23bd",
+      "published_sha256": "cf3b57df841aebd6ae1a98948d366a24b9ce3441759ddb32c9e064267fa89b9f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/27_blur_fixed.png",
+      "published": "docs/assets/tutorial-originals/27_blur_fixed.webp",
+      "original_bytes": 1480189,
+      "published_bytes": 82184,
+      "original_sha256": "4dc98cb5c77c022fd1f929616707c251df90a0683e92ace34787b74cfd7f5125",
+      "published_sha256": "1734af69144414432cb8bb93c11f78f4ee3eb98f73bb4a83c63062c915a92ab1",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/28_left_wood.png",
+      "published": "docs/assets/tutorial-originals/28_left_wood.webp",
+      "original_bytes": 1379183,
+      "published_bytes": 82366,
+      "original_sha256": "fb0af7781f602032fc898524b893718ef9bed30a1f140db264a0bd506069806e",
+      "published_sha256": "2ba336398f19d66c19da14dca73ae9286783766ce5627fb87e9c2bdb99b4eafb",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e01_shift.png",
+      "published": "docs/assets/tutorial-originals/e01_shift.webp",
+      "original_bytes": 1412820,
+      "published_bytes": 83970,
+      "original_sha256": "675d67bb1d50b33f074322744499d9820ae15ffefc2d7faf1b261b274e464c09",
+      "published_sha256": "24b2dde56195400e5d5ae93664a860dff2735a06e0d8f368ba3a8ae5811a3837",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e02_aline.png",
+      "published": "docs/assets/tutorial-originals/e02_aline.webp",
+      "original_bytes": 1417542,
+      "published_bytes": 85428,
+      "original_sha256": "e9f19c052be7f064a56e07eef40434b05eccc0e7ba95903102754441111e3ead",
+      "published_sha256": "8cbbf21a89ae052e648fe8c031b12e11fde9bf6c3cf1c17335f05dd3bd0b607f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e03_short.png",
+      "published": "docs/assets/tutorial-originals/e03_short.webp",
+      "original_bytes": 1432610,
+      "published_bytes": 87270,
+      "original_sha256": "9072e1f44b31aa83c22f5486c879470a297eca23646d4fd971ddd2898f46cb92",
+      "published_sha256": "300fe36f4a72124fe60f36384f4f2b012e96a3613e22e10e4685518992be46c9",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e04_long.png",
+      "published": "docs/assets/tutorial-originals/e04_long.webp",
+      "original_bytes": 1420751,
+      "published_bytes": 83842,
+      "original_sha256": "cf4d50e0a7e24ab02f2eb27bfad640043cd836b6d201c3e2f7c54fee5502f932",
+      "published_sha256": "d2b380ad7e0a6d34003dbcb88ab5560285d2b9d9833ede25ba68b45246b01a9c",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e05_square.png",
+      "published": "docs/assets/tutorial-originals/e05_square.webp",
+      "original_bytes": 1519827,
+      "published_bytes": 87600,
+      "original_sha256": "01a9f4b097a64463f98748393f8243a4c623d6165a0c3e368f8148c9a248a2a5",
+      "published_sha256": "ca9da323063b928f288c7a61f308c9259404f7b24fb47d1e15f4b3253650b255",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e06_sleeves.png",
+      "published": "docs/assets/tutorial-originals/e06_sleeves.webp",
+      "original_bytes": 1455756,
+      "published_bytes": 73602,
+      "original_sha256": "e76598da1d08e7e41e9a9c08f6d98dd58ae11b4877c7c7719090672a2eaa6e1e",
+      "published_sha256": "e878bf25600b3185c5f70b799ed457ada6e0723925bdb41ece105524a5bac92a",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e07_backlace.png",
+      "published": "docs/assets/tutorial-originals/e07_backlace.webp",
+      "original_bytes": 1541165,
+      "published_bytes": 95656,
+      "original_sha256": "28a9a00352f819a884dc47461259352fd9e65437220dabfb95ffa41b8fcafcbb",
+      "published_sha256": "5748dfb77d237727fc64a98335183697f46206efffd4e7516108d0bc5f2604c9",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e08_sidewrap.png",
+      "published": "docs/assets/tutorial-originals/e08_sidewrap.webp",
+      "original_bytes": 1407501,
+      "published_bytes": 81050,
+      "original_sha256": "1c8d16592465dcd78cb344d395369dce9c499ceeca0ed0f20541b291bad55b4d",
+      "published_sha256": "4059bafae244754cd09c8df07f5ccb690e4e1d6065e6cfb206b1b33b7ef184c1",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e09_layeropen.png",
+      "published": "docs/assets/tutorial-originals/e09_layeropen.webp",
+      "original_bytes": 1448142,
+      "published_bytes": 89826,
+      "original_sha256": "637873929ab31ba8f5be8fae201e1c7bb3c8860d81a051c4d32d9ed954eed2cb",
+      "published_sha256": "3ee4cae6df691001e13acfbb5c67dc463b9801fced175cfcd1e69d773437dcde",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e10_layerclosed.png",
+      "published": "docs/assets/tutorial-originals/e10_layerclosed.webp",
+      "original_bytes": 1468560,
+      "published_bytes": 93096,
+      "original_sha256": "a40d94d5c529df1f3bcf03b0ae4e4779fd22ae02b1e5c3b7d78dbacedda13a26",
+      "published_sha256": "31d17c538b052d93daf049c7b3c58bd23ea10cc3efc5ade724f87f50c9d08c1f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e11_longseated.png",
+      "published": "docs/assets/tutorial-originals/e11_longseated.webp",
+      "original_bytes": 1504281,
+      "published_bytes": 100466,
+      "original_sha256": "7688982ece33ed2aa98ce18aa3433c0507e3d4c8b03f9af85a43d4a50287059a",
+      "published_sha256": "bb30025131ea4ca67270c23140def4de8cd45371e587dc94d51b1f53f99f12d6",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e12_head_down.png",
+      "published": "docs/assets/tutorial-originals/e12_head_down.webp",
+      "original_bytes": 1614727,
+      "published_bytes": 107192,
+      "original_sha256": "ea64602ef3fb2ffdb55170a3d87b985c54dfd1997df86713366e25a3fbd5e652",
+      "published_sha256": "e04ce5705bd344d2a651072e5a4dcd384ab16ac9410321b3e783a39d86e8a9c6",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e13_head_only.png",
+      "published": "docs/assets/tutorial-originals/e13_head_only.webp",
+      "original_bytes": 1413640,
+      "published_bytes": 81572,
+      "original_sha256": "1d5bde2a2df0e1a1f7bbd36ef20eda120038cbf41583e84edfbe17f3d3077cf6",
+      "published_sha256": "6fce163424f20119614dd1706bbc85db060efab4eb3ad4b5e34928098487f861",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e14_back_away.png",
+      "published": "docs/assets/tutorial-originals/e14_back_away.webp",
+      "original_bytes": 1446170,
+      "published_bytes": 89594,
+      "original_sha256": "a0c0393f2fd7168197d5e253acf3889f9c6947a4a2a87d2ad3d95c7bb029cb75",
+      "published_sha256": "9c7d371822e280539accd21ec0b2a89b87ad273c0dfaa4a7d09164ec4e3864c3",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e15_environment.png",
+      "published": "docs/assets/tutorial-originals/e15_environment.webp",
+      "original_bytes": 1415935,
+      "published_bytes": 82844,
+      "original_sha256": "a94d714f6416b9003696dc8a73fc7b4986ab2cee49c784a3297fd9c917de0217",
+      "published_sha256": "631f4fd3c407e21493b70b053037b1fdef39e4aa9baaa2daa78cda39e69414cc",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e16_doorframe.png",
+      "published": "docs/assets/tutorial-originals/e16_doorframe.webp",
+      "original_bytes": 1395722,
+      "published_bytes": 83708,
+      "original_sha256": "1196dbb72040de039d5f02bc53dc7d8602a560cd7cfcb944f59dc24f35df5b61",
+      "published_sha256": "cfbc095095d03f20b38ba6f412f42dae95bcde6799396da812dab1bc944dd35e",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e17_edge_seat.png",
+      "published": "docs/assets/tutorial-originals/e17_edge_seat.webp",
+      "original_bytes": 1520474,
+      "published_bytes": 103462,
+      "original_sha256": "fed35586fdcf30e6940456557b4e7f35f5069d48a7041f0d7ba60fc7686908fe",
+      "published_sha256": "230b0e777ab8472907074673d6ce0edb3aa253dce56a4ff618233e4d4adb876d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e18_recline.png",
+      "published": "docs/assets/tutorial-originals/e18_recline.webp",
+      "original_bytes": 1547529,
+      "published_bytes": 109652,
+      "original_sha256": "8c165e3cb38471fb7a9bbf4182d6349864f47b8ec1b0cddb3fa75cd479080ad7",
+      "published_sha256": "708a863c559dd416187a1cf1f81cc2ffe1593b455dc27b0d4cc53d9d8c209a6f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e19_weight.png",
+      "published": "docs/assets/tutorial-originals/e19_weight.webp",
+      "original_bytes": 1417269,
+      "published_bytes": 80392,
+      "original_sha256": "08cbeaf035c9d7260746d231076de0296139cc839207ce3ed847506883a8b283",
+      "published_sha256": "78a0dc245e88af4eb4904c582c453f9f01c8f83693c43b8c32a2abd0707967a2",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e20_smile.png",
+      "published": "docs/assets/tutorial-originals/e20_smile.webp",
+      "original_bytes": 1616970,
+      "published_bytes": 109122,
+      "original_sha256": "aa09cfddc939081becce8a0d76c02aec55fc47b58ed6c79216ba00b398198353",
+      "published_sha256": "f6f85e0835e28eb2df4434933c62a2975a66f6137fab2792dc241a5c3e3cf880",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e21_closedeyes.png",
+      "published": "docs/assets/tutorial-originals/e21_closedeyes.webp",
+      "original_bytes": 1599161,
+      "published_bytes": 102274,
+      "original_sha256": "48d8423cc8fdc912e763f8230c7157a65925f2b9839121aa59c4f4af16070e19",
+      "published_sha256": "7b682ed5598ba392c8222eaf64caeeab1675bcd5ac8cb8b367766d41c24003ee",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e22_mug.png",
+      "published": "docs/assets/tutorial-originals/e22_mug.webp",
+      "original_bytes": 1596689,
+      "published_bytes": 101230,
+      "original_sha256": "c315f1f3d4e33e87977964e0979e78dcd2b5ed41b4fa0be7900283b55416b8bf",
+      "published_sha256": "d610e236260b987a2462a23c10784475140e1b8af6087da402e820bb75d7d11f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e23_chairhand.png",
+      "published": "docs/assets/tutorial-originals/e23_chairhand.webp",
+      "original_bytes": 1488867,
+      "published_bytes": 96596,
+      "original_sha256": "67b797b0e6d66e6660bcc9389296e01737fb94aac13927cce8a88fff156bca94",
+      "published_sha256": "21e9e9006f1b9edbd649299018e2a69399dcd6be19c5dba607a92df465afdf5e",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e24_rightlight.png",
+      "published": "docs/assets/tutorial-originals/e24_rightlight.webp",
+      "original_bytes": 1584111,
+      "published_bytes": 101508,
+      "original_sha256": "77c81d927fc83c726cbfef4cd60be283f948b86fd31fee58aba2b83c3f6fdb45",
+      "published_sha256": "507aa9e41d3e138e25c675c03f8a8a1e003d34681f46fd3a04797e66827cdf71",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e25_backlight.png",
+      "published": "docs/assets/tutorial-originals/e25_backlight.webp",
+      "original_bytes": 1653019,
+      "published_bytes": 118248,
+      "original_sha256": "f915075be171887746f3daa857ba8b9c4a1459e7fb741d842c8922196660e2e0",
+      "published_sha256": "ed9c5e27381429015576e7f0aca2cd1902d408543492c82f382f7057761b7e0d",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e26_focus_person.png",
+      "published": "docs/assets/tutorial-originals/e26_focus_person.webp",
+      "original_bytes": 1512116,
+      "published_bytes": 98074,
+      "original_sha256": "87ebfe4b125f2f8a8e26ec03b4a45b011b1e1d0a669a8814f88c6b63659e4747",
+      "published_sha256": "e26353331991ab04630986ad8a841a9a682546720b270a5092c67bf6f84d160c",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e27_focus_flowers.png",
+      "published": "docs/assets/tutorial-originals/e27_focus_flowers.webp",
+      "original_bytes": 1517783,
+      "published_bytes": 104246,
+      "original_sha256": "48415e0a1f658980eeb7e627af652ee8f81dcaceaed02a77af2ae0a5b6f0c787",
+      "published_sha256": "967d6e4e2edc057c096b724028c8a619747bad6a9a2fa42a169bda56505c1534",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e28_expressions_grid.png",
+      "published": "docs/assets/tutorial-originals/e28_expressions_grid.webp",
+      "original_bytes": 3133997,
+      "published_bytes": 230468,
+      "original_sha256": "8be06a249f1608c364d36da80abda20e20ab78a113bbdfeed6e8cb026abb6fb3",
+      "published_sha256": "b15bd3955655a649fb117b5470c9b59342921f61605e69266695e3b5463d7ac2",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e29_head_down_fixed.png",
+      "published": "docs/assets/tutorial-originals/e29_head_down_fixed.webp",
+      "original_bytes": 1673211,
+      "published_bytes": 115734,
+      "original_sha256": "5b0dd066fbf8e23a925511ed52f6fb40a395b7f18dd74d23e4c5306f932ef3e6",
+      "published_sha256": "d02c022fd54827772aa389c69e610da3252a39d0916c92320e7f72b60c32653f",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e30_back_away_fixed.png",
+      "published": "docs/assets/tutorial-originals/e30_back_away_fixed.webp",
+      "original_bytes": 1457783,
+      "published_bytes": 90652,
+      "original_sha256": "3d0d9276019853b0af427e90a4c45cd903fbecbe85efcaf1081e1926a6664a43",
+      "published_sha256": "56dd240cadc55e8f2d419387db1a9f54da112dc2743c875426143d64292f9455",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e31_longsleeves_fixed.png",
+      "published": "docs/assets/tutorial-originals/e31_longsleeves_fixed.webp",
+      "original_bytes": 1346041,
+      "published_bytes": 61658,
+      "original_sha256": "a3510ab915f997e01fa4f3f926b31acac715307651d121c4d44ee356510ab7e9",
+      "published_sha256": "18df813ca1bb914ae28a380d23b4578a3de3866a3f05e0b57a0d7f335bc7a361",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e32_focus_flowers_fixed.png",
+      "published": "docs/assets/tutorial-originals/e32_focus_flowers_fixed.webp",
+      "original_bytes": 1487462,
+      "published_bytes": 107028,
+      "original_sha256": "0046b5bda25809a705cb61cd5e8d71b3d9f8f547861766b1044b7cae783ca5cb",
+      "published_sha256": "6768272b0a968b0085c1057542a81937e68a6690ae13f317ccf9159bf8d96171",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e33_environment_fixed.png",
+      "published": "docs/assets/tutorial-originals/e33_environment_fixed.webp",
+      "original_bytes": 1618241,
+      "published_bytes": 140412,
+      "original_sha256": "df4fbfc4d3513bba0a54309a163a1c28369be381d814b6fedd7e132e86768b2a",
+      "published_sha256": "fdcfc4a41a5ea33cc5aa1004885ad78381368dcaaa1c99a6f93928a16d126c62",
+      "lossless": false,
+      "dimensions_unchanged": true
+    },
+    {
+      "source": "work/article-tutorial/images/e34_mug_fixed.png",
+      "published": "docs/assets/tutorial-originals/e34_mug_fixed.webp",
+      "original_bytes": 1578479,
+      "published_bytes": 104118,
+      "original_sha256": "7e375408567ee1997618f88fe1395ca28c1eef676896c38d63681fcfbc88673d",
+      "published_sha256": "8cf04ffe18b6c41feb559400681b980c7865a3d6d7042c454f95ee651ace5108",
+      "lossless": false,
+      "dimensions_unchanged": true
+    }
+  ]
+}

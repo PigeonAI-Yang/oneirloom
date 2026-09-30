@@ -1,0 +1,4 @@
+interface:
+  display_name: "织梦师 · Oneirloom"
+  short_description: "Visual prompts, references, and character wardrobe sheets"
+  default_prompt: "Use $oneirloom (Oneirloom) to turn my visual idea or reference into a complete image prompt."

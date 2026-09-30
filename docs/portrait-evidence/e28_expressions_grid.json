@@ -1,0 +1,352 @@
+{
+  "job": {
+    "id": "e28_expressions_grid",
+    "prompt": "一张2列2行的四宫格近距离人像，四格等大，细白线分隔，每格从头顶到胸口下方，脸的大小接近。一位25岁的东亚成年女性，鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。四格都是同一位成年女性，相同半扎发与黑色发带、相同黑色细肩带缎面衣料和蕾丝领口，背景都是米色卧室墙面与模糊棕色房门，左侧柔和日光一致。左上：头部正面，目光看镜头，嘴唇轻闭，平静表情。右上：头部正面，目光看镜头，脸颊抬起，嘴角上扬露少量牙齿，自然微笑。左下：头部正面，双眼垂下看衣领，嘴唇轻闭。右下：头向画面左侧转约四分之一圈，眼睛看向画外左侧，表情放松。四格脸型、发型与服装一致，表情或朝向各自有清楚区别。写实摄影。",
+    "seed": 2026092807,
+    "edition": "expanded",
+    "aspect_ratio": "1:1 (Square)",
+    "megapixels": 2.0
+  },
+  "prompt_id": "ce4bb0a2-1f1f-43e0-a935-3be20fb684b4",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "一张2列2行的四宫格近距离人像，四格等大，细白线分隔，每格从头顶到胸口下方，脸的大小接近。一位25岁的东亚成年女性，鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。四格都是同一位成年女性，相同半扎发与黑色发带、相同黑色细肩带缎面衣料和蕾丝领口，背景都是米色卧室墙面与模糊棕色房门，左侧柔和日光一致。左上：头部正面，目光看镜头，嘴唇轻闭，平静表情。右上：头部正面，目光看镜头，脸颊抬起，嘴角上扬露少量牙齿，自然微笑。左下：头部正面，双眼垂下看衣领，嘴唇轻闭。右下：头向画面左侧转约四分之一圈，眼睛看向画外左侧，表情放松。四格脸型、发型与服装一致，表情或朝向各自有清楚区别。写实摄影。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/e28_expressions_grid",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "1:1 (Square)",
+        "megapixels": 2.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790557170.0462675,
+  "completed": true,
+  "history": {
+    "prompt": [
+      137,
+      "ce4bb0a2-1f1f-43e0-a935-3be20fb684b4",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "一张2列2行的四宫格近距离人像，四格等大，细白线分隔，每格从头顶到胸口下方，脸的大小接近。一位25岁的东亚成年女性，鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。四格都是同一位成年女性，相同半扎发与黑色发带、相同黑色细肩带缎面衣料和蕾丝领口，背景都是米色卧室墙面与模糊棕色房门，左侧柔和日光一致。左上：头部正面，目光看镜头，嘴唇轻闭，平静表情。右上：头部正面，目光看镜头，脸颊抬起，嘴角上扬露少量牙齿，自然微笑。左下：头部正面，双眼垂下看衣领，嘴唇轻闭。右下：头向画面左侧转约四分之一圈，眼睛看向画外左侧，表情放松。四格脸型、发型与服装一致，表情或朝向各自有清楚区别。写实摄影。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/e28_expressions_grid",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "1:1 (Square)",
+            "megapixels": 2.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "e28_expressions_grid",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790557170045
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "e28_expressions_grid_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "ce4bb0a2-1f1f-43e0-a935-3be20fb684b4",
+            "timestamp": 1790557170047
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6"
+            ],
+            "prompt_id": "ce4bb0a2-1f1f-43e0-a935-3be20fb684b4",
+            "timestamp": 1790557170048
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "ce4bb0a2-1f1f-43e0-a935-3be20fb684b4",
+            "timestamp": 1790557212316
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\e28_expressions_grid_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\e28_expressions_grid.png",
+  "elapsed_seconds": 45.03,
+  "published_image": "docs/assets/tutorial-originals/e28_expressions_grid.webp",
+  "published_sha256": "b15bd3955655a649fb117b5470c9b59342921f61605e69266695e3b5463d7ac2",
+  "publication_encoding": "WebP quality 87; original dimensions preserved. Historical source paths describe the author workspace."
+}

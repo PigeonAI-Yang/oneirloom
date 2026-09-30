@@ -1,0 +1,350 @@
+{
+  "job": {
+    "id": "e34_mug_fixed",
+    "prompt": "竖幅腰部以上照片，完整展示双臂与手。一位25岁成年女性坐在家中卧室，栗棕色长发、黑色蝴蝶结、黑色细肩带缎面裙，微笑看向镜头。一个白色陶瓷杯竖直放在她左手向上摊平的手掌上，左掌是水平托盘，杯底压在掌心，左手指朝侧方伸展，位于杯子下方；右手从侧面握住杯把，稳定杯子。左手在下、右手在侧，两手呈上下错开的关系。杯子位于胸口下方，全部杯底和托底手掌可见。背景右侧床铺、左侧电视柜、木地板，左侧柔和窗光，写实摄影。",
+    "seed": 2026092807,
+    "edition": "expanded"
+  },
+  "prompt_id": "6f353a99-0d0b-4330-9139-cc49c6880f12",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "竖幅腰部以上照片，完整展示双臂与手。一位25岁成年女性坐在家中卧室，栗棕色长发、黑色蝴蝶结、黑色细肩带缎面裙，微笑看向镜头。一个白色陶瓷杯竖直放在她左手向上摊平的手掌上，左掌是水平托盘，杯底压在掌心，左手指朝侧方伸展，位于杯子下方；右手从侧面握住杯把，稳定杯子。左手在下、右手在侧，两手呈上下错开的关系。杯子位于胸口下方，全部杯底和托底手掌可见。背景右侧床铺、左侧电视柜、木地板，左侧柔和窗光，写实摄影。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/e34_mug_fixed",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "3:4 (Portrait Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790557470.094225,
+  "completed": true,
+  "history": {
+    "prompt": [
+      143,
+      "6f353a99-0d0b-4330-9139-cc49c6880f12",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "竖幅腰部以上照片，完整展示双臂与手。一位25岁成年女性坐在家中卧室，栗棕色长发、黑色蝴蝶结、黑色细肩带缎面裙，微笑看向镜头。一个白色陶瓷杯竖直放在她左手向上摊平的手掌上，左掌是水平托盘，杯底压在掌心，左手指朝侧方伸展，位于杯子下方；右手从侧面握住杯把，稳定杯子。左手在下、右手在侧，两手呈上下错开的关系。杯子位于胸口下方，全部杯底和托底手掌可见。背景右侧床铺、左侧电视柜、木地板，左侧柔和窗光，写实摄影。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/e34_mug_fixed",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "3:4 (Portrait Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "e34_mug_fixed",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790557470093
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "e34_mug_fixed_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "6f353a99-0d0b-4330-9139-cc49c6880f12",
+            "timestamp": 1790557470095
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6"
+            ],
+            "prompt_id": "6f353a99-0d0b-4330-9139-cc49c6880f12",
+            "timestamp": 1790557470095
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "6f353a99-0d0b-4330-9139-cc49c6880f12",
+            "timestamp": 1790557490981
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\e34_mug_fixed_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\e34_mug_fixed.png",
+  "elapsed_seconds": 25.02,
+  "published_image": "docs/assets/tutorial-originals/e34_mug_fixed.webp",
+  "published_sha256": "8cf04ffe18b6c41feb559400681b980c7865a3d6d7042c454f95ee651ace5108",
+  "publication_encoding": "WebP quality 87; original dimensions preserved. Historical source paths describe the author workspace."
+}

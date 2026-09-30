@@ -1,0 +1,33 @@
+{
+  "kind": "generated",
+  "role": "user-supplied fuse-bead conversion result",
+  "image": "images/result-01.webp",
+  "image_sha256": "70b13d0c310b79fd34ea0dce640619736201c0613e232725b2e10c39c15decc2",
+  "input_image": "images/source-01.webp",
+  "source": "User explicitly identified image 1 as the original and image 2 as the fuse-bead result.",
+  "original_filename": "codex-clipboard-97dbc3b8-da96-4f3c-a999-b3dc3009bdb6.png",
+  "prompt": null,
+  "prompt_status": "not_provided",
+  "accepted_template": "template.md; delivered Chinese and English prompt blocks, exact submitted variant unknown",
+  "model": "unknown",
+  "entry": "unknown",
+  "settings": {},
+  "verification": {
+    "status": "source_and_result_inspected",
+    "observations": "The left-facing three-quarter head view, dark hair, ear accessory, and dark shirt remain recognizable in the paired result. The head and upper torso become a cream-bordered bead piece on ivory, with visible central holes, sidewalls, and cast shadows.",
+    "deviations": "Skin is warmer and more saturated; facial and accessory details are simplified. Some bead shapes and spacing vary.",
+    "limitations": "Existing user-supplied result inspected. Exact submitted prompt and runtime settings are unknown. No new generation, repeatability test, exact identity verification, or physical bead-count validation."
+  },
+  "user_feedback": {
+    "status": "positive",
+    "quote": "效果还不错.可以纳入模板了"
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+      "pixel_values_preserved": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "generated",
+  "image": "images/result-01.webp",
+  "image_sha256": "82d100ba3cdd648f833b96a3b6434fadb30cddfea15e2e66450a5f56ce9b7c47",
+  "source": {
+    "type": "user_attachment",
+    "filename": "codex-clipboard-4576380b-32c6-4188-952a-a75b14d319f2.png"
+  },
+  "processing": "Original PNG copied byte-for-byte; no crop, resize, or retouching.",
+  "prompt": null,
+  "prompt_status": "not_provided",
+  "model": "unknown; not provided",
+  "entry": "unknown; not provided",
+  "settings": {},
+  "delivered_prompt": {
+    "file": "delivered-prompt-01-zh.txt",
+    "status": "Delivered in this chat; actual submitted prompt and reference input use were not confirmed."
+  },
+  "verification": {
+    "status": "inspected_with_deviations",
+    "inspected_on": "2026-09-30",
+    "observations": "Realistic full-length outfit photography, a larger signature figure, identity rail, palette, accessories, details, swatches, and a bottom portrait row are visible.",
+    "deviations": [
+      "Left small turnaround repeats front-facing views and does not contain a clear left-side full-body view.",
+      "Several bottom portraits repeat the signature shirt rather than matching the casual, athletic, and evening outfits.",
+      "The lounge portrait neckline differs from the corresponding full-body camisole."
+    ],
+    "limitations": "User-provided single output. Actual model, entry, submitted prompt, seed, settings, and repeatability are unknown. The reusable scaffold has not been generation-tested.",
+    "user_selection": "User explicitly requested collecting this wardrobe case as a skill template."
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "fdc97fdce0772aa4cd2303d07da6d43fc28bff45d185aa14be759dffaa817b86",
+      "pixel_values_preserved": true
+    }
+  ]
+}

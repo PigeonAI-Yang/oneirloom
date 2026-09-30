@@ -1,0 +1,63 @@
+{
+  "kind": "reference_and_delivered_prompt",
+  "collected_on": "2026-09-30",
+  "reference": {
+    "role": "User-provided source photograph for composition, clothes and room, before requested body-proportion changes",
+    "image": "images/reference-01.webp",
+    "original_filename": "codex-clipboard-da87fd94-394b-4bd0-b50b-5f7b71a9c48e.png",
+    "image_sha256": "fd9c1f348d3ce9cd12ee2839a7acf77488bb15829b3f803b41fbab347bf50e56",
+    "processing": "None; original bytes copied unchanged",
+    "verification": {
+      "status": "reference_inspected",
+      "inspected_on": "2026-09-30",
+      "observations": "Vertical full-length hotel mirror selfie; camera covers central face; dark brown wavy hair, loose greige coat with long hanging belt ends, sheer black tights and black patent pointed-toe pumps. Honey-colored wood wall dominates; bed and bedside cabinet appear on image left under warm lighting. The revised thick-thigh and straight-leg targets are user-requested changes, not measurements of this reference."
+    }
+  },
+  "delivered_prompts": {
+    "zh": "delivered-prompt-01-zh.txt",
+    "en": "delivered-prompt-01-en.txt",
+    "status": "Exact complete revised prompt blocks delivered in this chat; actual submission not verified"
+  },
+  "user_requested_targets": [
+    "Moderately full thighs, slightly slimmer than the earlier 2:1 target, with gentle contours and natural middle-thigh volume",
+    "Slender calves and ankles",
+    "Long straight parallel legs with fully extended forward-facing knees"
+  ],
+  "preset": {
+    "thigh_to_calf_width_ratio": "Approximately 1.8:1 in frontal projection",
+    "lower_body_height_share": "Approximately 60 percent",
+    "scope": "Current slightly slimmer thigh preset requested by the user; untested after refinement; explicit future user choices override it"
+  },
+  "result": {
+    "image": null,
+    "model": null,
+    "entry": null,
+    "submitted_prompt": null,
+    "submitted_language": null,
+    "settings": null,
+    "verification": {
+      "status": "user_reported_success_output_unavailable",
+      "user_feedback_on": "2026-09-30",
+      "user_feedback": "效果不错，收录起来，这个算是一种自拍模板",
+      "observations": "User accepted the effect after receiving the strengthened second revision and requested storage as a selfie template.",
+      "limitations": "No generated result image was supplied or inspected. Actual model, entry, submitted prompt and settings are unknown. The adjustable scaffold has not been generation-tested; repeatability is unverified. No new generation during collection."
+    }
+  },
+  "current_prompts": {
+    "zh": "current-prompt-02-zh.txt",
+    "en": "current-prompt-02-en.txt",
+    "revised_on": "2026-09-30",
+    "status": "User-requested prompt refinement; not generation-tested",
+    "prior_prompt": "delivered_prompts",
+    "user_feedback": "刚刚那个模板的提示词，大腿用力过猛了，适当瘦一点点就刚刚好了",
+    "changes": "Reduced the frontal thigh-to-calf prompt target from approximately 2:1 to 1.8:1 and softened thigh-volume wording. All other prompt paragraphs and leg-length and straightness instructions remain unchanged."
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "3329138426dd62be0df43b10bb70c12d8af4c2ca5d4c2d3ec53ceb4394ff19b4",
+      "pixel_values_preserved": true
+    }
+  ]
+}

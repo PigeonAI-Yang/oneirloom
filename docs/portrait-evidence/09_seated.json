@@ -1,0 +1,351 @@
+{
+  "job": {
+    "id": "09_seated",
+    "prompt": "竖幅全身人像，从头顶到鞋底完整入画，脚下有一小段木地板，头顶留少量空间。人物位于画面正中央，占画面高度约八成。相机位于人物胸部高度，朝向基本水平，人物上下比例自然。\n家中卧室内部，浅米色墙壁，蜂蜜棕木地板，画面右侧是一张铺奶油白床品的床，左侧是低矮木质电视柜和黑色电视，房间远端中央是一扇关闭的深棕色室内门。人物站在床与电视柜之间的木地板过道上，地板线条伸向远处房门。\n一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色长发微卷，半扎发以一只黑色缎带蝴蝶结固定，脸颊两侧留少量碎发。自然淡妆，柔和粉色唇，真实皮肤纹理。\n穿黑色细肩带缎面及膝连衣裙，领口有细窄花卉蕾丝，腰部合身，裙摆轻微散开，布料呈柔和流动高光，穿简洁黑色平底鞋。\n人物坐在过道中一把奶油色布艺扶手椅上，臀部落在椅面，背部自然直立，双膝弯曲并拢朝画面右侧，双脚鞋底接触木地板，双手并列轻放在膝盖上，脸转向镜头。椅面、椅背和四条椅腿清楚可见。\n柔和日光从画面左侧窗户照进房间，脸部左侧明亮，右侧留有轻微阴影。肤色自然暖亮，黑裙保持深黑层次，白床品保持乳白色，木地板色泽温暖。\n写实生活人像摄影，人物五官、头发和衣料细节清楚，家具背景保留清楚可辨的轮廓。",
+    "seed": 2026092807
+  },
+  "prompt_id": "e5f251f8-d781-4f91-9533-9bdeb01fd3a4",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "竖幅全身人像，从头顶到鞋底完整入画，脚下有一小段木地板，头顶留少量空间。人物位于画面正中央，占画面高度约八成。相机位于人物胸部高度，朝向基本水平，人物上下比例自然。\n家中卧室内部，浅米色墙壁，蜂蜜棕木地板，画面右侧是一张铺奶油白床品的床，左侧是低矮木质电视柜和黑色电视，房间远端中央是一扇关闭的深棕色室内门。人物站在床与电视柜之间的木地板过道上，地板线条伸向远处房门。\n一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色长发微卷，半扎发以一只黑色缎带蝴蝶结固定，脸颊两侧留少量碎发。自然淡妆，柔和粉色唇，真实皮肤纹理。\n穿黑色细肩带缎面及膝连衣裙，领口有细窄花卉蕾丝，腰部合身，裙摆轻微散开，布料呈柔和流动高光，穿简洁黑色平底鞋。\n人物坐在过道中一把奶油色布艺扶手椅上，臀部落在椅面，背部自然直立，双膝弯曲并拢朝画面右侧，双脚鞋底接触木地板，双手并列轻放在膝盖上，脸转向镜头。椅面、椅背和四条椅腿清楚可见。\n柔和日光从画面左侧窗户照进房间，脸部左侧明亮，右侧留有轻微阴影。肤色自然暖亮，黑裙保持深黑层次，白床品保持乳白色，木地板色泽温暖。\n写实生活人像摄影，人物五官、头发和衣料细节清楚，家具背景保留清楚可辨的轮廓。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/09_seated",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "3:4 (Portrait Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790554036.5430255,
+  "completed": true,
+  "history": {
+    "prompt": [
+      89,
+      "e5f251f8-d781-4f91-9533-9bdeb01fd3a4",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "竖幅全身人像，从头顶到鞋底完整入画，脚下有一小段木地板，头顶留少量空间。人物位于画面正中央，占画面高度约八成。相机位于人物胸部高度，朝向基本水平，人物上下比例自然。\n家中卧室内部，浅米色墙壁，蜂蜜棕木地板，画面右侧是一张铺奶油白床品的床，左侧是低矮木质电视柜和黑色电视，房间远端中央是一扇关闭的深棕色室内门。人物站在床与电视柜之间的木地板过道上，地板线条伸向远处房门。\n一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色长发微卷，半扎发以一只黑色缎带蝴蝶结固定，脸颊两侧留少量碎发。自然淡妆，柔和粉色唇，真实皮肤纹理。\n穿黑色细肩带缎面及膝连衣裙，领口有细窄花卉蕾丝，腰部合身，裙摆轻微散开，布料呈柔和流动高光，穿简洁黑色平底鞋。\n人物坐在过道中一把奶油色布艺扶手椅上，臀部落在椅面，背部自然直立，双膝弯曲并拢朝画面右侧，双脚鞋底接触木地板，双手并列轻放在膝盖上，脸转向镜头。椅面、椅背和四条椅腿清楚可见。\n柔和日光从画面左侧窗户照进房间，脸部左侧明亮，右侧留有轻微阴影。肤色自然暖亮，黑裙保持深黑层次，白床品保持乳白色，木地板色泽温暖。\n写实生活人像摄影，人物五官、头发和衣料细节清楚，家具背景保留清楚可辨的轮廓。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/09_seated",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "3:4 (Portrait Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "09_seated",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790554036542
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "09_seated_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "e5f251f8-d781-4f91-9533-9bdeb01fd3a4",
+            "timestamp": 1790554036544
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6",
+              "8",
+              "17"
+            ],
+            "prompt_id": "e5f251f8-d781-4f91-9533-9bdeb01fd3a4",
+            "timestamp": 1790554036545
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "e5f251f8-d781-4f91-9533-9bdeb01fd3a4",
+            "timestamp": 1790554053839
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\09_seated_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\09_seated.png",
+  "elapsed_seconds": 20.01,
+  "published_image": "docs/assets/tutorial-originals/09_seated.webp",
+  "published_sha256": "5b3451624ca5b389c650de65c25b74bedbe47cd5e068487fdcf757febba86660",
+  "publication_encoding": "WebP quality 87; original dimensions preserved. Historical source paths describe the author workspace."
+}

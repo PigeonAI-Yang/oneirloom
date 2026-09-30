@@ -1,0 +1,22 @@
+[
+  {
+    "file": "user-guide.txt",
+    "source_url": "https://www.krea.ai/docs/user-guide/features/krea-2.md",
+    "resolved_url": "https://www.krea.ai/docs/user-guide/features/krea-2.md",
+    "retrieved_date": "2026-09-30",
+    "timezone": "Asia/Shanghai",
+    "bytes": 9691,
+    "content_type": "text/markdown; charset=utf-8",
+    "sha256": "1dc1c0332e2d715e291c07f38f7dfb94c89c72a12038bb45cd5ea4d2e957cce9"
+  },
+  {
+    "file": "api-overview.txt",
+    "source_url": "https://www.krea.ai/docs/developers/krea-2/overview.md",
+    "resolved_url": "https://www.krea.ai/docs/developers/krea-2/overview.md",
+    "retrieved_date": "2026-09-30",
+    "timezone": "Asia/Shanghai",
+    "bytes": 17328,
+    "content_type": "text/markdown; charset=utf-8",
+    "sha256": "152cf46fb2913af8c555d137b56fbb95d7dbcaeacb401463725ce9bbf9333d2c"
+  }
+]

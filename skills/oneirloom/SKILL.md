@@ -1,38 +1,47 @@
 ---
 name: oneirloom
-description: 将图像生成或编辑需求、参考图、抽象审美与生成偏差转成模型适配的可直接使用提示词。用于文生图、参考图反推、图生图、跨模型迁移和结果修正；按需路由镜头、光色、表现形式、Krea 2、Qwen-Image-2.1 等子技能。
+description: "Oneirloom (织梦师), also called 织梦师Skill or Oneirloom Skill. Turn visual requests, references, and generation misses into complete image prompts, route illustrated tutorial writing, or package an image and prompt into a 3:4 card. Select relevant method skills and their concrete templates."
 ---
 
 # Oneirloom
 
-## 执行顺序
+Oneirloom is the public name of this skill collection. Treat "织梦师", "织梦师Skill", "Oneirloom", and "Oneirloom Skill" as names for this main skill when the user requests visual prompting or its other supported work. The main technical invocation is `$oneirloom`. Method skills use the `oneirloom-` namespace.
 
-1. 继承当前会话中已经确认的模型、入口、语言、参考图用途、成功部分与输出偏好。缺失信息不影响自然语言提示词时直接继续；只有关键输入会改变任务路径时才问一个问题。
-2. 判断任务：新建、参考图可见特征复现、已有图编辑、结果诊断或跨模型迁移。反推只重建可见关系，不声称找回原始提示词。有生成结果时区分实际生成模型／入口与当前期望的目标模型：前者用于诊断样本，后者用于组织修改后的提示词；任一项未知则保留未知，不凭单次结果断言模型特性。
-3. 内部建立最多 3–5 个成功锚点，标记主体、空间／遮挡、区域光色、表现形式、必须保留内容。每个锚点要能从生成图中检验。
-4. 按下表选择必要子技能。通过运行环境提供的技能目录按精确 `name` 找到并读取其 `SKILL.md`；若目录不可搜索，在本仓库从本文件相邻路径读取 `../<name>/SKILL.md`。链接本身不自动执行。未找到时说明未加载该专门规则，仍用通用流程完成任务。
-5. 先用视觉分支形成画面规范，再用模型分支检查入口和输出方式；参数与参考通道放在提示词之外。多模型共享同一视觉意图，不为了制造差别而改写画面。
-6. 输出每个明确请求模型一份完整提示词。默认中文、正向表述、不附负面提示词、不在正文混入“不要／避免／not ...”等排除句。只有用户明确要求才提供解释、备选、负面词或额外格式。
+## Workflow
 
-## 路由表
+1. Inherit the user's confirmed model, entry, reference roles, successful details, and output preferences. Identify the deliverable: new image prompt, reference reconstruction, edit, character sheet, result diagnosis, cross-model adaptation, tutorial, or image-and-prompt card. Ask only when a missing input changes the task path; an unknown entry need not block portable text.
+2. Select the required method skills below. For reference reconstruction, always load `oneirloom-visual-analysis` and its reconstruction workflow before drafting. Add camera/composition for visible pose or framing, and color/light for decisive colors, transparent fabrics, or illumination. Resolve each exact skill name through the host catalog; the repository fallback is `../<name>/SKILL.md`. Read the file explicitly: a Markdown link does not invoke a skill. If a branch is unavailable, report that limitation and continue the reachable general work.
+3. Form one internal visual specification from user intent and visible evidence. For a creative ad based on a supplied product image, use `oneirloom-product-art-direction` to inspect the product and choose a product-specific concept before selecting a style or template. Treat a named template as a visual intention to adapt to the inspected item. Lead with 3–5 checkable anchors, while retaining all required reference relations. The owning method skill selects a matching template through its local index; no match means composing from the method. User choices and confirmed reference relations override template defaults. Example-image subjects and props are not implicit requirements.
+4. Apply the requested model adapter after the visual specification. Read its task-specific writing guidance and relevant local official sources. When a requested version or task is undocumented, check primary official documentation and save the relevant text with its source, retrieval date, revision when available, and hash under that adapter's references. Keep source snapshots separate from local interpretation. An unavailable source blocks only the unsupported model claim. Keep model controls and reference-image inputs outside the prompt. For diagnosis, distinguish the model/entry that produced the sample from the desired target model. Unknown facts stay unknown; one result does not establish a model rule. Multiple requested models share the same visual intent.
+5. Integrate one complete prompt per required language and model. State decisive spatial, scale, and occlusion relations first; mention supporting details once. Audit both directions: all required relations survive, and every visual claim comes from visible evidence, user intent, or an applicable default. For person prompts, including new images and grid panels, read [person defaults and proportions](references/person-prompts.md).
 
-| 条件 | 读取子技能 |
+## Method routing
+
+| Condition | Read |
 | --- | --- |
-| 参考图、含糊审美或元素关系难辨 | `oneirloom-visual-analysis` |
-| 机位、景别、焦段感、透视、裁切、遮挡关键 | `oneirloom-camera-composition` |
-| 色相、冷暖、明暗、光线与氛围关键 | `oneirloom-color-light` |
-| 摄影或电影剧照 | `oneirloom-style-photography` |
-| 绘画、漫画、动画、水彩或概念艺术 | `oneirloom-style-illustration` |
-| 海报、文字版式、产品图或三维渲染 | `oneirloom-style-design` |
-| 指定 Krea 2 | `oneirloom-model-krea-2` |
-| 指定 Qwen-Image-2.1 | `oneirloom-model-qwen-image-2-1` |
-| 已有输出跑偏、只修局部或迭代 | `oneirloom-result-diagnosis` |
+| Combine an existing image and prompt into a shareable card, including a 3:4 vertical layout | `oneirloom-prompt-card` first; its artifact contract replaces the standalone prompt format. The cropped image fills the upper third and the prompt occupies the lower two thirds. |
+| Write, expand, or polish an illustrated image-generation tutorial | `oneirloom-image-tutorial` first; its requested article language and format replace the standalone prompt format |
+| Creative advertisement or story scene based on a supplied product image | `oneirloom-product-art-direction` first; inspect the item and choose its visual concept before selecting a medium or recipe |
+| Character sheet, wardrobe sheet, identity continuity, or character card, including 4+4 and three-view layouts | `oneirloom-character-sheet`; add `oneirloom-visual-analysis` for references |
+| Reference reconstruction, unclear visible relations, or an abstract aesthetic | `oneirloom-visual-analysis` |
+| Viewpoint, perspective, crop, scale, or occlusion matters | `oneirloom-camera-composition` |
+| Regional color, light direction, value, or atmosphere matters | `oneirloom-color-light` |
+| Photography, film stills, or lifestyle portraits, including crouching selfies | `oneirloom-style-photography` |
+| Drawing, painting, print illustration, or halftone paper-cut collage | `oneirloom-style-illustration` |
+| Posters, text layout, products, packaging, or 3D rendering | `oneirloom-style-design` |
+| Clearly adult non-explicit figure art or requested concealment | `oneirloom-figure-art`, alongside the relevant medium and spatial methods |
+| Krea 2 requested | `oneirloom-model-krea-2` |
+| Qwen-Image-2.1 requested | `oneirloom-model-qwen-image-2-1` |
+| An existing result misses the goal or needs a local correction | `oneirloom-result-diagnosis` |
 
-一般只加载相关分支：一项任务类型 + 一个表现形式 + 一个模型；镜头与光色在重要时附加。未知模型保留视觉规范并核实官方入口，不推测专用语法。
+Load only relevant methods, normally one primary medium and the explicitly requested model adapters. Camera, lighting, and analysis are conditional additions. Tutorials reuse existing evidence for prose-only edits and load visual methods only for examples that need them. Unknown models use portable visual language until their actual capabilities are established.
 
-## 输出契约
+For a card made from an existing image and prompt, follow `oneirloom-prompt-card` without redrafting the prompt or invoking a generation model. Its 3:4 card canvas is separate from any generation aspect ratio written in the prompt.
 
-- 先给可复制的完整提示词。画幅、种子、参考图、编辑蒙版等仅在入口已确认且用户需要时另列字段。
-- 把强约束写成目标画面关系，例如“肩膀贴近下巴并遮住部分颈部”；把色彩写到区域，例如“天空浅雾蓝、云层杏桃、肤色暖粉”。
-- 编辑时写“目标变化 + 必须保持的画面”，保持可操作的正向陈述。修正只改变一个主要维度，交付整合后的完整新提示词。
-- 不虚构镜头毫米数、拍摄参数、模型能力或命中率。若无生成图可检验，称为待实测。
+## Output contract
+
+- For each explicitly requested model, or one portable version when unspecified, give a complete Chinese prompt followed by its semantically equivalent English counterpart. Follow an explicit single-language request instead. Preserve all visual details across languages.
+- Put each complete prompt in its own copyable block. Keep titles, numbering, language labels, explanations, reference inputs, masks, seeds, and other entry controls outside. Include controls only when confirmed and useful.
+- Use affirmative, observable image states. Before delivery, scan every prompt sentence and rewrite prohibitions or exclusions as positive visual relations. Preserve literal in-image text. Supply separate negative prompts, alternatives, explanations, or additional formats only when requested.
+- For edits, describe the target change and the relations that must remain. For corrections, change the requested main dimension where possible and return the complete revised prompt.
+- Do not invent original prompts, camera specifications, model capabilities, or success rates. A prompt without an inspected generated result is untested. A stored example demonstrates its recorded prompt and settings, not a subsequently edited template.

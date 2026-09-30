@@ -1,0 +1,20 @@
+{
+  "kind": "reference",
+  "role": "original content image for result-01",
+  "image": "images/source-01.webp",
+  "image_sha256": "00df33b13aa9ed48e7591f3850ccf407d7e6a7dc7ff4612fe7157967900b52d1",
+  "source": "User attachment; user identified the photograph as their own.",
+  "original_filename": "8a992fce-7184-47c0-b610-6a192d90d46c.png",
+  "verification": {
+    "status": "reference_inspected",
+    "observations": "Three-quarter portrait facing image left, dark swept hair, an ear accessory, and a dark shirt against a neutral background."
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+      "pixel_values_preserved": true
+    }
+  ]
+}

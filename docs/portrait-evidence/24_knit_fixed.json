@@ -1,0 +1,352 @@
+{
+  "job": {
+    "id": "24_knit_fixed",
+    "prompt": "写实近距离上半身人像，画框下缘紧贴人物腰线，头顶接近画框上缘，头、双肩和腰部填满竖幅画面，人物身体的腰线以下处于画框外。相机与双眼同高，正面水平拍摄。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带粗针织衣料，领口细窄蕾丝，腰部合身，黑色线圈和纵向罗纹清楚，布料表面哑光。肩膀放松，头部朝向正前方，目光直视镜头，嘴唇轻闭。背景是卧室浅米色墙壁，左侧边缘可见一部分电视柜，右侧边缘可见一部分白床品，较远处有深棕色房门局部，家具轮廓仍可辨认。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。",
+    "seed": 2026092807,
+    "revision": "After inspecting initial crop and viewpoint misses"
+  },
+  "prompt_id": "adeadd91-698c-4c57-a62b-89dbaa47a95b",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "写实近距离上半身人像，画框下缘紧贴人物腰线，头顶接近画框上缘，头、双肩和腰部填满竖幅画面，人物身体的腰线以下处于画框外。相机与双眼同高，正面水平拍摄。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带粗针织衣料，领口细窄蕾丝，腰部合身，黑色线圈和纵向罗纹清楚，布料表面哑光。肩膀放松，头部朝向正前方，目光直视镜头，嘴唇轻闭。背景是卧室浅米色墙壁，左侧边缘可见一部分电视柜，右侧边缘可见一部分白床品，较远处有深棕色房门局部，家具轮廓仍可辨认。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/24_knit_fixed",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "3:4 (Portrait Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790554452.6561172,
+  "completed": true,
+  "history": {
+    "prompt": [
+      104,
+      "adeadd91-698c-4c57-a62b-89dbaa47a95b",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "写实近距离上半身人像，画框下缘紧贴人物腰线，头顶接近画框上缘，头、双肩和腰部填满竖幅画面，人物身体的腰线以下处于画框外。相机与双眼同高，正面水平拍摄。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带粗针织衣料，领口细窄蕾丝，腰部合身，黑色线圈和纵向罗纹清楚，布料表面哑光。肩膀放松，头部朝向正前方，目光直视镜头，嘴唇轻闭。背景是卧室浅米色墙壁，左侧边缘可见一部分电视柜，右侧边缘可见一部分白床品，较远处有深棕色房门局部，家具轮廓仍可辨认。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/24_knit_fixed",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "3:4 (Portrait Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "24_knit_fixed",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790554452655
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "24_knit_fixed_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "adeadd91-698c-4c57-a62b-89dbaa47a95b",
+            "timestamp": 1790554452657
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6",
+              "8",
+              "17"
+            ],
+            "prompt_id": "adeadd91-698c-4c57-a62b-89dbaa47a95b",
+            "timestamp": 1790554452658
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "adeadd91-698c-4c57-a62b-89dbaa47a95b",
+            "timestamp": 1790554476535
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\24_knit_fixed_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\24_knit_fixed.png",
+  "elapsed_seconds": 25.02,
+  "published_image": "docs/assets/tutorial-originals/24_knit_fixed.webp",
+  "published_sha256": "b9ff739faf028f5736ba96017d6d5b97a796dc140b4639b55634cec618e045c6",
+  "publication_encoding": "WebP quality 87; original dimensions preserved. Historical source paths describe the author workspace."
+}

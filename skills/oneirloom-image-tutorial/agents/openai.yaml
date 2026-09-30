@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Tutorial Writer"
+  short_description: "Write clear image tutorials with inspected visual examples"
+  default_prompt: "Use $oneirloom-image-tutorial to write or improve an illustrated image-generation tutorial in the author's voice."

@@ -1,0 +1,52 @@
+{
+  "case_id": "takeaway-food-town",
+  "acceptance": {
+    "status": "user_accepted_single_result",
+    "quote": "这是最终效果。我认为可以。",
+    "date": "2026-09-28",
+    "scope": "Acceptance of this source/result pairing only; not repeatability or exact item-count fidelity."
+  },
+  "source_image": {
+    "role": "original product photo",
+    "original_path": "J:\\资料归档\\D盘\\Downloads\\exec-9ad67da7-b6e3-4ddf-b551-0ca5df66f4d8.png",
+    "artifact_path": "images/source.webp",
+    "format": "PNG",
+    "width_px": 1254,
+    "height_px": 1254,
+    "bytes": 2423675,
+    "sha256": "1c23ad9eca26daa148b0a3bb1dd03d854d59e23b9f1c7b501e1fa3073789c8ec",
+    "copy_hash_matches_original": true
+  },
+  "accepted_result": {
+    "role": "user-supplied final image",
+    "original_path": "J:\\Users\\yangda01\\Temp\\codex-clipboard-33fea9a9-cea9-4f4d-8673-0c88ae65f49f.png",
+    "artifact_path": "images/accepted.webp",
+    "format": "PNG",
+    "width_px": 768,
+    "height_px": 1376,
+    "bytes": 2522472,
+    "sha256": "4b065b4870ca1f0533556e53644320e13f31c1b0b3720ab76974c14b5cdeaa62",
+    "copy_hash_matches_original": true
+  },
+  "production_record": {
+    "proposed_prompt_path": "prompt.zh.txt",
+    "proposed_prompt_role": "Preceding assistant-proposed Chinese prompt preserved from this conversation; actual submitted language and edits unknown.",
+    "exact_submitted_prompt_captured": false,
+    "model_captured": false,
+    "generation_settings_captured": false
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607",
+      "pixel_values_preserved": true
+    },
+    {
+      "image": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "c0bed162a70ed3a0279ba486b4b2a216f4c44a6459a7504305262ab620ab30ae",
+      "pixel_values_preserved": true
+    }
+  ]
+}

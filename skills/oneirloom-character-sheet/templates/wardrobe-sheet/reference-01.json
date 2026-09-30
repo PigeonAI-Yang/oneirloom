@@ -1,0 +1,23 @@
+{
+  "kind": "reference",
+  "image": "images/reference-01.webp",
+  "image_sha256": "c79d5d331d0d568e7c4aa6ad54fbb62a7825f0481ad765ce6d351903790da6a9",
+  "source": {
+    "type": "user_attachment",
+    "filename": "codex-clipboard-e409fd14-6f8b-4b0a-9f28-368903634eda.png"
+  },
+  "processing": "Original PNG copied byte-for-byte; no crop, resize, or retouching.",
+  "verification": {
+    "status": "inspected",
+    "inspected_on": "2026-09-30",
+    "observations": "Illustrated six-look wardrobe page with a large signature figure, left identity/palette/turnaround rail, accessory flat lays, clothing details, material samples, and six corresponding costume portraits."
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "eb49ce0f6b9cdf7fc4b57ffc9c65d4eca7487da237dd4a341373318e888b78c8",
+      "pixel_values_preserved": true
+    }
+  ]
+}

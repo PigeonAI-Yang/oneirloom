@@ -1,0 +1,37 @@
+{
+  "kind": "reference",
+  "role": "user-provided photoreal dessert flowing into illustrated landscape reference",
+  "image": "images/reference-01.webp",
+  "image_sha256": "19d62f7d7a450bf919ac7803c52fceafd291793ab2141b1e7c4d5f0835c01cde",
+  "source": "User-provided reference image, copied unchanged after acceptance for the dessert-storybook-flow template.",
+  "original_filename": "codex-clipboard-da11e226-7e74-4c8c-a6e7-c858b72bc55e.png",
+  "prompt": null,
+  "prompt_status": "exact_submitted_prompt_unknown; reconstructed_scaffold_not_submitted",
+  "model": "unknown",
+  "entry": "unknown",
+  "settings": {},
+  "image_properties": {
+    "width": 675,
+    "height": 900,
+    "observed_aspect_ratio": "3:4"
+  },
+  "accepted_template": "template.md; generalized from the inspected reference, not the exact submitted prompt",
+  "verification": {
+    "status": "user_provided_reference_inspected",
+    "inspected_on": "2026-09-28",
+    "observations": "Warm sunlight falls across a photoreal plate of thick toast with vanilla ice cream, chocolate drizzle, berries, and oats, beside an iced latte. Melting ice cream and chocolate visibly cross the plate rim and continue as pale and dark S-curving streams with small falls. The lower scene gradually becomes an ink-and-watercolor landscape with rocks, plants, oversized berries, oat stepping stones, and two tiny backpack travelers. Three handwritten lines read 'A little / sweetness / goes a long way' above a gently rising curved underline.",
+    "limitations": "The original source, model, entry, generation settings, and exact submitted prompt are unknown. The reconstructed scaffold was not submitted or generated, so no generation outcome or repeatability is established."
+  },
+  "user_feedback": {
+    "status": "accepted_for_template",
+    "quote": "可以，这也可以纳入模板了"
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "4a3b0c86a3429c777febf60130473d7480b9d7a5ff85d7b6a05a1744c39a3435",
+      "pixel_values_preserved": true
+    }
+  ]
+}

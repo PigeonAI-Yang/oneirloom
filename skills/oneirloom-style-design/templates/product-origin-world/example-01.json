@@ -1,0 +1,37 @@
+{
+  "kind": "accepted_example",
+  "role": "user-supplied result associated with the exact product poster prompt",
+  "image": "images/example-01.webp",
+  "source": "User-supplied result image associated with the exact prompt; copied unchanged.",
+  "original_filename": "codex-clipboard-c18f6eb5-ea12-40e0-9ad0-5a68dafa431c.png",
+  "image_sha256": "0c63357eb5dcc741d2368fdead1c2a4e630d0fb6d86d1b23f4b2d72f930e4359",
+  "prompt": "prompt.zh.txt",
+  "prompt_status": "exact_user_supplied_prompt_preserved",
+  "model": "unknown",
+  "entry": "unknown",
+  "settings": {},
+  "image_properties": {
+    "width": 1248,
+    "height": 1664,
+    "observed_aspect_ratio": "3:4"
+  },
+  "accepted_template": "Product-origin world poster; generalized from the accepted example, not a claim of repeatability.",
+  "verification": {
+    "status": "user_supplied_result_inspected",
+    "inspected_on": "2026-09-28",
+    "observations": "A central wrapped chocolate bar and cacao-colored package sit above a sharply defined wooden table edge. Glossy chocolate falls from the edge and continues as an S-shaped river through a miniature ink-and-watercolor cacao estate on warm ivory paper. The wrapper visibly reads IBERCACAO. The lower-right copy reads 'From cocoa' and 'to wonder.' on two lines. The photograph shows two full exposed rows of chocolate pieces and an additional area partly hidden by the gold foil, so the prompt's two-row description may not fully match the visible product.",
+    "limitations": "The exact supplied prompt is preserved, but the model, generation entry, seed, and settings are unknown. The generalized scaffold has not been generated or tested for repeatability; one accepted result does not establish a universal outcome."
+  },
+  "user_feedback": {
+    "status": "accepted_for_template",
+    "quote": "这套的效果也可以，可以纳入模板之一了"
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "81219b00a9fbaded674c77161b3f7b69a624e7548ced5012a691750890080734",
+      "pixel_values_preserved": true
+    }
+  ]
+}

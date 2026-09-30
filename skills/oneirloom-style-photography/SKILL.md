@@ -1,12 +1,16 @@
 ---
 name: oneirloom-style-photography
-description: 为写实摄影、胶片人像、时尚抓拍、产品摄影和电影剧照组织图像生成提示词。聚焦场景、动作、光线、成像纹理与真实的镜头关系。
+description: Compose realistic photography, lifestyle and fashion portraits, product photographs, and film-still prompts. Select indexed scene templates for requests such as crouching selfies or indoor full-length portraits.
 ---
 
-# 摄影表现
+# Photography
 
-按主体及动作 → 相机与空间 → 光色 → 可见材质与成像质感写。指定的是画面效果，不是假设真实器材。电影感要拆成叙事情境、取景、光线和色彩选择；时尚抓拍要写正在发生的动作与自然表情，不自动套硬光或高反差。
+For photographic prompts, organize the description around the subject and action, camera and spatial relationships, light and color, then visible materials and imaging texture. For realistic or reference-based images, ground details in the brief: describe relevant objects, viewpoint and occlusion, the subject's action and contact with nearby objects, and garment drape or tension only when supported. Match depth of field and background clarity to the reference or intended photograph rather than adding generic blur. Describe coherent lighting through supported source direction, relative key and fill, and a few decisive highlights and shadows across the subject and surroundings. Describe the visual result rather than assumed equipment. Break cinematic style into narrative context, framing, light, and color. Use candid action and expression only when the brief calls for a candid image, and keep stage posing as posed.
 
-人像控制脸、肩、肢体和背景的相对位置；产品摄影优先保持完整轮廓、真实材质和标识可读。胶片质感可用柔和高光、颗粒、微弱色偏等可见效果，每项都应服务目标。不要将所有摄影任务套上浅景深、胶片、8K 或复杂器材词。
+For portraits, control the relative positions of the face, shoulders, limbs, and background. For products, prioritize complete silhouettes, credible materials, and readable marks. Express film texture through useful visible effects such as soft highlights, grain, or a subtle color cast. Do not impose shallow depth of field, film treatment, resolution claims, or camera gear on every request.
 
-按具体任务读取 [摄影风格表](references/styles.md)，只选择一个主风格，再补用户明确要求的混合特征。
+For lifestyle and beauty selfies, default to loose, environment-dominant framing that keeps the setting recognizable around the subject. Follow a close-up or tight crop only when the user asks for it or the reference requires it.
+
+Read the [photography styles](references/styles.md) for medium choices. Choose one primary style and add explicitly requested mixed features.
+
+For a concrete reusable scene or pose, read the [template index](templates/index.md), then only the matching template. Keep the template's defining visual relations and replace its adjustable details from the brief. When none fits, compose from the method above. Example images illustrate their recorded prompts; inspect them before making visual claims, and use them as generation inputs only when that reference role is requested.

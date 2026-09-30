@@ -1,0 +1,20 @@
+[
+  {
+    "file": "pe-t2i-system-prompt.txt",
+    "source_url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-T2I/resolve/f3ed7985c788ad75b3ab7223e0c4c51e2a43545b/system_prompt.txt",
+    "revision": "f3ed7985c788ad75b3ab7223e0c4c51e2a43545b",
+    "retrieved_date": "2026-09-30",
+    "timezone": "Asia/Shanghai",
+    "bytes": 10045,
+    "sha256": "a77c9a06c59b120741141d9514b95682bb8761d02bec49ca61def7b2b3d9fb99"
+  },
+  {
+    "file": "pe-i2i-system-prompt.txt",
+    "source_url": "https://huggingface.co/Qwen/Qwen-Image-2.1-PE-I2I/resolve/72927bc08afc99b7888ceb7d7d51a12db3700bbd/system_prompt.txt",
+    "revision": "72927bc08afc99b7888ceb7d7d51a12db3700bbd",
+    "retrieved_date": "2026-09-30",
+    "timezone": "Asia/Shanghai",
+    "bytes": 18344,
+    "sha256": "e378fea686a1431581ba4c654d332ae96adad633f144ae738ec8ce9c4fd66439"
+  }
+]

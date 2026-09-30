@@ -1,0 +1,46 @@
+{
+  "kind": "generated",
+  "role": "User-accepted atmospheric zhiguai illustration example",
+  "image": "images/example-01.webp",
+  "image_sha256": "b955f997d2c2964f9f47dd745c1694ffcc1f693d72955140f5da99b697d34584",
+  "source": "User-provided image, copied unchanged after acceptance for the zhiguai style template.",
+  "original_filename": "codex-clipboard-1ee147b1-3597-4eb9-acc5-b8b1d6457c4b.png",
+  "prompt": null,
+  "prompt_status": "exact_submitted_prompt_unknown",
+  "model": "unknown",
+  "entry": "unknown",
+  "settings": {},
+  "prior_direction": {
+    "requested_aspect_ratio": "landscape 16:9",
+    "other_details": [
+      "fox-shaped shadow",
+      "upward-falling petals"
+    ],
+    "exact_submitted_prompt_available": false
+  },
+  "image_properties": {
+    "width": 1248,
+    "height": 1664,
+    "observed_aspect_ratio": "3:4"
+  },
+  "accepted_template": "zhiguai-narrative/template.md; reusable scaffold generalized from the inspected image, not the exact submitted prompt",
+  "verification": {
+    "status": "user_accepted_image_inspected",
+    "inspected_on": "2026-09-28",
+    "observations": "A large dark gnarled flowering tree frames the upper-left and left side. Two adult figures sit together in the lower-left foreground: a fox-eared woman in muted rose and ivory fabric leans toward an adult scholar and touches his chin, with a long rose streamer crossing the foreground. A book rests on a rock. Charcoal blue-gray mountain forms recede through mist beneath a pale dusty moon, with tiny cyan lights along the distant path and village. The image has a textured aged-paper appearance, subdued colors, and a quiet uncanny atmosphere.",
+    "unverified_prior_details": "The earlier 16:9 direction, fox-shaped shadow, and upward-falling petals are not clearly verified by the final still image.",
+    "limitations": "The exact submitted prompt, model, entry, and generation settings are unknown. The scaffold has not been generated or repeatability-tested. The example supports the accepted atmosphere, not a universal model or generation claim."
+  },
+  "user_feedback": {
+    "status": "accepted",
+    "quote": "可以纳入志怪风模板了"
+  },
+  "publication_encoding": [
+    {
+      "image": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp",
+      "format": "lossless WebP",
+      "original_png_sha256": "d5877fafe7cab1c2d090fbfc34ab567efbf5ea5accf29710ac9396f2560c0977",
+      "pixel_values_preserved": true
+    }
+  ]
+}

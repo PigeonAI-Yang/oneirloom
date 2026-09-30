@@ -1,0 +1,33 @@
+# Xiaohongshu crouching selfie
+
+## Selection
+
+Use this template for a requested Xiaohongshu-style crouching beauty or lifestyle selfie. Preserve the user's explicit subject, age, ethnicity, styling, and reference details. If age is unspecified, depict a clearly adult 25-year-old woman; if ethnicity is unspecified, default to Chinese. Keep these defaults scoped to this template; they do not establish general subject defaults for other image requests.
+
+## Visual anchors
+
+Describe attractiveness with concrete photographic cues: refined, balanced facial features, healthy natural skin texture, soft flattering light, and a relaxed expression. Keep the face unobstructed, clearly visible, naturally proportioned, and in sharp focus.
+
+For the requested crouching pose, make a genuine deep squat visible before adding any leg-length styling. Bend both knees deeply and fold both legs beneath the body, bringing the hips low near the heels with natural clearance. Set the feet slightly wider than hip-width with toes turned out naturally and knees tracking over the toes; lean the torso moderately forward for balance. Keep the full soles on the floor, with both heels, balls of the feet, and toes visibly in contact. Let the exact pelvis depth follow anatomically comfortable balance while keeping the hips low near the heels; heel contact takes priority over any fixed below-knee target. Do not force the pelvis onto the heels or depict an upright bent-knee stance, a half squat, a standing pose with one hip raised, or a lunge with one leg straight.
+
+Turn the torso and hips to a three-quarter side/rear view and turn the face back toward the lens. Let the near-side hip sit subtly closer to the mirror than the torso, showing a partial, softly rising side and upper buttock contour while the pelvis stays low. Keep this angle suggestive rather than a direct rear view or an exaggerated back arch; leave both folded leg contours visible below the hip. Keep both legs deeply bent in the squat, with neither leg extended into a lunge. Give the thighs and shins long, slender fashion-model proportions so their length remains visible even while folded. Separate the two leg shapes with a modest outward knee angle, keeping the hip-to-knee and knee-to-ankle contours of each leg readable; avoid overlapping the legs or bunching them into one compact shape. A slight front-to-back foot stagger is optional only when both soles remain flat. Keep the squat balanced.
+
+Emphasize a long, fashion-model leg-to-torso ratio through elongated thighs and shins, a compact torso, and a high waistline. Use a slightly low mirror viewpoint with a mild upward angle and enough distance for natural perspective. Angle the mirror view from the side or three-quarter side so both foot profiles and heel-to-floor contact points read clearly. Keep the entire crouching silhouette about 45% of the total output image height, positioned in the lower middle: place the head around 45–50% down from the top and the feet near 90%. Show recognizable surroundings above and on both sides of the subject, with floor visible below the feet. Keep both bent legs and both feet fully inside the frame. Use a close-up or tight crop only when the user explicitly asks for it or the reference requires it.
+
+Use a polished but spontaneous social-media lifestyle-photo feel: natural light, an ordinary street or casual daily setting, and relaxed details that feel captured in the moment. Keep the styling adult and fashion-oriented, with realistic anatomy and proportions. Follow the main skill's output contract and use any requested model branch separately.
+
+For this style, default to bare feet when the user does not specify footwear. Show both feet naturally grounded and fully visible in the mirror portrait; preserve requested shoes or socks when explicitly specified.
+
+## Adjustable slots
+
+Fill subject, outfit, setting, footwear, expression, and light from the request or visible references. For an unspecified mirror scene, choose a plausible everyday mirror location. Bare feet, the adult subject defaults, and the long-leg styling are scoped defaults, not facts inferred from a reference. Preserve an explicit body build. Resolve all slots and deliver the languages required by the router; the scaffold below is not a historical run prompt.
+
+## Prompt scaffold
+
+```text
+Vertical Xiaohongshu lifestyle mirror selfie in {an everyday setting with a mirror}. Place the whole crouching silhouette in the lower middle of an environment-dominant composition, about 45% of the total image height, with the head around 45–50% down from the top and the feet near 90%. Leave recognizable surroundings above and on both sides of the subject, with floor visible below the feet. {A clearly adult woman's appearance and identity details, defaulting to age 25 when unspecified and Chinese ethnicity when ethnicity is unspecified} wears {outfit} and {footwear, defaulting to bare feet when unspecified}. The person holds a deep full-sole squat with both knees deeply bent and both legs folded beneath the body, hips low near the heels with natural clearance. Keep the feet slightly wider than hip-width apart with toes turned out naturally and knees tracking over the toes; lean the torso moderately forward for balance. Let the pelvis settle at a naturally balanced low depth near the heels while both full soles stay flat. Show both heels, balls of the feet, and toes resting on the floor, with both heel-floor contacts visible in the side or three-quarter mirror view. Turn the torso and pelvis to a three-quarter side/rear view while the face looks back toward the lens, with clear features and a {expression}. Let the near-side hip sit slightly closer to the mirror than the torso, with a softly rising side and upper-buttock contour. Let the knees open modestly outward so both folded leg contours remain clear; use a slight front-to-back foot stagger only if both soles stay flat. {Use the user's body-proportion choices, or default to long thighs and shins, a compact torso, and a high waistline}. Use a slightly low mirror viewpoint with a mild upward angle and enough distance for natural perspective. {Natural light direction and regional light and shadow}. Keep the face in clear focus, skin texture natural, clothing realistic, and the image spontaneous and relaxed like a lifestyle photograph.
+```
+
+## Examples
+
+No corresponding reference or generated image is associated with this migrated template. The scaffold has not been generation-tested. Add an actual image and its exact submitted prompt together when evidence becomes available.

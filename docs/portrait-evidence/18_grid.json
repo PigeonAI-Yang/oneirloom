@@ -1,0 +1,351 @@
+{
+  "job": {
+    "id": "18_grid",
+    "prompt": "一张竖向9:16的写实人像四宫格拼图，2列2行，四格等大，中间细白线分隔。\n四格属于同一位25岁东亚成年女性在同一间暖色卧室拍摄的一组写真。她有鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆。四格均穿同一件黑色细肩带缎面及膝连衣裙，领口细窄花卉蕾丝，腰部合身，裙摆轻微散开。\n卧室里有奶油白床铺、奶油色布艺扶手椅、蜂蜜棕木地板、浅米色墙面、深棕色窗帘、木质床头柜、暖光台灯、鲜花和一只浅棕色泰迪熊。四格都在这间房内，暖色灯光一致。\n左上格：坐在床沿，正面朝向镜头，一手撑在床面，另一手轻触耳旁头发，双膝朝画面右侧，取景从头顶到小腿。\n右上格：站在床边，背部四分之三朝向镜头，头向右肩转回看镜头，双臂自然下垂，取景从头顶到膝下。\n左下格：坐在奶油色扶手椅内，双腿交叠，双手轻放在上方膝盖，肩膀放松，取景完整容纳头部、椅子和双脚。\n右下格：侧身站在贴有小照片的墙边，后肩轻靠墙面，头转向镜头，一只手轻扶墙，另一只手自然下垂，取景从头顶到小腿。\n四格面容、发型、衣服和房间布景一致，坐床、背身回头、坐椅、靠墙四种姿势清楚区分。真实肤质、清楚缎面质感，家具背景可辨，照片自然细腻。",
+    "seed": 2026092807,
+    "aspect_ratio": "9:16 (Portrait Widescreen)",
+    "megapixels": 2.0
+  },
+  "prompt_id": "65b0c44b-2e30-468c-87ff-94aaf1a72d8c",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "一张竖向9:16的写实人像四宫格拼图，2列2行，四格等大，中间细白线分隔。\n四格属于同一位25岁东亚成年女性在同一间暖色卧室拍摄的一组写真。她有鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆。四格均穿同一件黑色细肩带缎面及膝连衣裙，领口细窄花卉蕾丝，腰部合身，裙摆轻微散开。\n卧室里有奶油白床铺、奶油色布艺扶手椅、蜂蜜棕木地板、浅米色墙面、深棕色窗帘、木质床头柜、暖光台灯、鲜花和一只浅棕色泰迪熊。四格都在这间房内，暖色灯光一致。\n左上格：坐在床沿，正面朝向镜头，一手撑在床面，另一手轻触耳旁头发，双膝朝画面右侧，取景从头顶到小腿。\n右上格：站在床边，背部四分之三朝向镜头，头向右肩转回看镜头，双臂自然下垂，取景从头顶到膝下。\n左下格：坐在奶油色扶手椅内，双腿交叠，双手轻放在上方膝盖，肩膀放松，取景完整容纳头部、椅子和双脚。\n右下格：侧身站在贴有小照片的墙边，后肩轻靠墙面，头转向镜头，一只手轻扶墙，另一只手自然下垂，取景从头顶到小腿。\n四格面容、发型、衣服和房间布景一致，坐床、背身回头、坐椅、靠墙四种姿势清楚区分。真实肤质、清楚缎面质感，家具背景可辨，照片自然细腻。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/18_grid",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "9:16 (Portrait Widescreen)",
+        "megapixels": 2.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790554231.9446783,
+  "completed": true,
+  "history": {
+    "prompt": [
+      98,
+      "65b0c44b-2e30-468c-87ff-94aaf1a72d8c",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "一张竖向9:16的写实人像四宫格拼图，2列2行，四格等大，中间细白线分隔。\n四格属于同一位25岁东亚成年女性在同一间暖色卧室拍摄的一组写真。她有鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆。四格均穿同一件黑色细肩带缎面及膝连衣裙，领口细窄花卉蕾丝，腰部合身，裙摆轻微散开。\n卧室里有奶油白床铺、奶油色布艺扶手椅、蜂蜜棕木地板、浅米色墙面、深棕色窗帘、木质床头柜、暖光台灯、鲜花和一只浅棕色泰迪熊。四格都在这间房内，暖色灯光一致。\n左上格：坐在床沿，正面朝向镜头，一手撑在床面，另一手轻触耳旁头发，双膝朝画面右侧，取景从头顶到小腿。\n右上格：站在床边，背部四分之三朝向镜头，头向右肩转回看镜头，双臂自然下垂，取景从头顶到膝下。\n左下格：坐在奶油色扶手椅内，双腿交叠，双手轻放在上方膝盖，肩膀放松，取景完整容纳头部、椅子和双脚。\n右下格：侧身站在贴有小照片的墙边，后肩轻靠墙面，头转向镜头，一只手轻扶墙，另一只手自然下垂，取景从头顶到小腿。\n四格面容、发型、衣服和房间布景一致，坐床、背身回头、坐椅、靠墙四种姿势清楚区分。真实肤质、清楚缎面质感，家具背景可辨，照片自然细腻。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/18_grid",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "9:16 (Portrait Widescreen)",
+            "megapixels": 2.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "18_grid",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790554231944
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "18_grid_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "65b0c44b-2e30-468c-87ff-94aaf1a72d8c",
+            "timestamp": 1790554231945
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6"
+            ],
+            "prompt_id": "65b0c44b-2e30-468c-87ff-94aaf1a72d8c",
+            "timestamp": 1790554231946
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "65b0c44b-2e30-468c-87ff-94aaf1a72d8c",
+            "timestamp": 1790554278111
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\18_grid_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\18_grid.png",
+  "elapsed_seconds": 50.03,
+  "published_image": "docs/assets/tutorial-originals/18_grid.webp",
+  "published_sha256": "d031019409ebfc5116ddb8bd309c53c7dd5af2168253c4e01b85a82dda640c1a",
+  "publication_encoding": "WebP quality 87; original dimensions preserved. Historical source paths describe the author workspace."
+}
