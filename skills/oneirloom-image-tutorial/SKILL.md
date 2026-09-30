@@ -7,6 +7,11 @@ description: Write, expand, or polish illustrated image-generation tutorials wit
 
 Produce a tutorial the author can teach from and the reader can follow. The deliverable is an article with explanatory images, not a list of prompt keywords or a production report.
 
+## When to use
+
+- Write, expand, or polish an illustrated image-generation tutorial: a new teaching article, section-by-section expansion, or copy editing
+- Not for a standalone image prompt or reference-image reconstruction; those stay with the main skill and `oneirloom-visual-analysis`
+
 ## Start from the current article
 
 - Inherit the intended readers, language, author voice, subject, image tool, existing files, and accepted revisions. For this collection, default to natural Chinese in the author's first-person voice unless the user chooses otherwise. Keep instruction files in English.

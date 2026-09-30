@@ -3,17 +3,38 @@ name: oneirloom-color-light
 description: 把色彩、明度、对比、光向、材质受光和空气感转成区域明确的图像提示词。用于修正偏灰、偏冷、过曝、光色错位或“鲜活梦幻”等抽象氛围。
 ---
 
-# 色彩与光线
+# Color and light
+
+把色彩、明度、对比、光向、材质受光和空气感转成区域明确的提示词语言。本技能是判断规则库，不是时序流程：按下面的清单检查，反推场景的证据细则在 references。
+
+## When to use
+
+- 修正偏灰、偏冷、过曝、光色错位等具体光色问题
+- 把“鲜活”“梦幻”等抽象氛围转成光色机制
+- 反推或修正任务中的区域色彩对照、材质基色判定、人像光向推断（配合 `oneirloom-visual-analysis` 的 reconstruction workflow 使用）
+- 透明/透光面料的色彩记录
+
+## Regional color method
 
 1. 分区域标注主体、背景、天空、云、暗部和高光。分别描述色相、明度、饱和度；整图一个“低饱和”标签会抹平冷暖关系。
 2. 明确光源方向、软硬、环境补光、阴影深浅、色彩反射和材质响应。`柔光`控制边缘，`亮`控制明度，`发光`可来自局部晕染；三者不可互换。
 3. 将氛围和色彩机制分开。“鲜活”可通过区域色相区分、暖色中间调、动作与表情建立；“梦幻”也可在深色场景中由发光体和空间层次产生。
 4. 描述暗部支点与亮部过渡。例如黑发保持深色体积，皮肤中间调暖亮，云层亮处呈奶油杏桃色。避免全局调色命令与矛盾的明暗要求。
 
-最小修正：当天空、肤色一起偏青时，只改区域色彩句，固定人物、构图、服装与裁切；下一轮检验区域是否分开。
+## Minimal correction
 
-For reference reconstruction and color correction, compare the source and result by large visual regions. Distinguish a material's underlying base hue from its visible color under the scene's illumination. Match the observed colors of skin, light fabrics, colored surfaces, and shadows; preserve the material's identity without restoring its neutral-light appearance. A cool or warm overall impression is not an instruction to tint every region. When color alone misses, revise regional color wording while preserving the matched pose, wardrobe, objects, and framing.
+当天空、肤色一起偏青时，只改区域色彩句，固定人物、构图、服装与裁切；下一轮检验区域是否分开。
 
-For transparent fabric, record base color, transparency, transmitted underlying color, and reflected light separately. Check available shadows, folds, edges, and overlaps before naming the base color from a bright area. When the user confirms highly sheer black hosiery, retain black as its material identity and describe the skin showing through under the observed light. Do not replace it with white, nude, or opaque black fabric. Keep weave, sheen, and damage distinct; a narrow highlight alone does not prove laddering or a tear. If a decisive base color remains uncertain, say so or ask a narrow question rather than asserting a new garment color.
+## Reconstruction evidence checks
 
-For portrait reference reconstruction, infer the dominant light direction and elevation from visible evidence. Compare lit planes with cast shadows, preserve the observed key/fill relationship, and compare subject exposure with the nearby background. If the user specifies an overhead stage key, keep it dominant without naming an unsupported fixture; do not replace broad colored illumination shown in the source with neutral frontal fill or uniform warm skin. Distinguish a material's base hue from its apparent color under light, and broad colored illumination from a rim highlight. Use regional color notes to inspect the source and result, then condense them into a few supported prompt cues for light direction, relative key/fill, exposure, and decisive highlights and shadows across the subject and surroundings. Retain distinctive source colors and user-requested hues, including regional color when supported. Do not turn every region into an independent color instruction or add unexplained patches. If a result looks separately lit, check frontal brightness, key/fill balance, colored illumination, and background exposure before adding rim light.
+反推与修正场景的三项证据检查。摘要如下，完整规则见 [references/evidence-checks.md](references/evidence-checks.md)：
+
+- **区域对照**：按大面积视觉区域对比源图与结果；区分材质基色与受光下的表现色；整体冷暖印象不是全区域调色指令。
+- **透明面料**：分开记录基色、透明度、透出底色与反光；亮区表现不足以判定基色；高透黑色保持黑色材质身份，不替换为白、裸色或不透明黑。
+- **人像光向**：从受光面与投影推断主光方向与高度；保持观察到的主辅光关系；区分材质基色与照明色、大面有色照明与轮廓高光。
+
+## Output and handoff
+
+交付区域明确的光色句，融入主技能的完整提示词；控件与参考图输入不写进提示词正文。
+
+区域色彩句连续两轮修正仍混色或偏色时，转入 `oneirloom-result-diagnosis` 检查模型、参考通道与画幅，不继续叠加同义色彩词。

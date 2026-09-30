@@ -1,0 +1,15 @@
+# Color and light evidence checks
+
+Reference-reconstruction and color-correction checks for `oneirloom-color-light`. In a reconstruction task these run alongside the [`oneirloom-visual-analysis` reconstruction workflow](../../oneirloom-visual-analysis/references/reconstruction-workflow.md), step 2 (Color and material row) and step 6. The sheer-fabric identity rules below and in that workflow come from the same case; the workflow is the authoritative phrasing inside the reconstruction procedure, and this file carries the color-method perspective.
+
+## Compare by large regions
+
+For reference reconstruction and color correction, compare the source and result by large visual regions. Distinguish a material's underlying base hue from its visible color under the scene's illumination. Match the observed colors of skin, light fabrics, colored surfaces, and shadows; preserve the material's identity without restoring its neutral-light appearance. A cool or warm overall impression is not an instruction to tint every region. When color alone misses, revise regional color wording while preserving the matched pose, wardrobe, objects, and framing.
+
+## Transparent fabric
+
+For transparent fabric, record base color, transparency, transmitted underlying color, and reflected light separately. Check available shadows, folds, edges, and overlaps before naming the base color from a bright area. When the user confirms highly sheer black hosiery, retain black as its material identity and describe the skin showing through under the observed light. Do not replace it with white, nude, or opaque black fabric. Keep weave, sheen, and damage distinct; a narrow highlight alone does not prove laddering or a tear. If a decisive base color remains uncertain, say so or ask a narrow question rather than asserting a new garment color.
+
+## Portrait light direction
+
+For portrait reference reconstruction, infer the dominant light direction and elevation from visible evidence. Compare lit planes with cast shadows, preserve the observed key/fill relationship, and compare subject exposure with the nearby background. If the user specifies an overhead stage key, keep it dominant without naming an unsupported fixture; do not replace broad colored illumination shown in the source with neutral frontal fill or uniform warm skin. Distinguish a material's base hue from its apparent color under light, and broad colored illumination from a rim highlight. Use regional color notes to inspect the source and result, then condense them into a few supported prompt cues for light direction, relative key/fill, exposure, and decisive highlights and shadows across the subject and surroundings. Retain distinctive source colors and user-requested hues, including regional color when supported. Do not turn every region into an independent color instruction or add unexplained patches. If a result looks separately lit, check frontal brightness, key/fill balance, colored illumination, and background exposure before adding rim light.

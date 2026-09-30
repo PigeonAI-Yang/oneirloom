@@ -3,17 +3,52 @@ name: oneirloom-visual-analysis
 description: 拆解参考图或模糊视觉需求，提取可检验的主体、空间、区域色彩和媒介锚点。用于参考图反推、图像复现、跨模型迁移与将“梦幻”“高级”等抽象词转成具体画面关系。
 ---
 
-# 视觉拆解
+# Visual analysis
 
-For reference reconstruction and corrections to a reconstruction, read and follow the [reconstruction workflow](references/reconstruction-workflow.md). Complete its frame, limb, garment, color, and evidence checks before drafting. Its writing order organizes the inventory below; it does not replace any existing evidence check.
+Split a reference image or a vague visual request into checkable anchors before any prompt is drafted. This skill feeds the main skill's internal visual specification; it does not redraft the final prompt itself.
 
-1. 区分看得见的事实、合理推断与未知信息。只把事实和用户确认的意图写进提示词；不推测镜头型号、原始 prompt 或不可见的服装部分。
-2. Inventory visible key anchors across subject identity and local shape/proportion, pose and traceable limb paths, garment pieces and their cut, coverage, tension/drape and occlusion, camera viewpoint and its visible perspective effects, framing and subject occupancy, dominant palette and regional color/light, environment, and medium. Rank them by distinctiveness and lead with the highest-priority anchor, then retain every visible key anchor. Priority determines order, not omission; do not reduce an unusual visible arrangement to a generic category label.
-   - Garment gate: Before naming or revising a clothing category, trace visible waistlines, hems/openings, seams/fastenings, cloth-skin boundaries, and occlusion paths. Map each layer and its overlap order; do not collapse distinct layers into one category. Describe visible shape and coverage first, naming a category only when construction cues support it; otherwise describe the geometry and leave the category unknown. After a user correction, re-check layer boundaries and relations; preserve other matched layers unless explicitly withdrawn, revising the visual relation rather than merely swapping labels. When user feedback flags a lost source contour, trace its visible causes. Check how the hem and garment coverage, the subject's contact with a support surface, and camera direction shape the visible contour. Use these source-supported relations before revising the view or using a generic drape label. Do not infer hidden anatomy.
-3. Give each key anchor a checkable acceptance condition. For decisive local shapes or proportions, state relative size or contour against surrounding forms, separately from overall subject scale and framing. When correcting one local feature, keep the overall scale and framing unchanged and preserve the other matched anchors. For complex poses or interactions, name both endpoints and specify checkable relative position, height, spacing/distance, orientation, and contact or occlusion as applicable, using visible landmarks. For a photographic reference, state the camera's apparent height relative to the subject, its upward, level, or downward direction, and the resulting near/far scale, overlap, and background geometry supported by the image; a viewpoint label alone is insufficient. For conspicuous garments or objects, state which visible pieces separate, touch, cover, stretch, or hang and where their edges or gaps fall. For color, distinguish the overall impression from the source's large-area material hues, whites, skin, and shadows; a temperature label must not recolor every region. Replace adjective-only sizes such as "wide," "small," or "long" with a relation to a visible body part, object edge, or frame boundary when possible. If a materially different image could still satisfy a decisive anchor, tighten it to the pictured relation. Treat a user's correction of a missed source-image feature as a required anchor in the next revision. Before delivery, check the prompt against the full inventory.
-   - Torso-posture evidence gate: Before deriving labels such as leaning forward, bending at the waist, squatting, or lowering the hips, trace the shoulder line and torso axis through the ribcage, waist, and pelvis/hips; use head position to distinguish a head/neck turn from torso pitch. Check visible arm and leg support/weight cues (relaxed versus braced arms, knee flexion, stance base, and weight shift), together with camera height/direction, near/far scale, overlap, and foreshortening. A close, enlarged hip or low viewpoint alone does not establish a bend or squat; if source cues do not converge, describe only the visible relation and omit the inferred label. Treat torso pose and composition as separate anchors: when correcting posture, preserve the source's apparent hip-to-camera proximity as expressed by projected scale, near/far scale, subject occupancy, and crop; an upright torso can coexist with an extreme close rear perspective. A user-confirmed posture is an explicit target. After a correction, remove the rejected label and every dependent cue throughout the revised prompt (such as a hinged waist, lowered hips, or bent knees), then state the intended pose and fixed composition as positive visible geometry.
-   - Area/salience budget: From the source, estimate each dominant region's apparent frame area, position, prominence, and overlap order. Describe composition and dominant outer layers first, preserving their source-sized coverage. A user-corrected feature is mandatory to retain, not a promotion to focal point; repetition does not change its rank. Mention a tiny feature once as a subordinate clause within its parent region's description, then bound its placement and extent with a source-derived ratio to a nearby garment panel or body landmark (for example, visible span against panel width or exposed area against the whole garment).
-4. 将抽象词拆成候选机制，并只取与图或文字相符者。“梦幻”可能来自朦胧边缘、发光物、非现实空间或色彩对照；不预设粉彩、亮度或低饱和。
-5. 复现任务保留识别关系，创作任务允许补齐未指定内容。多张参考图要注明各自用于姿态、身份、色彩或风格；不能把风格参考误当姿态锁定。
+## When to use
 
-输出给下一分支一份内部规范：`优先锚点 / 允许变化 / 未知项 / 可检验标准`。默认只向用户交付最终提示词。
+Route the incoming task before reading further:
+
+| Task | Procedure |
+| --- | --- |
+| Reconstruct a supplied reference, or correct its reconstruction | Follow [references/reconstruction-workflow.md](references/reconstruction-workflow.md) end to end, steps 1–6 |
+| Port a confirmed visual specification to another model | Workflow steps 1, 5, and 6 against the already-confirmed specification; the anchors stay fixed, the adapter changes |
+| Turn an abstract word (“梦幻”, “高级”) into concrete picture relations, no image supplied | Use [Decode abstract words](#decode-abstract-words) below; no image inventory applies |
+| The user asks for the analysis itself, not a prompt | Workflow steps 1–2, then deliver the inventory with facts, inferences, and unknowns kept separate |
+
+For any reconstruction, keep observed facts, user-confirmed targets, reasonable inferences, and unknowns separate throughout. Only facts and user-confirmed intent go into the prompt; do not guess lens models, the original prompt, or unseen garment parts.
+
+## Workflow overview
+
+The full procedure with per-step checks lives in [references/reconstruction-workflow.md](references/reconstruction-workflow.md). Complete its frame, limb, garment, color, and evidence checks before drafting. For a portrait reference, the [portrait profile](references/profile-portrait.md) is a mandatory extension of step 2: proportion, perspective, pose-support, face, and garment-effect rows, checked in their stated order.
+
+| Step | Produces |
+| --- | --- |
+| 1. Fix the task and evidence | Deliverable type; confirmed model, entry, and reference roles; facts vs. inferences vs. unknowns |
+| 2. Inspect the frame, then the subject | Internal inventory: one observable relation plus one comparison criterion per row |
+| 3. Select the defining relations | Ranked anchors with checkable acceptance conditions |
+| 4. Draft in a predictable order | Ordered draft: opening sentence → framing and pose → subject head to body → environment → light → surface details |
+| 5. Apply the model and task adapter | Entry-confirmed controls separated from prompt text |
+| 6. Compare the prompt with the source | Pre-delivery check of every defining relation |
+
+## Hard gates
+
+Three gates are mandatory during steps 2–3 of any reconstruction. The workflow defines each in full; they are named here so none is skipped:
+
+- **Garment gate** — trace waistlines, hems and openings, seams and fastenings, cloth-skin boundaries, and occlusion paths before naming or revising any clothing category. Map each layer and its overlap order; describe visible shape and coverage first, and leave the category unknown when construction cues do not support a name. Do not infer hidden anatomy.
+- **Torso-posture evidence gate** — trace the shoulder line and torso axis through ribcage, waist, and pelvis before using labels such as leaning forward, bending, squatting, or lowered hips. When source cues do not converge, describe only the visible relation and omit the inferred label.
+- **Area/salience budget** — estimate each dominant region's apparent frame area, position, and prominence from the source. A user-corrected feature is mandatory to retain but never promoted to focal point; mention a tiny feature once, bounded by a source-derived ratio.
+
+## Decode abstract words
+
+Split an abstract effect into candidate mechanisms and keep only the ones the image or the text supports. “梦幻” may come from soft edges, glowing objects, non-real spaces, or color contrast; do not preset pastel, brightness, or low saturation.
+
+## Output and handoff
+
+Hand the next branch one internal specification: `priority anchors / allowed to vary / unknowns / checkable criteria`. By default deliver only the final prompt; show the analysis when the user asks for it.
+
+For multiple references, state each image's role — identity, pose, color, or style; a style reference is not a pose lock. A reconstruction task keeps identifying relations; a creation task may fill unspecified content.
+
+When two focused correction rounds still miss the same key anchor, hand off to `oneirloom-result-diagnosis` instead of adding near-synonyms.

@@ -8,12 +8,12 @@ Identify whether the user wants a portable prompt, a model-specific prompt, an e
 
 ## 2. Inspect the frame, then the subject
 
-Build a short internal inventory in this order. Every row needs an observable relation and a criterion for comparison with a result. Keep it internal unless the user requests analysis.
+Build a short internal inventory in this order. Every row needs an observable relation and a criterion for comparison with a result. Keep it internal unless the user requests analysis. When the main subject is a person, the [portrait profile](profile-portrait.md) is a mandatory extension of this table: complete its proportion, perspective, pose-support, face, and garment rows in their stated order before moving on. To identify the medium or a named style, use the matching style skill's styles table (photography, illustration, design) as a matching reference; when the visible surface matches no listed row, describe the observed treatment directly and leave the style name unknown rather than forcing a category.
 
 | Inspect | Record before writing |
 | --- | --- |
 | Frame and scale | Orientation, upper and lower crop landmarks, subject position and frame occupancy, camera height and direction when supported, near/far size, foreground and background overlap. |
-| Main body and limbs | Head direction and gaze separately from torso direction and pitch. Trace shoulders, elbows, wrists, and hand contacts. Trace each leg from hip through knee to ankle, recording joint extension or flexion, crossing height, front/back order, and visible support. Mark hidden joints unknown. |
+| Main body and limbs | Subject identity and local shape/proportion. Head direction and gaze separately from torso direction and pitch. Trace shoulders, elbows, wrists, and hand contacts. Trace each leg from hip through knee to ankle, recording joint extension or flexion, crossing height, front/back order, and visible support. Mark hidden joints unknown. |
 | Clothing and objects | Distinct layers, neckline, waistline, seams, hems, coverage, folds, tension, contact points, and overlap. Identify garment categories from construction cues or user confirmation. |
 | Color and material | For each dominant item, separate base color, observed illuminated color, transparency and underlying color, surface texture, and reflection. Record evidence and uncertainty for the base-color judgment. Compare lit areas with shadows, folds, edges, and overlaps where visible. |
 | Environment | Large background structures, their position and scale, ground surface, and the amount of setting retained by the crop. |
@@ -28,9 +28,37 @@ For sheer fabric, its apparent brightness does not establish its base color. Ski
 
 Treat sheen, weave, seams, and damage as separate properties. A bright line alone does not establish a run or tear. Describe supported geometry or leave the cause unknown. Do not turn an ambiguous highlight into invented fabric damage.
 
+### Garment gate
+
+Before naming or revising a clothing category, trace visible waistlines, hems and openings, seams and fastenings, cloth-skin boundaries, and occlusion paths. Map each layer and its overlap order; do not collapse distinct layers into one category. Describe visible shape and coverage first, naming a category only when construction cues support it; otherwise describe the geometry and leave the category unknown.
+
+After a user correction, re-check layer boundaries and relations; preserve other matched layers unless explicitly withdrawn, revising the visual relation rather than merely swapping labels. When user feedback flags a lost source contour, trace its visible causes. Check how the hem and garment coverage, the subject's contact with a support surface, and camera direction shape the visible contour. Use these source-supported relations before revising the view or using a generic drape label. Do not infer hidden anatomy.
+
+### Torso-posture evidence gate
+
+Before deriving labels such as leaning forward, bending at the waist, squatting, or lowering the hips, trace the shoulder line and torso axis through the ribcage, waist, and pelvis/hips; use head position to distinguish a head/neck turn from torso pitch. Check visible arm and leg support and weight cues (relaxed versus braced arms, knee flexion, stance base, and weight shift), together with camera height/direction, near/far scale, overlap, and foreshortening. A close, enlarged hip or low viewpoint alone does not establish a bend or squat; if source cues do not converge, describe only the visible relation and omit the inferred label.
+
+Treat torso pose and composition as separate anchors: when correcting posture, preserve the source's apparent hip-to-camera proximity as expressed by projected scale, near/far scale, subject occupancy, and crop; an upright torso can coexist with an extreme close rear perspective. A user-confirmed posture is an explicit target. After a correction, remove the rejected label and every dependent cue throughout the revised prompt (such as a hinged waist, lowered hips, or bent knees), then state the intended pose and fixed composition as positive visible geometry.
+
 ## 3. Select the defining relations
 
-Choose the few relations that make this reference distinctive. Preserve all required inventory items; priority controls order, not omission. A confirmed correction is mandatory but retains its source-sized area. For each defining relation, ask whether a visibly different pose, garment, color, or crop could satisfy the sentence. Tighten that sentence when it could.
+Choose the few relations that make this reference distinctive. Preserve all required inventory items; priority controls order, not omission. Rank anchors by distinctiveness and lead with the highest-priority anchor; do not reduce an unusual visible arrangement to a generic category label. A confirmed correction is mandatory but retains its source-sized area. For each defining relation, ask whether a visibly different pose, garment, color, or crop could satisfy the sentence. Tighten that sentence when it could.
+
+### Writing checkable anchors
+
+Give each key anchor a checkable acceptance condition:
+
+- Decisive local shapes or proportions: state relative size or contour against surrounding forms, separately from overall subject scale and framing. When correcting one local feature, keep the overall scale and framing unchanged and preserve the other matched anchors.
+- Complex poses or interactions: name both endpoints and specify checkable relative position, height, spacing or distance, orientation, and contact or occlusion as applicable, using visible landmarks.
+- Photographic reference: state the camera's apparent height relative to the subject, its upward, level, or downward direction, and the resulting near/far scale, overlap, and background geometry supported by the image; a viewpoint label alone is insufficient.
+- Conspicuous garments or objects: state which visible pieces separate, touch, cover, stretch, or hang, and where their edges or gaps fall.
+- Color: distinguish the overall impression from the source's large-area material hues, whites, skin, and shadows; a temperature label must not recolor every region.
+- Replace adjective-only sizes such as "wide," "small," or "long" with a relation to a visible body part, object edge, or frame boundary when possible.
+- Treat a user's correction of a missed source-image feature as a required anchor in the next revision.
+
+### Area/salience budget
+
+From the source, estimate each dominant region's apparent frame area, position, prominence, and overlap order. Describe composition and dominant outer layers first, preserving their source-sized coverage. A user-corrected feature is mandatory to retain, not a promotion to focal point; repetition does not change its rank. Mention a tiny feature once as a subordinate clause within its parent region's description, then bound its placement and extent with a source-derived ratio to a nearby garment panel or body landmark (for example, visible span against panel width or exposed area against the whole garment).
 
 ## 4. Draft in a predictable order
 

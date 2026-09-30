@@ -1,0 +1,4 @@
+interface:
+  display_name: "Oneirloom Prompt Card"
+  short_description: "Create 3:4 cards with cropped images above complete prompts"
+  default_prompt: "Use $oneirloom-prompt-card to combine this image and its current prompt into a 3:4 card with the cropped image in the upper third and the complete prompt in the lower two thirds."
