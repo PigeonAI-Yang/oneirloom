@@ -1,5 +1,5 @@
 ---
-name: dreamweaver-model-qwen-image-2-1
+name: oneirloom-model-qwen-image-2-1
 description: 为 Qwen-Image-2.1 文生图、图像编辑、透明背景与多参考图任务编写提示词，并核对当前部署入口是否支持相应输入。用于 Qwen-Image-2.1 提示词生成和跨模型迁移。
 ---
 

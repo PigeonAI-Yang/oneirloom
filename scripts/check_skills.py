@@ -8,16 +8,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
 EXPECTED = {
-    "dreamweaver",
-    "dreamweaver-visual-analysis",
-    "dreamweaver-camera-composition",
-    "dreamweaver-color-light",
-    "dreamweaver-style-photography",
-    "dreamweaver-style-illustration",
-    "dreamweaver-style-design",
-    "dreamweaver-model-krea-2",
-    "dreamweaver-model-qwen-image-2-1",
-    "dreamweaver-result-diagnosis",
+    "oneirloom",
+    "oneirloom-visual-analysis",
+    "oneirloom-camera-composition",
+    "oneirloom-color-light",
+    "oneirloom-style-photography",
+    "oneirloom-style-illustration",
+    "oneirloom-style-design",
+    "oneirloom-model-krea-2",
+    "oneirloom-model-qwen-image-2-1",
+    "oneirloom-result-diagnosis",
 }
 
 
@@ -37,8 +37,8 @@ def check() -> None:
         for target in re.findall(r"\]\(([^)]+)\)", body):
             if "://" not in target and not target.startswith("#"):
                 assert (path.parent / target).is_file(), f"broken skill link: {path}: {target}"
-    router = (SKILLS / "dreamweaver" / "SKILL.md").read_text(encoding="utf-8")
-    for name in EXPECTED - {"dreamweaver"}:
+    router = (SKILLS / "oneirloom" / "SKILL.md").read_text(encoding="utf-8")
+    for name in EXPECTED - {"oneirloom"}:
         assert f"`{name}`" in router, f"router does not mention {name}"
     cases = json.loads((ROOT / "evals" / "cases.json").read_text(encoding="utf-8"))
     ids = [case["id"] for case in cases]

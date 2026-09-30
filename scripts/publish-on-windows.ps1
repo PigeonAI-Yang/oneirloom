@@ -1,5 +1,5 @@
 param(
-    [string]$ProjectPath = 'J:\pigeonyang\skills\dreamweaver'
+    [string]$ProjectPath = 'J:\pigeonyang\skills\oneirloom'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -36,6 +36,6 @@ if ($LASTEXITCODE -ne 0) { throw '本地提交已完成。请先执行 gh auth l
 $remotes = & git -C $ProjectPath remote
 if ($LASTEXITCODE -ne 0) { throw '无法读取 Git 远端。' }
 if ($remotes -contains 'origin') { throw '已存在 origin 远端；请先确认目标仓库，脚本未覆盖。' }
-& gh repo create dreamweaver --public --source $ProjectPath --remote origin --push --description 'Dreamweaver: modular image prompt skills for Krea 2 and Qwen-Image-2.1'
+& gh repo create oneirloom --public --source $ProjectPath --remote origin --push --description 'Oneirloom: modular image prompt skills for Krea 2 and Qwen-Image-2.1'
 if ($LASTEXITCODE -ne 0) { throw '公开仓库创建或推送失败；本地提交仍保留。' }
 & git -C $ProjectPath remote get-url origin

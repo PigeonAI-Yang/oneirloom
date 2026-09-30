@@ -1,9 +1,9 @@
 ---
-name: dreamweaver
+name: oneirloom
 description: 将图像生成或编辑需求、参考图、抽象审美与生成偏差转成模型适配的可直接使用提示词。用于文生图、参考图反推、图生图、跨模型迁移和结果修正；按需路由镜头、光色、表现形式、Krea 2、Qwen-Image-2.1 等子技能。
 ---
 
-# Dreamweaver
+# Oneirloom
 
 ## 执行顺序
 
@@ -18,15 +18,15 @@ description: 将图像生成或编辑需求、参考图、抽象审美与生成�
 
 | 条件 | 读取子技能 |
 | --- | --- |
-| 参考图、含糊审美或元素关系难辨 | `dreamweaver-visual-analysis` |
-| 机位、景别、焦段感、透视、裁切、遮挡关键 | `dreamweaver-camera-composition` |
-| 色相、冷暖、明暗、光线与氛围关键 | `dreamweaver-color-light` |
-| 摄影或电影剧照 | `dreamweaver-style-photography` |
-| 绘画、漫画、动画、水彩或概念艺术 | `dreamweaver-style-illustration` |
-| 海报、文字版式、产品图或三维渲染 | `dreamweaver-style-design` |
-| 指定 Krea 2 | `dreamweaver-model-krea-2` |
-| 指定 Qwen-Image-2.1 | `dreamweaver-model-qwen-image-2-1` |
-| 已有输出跑偏、只修局部或迭代 | `dreamweaver-result-diagnosis` |
+| 参考图、含糊审美或元素关系难辨 | `oneirloom-visual-analysis` |
+| 机位、景别、焦段感、透视、裁切、遮挡关键 | `oneirloom-camera-composition` |
+| 色相、冷暖、明暗、光线与氛围关键 | `oneirloom-color-light` |
+| 摄影或电影剧照 | `oneirloom-style-photography` |
+| 绘画、漫画、动画、水彩或概念艺术 | `oneirloom-style-illustration` |
+| 海报、文字版式、产品图或三维渲染 | `oneirloom-style-design` |
+| 指定 Krea 2 | `oneirloom-model-krea-2` |
+| 指定 Qwen-Image-2.1 | `oneirloom-model-qwen-image-2-1` |
+| 已有输出跑偏、只修局部或迭代 | `oneirloom-result-diagnosis` |
 
 一般只加载相关分支：一项任务类型 + 一个表现形式 + 一个模型；镜头与光色在重要时附加。未知模型保留视觉规范并核实官方入口，不推测专用语法。
 

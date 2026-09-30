@@ -1,5 +1,5 @@
 ---
-name: dreamweaver-result-diagnosis
+name: oneirloom-result-diagnosis
 description: 对比目标图、提示词与生成结果，找出构图、光色、主体、文字或表现形式的主要偏差，并输出保留成功部分的完整修正提示词。用于“跑偏了”“不像”“只改颜色”等迭代任务。
 ---
 
