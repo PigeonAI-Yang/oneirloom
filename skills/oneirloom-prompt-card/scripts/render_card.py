@@ -11,7 +11,7 @@ from playwright.sync_api import sync_playwright
 
 
 def select_watermark(image_path, image_y, asset_dir):
-    white_path = asset_dir / 'oneirloom-signature.png'
+    white_path = asset_dir / 'oneirloom-woven-signature-white-black-outline.png'
     with Image.open(white_path) as signature:
         mark_height = 360 * signature.height / signature.width
     with Image.open(image_path) as image:
@@ -26,8 +26,8 @@ def select_watermark(image_path, image_y, asset_dir):
         background.alpha_composite(area)
         rgb = ImageStat.Stat(background.convert('RGB')).mean
     luminance = (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255
-    variant = 'black' if luminance >= 0.6 else 'white'
-    path = asset_dir / ('oneirloom-signature-black.png' if variant == 'black' else 'oneirloom-signature.png')
+    variant = 'white-black-outline'
+    path = white_path
     return path.resolve(strict=True), variant, luminance
 
 
@@ -143,7 +143,7 @@ p:last-child { margin-bottom: 0; }
         watermark = checks['watermark']
         if (not watermark['insideImageRegion']
                 or abs(watermark['widthRatio'] - 0.2) > 0.001
-                or watermark['heightRatio'] > 0.18
+                or abs(watermark['height'] - watermark['width'] * watermark['sourceSize'][1] / watermark['sourceSize'][0]) > 0.01
                 or abs(watermark['topMargin'] - 36) > 0.01
                 or abs(watermark['rightMargin'] - 36) > 0.01
                 or watermark['opacity'] != '0.9'):

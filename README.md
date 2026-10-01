@@ -1,126 +1,42 @@
-![织梦师 Oneirloom：把想象，写成画面。](docs/assets/hero-v3.webp)
-
 # 织梦师 · Oneirloom
 
 **把想象，写成画面。**
 
-织梦师是一套开源的视觉创作 Skill，让你的 AI 助手学会看图、构思、写提示词，再根据生成结果继续修改。先从你最想画好的人像开始，也可以继续做角色设定、插画与产品广告。
+一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。
 
-`Agent Skills` · `中文 + English` · `Krea 2` · `Qwen-Image-2.1` · `MIT`
+[开始使用](#开始使用) · [案例与记录](#案例与记录) · [技能目录](#技能目录) · [English](README.en.md) · [完整详情页](docs/product-page/index-oneirloom-v4.html)
 
-[作品与案例](#作品与案例) · [创作方式](#创作方式) · [开始使用](#开始使用) · [技能目录](#技能目录) · [English](README.en.md)
+[![织梦师商品主视觉：织梦兽把人像、志怪插画与产品广告织进梦网。把想象，写成画面。](docs/assets/product-page/01-hero-oneirloom-v4.webp)](docs/assets/product-page/01-hero-oneirloom-v4.webp)
 
-## 你说出想法，它组织画面
+[![一句日常表达，展开成一张画面。将卧室全身照的想法拆解为完整取景、居中姿态、缎面材质和左侧窗光。支持从零写提示词、分析参考图、构思广告和检查结果。](docs/assets/product-page/02-value-oneirloom-v4.webp)](docs/assets/product-page/02-value-oneirloom-v4.webp)
 
-“想要一张安静的卧室全身照。”
+[![人像案例：脸部特写、完整全身、坐姿、硬光、夜间暖光和逆光发丝。选自既有人像教程的 Qwen-Image-2.1 结果。](docs/assets/product-page/03-portraits-native-v4.webp)](docs/assets/product-page/03-portraits-native-v4.webp)
 
-“让这份外卖，变成一座微缩小镇。”
+[![产品广告案例：外卖照片参考与微缩食物小镇创意示意。春卷成为屋顶，薯条成为台阶，餐盒里出现手绘街巷。](docs/assets/product-page/04-product-oneirloom-v4.webp)](docs/assets/product-page/04-product-oneirloom-v4.webp)
 
-“这张图的氛围很好，但人物姿势不对。”
+[![继续做广告与插画：巧克力流入手绘可可庄园；人物关系、山雾与月色构成志怪叙事。根据已有案例制作的宣传画面。](docs/assets/product-page/05-worlds-oneirloom-v4.webp)](docs/assets/product-page/05-worlds-oneirloom-v4.webp)
 
-织梦师接住这些日常表达，把它们展开为可以写进提示词的细节：人物与环境的位置、镜头的取景、材质的质感，以及落在画面不同区域的光和颜色。
+[![角色资产案例：从织梦兽形象延展织梦、好奇、休息、完成四种动作。角色正面已获认可，新增资产设计稿待验收。](docs/assets/product-page/06-character-oneirloom-v4.webp)](docs/assets/product-page/06-character-oneirloom-v4.webp)
 
-有参考图时，它先分析图中可见的关系。需要广告创意时，它先看产品，再构思故事。已有结果时，它对照目标找出主要偏差，交付完整的修订提示词。
+[![使用流程：给目标和材料，明确画面关系，交付完整中英提示词，检查结果继续修改。还可制作3:4提示词分享卡片。开源MIT，提供Krea 2和Qwen-Image-2.1专门适配。](docs/assets/product-page/07-start-oneirloom-v4.webp)](docs/assets/product-page/07-start-oneirloom-v4.webp)
 
-## 作品与案例
+## 案例与记录
 
-先看美女人像。下面选了此前人像教程里的 12 张原图，分别展示取景、姿态、穿搭与光线。教程案例包含 62 张生成结果，首页展示的是已有结果的 WebP 压缩版，保留原尺寸。
+这套详情页由织梦师的视觉分析、设计与光色方法指导制作。六张宣传图参考既有案例重新绘制；人像六宫格直接排版归档原图。宣传图中的场景与提示词示意不等同于原始案例记录，原图与已知提示词见下方链接。[打开完整详情长图](docs/assets/product-page/overview-oneirloom-v4.webp)。
 
-### 取景
-
-<table class="portrait-row"><tr>
-<td width="33%" align="center"><a href="docs/assets/portraits/19_close_fixed.webp"><img src="docs/assets/portraits/19_close_fixed.webp" alt="脸部特写的已有人像作品" width="280"></a><br>脸部特写</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/20_half_fixed.webp"><img src="docs/assets/portraits/20_half_fixed.webp" alt="上半身人像的已有人像作品" width="280"></a><br>上半身人像</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/01_full.webp"><img src="docs/assets/portraits/01_full.webp" alt="完整全身的已有人像作品" width="280"></a><br>完整全身</td>
-</tr></table>
-
-### 姿态
-
-<table class="portrait-row"><tr>
-<td width="33%" align="center"><a href="docs/assets/portraits/09_seated.webp"><img src="docs/assets/portraits/09_seated.webp" alt="短裙坐姿的已有人像作品" width="280"></a><br>短裙坐姿</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/e07_backlace.webp"><img src="docs/assets/portraits/e07_backlace.webp" alt="侧身回望的已有人像作品" width="280"></a><br>侧身回望</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/e11_longseated.webp"><img src="docs/assets/portraits/e11_longseated.webp" alt="长裙坐姿的已有人像作品" width="280"></a><br>长裙坐姿</td>
-</tr></table>
-
-### 穿搭
-
-<table class="portrait-row"><tr>
-<td width="33%" align="center"><a href="docs/assets/portraits/e03_short.webp"><img src="docs/assets/portraits/e03_short.webp" alt="短裙轮廓的已有人像作品" width="280"></a><br>短裙轮廓</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/e04_long.webp"><img src="docs/assets/portraits/e04_long.webp" alt="长裙垂坠的已有人像作品" width="280"></a><br>长裙垂坠</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/e09_layeropen.webp"><img src="docs/assets/portraits/e09_layeropen.webp" alt="开衫叠穿的已有人像作品" width="280"></a><br>开衫叠穿</td>
-</tr></table>
-
-### 光线
-
-<table class="portrait-row"><tr>
-<td width="33%" align="center"><a href="docs/assets/portraits/25_hard_fixed.webp"><img src="docs/assets/portraits/25_hard_fixed.webp" alt="硬光与窗影的已有人像作品" width="280"></a><br>硬光与窗影</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/26_warm_fixed.webp"><img src="docs/assets/portraits/26_warm_fixed.webp" alt="夜间暖光的已有人像作品" width="280"></a><br>夜间暖光</td>
-<td width="33%" align="center"><a href="docs/assets/portraits/e25_backlight.webp"><img src="docs/assets/portraits/e25_backlight.webp" alt="逆光与发丝轮廓的已有人像作品" width="280"></a><br>逆光与发丝轮廓</td>
-</tr></table>
-
-一张脸可以拍得更近，一个坐姿会改变衣料的褶皱，同一类黑裙也可以有不同的长度与背部结构。织梦师会把这些意图写成具体画面关系，让你有方向地继续创作。
-
-[查看这 12 张图的原始提示词与参数记录](docs/assets/portraits/manifest.json) · [阅读完整人像教程](docs/美女生图教程.md)
+- **人像摄影**：[12 张已归档人像的提示词与参数](docs/assets/portraits/manifest.json) · [62 张生成结果的完整教程](docs/美女生图教程.md)。各样本可能同时改变身份、姿态、衣料与环境，不能据此判断精确身份锁定或单项调整的效果。
+- **外卖小镇广告**：[原始照片与认可结果记录](skills/oneirloom-product-art-direction/references/takeaway-food-town/evidence.json)。实际提交提示词、模型与参数未记录。
+- **巧克力广告**：[原始提示词与案例](skills/oneirloom-style-design/templates/product-origin-world/template.md)；**志怪插画**：[氛围与观察记录](skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md)。两者的模型与参数均未知。
+- **织梦兽资产**：[角色参考、配色、三视图与动作稿](docs/assets/dream-cocoon/README.md)。正面形象已获认可，新增资产设计稿仍待单独验收。
 
 <details>
-<summary>这组图说明了什么</summary>
-
-它们来自已记录的 Qwen-Image-2.1 本地文生图案例，首页只做 WebP 编码压缩，未裁切、修图或重新生成。样本之间可能同时改变脸部、姿态、衣料和房间细节；这些图展示各自的实际画面，不表示精确身份锁定或单变量实验。原记录中的生成偏差继续保留。
-
-</details>
-
-### 继续做角色、插画和广告
-
-<table><tr>
-<td width="50%" align="center"><a href="skills/oneirloom-style-design/templates/product-origin-world/template.md"><img src="skills/oneirloom-style-design/templates/product-origin-world/images/example-01.webp" alt="摄影巧克力与手绘可可庄园的广告案例" width="420"></a><br><strong>让产品走进它的故事</strong><br>摄影质感的巧克力，流入手绘可可庄园。</td>
-<td width="50%" align="center"><a href="skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md"><img src="skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp" alt="山雾与月色中的志怪叙事插画" width="420"></a><br><strong>让氛围服务于叙事</strong><br>旧纸、山雾、月色与人物之间的关系。</td>
-</tr></table>
-
-巧克力案例保留原始提示词，志怪插画的氛围得到用户认可；两者的模型与生成参数均未知。点击图片查看对应记录。
-
-<details>
-<summary>看角色衣橱设定</summary>
+<summary>继续看角色衣橱设定</summary>
 
 ![包含服装、配件与材质细节的已有角色衣橱设定图](skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.webp)
 
-这个用户提供的结果展示了服装、配件、材质与版面安排。转身视图和部分服装头像仍有偏差，模型与参数未知。[查看角色衣橱模板与记录](skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md)。
+这个用户提供的结果展示服装、配件、材质与版面安排。转身视图和部分服装头像仍有偏差，模型与参数未知。[查看模板与记录](skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md)。
 
 </details>
-
-### 从一份外卖，构思一张广告
-
-<table><tr>
-<td width="50%" align="center"><img src="skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.webp" alt="原始外卖产品照片" width="420"><br>原始产品照片</td>
-<td width="50%" align="center"><img src="skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp" alt="用户认可的微缩食物小镇结果" width="280"><br>用户认可的结果</td>
-</tr></table>
-
-春卷成为屋顶，薯条成为台阶，餐盒里出现手绘街巷与微缩人物。食物仍保留摄影质感，创意从产品的形状和场景中展开。
-
-织梦师的[产品创意方法](skills/oneirloom-product-art-direction/SKILL.md)会先检查产品，再选择故事和表现手法。这个案例记录了用户认可的一次结果，实际提交提示词、模型与参数未知。[查看案例记录](skills/oneirloom-product-art-direction/references/takeaway-food-town/evidence.json)。
-
-## 创作方式
-
-你不必一开始就准备完整提示词。先说目标，再给出已有材料。织梦师会沿用对话中已经确认的条件，明确目标、拆解画面，选择需要的方法，再适配模型并交付完整提示词。有结果图时，继续对照目标修正。
-
-想改取景，就明确画框与身体的位置；想改姿态，就写清躯干、头部和四肢的关系；想改穿搭，就组织衣料、剪裁与叠穿；想改光线，就说明光从哪里来、哪些区域亮起来。
-
-默认交付完整中文提示词和语义对应的英文版，每个版本独立可复制。明确要求只用一种语言时，就按你的要求输出。
-
-首页主视觉以已有美女人像为参考，通过生图模型制作成新的宣传合成图；上面的 12 张作品图展示已有结果的压缩版。
-
-## 你可以用它做什么
-
-| 创作任务 | 交付内容 |
-| --- | --- |
-| 从想法开始生图 | 包含主体、环境、构图、光色与风格的完整提示词 |
-| 借鉴或重构参考图 | 可见画面分析，以及按目标重写的提示词 |
-| 构思产品广告 | 围绕产品特征设计的画面概念与提示词 |
-| 制作角色设定 | 三视图、表情卡与服装设定图的提示词 |
-| 修正生成偏差 | 对主要偏差的判断，以及完整修订版本 |
-| 换用目标模型 | 保持视觉意图的模型版本，参数单独列出 |
-| 写图文生图教程 | 具体提示词、配图说明与结果分析 |
-
-集合提供 Krea 2 与 Qwen-Image-2.1 的专门适配。其他模型先使用通用自然语言描述，具体参考图输入与参数以你使用的入口为准。
 
 ## 开始使用
 
@@ -154,7 +70,7 @@ git clone https://github.com/PigeonAI-Yang/oneirloom.git
 
 ## 技能目录
 
-一个主技能负责理解任务与整合交付，13 个方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
+主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
 
 <details>
 <summary>展开全部技能</summary>
@@ -175,6 +91,7 @@ git clone https://github.com/PigeonAI-Yang/oneirloom.git
 | [oneirloom-model-qwen-image-2-1](skills/oneirloom-model-qwen-image-2-1/SKILL.md) | Qwen-Image-2.1 提示词与任务适配 |
 | [oneirloom-result-diagnosis](skills/oneirloom-result-diagnosis/SKILL.md) | 生成偏差分析与提示词修正 |
 | [oneirloom-image-tutorial](skills/oneirloom-image-tutorial/SKILL.md) | 图文教程写作、扩写与润色 |
+| [oneirloom-prompt-card](skills/oneirloom-prompt-card/SKILL.md) | 作品与完整提示词的 3:4 分享卡片 |
 
 </details>
 

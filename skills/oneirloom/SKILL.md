@@ -38,6 +38,8 @@ Load only relevant methods, normally one primary medium and the explicitly reque
 
 For a card made from an existing image and prompt, follow `oneirloom-prompt-card` without redrafting the prompt or invoking a generation model. Its 3:4 card canvas is separate from any generation aspect ratio written in the prompt.
 
+For Oneirloom-branded watermarks, default to the woven creature signature with white lettering and black outlines. Use the packaged asset and placement guidance in [oneirloom-prompt-card](../oneirloom-prompt-card/SKILL.md). Preserve the creature behind the overlapping lettering and the blue threads woven into its strokes. Prefer white lettering unless the user requests another version or inspection reveals a specific readability problem. Outline all Chinese and English lettering and flourishes in the opposite color: black around white lettering, white around black lettering.
+
 ## Output contract
 
 - For each explicitly requested model, or one portable version when unspecified, give a complete Chinese prompt followed by its semantically equivalent English counterpart. Follow an explicit single-language request instead. Preserve all visual details across languages.
