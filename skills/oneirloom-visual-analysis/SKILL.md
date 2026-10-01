@@ -28,16 +28,16 @@ The full procedure with per-step checks lives in [references/reconstruction-work
 | --- | --- |
 | 1. Fix the task and evidence | Deliverable type; confirmed model, entry, and reference roles; facts vs. inferences vs. unknowns |
 | 2. Inspect the frame, then the subject | Internal inventory: one observable relation plus one comparison criterion per row |
-| 3. Select the defining relations | Ranked anchors with checkable acceptance conditions |
+| 3. Select the defining relations | Ranked anchors and mandatory structural preservation relations with checkable acceptance conditions |
 | 4. Draft in a predictable order | Ordered draft: opening sentence → framing and pose → subject head to body → environment → light → surface details |
 | 5. Apply the model and task adapter | Entry-confirmed controls separated from prompt text |
-| 6. Compare the prompt with the source | Pre-delivery check of every defining relation |
+| 6. Compare the prompt with the source | Pre-delivery check of every defining relation, including structural counterexamples |
 
 ## Hard gates
 
 Three gates are mandatory during steps 2–3 of any reconstruction. The workflow defines each in full; they are named here so none is skipped:
 
-- **Garment gate** — trace waistlines, hems and openings, seams and fastenings, cloth-skin boundaries, and occlusion paths before naming or revising any clothing category. Map each layer and its overlap order; describe visible shape and coverage first, and leave the category unknown when construction cues do not support a name. Do not infer hidden anatomy.
+- **Garment gate** — trace waistlines, hems and openings, seams and fastenings, cloth-skin boundaries, and occlusion paths before naming or revising any clothing category. Map each layer and its overlap order; check openings and visible connectors, separating hosiery from footwear; describe visible shape and coverage first, and leave the category unknown when construction cues do not support a name. Do not infer hidden anatomy.
 - **Torso-posture evidence gate** — trace the shoulder line and torso axis through ribcage, waist, and pelvis before using labels such as leaning forward, bending, squatting, or lowered hips. When source cues do not converge, describe only the visible relation and omit the inferred label.
 - **Area/salience budget** — estimate each dominant region's apparent frame area, position, and prominence from the source. A user-corrected feature is mandatory to retain but never promoted to focal point; mention a tiny feature once, bounded by a source-derived ratio.
 
