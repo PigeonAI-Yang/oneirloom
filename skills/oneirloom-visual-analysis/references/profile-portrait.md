@@ -4,6 +4,8 @@
 
 检查顺序：先查画框取景（workflow 表格 Frame and scale 行），再按本清单由外到内推进——比例骨架 → 透视修正 → 姿态关节 → 面部身份 → 服装影响；光色与环境交回 workflow 对应行和 `oneirloom-color-light`。
 
+Focal emphasis is scoped to the current reference and user intent; it does not prescribe sensuality, a preferred body type, or an aesthetic hierarchy for every portrait. Structural preservation anchors from workflow step 3 remain required regardless of focal emphasis.
+
 ## Proportions（每张人像必查）
 
 从源图量取以下比例，写成与身体地标或画框的相对关系，不写孤立的形容词或凭印象的数字：
@@ -26,6 +28,8 @@
 - 躯干轴线与肩线的判定走 workflow 第 2 步的 torso-posture evidence gate；四肢关节链走 Main body and limbs 行。
 - 重心与支撑：站／坐／倚靠，承重侧；坐姿时臀部与支撑面的接触点决定大腿的表观长度，先记接触点再写腿的可见长度。
 
+- **Held objects and concealment**: apply the workflow's held-object check to visible props, including their own direction, grip, body landmarks, and covering span. A conventional prop pose must not replace the observed arrangement. Hidden contacts stay unknown.
+
 ## Face and gaze
 
 - 面部朝向：正脸／四分之三侧／正侧，加下巴抬起或收低的程度。
@@ -35,6 +39,9 @@
 - 五官的显著比例特征（如脸长相对脸宽、眼距）只有在构成这张脸的身份特征时才锚定为必查行，不逐项罗列。
 
 ## Garment and footwear effects
+
+- Map each visible garment layer's coverage, openings, connectors, and overlap using the workflow's garment gate; retain source-specific construction alongside a confirmed category.
+- Check hosiery and footwear independently at visible foot regions. Record exposed toes or instep and visible connecting strips only when supported; distinguish sheer coverage from openings. If feet or cuffs are hidden, leave their construction unknown.
 
 - 高跟鞋或厚底鞋改变身高与小腿线条：写可见的线条变化，不推断鞋的隐含高度。
 - 宽松或垂坠服装遮蔽真实分段时，边界未知不猜，写服装外轮廓与身体的相对比例（garment gate）。
