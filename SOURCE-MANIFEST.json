@@ -617,28 +617,28 @@
     },
     {
       "path": "docs/COMPATIBILITY.md",
-      "sha256": "160cd07b5978bf4283e85cd09e3c4c449f64c6e7ed342993c2f541082e737a2e",
-      "bytes": 2782
+      "sha256": "bee8a9c583f62f0cf7b5431fd45c93a697137e5705ceda38b49281ed9254bc24",
+      "bytes": 3920
     },
     {
       "path": "docs/INSTALL.md",
-      "sha256": "8c1e846eb08b64ea8aa63074b1f768a5a2722fe0ff38a328ae557cab556da2ad",
-      "bytes": 3187
+      "sha256": "34ec01808e1ed8dab51e59dca7cab2223c415cc6ed3d6cb218efc70a5610749e",
+      "bytes": 4521
     },
     {
       "path": "docs/PLUGIN-SUBMISSION.md",
-      "sha256": "924eedf1442a90c135c4f2a9e0d85cb72d05b48f897e156daa4017fd0669d2b5",
-      "bytes": 1204
+      "sha256": "612595ca1b448ae7fff9338e0ea7a7fc5a597168024f79c435ef103f52f02c56",
+      "bytes": 1630
     },
     {
       "path": "docs/SAFETY.md",
-      "sha256": "254d856cc159dc29dfe71a39e50856ed2c5c347a09916252419a67f8c06c1d3c",
-      "bytes": 1845
+      "sha256": "9adf50caa7326ed7afd401d292eaee00b064acf555a65541f0e64aab39c857d2",
+      "bytes": 2272
     },
     {
       "path": "docs/SUBMISSION.md",
-      "sha256": "d5c83b00913a743903f7b2cecd8aa5676936862a63e116ca6ade03c10322b160",
-      "bytes": 4625
+      "sha256": "4bf39a12efa42df9c99a81334a8819b0cc1c43c414c9e783340ce84e09054213",
+      "bytes": 5173
     },
     {
       "path": "docs/model-evidence.md",

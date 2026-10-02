@@ -44,6 +44,8 @@
 
 ### 手动安装到 Codex 项目
 
+先按[安装文档中的 Git LFS 步骤](docs/INSTALL.md#fetch-the-complete-source)取得完整图片文件。GitHub 自动生成的源码 ZIP 可能只包含 LFS 指针。
+
 将仓库的 `skills/` 下全部 15 个 `oneirloom*` 技能目录复制到 Codex 项目根目录的 `.agents/skills/`，让这些目录保持同级。保留每个目录中的全部原有文件，包括其中已有的 `scripts/`、`references/`、`templates/` 和 `assets/`。不要只复制 `SKILL.md`。
 
 在新对话中请求“织梦师”或“Oneirloom”，也可以显式调用 `$oneirloom`。织梦师负责分析与编写提示词。图像生成由你选择的工具或服务执行。
@@ -70,7 +72,7 @@
 
 ### 通过 Codex 插件安装
 
-仓库 marketplace 发布后，可在 Codex CLI 中运行：
+仓库 marketplace 已公开。以下 GitHub 简写命令尚未直接实测，已验证的公开源码克隆与本地 marketplace 路径见[安装文档](docs/INSTALL.md)：
 
 ~~~bash
 codex plugin marketplace add PigeonAI-Yang/oneirloom --ref main
@@ -78,7 +80,7 @@ codex plugin add oneirloom@oneirloom-local
 codex plugin list --marketplace oneirloom-local --json
 ~~~
 
-这些命令添加并安装本仓库提供的 marketplace。仓库 marketplace 的发布不代表 Oneirloom 已进入或获准进入 OpenAI 官方插件目录。安装步骤和核验状态见[安装文档](docs/INSTALL.md)。
+这些命令添加并安装本仓库提供的 marketplace。若已有同名 `oneirloom-local` marketplace，请保留现有安装和本地修改，先核对其来源。仓库 marketplace 的发布不代表 Oneirloom 已进入或获准进入 OpenAI 官方插件目录。安装步骤和核验状态见[安装文档](docs/INSTALL.md)。
 
 ## 技能目录
 

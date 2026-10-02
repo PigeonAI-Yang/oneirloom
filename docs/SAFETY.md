@@ -6,7 +6,9 @@ This package contains skill instructions and one optional local renderer. It bun
 
 Some workflows may use image, browser, or generation tools supplied by the host. The host and selected service determine how supplied content is processed. Review the host's privacy terms before sharing personal, confidential, or unpublished images. Share only material you have permission to use, and approve any external upload yourself.
 
-The plugin's public metadata contains website, support, and privacy-policy URLs. Keep private credentials and user information out of public listing fields, archives, and examples. Live reachability and content for the website and privacy URLs remain unverified; verify them before submission.
+The plugin's public metadata contains website, support, and privacy-policy URLs. Keep private credentials and user information out of public listing fields, archives, and examples. The public website and safety pages passed live reachability and content checks on 2026-10-02.
+
+Visiting the public website sends technical requests to its hosting and CDN providers. Cloudflare analytics and passive bot detection may process browser and visit information and may use cookies. This website processing is separate from the plugin package, which contains no automatic telemetry or upload process. See the [website safety page](https://www.pigeonyang.top/en/skills/oneirloom/safety/) for its current data-handling explanation.
 
 ## Third-party rights
 

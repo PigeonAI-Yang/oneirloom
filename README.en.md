@@ -10,6 +10,8 @@ Oneirloom is an open-source collection of 15 visual creation Agent Skills. It he
 
 ## Install in a Codex project
 
+First [fetch the complete source with Git LFS](docs/INSTALL.md#fetch-the-complete-source). GitHub-generated source ZIPs may contain LFS pointers instead of images.
+
 Copy all 15 sibling directories matching `skills/oneirloom*` into `.agents/skills/` at your Codex project root. Keep each directory intact, including its existing `SKILL.md` file and any `scripts/`, `references/`, `templates/`, or `assets/` folders.
 
 Start a new chat and ask for Oneirloom or invoke `$oneirloom`. Uploading a ZIP to a regular chat does not install these skills. The host must support Agent Skills. Reference-image analysis also requires the host to pass images to the assistant.
@@ -20,7 +22,7 @@ See the [installation guide](docs/INSTALL.md) and [host compatibility notes](doc
 
 ## Install from the Codex marketplace
 
-After this repository's marketplace is published, run:
+This repository's marketplace is public. The GitHub shorthand below has not been directly tested. See the [installation guide](docs/INSTALL.md) for the verified source-clone and local marketplace route:
 
 ~~~bash
 codex plugin marketplace add PigeonAI-Yang/oneirloom --ref main
@@ -28,7 +30,7 @@ codex plugin add oneirloom@oneirloom-local
 codex plugin list --marketplace oneirloom-local --json
 ~~~
 
-These commands add and install this repository's marketplace. Publishing a repository marketplace does not mean that OpenAI has listed or approved Oneirloom in its official plugin directory. See the [installation guide](docs/INSTALL.md) for the steps and verification status.
+These commands add and install this repository's marketplace. If `oneirloom-local` already exists, check its source and preserve the existing installation and local edits. Publishing a repository marketplace does not mean that OpenAI has listed or approved Oneirloom in its official plugin directory. See the [installation guide](docs/INSTALL.md) for the steps and verification status.
 
 ## Skill collection
 

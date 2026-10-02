@@ -4,7 +4,7 @@ The package contains 15 sibling skill folders with their references, templates, 
 
 ## Codex CLI plugin installation
 
-After this repository's marketplace is published, add and install it with the Codex CLI:
+The repository marketplace is public. These GitHub shorthand commands are documented but have not been directly tested:
 
 ```sh
 codex plugin marketplace add PigeonAI-Yang/oneirloom --ref main
@@ -12,7 +12,34 @@ codex plugin add oneirloom@oneirloom-local
 codex plugin list --marketplace oneirloom-local --json
 ```
 
-These instructions target the GitHub-hosted marketplace; that repository installation route still needs a direct check. The corrected local 0.1.1 candidate was installed and checked with Codex CLI 0.153.0: its ZIP contained 117 entries, all 25 raster images decoded, and all 117 ZIP, extracted-package, and installed-cache hashes and sizes matched. Eight Git LFS objects were hydrated, with no pointer files left in the package. `skills/list` discovered all 15 skills with zero candidate-specific errors. This verifies the corrected package through a local marketplace candidate, not the public repository route or OpenAI's plugin directory. See [compatibility](COMPATIBILITY.md) for the evidence and remaining limits. Refresh the host after installation, then ask: “Use Oneirloom to turn this visual idea into a complete image prompt.” Remove it with `codex plugin remove oneirloom@oneirloom-local`.
+Codex CLI 0.153.0 installed and enabled both the corrected local package and a complete clone of the published repository through a local marketplace wrapper. The public-clone test matched all 343 source files to the installed cache, decoded all 25 package raster images, verified eight LFS payloads, and discovered all 15 skills with zero candidate-specific errors. It used a separate test marketplace name to preserve existing installations. The GitHub shorthand above remains untested. See [compatibility](COMPATIBILITY.md) for the scope of these checks.
+
+If `oneirloom-local` already exists, inspect its source before adding this marketplace. Preserve the existing installation and local edits. Refresh the host after installation, then ask: "Use Oneirloom to turn this visual idea into a complete image prompt." Remove this plugin with `codex plugin remove oneirloom@oneirloom-local` only when that is the installation you intend to remove.
+
+## Fetch the complete source
+
+For a manual install or a local marketplace, install Git LFS, then fetch the image payloads:
+
+```sh
+git lfs install
+git clone https://github.com/PigeonAI-Yang/oneirloom.git
+cd oneirloom
+git lfs pull
+git lfs fsck
+git lfs ls-files
+```
+
+Check that `git lfs fsck` passes. In `git lfs ls-files`, `*` marks a complete working-tree payload and `-` marks a pointer. The published-source check hydrated and verified eight objects. Do not copy pointer files as images. GitHub-generated source ZIPs may contain pointers; use a Git LFS clone or the publisher-built `oneirloom-0.1.1.zip`, whose 25 raster images have been decoded and checked.
+
+To use the cloned repository as a local marketplace, replace the example path with its absolute location:
+
+```sh
+codex plugin marketplace add /absolute/path/to/oneirloom
+codex plugin add oneirloom@oneirloom-local
+codex plugin list --marketplace oneirloom-local --json
+```
+
+The repository declares the marketplace name `oneirloom-local`. Its local plugin source is `./`, within the marketplace root. The verified public-clone test copied the full repository into a separate wrapper with source `./plugin`; it did not exercise the GitHub shorthand or change an existing `oneirloom-local` installation.
 
 ## Manual skill installation
 

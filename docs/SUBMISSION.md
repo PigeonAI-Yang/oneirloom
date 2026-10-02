@@ -7,18 +7,18 @@ This is a skills-only package candidate. It has no MCP server, connected account
 - Plugin: `oneirloom`, version `0.1.1`, category `Productivity`.
 - Contents: 15 skills, the `assets/icon.svg` listing icon, package documentation, and third-party notices.
 - Source snapshot: `8d195d4fc9404d5da71733c861fd947aa109d4f1`.
-- Corrected native install and discovery: the local 0.1.1 candidate was enabled on Codex CLI 0.153.0. Its 117 ZIP entries matched the extracted package and installed cache by hash and size; eight Git LFS objects were hydrated, no pointers remained, and all 25 raster images decoded. `skills/list` returned all 15 skills with zero candidate-specific errors. This verifies the local candidate package, not installation from the published GitHub marketplace. The optional renderer passed a separate local synthetic-image check; see [compatibility](COMPATIBILITY.md).
-- Public release status: not submitted or listed.
-- Website and privacy-policy URLs: live verification pending; see [compatibility](COMPATIBILITY.md) for the canonical destinations.
+- Corrected native install and discovery: the local 0.1.1 candidate was enabled on Codex CLI 0.153.0. Its 117 ZIP entries matched the extracted package and installed cache by hash and size; eight Git LFS objects were hydrated, no pointers remained, and all 25 raster images decoded. `skills/list` returned all 15 skills with zero candidate-specific errors. A separate local-wrapper install of public commit `463e68f1a4965b7bedba68d2946b93cb743874bb` matched all 343 source files to the cache and discovered all 15 skills with zero candidate-specific errors. The direct GitHub shorthand remains untested. The final documentation update leaves all skill files, scripts, plugin manifests, icons, and images unchanged from the tested package. The optional renderer passed a separate local synthetic-image check; see [compatibility](COMPATIBILITY.md).
+- Public repository and marketplace: published. OpenAI plugin directory: not submitted or listed.
+- Website and privacy-policy URLs: live reachability and content checks passed on 2026-10-02 for all six Chinese and English product, installation, and safety pages. See [compatibility](COMPATIBILITY.md) for the verification scope and canonical destinations.
 
 ## Publisher actions
 
 1. Confirm the organization and project that will own the plugin. An organization owner can submit; other members need Apps Management Write.
-2. Complete the required individual or business developer verification in organization settings.
+2. Complete the required individual or business developer verification in [organization settings](https://platform.openai.com/settings/organization/general).
 3. Review `THIRD_PARTY_NOTICES.md`, the bundled Qwen research-license text and Notice, and provenance/redistribution rights for every bundled third-party asset and example. Resolve any rights gap before submission.
-4. Verify that the website, support, and privacy-policy URLs are reachable, public, and identify the same publisher. Review the public listing copy and package contents.
-5. Upload `dist-plugin/oneirloom-0.1.1.zip` through the Plugins Directory submission flow as a skills-only package. Keep credentials and private data outside the ZIP.
-6. Wait for the metadata and skill scans. Copy the portal findings, resolve required issues in the source package, create a corrected ZIP, and upload it again. OpenAI's documentation says skill scans can take up to two hours.
+4. Review the public listing copy, package contents, and publisher identity. The website and privacy-policy URLs have passed live checks. Recheck the public URLs if they change, including the support destination.
+5. Open [Plugins](https://platform.openai.com/plugins), select your verified developer identity, and upload `dist-plugin/oneirloom-0.1.1.zip` as a skills-only package. Keep credentials and private data outside the ZIP.
+6. Wait for the metadata and skill scans. Copy the portal findings, resolve required issues in the source package, create a corrected ZIP, and upload it again.
 7. Review the final draft and complete only the policy attestations the publisher can truthfully make. Submit for review; publish only after approval and the publisher's explicit release decision.
 
 Skills-only submissions do not require MCP positive/negative test cases or an MCP walkthrough video. Skill scans and developer verification still apply. No portal scan or review result is available for this candidate.
