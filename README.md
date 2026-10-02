@@ -1,10 +1,12 @@
-# 织梦师 · Oneirloom
+# 织梦师 Oneirloom
 
 **把想象，写成画面。**
 
-一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。
+织梦师是一套包含 15 个开放源代码视觉创作 Agent Skills 的集合。它帮助 AI 助手分析参考图、编写图像提示词、构思产品广告和角色方案，并根据生成结果修订画面要求。织梦师提供创作方法和提示词，不包含生图模型或生成服务。
 
-[开始使用](#开始使用) · [案例与记录](#案例与记录) · [技能目录](#技能目录) · [English](README.en.md) · [完整详情页](docs/product-page/index-oneirloom-v4.html)
+[项目主页](https://www.pigeonyang.top/skills/oneirloom/) · [在线安装说明](https://www.pigeonyang.top/skills/oneirloom/install/) · [安全说明](https://www.pigeonyang.top/skills/oneirloom/safety/) · [English](README.en.md) · [完整详情页](docs/product-page/index-oneirloom-v4.html)
+
+[安装文档](docs/INSTALL.md) · [兼容性说明](docs/COMPATIBILITY.md) · [安全与隐私](docs/SAFETY.md) · [第三方材料说明](THIRD_PARTY_NOTICES.md) · [提交指南](docs/SUBMISSION.md)
 
 [![织梦师商品主视觉：织梦兽把人像、志怪插画与产品广告织进梦网。把想象，写成画面。](docs/assets/product-page/01-hero-oneirloom-v4.webp)](docs/assets/product-page/01-hero-oneirloom-v4.webp)
 
@@ -40,33 +42,43 @@
 
 ## 开始使用
 
-### 安装技能集合
+### 手动安装到 Codex 项目
 
-```bash
-git clone https://github.com/PigeonAI-Yang/oneirloom.git
-```
+将仓库的 `skills/` 下全部 15 个 `oneirloom*` 技能目录复制到 Codex 项目根目录的 `.agents/skills/`，让这些目录保持同级。保留每个目录中的全部原有文件，包括其中已有的 `scripts/`、`references/`、`templates/` 和 `assets/`。不要只复制 `SKILL.md`。
 
-将 `skills/` 下的所有 `oneirloom*` 目录放进 AI 助手的技能搜索目录，保持同级关系，并保留各目录中的参考资料、模板和图片。
+在新对话中请求“织梦师”或“Oneirloom”，也可以显式调用 `$oneirloom`。织梦师负责分析与编写提示词。图像生成由你选择的工具或服务执行。
 
-在新的对话中检查是否出现 `oneirloom`。你可以称呼它“织梦师”“织梦师Skill”或“Oneirloom”；支持显式调用的助手可用 `$oneirloom`。
+上传 ZIP 到普通聊天不等于安装技能。宿主必须支持 Agent Skills。参考图分析还要求宿主能把图像传给助手。更多安装与兼容性信息见[安装文档](docs/INSTALL.md)和[兼容性说明](docs/COMPATIBILITY.md)。
 
 ### 用一个真实需求开始
 
-以下指令发给 AI 助手。得到提示词后，再将提示词放进生图工具。
+第一次使用，也可以直接说：“用织梦师，把这个视觉想法写成完整生图提示词。”下方两个例子展示了如何说明目标、保留项和修改方向。得到提示词后，再将提示词放进生图工具。
 
-```text
+~~~text
 用织梦师分析我上传的产品照片，帮我构思一张广告。
 保留产品的形状、包装和主要配色，加入手绘微缩世界。
 先根据产品本身选择创意，再给我完整提示词，只要中文。
-```
+~~~
 
-```text
+~~~text
 用织梦师检查我上传的结果图和原提示词。
 现在鞋子被裁掉了，我想要完整全身取景。
 保留人物、衣服、房间和光线，给我完整修订提示词。
-```
+~~~
 
 有参考图时，说明每张图负责身份、姿势、配色还是风格。已有目标模型、工具入口、原提示词或结果图时，也一起提供。
+
+### 通过 Codex 插件安装
+
+仓库 marketplace 发布后，可在 Codex CLI 中运行：
+
+~~~bash
+codex plugin marketplace add PigeonAI-Yang/oneirloom --ref main
+codex plugin add oneirloom@oneirloom-local
+codex plugin list --marketplace oneirloom-local --json
+~~~
+
+这些命令添加并安装本仓库提供的 marketplace。仓库 marketplace 的发布不代表 Oneirloom 已进入或获准进入 OpenAI 官方插件目录。安装步骤和核验状态见[安装文档](docs/INSTALL.md)。
 
 ## 技能目录
 
@@ -97,26 +109,29 @@ git clone https://github.com/PigeonAI-Yang/oneirloom.git
 
 [三层架构](docs/architecture.md) · [模型证据](docs/model-evidence.md) · [摄影模板](skills/oneirloom-style-photography/templates/index.md) · [角色模板](skills/oneirloom-character-sheet/templates/index.md) · [插画模板](skills/oneirloom-style-illustration/templates/index.md) · [设计模板](skills/oneirloom-style-design/templates/index.md)
 
-## 常见问题
+## 使用边界
 
-**需要额外安装生图模型吗？**
+参考图、生成结果和提示词可能包含私人或可识别信息。宿主和你选择的图像服务会按各自隐私条款处理输入。上传前，请检查相关条款，并确认你可以向该服务提供这些材料。发布生成结果前，请检查图像内容、使用条件和所需授权，只发布你有权公开的材料。付费生成前，请核对服务、费用和所需授权；只有你确认后才开始提交付费任务。
 
-织梦师安装的是提示词与创作方法。图片生成通过你所用助手的工具或生图入口运行，是否需要本地模型由该工具决定。
+织梦师只提供创作方法与提示词。它不包含图像生成模型或服务。模型、生成结果、费用和数据处理方式由你选择的宿主与服务决定。
 
-**模板里的例图都能复现吗？**
+可选的提示词卡片渲染器把已有图片和提示词排成 3:4 PNG。它需要本机 Python、Pillow、Playwright 和 Chromium 兼容浏览器，宿主还须允许本地文件执行。仓库不捆绑这些运行依赖。渲染不生成图片，也不需要模型或 API 凭据。
 
-案例记录会说明已有结果、已知参数和偏差。部分模板尚未生成验证；实际效果需要在你的入口中生成并检查。
+## 文档
 
-**可以只要中文吗？**
-
-可以。默认是中英文完整提示词，你也可以指定一种语言。教程采用你要求的文章语言和文风。
-
-## 一起把好用的方法留下来
-
-欢迎补充画面配方、修正方法，或提交带原图与提示词的案例。[贡献指南](CONTRIBUTING.md)说明了模板和记录的组织方式。
-
-如果织梦师帮你写清了想画的图，欢迎给项目一颗 Star，或在 [Issues](https://github.com/PigeonAI-Yang/oneirloom/issues) 分享需求与结果。
+- [安装文档](docs/INSTALL.md)
+- [宿主兼容性](docs/COMPATIBILITY.md)
+- [安全与隐私](docs/SAFETY.md)
+- [提交指南](docs/SUBMISSION.md)
+- [第三方材料与许可说明](THIRD_PARTY_NOTICES.md)
+- [三层架构](docs/architecture.md)
+- [模型证据](docs/model-evidence.md)
+- [摄影模板索引](skills/oneirloom-style-photography/templates/index.md)
+- [角色模板索引](skills/oneirloom-character-sheet/templates/index.md)
+- [插画模板索引](skills/oneirloom-style-illustration/templates/index.md)
+- [设计模板索引](skills/oneirloom-style-design/templates/index.md)
+- [贡献指南](CONTRIBUTING.md)
 
 ## 许可证
 
-[MIT License](LICENSE)。模型与生成服务的使用条款另行适用。
+项目自有的技能说明与代码采用 [MIT License](LICENSE)。MIT License 不覆盖第三方图片和参考资料。随包提供的 Qwen-Image-2.1 官方参考资料按 Qwen Research License 说明用于非商业研究与评估。商业用途需要另行取得许可。请在使用第三方材料前查看[第三方材料说明](THIRD_PARTY_NOTICES.md)。

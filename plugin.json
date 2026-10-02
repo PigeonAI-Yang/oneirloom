@@ -1,0 +1,47 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "oneirloom",
+  "version": "0.1.1",
+  "description": "Visual prompting, reference analysis, and result diagnosis with 15 skills.",
+  "author": {
+    "name": "PigeonAI-Yang",
+    "url": "https://github.com/PigeonAI-Yang"
+  },
+  "homepage": "https://www.pigeonyang.top/skills/oneirloom/",
+  "repository": "https://github.com/PigeonAI-Yang/oneirloom",
+  "license": "MIT",
+  "keywords": [
+    "image-prompting",
+    "visual-analysis",
+    "krea",
+    "qwen-image",
+    "codex",
+    "skills"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Oneirloom · 织梦师",
+        "shortDescription": "Turn visual ideas into prompts",
+        "longDescription": "Oneirloom bundles 15 skills for turning visual ideas into image prompts, analyzing references, shaping composition and light, adapting writing guidance for Krea 2 and Qwen-Image-2.1, and diagnosing results. A host with image input is needed for visual analysis. Prompts do not generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, background service, or automatic upload is bundled.",
+        "developerName": "PigeonAI-Yang",
+        "category": "Productivity",
+        "capabilities": [],
+        "websiteURL": "https://www.pigeonyang.top/en/skills/oneirloom/",
+        "supportURL": "https://github.com/PigeonAI-Yang/oneirloom/issues",
+        "privacyPolicyURL": "https://www.pigeonyang.top/en/skills/oneirloom/safety/",
+        "defaultPrompt": [
+          "Use Oneirloom to turn this visual idea into a complete image prompt.",
+          "Analyze this reference image with Oneirloom before writing the prompt.",
+          "Compare this image result with my intended composition and revise the prompt."
+        ],
+        "brandColor": "#191C19",
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg"
+      },
+      "publication": {
+        "release_notes": "0.1.1 packages the 15-skill snapshot 8d195d4fc9404d5da71733c861fd947aa109d4f1; it corrects listing URLs and documents the Qwen reference license. It excludes the separate c910e63 reference-fidelity changes."
+      }
+    }
+  }
+}

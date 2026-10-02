@@ -1,0 +1,1180 @@
+{
+  "generatedAt": "2026-10-02T01:07:56Z",
+  "package": {
+    "name": "oneirloom",
+    "version": "0.1.1"
+  },
+  "sourceSnapshot": {
+    "commit": "8d195d4fc9404d5da71733c861fd947aa109d4f1",
+    "originalSkillFileCount": 104,
+    "originalSkillBytes": 48980327,
+    "originalSkillFiles": [
+      {
+        "path": "skills/oneirloom-camera-composition/SKILL.md",
+        "sha256": "316dd189b820d7f8371a213b4fbaef41a96a49d2ee8960f27927dcb5e29a6d3b",
+        "bytes": 3694
+      },
+      {
+        "path": "skills/oneirloom-camera-composition/references/reconstruction-checks.md",
+        "sha256": "b364b6da4e5592cf1f226a1e04aaf51fde9bd3c1f70df601b06d3b6da243722b",
+        "bytes": 1136
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/SKILL.md",
+        "sha256": "33d762d8d3f0bc0779f2992a09d62bea933385259ef16de338d721bfa43362c1",
+        "bytes": 3807
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/four-plus-four/template.md",
+        "sha256": "49e44c04686b83a14ab41296cae6b9098bb7d85ef70059771216d3c3061ace28",
+        "bytes": 3694
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/index.md",
+        "sha256": "0daa26be656f9b55070be7e07b31d5f9946061246d910ae4f37da8596a59d444",
+        "bytes": 1099
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/three-view/template.md",
+        "sha256": "12f2ab02987e21b0acffcc1e318b665b4c28555a7a2f43b2c56218fb6115115d",
+        "bytes": 2576
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/delivered-prompt-01-zh.txt",
+        "sha256": "fef581eb482edddc512ddfcce9f6559a366caf9574273053044372aa75750ac8",
+        "bytes": 5776
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.png",
+        "sha256": "eb49ce0f6b9cdf7fc4b57ffc9c65d4eca7487da237dd4a341373318e888b78c8",
+        "bytes": 1912687
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.webp",
+        "sha256": "c79d5d331d0d568e7c4aa6ad54fbb62a7825f0481ad765ce6d351903790da6a9",
+        "bytes": 1043966
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.png",
+        "sha256": "fdc97fdce0772aa4cd2303d07da6d43fc28bff45d185aa14be759dffaa817b86",
+        "bytes": 3746733
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.webp",
+        "sha256": "82d100ba3cdd648f833b96a3b6434fadb30cddfea15e2e66450a5f56ce9b7c47",
+        "bytes": 1902004
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/reference-01.json",
+        "sha256": "7b57a76724b5c27540beae23e8fce770dce18aee0f3572655f19afde697a6220",
+        "bytes": 1007
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/result-01.json",
+        "sha256": "8243f5f6e79000a445b145671fb75c7f675289c1d4d6149987a20218d8ed62a3",
+        "bytes": 1962
+      },
+      {
+        "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md",
+        "sha256": "d06d012c902a94216d1235e0e2d700d008f976576f6bc90ab55a9dcb9be42335",
+        "bytes": 7154
+      },
+      {
+        "path": "skills/oneirloom-color-light/SKILL.md",
+        "sha256": "56e3c54334eeb2d3397eb142d7236a66e227a60472dc5c281e8ef3cb8c0f0645",
+        "bytes": 2829
+      },
+      {
+        "path": "skills/oneirloom-color-light/references/evidence-checks.md",
+        "sha256": "5f61da723767faccf2262cb9da92b4667b0e8892720bb0c80f1d48321ae9ce06",
+        "bytes": 3031
+      },
+      {
+        "path": "skills/oneirloom-figure-art/SKILL.md",
+        "sha256": "3f57968cd7b33994169cc8ecd9e77fa0d5cf3f73da511c7b74dda7d588bee379",
+        "bytes": 3808
+      },
+      {
+        "path": "skills/oneirloom-image-tutorial/SKILL.md",
+        "sha256": "cacdf17a1451fbbbe476e4374e5cc0b8e0c760fdb51f08094f34007850260163",
+        "bytes": 9231
+      },
+      {
+        "path": "skills/oneirloom-image-tutorial/agents/openai.yaml",
+        "sha256": "3642d70043b14d5e5dff9c4e56c0c6001938845b3853c94a916314517dcd189b",
+        "bytes": 271
+      },
+      {
+        "path": "skills/oneirloom-image-tutorial/references/teaching-depth.md",
+        "sha256": "cbdecebf7103c034e4dfea2f3f859379573d5c03cdedf21914bace7a924b6a36",
+        "bytes": 6112
+      },
+      {
+        "path": "skills/oneirloom-model-krea-2/SKILL.md",
+        "sha256": "9ec1f8fba76a0bec7a97ced5a0a44a70218262471df020cd7201f3a3a00ae2f3",
+        "bytes": 2758
+      },
+      {
+        "path": "skills/oneirloom-model-krea-2/references/official/README.md",
+        "sha256": "979ba98cd32c2d67550a0c679970bdbb6b8a9a7606565b4ff21461e8cdedc5aa",
+        "bytes": 1746
+      },
+      {
+        "path": "skills/oneirloom-model-krea-2/references/official/api-overview.txt",
+        "sha256": "f2e69e211dca9219e63b7ff026aac622f912ab125d32ba4545a29db7a7e183d0",
+        "bytes": 17724
+      },
+      {
+        "path": "skills/oneirloom-model-krea-2/references/official/sources.json",
+        "sha256": "e34326c44e02b009fc529b2129492de9e6b75ad0146eea8876da04be9cbe842f",
+        "bytes": 856
+      },
+      {
+        "path": "skills/oneirloom-model-krea-2/references/official/user-guide.txt",
+        "sha256": "657f82dc637e3f2ed9558c8804228263c3ce5ddc5d8744d069777c70b0d0c367",
+        "bytes": 9856
+      },
+      {
+        "path": "skills/oneirloom-model-krea-2/references/tasks.md",
+        "sha256": "84b11fc6a7cf9b4b156a4cd5c54c5e163990987f8c19bb21b64671223231fac5",
+        "bytes": 2908
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/SKILL.md",
+        "sha256": "b48c45e7bd2e9b71ed2045b05f5e1fdbc3d6090fcc2865c3323b02503a6f1827",
+        "bytes": 3524
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/LICENSE",
+        "sha256": "06b7d356cd8cb6b79aa2eef3f934d1e1e8e1c2aa1e85dcc23915dd9a68197249",
+        "bytes": 7886
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/README.md",
+        "sha256": "48502d15d02af9aa305386964cc6157f14ee0cc8c15e33ae625cac7e8be744b7",
+        "bytes": 5483
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/github-readme.md",
+        "sha256": "631e5fc1ab164fc36c7a0bba36b8b9f73bdc10790f52749c5abe355d437a8cd4",
+        "bytes": 21881
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/hf-model-card.md",
+        "sha256": "d0cccf26133add8555d086fb81dee690d9d054224d899c625bab8fe2200aa39e",
+        "bytes": 5515
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/pe-i2i-system-prompt.txt",
+        "sha256": "a78075973b7cf2bc699170449fc24ba264c45fb34538f8b4e266a20d1d3e387b",
+        "bytes": 18549
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/pe-sources.json",
+        "sha256": "59d43999ce4eab94a25262aada5efd1382026cefba79e95df9a6274245d8ad4a",
+        "bytes": 857
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/pe-t2i-system-prompt.txt",
+        "sha256": "5c63d9ea7f57928dfe0998e17e4579d23e8c28c724ff6d74540250faac8885d6",
+        "bytes": 10237
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/prompt-rewrite-readme.md",
+        "sha256": "8a98415bb4082ad5456dafa4f630eb8fe85d4b064ca4d3d703fdfeebe7175a24",
+        "bytes": 10078
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/official/prompt_rewrite/README.md",
+        "sha256": "8a98415bb4082ad5456dafa4f630eb8fe85d4b064ca4d3d703fdfeebe7175a24",
+        "bytes": 10078
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/tasks.md",
+        "sha256": "a0fbc87c7ff7b3daa1a6696c85579b6dade726902dbb4003141f969b5c0c3a9f",
+        "bytes": 2383
+      },
+      {
+        "path": "skills/oneirloom-model-qwen-image-2-1/references/writing.md",
+        "sha256": "5f7f543a382a18098aca98c5e3834157e073014e5d31d2d8fa81b30871ae1a70",
+        "bytes": 3492
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/SKILL.md",
+        "sha256": "3dca57a3f1a6428cb047aaefe7d4076ac21fa94f2020bb5c3030fa51c2f7a893",
+        "bytes": 6410
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/case.md",
+        "sha256": "0257f5e6fe5d32c2c8054d16aa51c610539cf9e80412299fe7c16feba7ee7c3c",
+        "bytes": 2298
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/evidence.json",
+        "sha256": "38010307f06d656f45ffdab4700d22f736a541fa73a480cac8f341315610bd56",
+        "bytes": 2150
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+        "sha256": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607",
+        "bytes": 2522472
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp",
+        "sha256": "4b065b4870ca1f0533556e53644320e13f31c1b0b3720ab76974c14b5cdeaa62",
+        "bytes": 1517236
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+        "sha256": "c0bed162a70ed3a0279ba486b4b2a216f4c44a6459a7504305262ab620ab30ae",
+        "bytes": 2423675
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.webp",
+        "sha256": "1c23ad9eca26daa148b0a3bb1dd03d854d59e23b9f1c7b501e1fa3073789c8ec",
+        "bytes": 1774654
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/prompt.zh.txt",
+        "sha256": "10a78b5a19960a3e194d81220f0cb20181789864c12c70c0298b15d9f21168e0",
+        "bytes": 3128
+      },
+      {
+        "path": "skills/oneirloom-prompt-card/SKILL.md",
+        "sha256": "0ccc3b6b0194bb833514395e187a3eee9ab429739f0de6ec4ce174e6b01741d8",
+        "bytes": 6828
+      },
+      {
+        "path": "skills/oneirloom-prompt-card/agents/openai.yaml",
+        "sha256": "80329a1531dd7697f2596bba912966f082c285178949a59b3a62dbd50a3ad88a",
+        "bytes": 337
+      },
+      {
+        "path": "skills/oneirloom-prompt-card/assets/oneirloom-signature-black.png",
+        "sha256": "2e0c20c30b7dae24663ca12bc9eef37d1dd0030689808fd67c0d220118b93fe3",
+        "bytes": 300211
+      },
+      {
+        "path": "skills/oneirloom-prompt-card/assets/oneirloom-signature.png",
+        "sha256": "26dba9ef31de4057adc37e2767107ea0aac2294f2f3b1eb5006a50d9348b385c",
+        "bytes": 711053
+      },
+      {
+        "path": "skills/oneirloom-prompt-card/assets/oneirloom-woven-signature-white-black-outline.png",
+        "sha256": "3f7685c92a03db8b522b7b2a94ceb3d869ae0f8de61cdd3ccdcef1b27d2aa315",
+        "bytes": 857740
+      },
+      {
+        "path": "skills/oneirloom-prompt-card/scripts/render_card.py",
+        "sha256": "63ad36e1e0cf14312ce756a081f614edb58f4b0e1f3436c20cd4532854d8c212",
+        "bytes": 10597
+      },
+      {
+        "path": "skills/oneirloom-result-diagnosis/SKILL.md",
+        "sha256": "adca301b4c5807d81f968ad0379e3df023667e223ba579a5b189c416d49da551",
+        "bytes": 2719
+      },
+      {
+        "path": "skills/oneirloom-style-design/SKILL.md",
+        "sha256": "3434bbfc8fbab3be7d00ba8bc4c17655a034d8d5aa46a1cf70fec133e224dc7c",
+        "bytes": 2092
+      },
+      {
+        "path": "skills/oneirloom-style-design/references/styles.md",
+        "sha256": "90a311c0c0570f0d05c50337fcdd33cd0ab9bc30a83cb61f6c7488746c02d119",
+        "bytes": 1594
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
+        "sha256": "7f8255c0a12eafc7a170d19148d25a42458be68b77804dbeff5aa1a0441db3fa",
+        "bytes": 8574
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png",
+        "sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+        "bytes": 3024239
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.webp",
+        "sha256": "70b13d0c310b79fd34ea0dce640619736201c0613e232725b2e10c39c15decc2",
+        "bytes": 1590322
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png",
+        "sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+        "bytes": 1735041
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.webp",
+        "sha256": "00df33b13aa9ed48e7591f3850ccf407d7e6a7dc7ff4612fe7157967900b52d1",
+        "bytes": 1218620
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/reference-01.json",
+        "sha256": "a87d37784396cc7d3e6b534728d87706927ca205540ee768ca83aea957657b9f",
+        "bytes": 870
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/result-01.json",
+        "sha256": "53e056582887bb53313ff1cb69b59d70245f880433f5640de72db3d05f5dd138",
+        "bytes": 1802
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/template.md",
+        "sha256": "02ab45657879a19a1ead8e32cbfed33f09d58a4fb20a84e04ff84ab5502e56d8",
+        "bytes": 7368
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/index.md",
+        "sha256": "2aa204a7681e722f38e4945ea011e7b3add775250c40674116c35f001ad1d626",
+        "bytes": 1070
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/product-origin-world/example-01.json",
+        "sha256": "70863563373a5004b1800eb6a351a5b54be76cdb182d36be2f0278a4469ceda3",
+        "bytes": 2222
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+        "sha256": "81219b00a9fbaded674c77161b3f7b69a624e7548ced5012a691750890080734",
+        "bytes": 4806974
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.webp",
+        "sha256": "0c63357eb5dcc741d2368fdead1c2a4e630d0fb6d86d1b23f4b2d72f930e4359",
+        "bytes": 2697424
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/product-origin-world/prompt.zh.txt",
+        "sha256": "23223f3b7771b2ace18691cfee194a007d6a83dc4cb615711256f4fcada04d92",
+        "bytes": 2910
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/product-origin-world/template.md",
+        "sha256": "b6a8bf5cc2e59103cd2550704e15b5c44453e3fa3a74739a2c8a5ead123f99f6",
+        "bytes": 979
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/SKILL.md",
+        "sha256": "47bc88c5ba539dab9d67e64b185e0c66efa2d686c2e296c9544aea33f3590ada",
+        "bytes": 2440
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/references/styles.md",
+        "sha256": "99e4b0042e04a43249bb4ef1f0dcfbb26d367dd05056b71712b7026bf919e79b",
+        "bytes": 1538
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/decorative-rainy-night/template.md",
+        "sha256": "a068614721268672467049779dd6738d116b595c6075eb26789a60da9803ea66",
+        "bytes": 4986
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.png",
+        "sha256": "4a3b0c86a3429c777febf60130473d7480b9d7a5ff85d7b6a05a1744c39a3435",
+        "bytes": 1318237
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.webp",
+        "sha256": "19d62f7d7a450bf919ac7803c52fceafd291793ab2141b1e7c4d5f0835c01cde",
+        "bytes": 833838
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/reference-01.json",
+        "sha256": "c0cfbf9bffd8c2f306837207b6cb2d8c109f68272ddc1aa876316260e95b78b5",
+        "bytes": 2211
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/template.md",
+        "sha256": "db18e39e5fa9c2182b24fe85967e5d0256ab54109263a33f69272b8bba42b655",
+        "bytes": 5323
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/halftone-cutout/template.md",
+        "sha256": "e8034b820bfcadc785a13fc94fe7d7ca35d3a0cf3a80f1c34ba5b3032ca7fdd7",
+        "bytes": 3246
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/index.md",
+        "sha256": "9a0773add58c25fdc6d43d666118e638b3001e5bc27ea72a7574b72d1dd50a6a",
+        "bytes": 1721
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/example-01.json",
+        "sha256": "04986b237d92e88774c5199e775aeddd88eaa74b62efe8b8317fd3f138cac349",
+        "bytes": 2533
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+        "sha256": "d5877fafe7cab1c2d090fbfc34ab567efbf5ea5accf29710ac9396f2560c0977",
+        "bytes": 4760443
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp",
+        "sha256": "b955f997d2c2964f9f47dd745c1694ffcc1f693d72955140f5da99b697d34584",
+        "bytes": 2788570
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md",
+        "sha256": "fc8e62e34f42071950d9450b2cd3d56b817aebc18bd1c1bb2f178341488d23c8",
+        "bytes": 5757
+      },
+      {
+        "path": "skills/oneirloom-style-photography/SKILL.md",
+        "sha256": "145a63ec6e72c731c66af86ac5bbbaefb31649d57e4738602a820af6deac2a32",
+        "bytes": 3318
+      },
+      {
+        "path": "skills/oneirloom-style-photography/references/styles.md",
+        "sha256": "d3edb6ff1f4a5dd0d95efad57328d63d9cf3aa861e29bfb80f9a703d65071acb",
+        "bytes": 1536
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/current-prompt-02-en.txt",
+        "sha256": "cd2b7966a0879418383f5203bc252b424b76c5a7239f97de2fc97d252729ffdc",
+        "bytes": 3614
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/current-prompt-02-zh.txt",
+        "sha256": "c4f89d2c7adbce187578543a94a74399927b5c83053450d37c671b2204f648a1",
+        "bytes": 2547
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/delivered-prompt-01-en.txt",
+        "sha256": "2360e850b0867c5ca8b601cad7dbfeb58f75dae8b049432fdf3662e6c6804289",
+        "bytes": 3648
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/delivered-prompt-01-zh.txt",
+        "sha256": "b61fd799662435f049d54fa193742d8481d99793574f53e02adb1e7561f76057",
+        "bytes": 2595
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/example-01.json",
+        "sha256": "ebed29cb8373d97b819d9d43e3e1e2d1c1de145a14205add29e9e73eaf00db2e",
+        "bytes": 3572
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.png",
+        "sha256": "3329138426dd62be0df43b10bb70c12d8af4c2ca5d4c2d3ec53ceb4394ff19b4",
+        "bytes": 1866618
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.webp",
+        "sha256": "fd9c1f348d3ce9cd12ee2839a7acf77488bb15829b3f803b41fbab347bf50e56",
+        "bytes": 993986
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/template.md",
+        "sha256": "4595398fd133bf561eb8e143d96e04656bc2b49727563e2f6bd432c52bfd4178",
+        "bytes": 8583
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/index.md",
+        "sha256": "fa77fea17890b89a480e8e90cee98601023cf16aba305debf306cce5bdb3a8f9",
+        "bytes": 988
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/indoor-full-length/example-01.json",
+        "sha256": "b423eb76dc32aa8c94af6200ea452a42bfa9c981c4578a8aa69f2d68340bba69",
+        "bytes": 3140
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png",
+        "sha256": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d",
+        "bytes": 1393954
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.webp",
+        "sha256": "5defbc435e3cc88bc1437257de412a79a5dae961097de18a0219f5dd4e2a405d",
+        "bytes": 879650
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/indoor-full-length/template.md",
+        "sha256": "1e63f5c2deed0ef802340b1b0c7193b035e75a78419306842c4f999d896d1aa3",
+        "bytes": 2404
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md",
+        "sha256": "c71f325a509382602e2b238d872dd78704848de63abb849a203dab208757c558",
+        "bytes": 6646
+      },
+      {
+        "path": "skills/oneirloom-visual-analysis/SKILL.md",
+        "sha256": "86e9450fc1b4a43dd14736a66efa4277dc49725acc0b1578196eed085fad7d93",
+        "bytes": 4773
+      },
+      {
+        "path": "skills/oneirloom-visual-analysis/references/profile-portrait.md",
+        "sha256": "adb496290ebcfe88cb9d2481a4b5baa344d8738924dc81a9f64d668bdec78d23",
+        "bytes": 4075
+      },
+      {
+        "path": "skills/oneirloom-visual-analysis/references/reconstruction-workflow.md",
+        "sha256": "47c7cae10351ab11cded9f9160881fec0075956167629f5bfcd241a11d1bde69",
+        "bytes": 12303
+      },
+      {
+        "path": "skills/oneirloom/SKILL.md",
+        "sha256": "32b32f25c38be4aeff167e5adc5b1901cd102a65244565e29203992277fa0598",
+        "bytes": 7869
+      },
+      {
+        "path": "skills/oneirloom/agents/openai.yaml",
+        "sha256": "54603ce5b81a9805cbf601a34d67c811174fa4bbe25af3d0ead27a288821bc9e",
+        "bytes": 250
+      },
+      {
+        "path": "skills/oneirloom/references/person-prompts.md",
+        "sha256": "a58fa4e477a1d81c2333d9040b12060dbd8adbb75a512220221cf147280d43fc",
+        "bytes": 1418
+      }
+    ],
+    "lineEndingNote": "Of the 104 pinned skill files, 79 non-LFS files match their Git blobs after CRLF is normalized to LF; 17 non-LFS files match their Git blobs byte-for-byte; 8 LFS payloads match their pinned pointer OIDs and byte sizes. These disjoint comparison groups are counted separately.",
+    "lfsPayloadResolutions": [
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+        "oid": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607",
+        "bytes": 2522472
+      },
+      {
+        "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+        "oid": "c0bed162a70ed3a0279ba486b4b2a216f4c44a6459a7504305262ab620ab30ae",
+        "bytes": 2423675
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png",
+        "oid": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+        "bytes": 3024239
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png",
+        "oid": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+        "bytes": 1735041
+      },
+      {
+        "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+        "oid": "81219b00a9fbaded674c77161b3f7b69a624e7548ced5012a691750890080734",
+        "bytes": 4806974
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.png",
+        "oid": "4a3b0c86a3429c777febf60130473d7480b9d7a5ff85d7b6a05a1744c39a3435",
+        "bytes": 1318237
+      },
+      {
+        "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+        "oid": "d5877fafe7cab1c2d090fbfc34ab567efbf5ea5accf29710ac9396f2560c0977",
+        "bytes": 4760443
+      },
+      {
+        "path": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png",
+        "oid": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d",
+        "bytes": 1393954
+      }
+    ]
+  },
+  "excludedReferenceFidelityRevision": {
+    "revision": "c910e63",
+    "included": false,
+    "reason": "Separate protected change excluded from this package preparation."
+  },
+  "deliveryOnlyFiles": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "5257d4f74be605cd9689ecf510fbb25353167b4dde05b853662468ee4cb809a3",
+      "includedInZip": false,
+      "purpose": "Local authoring and testing candidate; excluded from public ZIP."
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/Notice",
+      "sha256": "efa09ff399c8e4426b6e57e707c14e5db35258a290a15368a5bacd3e1e8381ab",
+      "bytes": 148,
+      "includedInZip": true,
+      "purpose": "Required Qwen-Image-2.1 research-license attribution notice; added for distribution and not part of the pinned 104-file skill snapshot."
+    }
+  ],
+  "packagedFilesExceptThisManifest": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "sha256": "62341d7a766cd01f41d80e1b33d54778a5f8930b939ab086ea550f3b61a66da4",
+      "bytes": 1671
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "18cf2ce7f1fa5bf8f44e5ebd6df8e58b93381ed89d0d1649aab3a29e55164960",
+      "bytes": 1100
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "275f4b6c7355b869870e2054cd14e8558ccb46144d6a2bc374d84aaba5c969c1",
+      "bytes": 982
+    },
+    {
+      "path": "assets/icon.svg",
+      "sha256": "2524af18d0987266f771e153663cc6f94e1fe32c120e1bec38c24c1135d58007",
+      "bytes": 293
+    },
+    {
+      "path": "docs/COMPATIBILITY.md",
+      "sha256": "160cd07b5978bf4283e85cd09e3c4c449f64c6e7ed342993c2f541082e737a2e",
+      "bytes": 2782
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "sha256": "8c1e846eb08b64ea8aa63074b1f768a5a2722fe0ff38a328ae557cab556da2ad",
+      "bytes": 3187
+    },
+    {
+      "path": "docs/PLUGIN-SUBMISSION.md",
+      "sha256": "924eedf1442a90c135c4f2a9e0d85cb72d05b48f897e156daa4017fd0669d2b5",
+      "bytes": 1204
+    },
+    {
+      "path": "docs/SAFETY.md",
+      "sha256": "254d856cc159dc29dfe71a39e50856ed2c5c347a09916252419a67f8c06c1d3c",
+      "bytes": 1845
+    },
+    {
+      "path": "docs/SUBMISSION.md",
+      "sha256": "d5c83b00913a743903f7b2cecd8aa5676936862a63e116ca6ade03c10322b160",
+      "bytes": 4625
+    },
+    {
+      "path": "docs/model-evidence.md",
+      "sha256": "fd692404990eb91dc8c98bcc7c0060b244aef97ec8ab965a8808efbbe5434636",
+      "bytes": 3428
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "5c41659703277cabd1605ed1064a6d3f397acd327232d981978168df688a313c",
+      "bytes": 2378
+    },
+    {
+      "path": "skills/oneirloom-camera-composition/SKILL.md",
+      "sha256": "316dd189b820d7f8371a213b4fbaef41a96a49d2ee8960f27927dcb5e29a6d3b",
+      "bytes": 3694
+    },
+    {
+      "path": "skills/oneirloom-camera-composition/references/reconstruction-checks.md",
+      "sha256": "b364b6da4e5592cf1f226a1e04aaf51fde9bd3c1f70df601b06d3b6da243722b",
+      "bytes": 1136
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/SKILL.md",
+      "sha256": "33d762d8d3f0bc0779f2992a09d62bea933385259ef16de338d721bfa43362c1",
+      "bytes": 3807
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/four-plus-four/template.md",
+      "sha256": "49e44c04686b83a14ab41296cae6b9098bb7d85ef70059771216d3c3061ace28",
+      "bytes": 3694
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/index.md",
+      "sha256": "0daa26be656f9b55070be7e07b31d5f9946061246d910ae4f37da8596a59d444",
+      "bytes": 1099
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/three-view/template.md",
+      "sha256": "12f2ab02987e21b0acffcc1e318b665b4c28555a7a2f43b2c56218fb6115115d",
+      "bytes": 2576
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/delivered-prompt-01-zh.txt",
+      "sha256": "fef581eb482edddc512ddfcce9f6559a366caf9574273053044372aa75750ac8",
+      "bytes": 5776
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.png",
+      "sha256": "eb49ce0f6b9cdf7fc4b57ffc9c65d4eca7487da237dd4a341373318e888b78c8",
+      "bytes": 1912687
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/reference-01.webp",
+      "sha256": "c79d5d331d0d568e7c4aa6ad54fbb62a7825f0481ad765ce6d351903790da6a9",
+      "bytes": 1043966
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.png",
+      "sha256": "fdc97fdce0772aa4cd2303d07da6d43fc28bff45d185aa14be759dffaa817b86",
+      "bytes": 3746733
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.webp",
+      "sha256": "82d100ba3cdd648f833b96a3b6434fadb30cddfea15e2e66450a5f56ce9b7c47",
+      "bytes": 1902004
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/reference-01.json",
+      "sha256": "7b57a76724b5c27540beae23e8fce770dce18aee0f3572655f19afde697a6220",
+      "bytes": 1007
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/result-01.json",
+      "sha256": "8243f5f6e79000a445b145671fb75c7f675289c1d4d6149987a20218d8ed62a3",
+      "bytes": 1962
+    },
+    {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md",
+      "sha256": "d06d012c902a94216d1235e0e2d700d008f976576f6bc90ab55a9dcb9be42335",
+      "bytes": 7154
+    },
+    {
+      "path": "skills/oneirloom-color-light/SKILL.md",
+      "sha256": "56e3c54334eeb2d3397eb142d7236a66e227a60472dc5c281e8ef3cb8c0f0645",
+      "bytes": 2829
+    },
+    {
+      "path": "skills/oneirloom-color-light/references/evidence-checks.md",
+      "sha256": "5f61da723767faccf2262cb9da92b4667b0e8892720bb0c80f1d48321ae9ce06",
+      "bytes": 3031
+    },
+    {
+      "path": "skills/oneirloom-figure-art/SKILL.md",
+      "sha256": "3f57968cd7b33994169cc8ecd9e77fa0d5cf3f73da511c7b74dda7d588bee379",
+      "bytes": 3808
+    },
+    {
+      "path": "skills/oneirloom-image-tutorial/SKILL.md",
+      "sha256": "cacdf17a1451fbbbe476e4374e5cc0b8e0c760fdb51f08094f34007850260163",
+      "bytes": 9231
+    },
+    {
+      "path": "skills/oneirloom-image-tutorial/agents/openai.yaml",
+      "sha256": "3642d70043b14d5e5dff9c4e56c0c6001938845b3853c94a916314517dcd189b",
+      "bytes": 271
+    },
+    {
+      "path": "skills/oneirloom-image-tutorial/references/teaching-depth.md",
+      "sha256": "cbdecebf7103c034e4dfea2f3f859379573d5c03cdedf21914bace7a924b6a36",
+      "bytes": 6112
+    },
+    {
+      "path": "skills/oneirloom-model-krea-2/SKILL.md",
+      "sha256": "9ec1f8fba76a0bec7a97ced5a0a44a70218262471df020cd7201f3a3a00ae2f3",
+      "bytes": 2758
+    },
+    {
+      "path": "skills/oneirloom-model-krea-2/references/official/README.md",
+      "sha256": "979ba98cd32c2d67550a0c679970bdbb6b8a9a7606565b4ff21461e8cdedc5aa",
+      "bytes": 1746
+    },
+    {
+      "path": "skills/oneirloom-model-krea-2/references/official/api-overview.txt",
+      "sha256": "f2e69e211dca9219e63b7ff026aac622f912ab125d32ba4545a29db7a7e183d0",
+      "bytes": 17724
+    },
+    {
+      "path": "skills/oneirloom-model-krea-2/references/official/sources.json",
+      "sha256": "e34326c44e02b009fc529b2129492de9e6b75ad0146eea8876da04be9cbe842f",
+      "bytes": 856
+    },
+    {
+      "path": "skills/oneirloom-model-krea-2/references/official/user-guide.txt",
+      "sha256": "657f82dc637e3f2ed9558c8804228263c3ce5ddc5d8744d069777c70b0d0c367",
+      "bytes": 9856
+    },
+    {
+      "path": "skills/oneirloom-model-krea-2/references/tasks.md",
+      "sha256": "84b11fc6a7cf9b4b156a4cd5c54c5e163990987f8c19bb21b64671223231fac5",
+      "bytes": 2908
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/SKILL.md",
+      "sha256": "b48c45e7bd2e9b71ed2045b05f5e1fdbc3d6090fcc2865c3323b02503a6f1827",
+      "bytes": 3524
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/LICENSE",
+      "sha256": "06b7d356cd8cb6b79aa2eef3f934d1e1e8e1c2aa1e85dcc23915dd9a68197249",
+      "bytes": 7886
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/Notice",
+      "sha256": "efa09ff399c8e4426b6e57e707c14e5db35258a290a15368a5bacd3e1e8381ab",
+      "bytes": 148
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/README.md",
+      "sha256": "48502d15d02af9aa305386964cc6157f14ee0cc8c15e33ae625cac7e8be744b7",
+      "bytes": 5483
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/github-readme.md",
+      "sha256": "631e5fc1ab164fc36c7a0bba36b8b9f73bdc10790f52749c5abe355d437a8cd4",
+      "bytes": 21881
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/hf-model-card.md",
+      "sha256": "d0cccf26133add8555d086fb81dee690d9d054224d899c625bab8fe2200aa39e",
+      "bytes": 5515
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/pe-i2i-system-prompt.txt",
+      "sha256": "a78075973b7cf2bc699170449fc24ba264c45fb34538f8b4e266a20d1d3e387b",
+      "bytes": 18549
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/pe-sources.json",
+      "sha256": "59d43999ce4eab94a25262aada5efd1382026cefba79e95df9a6274245d8ad4a",
+      "bytes": 857
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/pe-t2i-system-prompt.txt",
+      "sha256": "5c63d9ea7f57928dfe0998e17e4579d23e8c28c724ff6d74540250faac8885d6",
+      "bytes": 10237
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/prompt-rewrite-readme.md",
+      "sha256": "8a98415bb4082ad5456dafa4f630eb8fe85d4b064ca4d3d703fdfeebe7175a24",
+      "bytes": 10078
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/official/prompt_rewrite/README.md",
+      "sha256": "8a98415bb4082ad5456dafa4f630eb8fe85d4b064ca4d3d703fdfeebe7175a24",
+      "bytes": 10078
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/tasks.md",
+      "sha256": "a0fbc87c7ff7b3daa1a6696c85579b6dade726902dbb4003141f969b5c0c3a9f",
+      "bytes": 2383
+    },
+    {
+      "path": "skills/oneirloom-model-qwen-image-2-1/references/writing.md",
+      "sha256": "5f7f543a382a18098aca98c5e3834157e073014e5d31d2d8fa81b30871ae1a70",
+      "bytes": 3492
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/SKILL.md",
+      "sha256": "3dca57a3f1a6428cb047aaefe7d4076ac21fa94f2020bb5c3030fa51c2f7a893",
+      "bytes": 6410
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/case.md",
+      "sha256": "0257f5e6fe5d32c2c8054d16aa51c610539cf9e80412299fe7c16feba7ee7c3c",
+      "bytes": 2298
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/evidence.json",
+      "sha256": "38010307f06d656f45ffdab4700d22f736a541fa73a480cac8f341315610bd56",
+      "bytes": 2150
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+      "sha256": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607",
+      "bytes": 2522472
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp",
+      "sha256": "4b065b4870ca1f0533556e53644320e13f31c1b0b3720ab76974c14b5cdeaa62",
+      "bytes": 1517236
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+      "sha256": "c0bed162a70ed3a0279ba486b4b2a216f4c44a6459a7504305262ab620ab30ae",
+      "bytes": 2423675
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.webp",
+      "sha256": "1c23ad9eca26daa148b0a3bb1dd03d854d59e23b9f1c7b501e1fa3073789c8ec",
+      "bytes": 1774654
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/prompt.zh.txt",
+      "sha256": "10a78b5a19960a3e194d81220f0cb20181789864c12c70c0298b15d9f21168e0",
+      "bytes": 3128
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/SKILL.md",
+      "sha256": "0ccc3b6b0194bb833514395e187a3eee9ab429739f0de6ec4ce174e6b01741d8",
+      "bytes": 6828
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/agents/openai.yaml",
+      "sha256": "80329a1531dd7697f2596bba912966f082c285178949a59b3a62dbd50a3ad88a",
+      "bytes": 337
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/assets/oneirloom-signature-black.png",
+      "sha256": "2e0c20c30b7dae24663ca12bc9eef37d1dd0030689808fd67c0d220118b93fe3",
+      "bytes": 300211
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/assets/oneirloom-signature.png",
+      "sha256": "26dba9ef31de4057adc37e2767107ea0aac2294f2f3b1eb5006a50d9348b385c",
+      "bytes": 711053
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/assets/oneirloom-woven-signature-white-black-outline.png",
+      "sha256": "3f7685c92a03db8b522b7b2a94ceb3d869ae0f8de61cdd3ccdcef1b27d2aa315",
+      "bytes": 857740
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/scripts/render_card.py",
+      "sha256": "63ad36e1e0cf14312ce756a081f614edb58f4b0e1f3436c20cd4532854d8c212",
+      "bytes": 10597
+    },
+    {
+      "path": "skills/oneirloom-result-diagnosis/SKILL.md",
+      "sha256": "adca301b4c5807d81f968ad0379e3df023667e223ba579a5b189c416d49da551",
+      "bytes": 2719
+    },
+    {
+      "path": "skills/oneirloom-style-design/SKILL.md",
+      "sha256": "3434bbfc8fbab3be7d00ba8bc4c17655a034d8d5aa46a1cf70fec133e224dc7c",
+      "bytes": 2092
+    },
+    {
+      "path": "skills/oneirloom-style-design/references/styles.md",
+      "sha256": "90a311c0c0570f0d05c50337fcdd33cd0ab9bc30a83cb61f6c7488746c02d119",
+      "bytes": 1594
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
+      "sha256": "7f8255c0a12eafc7a170d19148d25a42458be68b77804dbeff5aa1a0441db3fa",
+      "bytes": 8574
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png",
+      "sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+      "bytes": 3024239
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.webp",
+      "sha256": "70b13d0c310b79fd34ea0dce640619736201c0613e232725b2e10c39c15decc2",
+      "bytes": 1590322
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png",
+      "sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+      "bytes": 1735041
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.webp",
+      "sha256": "00df33b13aa9ed48e7591f3850ccf407d7e6a7dc7ff4612fe7157967900b52d1",
+      "bytes": 1218620
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/reference-01.json",
+      "sha256": "a87d37784396cc7d3e6b534728d87706927ca205540ee768ca83aea957657b9f",
+      "bytes": 870
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/result-01.json",
+      "sha256": "53e056582887bb53313ff1cb69b59d70245f880433f5640de72db3d05f5dd138",
+      "bytes": 1802
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/template.md",
+      "sha256": "02ab45657879a19a1ead8e32cbfed33f09d58a4fb20a84e04ff84ab5502e56d8",
+      "bytes": 7368
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/index.md",
+      "sha256": "2aa204a7681e722f38e4945ea011e7b3add775250c40674116c35f001ad1d626",
+      "bytes": 1070
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/example-01.json",
+      "sha256": "70863563373a5004b1800eb6a351a5b54be76cdb182d36be2f0278a4469ceda3",
+      "bytes": 2222
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+      "sha256": "81219b00a9fbaded674c77161b3f7b69a624e7548ced5012a691750890080734",
+      "bytes": 4806974
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.webp",
+      "sha256": "0c63357eb5dcc741d2368fdead1c2a4e630d0fb6d86d1b23f4b2d72f930e4359",
+      "bytes": 2697424
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/prompt.zh.txt",
+      "sha256": "23223f3b7771b2ace18691cfee194a007d6a83dc4cb615711256f4fcada04d92",
+      "bytes": 2910
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/template.md",
+      "sha256": "b6a8bf5cc2e59103cd2550704e15b5c44453e3fa3a74739a2c8a5ead123f99f6",
+      "bytes": 979
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/SKILL.md",
+      "sha256": "47bc88c5ba539dab9d67e64b185e0c66efa2d686c2e296c9544aea33f3590ada",
+      "bytes": 2440
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/references/styles.md",
+      "sha256": "99e4b0042e04a43249bb4ef1f0dcfbb26d367dd05056b71712b7026bf919e79b",
+      "bytes": 1538
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/decorative-rainy-night/template.md",
+      "sha256": "a068614721268672467049779dd6738d116b595c6075eb26789a60da9803ea66",
+      "bytes": 4986
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.png",
+      "sha256": "4a3b0c86a3429c777febf60130473d7480b9d7a5ff85d7b6a05a1744c39a3435",
+      "bytes": 1318237
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/images/reference-01.webp",
+      "sha256": "19d62f7d7a450bf919ac7803c52fceafd291793ab2141b1e7c4d5f0835c01cde",
+      "bytes": 833838
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/reference-01.json",
+      "sha256": "c0cfbf9bffd8c2f306837207b6cb2d8c109f68272ddc1aa876316260e95b78b5",
+      "bytes": 2211
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/dessert-storybook-flow/template.md",
+      "sha256": "db18e39e5fa9c2182b24fe85967e5d0256ab54109263a33f69272b8bba42b655",
+      "bytes": 5323
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/halftone-cutout/template.md",
+      "sha256": "e8034b820bfcadc785a13fc94fe7d7ca35d3a0cf3a80f1c34ba5b3032ca7fdd7",
+      "bytes": 3246
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/index.md",
+      "sha256": "9a0773add58c25fdc6d43d666118e638b3001e5bc27ea72a7574b72d1dd50a6a",
+      "bytes": 1721
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/example-01.json",
+      "sha256": "04986b237d92e88774c5199e775aeddd88eaa74b62efe8b8317fd3f138cac349",
+      "bytes": 2533
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+      "sha256": "d5877fafe7cab1c2d090fbfc34ab567efbf5ea5accf29710ac9396f2560c0977",
+      "bytes": 4760443
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp",
+      "sha256": "b955f997d2c2964f9f47dd745c1694ffcc1f693d72955140f5da99b697d34584",
+      "bytes": 2788570
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md",
+      "sha256": "fc8e62e34f42071950d9450b2cd3d56b817aebc18bd1c1bb2f178341488d23c8",
+      "bytes": 5757
+    },
+    {
+      "path": "skills/oneirloom-style-photography/SKILL.md",
+      "sha256": "145a63ec6e72c731c66af86ac5bbbaefb31649d57e4738602a820af6deac2a32",
+      "bytes": 3318
+    },
+    {
+      "path": "skills/oneirloom-style-photography/references/styles.md",
+      "sha256": "d3edb6ff1f4a5dd0d95efad57328d63d9cf3aa861e29bfb80f9a703d65071acb",
+      "bytes": 1536
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/current-prompt-02-en.txt",
+      "sha256": "cd2b7966a0879418383f5203bc252b424b76c5a7239f97de2fc97d252729ffdc",
+      "bytes": 3614
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/current-prompt-02-zh.txt",
+      "sha256": "c4f89d2c7adbce187578543a94a74399927b5c83053450d37c671b2204f648a1",
+      "bytes": 2547
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/delivered-prompt-01-en.txt",
+      "sha256": "2360e850b0867c5ca8b601cad7dbfeb58f75dae8b049432fdf3662e6c6804289",
+      "bytes": 3648
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/delivered-prompt-01-zh.txt",
+      "sha256": "b61fd799662435f049d54fa193742d8481d99793574f53e02adb1e7561f76057",
+      "bytes": 2595
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/example-01.json",
+      "sha256": "ebed29cb8373d97b819d9d43e3e1e2d1c1de145a14205add29e9e73eaf00db2e",
+      "bytes": 3572
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.png",
+      "sha256": "3329138426dd62be0df43b10bb70c12d8af4c2ca5d4c2d3ec53ceb4394ff19b4",
+      "bytes": 1866618
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/images/reference-01.webp",
+      "sha256": "fd9c1f348d3ce9cd12ee2839a7acf77488bb15829b3f803b41fbab347bf50e56",
+      "bytes": 993986
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/hotel-mirror-selfie/template.md",
+      "sha256": "4595398fd133bf561eb8e143d96e04656bc2b49727563e2f6bd432c52bfd4178",
+      "bytes": 8583
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/index.md",
+      "sha256": "fa77fea17890b89a480e8e90cee98601023cf16aba305debf306cce5bdb3a8f9",
+      "bytes": 988
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/indoor-full-length/example-01.json",
+      "sha256": "b423eb76dc32aa8c94af6200ea452a42bfa9c981c4578a8aa69f2d68340bba69",
+      "bytes": 3140
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png",
+      "sha256": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d",
+      "bytes": 1393954
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.webp",
+      "sha256": "5defbc435e3cc88bc1437257de412a79a5dae961097de18a0219f5dd4e2a405d",
+      "bytes": 879650
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/indoor-full-length/template.md",
+      "sha256": "1e63f5c2deed0ef802340b1b0c7193b035e75a78419306842c4f999d896d1aa3",
+      "bytes": 2404
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md",
+      "sha256": "c71f325a509382602e2b238d872dd78704848de63abb849a203dab208757c558",
+      "bytes": 6646
+    },
+    {
+      "path": "skills/oneirloom-visual-analysis/SKILL.md",
+      "sha256": "86e9450fc1b4a43dd14736a66efa4277dc49725acc0b1578196eed085fad7d93",
+      "bytes": 4773
+    },
+    {
+      "path": "skills/oneirloom-visual-analysis/references/profile-portrait.md",
+      "sha256": "adb496290ebcfe88cb9d2481a4b5baa344d8738924dc81a9f64d668bdec78d23",
+      "bytes": 4075
+    },
+    {
+      "path": "skills/oneirloom-visual-analysis/references/reconstruction-workflow.md",
+      "sha256": "47c7cae10351ab11cded9f9160881fec0075956167629f5bfcd241a11d1bde69",
+      "bytes": 12303
+    },
+    {
+      "path": "skills/oneirloom/SKILL.md",
+      "sha256": "32b32f25c38be4aeff167e5adc5b1901cd102a65244565e29203992277fa0598",
+      "bytes": 7869
+    },
+    {
+      "path": "skills/oneirloom/agents/openai.yaml",
+      "sha256": "54603ce5b81a9805cbf601a34d67c811174fa4bbe25af3d0ead27a288821bc9e",
+      "bytes": 250
+    },
+    {
+      "path": "skills/oneirloom/references/person-prompts.md",
+      "sha256": "a58fa4e477a1d81c2333d9040b12060dbd8adbb75a512220221cf147280d43fc",
+      "bytes": 1418
+    }
+  ],
+  "selfHash": "Stored in external dist-plugin/SHA256SUMS.txt and validation.json."
+}

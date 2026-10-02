@@ -1,42 +1,93 @@
-# Oneirloom
+# Oneirloom (织梦师)
 
-Oneirloom is the public name of this collection, also called "织梦师", "织梦师Skill", or "Oneirloom Skill". The main technical skill ID is `oneirloom`; method IDs use the `oneirloom-` prefix.
+**Turn visual ideas into clear image prompts.**
 
-Turn visual requests, references, and generation misses into complete image prompts, or develop illustrated image-generation tutorials.
+Oneirloom is an open-source collection of 15 visual creation Agent Skills. It helps an AI assistant analyze reference images, write image prompts, plan product ads and character sheets, and revise prompts against generated results. Oneirloom provides creative methods and prompt instructions. It does not include an image-generation model or service.
 
-The collection uses three layers: **one main skill, reusable method skills, and indexed templates**. Concrete recipes live with their prompts and example records instead of becoming separate skills.
+[English project page](https://www.pigeonyang.top/en/skills/oneirloom/) · [Installation guide](https://www.pigeonyang.top/en/skills/oneirloom/install/) · [Safety guide](https://www.pigeonyang.top/en/skills/oneirloom/safety/) · [简体中文](README.md)
 
-## Use
+[Repository installation](docs/INSTALL.md) · [Host compatibility](docs/COMPATIBILITY.md) · [Safety and privacy](docs/SAFETY.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Submission guide](docs/SUBMISSION.md)
 
-1. Install the skill directories under `skills/` as siblings in the host's skill search root.
-2. Ask for Oneirloom, "织梦师", or "织梦师Skill"; explicitly invoke `$oneirloom` when using the technical ID. Method skills remain available directly.
-3. Give the requested image or tutorial goal and any model, reference, or result already available. Confirmed conversation settings are inherited.
-4. The main skill selects methods. A method reads its template index only when a concrete recipe helps, then loads a matching template. Without a match, it composes from its reusable method.
+## Install in a Codex project
 
-For standalone image prompts, the default output is a complete Chinese prompt followed by an equivalent English prompt, with one pair per explicitly requested model. An explicit single-language request overrides this default. Parameters and reference-image inputs remain outside prompt text.
+Copy all 15 sibling directories matching `skills/oneirloom*` into `.agents/skills/` at your Codex project root. Keep each directory intact, including its existing `SKILL.md` file and any `scripts/`, `references/`, `templates/`, or `assets/` folders.
 
-For tutorials, invoke `oneirloom-image-tutorial` or ask the main skill to write, expand, or polish an illustrated lesson. The requested article language and author voice govern the deliverable. Prose-only revisions reuse existing evidence.
+Start a new chat and ask for Oneirloom or invoke `$oneirloom`. Uploading a ZIP to a regular chat does not install these skills. The host must support Agent Skills. Reference-image analysis also requires the host to pass images to the assistant.
 
-## Three layers
+Try: “Use Oneirloom to turn this visual idea into a complete image prompt.” Attach a reference for analysis, or provide a target and result image for diagnosis.
 
-| Layer | Contents |
+See the [installation guide](docs/INSTALL.md) and [host compatibility notes](docs/COMPATIBILITY.md) for other installation and runtime requirements.
+
+## Install from the Codex marketplace
+
+After this repository's marketplace is published, run:
+
+~~~bash
+codex plugin marketplace add PigeonAI-Yang/oneirloom --ref main
+codex plugin add oneirloom@oneirloom-local
+codex plugin list --marketplace oneirloom-local --json
+~~~
+
+These commands add and install this repository's marketplace. Publishing a repository marketplace does not mean that OpenAI has listed or approved Oneirloom in its official plugin directory. See the [installation guide](docs/INSTALL.md) for the steps and verification status.
+
+## Skill collection
+
+Oneirloom uses three layers: one main skill, reusable method skills, and indexed templates. The main skill routes a request and combines the selected methods. Concrete visual recipes live with their templates and evidence.
+
+| Skill | Purpose |
 | --- | --- |
-| Main | [Oneirloom](skills/oneirloom/SKILL.md): context, routing, integration, output contract |
-| Methods | Visual analysis; character sheets; figure art; camera/composition; color/light; photography; illustration; design; Krea 2; Qwen-Image-2.1; result diagnosis; tutorial writing |
-| Templates | [Photography](skills/oneirloom-style-photography/templates/index.md), [character sheets](skills/oneirloom-character-sheet/templates/index.md), [illustration](skills/oneirloom-style-illustration/templates/index.md), and [design](skills/oneirloom-style-design/templates/index.md): selection, visual anchors, slots, prompt scaffolds, image paths and evidence |
+| [oneirloom](skills/oneirloom/SKILL.md) | Main entry point, context handoff, routing, and complete delivery |
+| [oneirloom-visual-analysis](skills/oneirloom-visual-analysis/SKILL.md) | Reference-image breakdown and visual relationships |
+| [oneirloom-product-art-direction](skills/oneirloom-product-art-direction/SKILL.md) | Product-ad concepts and image stories |
+| [oneirloom-camera-composition](skills/oneirloom-camera-composition/SKILL.md) | Framing, camera position, perspective, crop, and occlusion |
+| [oneirloom-color-light](skills/oneirloom-color-light/SKILL.md) | Regional color, light direction, and material lighting |
+| [oneirloom-character-sheet](skills/oneirloom-character-sheet/SKILL.md) | Character sheets, views, expressions, and clothing |
+| [oneirloom-figure-art](skills/oneirloom-figure-art/SKILL.md) | Pose and occlusion for non-explicit adult figure art |
+| [oneirloom-style-photography](skills/oneirloom-style-photography/SKILL.md) | Realistic photography, portraits, and cinematic images |
+| [oneirloom-style-illustration](skills/oneirloom-style-illustration/SKILL.md) | Painting, print, collage, and narrative illustration |
+| [oneirloom-style-design](skills/oneirloom-style-design/SKILL.md) | Posters, typography, packaging, products, and 3D images |
+| [oneirloom-model-krea-2](skills/oneirloom-model-krea-2/SKILL.md) | Prompt and task adaptation for Krea 2 |
+| [oneirloom-model-qwen-image-2-1](skills/oneirloom-model-qwen-image-2-1/SKILL.md) | Prompt and task adaptation for Qwen-Image-2.1 |
+| [oneirloom-result-diagnosis](skills/oneirloom-result-diagnosis/SKILL.md) | Generation-result diagnosis and prompt revision |
+| [oneirloom-image-tutorial](skills/oneirloom-image-tutorial/SKILL.md) | Writing and editing illustrated tutorials |
+| [oneirloom-prompt-card](skills/oneirloom-prompt-card/SKILL.md) | A 3:4 share card with an existing image and complete prompt |
+
+The [photography templates](skills/oneirloom-style-photography/templates/index.md), [character-sheet templates](skills/oneirloom-character-sheet/templates/index.md), [illustration templates](skills/oneirloom-style-illustration/templates/index.md), and [design templates](skills/oneirloom-style-design/templates/index.md) contain visual anchors, prompt scaffolds, image paths, and evidence.
 
 Templates include crouching selfies, indoor full-length portraits, four-view plus four-expression cards, three-view cards, character wardrobe sheets, decorative rainy-night prints, halftone portrait cutouts, physical fuse-bead artworks, and portrait-to-blind-box comparison images.
 
-A method directory includes its own template assets. Method skills remain usable without a matching template. Skill lookup uses exact names; Markdown links do not automatically invoke skills. For installation and ownership details, see the [architecture](docs/architecture.md).
+A method directory may include its own template assets. A method skill works without a matching template. Skill lookup uses exact names. Markdown links do not invoke skills. See the [architecture](docs/architecture.md) for installation and ownership details.
 
-## Example evidence
+## Examples and evidence
 
 The [indoor full-length template](skills/oneirloom-style-photography/templates/indoor-full-length/template.md) contains an existing generated PNG and its exact submitted prompt and settings. The image was inspected during migration, with framing and foot-spacing limitations recorded. Its generalized scaffold has not been generated.
 
-Other migrated templates explicitly distinguish missing image evidence from user-reported results. Adding an image path does not itself establish visual success.
+Other migrated templates distinguish missing image evidence from user-reported results. Adding an image path does not establish visual success.
 
-The [character wardrobe sheet](skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md) contains an original illustrated reference, a user-provided realistic result, and the Chinese prompt delivered in the conversation. The result was inspected with turnaround and costume-portrait deviations. Its actual execution metadata is unknown, and the generalized scaffold has not been generated.
+The [character wardrobe sheet](skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md) contains an original illustrated reference, a user-provided realistic result, and the Chinese prompt delivered in the conversation. The result was inspected, with turnaround and costume-portrait deviations recorded. Its actual execution metadata is unknown, and its generalized scaffold has not been generated.
 
-## Maintenance
+## Compatibility and optional rendering
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) for adding templates and examples, and [model evidence](docs/model-evidence.md) for model-specific claims. This repository uses the MIT license; model and service terms remain separate.
+A host must support Agent Skills to discover and invoke Oneirloom. Reference-image analysis also requires a host that can pass image inputs to the assistant. Image-generation availability, model behavior, and service fees depend on the tools you choose.
+
+The optional prompt-card renderer turns an existing image and prompt into a 3:4 PNG. It requires local `Python`, `Pillow`, `Playwright`, and a Chromium-compatible browser. The host must permit local file execution. The repository does not bundle these runtime dependencies. The renderer does not generate images or require model or API credentials.
+
+## Safety and privacy
+
+Your host and selected image service process inputs under their own privacy terms. Before you upload a reference or result image, review those terms and confirm you have permission to share the material with that service. Review the image and its usage terms before publication. Publish only material that you have permission to share. Start paid generation only after you confirm the provider and cost.
+
+Oneirloom provides methods and prompts. It does not include an image-generation model or service. Your selected host and provider control image processing, generation, and charges.
+
+## Licenses
+
+The MIT license covers project-owned skill instructions and code. It does not grant rights to third-party images or reference materials. The bundled official Qwen-Image-2.1 reference materials are identified in the package notice as governed by the Qwen Research License for non-commercial research and evaluation. Commercial use requires separate permission. Read [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before reusing those materials.
+
+## Further documentation
+
+- [Installation guide](docs/INSTALL.md)
+- [Host compatibility](docs/COMPATIBILITY.md)
+- [Safety and privacy](docs/SAFETY.md)
+- [Submission guide](docs/SUBMISSION.md)
+- [Third-party notices](THIRD_PARTY_NOTICES.md)
+- [Model evidence](docs/model-evidence.md)
+- [Contributing guide](CONTRIBUTING.md)
