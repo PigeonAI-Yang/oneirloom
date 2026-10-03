@@ -5,6 +5,8 @@ description: 把色彩、明度、对比、光向、材质受光和空气感转�
 
 # Color and light
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 把色彩、明度、对比、光向、材质受光和空气感转成区域明确的提示词语言。本技能是判断规则库，不是时序流程：按下面的清单检查，反推场景的证据细则在 references。
 
 ## When to use

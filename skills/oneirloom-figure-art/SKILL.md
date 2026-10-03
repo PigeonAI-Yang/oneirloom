@@ -5,6 +5,8 @@ description: Shape non-explicit artistic prompts for clearly adult unclothed fig
 
 # Adult Artistic Figure
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 成人非露骨艺术人体的方法技能：协调可见解剖与视角相关的遮挡，媒介与风格仍归各自的分支。本技能是判断规则库，按清单检查。
 
 ## When to use

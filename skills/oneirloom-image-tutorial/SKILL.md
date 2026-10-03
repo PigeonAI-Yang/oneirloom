@@ -5,6 +5,8 @@ description: Write, expand, or polish illustrated image-generation tutorials wit
 
 # Image-generation tutorial writing
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 Produce a tutorial the author can teach from and the reader can follow. The deliverable is an article with explanatory images, not a list of prompt keywords or a production report.
 
 ## When to use

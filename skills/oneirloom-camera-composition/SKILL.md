@@ -5,6 +5,8 @@ description: 将景别、机位、视角、透视、遮挡、裁切和运动意�
 
 # Camera and composition
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 将景别、机位、视角、透视、遮挡、裁切和运动意图写成明确的画面空间关系。本技能是判断规则库：按清单检查每项空间关系，反推场景的尺度图细则在 references。
 
 ## When to use

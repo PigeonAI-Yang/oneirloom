@@ -5,7 +5,9 @@ description: 拆解参考图或模糊视觉需求，提取可检验的主体、�
 
 # Visual analysis
 
-Split a reference image or a vague visual request into checkable anchors before any prompt is drafted. This skill feeds the main skill's internal visual specification; it does not redraft the final prompt itself.
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
+Split a reference image or a vague visual request into checkable anchors before any prompt is drafted. This skill supplies the active task's internal visual specification; it does not redraft the final prompt itself.
 
 ## When to use
 
@@ -20,7 +22,7 @@ Route the incoming task before reading further:
 
 For any reconstruction, keep observed facts, user-confirmed targets, reasonable inferences, and unknowns separate throughout. Only facts and user-confirmed intent go into the prompt; do not guess lens models, the original prompt, or unseen garment parts.
 
-For a poster, cover, editorial layout, infographic, or composed product ad, read the [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md). Its Understand, Observe, and Design stages own the process order. During understanding, inspect content and identity images for form, silhouette, connected parts, defining color and material, and visible action. Separate visible facts, user-stated meaning, tentative readings, and unknowns. During observation, inspect the actual selected style image before its stored recipe. Read large composition and hierarchy first, then each depicted version's position, direction, visible portions, type interleaving, accent bounds, and local construction. Record local tone changes and rectangular interruptions separately from displaced fragments; global continuity does not rule out a local dark segment. Label estimates and leave exact cuts or hidden production unknown when resolution cannot support them. Hand these observations to the SOP's design stage before selecting production tools. Preserve existing portrait, garment, and pose checks wherever those details must survive; a style-only example does not make its pose or content mandatory.
+For graphic source observation or layout reconstruction, read [graphic observation](../oneirloom-style-design/references/graphic-observation.md) directly. It supplies detailed composition, fragments, joins, material, and subject-transfer checks. Analysis-only work does not require the creation process. If the task also creates or redesigns a graphic, read [graphic design](../oneirloom-style-design/SKILL.md) for process order. Preserve all applicable portrait, garment, and pose checks; style-only examples do not make their pose or content mandatory.
 
 ## Workflow overview
 
@@ -51,6 +53,6 @@ Split an abstract effect into candidate mechanisms and keep only the ones the im
 
 Hand the next branch one internal specification: `priority anchors / allowed to vary / unknowns / checkable criteria`. By default deliver only the final prompt; show the analysis when the user asks for it.
 
-For multiple references, state each image's role — identity, pose, color, or style; a style reference is not a pose lock. A reconstruction task keeps identifying relations; a creation task may fill unspecified creative content. For a real product, route to `oneirloom-product-art-direction`: unreadable labels, hidden fillings, internal construction, ingredients, and performance claims remain unknown. Keep observed facts, user-stated facts, and creative intent distinct. Surface critical conflicts between material and user statements before depicting the disputed fact; a style reference or similar item cannot establish this product's facts.
+For multiple references, state each image's role — identity, pose, color, or style; a style reference is not a pose lock. A reconstruction task keeps identifying relations; a creation task may fill unspecified creative content. For a real product, read [product art direction](../oneirloom-product-art-direction/SKILL.md) for product facts, provenance, unknowns, and conflicts. Its evidence rules apply even during analysis-only use.
 
 When two focused correction rounds still miss the same key anchor, hand off to `oneirloom-result-diagnosis` instead of adding near-synonyms.

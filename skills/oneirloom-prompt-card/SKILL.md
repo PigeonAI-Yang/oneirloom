@@ -5,6 +5,8 @@ description: "Create a 3:4 vertical card from an existing image and complete pro
 
 # Image and prompt card
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available.
+
 把已有成品图与完整提示词排成一张可分享卡片的渲染技能。本技能只渲染既有内容；写作新提示词仍归摄影与设计方法。
 
 ## When to use

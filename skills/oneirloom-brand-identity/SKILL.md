@@ -5,7 +5,9 @@ description: Design a coherent brand visual identity across marks, typography, c
 
 # Design a brand visual identity
 
-Build recognition across the brand's actual uses. This method adds system decisions to the shared [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md). Follow its Understand, Observe, and Design stages before choosing tools. The main Oneirloom skill retains task routing and the output contract; local templates supply specific recipes.
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
+Build recognition across the brand's actual uses. This method adds system decisions to the shared [graphic-design process](../oneirloom-style-design/SKILL.md). Follow its Understand, Observe, and Design stages before choosing tools. The shared interaction contract supplies output and continuity rules; local templates supply specific recipes.
 
 ## Understand the brand and delivery scope
 
@@ -33,7 +35,7 @@ Use the existing medium and model methods only when the selected production need
 
 Choose native design, code, image generation, or compositing after the system decisions, respecting the user's tools and constraints. A generated brand board can explore appearance. It cannot establish editable vector masters, correct lettering, font rights, print colors, or separate application files.
 
-For prompt-only requests, provide a usable system brief and the complete prompts needed for the selected assets. Follow the main skill's Chinese and English prompt contract unless the user specifies otherwise. A whole VI system may need several asset prompts and assembly instructions. Do not compress that work into one global image prompt or call the brief a completed VI.
+For prompt-only requests, provide a usable system brief and the complete prompts needed for the selected assets. Follow the shared interaction contract's prompt rules unless the user specifies otherwise. A whole VI system may need several asset prompts and assembly instructions. Do not compress that work into one global image prompt or call the brief a completed VI.
 
 For finished work, review recognition and meaning across the family first, then each application at its intended size. Inspect exact names, mark versions, legibility, color roles, text hierarchy, meaningful character features, and the requested material finish. Compare source fidelity separately from compliance with the submitted prompt or production brief. A locally correct logo placement does not prove the family works.
 

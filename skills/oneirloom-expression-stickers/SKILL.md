@@ -5,9 +5,11 @@ description: Design chat reaction stickers and emote packs with recognizable cha
 
 # Design expression stickers
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 Create static chat reactions unless the user requests animation. A sticker pack contains individually usable reactions. A contact sheet is a preview, and a character sheet establishes identity. Neither substitutes for individual sticker files.
 
-Follow the shared [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md). The decisions below specialize its Understand, Observe, and Design stages for stickers. Keep the current user's identity, medium, and deliverable choices ahead of recipe defaults.
+Follow the shared [graphic-design process](../oneirloom-style-design/SKILL.md). The decisions below specialize its Understand, Observe, and Design stages for stickers. Keep the current user's identity, medium, and deliverable choices ahead of recipe defaults.
 
 ## Understand the character and conversation
 

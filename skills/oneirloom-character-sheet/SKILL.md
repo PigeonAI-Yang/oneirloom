@@ -5,6 +5,8 @@ description: Design character sheets, wardrobe sheets, multi-view identity ancho
 
 # Character sheets
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 角色设定类提示词的方法技能：身份锚点、版式选择与跨视角一致性。具体版式配方在 templates。
 
 ## When to use
@@ -24,6 +26,6 @@ description: Design character sheets, wardrobe sheets, multi-view identity ancho
 
 ## Output and handoff
 
-Follow the router's output contract and keep controls and reference-image inputs outside the prompt. Text alone does not guarantee cross-view identity. For strict continuity, use character references, editing, or iteration only through a confirmed entry. Keep production guidance outside the prompt; if exact labels matter, propose editable typesetting after generation. Explain inference or uncertainty when the user needs it; otherwise deliver the requested prompt. When a generated result misses identity or layout, hand off to `oneirloom-result-diagnosis`.
+Follow the shared interaction contract and keep controls and reference-image inputs outside the prompt. Text alone does not guarantee cross-view identity. For strict continuity, use character references, editing, or iteration only through a confirmed entry. Keep production guidance outside the prompt; if exact labels matter, propose editable typesetting after generation. Explain inference or uncertainty when the user needs it; otherwise deliver the requested prompt. When a generated result misses identity or layout, hand off to `oneirloom-result-diagnosis`.
 
 Method inspiration: <https://x.com/leo_xiaolei/status/2102013053084545433>. The identity and layout method was independently organized rather than copied from the source template.

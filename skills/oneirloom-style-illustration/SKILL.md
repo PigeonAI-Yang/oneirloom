@@ -5,6 +5,8 @@ description: Compose watercolor, print, comic, animation, concept-art, folkloric
 
 # Illustration and painting
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 绘画与插画类提示词的方法技能：先定媒介与画面结构，再写线、纹理、色彩层与主体背景关系。本技能是判断规则库，按清单检查；具体风格配方在 templates。
 
 ## When to use
@@ -14,7 +16,7 @@ description: Compose watercolor, print, comic, animation, concept-art, folkloric
 
 ## Method checklist
 
-When illustration is used in a poster, cover, editorial layout, infographic, or composed ad, read the [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md) before adapting a recipe. It owns the brief, layout, mechanism transfer, and review order; this method supplies linework, medium, texture, and color-layer decisions. Preserve the intended crop, relative areas, and overlap when changing medium. Illustration without a graphic-layout task keeps the checklist below.
+When illustration is used in a poster, cover, editorial layout, infographic, or composed ad, read the [graphic-design process](../oneirloom-style-design/SKILL.md) before adapting a recipe. It owns the brief, layout, mechanism transfer, and review order; this method supplies linework, medium, texture, and color-layer decisions. Preserve the intended crop, relative areas, and overlap when changing medium. Illustration without a graphic-layout task keeps the checklist below.
 
 - Establish the medium and image structure, then specify lines and edges, marks and texture, color layers, the role of paper or canvas, and subject/background relationships.
 - The same style name can describe different techniques; specify the visible result.
@@ -25,10 +27,10 @@ When illustration is used in a poster, cover, editorial layout, infographic, or 
 
 ## Templates and references
 
-- Read the [illustration styles](references/styles.md) for medium choices.
+- Read the [illustration styles](references/styles.md) only to select an unresolved medium or distinguish a needed technique. A fully specified medium uses the checklist without an automatic catalogue read.
 - For a specific preset, read the [template index](templates/index.md), then the matching template only. Match defining visual relations rather than one color or weather word. Use the method above if nothing fits.
 - Preserve user and source-image details when adapting slots, and inspect example images before describing their results. A sample image is not automatically a generation input.
 
 ## Output and handoff
 
-Deliver the illustration description integrated into the main skill's complete prompt. Composition and color relations follow `oneirloom-camera-composition` and `oneirloom-color-light` when they are loaded; reference inspection follows `oneirloom-visual-analysis`. When a generated result misses the intended illustration, hand off to `oneirloom-result-diagnosis`.
+Deliver the illustration description integrated into the active task's complete prompt. Composition and color relations follow `oneirloom-camera-composition` and `oneirloom-color-light` when they are loaded; reference inspection follows `oneirloom-visual-analysis`. When a generated result misses the intended illustration, hand off to `oneirloom-result-diagnosis`.

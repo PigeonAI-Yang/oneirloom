@@ -5,7 +5,9 @@ description: Design coherent functional UI icon families and distinctive app or 
 
 # Design icons for their actual use
 
-Use this method for functional interface icons, icon families, and app or product identifiers. Read the [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md) for the shared process. The guidance below adds icon decisions within Understand, Observe, Design, production, and review. It does not define another design workflow.
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
+Use this method for functional interface icons, icon families, and app or product identifiers. Read the [graphic-design process](../oneirloom-style-design/SKILL.md) for the shared process. The guidance below adds icon decisions within Understand, Observe, Design, production, and review. It does not define another design workflow.
 
 ## Establish the icon's job
 
@@ -52,6 +54,6 @@ Review meaning first, then family consistency at normal viewing size. Inspect re
 
 Open or render actual outputs with available tools. Verify the delivered SVG contains the intended vector geometry when vector output was requested. Check that the number and names of individual files match the brief. A new extension, export receipt, or overview board alone does not prove usable assets.
 
-For prompt-only work, follow the [main skill's output contract](../oneirloom/SKILL.md): complete Chinese and English prompts for the chosen path, unless another language scope was requested. Keep controls and critique outside the copyable prompt. For a vector production request, deliver actual source and preview rather than only prompts.
+For prompt-only work, follow the [shared interaction contract](../oneirloom/references/interaction-contract.md): complete Chinese and English prompts for the chosen path, unless another language scope was requested. Keep controls and critique outside the copyable prompt. For a vector production request, deliver actual source and preview rather than only prompts.
 
 State which files and sizes were inspected, and identify unrendered concepts or unverified platform exports. If a tool is unavailable, preserve completed work and report only the dependent gap. Use [result diagnosis](../oneirloom-result-diagnosis/SKILL.md) for a persistent miss, with meaning and the family reference as the acceptance basis.

@@ -1,39 +1,39 @@
 ---
 name: oneirloom-result-diagnosis
-description: 对比目标图、提示词与生成结果，找出构图、光色、主体、文字或表现形式的主要偏差，并输出保留成功部分的完整修正提示词。用于“跑偏了”“不像”“只改颜色”等迭代任务。
+description: Compare an actual or user-reported result miss with the source, current intent, and submitted prompt. Separate source-to-prompt from prompt-to-result errors and return a complete correction that preserves successful relations. Ordinary requested edits need no diagnosis.
 ---
 
 # Result diagnosis
 
-对比目标、提示词与生成结果，找出主要偏差，交付保留成功部分的完整修正提示词。诊断时区分产生样本的模型/入口与期望的目标模型。
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
 
-## When to use
+Use this capability for an actual or user-reported result miss, or a persistent failure after focused corrections. A request to change a background or color without a reported miss is an ordinary revision under the shared contract, not an automatic diagnosis. Distinguish the model and entry that produced the sample from the desired target.
 
-- “跑偏了”“不像”“只改颜色”等结果迭代任务
-- 已有生成结果与既定目标，需要判断主要偏差并修订提示词
-- 反推、摄影、设计等方法的修正轮失准后转入本技能
+## Compare the available evidence
 
-## Workflow
+For graphic results, read [graphic review](../oneirloom-style-design/references/graphic-review.md) directly. Do not load the graphic creation entry unless findings require renewed understanding or design. Photography and other tasks use the same attribution rules below.
 
-For graphic-design results, read the [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md) and use its review and correction stages against the current intent and adaptation. First inspect intended meaning and recognizable identity, then the whole image-and-text composition. For reference transfer, compare source and result at the same visual height while preserving aspect ratios. Review versions and directions, visible body portions, image mass, type hierarchy and interleaving, accent bounds, open space, fragmentation, and local tonal interruptions before polish or numerical compliance. Global continuity can coexist with a local dark rectangle. A matched mask or correctly placed emblem cannot establish a convincing subject. Compare the actual prompt and any available production decisions separately from source fidelity. Locate a miss in understanding, observation, adaptation design, prompt expression, or execution only when the evidence supports it. Missing prompts and execution records leave those causes unresolved. If local mechanisms match but the whole design fails, report that distinction. Return conceptual failures to the relevant early stage; coordinate-only corrections cannot repair them. With the design intact, fix local errors through the available editable source or an appropriate image edit and preserve successful content. Choose a different production path only when the requested deliverable or observed limitations justify it. Return the complete revised prompt or requested artifact under the graphic output contract, with actual review status. Photography and other non-graphic tasks retain the workflow below. Its evidence-attribution rules still apply to graphics.
+1. Record the requested change, confirmed target, observed or reported deviation, successful parts, main correction dimension, and acceptance basis. With no visible result, use the report conditionally and do not claim inspection.
+2. For reconstruction, read [visual analysis](../oneirloom-visual-analysis/SKILL.md) and its reconstruction workflow. Compare the source, complete submitted prompt when available, and result against the same structural anchors: held-object direction and grip, body-relative covering span, and garment coverage, openings, connectors, and layers. Check hosiery separately from footwear. Distinguish structural misses from taste; hidden details remain unknown.
+3. Compare source-to-prompt fidelity separately from prompt-to-result compliance. An omitted or semantically wrong relation is different from a clearly stated requirement the output ignored; both can occur in one result. Covering a skirt beside the hip differs from concealing the thigh-root region. A stated instep opening that appears filled is an output deviation, not a missing instruction.
+4. Attribute causes only as far as evidence supports. Without the actual prompt, analysis, integration, and generation attribution remain unresolved. Missing execution metadata leaves entry, reference-channel, crop, enhancement, and randomness explanations uncertain. A visible mismatch does not locate the failed stage or prove which skill revision was exercised. Do not infer a model rule from one sample.
+5. Correct the requested main dimension where possible. A failed result is evidence, not a replacement target. Preserve successful source- or user-grounded relations and compare the full revision with confirmed scale, crop, occlusion, and prominence. Explain necessary coupled changes. For a local image correction, prefer editing with confirmed masks or reference channels when appropriate instead of repeatedly regenerating everything.
+6. For reconstruction corrections, run the structural counterexample check on the complete revision in every delivered language. Naming a prop or garment category alone is insufficient. If local fullness has spread to the whole body, revise globally scoped size terms while preserving requested local volume, other features, camera, and framing. Do not layer negative body-size commands over the cause.
 
-1. 记录用户请求的改动、已确认的目标值、观察到的偏差、已经成功的画面部分、拟改的主要维度与验收标准。观察不可见时只基于用户描述，不假装看过结果。
-   - For reference reconstruction, read `oneirloom-visual-analysis` and its reconstruction workflow. Compare source, complete submitted prompt when available, and result against the same mandatory structural anchors: held-object direction, visible grip, body-relative covering span, and garment coverage, openings, connectors, and layers. Check hosiery separately from shoes. Distinguish structural misses from aesthetic preferences; hidden details remain unknown.
-2. 判断偏差来源是提示词语义、参考图用途、模型入口、画幅裁切还是生成随机性。若已有源图且用户只改局部，优先使用编辑任务与蒙版／参考通道（入口确认后），不要反复全文生成。
-   - Attribute a miss only as far as the evidence permits. Without the actual submitted prompt, analysis, integration, and generation attribution remains unresolved; missing execution metadata leaves execution-specific causes unknown. The visible mismatch alone cannot locate the failed stage. When the submitted prompt is available, classify each relation separately: source-to-prompt omission or semantic mismatch, versus a clearly stated requirement not followed by the output. These can coexist in one result. For example, covering a skirt beside the hip mismatches a target of concealing the thigh-root region; a stated instep opening that appears filled is an output deviation, not a missing instruction. Execution-specific causes and which skill revision produced the prompt still require provenance; do not claim a patch was exercised without that evidence.
-3. 修订：Treat the failed result as evidence of a miss, not as a replacement target. Preserve successful relations grounded in the source or user intent. Compare the revised prompt with the previously confirmed target specification for scale, crop, occlusion, and prominence; state any necessary coupled changes explicitly and preserve all other successful relations. Change only the requested main dimension when possible. Run the workflow's counterexample check on the complete revision in each delivered language; naming the missing prop or clothing category alone is insufficient.
-   - Check for globally scoped body-size terms when local fullness spills over. Revise those terms instead of layering negative "not fat" commands. Keep requested local fullness, the face and other features, camera, and framing intact.
-4. 连续两轮受控修改仍不能解决同一关键偏差时，检查模型、参考通道、提示词增强、画幅和可控设置，不继续堆近义形容词。
-5. 景别边界连续失准时，核对画幅比例、主体占比、姿势与其他构图要求是否冲突。若边界必须精确，按当前入口能力使用裁切、编辑或参考控制；合适时可在生成后裁切。区分模型直接生成的构图与后期裁切，不把后者记作提示词命中。
+## Bound a persistent correction
 
-## Product result corrections
+If the same critical miss remains after two controlled corrections, inspect the actual model, reference channel, prompt enhancement, aspect ratio, and available controls. Do not keep adding synonymous adjectives. Missing access blocks only the unsupported explanation or operation.
 
-Use `oneirloom-product-art-direction` for product misses. Compare the original product evidence and current agreed creative intent with the submitted prompt and result separately. A miniature world can be intentional; an invented filling, changed package, or wrong item count is not justified by attractive styling. If the user has replaced an old direction, diagnose against the new one while retaining valid product facts.
+For repeated crop misses, check whether aspect ratio, subject occupancy, pose, and other requirements conflict. When exact boundaries matter, use supported cropping, editing, or reference controls; a suitable post-generation crop is also possible. Report post-processing separately from direct model compliance.
 
-Describe changed geometry or packaging as concrete affirmative target relations in the complete revision. Keep successful background, style, and copy unless the correction requires a coupled layout change. If only a user report or synthetic result description is available, label it and leave visual inspection and execution causes unresolved. Do not adopt generated details as evidence about the real product. Unreadable labels remain unresolved until a readable source or an available preservation method supports them.
+## Correct a real product
 
-## Output and handoff
+Read [product art direction](../oneirloom-product-art-direction/SKILL.md) for any product miss. Compare original evidence and the current agreed concept with the submitted prompt and result separately. A miniature world may be intentional; attractive styling does not justify invented filling, altered packaging, or a wrong count. Diagnose against the user's replacement direction when one exists, retaining valid product facts.
 
-Return the complete revision as concrete affirmative target states under the main skill's output contract. Replace abstract warnings, negated failed variants, and 'keep correct/consistent' with the intended visible shape, placement, coverage boundary, opening, connector, layering, or material. Keep counterexample tests and error/acceptance lists internal unless requested; requested diagnosis remains outside copyable generation prose. Explicitly requested or entry-required negative prompts use a separate field or block. Preserve matched source relations and leave hidden construction unknown.
+Describe the supported package geometry and target relations affirmatively. Preserve successful background, style, and copy unless correction requires explained reflow. Never adopt generated details as real-product evidence. The product method owns unresolved labels and exact-text dependencies. Label user reports and synthetic descriptions accurately, and leave visual inspection and unsupported execution causes unresolved.
 
-交付整合后的完整修正提示词，而非补丁。内部记录示例：`目标=天空与肤色冷暖分离；偏差=两者均偏青；修改=区域色彩句；保留=姿势、肩脸遮挡、服装；验收=暖肤与冷天分立且构图稳定`。不把一次偶然样本宣称为模型通则。
+## Deliver the correction
+
+Return the complete revised prompt or requested artifact under the shared interaction contract, with actual review status. For a conceptual graphic failure, read [graphic design](../oneirloom-style-design/SKILL.md) and repair the responsible early stage. With the design intact, correct local errors in available editable source or an appropriate image edit. Change production path only when the deliverable or observed limits justify it.
+
+Keep diagnosis, counterexamples, and acceptance lists outside copyable generation prose. Preserve matched source relations and leave hidden construction unknown. A compact internal note can record the target, deviation, changed dimension, preserved relations, and decisive acceptance criterion. It is not another ledger.

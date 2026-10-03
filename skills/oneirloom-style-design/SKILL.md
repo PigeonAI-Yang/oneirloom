@@ -5,30 +5,52 @@ description: Understand visual intent and subject identity, observe references, 
 
 # Graphic, product, and 3D design
 
-This method owns the graphic-design process and its design decisions, plus domain guidance for product, packaging, 3D, and craft prompts. Concrete recipes live in templates.
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
 
-## When to use
+This capability owns the complete graphic-design process below for original and reference-based posters, covers, editorial layouts, infographics, and composed ads. Specialist capabilities supply their subject decisions. Keep reasoning in compact internal notes or the existing task record, without a new questionnaire, ledger, fixed alternative count, or approval round.
 
-- Posters, covers, editorial layouts, infographics, composed product ads, packaging, isolated product images, 3D renders, and physical craft mockups.
-- For static ecommerce visuals based on a real product, use [product art direction](../oneirloom-product-art-direction/SKILL.md) for product evidence, clear or vague briefs, permitted transformations, and revisions. This method retains composition ownership under the SOP. Product truth also applies to isolated catalog and packaging images; those do not require a graphic layout.
-- Use [expression stickers](../oneirloom-expression-stickers/SKILL.md) for individually usable reactions, [icon design](../oneirloom-icon-design/SKILL.md) for UI families and app symbols, and [brand identity](../oneirloom-brand-identity/SKILL.md) for a full VI or defined system extension. Those methods add specialist decisions within the shared SOP. Brand identity owns coordination across assets; this method retains ownership of individual graphic composition and the SOP.
+For real-product depictions, read [product art direction](../oneirloom-product-art-direction/SKILL.md) for evidence, facts, conflicts, and permitted transformations. For a sticker pack, icon family, or VI system, use the relevant specialist for its deliverable and family decisions; this process owns individual graphic compositions. Pure photography, isolated 3D rendering, character turnarounds, tutorials, and existing-image prompt cards retain their own procedures.
 
-## Choose the process
+## 1. Understand the intent and subject
 
-For graphic-design work, read and follow the [graphic-design SOP](references/graphic-design-sop.md). First understand the communication intent and inspect the subject, including form, connected parts, identity, and meaning. Then observe the actual selected style reference before relying on its recipe text. Then design how the subject and message use that visual language. Carry these decisions in compact internal notes or the existing task record. Only then choose direct generation, native design, or compositing for the requested deliverable and actual constraints. Sketches remain provisional; precise masks cannot substitute for anatomical and artistic judgment. Product art direction supplies product-specific decisions within the SOP; illustration supplies the medium when needed.
+Establish the message, purpose, known audience and viewing context, deliverable, format, exact supplied copy, and fixed or open choices. Infer reasonable visual choices without inventing business facts, claims, dates, or copy. Ask only for information that blocks the requested outcome.
 
-Treat image coverage at joins and the relationship between page material, image medium, and final finish as design decisions to carry through the same SOP into production and review.
+Inspect content and identity references for form, silhouette, connected parts, defining colors and materials, and visible action. Determine what makes the subject recognizable and which relationships carry meaning. Keep visible facts, user-stated meanings, tentative interpretations, and unknowns separate. A crescent suspended in blue strands is evidence; sleep or dream-weaving remains interpretation unless confirmed. A meaningful prop is not disposable because it complicates a crop.
 
-For an isolated product, packaging mockup, pure 3D render, or craft study, use the relevant [design reference](references/styles.md) without imposing the graphic-design SOP. Describe product geometry, marks, materials, and context, or 3D geometry, surface response, light, and space. A complete silhouette is a catalog-image requirement only when the task calls for it. Graphic crops and transformations follow the brief and defining mechanism.
+Carry a concrete account of what the design means, what the subject is and does, and which identity and semantic relationships must survive. A title, palette, and size alone do not establish understanding. Inspecting identity here does not replace observing the style reference.
 
-Keep exact wording literal and inspect important text in any actual result. Style labels alone cannot preserve a product mark. Add depth of field, skin detail, or photographic materials only when the requested medium calls for them.
+## 2. Observe the selected reference
 
-## Templates and references
+Assign each input its role. Inspect the actual selected style or layout image before relying on recipe text. Read composition, hierarchy, crop, direction, type-image relations, accents, open space, local construction, and material. A recipe cannot override visible evidence or a user correction. With no style reference, use the brief without inventing source observations.
 
-- Use the [design reference](references/styles.md) to identify relevant domain checks, not a second workflow.
-- When a recipe helps, read the [template index](templates/index.md), then only the matching template. Apply the SOP's distinction between defining relations, adjustable presentation, and sample content. Required mechanism and crop take precedence over sample defaults; explicit user choices remain fixed. Preserve recognizable identity and required product facts through the permitted treatment.
-- With no matching template, compose from the method. Inspect example images before describing their effects. A style reference does not prove that a stored prompt generated it.
+For style-reference transfer or uncertainty about fragments, joins, material, or subject transfer, read [graphic observation](references/graphic-observation.md). Use visual analysis for requested reconstruction and applicable portrait, garment, or pose checks. A style-only source does not impose its subject, pose, or incidental copy. Keep evidence, estimates, interpretations, and unknowns distinct.
 
-## Output and handoff
+## 3. Design the adaptation
 
-For prompt-only work, deliver complete usable Chinese and English prompts for the selected path under the main skill's output contract. Include asset prompts and assembly guidance when the chosen path needs them. For a finished graphic, deliver the final preview, actual inspection status, and editable source or assets when warranted. Review meaning, identity, and the whole image-and-text composition before local compliance. Product ads add the product art direction checks. Route misses to `oneirloom-result-diagnosis` and repair the stage supported by the evidence.
+Connect each major transformation to the message, subject, and observed visual relations. Separate defining relations to retain, adjustable presentation, and sample content to replace. Original work derives choices from the brief. Explicit user choices remain fixed; a required mechanism or crop overrides sample defaults such as full visibility.
+
+Resolve subject portions and direction, crop, fragmentation, image-to-type scale, overlap order, secondary copy, accents, local tone changes, and open space. Preserve recognizable identity and meaningful action through the treatment. If a crop omits an action-bearing feature, resolve how its meaning changes. Translate composition using the new subject's own anatomy. A sketch or placeholder mask remains provisional and must not dictate anatomy.
+
+Resolve image coverage or deliberate gaps at joins and the relationship between page material, image medium, and final finish. A defining finish belongs in the design, not optional polish. Clean digital work need not acquire aged paper. Keep exact copy literal. Changed title length or line count needs deliberate reflow. Omit unsupported small copy and rebalance hierarchy instead of filling space with decoration or automatically moving the title to an unrelated corner.
+
+Before production, ask whether the design could retain every object yet lose the action, or satisfy coordinates yet lose identity and hierarchy. Return to understanding or observation when needed. Prompt padding, model blame, and fixed pixels cannot resolve an unmade design decision. Carry the resolved adaptation and reasons for departures in the existing notes.
+
+## 4. Choose production and deliver its scope
+
+Choose direct generation, native design, or compositing from the resolved design, requested deliverable, available tools, text accuracy, and observed limitations. Honor explicit code, vector, particular-model, and single-model requests. No production tool establishes design competence.
+
+For prompt-only direct generation, write the complete composition with subject, exact text, spatial relations, material, and resolved coverage at joins. Do not load execution detail solely to draft that prompt. For a finished graphic or a selected composite requiring asset assembly, read [graphic production](references/graphic-production.md). Supply necessary asset prompts and assembly guidance for that selected path. Missing tools block only dependent work.
+
+## 5. Review and correct
+
+For an actual or reported graphic result, read [graphic review](references/graphic-review.md). Judge meaning and subject identity, then the whole image-and-text composition, before local polish or numerical compliance. Compare source fidelity separately from compliance with submitted prompts or production decisions. Product ads add product checks. A report alone is not image inspection.
+
+Repair the responsible stage and preserve successful work. Conceptual failures require understanding or design changes; with the design intact, use available editable source or an appropriate edit for local errors. If the same critical miss survives two controlled corrections, read result diagnosis for bounded investigation instead of adding synonyms. Continue authorized corrections without repeated approvals.
+
+Prompt-only delivery includes complete usable prompts for the selected path and truthful unrendered status. Finished graphics require a final preview, actual inspection status, and editable source or assets when warranted. A prompt or queue receipt is not a visually verified graphic. Preserve historical evidence; revised guidance inherits no validation from old outputs.
+
+## Other design tasks and optional recipes
+
+For isolated product, packaging, pure 3D, or craft studies, read the relevant [domain checks](references/styles.md). Describe supported geometry, marks, materials, light, and space without imposing a graphic layout. Complete silhouettes are required when the catalog brief calls for them, not for every creative crop. Add photographic materials, depth of field, or skin detail only when the medium calls for them.
+
+When a concrete recipe helps, read the [template index](templates/index.md), then the selected recipe. Inspect its actual image before relying on its prose. No match permits composition from this method, and a new design does not require a persistent template. A source image does not prove its stored prompt generated it. The [source notes](references/graphic-design-sources.md) explain this local synthesis and do not establish an industry-standard stage count.

@@ -5,6 +5,8 @@ description: 为 Qwen-Image-2.1 文生图、图像编辑、透明背景与多参
 
 # Qwen-Image-2.1 model adapter
 
+Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
 为 Qwen-Image-2.1 编写提示词并核对当前部署入口支持的输入。模型级事实、入口控件与观察结果保持分开；确认的材料颜色与肢体关节状态在适配期间不变。
 
 ## When to use
@@ -20,6 +22,10 @@ description: 为 Qwen-Image-2.1 文生图、图像编辑、透明背景与多参
 5. Transparency. 透明图要明确 RGBA／透明背景目标，并确认当前部署是否输出 alpha；参数和分辨率与正文分开。The model supports native RGBA, but output from the active entry is unverified until you inspect the file for an alpha channel. Transparency wording alone does not establish that the active entry exposes RGBA output. Keep transparency as the target instead of silently switching to white.
 6. Evidence discipline. The companion prompt-rewriter documentation describes separate fine-tuned Qwen3.5-VL checkpoints for text-to-image and editing. Its text-to-image checkpoint outputs a detailed English prompt from input in any language. This does not show that English outperforms Chinese with Qwen-Image-2.1. Avoid a fixed length without comparative evidence.
 
+## Maintain relevant source evidence
+
+For an undocumented requested version or task, check primary official documentation and save relevant text under this adapter's references with its source, retrieval date, revision when available, and hash. Keep source snapshots separate from local interpretation. An unavailable source blocks only the unsupported model claim. Confirm actual entry support before giving controls, and preserve the resolved visual intent across models. For diagnosis, distinguish the sample's producing model and entry from the requested target.
+
 ## Output and handoff
 
-Follow the main skill's output contract: one complete positive prompt in each required language for every requested model, unless the current request explicitly asks for one language only. For image text-layout tasks, specify exact in-image copy and remind the user to verify readability after generation. 生成、编辑、多参考与透明输出的任务切换详见 [Qwen 任务表](references/tasks.md)。
+Follow the shared interaction contract: one complete positive prompt in each required language for every requested model, unless the current request explicitly asks for one language only. For image text-layout tasks, specify exact in-image copy and remind the user to verify readability after generation. 生成、编辑、多参考与透明输出的任务切换详见 [Qwen 任务表](references/tasks.md)。
