@@ -1,12 +1,35 @@
-# 织梦师 · Oneirloom
+<div align="center">
 
-**把想象，写成画面。**
+<h1>织梦师 · Oneirloom</h1>
 
-一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。
+<p><strong>把想象，写成画面。</strong></p>
 
-[开始使用](#开始使用) · [案例与记录](#案例与记录) · [技能目录](#技能目录) · [English](README.en.md) · [完整详情页](docs/product-page/index-oneirloom-v4.html)
+<p>一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。</p>
 
-[![织梦师商品主视觉：织梦兽把人像、志怪插画与产品广告织进梦网。把想象，写成画面。](docs/assets/product-page/01-hero-oneirloom-v4.webp)](docs/assets/product-page/01-hero-oneirloom-v4.webp)
+<p>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" /></a>
+</p>
+
+<p>
+  <a href="https://www.pigeonyang.top/skills/oneirloom/"><img alt="Website" src="https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square" /></a>
+  <a href="#案例与记录"><img alt="Examples" src="https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang"><img alt="GitHub followers" src="https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&amp;logo=github&amp;label=Follow%20author" /></a>
+  <a href="https://www.xiaohongshu.com/user/profile/689af6b90000000019016082"><img alt="小红书 Dibo" src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&amp;logo=xiaohongshu&amp;logoColor=white" /></a>
+</p>
+
+<p>
+  <a href="#开始使用">开始使用</a> · <a href="#案例与记录">案例与记录</a> · <a href="#技能目录">技能目录</a> · <a href="README.md">中文</a> | <a href="README.en.md">English</a> · <a href="docs/product-page/index-oneirloom-v4.html">完整详情页</a> · <a href="https://www.pigeonyang.top/skills/oneirloom/">网站</a>
+</p>
+</div>
+
+<p align="center">
+  <a href="docs/assets/product-page/01-hero-oneirloom-v4.webp"><img src="docs/assets/product-page/01-hero-oneirloom-v4.webp" alt="织梦师商品主视觉：织梦兽把人像、志怪插画与产品广告织进梦网。把想象，写成画面。" /></a>
+</p>
+
 
 [![一句日常表达，展开成一张画面。将卧室全身照的想法拆解为完整取景、居中姿态、缎面材质和左侧窗光。支持从零写提示词、分析参考图、构思广告和检查结果。](docs/assets/product-page/02-value-oneirloom-v4.webp)](docs/assets/product-page/02-value-oneirloom-v4.webp)
 

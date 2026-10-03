@@ -1,4 +1,35 @@
-# Oneirloom
+<div align="center">
+
+<h1>Oneirloom · 织梦师</h1>
+
+<p><strong>Turn imagination into images.</strong></p>
+
+<p>An open-source collection of visual prompting skills for analyzing images, developing concepts, writing complete prompts, and refining generated results.</p>
+
+<p>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" /></a>
+</p>
+
+<p>
+  <a href="https://www.pigeonyang.top/en/skills/oneirloom/"><img alt="Website" src="https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square" /></a>
+  <a href="#example-evidence"><img alt="Examples" src="https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang"><img alt="GitHub followers" src="https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&amp;logo=github&amp;label=Follow%20author" /></a>
+  <a href="https://www.xiaohongshu.com/user/profile/689af6b90000000019016082"><img alt="Xiaohongshu Dibo" src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&amp;logo=xiaohongshu&amp;logoColor=white" /></a>
+</p>
+
+<p>
+  <a href="#use">Use</a> · <a href="#example-evidence">Examples</a> · <a href="#three-layers">Skills</a> · <a href="README.md">中文</a> | <a href="README.en.md">English</a> · <a href="https://www.pigeonyang.top/en/skills/oneirloom/">Website</a>
+</p>
+</div>
+
+<p align="center">
+  <a href="docs/assets/product-page/01-hero-oneirloom-v4.webp"><img src="docs/assets/product-page/01-hero-oneirloom-v4.webp" alt="Oneirloom hero image featuring Dream Cocoon, portraits, a folklore illustration, and product advertising." /></a>
+</p>
+
 
 Oneirloom is the public name of this collection, also called "织梦师", "织梦师Skill", or "Oneirloom Skill". The main technical skill ID is `oneirloom`; method IDs use the `oneirloom-` prefix.
 
