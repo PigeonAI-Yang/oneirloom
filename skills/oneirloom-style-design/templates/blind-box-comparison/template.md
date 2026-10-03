@@ -22,7 +22,7 @@ An image-generation instruction to retain the upper photograph does not prove ex
 
 ## Prompt scaffold
 
-Deliver the required language or the Chinese/English pair under the router's output contract. Keep input images and canvas controls outside the copyable text.
+Deliver the required language or the Chinese/English pair under [shared interaction contract](../../../oneirloom/references/interaction-contract.md). Keep input images and canvas controls outside the copyable text.
 
 ### Chinese
 

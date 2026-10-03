@@ -1,0 +1,51 @@
+{
+  "task": "actual source-SKILL response",
+  "recordedAtUtc": "2026-10-03 04:52:01 UTC",
+  "resolvedEntry": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+  "repositoryFallbackUsed": false,
+  "input": "TEXT FIXTURE：一个完整椭圆形金黄色面包，没有销售数据。帮我写中文带货海报提示词，能查竞品的话就查一下。采用温暖早餐方向，标题「早安，面包」，3:4。当前没有任何搜索、生图或编辑工具，也没有生成结果。请完成现在能做的部分。",
+  "answer": "本轮没有可用的搜索、生图或编辑工具，因此未查询竞品，也没有生成或检查海报图。以下先按你提供的文字信息，完成可直接使用的中文提示词。\n\n**中文提示词**\n\n```text\n为一款面包制作一张3:4竖版中文带货海报，采用温暖明亮的早餐摄影方向。主商品是一只完整的椭圆形金黄色面包，清楚呈现完整外形，放在浅色陶瓷餐盘上，位于画面中央偏下；面包四周留出呼吸空间，轮廓完整可见，不被标题或道具遮挡。镜头从略高于桌面的角度轻微俯拍，让椭圆形体态一目了然；面包表面呈自然烘焙质感与柔和金黄色层次，保持完整，不切开、不露出内部。\n\n场景是一张简洁的早餐桌：浅橡木桌面、米白亚麻餐巾，背景只保留少量柔和的家居线索。清晨窗光从画面左侧斜照，在餐盘和面包右侧形成轻柔自然的阴影。以奶油白、浅木色和蜂蜜金为主色，整体明亮温暖；面包轮廓与表面细节清楚，呈现干净克制的商业美食摄影质感。\n\n画面上方安排清晰的标题区，只显示标题「早安，面包」，准确保留原文和中文逗号，使用醒目亲切的中文字体；标题与面包形成清楚层级，文字不压住面包。其余版面保持简洁，不添加未提供的品牌、价格、折扣、销量、配料、产地、功效或产品卖点，不出现水印、二维码或其他文字。输出为3:4竖版构图。\n```",
+  "hashMethod": "SHA-256 computed from the same byte array decoded and printed during each source read.",
+  "sourceReads": [
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+      "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\AGENTS.md",
+      "sha256": "DE3A8D6CF1BEA56355C7D32DB38E701DAE0C9151034E9CC211454DA830A04D07"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\PROJECT-FILES.md",
+      "sha256": "1294F0C02CA4B79E44A0AB7B4A735C415524B320311073182F83D06FFD9A2DFB"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+      "sha256": "069CD30E4EDCCDB43BF95E234FE3DBC9CA79E314AC69B61147D601B098FEFB29"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+      "sha256": "E7D506C85205080E0ACB8BC731F0D25E157EEA77795B21662FC65437C65D8282"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+      "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+      "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-camera-composition\\SKILL.md",
+      "sha256": "AFE39C8D770ACEE8F8B95EBC971F9407D5C9E78F2B20AD8B744E49201EF91DA7"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md",
+      "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A"
+    },
+    {
+      "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+      "sha256": "999858F016B10649C8B7F199CEEF3B3BC6488782B4580954DA4C50058449EF03"
+    }
+  ]
+}

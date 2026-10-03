@@ -8,7 +8,7 @@ Use the inspected visual specification. Qwen's official text-to-image prompt enh
 
 Preserve explicit user colors, positions, counts, and other fixed requirements. Name garment base colors, transparency, and illuminated appearance together when needed. State each decisive limb's joint condition as well as its position. In a reconstruction, leave unseen details unknown instead of applying the enhancer's creative completion of an open brief.
 
-The official T2I enhancer requests a detailed English paragraph, a JSON response, and a separate aspect-ratio field. Those are that checkpoint's contract. When calling it, follow its documented schema. When manually delivering Oneirloom prompts, use the main skill's requested-language contract. Its English output and length guidance do not prove that the image model requires English or a fixed word count. Do not add content to reach a word count.
+The official T2I enhancer requests a detailed English paragraph, a JSON response, and a separate aspect-ratio field. Those are that checkpoint's contract. When calling it, follow its documented schema. When manually delivering Oneirloom prompts, use [shared interaction contract](../../oneirloom/references/interaction-contract.md). Its English output and length guidance do not prove that the image model requires English or a fixed word count. Do not add content to reach a word count.
 
 ## Edit an existing image
 

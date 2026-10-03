@@ -15,7 +15,7 @@ For real-product depictions, read [product art direction](../oneirloom-product-a
 
 Establish the message, purpose, known audience and viewing context, deliverable, format, exact supplied copy, and fixed or open choices. Infer reasonable visual choices without inventing business facts, claims, dates, or copy. Ask only for information that blocks the requested outcome.
 
-Inspect content and identity references for form, silhouette, connected parts, defining colors and materials, and visible action. Determine what makes the subject recognizable and which relationships carry meaning. Keep visible facts, user-stated meanings, tentative interpretations, and unknowns separate. A crescent suspended in blue strands is evidence; sleep or dream-weaving remains interpretation unless confirmed. A meaningful prop is not disposable because it complicates a crop.
+Inspect content and identity references for form, silhouette, connected parts, defining colors and materials, and visible action. Determine what makes the subject recognizable and which relationships carry meaning. Do not choose a style treatment from a name or color alone. Keep visible facts, user-stated meanings, tentative interpretations, and unknowns separate. A crescent suspended in blue strands is evidence; sleep or dream-weaving remains interpretation unless confirmed. A meaningful prop is not disposable because it complicates a crop.
 
 Carry a concrete account of what the design means, what the subject is and does, and which identity and semantic relationships must survive. A title, palette, and size alone do not establish understanding. Inspecting identity here does not replace observing the style reference.
 

@@ -8,7 +8,7 @@ Carry the user's confirmed model, entry, reference roles, output preferences, su
 
 Current explicit choices override defaults, and confirmed conversation choices override generic recipes. Example subjects and props are not requirements. Ask only when a missing input blocks the requested outcome or changes its path. Missing optional data or tools block only dependent work. Unknown entries can receive portable text.
 
-For an edit, change the requested main dimension where possible and preserve other valid decisions. A background change preserves the current subject, copy, layout, and medium unless a coupled adjustment is necessary. Explain that adjustment briefly. An explicit rejection replaces the affected creative direction while retaining valid facts and choices. Obtain a missing current target instead of inventing continuity. An ordinary revision request is not itself evidence of a failed result.
+For an edit, change the requested main dimension where possible and preserve other valid decisions. A background change preserves the current subject, copy, layout, and medium unless a coupled adjustment is necessary. Explain that adjustment briefly. A style edit changes medium or surface treatment while preserving the current setting and other valid constraints. An explicit rejection replaces the affected creative direction while retaining valid facts and choices. Obtain a missing current target instead of inventing continuity. An ordinary revision request is not itself evidence of a failed result.
 
 For person prompts, including new images and grid panels, read the person-defaults reference linked directly by the active entry. Preserve explicit choices and source traits.
 

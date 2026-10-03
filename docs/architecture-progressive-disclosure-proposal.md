@@ -1,8 +1,10 @@
 # Oneirloom progressive-disclosure remediation proposal
 
-Status: **PROPOSED. Not implemented. Not accepted as the authoritative architecture.**
+Status: **Proposal A approved by the user and implemented in source on 2026-10-03. Structural checks are recorded below; behavioral acceptance and deployment remain pending.**
 
-Prepared on 2026-10-03 against source checkout `J:/PigeonYang/skills/oneirloom`, commit `d5df2ed`. The working tree was clean before this proposal. The existing [architecture](architecture.md) still describes the active implementation. This document changes no runtime instruction, installed skill, template, or historical evidence.
+Prepared on 2026-10-03 against source checkout `J:/PigeonYang/skills/oneirloom`, commit `d5df2ed`. The original proposal recorded a clean working tree at preparation. The user subsequently authorized implementation with "可以实施". The [architecture](architecture.md) now describes the edited source. At implementation start, `.gitattributes`, `.gitignore`, `AGENTS.md`, and `PROJECT-FILES.md` were dirty, and this proposal was untracked. Existing unrelated working-tree changes were preserved. A separate operator advanced HEAD and staged files during authorship; the instruction baseline remains pinned to `d5df2ed`, and those external Git/LFS changes are not this migration's work. Installed skills, deployment, historical prompts, images, and evaluation answers were not updated by this migration.
+
+The research, baseline counts, alternatives, proposed topology, and staged acceptance below retain the decision record. Their original future-tense wording describes the approved plan, not an assertion that implementation is still unapproved. The final implementation section records what changed and what remains unverified.
 
 ## Decision proposed
 
@@ -104,7 +106,7 @@ Progressive disclosure is mandatory for all candidates. “Keep the current thre
 
 | Candidate | Structure and loading | Strength | Cost or failure mode | Decision |
 | --- | --- | --- | --- | --- |
-| A. Compact coordinator and directly usable capabilities | Preserve public capability SKILL entries. Each reads one shared contract and selects task references directly. Move specialist detail out of the broad coordinator and split the graphic SOP by actual task. | Supports both named method use and general Oneirloom use. Retains meaningful owners while reducing unrelated compulsory reading. | Cross-skill links require the collection's shared contract to be available. File splits must preserve constraints and avoid another chain of routers. | **Proposed.** It addresses observed file organization without adding a business hierarchy. |
+| A. Compact coordinator and directly usable capabilities | Preserve public capability SKILL entries. Each reads one shared contract and selects task references directly. Move specialist detail out of the broad coordinator and split the graphic SOP by actual task. | Supports both named method use and general Oneirloom use. Retains meaningful owners while reducing unrelated compulsory reading. | Cross-skill links require the collection's shared contract to be available. File splits must preserve constraints and avoid another chain of routers. | **Accepted as A and implemented in source.** It addresses observed file organization without adding a business hierarchy. |
 | B. Business-first hierarchy | Main routes to new ecommerce, editorial, identity, or other business entries; each routes to methods and recipes. Entries can still load references conditionally. | Useful if those businesses acquire distinct multi-deliverable policies and procedures. | Adds an obligatory entry to today's ecommerce path, duplicates product art direction, and requires domains that do not yet exist. Direct method entry still needs a shared contract. | Reject for current scope. Reconsider only after a real task needs business policy that no existing owner can hold. |
 | C. One discoverable SKILL with all capabilities as references | Keep only Oneirloom discoverable; route directly to product, graphic, medium, adapter, and diagnosis reference files. | Small discovery metadata and one shared starting contract. Short internal paths are possible. | Removes existing public method entry points and requires migration of invocation names and installations. Gains from metadata reduction have not been measured. | Viable for a new collection, excessive migration for this one. Do not retire working entry names without evidence. |
 
@@ -112,7 +114,7 @@ Candidate A preserves useful public interfaces while changing compulsory reading
 
 ## Proposed topology and ownership
 
-The following paths are proposed, not created by this document.
+The following topology was proposed and has now been implemented in source. The implementation record below supplies the status boundary.
 
 ```text
 Discovery metadata: the existing 18 public SKILL entries
@@ -176,7 +178,7 @@ Portable Doubao guidance remains text and ordinary reference-upload advice. It e
 
 ## Concrete file migration
 
-Paths are relative to the source repository. New targets below remain proposals. Historical exact prompts, images, records, and existing evaluation answers are not migration input to be rewritten.
+Paths are relative to the source repository. This table preserves the approved migration plan; new targets now exist as recorded below. Historical exact prompts, images, records, and existing evaluation answers are not migration input to be rewritten.
 
 | Current location and material | Proposed destination or retained responsibility | Concrete change and preserved reason |
 | --- | --- | --- |
@@ -195,13 +197,13 @@ Paths are relative to the source repository. New targets below remain proposals.
 | `skills/oneirloom/references/person-prompts.md` | Same path | Keep its existing defaults and proportions. Add explicit direct-entry triggers where relevant. Do not load person detail for bread-only or packaging-only work. |
 | The existing 18 `skills/*/SKILL.md` entry points | Same paths and public names | Add the shared-contract read cue. Change only coupled references and duplicate policy needed by this migration; do not redesign unrelated sticker, VI, tutorial, or card capabilities. |
 | `skills/*/templates/index.md`, selected `template.md`, and case folders | Same ownership and paths | Keep recipe selection optional. Remove only duplicated runtime policy when a shared rule replaces it, if authorized during migration. Preserve recipe-specific relations and all exact historical evidence. The chocolate folder remains a historical case despite its `template.md` filename. |
-| `docs/architecture.md` | Same file, revised only after acceptance and authorized migration | Replace the layer-count premise with the selected loading and ownership model. Preserve still-valid invariants and historical migration rationale. This proposal does not supersede it now. |
+| `docs/architecture.md` | Same file, revised only after acceptance and authorized migration | Replace the layer-count premise with the selected loading and ownership model. Preserve still-valid invariants and historical migration rationale. The source implementation now supersedes its former layer-count premise. |
 
 During the SOP move, account for each current paragraph in its new owner before retiring the active file. Git history preserves the original revision, but it is not a substitute for retaining still-valid rationale in the live guidance. Update runtime callers only. Historical snapshots under `work/architecture-migration/before/`, exact submitted prompts, and evidence records retain their original links and contents as historical material.
 
 ## Triggers and intended reads
 
-The proposed shared contract is C: `skills/oneirloom/references/interaction-contract.md`. Existing aliases M, P, E, D, F, I, and R refer to their proposed contents at the same paths. O, X, and V mean D's new `graphic-observation.md`, `graphic-production.md`, and `graphic-review.md` respectively. No proposed file-size savings are claimed before those files exist.
+The proposed shared contract is C: `skills/oneirloom/references/interaction-contract.md`. Existing aliases M, P, E, D, F, I, and R refer to their proposed contents at the same paths. O, X, and V mean D's new `graphic-observation.md`, `graphic-production.md`, and `graphic-review.md` respectively. Baseline counts remain historical working-tree measurements. Any after comparison must use the same newline convention and does not establish token, speed, or runtime-context savings.
 
 | Condition | Read now | Postpone or omit |
 | --- | --- | --- |
@@ -232,7 +234,7 @@ These sets make a smaller compulsory body possible; they do not make files disap
 
 ## Staged migration and acceptance
 
-Production changes require a separate go-ahead. The stages below are executable scope proposals, not actions taken in this task. Use the existing repository and task record. Assign one writer per coupled file set. Do not run independent writers against the shared contract, main router, or design skill at the same time. The Primary owns the selected design and final acceptance; authoritative design-document revisions retain the project's authoring policy.
+The user authorized source changes after this plan was written. The stages below preserve the intended acceptance sequence; source authorship is implemented, while actual assistant exercises remain pending. Use the existing repository and task record. Assign one writer per coupled file set. Do not run independent writers against the shared contract, main router, or design skill at the same time. The Primary owns the selected design and final acceptance; authoritative design-document revisions retain the project's authoring policy.
 
 | Stage | Bounded changes | Acceptance evidence |
 | --- | --- | --- |
@@ -256,3 +258,98 @@ Keep static prompts and revisions as the immediate product scope. Preserve the r
 Creative scope remains broad: realistic catalog views, use scenes, miniature worlds, scale changes, ingredient architecture when supported, fantasy, and anthropomorphism remain possible. Product truth constrains what the image implies about the sold item. It does not turn every approved fantasy into a documentary photograph.
 
 No hard line or token gates, new schema, state machine, daemon, dependency service, approval ladder, or second task ledger is proposed. Stop the migration once the shared contract is reachable, the task reads are conditional, the preserved rules are accounted for, and the bounded behavior evidence supports the intended paths.
+
+## Source implementation and pending acceptance
+
+Proposal A was implemented in the maintained source checkout. The 18 public names remain unchanged. Every entry explicitly reads the new shared interaction contract unless unchanged content is already available. Main is a compact coordinator. Product truth stays in the product body. Graphic design contains the complete common process and directly selects observation, production, and review detail. Diagnosis reads review directly for graphic misses. Routine edits no longer automatically select diagnosis. Photography and illustration catalogues are conditional. Person-producing entries directly link existing person defaults.
+
+The old graphic SOP was removed after its active callers were migrated. The four additional coupled callers were the reconstruction workflow, design domain reference, graphic source notes, and experimental-editorial template index. Their links and process cues changed; domain rows, recipe mechanisms, prompt scaffolds, and historical evidence were preserved. Qwen writing guidance and two prompt templates now name the shared output contract rather than main. These narrow caller changes were separately reviewed for scope by the Primary.
+
+No new watermark reference, business entry, runtime loader, schema, state machine, rule gate, template, or evaluation framework was created. Existing card, sticker, icon, VI, tutorial, person-default, and historical-evidence contracts remain with their owners. The actual card renderer and assets were not changed. Model source-maintenance guidance moved from main into both existing adapters.
+
+### Invariant ownership migration
+
+C means the shared interaction contract, M the coordinator, P product art direction, D graphic design, O graphic observation, X graphic production, V graphic review, and R result diagnosis. Paragraph numbers below refer to non-heading paragraphs within the named section of the old `graphic-design-sop.md` at `d5df2ed`. These identify preserved reasoning, not just keywords.
+
+| Old material | Current owner | Preserved constraint and reason |
+| --- | --- | --- |
+| Main aliases and workflow 1–2 | M and C | Existing public names, deliverable selection, explicit resource reads, confirmed choices, conditional capability selection, and dependent-only gaps. |
+| Main workflow 3 | C, P, D, and M | Compact sourced notes, no forced template, no-match composition, user priority, product truth, graphic identity and meaning, and 3–5 anchors only for non-graphic prompts. |
+| Main workflow 4 | M and existing Krea/Qwen adapters | Visual intent before adaptation; relevant primary-source snapshots with URL/date/revision/hash; actual-entry controls; producing versus target model; one intent across models. |
+| Main workflow 5 | D, X, C, and person-producing entry links | Production selection, explicit tool constraints, provisional sketches, complete per-asset prompts, affirmative spatial relations, bidirectional fidelity check, and directly reachable person defaults. Reconstruction keeps its own counterexample procedure. |
+| Main routing and watermark paragraphs | M and existing card/icon/tutorial/brand/sticker owners | Routing remains compact; card geometry, approved creature signature, lettering outlines and placement, no automatic icon watermark, article format, actual individual assets, and full-VI completeness remain at their existing owners. |
+| Main output contract | C, D, X, and existing deliverable owners | Required languages and literal image text, separate complete blocks, affirmative construction, separate negative fields only when required, controls outside prose, portable Doubao limits, complete revisions, actual artifacts, and truthful inspection status. |
+| SOP introduction paragraphs 1–4 | D introduction and source-note link; C continuity | Same graphic scope and stage order, understanding before tooling, compact notes without a new ledger or approvals, separate non-graphic procedures, and local-synthesis/source limits. |
+| SOP Understand paragraphs 1–4 | D section 1 | Purpose and exact copy; connected subject form/action; facts versus interpretations including the crescent example; meaningful props and a concrete understanding account rather than title/palette/size alone. |
+| SOP Observe paragraphs 1–6 | O, retained in full; D section 2 trigger | Inspect image before recipe, role separation, independent versions/directions, global continuity versus local interruptions, joins and layers, material limits, estimates, and source-grounded attention. |
+| SOP Design paragraphs 1–3 | D section 3 and O, retained in full | Explain transformations, retain defining relations, use actual anatomy for opposed views, resolve fragments and coverage, preserve deliberate gaps, and integrate material finish without imposing aged paper. |
+| SOP Design paragraphs 4–6 | D section 3 and O, retained in full | Meaningful crop and hammock example, marble-neck versus creature anatomy, provisional masks, exact title reflow, readable interleaving, and no decorative filler for missing copy. |
+| SOP Design paragraphs 7–8 | D section 3 and O, retained in full | Whole meaning before coordinates, return to understanding/observation, no prompt-padding or model-blame substitute, resolved reasons without mandatory approvals or sketch count. |
+| SOP Production paragraphs 1–5 | X, retained in full; D section 4 selection | Design-driven production, code/vector/model constraints, inspected provisional sketches and assets, actual alpha support, complete prompts or necessary composite assets, observable finish, and plan/asset/assembled-artifact distinction. |
+| SOP Review paragraphs 1–5 | V, retained in full; D section 5 obligation | Identity before polish, source/result at equal visual height, intended viewing size, copy and factual checks, joins and shared material, source fidelity separate from submitted-prompt compliance, causal uncertainty, and whole-image verdict over local scores. |
+| SOP Correct paragraphs 1–2 | V, retained in full; D section 5 and R | Repair the responsible stage, preserve successes, local editable fixes when design is intact, continue authorized work, and bounded diagnosis after two controlled misses. |
+| SOP Correct paragraphs 3–5 | V, retained in full; C, D, and X delivery rules | Complete prompt path rather than forced asset-only output, actual finished preview/source/inspection, historical prompt and metadata preservation, and no inherited validation or repeatability claim. |
+| SOP Carry paragraphs 1–2 | C continuity, D process, O closing | Compact notes carry intent/evidence/adaptation/path/review without a schema; inspect optional recipes and do not create persistent templates for every new subject. |
+| Product/Ecommerce repeated rules | P and C; E conditional detail | P retains all product truths, source conflicts, realistic and fantasy ranges, fictional-scene boundaries, and exact-label dependency; C owns continuity; E handles vague choice, useful research, missing copy, and assistant handoff. |
+| Analysis and diagnosis graphic restatements | O and V directly; original analysis checks and R attribution | Analysis-only use avoids creation; actual/reported misses use review without an automatic creation loop. Structural anchors and source-to-prompt versus output deviations remain distinct. |
+
+### Evidence and limits
+
+The baseline collector saved pinned Git-blob measurements in `work/progressive-disclosure-20261003/baseline.json`. The original tables above measured working-tree bytes including their stored newline characters. For example, main was 14,153 bytes in that snapshot and 14,096 bytes in its LF Git blob. Do not attribute newline conversion to architecture savings. Compare normalized LF text or another consistent convention for before and after counts.
+
+Author self-checks cover frontmatter/public-name preservation, explicit contract reachability, person-reference triggers, local links, balanced fences, and absence of active retired-SOP references. Author checks passed for all 18 entry frontmatters and public names, all 18 explicit shared-contract cues, and all 17 person-producing entry links. An explicit 33-file owned-path check found 183 resolvable local links and balanced fences with no failures. No active Markdown under `skills/` names the retired SOP path. Old SOP Observe, Design, Production, Review, and Correct sections were compared with `d5df2ed` and are retained verbatim after newline normalization in O, X, and V. Fenced prompt content in the three coupled templates is unchanged. `git diff --check` returned no whitespace errors. These are author self-checks, not independent behavior evidence. Independent source review, representative assistant inputs/replies/read records, installed dependency availability, new-session discovery, and image behavior remain separate pending acceptance. No generation or visual inspection was performed during this migration. Existing failed and unexecuted evaluation cases remain unchanged.
+
+
+The additional coupled-path allowance changed only these active instructions outside entry bodies and the new reading units:
+
+| Path | Old clause | New clause |
+| --- | --- | --- |
+| `skills/oneirloom-visual-analysis/references/reconstruction-workflow.md` | Old SOP owns graphic process order; use SOP composition steps | Creation/redesign reads D; source analysis alone reads O; composition steps belong to the design method |
+| `skills/oneirloom-style-design/references/styles.md` | Old SOP link and two SOP process cues | D link and design-process cues; domain checks unchanged |
+| `skills/oneirloom-style-design/references/graphic-design-sources.md` | Old SOP link and source-limit/process references | D link and equivalent process references; original sources and limits unchanged |
+| `skills/oneirloom-style-design/templates/experimental-editorial-posters/template.md` | Read `../../references/graphic-design-sop.md` | Read `../../SKILL.md`; recipe relations unchanged |
+| `skills/oneirloom-model-qwen-image-2-1/references/writing.md` | Main requested-language contract | Direct link to C; enhancer contract unchanged |
+| `skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md` | Main output contract and languages required by router | Direct link to C and languages required by shared contract; scaffold unchanged |
+| `skills/oneirloom-style-design/templates/blind-box-comparison/template.md` | Router output contract | Direct link to C; accepted prompt blocks unchanged |
+
+### Authored path manifest
+
+The following 33 source Markdown files were authored or amended by this assignment. Paths are relative to the source checkout. External governance, Git index, LFS, and baseline-receipt changes are excluded.
+
+```text
+skills/oneirloom-brand-identity/SKILL.md
+skills/oneirloom-camera-composition/SKILL.md
+skills/oneirloom-character-sheet/SKILL.md
+skills/oneirloom-color-light/SKILL.md
+skills/oneirloom-expression-stickers/SKILL.md
+skills/oneirloom-figure-art/SKILL.md
+skills/oneirloom-icon-design/SKILL.md
+skills/oneirloom-image-tutorial/SKILL.md
+skills/oneirloom-model-krea-2/SKILL.md
+skills/oneirloom-model-qwen-image-2-1/SKILL.md
+skills/oneirloom-product-art-direction/SKILL.md
+skills/oneirloom-prompt-card/SKILL.md
+skills/oneirloom-result-diagnosis/SKILL.md
+skills/oneirloom-style-design/SKILL.md
+skills/oneirloom-style-illustration/SKILL.md
+skills/oneirloom-style-photography/SKILL.md
+skills/oneirloom-visual-analysis/SKILL.md
+skills/oneirloom/SKILL.md
+skills/oneirloom/references/interaction-contract.md
+skills/oneirloom-product-art-direction/references/ecommerce-workflow.md
+skills/oneirloom-style-design/references/graphic-observation.md
+skills/oneirloom-style-design/references/graphic-production.md
+skills/oneirloom-style-design/references/graphic-review.md
+skills/oneirloom-visual-analysis/references/reconstruction-workflow.md
+skills/oneirloom-style-design/references/styles.md
+skills/oneirloom-style-design/references/graphic-design-sources.md
+skills/oneirloom-style-design/templates/experimental-editorial-posters/template.md
+skills/oneirloom-model-qwen-image-2-1/references/writing.md
+skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md
+skills/oneirloom-style-design/templates/blind-box-comparison/template.md
+docs/architecture.md
+docs/architecture-progressive-disclosure-proposal.md
+PROJECT-FILES.md
+```
+
+Retired instruction: `skills/oneirloom-style-design/references/graphic-design-sop.md`.

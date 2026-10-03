@@ -4,7 +4,7 @@
 
 Use this collection when one of its twelve image-and-type mechanisms supports the current message and content. Choose one recipe. Combine mechanisms only when the user requests a hybrid. The labels are working descriptions of visible treatments, not claims about the original creator, school, technique, font, or model.
 
-Read the owning method's [graphic-design SOP](../../references/graphic-design-sop.md). Understand the current message and subject, observe the selected reference image, then design the adaptation before choosing production. This sequence applies to all twelve recipes. Inspect the matching style crop before relying on its recipe text. Each recipe supplies its particular relations, choices, and failure conditions.
+Read the owning method's [graphic-design process](../../SKILL.md). Understand the current message and subject, observe the selected reference image, then design the adaptation before choosing production. This sequence applies to all twelve recipes. Inspect the matching style crop before relying on its recipe text. Each recipe supplies its particular relations, choices, and failure conditions.
 
 | No. | Recipe | Select when | Recipe document | Style crop |
 | --- | --- | --- | --- | --- |

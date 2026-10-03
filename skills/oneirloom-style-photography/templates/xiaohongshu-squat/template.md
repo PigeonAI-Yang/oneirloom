@@ -14,13 +14,13 @@ Turn the torso and hips to a three-quarter side/rear view and turn the face back
 
 Emphasize a long, fashion-model leg-to-torso ratio through elongated thighs and shins, a compact torso, and a high waistline. Use a slightly low mirror viewpoint with a mild upward angle and enough distance for natural perspective. Angle the mirror view from the side or three-quarter side so both foot profiles and heel-to-floor contact points read clearly. Keep the entire crouching silhouette about 45% of the total output image height, positioned in the lower middle: place the head around 45–50% down from the top and the feet near 90%. Show recognizable surroundings above and on both sides of the subject, with floor visible below the feet. Keep both bent legs and both feet fully inside the frame. Use a close-up or tight crop only when the user explicitly asks for it or the reference requires it.
 
-Use a polished but spontaneous social-media lifestyle-photo feel: natural light, an ordinary street or casual daily setting, and relaxed details that feel captured in the moment. Keep the styling adult and fashion-oriented, with realistic anatomy and proportions. Follow the main skill's output contract and use any requested model branch separately.
+Use a polished but spontaneous social-media lifestyle-photo feel: natural light, an ordinary street or casual daily setting, and relaxed details that feel captured in the moment. Keep the styling adult and fashion-oriented, with realistic anatomy and proportions. Follow [shared interaction contract](../../../oneirloom/references/interaction-contract.md) and use any requested model branch separately.
 
 For this style, default to bare feet when the user does not specify footwear. Show both feet naturally grounded and fully visible in the mirror portrait; preserve requested shoes or socks when explicitly specified.
 
 ## Adjustable slots
 
-Fill subject, outfit, setting, footwear, expression, and light from the request or visible references. For an unspecified mirror scene, choose a plausible everyday mirror location. Bare feet, the adult subject defaults, and the long-leg styling are scoped defaults, not facts inferred from a reference. Preserve an explicit body build. Resolve all slots and deliver the languages required by the router; the scaffold below is not a historical run prompt.
+Fill subject, outfit, setting, footwear, expression, and light from the request or visible references. For an unspecified mirror scene, choose a plausible everyday mirror location. Bare feet, the adult subject defaults, and the long-leg styling are scoped defaults, not facts inferred from a reference. Preserve an explicit body build. Resolve all slots and deliver the languages required by the shared interaction contract; the scaffold below is not a historical run prompt.
 
 ## Prompt scaffold
 

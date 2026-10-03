@@ -1,6 +1,6 @@
 # Graphic-design process sources
 
-Retrieved and reviewed for this consolidation on 2026-10-02. The [graphic-design SOP](graphic-design-sop.md) is a local AI-assisted workflow, informed by the principles below. Its exact step order, reference-role distinctions, mechanism transfer, prompt checks, and evidence states are Oneirloom decisions. None of these pages establishes that complete workflow or a mandatory number of concepts, tools, files, or approvals.
+Retrieved and reviewed for this consolidation on 2026-10-02. The [graphic-design process](../SKILL.md) is a local AI-assisted workflow, informed by the principles below. Its exact step order, reference-role distinctions, mechanism transfer, prompt checks, and evidence states are Oneirloom decisions. None of these pages establishes that complete workflow or a mandatory number of concepts, tools, files, or approvals.
 
 | Original source | Supported principle | Limit of use |
 | --- | --- | --- |
@@ -9,6 +9,6 @@ Retrieved and reviewed for this consolidation on 2026-10-02. The [graphic-design
 | Adobe Learn with Mariah Althoff, [Designing effective graphics](https://www.adobe.com/learn/express/web/graphic-design-process), 2024-02-26 | Start with purpose and audience; develop imagery, type, color, hierarchy, and refinement. Review glance-level legibility, spacing, and alignment. | One event-poster tutorial. Suggested font or palette counts are example choices, not universal limits. |
 | Adobe Learn, [What makes a great layout?](https://www.adobe.com/learn/illustrator/web/layout-basics), 2026-06-11 | Use grouping, whitespace, repetition, contrast, alignment, focal points, and hierarchy to organize communication. | General layout guidance, not a complete production, accessibility, or acceptance standard. |
 
-The source survey also located AIGA's [Design Business + Ethics PDF](https://www.aiga.org/sites/default/files/2021-03/Design-Business-and-Ethics.pdf). The reader could not open the full PDF. Only an indexed excerpt about the purpose of a brief was available. The SOP does not rely on the unavailable full text or attribute detailed rules to it.
+The source survey also located AIGA's [Design Business + Ethics PDF](https://www.aiga.org/sites/default/files/2021-03/Design-Business-and-Ethics.pdf). The reader could not open the full PDF. Only an indexed excerpt about the purpose of a brief was available. The process does not rely on the unavailable full text or attribute detailed rules to it.
 
-The survey included teaching exercises and publisher or workshop summaries related to thumbnails, typography, and grids. Those descriptions offer context, not proof of a universal sequence or numerical settings. The SOP's low-detail composition step is a local choice that can use a short region description instead of a rendered sketch.
+The survey included teaching exercises and publisher or workshop summaries related to thumbnails, typography, and grids. Those descriptions offer context, not proof of a universal sequence or numerical settings. The process's low-detail composition step is a local choice that can use a short region description instead of a rendered sketch.
