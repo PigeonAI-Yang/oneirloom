@@ -1,5 +1,11 @@
 # Arrange an eight-slot Oneirloom workspace
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template when an editor with layers and saved selections can hold eight reactions in one source document. Keep individual exports as the delivery target. A filled sheet is still a preview until each file is exported and inspected.
@@ -8,11 +14,11 @@ Use this template when an editor with layers and saved selections can hold eight
 
 [UTK's 8 template slots for LINE stickers](https://assets.clip-studio.com/en-us/detail?id=2232417) is a listed free CLIP STUDIO PAINT PRO/EX layer template. Its text describes eight slots, a masked Drawing folder, draft layers excluded from export, and selection-based export after merging layers. The listing was read, but its source file was not downloaded or imported. Its exact grid geometry was not visually verified. The linked Auto Action was not tested.
 
-The four-column, two-row arrangement below is an original local choice. Use the editable [Oneirloom workspace](workspace.svg) as a blank worksheet. Do not claim it is UTK's geometry or redistribute the original material. Follow the [Oneirloom brand reference](../../references/oneirloom-brand.md) and use the approved front mascot. Select export requirements through the [platform profiles](../../references/platform-profiles.md).
+The four-column, two-row arrangement below is an original local choice. The editable Oneirloom workspace (local-only `workspace.svg`) and its preview contain private brand artwork and are excluded from the public package. If authorized local copies are available, use the blank worksheet. Otherwise, create an empty document in the chosen editor using the dimensions and cell table below, with the supplied subject and any requested header. Do not claim it is UTK's geometry or redistribute the original material. For the Oneirloom case, follow the [brand reference](../../references/oneirloom-brand.md) and use an authorized available front reference. Select export requirements through the [platform profiles](../../references/platform-profiles.md).
 
 ## Set up the local workspace
 
-The SVG canvas is 2184 by 1288 pixels. It contains eight 512 by 512 working cells in a four-column, two-row grid, with 24-pixel gutters and 32-pixel left and right margins. The first row begins at y = 160 below the brand header; the second begins at y = 696. Keep the existing 40-pixel internal guide in each cell. These are local authoring dimensions, not LINE submission dimensions. The half-open cell bounds below use the full SVG canvas origin, not the grid origin.
+The documented canvas is 2184 by 1288 pixels. It contains eight 512 by 512 working cells in a four-column, two-row grid, with 24-pixel gutters and 32-pixel left and right margins. The first row begins at y = 160 below the brand header; the second begins at y = 696. Use a 40-pixel internal guide in each cell. These are local authoring dimensions, not LINE submission dimensions. The half-open cell bounds below use the full SVG canvas origin, not the grid origin.
 
 | Slot | Cell bounds x, y | Local intent | Concrete pose |
 | --- | --- | --- | --- |
@@ -27,14 +33,16 @@ The SVG canvas is 2184 by 1288 pixels. It contains eight 512 by 512 working cell
 
 Keep exactly four connected arms in every cell. Each arm holds its own net thread. The blue hammock carries only the character's existing gold crescent.
 
-1. Use the existing `slot-01` through `slot-08` containers and their empty `art-01` through `art-08` groups. The corresponding editor display names may be `01-hello`, `02-receipt`, `03-thanks`, `04-question`, `05-celebrate`, `06-tired`, `07-affection`, and `08-goodnight`. These logical names are not IDs already present in the SVG.
-2. Author inside each `art-NN` group. The groups use full-canvas coordinates without a local translation. For 512-square artwork authored at a local origin, translate a nested artwork group to the cell's listed x and y origin. Keep the existing `art-NN` group and `clip-slot-NN` clip in full-canvas coordinates. Add separate draft and optional caption layers only in the working editor as needed.
-3. The existing `clip-slot-NN` paths bound each full 512-square cell. Treat the 40-pixel inset as a composition guide rather than a second hard crop. Keep antennae and threads complete inside the cell.
+For a new public-use source, create the eight cell rectangles and corresponding art groups from the table. The instructions below describe the original SVG structure; use equivalent layers, clips, and export selections in another editor. Its branded pose table is a worked example. Replace those poses with the supplied subject's connected anatomy.
+
+1. Create `slot-01` through `slot-08` containers and empty `art-01` through `art-08` groups, or reuse them in the authorized local worksheet. The corresponding editor display names may be `01-hello`, `02-receipt`, `03-thanks`, `04-question`, `05-celebrate`, `06-tired`, `07-affection`, and `08-goodnight`. These logical names are not IDs already present in the SVG.
+2. Author inside each `art-NN` group. The groups use full-canvas coordinates without a local translation. For 512-square artwork authored at a local origin, translate a nested artwork group to the cell's listed x and y origin. Keep the `art-NN` group and `clip-slot-NN` clip in full-canvas coordinates. Add separate draft and optional caption layers only in the working editor as needed.
+3. Create or retain `clip-slot-NN` paths that bound each full 512-square cell. Treat the 40-pixel inset as a composition guide rather than a second hard crop. Keep antennae and threads complete inside the cell.
 4. Save a rectangular selection for each listed full-cell rectangle as `export-01` through `export-08`. The 24-pixel gutters, header, and outer margins are outside those rectangles. Exclude `guides`, `cell-surfaces`, `sheet-background`, header elements, and drafts from individual exports. Continuous 512-pixel cuts from the sheet origin do not match these cells.
 5. Preserve the editable source. Merge or flatten a copy only when the selected export method needs it.
 6. Export each saved selection into an individual file using the chosen platform profile. Inspect every export for crop, dimensions, and real alpha when required.
 
-Keep the actual brand lockup in the worksheet header outside the eight export cells. Individual stickers can carry a small Oneirloom wordmark below the action if it remains legible and fits the selected brief. The SVG worksheet's blank art layers are places to author poses, not finished reactions. Its [PNG preview](workspace-preview.png) includes opaque cell surfaces for browsing; neither that preview nor a white-background prompt establishes alpha in an individual export.
+In the Oneirloom case, keep an authorized available brand lockup in the worksheet header outside the eight export cells. A new subject uses its own requested header or no branding. Individual stickers can carry a small Oneirloom wordmark below the action if it remains legible and fits the selected brief. The SVG worksheet's blank art layers are places to author poses, not finished reactions. Its PNG preview (local-only `workspace-preview.png`) includes opaque cell surfaces for browsing; neither that preview nor a white-background prompt establishes alpha in an individual export.
 
 ## Resolved prompt for the 02-receipt artwork
 
@@ -48,8 +56,8 @@ Confirm eight groups, eight saved selections, and eight independent exported fil
 
 Status: a local authoring demonstration places eight reused native PNGs in a filled SVG as editable raster images. The original blank worksheet remains unchanged. Sticker artwork stays raster; no CSP file, imported UTK material, saved editor selections, or platform export has been tested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Eight selected native PNGs were byte-copied into the [filled SVG demonstration](../../assets/generated/eight-slot-workspace/filled-workspace.svg); the [original blank worksheet](workspace.svg) remains blank. The [preview](../../assets/generated/eight-slot-workspace/preview.png) and [production record](../../assets/generated/eight-slot-workspace/production.json) document the local authoring result. The SVG provides editable raster placement, not vector sticker artwork or a PSD.
+Eight selected native PNGs were byte-copied into the filled SVG demonstration (local-only `../../assets/generated/eight-slot-workspace/filled-workspace.svg`); the original blank worksheet (local-only `workspace.svg`) remains blank and excluded from the public package. The preview (local-only `../../assets/generated/eight-slot-workspace/preview.png`) and production record (local-only `../../assets/generated/eight-slot-workspace/production.json`) document the local authoring result. The SVG provides editable raster placement, not vector sticker artwork or a PSD.
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

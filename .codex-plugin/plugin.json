@@ -1,7 +1,7 @@
 {
   "name": "oneirloom",
-  "version": "0.1.1",
-  "description": "Visual prompting, reference analysis, and result diagnosis with 15 skills.",
+  "version": "0.2.0-preview.1",
+  "description": "Visual prompting, reference analysis, and result diagnosis with 18 skills.",
   "author": {
     "name": "PigeonAI-Yang",
     "url": "https://github.com/PigeonAI-Yang"
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Oneirloom · 织梦师",
     "shortDescription": "Turn visual ideas into prompts",
-    "longDescription": "Oneirloom bundles 15 skills for turning visual ideas into image prompts, analyzing references, shaping composition and light, adapting writing guidance for Krea 2 and Qwen-Image-2.1, and diagnosing results. A host with image input is needed for visual analysis. Prompts do not generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, background service, or automatic upload is bundled.",
+    "longDescription": "Oneirloom bundles 18 skills for turning visual ideas into image prompts, analyzing references, shaping composition and light, adapting writing guidance for Krea 2 and Qwen-Image-2.1, and diagnosing results. A host with image input is needed for visual analysis. Prompts do not generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, background service, or automatic upload is bundled. 0.2.0-preview.1 is an unpublished preview of the 18-skill free collection, including progressive disclosure and ecommerce collaboration. Package and text checks do not establish image-generation quality.",
     "developerName": "PigeonAI-Yang",
     "category": "Productivity",
     "capabilities": [],

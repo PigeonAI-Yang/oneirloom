@@ -1,5 +1,11 @@
 # Prepare Oneirloom editable source and exports
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template when the deliverable includes an editable source or repeatable exports. Select the actual drawing editor and target platform before making source-format or packaging claims.
@@ -29,7 +35,7 @@ Use descriptive working names such as `oneirloom-thanks-source` and `oneirloom-t
 | Editable source | The actual source document with retained layers requested by the brief | Name the real editor and format. Do not claim compatibility without opening or importing it |
 | Delivery package | Only the requested and inspected outputs | Create a ZIP only when the selected route or user requests one |
 
-Use the actual [brand lockup](../../assets/brand-lockup.svg) for a pack image or package cover. Do not put it over the four grips, net, or star. Native alpha settings belong to the chosen production entry, not to a promise in prompt text.
+Use the actual brand lockup (local-only `../../assets/brand-lockup.svg`) for a pack image or package cover. Do not put it over the four grips, net, or star. Native alpha settings belong to the chosen production entry, not to a promise in prompt text.
 
 ## Resolved source-art prompt
 
@@ -45,8 +51,8 @@ Open the actual source and confirm the claimed layers. Inspect the individual ex
 
 Status: a local source/export demonstration reuses one PNG in an editable raster-placement SVG. The SVG is not vector sticker artwork or a PSD. No CSP or PSD template, Auto Action, ZIP, or platform submission is supplied or tested here.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-One native reaction PNG byte-copied from [Daily Sixteen D04](../../assets/generated/daily-sixteen/D04.png) is available alongside an [editable SVG placement source](../../assets/generated/source-export-workspace/editable-source.svg). The [preview](../../assets/generated/source-export-workspace/preview.png) and [production record](../../assets/generated/source-export-workspace/production.json) record this authoring demonstration; they do not establish vector artwork, PSD layers, or a platform export.
+One native reaction PNG byte-copied from Daily Sixteen D04 (local-only `../../assets/generated/daily-sixteen/D04.png`) is available alongside an editable SVG placement source (local-only `../../assets/generated/source-export-workspace/editable-source.svg`). The preview (local-only `../../assets/generated/source-export-workspace/preview.png`) and production record (local-only `../../assets/generated/source-export-workspace/production.json`) record this authoring demonstration; they do not establish vector artwork, PSD layers, or a platform export.
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. The source/export record documents full/native inspection and light/dark picker review at 128 px. Its 384 px review belongs to the reused Daily D04 source record, not this demonstration.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. The source/export record documents full/native inspection and light/dark picker review at 128 px. Its 384 px review belongs to the reused Daily D04 source record, not this demonstration.

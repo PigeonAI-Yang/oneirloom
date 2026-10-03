@@ -40,7 +40,11 @@ The collection uses three layers: **one main skill, reusable method skills, and 
 
 ## Use
 
-1. Install the skill directories under `skills/` as siblings in the host's skill search root.
+The `0.2.0-preview.1` preview package is available with **18 free skills**. Download the publisher-built ZIP from the [fixed package URL](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip) and verify it with [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt). Do not use GitHub's generated source archive as the inspected installation package. See [installation and rollback](docs/INSTALL.md), [release notes and current publication status](docs/releases/0.2.0-preview.1-publication.md), and [verification status](docs/COMPATIBILITY.md).
+
+The `main` branch is for development. Use a confirmed versioned package for installation; contributors need Git LFS to fetch the complete source images. The core skills require no Go runtime or local image model. Generation tools and optional card-rendering dependencies are separate. Public prompt cards are unbranded by default; an authorized local watermark is optional.
+
+1. Follow the installation guide to copy all 18 directories under `skills/` as siblings into a new project's `.agents/skills/`. Preserve the exact prior installation and package hash before an upgrade.
 2. Ask for Oneirloom, "织梦师", or "织梦师Skill"; explicitly invoke `$oneirloom` when using the technical ID. Method skills remain available directly.
 3. Give the requested image or tutorial goal and any model, reference, or result already available. Confirmed conversation settings are inherited.
 4. The main skill selects methods. A method reads its template index only when a concrete recipe helps, then loads a matching template. Without a match, it composes from its reusable method.

@@ -1,5 +1,11 @@
 # Build the Oneirloom identity and acting library
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template when several Oneirloom reactions need a shared identity reference and distinct pose records. Reuse the approved front reference. Design an unresolved view only when a chosen action needs it.
@@ -8,7 +14,7 @@ Use this template when several Oneirloom reactions need a shared identity refere
 
 [Tencent ISUX's PUPU Aliens](https://isux.tencent.com/articles/pupu-aliens) describes six-view shapes, stroke and non-stroke basic shapes, pose and expression libraries, and a 3D action guide. The article text supports this organization. Its illustrated poses and production files were not inspected or acquired for this template.
 
-Adapt that separation to Oneirloom's approved anatomy. The [brand reference](../../references/oneirloom-brand.md) owns identity and the [mascot reference](../../assets/mascot-reference.png) supplies the accepted front. Side and back cards are proposals awaiting acceptance. Do not label them six accepted views. Keep flat illustration as the default. A selected material treatment can change rendering, but cannot add a face, remove arms, or change the net into another object.
+Adapt that separation to Oneirloom's approved anatomy. The [brand reference](../../references/oneirloom-brand.md) owns identity and the mascot reference (local-only `../../assets/mascot-reference.png`) supplies the accepted front. Side and back cards are proposals awaiting acceptance. Do not label them six accepted views. Keep flat illustration as the default. A selected material treatment can change rendering, but cannot add a face, remove arms, or change the net into another object.
 
 ## Build the library
 
@@ -17,7 +23,7 @@ Use a 1024 by 1024 working canvas for each pose. This is a local authoring choic
 1. Preserve the front reference as the identity record. Record two antennae, one navy window with one four-point star, four arms, the character's left curl tail, and the blue net that supports a gold crescent moon.
 2. Use viewer-relative arm labels UL, UR, LL, and LR for upper-left, upper-right, lower-left, and lower-right in the default hold. UL and UR correspond to the outer arms in the brand guide; LL and LR correspond to the inner arms. Follow their body connections when a hand changes height. In the poses below, each arm retains a visible grip on a blue net thread. These are pose notes, not names printed in artwork. A different pose may release one or two hands when the remaining identified grips visibly support the net and crescent and all four connected arms are accounted for.
 3. Author a separate pose record for each row below. Retain the prompt, the chosen reference, and any actual output beside that record.
-4. Put the actual [brand lockup](../../assets/brand-lockup.svg) on the library cover. Keep labels outside pose areas. Do not imitate the source's characters or redraw the lockup from memory.
+4. Put the actual brand lockup (local-only `../../assets/brand-lockup.svg`) on the library cover. Keep labels outside pose areas. Do not imitate the source's characters or redraw the lockup from memory.
 
 | Local record | Body and antennae | Four-arm action and moon support | Decisive cue |
 | --- | --- | --- | --- |
@@ -38,10 +44,10 @@ Create one standalone Oneirloom dream-cocoon sticker on a square canvas. Use a f
 
 Compare the actual pose with the approved reference. Count all four arms and trace every grip to the moon-bearing net. Check the lone star and the tail side. Inspect the thank-you bow against the done pose so that gratitude does not read as an offer. Check the wordmark outside the action at the intended chat size.
 
-Status: four local reaction examples are available for visual review. They do not supply accepted additional identity views, a rig, or Tencent source files.
+Status: four local reaction examples were retained for local visual review. They do not supply accepted additional identity views, a rig, or Tencent source files.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Four original local reaction PNGs are linked in the [preview](../../assets/generated/identity-acting-system/preview.png) and [production record](../../assets/generated/identity-acting-system/production.json).
+Four original local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/identity-acting-system/preview.png`) and production record (local-only `../../assets/generated/identity-acting-system/production.json`).
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

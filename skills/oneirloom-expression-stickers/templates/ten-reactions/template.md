@@ -1,12 +1,18 @@
 # Ten everyday reactions
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Choose this pack when ten familiar emotional responses provide a useful starting vocabulary. Use the action and caption together to distinguish nearby meanings. The source's facial labels describe intent; Oneirloom expresses them through its existing body, arms, antennae, and supported hammock.
 
 ## Defining visual relations
 
-Use the [Oneirloom identity](../../references/oneirloom-brand.md) and [approved front reference](../../assets/mascot-reference.png). Keep the rounded periwinkle cocoon and tufts, two arched antennae with gold balls, navy oval with one gold four-point star, own-left curled tail on viewer right, and exactly four attached small arms with mitten ends. All four hands retain a visible grip on blue hammock strands. One gold crescent rests in the hammock's lowest supported pocket. There are no eyes, nose, or mouth. Use the known front view with small planar tilts, without constructing an unaccepted side or back.
+Use the [Oneirloom identity](../../references/oneirloom-brand.md) and approved front reference (local-only `../../assets/mascot-reference.png`). Keep the rounded periwinkle cocoon and tufts, two arched antennae with gold balls, navy oval with one gold four-point star, own-left curled tail on viewer right, and exactly four attached small arms with mitten ends. All four hands retain a visible grip on blue hammock strands. One gold crescent rests in the hammock's lowest supported pocket. There are no eyes, nose, or mouth. Use the known front view with small planar tilts, without constructing an unaccepted side or back.
 
 The poses in this collection use four grips as a local design choice. Four connected arms are an identity constraint; four simultaneous grips are not a rule for every possible Oneirloom reaction. A different pose may release a hand when the remaining grips visibly support the net and moon.
 
@@ -33,7 +39,7 @@ Use a 1024 × 1024 square per proposed sticker as a local design canvas. Keep th
 
 ## Complete example prompt
 
-Reference input: use the [approved front mascot](../../assets/mascot-reference.png) for identity through the selected entry's supported reference control.
+Reference input: use the approved front mascot (local-only `../../assets/mascot-reference.png`) for identity through the selected entry's supported reference control.
 
 ```text
 Create one standalone Oneirloom chat sticker on a 1024 × 1024 square, showing a knowing acknowledgment. Draw a rounded periwinkle cocoon with the same tufts, two arched antennae ending in gold balls, a central uninterrupted navy oval containing exactly one gold four-point star, and its own-left curled tail on the viewer's right. Keep the periwinkle surface around the oval smooth and continuous. Give it exactly four small attached arms with mitten ends. Tilt the front silhouette slightly toward the viewer's left and lower the left antenna ball toward the oval's upper edge. Raise the outer viewer-left hand beside the body while it visibly grips one blue hammock rim strand. Keep the other outer hand and both inner hands below the body, each visibly gripping a separate blue strand. Show all four arm attachments and all four hands. Let the blue strands descend from those grips into one curved hammock beneath the body, with exactly one gold crescent moon resting at the lowest supported point. Keep the moon, star, hands, antenna tips, and curled tail inside the frame. Use flat colored illustration with black outlines, periwinkle #9994E8, navy #25244C, gold #FFD873, and blue #71B9E8 on a plain white preview background. Place the exact caption "懂你" above the character with clear space around the raised hand and both antennae. Surround the connected figure and its held hammock with clear open background.
@@ -45,10 +51,10 @@ For another row, retain the complete identity and contact description and replac
 
 Adapted from JoeFriday's [Telegram Blank Sticker Pack](https://joefriday.itch.io/telegram-blank-sticker-pack), listing captured 2026-10-02. The visible listing body names these ten expressions and describes a PSD plus transparent PNG files at 512 × 512. The transferred mechanism is a compact, named ten-reaction inventory. The source lists no body-action poses.
 
-Every Oneirloom pose, faceless interpretation, caption, palette application, and 1024-square layout above is a new local design. Source artwork was not visually inspected, downloaded, traced, or reused. Listed files and license statements are not independently verified deliverables or permission to redistribute the original designs. Ten local reaction examples are available; recipient comprehension and platform acceptance remain untested.
+Every Oneirloom pose, faceless interpretation, caption, palette application, and 1024-square layout above is a new local design. Source artwork was not visually inspected, downloaded, traced, or reused. Listed files and license statements are not independently verified deliverables or permission to redistribute the original designs. Ten local reaction examples were retained locally; recipient comprehension and platform acceptance remain untested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Ten selected original local reaction PNGs are linked in the [preview](../../assets/generated/ten-reactions/preview.png) and [production record](../../assets/generated/ten-reactions/production.json); the record distinguishes selected files from retained attempts.
+Ten selected original local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/ten-reactions/preview.png`) and production record (local-only `../../assets/generated/ten-reactions/production.json`); the record distinguishes selected files from retained attempts.
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

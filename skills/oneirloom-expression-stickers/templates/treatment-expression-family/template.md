@@ -1,12 +1,18 @@
 # Treatment and expression family
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Choose this comparison recipe to see how one approved mascot carries the same expressive actions across several rendering treatments. Keep identity and action fixed while changing the treatment. Five treatments multiplied by nine intents define 45 comparison combinations; actual delivered files and inspection results are recorded in the dated local production section below.
 
 ## Defining visual relations
 
-Use the [Oneirloom identity](../../references/oneirloom-brand.md) and [approved front reference](../../assets/mascot-reference.png). Every combination uses the same rounded cocoon, tufts, two arched antennae with gold balls, navy oval containing one gold four-point star, own-left curl on viewer right, and exactly four attached small arms with mitten ends. Four grips retain the blue thread hammock and one gold crescent rests in its lowest pocket. There are no eyes, nose, or mouth. Stay in the known front view with small planar tilts; material depth does not authorize invented side or back anatomy.
+Use the [Oneirloom identity](../../references/oneirloom-brand.md) and approved front reference (local-only `../../assets/mascot-reference.png`). Every combination uses the same rounded cocoon, tufts, two arched antennae with gold balls, navy oval containing one gold four-point star, own-left curl on viewer right, and exactly four attached small arms with mitten ends. Four grips retain the blue thread hammock and one gold crescent rests in its lowest pocket. There are no eyes, nose, or mouth. Stay in the known front view with small planar tilts; material depth does not authorize invented side or back anatomy.
 
 The selected actions use four grips to keep contact positions comparable across treatments. This is a study choice, not a universal identity rule. Another action may free one connected hand if the remaining grips visibly support the net and moon.
 
@@ -44,7 +50,7 @@ For a preview, group identical actions beside each other so treatment difference
 
 ## Complete example prompt
 
-Reference input: use the [approved front mascot](../../assets/mascot-reference.png) for identity through the selected entry's supported reference control.
+Reference input: use the approved front mascot (local-only `../../assets/mascot-reference.png`) for identity through the selected entry's supported reference control.
 
 ```text
 Create one standalone flat-illustration study of Oneirloom thinking, F-A09, on a 1024 × 1024 square. Preserve its rounded periwinkle cocoon and tufts, exactly two arched antennae ending in gold balls, central uninterrupted navy oval with exactly one gold four-point star, and its own-left curled tail on the viewer's right. Keep the periwinkle surface around the oval smooth and continuous. Show exactly four small attached arms with separate mitten ends. Tilt the entire front silhouette slightly toward a blue strand below the oval. Curve the viewer-left antenna inward and leave the other antenna relaxed. Raise the inner viewer-left hand toward the oval's lower edge while it grips that strand, leaving a clear gap between hand and star. The other inner hand and both outer hands stay below the body, each visibly gripping a separate strand. Connect all four held strands to the same curved blue hammock. Exactly one gold crescent moon rests in its lowest pocket. Keep the front oval, four attachments, four hands, moon, tail, and antenna balls fully visible. Use solid flat regions with black contours, periwinkle #9994E8 for the body and hands, navy #25244C for the oval, gold #FFD873 for the star, antenna balls, and moon, blue #71B9E8 for the hammock, and #000000 outlines. Use a plain white preview background. Use an unlettered composition with uninterrupted white space around the figure and its held hammock. Keep open margins around the raised grip and the hanging moon pocket.
@@ -60,8 +66,8 @@ The transferred mechanism is comparison of repeated expressions across a family 
 
 No source artwork, layered PSD, license, source transparency, or download was inspected or verified. No purchase or source asset reuse occurred. The local family contains 45 PNG files, nine in each of the flat, doodle, plush, clay, and monochrome treatments. Some poses are shared or reused, so 45 is a file-entry count, not 45 unique poses. Quiet-pose ambiguity, material-scale variation, and the C04 cyan overlay remain documented limitations. Recipient comprehension and platform import have not been tested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Forty-five local reaction PNGs are linked in the [preview](../../assets/generated/treatment-expression-family/preview.png) and [production record](../../assets/generated/treatment-expression-family/production.json). There are nine files per treatment; some poses are shared across the family.
+Forty-five local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/treatment-expression-family/preview.png`) and production record (local-only `../../assets/generated/treatment-expression-family/production.json`). There are nine files per treatment; some poses are shared across the family.
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

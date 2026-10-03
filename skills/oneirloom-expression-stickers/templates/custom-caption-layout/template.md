@@ -1,5 +1,11 @@
 # Reserve Oneirloom custom-caption space
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template when the user selects customizable-caption stickers, or wants an original layout with editable text. A fixed caption sticker can use the geometry without claiming LINE custom-sticker support.
@@ -38,10 +44,10 @@ For a fixed-caption rendering of this resolved layout, add the exact caption "�
 
 Inspect the real text preview for exact characters, spacing, clipping, and collisions. Test the longest intended caption in each selected language. Confirm that style reuse preserves the reserve while the four net grips and single star remain clear. Check actual exports against the selected profile. Claim `.style` portability only after a real editor export and import succeeds.
 
-Status: six local image examples are available: three uncaptioned bases and three fixed-caption renderings. They are not LINE-customizable stickers; no `.style` file, multilingual render, or platform import has been produced or tested.
+Status: six local image examples were retained locally: three uncaptioned bases and three fixed-caption renderings. They are not LINE-customizable stickers; no `.style` file, multilingual render, or platform import has been produced or tested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-The [review preview](../../assets/generated/custom-caption-layout/review-light-dark-128-384.png) shows three uncaptioned bases and three fixed-caption examples. The [production record](../../assets/generated/custom-caption-layout/production.json) retains the selected files and known limitations. These are fixed-caption raster examples, not editor-controlled stickers.
+The review preview (local-only `../../assets/generated/custom-caption-layout/review-light-dark-128-384.png`) shows three uncaptioned bases and three fixed-caption examples. The production record (local-only `../../assets/generated/custom-caption-layout/production.json`) retains the selected files and known limitations. These are fixed-caption raster examples, not editor-controlled stickers.
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

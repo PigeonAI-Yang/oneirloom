@@ -1,12 +1,18 @@
 # Soft six
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Choose this small pack for gentle exchanges where low-intensity comfort matters more than broad comedy. Keep the source's six named emotional combinations while designing original faceless Oneirloom poses. Pair each combination with one exact caption, or omit text deliberately.
 
 ## Defining visual relations
 
-Use the [Oneirloom identity](../../references/oneirloom-brand.md) and [approved front reference](../../assets/mascot-reference.png). Preserve the rounded periwinkle cocoon and tufts, two arched antennae with gold balls, navy oval with a single gold four-point star, own-left curled tail on viewer right, and four attached small arms with mitten ends. No facial anatomy is added. Four visible hands keep hold of blue hammock strands, which support one gold crescent at the lowest pocket. Use the front view with small planar inclines.
+Use the [Oneirloom identity](../../references/oneirloom-brand.md) and approved front reference (local-only `../../assets/mascot-reference.png`). Preserve the rounded periwinkle cocoon and tufts, two arched antennae with gold balls, navy oval with a single gold four-point star, own-left curled tail on viewer right, and four attached small arms with mitten ends. No facial anatomy is added. Four visible hands keep hold of blue hammock strands, which support one gold crescent at the lowest pocket. Use the front view with small planar inclines.
 
 Four grips are the selected construction for these six proposals, not a fixed identity requirement. Other designs may free a connected hand when the remaining grips visibly support the net and moon.
 
@@ -27,7 +33,7 @@ Use a 1024 × 1024 local square canvas for each proposed sticker, with the entir
 
 ## Complete example prompt
 
-Reference input: use the [approved front mascot](../../assets/mascot-reference.png) for identity through the selected entry's supported reference control.
+Reference input: use the approved front mascot (local-only `../../assets/mascot-reference.png`) for identity through the selected entry's supported reference control.
 
 ```text
 Create one standalone gentle Oneirloom chat sticker on a 1024 × 1024 square. Draw its rounded periwinkle cocoon body and tufts, two arched antennae ending in gold balls, a central uninterrupted navy oval with exactly one gold four-point star, and its own-left curled tail on the viewer's right. Keep the periwinkle surface around the oval smooth and continuous. Preserve exactly four small arms with mitten ends attached to the lower body. Show a cozy, dreamy pose in the known front view: the body settles slightly lower and wider, and both antenna arcs relax toward the sides. Place the four separate mitten hands close beneath the lower body. Each hand visibly grips a blue strand of the same deep, snug hammock. Let the blue strands curve downward under the weight of exactly one gold crescent moon nestled in the lowest pocket. Keep the moon separate from the star inside the oval. Show all four arm attachments and grips with clear gaps, and retain the entire tail and both antenna balls. Use flat color illustration, rounded black outlines, and the palette #9994E8, #25244C, #FFD873, #71B9E8, and #000000 on a plain white preview background. Place the exact caption "做个好梦" above the character with generous clearance around the antennae. Keep the composition quiet with smooth flat surfaces and open background around the figure and its held hammock.
@@ -39,10 +45,10 @@ For another combination, substitute its body, antenna, four-hand, and hammock co
 
 Source: Muhammad Naveed's [Space Kid Sticker Pack](https://novacoverstudio.gumroad.com/l/spacekidstickerpack), captured 2026-10-02. This is a provisional original adaptation from limited listing metadata. A search-result excerpt names the six combinations above and describes PNG and editable PSD files. The Gumroad page returned no readable body, and the original artwork, pixel dimensions, source files, checkout, and download were not inspected or verified.
 
-The transferred mechanism is six gentle emotional combinations with related tone. The Oneirloom poses, captions, flat treatment, and square canvas are new local designs. They do not reproduce unseen Space Kid poses or materials. No source assets were downloaded, purchased, or reused. Six local reaction PNGs are available; no PSD delivery, recipient test, or chat-platform acceptance has been verified.
+The transferred mechanism is six gentle emotional combinations with related tone. The Oneirloom poses, captions, flat treatment, and square canvas are new local designs. They do not reproduce unseen Space Kid poses or materials. No source assets were downloaded, purchased, or reused. Six local reaction PNGs were retained locally; no PSD delivery, recipient test, or chat-platform acceptance has been verified.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Six original local reaction PNGs are linked in the [preview](../../assets/generated/soft-six/preview.png) and [production record](../../assets/generated/soft-six/production.json).
+Six original local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/soft-six/preview.png`) and production record (local-only `../../assets/generated/soft-six/production.json`).
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

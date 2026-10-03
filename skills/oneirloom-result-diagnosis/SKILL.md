@@ -34,6 +34,6 @@ Describe the supported package geometry and target relations affirmatively. Pres
 
 ## Deliver the correction
 
-Return the complete revised prompt or requested artifact under the shared interaction contract, with actual review status. For a conceptual graphic failure, read [graphic design](../oneirloom-style-design/SKILL.md) and repair the responsible early stage. With the design intact, correct local errors in available editable source or an appropriate image edit. Change production path only when the deliverable or observed limits justify it.
+Return the complete revised prompt or requested artifact under the shared interaction contract, with actual review status. For prompt delivery, apply its final-assembly and fenced-block rules. For a conceptual graphic failure, read [graphic design](../oneirloom-style-design/SKILL.md) and repair the responsible early stage. With the design intact, correct local errors in available editable source or an appropriate image edit. Change production path only when the deliverable or observed limits justify it.
 
 Keep diagnosis, counterexamples, and acceptance lists outside copyable generation prose. Preserve matched source relations and leave hidden construction unknown. A compact internal note can record the target, deviation, changed dimension, preserved relations, and decisive acceptance criterion. It is not another ledger.

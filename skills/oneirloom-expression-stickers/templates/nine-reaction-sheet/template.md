@@ -1,12 +1,18 @@
 # Nine-reaction sheet
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Choose this recipe to compare nine expressive intents in a 3 × 3 concept preview. The sheet shows whether gestures differ while the character remains consistent. It is not nine delivered stickers or evidence of separate transparent exports.
 
 ## Defining visual relations
 
-Use the [Oneirloom identity](../../references/oneirloom-brand.md) and [approved front reference](../../assets/mascot-reference.png). Every cell preserves the rounded periwinkle cocoon with tufts, two arched gold-ball antennae, navy oval containing one gold four-point star, own-left curled tail on viewer right, and exactly four attached small arms with mitten ends. Do not add eyes, mouth, nose, or facial tears. Four hands grip blue strands of one hammock supporting one gold crescent at its low point.
+Use the [Oneirloom identity](../../references/oneirloom-brand.md) and approved front reference (local-only `../../assets/mascot-reference.png`). Every cell preserves the rounded periwinkle cocoon with tufts, two arched gold-ball antennae, navy oval containing one gold four-point star, own-left curled tail on viewer right, and exactly four attached small arms with mitten ends. Do not add eyes, mouth, nose, or facial tears. Four hands grip blue strands of one hammock supporting one gold crescent at its low point.
 
 This sheet selects four-grip actions for comparison; the grip count is not a universal pose constraint. A different action may release a hand if the other grips visibly carry the loaded net and all four connected arms remain accounted for.
 
@@ -34,7 +40,7 @@ Default to flat illustration with black outlines and palette #9994E8, #25244C, #
 
 ## Complete example prompt
 
-Reference input: use the [approved front mascot](../../assets/mascot-reference.png) for identity through the selected entry's supported reference control.
+Reference input: use the approved front mascot (local-only `../../assets/mascot-reference.png`) for identity through the selected entry's supported reference control.
 
 ```text
 Create one 1024 × 1024 white-background concept preview headed "Oneirloom", with nine full-body mascot reactions in a clear 3 × 3 grid below the header. Each mascot has a rounded periwinkle cocoon with tufts, exactly two arched antennae ending in gold balls, a central uninterrupted navy oval containing exactly one gold four-point star, its own-left curled tail on the viewer's right, and exactly four small attached arms ending in mitten hands. Keep the periwinkle surface around the oval smooth and continuous. In every cell, show all four arm attachments and all four hands visibly gripping blue strands of one hammock below the body. Exactly one gold crescent moon rests in the hammock's lowest supported pocket. Keep every pose in the known front view with only small planar tilts.
@@ -54,8 +60,8 @@ Source: Curify Studio's [Upload Your Character → 9-Pose Expression Sheet](http
 
 No Curify source output image was generated or visually inspected, and no upload, sign-in, download, or source artwork reuse occurred. Its individual transparent PNG and print-PDF exports remain roadmap items, not verified features. The nine local examples are reused files from the F treatment family; recipient comprehension and platform import remain unverified.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Nine PNG files, byte-copied from the F treatment family, are linked in the [preview](../../assets/generated/nine-reaction-sheet/preview.png) and [production record](../../assets/generated/nine-reaction-sheet/production.json). They are local files, not Curify exports.
+Nine PNG files, byte-copied from the F treatment family, are recorded in the local preview (local-only `../../assets/generated/nine-reaction-sheet/preview.png`) and production record (local-only `../../assets/generated/nine-reaction-sheet/production.json`). They are local files, not Curify exports.
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

@@ -1,58 +1,82 @@
-# Install Oneirloom 0.1.1
+# Install Oneirloom 0.2.0-preview.1
 
-The package contains 15 sibling skill folders with their references, templates, scripts, and assets. Keep each folder intact. Oneirloom prepares prompts; image generation requires a separately available model or tool.
+This candidate contains 18 free sibling skills. Version `0.2.0-preview.1` and tag `v0.2.0-preview.1` are proposed release identifiers, pending approval. The release has not been published. The `main` branch is for development and is not a fixed installation version.
 
-## Codex CLI plugin installation
+The instructions below describe the candidate package. See [candidate release notes](releases/0.2.0-preview.1.md) and [compatibility evidence](COMPATIBILITY.md) before choosing it. A prepared package, a successful install, and release approval are separate states.
 
-The repository marketplace is public. These GitHub shorthand commands are documented but have not been directly tested:
+## Obtain and check the versioned package
 
-```sh
-codex plugin marketplace add PigeonAI-Yang/oneirloom --ref main
-codex plugin add oneirloom@oneirloom-local
-codex plugin list --marketplace oneirloom-local --json
+After publication, use the publisher-built [oneirloom-0.2.0-preview.1.zip](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip) and companion [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt). These are reserved release URLs, **not yet published downloads**. Before publication, use only the local candidate files supplied for review.
+
+1. Compare the ZIP's SHA-256 with the exact filename in `SHA256SUMS.txt`. In PowerShell, run `Get-FileHash -Algorithm SHA256 -LiteralPath './oneirloom-0.2.0-preview.1.zip'` in the download directory.
+2. Extract the ZIP into a new directory. Find the package root containing `skills/` and `SOURCE-MANIFEST.json`.
+3. Check that the manifest records package version `0.2.0-preview.1` and the 18 skill IDs listed below. Keep the ZIP, `SHA256SUMS.txt`, and manifest together with your installation record.
+
+The manifest uses schema version 2. It records the package name and version, `skillIds`, hashes and sizes in `packagedFilesExceptThisManifest`, and `sourceSnapshot` provenance. The snapshot includes the base commit, dirty working-tree state, skill-content fingerprint, and LFS payload provenance. The ZIP checksum covers the manifest too. A base commit alone does not identify this candidate's uncommitted source content.
+
+Use the built ZIP rather than GitHub's automatically generated source ZIP. The development checkout has eight known Git LFS pointers that require hydration before packaging. A release payload must contain the actual image bytes. Do not install pointer text as an image or treat a source archive as the checked release package.
+
+## Install in a new Codex project
+
+Start with an empty project so existing skills do not need to be overwritten. Copy all 18 directories inside the package's `skills/` into the project's `.agents/skills/`, retaining every directory name and its internal files. Do not put the collection inside one extra `oneirloom/` directory.
+
+The candidate's skill IDs are:
+
+```text
+oneirloom
+oneirloom-brand-identity
+oneirloom-camera-composition
+oneirloom-character-sheet
+oneirloom-color-light
+oneirloom-expression-stickers
+oneirloom-figure-art
+oneirloom-icon-design
+oneirloom-image-tutorial
+oneirloom-model-krea-2
+oneirloom-model-qwen-image-2-1
+oneirloom-product-art-direction
+oneirloom-prompt-card
+oneirloom-result-diagnosis
+oneirloom-style-design
+oneirloom-style-illustration
+oneirloom-style-photography
+oneirloom-visual-analysis
 ```
 
-Codex CLI 0.153.0 installed and enabled both the corrected local package and a complete clone of the published repository through a local marketplace wrapper. The public-clone test matched all 343 source files to the installed cache, decoded all 25 package raster images, verified eight LFS payloads, and discovered all 15 skills with zero candidate-specific errors. It used a separate test marketplace name to preserve existing installations. The GitHub shorthand above remains untested. See [compatibility](COMPATIBILITY.md) for the scope of these checks.
+Open a new chat in that project and check that the host discovers these skills from the project path. Invoke `$oneirloom` with a real request, or name a method directly. Confirm that the assistant reads the candidate's skill and shared interaction contract. An already open chat may retain older instructions. A global skill or plugin with the same ID can also obscure which copy ran, so record the actual paths used.
 
-If `oneirloom-local` already exists, inspect its source before adding this marketplace. Preserve the existing installation and local edits. Refresh the host after installation, then ask: "Use Oneirloom to turn this visual idea into a complete image prompt." Remove this plugin with `codex plugin remove oneirloom@oneirloom-local` only when that is the installation you intend to remove.
+Uploading the ZIP to an ordinary chat does not install skills. Hosts other than Codex require their own supported installation path; compatibility has not been established for them.
 
-## Fetch the complete source
+## Optionally register an isolated Codex marketplace
 
-For a manual install or a local marketplace, install Git LFS, then fetch the image payloads:
+Use this route only with a host that exposes the relevant plugin commands. Inspect the extracted `.agents/plugins/marketplace.json` first. The candidate marketplace must be named `oneirloom-0-2-0-preview-1`, with the plugin source `./` inside that marketplace root. Keep an existing `oneirloom-local` registration and its installed copy unchanged.
 
-```sh
-git lfs install
-git clone https://github.com/PigeonAI-Yang/oneirloom.git
-cd oneirloom
-git lfs pull
-git lfs fsck
-git lfs ls-files
-```
-
-Check that `git lfs fsck` passes. In `git lfs ls-files`, `*` marks a complete working-tree payload and `-` marks a pointer. The published-source check hydrated and verified eight objects. Do not copy pointer files as images. GitHub-generated source ZIPs may contain pointers; use a Git LFS clone or the publisher-built `oneirloom-0.1.1.zip`, whose 25 raster images have been decoded and checked.
-
-To use the cloned repository as a local marketplace, replace the example path with its absolute location:
+Replace the example with the absolute extracted package root:
 
 ```sh
-codex plugin marketplace add /absolute/path/to/oneirloom
-codex plugin add oneirloom@oneirloom-local
-codex plugin list --marketplace oneirloom-local --json
+codex plugin marketplace add /absolute/path/to/extracted-package
+codex plugin add oneirloom@oneirloom-0-2-0-preview-1
+codex plugin list --marketplace oneirloom-0-2-0-preview-1 --json
 ```
 
-The repository declares the marketplace name `oneirloom-local`. Its local plugin source is `./`, within the marketplace root. The verified public-clone test copied the full repository into a separate wrapper with source `./plugin`; it did not exercise the GitHub shorthand or change an existing `oneirloom-local` installation.
+This candidate's native plugin installation is pending verification. The older 0.1.1 local-marketplace result does not prove these commands install the new package. Confirm the installed version and file hashes, then use a new chat to check discovery and invocation. Do not register `main` as a substitute for this versioned candidate.
 
-## Manual skill installation
+## Preserve a rollback before upgrading
 
-In a Codex project, copy each folder inside `skills/` to `.agents/skills/<skill-folder>/` under the project root. Preserve folder names and all internal files. Review existing destinations and preserve local edits before merging. A generic chat window that only receives a ZIP does not install skills; use a host's supported plugin or skill installation flow.
+Before replacing an existing installation, back up its exact Oneirloom directories, local edits, manifest, and known working package. Record the package hash, installed file hashes, version, and successful invocation. If no verified backup or package exists, record **rollback baseline absent**. There is no supplied, publicly redistributable, verified rollback package: historical 0.1.1 archives contain private watermark assets and must not be republished.
 
-## Compatibility and optional helpers
+Compare the candidate's explicit `skillIds` with the previous installation's inventory. Replace only the Oneirloom directories owned by that installation. Preserve unrelated skills and edits of unknown origin. Do not use a wildcard to delete every `oneirloom*` directory, and do not delete `.agents/skills/` itself.
 
-The main workflow uses Markdown skill instructions. Reference-image analysis requires a host that can pass images to the assistant. Krea 2 and Qwen-Image-2.1 provide prompt-writing guidance; image generation requires a separately chosen tool or service and may incur a fee.
+To revert, remove only the candidate-owned directories identified by its inventory, after preserving edits made since installation. Restore the exact previous backup or verified package. Restore the previous inventory as a unit: a known 15-skill installation must not retain the three candidate-only methods. Do not assume an arbitrary older tag is a tested rollback. If you used the isolated marketplace, remove only `oneirloom@oneirloom-0-2-0-preview-1` when that is the intended candidate, leaving other registrations intact. Refresh the host in a new chat and repeat the previously successful request.
 
-The optional prompt-card renderer uses local Python, Pillow, Playwright, and a Chromium-compatible browser, with permission to read local inputs and write the output folder. These runtime dependencies are not bundled. A local renderer check passed; it used a synthetic image and did not generate an image with an AI model. See [compatibility](COMPATIBILITY.md) for versions and results.
+## Use optional tools
 
-## Version, license, and removal
+The core collection is Markdown. It requires no Go runtime, model weights, service credentials, or bundled generation server. Image analysis requires a host that can inspect images. Image generation uses a separately available tool or service and may incur a fee. Model instructions do not establish active-entry support; see [model evidence](model-evidence.md).
 
-Version 0.1.1 packages the 15-skill snapshot `8d195d4fc9404d5da71733c861fd947aa109d4f1`. The bundled Qwen-Image-2.1 reference materials have a separate Qwen Research License and required attribution; see [third-party notices](../THIRD_PARTY_NOTICES.md) before reuse. The OpenAI plugin-directory submission has not been made. See [safety and privacy](https://www.pigeonyang.top/skills/oneirloom/safety/) for data-handling guidance.
+The optional prompt-card renderer requires local Python, Pillow, Playwright, and a Chromium-compatible browser, plus access to its input and output paths. These dependencies are not bundled. Cards are unbranded by default. An explicitly supplied, authorized local PNG can be passed with `--watermark`; no private brand asset is required or included. See the [prompt-card skill](../skills/oneirloom-prompt-card/SKILL.md).
 
-For a manual install, remove only the skill folders copied from this package, after preserving any edits. Do not delete an entire skills directory that contains unrelated skills.
+## Historical installation evidence and license
+
+The 0.1.1 package had 15 skills from snapshot `8d195d4fc9404d5da71733c861fd947aa109d4f1`. Codex CLI 0.153.0 installed the corrected local package and a complete public clone through separate local marketplace wrappers. The published-clone check matched 343 files, decoded 25 raster images, verified eight LFS payloads, and discovered all 15 skills. The exact GitHub shorthand `PigeonAI-Yang/oneirloom --ref main` was not tested. These are historical observations, not current candidate results or a stable rollback promise. Full limits remain in [compatibility](COMPATIBILITY.md).
+
+Read the [MIT license](../LICENSE), [third-party notices](../THIRD_PARTY_NOTICES.md), and [safety and privacy guidance](SAFETY.md). Bundled Qwen-Image-2.1 references retain their separate Qwen Research License and attribution requirements. This candidate has not been submitted to or approved by the OpenAI plugin directory.

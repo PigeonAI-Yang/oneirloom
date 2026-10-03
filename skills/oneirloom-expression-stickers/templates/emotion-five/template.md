@@ -1,5 +1,11 @@
 # Draw five Oneirloom emotion variants
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template for a small study of happy, angry, sad, shy, and love. Keep the full front body so that the four arms and dream net can carry the emotion. This five-item scope is a local study, not a platform submission count.
@@ -36,10 +42,10 @@ Create one standalone shy Oneirloom sticker on a square canvas. Use a front view
 
 Compare E03, E04, and E05 for distinct posture and net placement. Check the actual drawing for four visible or explicitly accounted-for arms, continuous thread grips, and a supported crescent. Inspect captions and the single star at chat size. Use the actual brand lockup on the study cover. When alpha is requested, inspect the exported alpha channel and edges rather than relying on a white preview.
 
-Status: five local emotion PNGs are available for review. No vector source or app import has been tested.
+Status: five local emotion PNGs were retained for local review. No vector source or app import has been tested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Five original local reaction PNGs are linked in the [preview](../../assets/generated/emotion-five/preview.png) and [production record](../../assets/generated/emotion-five/production.json).
+Five original local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/emotion-five/preview.png`) and production record (local-only `../../assets/generated/emotion-five/production.json`).
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

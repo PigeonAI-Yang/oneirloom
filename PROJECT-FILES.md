@@ -31,6 +31,7 @@ work/
 | Sticker skill and delivery | [Sticker skill](skills/oneirloom-expression-stickers/), [Sticker delivery](output/oneirloom-stickers-20261003/) |
 | Ecommerce collaboration | [Workflow guidance](skills/oneirloom-product-art-direction/references/ecommerce-workflow.md), [Chinese text-fixture examples](skills/oneirloom-product-art-direction/references/ecommerce-examples.md) |
 | Progressive-disclosure instructions | [Shared interaction contract](skills/oneirloom/references/interaction-contract.md), [graphic design and conditional references](skills/oneirloom-style-design/) |
+| Free 18-skill preview | [Release notes and current publication status](docs/releases/0.2.0-preview.1-publication.md), [versioned installation and rollback](docs/INSTALL.md), [verification status](docs/COMPATIBILITY.md) |
 | Verification records | [Sticker verification](work/sticker-pack-templates-20261002/), [Ecommerce checks and text exercises](work/ecommerce-workflow-20261003/), [Progressive-disclosure verification](work/progressive-disclosure-20261003/) |
 
 Plugin 0.1.2 is a validated local candidate using the selected purple rounded icon. Installation, publication, and the connected Sites plugin icon update have not been performed.

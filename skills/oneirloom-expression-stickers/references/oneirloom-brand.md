@@ -4,15 +4,15 @@ Oneirloom (织梦师) is the brand. DreamWeaver (织梦兽) is its mascot. The o
 
 ## Approved visual reference
 
-![Approved front reference of DreamWeaver](../assets/mascot-reference.png)
+This document records the approved identity and its historical inspection. The reference image and lockup are private local assets, excluded from the public package. For brand-specific production, use them only when available locally under the user's authorization, or use an authorized reference supplied for the task. Without that image, the descriptions below remain recorded identity facts, not a new visual inspection. For another subject, use its own anatomy and the [generic sticker method](../SKILL.md).
 
-The portable [mascot reference](../assets/mascot-reference.png) reproduces the approved front image as a 1254 × 1254 RGB PNG. It has a white background and no alpha channel. The [brand lockup](../assets/brand-lockup.svg) supplies the separate brand signature as a 960 × 220 self-contained path SVG. It has no external image or font dependency. Both are copies of the existing brand assets, not new pose artwork. The original mascot source was `docs/assets/dream-cocoon/00-approved-reference.png`; that image and its asset card were inspected on 2026-10-02. The source path records provenance and is not a runtime dependency.
+Local provenance: `../assets/mascot-reference.png` is a 1254 × 1254 RGB copy of the approved front image with a white background and no alpha channel. `../assets/brand-lockup.svg` is the separate 960 × 220 brand signature as a self-contained path SVG with no external image or font dependency. Both copy existing brand assets rather than new pose artwork. The original mascot source is `docs/assets/dream-cocoon/00-approved-reference.png`; that image and its asset card were inspected on 2026-10-02. These paths document the private source tree and are not public runtime dependencies.
 
 The approved image establishes a rounded periwinkle cocoon with tufts, two arched antennae ending in gold balls, and a central navy oval containing one gold four-point star. Exactly four small arms grip blue strands of a hanging net. One gold crescent rests in its lower bowl. The short curled tail is on the creature's own left, which appears on the viewer's right in the front view. The image uses dark outlines and contains slight tonal variation on a white ground. Its white ground is not evidence of export-ready transparency.
 
 The side, back, and action cards described in the source asset card are review drafts. Their new anatomy has not received separate user acceptance. They do not replace the approved front reference or require a new six-view sheet before sticker work. A slight front-view tilt can retain known anatomy. A true side or back view needs additional design evidence.
 
-This reference remains an identity example, not a generated reaction sample or alpha example. Separate local reaction examples were produced or reused and inspected on 2026-10-03; see the [template index](../templates/index.md) and generated production records. Their output does not change the approved identity or grant acceptance to the unapproved side, back, or action cards.
+This reference remains an identity example, not a generated reaction sample or alpha example. Separate local reaction examples were produced or reused and inspected on 2026-10-03; see the [template index](../templates/index.md) and its private local production-record paths. Those records and images are not bundled. Their output does not change the approved identity or grant acceptance to the unapproved side, back, or action cards.
 
 ## Fixed identity and editable acting
 
@@ -62,4 +62,4 @@ The mascot communicates the reaction. The wordmark identifies the collection on 
 
 A cover can place the complete front mascot above the lockup, with a clear gap between the net and lettering. A compact picker icon prioritizes the mascot and simplifies empty space. Tiny text is optional and must not displace the star, antennae, or net. Where an icon cannot retain enough identity detail, inspect the reduced result before deciding its crop.
 
-Each template uses this approved identity as its starting point and supplies original reaction planning or authoring structure. Template quantities describe those collections. Platform delivery quantities and dimensions belong to the separate [platform profiles](platform-profiles.md).
+The Oneirloom case studies use this approved identity as their starting point and supply original reaction planning or authoring structure. Generic use transfers the method to the supplied subject without copying DreamWeaver anatomy or branding. Template quantities describe those collections. Platform delivery quantities and dimensions belong to the separate [platform profiles](platform-profiles.md).

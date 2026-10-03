@@ -30,3 +30,10 @@ dist-plugin/
 # Exact duplicate standalone brand assets outside their source directories
 /docs/articles/2026-10-01-oneirloom-x/images/signature.png
 /work/prompt-cards/signature-bright-background-check/photo.png
+# Local prompt-card layout previews
+/work/prompt-cards/green-lane/stacked.html
+/work/prompt-cards/green-lane/side-by-side.html
+# Private signature and workspace assets excluded from the public source tree
+/skills/oneirloom-prompt-card/assets/oneirloom-woven-signature-white-black-outline.png
+/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace.svg
+/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace-preview.png

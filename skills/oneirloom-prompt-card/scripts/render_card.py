@@ -10,10 +10,15 @@ from PIL import Image, ImageStat
 from playwright.sync_api import sync_playwright
 
 
-def select_watermark(image_path, image_y, asset_dir):
-    white_path = asset_dir / 'oneirloom-woven-signature-white-black-outline.png'
-    with Image.open(white_path) as signature:
-        mark_height = 360 * signature.height / signature.width
+def select_watermark(image_path, image_y, watermark_path):
+    if watermark_path is None:
+        return None, 'none', None
+    watermark_path = Path(watermark_path).resolve(strict=True)
+    with Image.open(watermark_path) as watermark:
+        if watermark.format != 'PNG':
+            raise ValueError('Watermark file must be a PNG')
+        watermark.load()
+        mark_height = 360 * watermark.height / watermark.width
     with Image.open(image_path) as image:
         scale = max(1800 / image.width, 800 / image.height)
         offset_x = (image.width * scale - 1800) / 2
@@ -26,9 +31,7 @@ def select_watermark(image_path, image_y, asset_dir):
         background.alpha_composite(area)
         rgb = ImageStat.Stat(background.convert('RGB')).mean
     luminance = (0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]) / 255
-    variant = 'white-black-outline'
-    path = white_path
-    return path.resolve(strict=True), variant, luminance
+    return watermark_path, 'user-provided', luminance
 
 
 def render_card(args):
@@ -38,7 +41,7 @@ def render_card(args):
     if not 0 <= args.image_y <= 100:
         raise ValueError('Image crop position must be between 0 and 100')
     watermark_path, watermark_variant, background_luminance = select_watermark(
-        image_path, args.image_y, Path(__file__).resolve().parent.parent / 'assets',
+        image_path, args.image_y, args.watermark,
     )
     prompt = prompt_path.read_text(encoding='utf-8-sig').strip()
     if not prompt:
@@ -46,10 +49,15 @@ def render_card(args):
     output_dir.mkdir(parents=True, exist_ok=False)
     photo_name = 'photo' + image_path.suffix.lower()
     shutil.copyfile(image_path, output_dir / photo_name)
-    shutil.copyfile(watermark_path, output_dir / 'watermark.png')
+    if watermark_path is not None:
+        shutil.copyfile(watermark_path, output_dir / 'watermark.png')
     (output_dir / 'prompt.txt').write_text(prompt + '\n', encoding='utf-8')
     paragraphs = re.split(r'\n\s*\n', prompt)
     paragraph_html = ''.join('<p>' + html.escape(p) + '</p>' for p in paragraphs)
+    watermark_node = (
+        '<img class="watermark" src="watermark.png" alt="织梦师 Oneirloom Skill signature">'
+        if watermark_path is not None else ''
+    )
     document = '''<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><title>__TITLE__</title>
 <style>
@@ -67,7 +75,7 @@ h1 { font-size: 48px; line-height: 1.35; font-weight: 700; margin: 0; }
 p { margin: 0 0 18px; }
 p:last-child { margin-bottom: 0; }
 </style></head><body><main class="card">
-<section class="image-region"><img class="photo" src="__PHOTO__" alt="Source image"><img class="watermark" src="watermark.png" alt="织梦师 Oneirloom Skill signature"></section>
+<section class="image-region"><img class="photo" src="__PHOTO__" alt="Source image">__WATERMARK__</section>
 <section class="text-region"><header class="heading"><h1>__TITLE__</h1></header>
 <div class="prompt">__PARAGRAPHS__</div></section>
 </main></body></html>'''
@@ -75,6 +83,7 @@ p:last-child { margin-bottom: 0; }
         '__TITLE__': html.escape(args.title),
         '__IMAGE_Y__': str(args.image_y),
         '__PHOTO__': html.escape(photo_name),
+        '__WATERMARK__': watermark_node,
         '__PARAGRAPHS__': paragraph_html,
         '__WATERMARK_SHADOW__': 'drop-shadow(0 1px 3px rgba(0, 0, 0, 0.65))' if watermark_variant == 'white' else 'none',
     }
@@ -92,14 +101,31 @@ p:last-child { margin-bottom: 0; }
             page.goto((output_dir / 'card.html').as_uri(), wait_until='load')
             page.evaluate('document.fonts.ready')
             page.locator('.photo').evaluate('(image) => image.decode()')
-            page.locator('.watermark').evaluate('(image) => image.decode()')
+            if watermark_path is not None:
+                page.locator('.watermark').evaluate('(image) => image.decode()')
+            watermark_check = '''(() => {
+                const signature = document.querySelector('.watermark');
+                const mark = signature.getBoundingClientRect();
+                return {
+                    x: mark.x, y: mark.y, width: mark.width, height: mark.height,
+                    sourceSize: [signature.naturalWidth, signature.naturalHeight],
+                    widthRatio: mark.width / document.querySelector('.image-region').getBoundingClientRect().width,
+                    heightRatio: mark.height / document.querySelector('.image-region').getBoundingClientRect().height,
+                    topMargin: mark.top - document.querySelector('.image-region').getBoundingClientRect().top,
+                    rightMargin: document.querySelector('.image-region').getBoundingClientRect().right - mark.right,
+                    opacity: getComputedStyle(signature).opacity,
+                    insideImageRegion: (() => {
+                        const region = document.querySelector('.image-region').getBoundingClientRect();
+                        return mark.left >= region.left && mark.top >= region.top && mark.right <= region.right && mark.bottom <= region.bottom;
+                    })()
+                };
+            })()''' if watermark_path is not None else 'null'
             checks = page.evaluate('''() => {
                 const image = document.querySelector('.photo');
                 const top = document.querySelector('.image-region').getBoundingClientRect();
                 const bottom = document.querySelector('.text-region').getBoundingClientRect();
-                const signature = document.querySelector('.watermark');
-                const mark = signature.getBoundingClientRect();
                 const paragraphs = [...document.querySelectorAll('.prompt p')];
+                const watermark = __WATERMARK_CHECK__;
                 return {
                     canvas: [document.documentElement.scrollWidth, document.documentElement.scrollHeight],
                     imageRegion: {x: top.x, y: top.y, width: top.width, height: top.height},
@@ -107,16 +133,7 @@ p:last-child { margin-bottom: 0; }
                     sourceSize: [image.naturalWidth, image.naturalHeight],
                     imageFit: getComputedStyle(image).objectFit,
                     imagePosition: getComputedStyle(image).objectPosition,
-                    watermark: {
-                        x: mark.x, y: mark.y, width: mark.width, height: mark.height,
-                        sourceSize: [signature.naturalWidth, signature.naturalHeight],
-                        widthRatio: mark.width / top.width,
-                        heightRatio: mark.height / top.height,
-                        topMargin: mark.top - top.top,
-                        rightMargin: top.right - mark.right,
-                        opacity: getComputedStyle(signature).opacity,
-                        insideImageRegion: mark.left >= top.left && mark.top >= top.top && mark.right <= top.right && mark.bottom <= top.bottom
-                    },
+                    watermark,
                     fontSize: getComputedStyle(document.querySelector('.prompt')).fontSize,
                     textBottom: Math.max(...paragraphs.map(p => p.getBoundingClientRect().bottom)),
                     textInside: paragraphs.every(p => {
@@ -124,7 +141,7 @@ p:last-child { margin-bottom: 0; }
                         return r.left >= bottom.left + 66 && r.right <= bottom.right - 66 && r.top >= bottom.top && r.bottom <= bottom.bottom - 56;
                     })
                 };
-            }''')
+            }'''.replace('__WATERMARK_CHECK__', watermark_check))
             if checks['textInside']:
                 break
         else:
@@ -140,14 +157,15 @@ p:last-child { margin-bottom: 0; }
             raise RuntimeError('Rendered geometry does not match the fixed 3:4 layout')
         if checks['imageFit'] != 'cover':
             raise RuntimeError('Image must use proportional cover cropping')
-        watermark = checks['watermark']
-        if (not watermark['insideImageRegion']
-                or abs(watermark['widthRatio'] - 0.2) > 0.001
-                or abs(watermark['height'] - watermark['width'] * watermark['sourceSize'][1] / watermark['sourceSize'][0]) > 0.01
-                or abs(watermark['topMargin'] - 36) > 0.01
-                or abs(watermark['rightMargin'] - 36) > 0.01
-                or watermark['opacity'] != '0.9'):
-            raise RuntimeError('Signature does not match the approved top-right placement')
+        if watermark_path is not None:
+            watermark = checks['watermark']
+            if (not watermark['insideImageRegion']
+                    or abs(watermark['widthRatio'] - 0.2) > 0.001
+                    or abs(watermark['height'] - watermark['width'] * watermark['sourceSize'][1] / watermark['sourceSize'][0]) > 0.01
+                    or abs(watermark['topMargin'] - 36) > 0.01
+                    or abs(watermark['rightMargin'] - 36) > 0.01
+                    or watermark['opacity'] != '0.9'):
+                raise RuntimeError('Signature does not match the approved top-right placement')
         png_path = output_dir / 'prompt-card-3x4.png'
         page.screenshot(path=str(png_path), full_page=True)
         browser.close()
@@ -157,9 +175,11 @@ p:last-child { margin-bottom: 0; }
     source_hash = hashlib.sha256(image_path.read_bytes()).hexdigest()
     if source_hash != hashlib.sha256((output_dir / photo_name).read_bytes()).hexdigest():
         raise RuntimeError('Archived photo bytes differ from the source')
-    watermark_hash = hashlib.sha256(watermark_path.read_bytes()).hexdigest()
-    if watermark_hash != hashlib.sha256((output_dir / 'watermark.png').read_bytes()).hexdigest():
-        raise RuntimeError('Archived signature bytes differ from the approved asset')
+    watermark_hash = None
+    if watermark_path is not None:
+        watermark_hash = hashlib.sha256(watermark_path.read_bytes()).hexdigest()
+        if watermark_hash != hashlib.sha256((output_dir / 'watermark.png').read_bytes()).hexdigest():
+            raise RuntimeError('Archived signature bytes differ from the supplied asset')
     checks.update({
         'pngSize': [2700, 3600],
         'sourceImageSha256': source_hash,
@@ -181,6 +201,7 @@ def main():
     parser.add_argument('--output', required=True)
     parser.add_argument('--title', default='Prompt')
     parser.add_argument('--image-y', type=float, default=50)
+    parser.add_argument('--watermark')
     parser.add_argument('--browser')
     render_card(parser.parse_args())
 

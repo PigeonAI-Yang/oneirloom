@@ -1,7 +1,7 @@
 {
-  "name": "oneirloom-local",
+  "name": "oneirloom-0-2-0-preview-1",
   "interface": {
-    "displayName": "Oneirloom Local"
+    "displayName": "Oneirloom 0.2.0 Preview 1"
   },
   "plugins": [
     {

@@ -1,12 +1,18 @@
 # Extended reaction library
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Choose this recipe when a character needs a growing bank of useful chat actions. Start with the requested subset of the 24 original actions below. The library structure supports adding distinct responses; it does not require producing, training, or saving 100 images.
 
 ## Defining visual relations
 
-Use the [Oneirloom identity](../../references/oneirloom-brand.md) and [approved front reference](../../assets/mascot-reference.png). Preserve the periwinkle rounded cocoon and tufts, two arched gold-ball antennae, one navy oval with one gold four-point star, own-left curl on viewer right, and exactly four small attached arms with mitten ends. No eyes, mouth, or nose exist. Keep one gold crescent supported by the blue thread hammock. Use the known front view and small planar tilts only.
+Use the [Oneirloom identity](../../references/oneirloom-brand.md) and approved front reference (local-only `../../assets/mascot-reference.png`). Preserve the periwinkle rounded cocoon and tufts, two arched gold-ball antennae, one navy oval with one gold four-point star, own-left curl on viewer right, and exactly four small attached arms with mitten ends. No eyes, mouth, or nose exist. Keep one gold crescent supported by the blue thread hammock. Use the known front view and small planar tilts only.
 
 These 24 proposals use four grips as a local design choice. Other poses may release a hand if the remaining grips visibly carry the hammock and moon; all four arms must still remain connected and accounted for.
 
@@ -49,7 +55,7 @@ Use a 1024 × 1024 square as the local working canvas for one reaction. Default 
 
 ## Complete example prompt
 
-Reference input: use the [approved front mascot](../../assets/mascot-reference.png) for identity through the selected entry's supported reference control.
+Reference input: use the approved front mascot (local-only `../../assets/mascot-reference.png`) for identity through the selected entry's supported reference control.
 
 ```text
 Create one standalone Oneirloom chat sticker for "理理思路" on a 1024 × 1024 square. Preserve its rounded periwinkle cocoon body and tufts, exactly two arched antennae with gold balls, its central uninterrupted navy oval containing one gold four-point star, and its own-left curled tail on the viewer's right. Keep the periwinkle surface around the oval smooth and continuous. Show exactly four small arms attached along the lower body, ending in four separate mitten hands. Tilt the entire front silhouette a little toward the viewer's right, toward a blue thread crossing below the oval. The two outer hands grip the left and right hammock rim strands at equal heights. The inner viewer-right hand raises one existing blue strand above the strand gripped by the inner viewer-left hand. Make that over-under crossing clear, with a gap between the two inner hands. Connect every held strand into the same curved blue hammock beneath the body. Exactly one gold crescent moon rests in its lowest central pocket. Keep all four arm attachments, all four grips, the crescent, the tail, and both antenna balls visible. Render flat colored illustration with black outlines and palette #9994E8, #25244C, #FFD873, #71B9E8, and #000000. Use a plain white preview background. Set the exact caption "理理思路" above the antennae, leaving the thread crossing unobscured. Keep the connected figure and its held hammock clearly separated from the open background.
@@ -61,10 +67,10 @@ To resolve another row, replace the purpose, body action, individual grip positi
 
 The source is Kuropipii's [100 canine sticker and emote bases](https://www.etsy.com/listing/4341102065/ultra-mega-pack-100-bases-digital-furry), listing captured 2026-10-02. Its visible body describes 100 canine bases in five ZIPs containing layered PSD files at 512 × 512. Its image-description text names some reactions, but no original artwork pixels or files were inspected. The source's 100 designs are unseen.
 
-The transferred mechanism is a large indexed reaction library for one customizable identity. These 24 IDs, purposes, faceless actions, captions, and Oneirloom prompts are new local designs, not an extracted subset of the source's 100. The source's canine anatomy, PSD structure, transparency, and exact pose inventory are not adopted. No purchase, download, training, copied artwork, or source-file reuse occurred. Twenty-four local reaction PNGs are available; recipient interpretation and platform behavior remain untested.
+The transferred mechanism is a large indexed reaction library for one customizable identity. These 24 IDs, purposes, faceless actions, captions, and Oneirloom prompts are new local designs, not an extracted subset of the source's 100. The source's canine anatomy, PSD structure, transparency, and exact pose inventory are not adopted. No purchase, download, training, copied artwork, or source-file reuse occurred. Twenty-four local reaction PNGs were retained locally; recipient interpretation and platform behavior remain untested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Twenty-four original local reaction PNGs are linked in the [preview](../../assets/generated/extended-reaction-library/preview.png) and [production record](../../assets/generated/extended-reaction-library/production.json).
+Twenty-four original local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/extended-reaction-library/preview.png`) and production record (local-only `../../assets/generated/extended-reaction-library/production.json`).
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

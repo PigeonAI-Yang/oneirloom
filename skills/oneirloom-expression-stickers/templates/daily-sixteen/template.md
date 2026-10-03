@@ -1,5 +1,11 @@
 # Design sixteen Oneirloom daily reactions
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template for an original sixteen-item daily conversation pack. Adjust the selected intents to the user's conversations before production. Sixteen is this template's chosen scope, not a universal platform count.
@@ -45,10 +51,10 @@ Create one square standalone Oneirloom reaction sticker with the exact Chinese c
 
 Check all sixteen IDs for a distinct intended reply. Compare D05 with D06, D03 with D14, and D04 with D12 using both the pose and caption. Count four arms in every item and trace the moon's support. Check exact lettering, complete edges, and identity at reduced size. Put the actual brand lockup on the pack cover without covering sticker art.
 
-Status: sixteen local reaction examples are available for visual review. No original PUPU action inventory or animated preview was reproduced; recipient response and platform import were not tested.
+Status: sixteen local reaction examples were retained for local visual review. No original PUPU action inventory or animated preview was reproduced; recipient response and platform import were not tested.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-Sixteen original local reaction PNGs are linked in the [preview](../../assets/generated/daily-sixteen/preview.png) and [production record](../../assets/generated/daily-sixteen/production.json).
+Sixteen original local reaction PNGs are recorded in the local preview (local-only `../../assets/generated/daily-sixteen/preview.png`) and production record (local-only `../../assets/generated/daily-sixteen/production.json`).
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.

@@ -66,11 +66,11 @@
 
 ### 安装技能集合
 
-```bash
-git clone https://github.com/PigeonAI-Yang/oneirloom.git
-```
+当前提供包含 **18 个免费技能**的 `0.2.0-preview.1` 预览版。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
 
-将 `skills/` 下的所有 `oneirloom*` 目录放进 AI 助手的技能搜索目录，保持同级关系，并保留各目录中的参考资料、模板和图片。
+按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。候选包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。[版本说明与当前发布状态](docs/releases/0.2.0-preview.1-publication.md)和[验证状态](docs/COMPATIBILITY.md)区分历史记录与本次待验事项。
+
+`main` 供开发使用，会继续变化。参与开发时可克隆仓库并通过 Git LFS 获取完整图片；日常安装使用确认过的固定版本包。核心技能无需 Go 或本地生图模型，生图服务和可选卡片渲染依赖另行提供。
 
 在新的对话中检查是否出现 `oneirloom`。你可以称呼它“织梦师”“织梦师Skill”或“Oneirloom”；支持显式调用的助手可用 `$oneirloom`。
 

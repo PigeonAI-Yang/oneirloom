@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import posixpath
@@ -501,7 +502,7 @@ HTML_TEMPLATE = """<!doctype html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>Oneirloom 表情贴图模板库</title>
+  <title>__PAGE_TITLE__</title>
   <style>
     :root {
       color-scheme: light;
@@ -676,20 +677,14 @@ HTML_TEMPLATE = """<!doctype html>
     <div class="shell">
       <div class="brand-row">
         <div>
-          <img class="brand-lockup" src="../assets/brand-lockup.svg" alt="Oneirloom 织梦师">
+__BRAND_LOCKUP__
           <div class="brand-copy">
-            <span class="eyebrow">ONEIRLOOM · OFFLINE REFERENCE</span>
+            <span class="eyebrow">__HEADER_EYEBROW__</span>
             <h1>表情贴图模板库</h1>
-            <p>十四款品牌模板、五份平台档案、来源覆盖与品牌指南</p>
+            <p>__HEADER_SUMMARY__</p>
           </div>
         </div>
-        <figure class="identity-reference">
-          <img src="../assets/mascot-reference.png" alt="DreamWeaver 获认可的正面身份参考图">
-          <figcaption>
-            <strong>身份参考，非动作成品</strong>
-            <span>正面角色示例</span>
-          </figcaption>
-        </figure>
+        __IDENTITY_REFERENCE__
       </div>
     </div>
   </header>
@@ -737,29 +732,20 @@ HTML_TEMPLATE = """<!doctype html>
             <span class="copy-status" id="copy-status" aria-live="polite"></span>
           </div>
         </header>
-        <aside class="preview-panel" id="workspace-preview" aria-label="八格工作表预览">
-          <img src="eight-slot-workspace/workspace-preview.png" alt="空白绘制工作表，8个动作待绘制">
-          <div>
-            <p><strong>空白绘制工作表，8个动作待绘制</strong></p>
-            <p>预览格是绘制位置，不是已完成的表情动作。</p>
-            <a class="download-link" href="eight-slot-workspace/workspace.svg" download>下载空白绘制工作表 SVG</a>
-          </div>
-        </aside>
+        __WORKSHEET_PANEL__
         <section class="generated-panel" id="generated-viewer" aria-labelledby="generated-viewer-title">
           <header>
             <div class="generated-heading">
               <h4 id="generated-viewer-title">生成图像预览</h4>
               <span class="chip" id="generated-count">暂无生成图像</span>
             </div>
-            <p class="generated-intro">此处展示实际生成的单张图像，身份参考继续单独显示。</p>
+            <p class="generated-intro">__GENERATED_INTRO__</p>
             <p class="generated-catalog-summary" id="generated-catalog-summary" hidden>
               生成记录：<span id="generated-date"></span> · 清单共 <span id="generated-catalog-count"></span> 张图像
             </p>
-            <p class="generated-archive-row" id="generated-archive-row" hidden>
-              <a class="download-link" id="generated-archive" href="#" download>下载生成图像归档</a>
-            </p>
+__GENERATED_ARCHIVE_ROW__
           </header>
-          <p class="generated-empty" id="generated-empty" aria-live="polite">暂无生成图像。登记本地生成素材后，会在这里显示。</p>
+          <p class="generated-empty" id="generated-empty" aria-live="polite">__GENERATED_EMPTY__</p>
           <div class="generated-content" id="generated-content" hidden>
             <div class="generated-toolbar" aria-label="生成图像选择器">
               <div class="field">
@@ -901,8 +887,10 @@ HTML_TEMPLATE = """<!doctype html>
           document.getElementById("generated-catalog-count").textContent = String(catalog.image_count);
         }
         const archiveRow = document.getElementById("generated-archive-row");
-        archiveRow.hidden = !(catalog && catalog.archive);
-        if (catalog && catalog.archive) document.getElementById("generated-archive").href = catalog.archive;
+        if (archiveRow) {
+          archiveRow.hidden = !(catalog && catalog.archive);
+          if (catalog && catalog.archive) document.getElementById("generated-archive").href = catalog.archive;
+        }
 
         if (!hasImages) return;
         if (generatedAssetIndex >= images.length) generatedAssetIndex = 0;
@@ -1075,13 +1063,78 @@ HTML_TEMPLATE = """<!doctype html>
 """
 
 
-def build() -> Path:
+def _render_browser(data: dict, public: bool) -> str:
+    if public:
+        substitutions = {
+            "__PAGE_TITLE__": "表情贴图模板库 | 离线参考",
+            "__BRAND_LOCKUP__": "",
+            "__HEADER_EYEBROW__": "OFFLINE REFERENCE",
+            "__HEADER_SUMMARY__": "十四款方法模板、五份平台档案、来源覆盖与品牌素材说明",
+            "__IDENTITY_REFERENCE__": (
+                '<p class="brand-copy">角色身份请由用户提供的角色参考确定；此公共包不含预置品牌图像。</p>'
+            ),
+            "__WORKSHEET_PANEL__": (
+                '<aside class="preview-panel" id="workspace-preview" aria-label="工作表素材说明">'
+                '<p>工作表图像属于本地品牌素材，公共包提供八格规划方法；使用用户自己的角色参考</p>'
+                '</aside>'
+            ),
+            "__GENERATED_INTRO__": (
+                "本地品牌示例图像属于私人素材，公共包不包含这些文件；此浏览器不包含其图像地址或归档。"
+            ),
+            "__GENERATED_ARCHIVE_ROW__": "",
+            "__GENERATED_EMPTY__": (
+                "公共包不含私人本地生成示例、图像地址或归档。请用自己的角色参考按模板方法制作并在本地查看图像。"
+            ),
+        }
+    else:
+        substitutions = {
+            "__PAGE_TITLE__": "Oneirloom 表情贴图模板库",
+            "__BRAND_LOCKUP__": '<img class="brand-lockup" src="../assets/brand-lockup.svg" alt="Oneirloom 织梦师">',
+            "__HEADER_EYEBROW__": "ONEIRLOOM · OFFLINE REFERENCE",
+            "__HEADER_SUMMARY__": "十四款品牌模板、五份平台档案、来源覆盖与品牌指南",
+            "__IDENTITY_REFERENCE__": (
+                '<figure class="identity-reference">'
+                '<img src="../assets/mascot-reference.png" alt="DreamWeaver 获认可的正面身份参考图">'
+                '<figcaption><strong>身份参考，非动作成品</strong><span>正面角色示例</span></figcaption>'
+                '</figure>'
+            ),
+            "__WORKSHEET_PANEL__": (
+                '<aside class="preview-panel" id="workspace-preview" aria-label="八格工作表预览">'
+                '<img src="eight-slot-workspace/workspace-preview.png" alt="空白绘制工作表，8个动作待绘制">'
+                '<div><p><strong>空白绘制工作表，8个动作待绘制</strong></p>'
+                '<p>预览格是绘制位置，不是已完成的表情动作。</p>'
+                '<a class="download-link" href="eight-slot-workspace/workspace.svg" download>下载空白绘制工作表 SVG</a>'
+                '</div></aside>'
+            ),
+            "__GENERATED_INTRO__": "此处展示实际生成的单张图像，身份参考继续单独显示。",
+            "__GENERATED_ARCHIVE_ROW__": (
+                '<p class="generated-archive-row" id="generated-archive-row" hidden>'
+                '<a class="download-link" id="generated-archive" href="#" download>下载生成图像归档</a>'
+                '</p>'
+            ),
+            "__GENERATED_EMPTY__": "暂无生成图像。登记本地生成素材后，会在这里显示。",
+        }
+
+    rendered_html = HTML_TEMPLATE
+    for placeholder, value in substitutions.items():
+        rendered_html = rendered_html.replace(placeholder, value)
+    return rendered_html.replace("__BROWSER_DATA__", _safe_json(data))
+
+
+def build(public: bool = False) -> Path:
     engine = _markdown_engine()
-    data = build_data(engine)
-    rendered_html = HTML_TEMPLATE.replace("__BROWSER_DATA__", _safe_json(data))
+    if public:
+        data = build_data(engine, generated_catalog={})
+        data["generatedCatalog"] = None
+    else:
+        data = build_data(engine)
+    rendered_html = _render_browser(data, public)
     BROWSER_PATH.write_text(rendered_html, encoding="utf-8", newline="\n")
     return BROWSER_PATH
 
 
 if __name__ == "__main__":
-    print(build().relative_to(ROOT).as_posix())
+    parser = argparse.ArgumentParser(description="Build the offline expression-sticker template browser.")
+    parser.add_argument("--public", action="store_true", help="omit private local brand and generated assets")
+    args = parser.parse_args()
+    print(build(public=args.public).relative_to(ROOT).as_posix())

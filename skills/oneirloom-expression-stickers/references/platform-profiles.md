@@ -2,7 +2,7 @@
 
 These five profiles apply the 2026-10-02 official-source reading to DreamWeaver artwork. Four profiles contain verified source requirements. The WeChat profile remains pending. Source verification does not establish successful generation, import, upload, or platform acceptance.
 
-The profiles preserve the [brand identity](oneirloom-brand.md). They use the same reaction artwork with platform-specific exports. Dimensions are pixels. A value absent from the cited page remains unknown; absence does not mean unlimited. Production compliance depends on the selected route's current official rules.
+The composition examples below use the conditional [brand identity](oneirloom-brand.md). For another subject, apply the route requirements to the supplied identity and use its requested identification artwork. The examples do not supply private Oneirloom assets or require its wordmark. They use the same reaction artwork with platform-specific exports. Dimensions are pixels. A value absent from the cited page remains unknown; absence does not mean unlimited. Production compliance depends on the selected route's current official rules.
 
 ## LINE static stickers
 

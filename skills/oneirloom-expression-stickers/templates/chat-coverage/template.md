@@ -1,5 +1,11 @@
 # Cover Oneirloom conversation uses
 
+## Public use and local brand example
+
+Use the method with the identity supplied for the current task. The anatomy, palette, poses, and resolved prompt below are a conditional DreamWeaver case study. Apply those brand details only when the user selects Oneirloom and supplies an authorized usable reference. For another subject, follow [Use an adaptation with your own identity](../index.md#use-an-adaptation-with-your-own-identity) and rewrite the full visible action from that subject's actual parts.
+
+The Oneirloom reference images, lockup, reaction PNGs, previews, production records, and delivery archives are private local assets, excluded from the public package. Code paths below record local provenance; they are not bundled downloads or required inputs for generic use.
+
 ## Selection
 
 Use this template to choose a pack by the replies people need. Select relevant rows after identifying the preceding message and recipient. The table is a local candidate set, not a mandatory inventory.
@@ -41,10 +47,10 @@ Draw one Oneirloom "等你" chat sticker in flat illustration on a square canvas
 
 Read each selected sticker after its intended preceding message. Confirm that selected phrases, emotions, and situations cover the actual pack brief. Check the four grips, supported crescent, single star, exact caption, and small-size reading. Use the actual brand lockup for the pack cover.
 
-Status: twelve local reaction entries are available; four use PNGs reused from the Emotion Five set. The source supports three categories and named examples, not a universal inventory or a tested recipient response.
+Status: twelve local reaction entries were retained locally; four use PNGs reused from the Emotion Five set. The source supports three categories and named examples, not a universal inventory or a tested recipient response.
 
-## Local production evidence — 2026-10-03
+## Private local production evidence, 2026-10-03
 
-The twelve selected PNG entries comprise eight generated files and four reused Emotion Five files; this is an entry count, not a unique-pose count. See the [preview](../../assets/generated/chat-coverage/preview.png) and [production record](../../assets/generated/chat-coverage/production.json).
+The twelve selected PNG entries comprise eight generated files and four reused Emotion Five files; this is an entry count, not a unique-pose count. See the preview (local-only `../../assets/generated/chat-coverage/preview.png`) and production record (local-only `../../assets/generated/chat-coverage/production.json`).
 
-The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the linked production record. Light/dark review at 128 and 384 px is recorded there.
+The local examples were produced or reused and inspected on 2026-10-03. Native reaction files are 1254 × 1254 RGBA PNGs with an actual alpha channel. These are working masters, not verified platform imports. AI inspection does not establish recipient comprehension, platform acceptance, or animation behavior. Actual prompts, known entry settings, selected paths, and visual limitations are retained in the private local production record. Light/dark review at 128 and 384 px is recorded there.
