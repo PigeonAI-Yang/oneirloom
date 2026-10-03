@@ -1,0 +1,46 @@
+[
+  {
+    "id": "00581",
+    "title": "01 高位俯拍 · 白墙阶梯",
+    "image": "J:\\资料归档\\D盘\\Downloads\\Qwen21_official_00581_.png",
+    "prompt": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\sources\\00581-prompt.txt",
+    "cropY": 0,
+    "output": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\00581",
+    "promptNode": "7",
+    "promptChars": 1068,
+    "promptSha256": "9350878e8e3e205cbdfdfb8c7ee0bdf6d71762455d5b5e3d4fdfb880e4e2186c"
+  },
+  {
+    "id": "00578",
+    "title": "02 低位仰拍 · 侧坐抬头",
+    "image": "J:\\资料归档\\D盘\\Downloads\\Qwen21_official_00578_.png",
+    "prompt": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\sources\\00578-prompt.txt",
+    "cropY": 7,
+    "output": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\00578",
+    "promptNode": "7",
+    "promptChars": 1167,
+    "promptSha256": "b14da408518dcdbe44f02108d98f8316a642cf6527e1dd3e43398e756ba828be"
+  },
+  {
+    "id": "00574",
+    "title": "03 阶梯坐姿 · 冰饮",
+    "image": "J:\\资料归档\\D盘\\Downloads\\Qwen21_official_00574_.png",
+    "prompt": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\sources\\00574-prompt.txt",
+    "cropY": 8,
+    "output": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\00574",
+    "promptNode": "7",
+    "promptChars": 1161,
+    "promptSha256": "32820d53a2feb777f6f3a2846df739c84f2ec284c900078b93fe0bb0c7792c6b"
+  },
+  {
+    "id": "00585",
+    "title": "04 低位全身 · 倚墙站姿",
+    "image": "J:\\资料归档\\D盘\\Downloads\\Qwen21_official_00585_.png",
+    "prompt": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\sources\\00585-prompt.txt",
+    "cropY": 13,
+    "output": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\00585",
+    "promptNode": "7",
+    "promptChars": 1204,
+    "promptSha256": "6cb63a7a51087318afb7b13e6ae0d2b9398ff8b3f1f36af301b45b0954523fcc"
+  }
+]

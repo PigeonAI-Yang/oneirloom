@@ -1,0 +1,42 @@
+{
+  "operation": "single built-in image_gen edit",
+  "call_count": 1,
+  "model": "unknown; not exposed in the returned result",
+  "transparent_background": false,
+  "submitted_prompt": {
+    "file": "submitted.en.txt",
+    "language": "English",
+    "sha256": "69E02558107C1A9B23796E1E62BC9AC2F224568AB51B3E26C317FAA1983F9585"
+  },
+  "inputs": [
+    {
+      "index": 1,
+      "path": "J:/PigeonYang/skills/oneirloom/work/design-sop-unification-20261002/regenerated-06-after-sop/restore-subject-band/result.png",
+      "role": "edit target: existing Dream Weaver poster",
+      "width": 1056,
+      "height": 1489,
+      "bytes": 2432636,
+      "sha256": "AF1050B154F68083E1D586C07FA5171E22A478245D78F3B753511F8E9334CA71"
+    },
+    {
+      "index": 2,
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/templates/experimental-editorial-posters/06-swiss-sculpture/images/reference.png",
+      "role": "joined-fragment and aged-paper printing language only",
+      "width": 145,
+      "height": 204,
+      "bytes": 50207,
+      "sha256": "F188A4960A6C841D1879A31B8E9C09B7A19AE3729A70331091F8A78A45AAEBA6"
+    }
+  ],
+  "output_hint": "Generated images are saved under J:/Users/yangda01/.codex/generated_images/01a0fbfb-e84b-7812-bfb1-2d25e2d91504 as J:/Users/yangda01/.codex/generated_images/01a0fbfb-e84b-7812-bfb1-2d25e2d91504/exec-39f109ed-f72c-4b17-a169-7b5618a3142d.png by default.",
+  "native_output_path": "J:/Users/yangda01/.codex/generated_images/01a0fbfb-e84b-7812-bfb1-2d25e2d91504/exec-39f109ed-f72c-4b17-a169-7b5618a3142d.png",
+  "saved_copy_path": "J:/PigeonYang/skills/oneirloom/work/design-sop-unification-20261002/regenerated-06-after-sop/join-and-paper-v2/result.png",
+  "result": {
+    "format": "PNG",
+    "width": 1056,
+    "height": 1489,
+    "bytes": 2990127,
+    "sha256": "0EEE627879DD3922444CD16493F051FC272F44B7E484B772BA3D046AD5B2ADC7",
+    "native_and_saved_copy_sha256_match": true
+  }
+}

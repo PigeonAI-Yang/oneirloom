@@ -1,0 +1,58 @@
+{
+  "entry": "built-in image_gen.imagegen",
+  "generation_calls": 1,
+  "model": "unknown; tool did not expose model identifier",
+  "reference_images": [
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png"
+  ],
+  "reference_role": "identity only",
+  "controls": {
+    "transparent_background": true,
+    "referenced_image_paths": "identity reference only"
+  },
+  "submitted_prompt": "submitted.en.txt",
+  "submitted_prompt_sha256": "054b20ee9e18cb83d851ba0081d4fa1f17fc997fd4a454a7f0e53587f37fee87",
+  "tool_saved_path": "J:/Users/yangda01/.codex/generated_images/01a0fb7e-7107-7da2-a59a-281d130d7106/exec-88be24d2-2969-4ad9-a652-306e1f128cf2.png",
+  "asset": {
+    "path": "subject-right.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "sha256": "0e34d35e3b6b321906032352762d8c4137b0831e66eeb2624b98aefb77f072a9",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "alpha_gt_127_bbox": [
+      16,
+      59,
+      1021,
+      1536
+    ],
+    "fully_transparent_fraction": 0.2548707326253255,
+    "alpha_corners": [
+      0,
+      0,
+      1,
+      20
+    ],
+    "manual_star_center": [
+      780,
+      780
+    ],
+    "manual_star_bbox": [
+      689,
+      650,
+      868,
+      909
+    ]
+  }
+}

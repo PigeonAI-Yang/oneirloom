@@ -1,0 +1,122 @@
+{
+  "images": [
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00581_.png",
+      "sourceSha256": "0cf3bb1e323adec06dbb45766512eeda4eb00d8ac0a4114b1b7803405d993ba1",
+      "publishedImage": "images/white-high.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/white-high-prompt.txt",
+      "promptSha256": "9350878e8e3e205cbdfdfb8c7ee0bdf6d71762455d5b5e3d4fdfb880e4e2186c"
+    },
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00578_.png",
+      "sourceSha256": "af707d05f7b94f1f277db53571d8bb382991fd60ac086fe40b5dfc36d063d978",
+      "publishedImage": "images/white-side.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/white-side-prompt.txt",
+      "promptSha256": "b14da408518dcdbe44f02108d98f8316a642cf6527e1dd3e43398e756ba828be"
+    },
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00574_.png",
+      "sourceSha256": "8bbe38e955ea8376b2a283f78c5b343bbe3e33e7b13b13a544e9599b2341167a",
+      "publishedImage": "images/white-seated.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/white-seated-prompt.txt",
+      "promptSha256": "32820d53a2feb777f6f3a2846df739c84f2ec284c900078b93fe0bb0c7792c6b"
+    },
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00585_.png",
+      "sourceSha256": "1a01426b0237717c57a8af8f205d48ee52c902c9d501d446675830726aed5aa5",
+      "publishedImage": "images/white-standing.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/white-standing-prompt.txt",
+      "promptSha256": "6cb63a7a51087318afb7b13e6ae0d2b9398ff8b3f1f36af301b45b0954523fcc"
+    },
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00554_.png",
+      "sourceSha256": "4a93ceb086aff53475fe54ebd59c5820856062dd288261531976683ec4474b67",
+      "publishedImage": "images/03-seaside-cover.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/03-seaside-cover-prompt.txt",
+      "promptSha256": "c4c7b6395886623a8e40db3ef344e4ca6e48225e90a54e56a6073024781ccc3a"
+    },
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00471_.png",
+      "sourceSha256": "3528ed1fe0d8071d38b5d0b1ca0f95ff7d6b0dab1eb8a9e2240b4801f2882cc6",
+      "publishedImage": "images/04-four-poses.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/04-four-poses-prompt.txt",
+      "promptSha256": "fcdf2e4273c699d804c5822a52f4d69489eb42396d08b1d457c2cfa903188f3e"
+    },
+    {
+      "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\Qwen21_official_00473_.png",
+      "sourceSha256": "04184a50f711259bb5d7de0f403f5b3c1ed3a8b0364c4d57397633eea94349db",
+      "publishedImage": "images/05-wardrobe.jpg",
+      "size": [
+        1248,
+        1664
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": [
+        "qwen_image_2.1_int8_convrot.safetensors"
+      ],
+      "promptFile": "sources/05-wardrobe-prompt.txt",
+      "promptSha256": "e04dca7de04f1c84a1e1665d33ed150e69164baa2fa17bef865ee1749b603750"
+    },
+    {
+      "source": "J:\\PigeonYang\\skills\\oneirloom\\output\\qwen21-prompt-cards-20261001-1790836498639\\00578\\prompt-card-3x4.png",
+      "sourceSha256": "0052e7327e12f5c349efb66d60a642e02f61be73828cb17f023a4b0997c525e5",
+      "publishedImage": "images/06-prompt-card.jpg",
+      "size": [
+        2700,
+        3600
+      ],
+      "encoding": "JPEG quality 92; no crop or retouch",
+      "checkpoint": []
+    }
+  ],
+  "board": "Native HTML layout of four complete generated images; no crop or retouch",
+  "publication": "Draft; not posted to X"
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "generated",
+  "variant": "front-stair-seat-with-drink",
+  "image": "images/result-03.png",
+  "prompt_file": "submitted-prompt-03-zh.txt",
+  "prompt_language": "zh-CN",
+  "prompt_node": "7",
+  "source_file_name": "Qwen21_official_00574_.png",
+  "image_sha256": "8bbe38e955ea8376b2a283f78c5b343bbe3e33e7b13b13a544e9599b2341167a",
+  "prompt_sha256": "32820d53a2feb777f6f3a2846df739c84f2ec284c900078b93fe0bb0c7792c6b",
+  "model": "Qwen-Image-2.1, local quantized checkpoint according to embedded loader filenames",
+  "entry": "ComfyUI, embedded PNG prompt graph and workflow",
+  "execution_receipt": null,
+  "loaders": {
+    "checkpoint": "qwen_image_2.1_int8_convrot.safetensors",
+    "text_encoder": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "settings": {
+    "seed": 6090565047700,
+    "steps": 40,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "width": 1248,
+    "height": 1664,
+    "dimension_source": "PNG image header",
+    "resolution_selector": {
+      "aspect_ratio": "3:4 (Portrait Standard)",
+      "megapixels": 2.0,
+      "multiple": 8
+    },
+    "text_encode_resolution": 1024,
+    "negative_prompt": "",
+    "batch_size": 1,
+    "weight_dtype": "default"
+  },
+  "processing": "None. Original PNG copied byte-for-byte, including prompt and workflow metadata.",
+  "verification": {
+    "status": "inspected_user_accepted_pose_set",
+    "inspected_on": "2026-10-01",
+    "observations": "The figure sits mostly frontally, with bent knees opening asymmetrically, both shoes on the lower step, a tilted head looking at the camera and an upright COFF drink between the feet.",
+    "deviations": "The torso is more upright and frontal than the historical leaning description. The far foot descends toward image left instead of folding back beside the drink. The top is a cropped swim top.",
+    "user_acceptance": {
+      "date": "2026-10-01",
+      "scope": "The four portrait poses as a set",
+      "statement": "这套人像姿态 我觉得可以,纳入模板里"
+    },
+    "limitations": "One supplied output per variant. No new generation or repeatability test. User acceptance of poses does not establish exact source-reference matching. New scaffold and appearance adaptations are untested."
+  }
+}

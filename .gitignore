@@ -4,4 +4,29 @@ __pycache__/
 .pytest_cache/
 .venv/
 *.log
+work/readme-launch/publish-checkout/
+/.local-only/
 dist-plugin/
+
+# Private Oneirloom brand VI source and delivery assets
+/docs/assets/dream-cocoon/**
+!/docs/assets/dream-cocoon/03-actions.png
+/docs/assets/watermarks/**
+/output/watermarks/**
+/output/dream-cocoon-asset-cards-*/
+/output/dream-cocoon-asset-cards-*.zip
+/output/oneirloom-plugin-icon-*/
+/output/oneirloom-stickers-*/
+/skills/oneirloom-expression-stickers/assets/
+/skills/oneirloom-prompt-card/assets/oneirloom-signature*.png
+/work/watermarks/
+/gen/card-seaside-01/watermark.png
+/gen/card-seaside-mascot-signature-20261001/watermark.png
+/gen/card-seaside-woven-white-default-20261001/watermark.png
+/work/prompt-cards/*/watermark.png
+/output/qwen21-prompt-cards-20261001-1790836498639/*/watermark.png
+/output/qwen21-prompt-cards-20261001-1790836498639.zip
+
+# Exact duplicate standalone brand assets outside their source directories
+/docs/articles/2026-10-01-oneirloom-x/images/signature.png
+/work/prompt-cards/signature-bright-background-check/photo.png

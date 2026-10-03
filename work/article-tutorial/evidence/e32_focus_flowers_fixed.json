@@ -1,0 +1,348 @@
+{
+  "job": {
+    "id": "e32_focus_flowers_fixed",
+    "prompt": "室内花束静物摄影，焦点严格落在距离镜头30厘米的粉白花束上，花束占画面左侧一半，花瓣纹理与花蕊锐利。极浅景深，花束后方3米处的床沿坐着一位25岁成年女性，穿黑色吊带裙，棕色长发带黑色蝴蝶结。远处人物是明显失焦的柔软色块，脸部五官无法分辨，只能辨认坐姿与服装颜色。花束与人物之间有很大的距离。镜头聚焦花朵，背景床铺、人物与米色墙面全部形成强烈光学散焦，窗边柔和日光，横幅写实照片。",
+    "seed": 2026092807,
+    "edition": "expanded",
+    "aspect_ratio": "4:3 (Standard)"
+  },
+  "prompt_id": "1dc15e7b-cda0-439a-9140-e62a9f1284d5",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "室内花束静物摄影，焦点严格落在距离镜头30厘米的粉白花束上，花束占画面左侧一半，花瓣纹理与花蕊锐利。极浅景深，花束后方3米处的床沿坐着一位25岁成年女性，穿黑色吊带裙，棕色长发带黑色蝴蝶结。远处人物是明显失焦的柔软色块，脸部五官无法分辨，只能辨认坐姿与服装颜色。花束与人物之间有很大的距离。镜头聚焦花朵，背景床铺、人物与米色墙面全部形成强烈光学散焦，窗边柔和日光，横幅写实照片。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/e32_focus_flowers_fixed",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "4:3 (Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790557430.0352128,
+  "completed": true,
+  "history": {
+    "prompt": [
+      141,
+      "1dc15e7b-cda0-439a-9140-e62a9f1284d5",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "室内花束静物摄影，焦点严格落在距离镜头30厘米的粉白花束上，花束占画面左侧一半，花瓣纹理与花蕊锐利。极浅景深，花束后方3米处的床沿坐着一位25岁成年女性，穿黑色吊带裙，棕色长发带黑色蝴蝶结。远处人物是明显失焦的柔软色块，脸部五官无法分辨，只能辨认坐姿与服装颜色。花束与人物之间有很大的距离。镜头聚焦花朵，背景床铺、人物与米色墙面全部形成强烈光学散焦，窗边柔和日光，横幅写实照片。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/e32_focus_flowers_fixed",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "4:3 (Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "e32_focus_flowers_fixed",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790557430034
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "e32_focus_flowers_fixed_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "1dc15e7b-cda0-439a-9140-e62a9f1284d5",
+            "timestamp": 1790557430036
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6"
+            ],
+            "prompt_id": "1dc15e7b-cda0-439a-9140-e62a9f1284d5",
+            "timestamp": 1790557430038
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "1dc15e7b-cda0-439a-9140-e62a9f1284d5",
+            "timestamp": 1790557447430
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\e32_focus_flowers_fixed_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\e32_focus_flowers_fixed.png",
+  "elapsed_seconds": 20.01
+}

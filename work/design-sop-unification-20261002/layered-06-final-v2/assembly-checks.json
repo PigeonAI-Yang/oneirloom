@@ -1,0 +1,233 @@
+{
+  "unchanged_draft_elements": {
+    "paper": true,
+    "blue-panel": true,
+    "adapted-title": true,
+    "title-dream": true,
+    "title-weaver": true,
+    "adapted-footer": true,
+    "left-local-view": true
+  },
+  "right_contour_unchanged": true,
+  "exact_text": true,
+  "screenshot_dimensions": [
+    1450,
+    2040
+  ],
+  "source_asset_embedded": true,
+  "uniform_scales": {
+    "right": 2.3,
+    "left_mirrored": 1.65
+  },
+  "star_centers_on_page": {
+    "right": [
+      1056,
+      680
+    ],
+    "left_base": [
+      623.5,
+      367.2
+    ]
+  },
+  "fragment_offsets": [
+    14,
+    0,
+    -16,
+    16,
+    -16,
+    14
+  ],
+  "native_alpha": {
+    "path": "subject-right.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "sha256": "82fe1fa940c5398c960861f70b083c142c9b35d0716ad6a042d132b724aa4071",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "alpha_gt_127_bbox": [
+      15,
+      35,
+      1016,
+      1536
+    ],
+    "fully_transparent_fraction": 0.24253145853678384,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "manual_star_center": [
+      765,
+      596
+    ],
+    "manual_star_bbox": [
+      699,
+      500,
+      831,
+      692
+    ],
+    "prompt_star_center_height_fraction": [
+      0.22,
+      0.28
+    ],
+    "observed_star_center_height_fraction": 0.3880208333333333,
+    "observed_star_width_fraction": 0.12890625,
+    "prompt_match_status": "partial: star width is within requested range; star remains too low; panel remains taller than upper third"
+  },
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "fonts": {
+    "status": "loaded",
+    "impactAvailable": true
+  },
+  "decoded_asset": [
+    {
+      "width": 1024,
+      "height": 1536,
+      "loaded": true
+    }
+  ],
+  "preview": {
+    "loaded": true,
+    "width": 1450,
+    "height": 2040,
+    "no_horizontal_overflow": true
+  },
+  "page_errors": [],
+  "technical_checks_passed": true,
+  "visual_status": "partial: lower coverage repaired; left upper occupied contour still misses draft; large panel and star required for right upper coverage",
+  "observed_coverage_limit": {
+    "right_asset_canvas_bottom": 2842.0,
+    "required_right_contour_bottom": 2040,
+    "left_asset_canvas_bottom": 1918.2,
+    "required_left_window_bottom": 1490,
+    "actual_alpha_coverage": "See native_alpha_coverage; canvas bounds alone are not acceptance evidence."
+  },
+  "overall_accepted": false,
+  "native_alpha_coverage": {
+    "right": {
+      "target_pixels": 695539,
+      "occupied_pixels": 694412,
+      "occupied_fraction": 0.9983796738931965,
+      "missing_bbox": [
+        797,
+        0,
+        1252,
+        2034
+      ],
+      "occupied_bbox": [
+        797,
+        0,
+        1267,
+        2040
+      ],
+      "bands": [
+        {
+          "box": [
+            0,
+            0,
+            1450,
+            551
+          ],
+          "target_pixels": 209505,
+          "occupied_pixels": 208518,
+          "occupied_fraction": 0.9952888952530966
+        },
+        {
+          "box": [
+            0,
+            1326,
+            1450,
+            1490
+          ],
+          "target_pixels": 65181,
+          "occupied_pixels": 65165,
+          "occupied_fraction": 0.9997545296942361
+        },
+        {
+          "box": [
+            0,
+            1900,
+            1450,
+            2040
+          ],
+          "target_pixels": 14094,
+          "occupied_pixels": 14077,
+          "occupied_fraction": 0.9987938129700582
+        }
+      ]
+    },
+    "left": {
+      "target_pixels": 265515,
+      "occupied_pixels": 233174,
+      "occupied_fraction": 0.8781952055439429,
+      "missing_bbox": [
+        259,
+        82,
+        827,
+        1490
+      ],
+      "occupied_bbox": [
+        316,
+        82,
+        826,
+        1490
+      ],
+      "bands": [
+        {
+          "box": [
+            0,
+            0,
+            1450,
+            551
+          ],
+          "target_pixels": 221295,
+          "occupied_pixels": 189637,
+          "occupied_fraction": 0.8569420908741725
+        },
+        {
+          "box": [
+            0,
+            1326,
+            1450,
+            1490
+          ],
+          "target_pixels": 6333,
+          "occupied_pixels": 6169,
+          "occupied_fraction": 0.9741039002052739
+        },
+        {
+          "box": [
+            0,
+            1900,
+            1450,
+            2040
+          ],
+          "target_pixels": 0,
+          "occupied_pixels": 0,
+          "occupied_fraction": null
+        }
+      ]
+    }
+  },
+  "document_extent": {
+    "width": 1450,
+    "height": 2040,
+    "scrollWidth": 1450,
+    "scrollHeight": 2040
+  },
+  "fragment_windows_unchanged": true,
+  "poster_sha256": "5e538b7b8162f9cba8043deca502d91ff7f25907bc17e2f6b506edad181181e4",
+  "svg_sha256": "20a8cfee6a971473563f3cc99927fa8262ed1c794d9f2540beeaed3c6689baa9"
+}

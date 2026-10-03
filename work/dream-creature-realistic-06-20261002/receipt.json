@@ -1,0 +1,40 @@
+{
+  "assignment": "Oneirloom dream creature poster, template 06 Swiss-inspired blue collage",
+  "tool_entry": "Built-in image_gen.imagegen",
+  "generation_calls": 1,
+  "underlying_model": "unknown; not exposed in the tool result",
+  "prompt_en_file": "prompt.en.txt",
+  "prompt_en_sha256": "7817C691537A6350F1752C7E02F868760C4A5CF201F504A5C6FA0717B754F6BD",
+  "prompt_zh_file": "prompt.zh.txt",
+  "references": [
+    {
+      "file": "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png",
+      "role": "Approved character identity and structure reference"
+    },
+    {
+      "file": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\templates\\experimental-editorial-posters\\06-swiss-sculpture\\images\\reference.png",
+      "role": "Style-only reference for compact left typography, ivory paper, irregular vertical seam and full-height blue right panel"
+    }
+  ],
+  "output": {
+    "file": "output.png",
+    "original_generated_file": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fa92-df4a-7160-86fd-037d2b82e45a\\exec-66a6e8b0-a6e4-4aea-b107-cca2a54ae9f7.png",
+    "dimensions_px": [
+      1024,
+      1536
+    ],
+    "byte_length": 3141836,
+    "sha256": "F36B9CE6BA09FF1E9CDE03079DF8A5D5F1AA6EF33104A258CAAABC6A0F8C59D7",
+    "copied_byte_identical": true
+  },
+  "visual_review": {
+    "identity_checks": "Visible lavender-blue furry cocoon; two antennae and yellow balls; crown tuft; indigo oval window with one four-point star; four hands; viewer-right curled tail; blue hammock and one crescent; all are inside the frame.",
+    "copy_check": "DREAM, WEAVER, ONEIRLOOM appear legibly and correctly.",
+    "layout_check": "Warm ivory paper and irregular full-height cobalt panel are present.",
+    "defects": [
+      "The left antenna ball overlaps the right end of the WEAVER headline, reducing the intended clear separation.",
+      "The cobalt panel appears about 27% of page width, wider than the specified 20%."
+    ],
+    "status": "Generated and saved; visual deviations recorded, no second generation performed."
+  }
+}

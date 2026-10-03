@@ -1,0 +1,120 @@
+{
+  "assignment": "Prescribed structural verification only",
+  "target": "J:\\PigeonYang\\skills\\oneirloom",
+  "baseline": "e8e4d8a",
+  "current_head": "ae66c7defcefa0e2d50d7fa33e4a9ad891b9b4b3",
+  "git_status": "clean working tree; branch main...origin/main [ahead 9, behind 4]",
+  "changed_files": [
+    "PROJECT-FILES.md",
+    "docs/architecture.md",
+    "evals/cases.json",
+    "skills/oneirloom-product-art-direction/SKILL.md",
+    "skills/oneirloom-product-art-direction/references/ecommerce-examples.md",
+    "skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+    "skills/oneirloom-result-diagnosis/SKILL.md",
+    "skills/oneirloom-style-design/SKILL.md",
+    "skills/oneirloom-visual-analysis/SKILL.md",
+    "skills/oneirloom/SKILL.md"
+  ],
+  "rule_checks": {
+    "normative_english": {
+      "status": "pass within permitted scope; authoritative architecture-content review excluded",
+      "checked": [
+        "new and changed normative prose in the five changed SKILL.md files",
+        "new ecommerce-workflow.md instructions",
+        "new project-index labels"
+      ],
+      "result": "New normative prose inspected in scope is English. Chinese ecommerce example fixtures are example/task content and permitted.",
+      "excluded": [
+        "docs/architecture.md substantive content; it is an authoritative architecture document protected by the global technical-document policy. Only link structure was checked."
+      ],
+      "required_primary_decision": "Decide whether an authorized Astra review of the architecture-document content is needed."
+    },
+    "quick_validate": {
+      "script": "J:\\Users\\yangda01\\.codex\\skills\\.system\\skill-creator\\scripts\\quick_validate.py",
+      "runtime": "Python 3.11.9 (py -3.11)",
+      "skills": [
+        {
+          "path": "skills/oneirloom",
+          "result": "pass: Skill is valid!"
+        },
+        {
+          "path": "skills/oneirloom-product-art-direction",
+          "result": "pass: Skill is valid!"
+        },
+        {
+          "path": "skills/oneirloom-visual-analysis",
+          "result": "pass: Skill is valid!"
+        },
+        {
+          "path": "skills/oneirloom-style-design",
+          "result": "pass: Skill is valid!"
+        },
+        {
+          "path": "skills/oneirloom-result-diagnosis",
+          "result": "pass: Skill is valid!"
+        }
+      ]
+    }
+  },
+  "structural_checks": {
+    "commands": [
+      {
+        "command": "git -C J:\\PigeonYang\\skills\\oneirloom status --short --branch",
+        "result": "clean worktree; main ahead 9 and behind 4"
+      },
+      {
+        "command": "git -C J:\\PigeonYang\\skills\\oneirloom rev-parse HEAD",
+        "result": "ae66c7defcefa0e2d50d7fa33e4a9ad891b9b4b3"
+      },
+      {
+        "command": "git -C J:\\PigeonYang\\skills\\oneirloom diff --check e8e4d8a HEAD",
+        "result": "pass; exit 0"
+      },
+      {
+        "command": "git -C J:\\PigeonYang\\skills\\oneirloom diff --name-status e8e4d8a HEAD",
+        "result": "10 expected files listed in changed_files"
+      }
+    ],
+    "frontmatter_names": "pass; all five changed skill frontmatter names match their directory names",
+    "markdown_links_and_anchors": {
+      "result": "pass; 41 current inline local links across 9 changed Markdown documents; all targets and anchors resolve",
+      "baseline": "37 links across the 7 Markdown documents existing at baseline; zero baseline link errors",
+      "new_or_unrelated_failures": 0,
+      "anchor_handling": "Relative paths, URL decoding, in-document anchors, Markdown heading slugs and duplicate-heading suffixes were checked."
+    },
+    "fenced_blocks": {
+      "result": "pass; all changed Markdown fences are balanced",
+      "fence_markers_current": 22,
+      "notes": "One pair in PROJECT-FILES.md and ten pairs in ecommerce-examples.md.",
+      "correction": "Primary rechecked actual fence lines after restart; the earlier receipt counted opening fences only and understated the pairs. No skill content was changed."
+    },
+    "cached_checker": {
+      "source": "scripts/check_skills.py is absent; ordinary source-script invocation was not run or claimed successful.",
+      "bytecode": "scripts/__pycache__/check_skills.cpython-311.pyc, 11879 bytes, timestamp 2026-09-30 18:12:50",
+      "inspection": "Python 3.11 marshal/disassembly inspection found pathlib reads, hashing, JSON/regex checks and printing; no write, network or subprocess operations.",
+      "execution": "Executed unchanged marshalled code with __name__=\"__main__\" and __file__ set to J:\\PigeonYang\\skills\\oneirloom\\scripts\\check_skills.py so ROOT resolved to target.",
+      "result": "failed at the checker skill-set assertion: missing=set(), extra={oneirloom-prompt-card, oneirloom-expression-stickers, oneirloom-icon-design, oneirloom-brand-identity}.",
+      "baseline_comparison": "All four extra directories are present in the e8e4d8a baseline and current tree; the cached checker EXPECTED set is stale relative to the baseline tree. This failure is pre-existing. Checks after that assertion did not run.",
+      "source_repair": "not performed"
+    }
+  },
+  "cases": {
+    "baseline_defined": 47,
+    "current_defined": 60,
+    "existing_47_equal_current_prefix": true,
+    "unique_ids": true,
+    "id_input_expected_failure_nonempty": true,
+    "added_cases": 13,
+    "behavior_cases_executed": false
+  },
+  "generation": {
+    "run": false,
+    "result": "not run; no generated output or visual acceptance claimed"
+  },
+  "scope_notes": [
+    "No source or existing file was modified.",
+    "No install, network request, commit, push, or generation was performed.",
+    "This receipt is the only created output."
+  ]
+}

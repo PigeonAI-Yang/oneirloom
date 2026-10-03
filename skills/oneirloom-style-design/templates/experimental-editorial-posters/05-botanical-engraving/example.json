@@ -1,0 +1,40 @@
+{
+  "entry_point": "image_gen.imagegen",
+  "underlying_model": "unknown",
+  "reference": "images/reference.png",
+  "prompt": {
+    "source": "prompt.en.txt",
+    "submitted": "submitted.en.txt",
+    "submitted_text_matches_source": true
+  },
+  "output": {
+    "path": "images/transfer-01.png",
+    "requested_aspect_ratio": "2:3",
+    "actual_dimensions_px": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actual_aspect_ratio": "2:3"
+  },
+  "inspection": {
+    "status": "inspected",
+    "anchors": {
+      "botanical": "Black-and-white engraving-style iris with fine hatching on warm off-white paper.",
+      "orange_contour": "Narrow hand-drawn orange lines follow the outer silhouette and selected curled petal and leaf edges.",
+      "handwritten_text_exact": [
+        "Study",
+        "Explore",
+        "Repeat"
+      ],
+      "arrow": "One hand-drawn arrow appears beside the notes in the upper-right area.",
+      "footer_text_exact": [
+        "FIELD 05",
+        "Botanical observations"
+      ]
+    },
+    "deviations": [
+      "The flower and foliage extend beyond roughly the upper two-thirds and occupy most of the sheet.",
+      "The arrow is larger than the requested tiny accent."
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "status": "generated",
+  "tool_entry": "image_gen.imagegen (built-in, invoked as tools.image_gen__imagegen)",
+  "calls": 1,
+  "model": "unknown; not exposed in tool response",
+  "prompt_en_file": "correction.en.txt",
+  "prompt_zh_file": "correction.zh.txt",
+  "references": [
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\work\\personal-portrait-slices-20261002\\output.png",
+      "role": "edit target"
+    }
+  ],
+  "transparent_background": false,
+  "generated_source": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fa8d-e5ed-7752-ae8e-07f5c90de0a2\\exec-44971d45-1b72-4474-aa7a-5867be662e46.png",
+  "deliverable": "output-v2.png",
+  "dimensions_px": {
+    "height": 1536,
+    "width": 1024
+  },
+  "sha256": "E26D0BC1948BDDDEE2501FEF4E6D988B47007DBA9A33616130D71217B627EF5C",
+  "copied_unchanged": true,
+  "inspection": {
+    "orange_strips": 1,
+    "silver_hoops_visible": 1,
+    "hoop_location": "orange fourth strip",
+    "duplicate_removed_from": "grayscale fifth strip containing mouth",
+    "grayscale_fifth_cheek_jaw": "continuous natural cheek-and-jaw surface",
+    "identity_recognizable": true,
+    "horizontal_strip_count": 7,
+    "title": "REFRAME, arranged RE above FRAME"
+  }
+}

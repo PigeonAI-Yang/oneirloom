@@ -1,0 +1,23 @@
+{
+  "generation_tool": "built-in image_gen",
+  "model": "not exposed by tool response",
+  "source_images": [
+    {
+      "path": "C:\\Users\\yangda01\\Pictures\\8a992fce-7184-47c0-b610-6a192d90d46c.png",
+      "role": "sole identity source"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\templates\\experimental-editorial-posters\\01-sculpture-tear\\images\\reference.png",
+      "role": "style and layout reference only"
+    }
+  ],
+  "prompt_file": "prompt.en.txt",
+  "generated_source": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fa82-7258-79e0-9cdb-a0528afd6ec7\\exec-79e1ebdc-53f4-4594-8096-41bf42a8781a.png",
+  "output_file": "output.png",
+  "dimensions_px": {
+    "width": 1024,
+    "height": 1536
+  },
+  "output_sha256": "E9B9865B584683BF3CA6500B0C9419D779D9E1D18262C3CCFA43BCD0792A4654",
+  "copied_unchanged_from_generated_source": true
+}

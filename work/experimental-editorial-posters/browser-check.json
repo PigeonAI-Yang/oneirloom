@@ -1,0 +1,213 @@
+{
+  "result": "PASS",
+  "browser": "Microsoft Edge via Playwright",
+  "browserVersion": "154.0.4258.48",
+  "page": "local file URI; no external assets or network requests",
+  "default": {
+    "recipe": "07-object-slices",
+    "image": "07-object-slices/images/transfer-01.png"
+  },
+  "selectorOptions": 12,
+  "oneImageElement": true,
+  "sampleImagesLoaded": [
+    {
+      "id": "01-sculpture-tear",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "01-sculpture-tear/images/transfer-01.png"
+    },
+    {
+      "id": "02-motion-blur",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "02-motion-blur/images/transfer-01.png"
+    },
+    {
+      "id": "03-mirror-sphere",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "03-mirror-sphere/images/transfer-01.png"
+    },
+    {
+      "id": "04-torn-landscape",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "04-torn-landscape/images/transfer-01.png"
+    },
+    {
+      "id": "05-botanical-engraving",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "05-botanical-engraving/images/transfer-01.png"
+    },
+    {
+      "id": "06-swiss-sculpture",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "06-swiss-sculpture/images/transfer-01.png"
+    },
+    {
+      "id": "07-object-slices",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "07-object-slices/images/transfer-01.png"
+    },
+    {
+      "id": "08-zine-silhouette",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "08-zine-silhouette/images/transfer-02.png"
+    },
+    {
+      "id": "09-geometric-architecture",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "09-geometric-architecture/images/transfer-01.png"
+    },
+    {
+      "id": "10-paper-typography",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "10-paper-typography/images/transfer-01.png"
+    },
+    {
+      "id": "11-transparent-botanical",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "11-transparent-botanical/images/transfer-02.png"
+    },
+    {
+      "id": "12-xerox-technical",
+      "complete": true,
+      "naturalWidth": 1024,
+      "naturalHeight": 1536,
+      "src": "12-xerox-technical/images/transfer-01.png"
+    }
+  ],
+  "sourceImagesLoaded": [
+    {
+      "id": "01-sculpture-tear",
+      "complete": true,
+      "naturalWidth": 139,
+      "naturalHeight": 209,
+      "src": "01-sculpture-tear/images/reference.png"
+    },
+    {
+      "id": "02-motion-blur",
+      "complete": true,
+      "naturalWidth": 145,
+      "naturalHeight": 209,
+      "src": "02-motion-blur/images/reference.png"
+    },
+    {
+      "id": "03-mirror-sphere",
+      "complete": true,
+      "naturalWidth": 145,
+      "naturalHeight": 209,
+      "src": "03-mirror-sphere/images/reference.png"
+    },
+    {
+      "id": "04-torn-landscape",
+      "complete": true,
+      "naturalWidth": 146,
+      "naturalHeight": 209,
+      "src": "04-torn-landscape/images/reference.png"
+    },
+    {
+      "id": "05-botanical-engraving",
+      "complete": true,
+      "naturalWidth": 139,
+      "naturalHeight": 204,
+      "src": "05-botanical-engraving/images/reference.png"
+    },
+    {
+      "id": "06-swiss-sculpture",
+      "complete": true,
+      "naturalWidth": 145,
+      "naturalHeight": 204,
+      "src": "06-swiss-sculpture/images/reference.png"
+    },
+    {
+      "id": "07-object-slices",
+      "complete": true,
+      "naturalWidth": 145,
+      "naturalHeight": 204,
+      "src": "07-object-slices/images/reference.png"
+    },
+    {
+      "id": "08-zine-silhouette",
+      "complete": true,
+      "naturalWidth": 146,
+      "naturalHeight": 204,
+      "src": "08-zine-silhouette/images/reference.png"
+    },
+    {
+      "id": "09-geometric-architecture",
+      "complete": true,
+      "naturalWidth": 139,
+      "naturalHeight": 214,
+      "src": "09-geometric-architecture/images/reference.png"
+    },
+    {
+      "id": "10-paper-typography",
+      "complete": true,
+      "naturalWidth": 145,
+      "naturalHeight": 214,
+      "src": "10-paper-typography/images/reference.png"
+    },
+    {
+      "id": "11-transparent-botanical",
+      "complete": true,
+      "naturalWidth": 145,
+      "naturalHeight": 214,
+      "src": "11-transparent-botanical/images/reference.png"
+    },
+    {
+      "id": "12-xerox-technical",
+      "complete": true,
+      "naturalWidth": 146,
+      "naturalHeight": 214,
+      "src": "12-xerox-technical/images/reference.png"
+    }
+  ],
+  "promptSourceMatches": {
+    "count": 24,
+    "completeFilesEmbedded": true
+  },
+  "exampleLinksResolved": 12,
+  "templateLink": "template.md",
+  "06SubmittedPromptLink": "06-swiss-sculpture/submitted.en.txt",
+  "08And11": "transfer-02.png and example-v2.json confirmed",
+  "navigationWrap": "previous and next passed",
+  "viewport360": {
+    "innerWidth": 360,
+    "documentWidth": 360,
+    "bodyWidth": 360,
+    "posterVisible": true
+  },
+  "copyInspection": {
+    "buttonPresent": true,
+    "clipboardCallPresent": true,
+    "selectableFallbackPresent": true,
+    "invoked": false,
+    "clipboardChanged": false
+  },
+  "consoleErrors": [],
+  "remoteRequests": [],
+  "screenshot": {
+    "path": "work/experimental-editorial-posters/browser-check.png",
+    "sha256": "0b3c42ec333f36e15ae9d5d3bc56645fdb90f88b53d157892505d5e7184dc046",
+    "fullPage": true
+  }
+}

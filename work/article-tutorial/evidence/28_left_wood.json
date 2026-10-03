@@ -1,0 +1,349 @@
+{
+  "job": {
+    "id": "28_left_wood",
+    "seed": 2026092807,
+    "prompt": "写实竖幅环境全身人像。人物站在画面最左侧，人物中轴位于整张画面宽度的四分之一处，右侧超过一半画幅用于展示白色床铺和米色墙面。头顶到黑色平底鞋完整入画，人物占画面高度约八成。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带缎面及膝连衣裙，领口花卉蕾丝，腰部合身。正面站立，双臂放松下垂，目光看镜头。家中卧室，左边缘是木质电视柜，右半幅是白色床和墙，远处深棕色房门。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。卧室地面完整铺设连续的蜂蜜棕色木地板，人物鞋底直接接触木地板，木板纹理从画面下沿一直延伸到远处房门。",
+    "revision": "Restore explicit wooden-floor requirement after visible rug appeared"
+  },
+  "prompt_id": "4569190f-d7b0-455a-8e61-6fa4068dc702",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "写实竖幅环境全身人像。人物站在画面最左侧，人物中轴位于整张画面宽度的四分之一处，右侧超过一半画幅用于展示白色床铺和米色墙面。头顶到黑色平底鞋完整入画，人物占画面高度约八成。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带缎面及膝连衣裙，领口花卉蕾丝，腰部合身。正面站立，双臂放松下垂，目光看镜头。家中卧室，左边缘是木质电视柜，右半幅是白色床和墙，远处深棕色房门。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。卧室地面完整铺设连续的蜂蜜棕色木地板，人物鞋底直接接触木地板，木板纹理从画面下沿一直延伸到远处房门。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/28_left_wood",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "3:4 (Portrait Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790554638.5910969,
+  "completed": true,
+  "history": {
+    "prompt": [
+      108,
+      "4569190f-d7b0-455a-8e61-6fa4068dc702",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "写实竖幅环境全身人像。人物站在画面最左侧，人物中轴位于整张画面宽度的四分之一处，右侧超过一半画幅用于展示白色床铺和米色墙面。头顶到黑色平底鞋完整入画，人物占画面高度约八成。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带缎面及膝连衣裙，领口花卉蕾丝，腰部合身。正面站立，双臂放松下垂，目光看镜头。家中卧室，左边缘是木质电视柜，右半幅是白色床和墙，远处深棕色房门。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。卧室地面完整铺设连续的蜂蜜棕色木地板，人物鞋底直接接触木地板，木板纹理从画面下沿一直延伸到远处房门。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/28_left_wood",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "3:4 (Portrait Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "28_left_wood",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790554638590
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "28_left_wood_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "4569190f-d7b0-455a-8e61-6fa4068dc702",
+            "timestamp": 1790554638592
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6",
+              "8",
+              "17"
+            ],
+            "prompt_id": "4569190f-d7b0-455a-8e61-6fa4068dc702",
+            "timestamp": 1790554638593
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "4569190f-d7b0-455a-8e61-6fa4068dc702",
+            "timestamp": 1790554664225
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\28_left_wood_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\28_left_wood.png",
+  "elapsed_seconds": 30.04
+}

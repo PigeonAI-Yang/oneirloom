@@ -1,0 +1,347 @@
+{
+  "job": {
+    "id": "e16_doorframe",
+    "prompt": "竖幅全身环境人像，摄影机从卧室门口向内拍。画面左侧前景是一段很近的深棕色门框和银色门把手，门框约占画面宽度六分之一；人物位于门框后方的房间中段，右侧床铺更远，后墙与室内门在最深处。一位25岁的东亚成年女性，鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带缎面及膝连衣裙，细窄蕾丝领口，腰部合身，裙摆轻微散开，黑色平底鞋。家中卧室，连续蜂蜜棕色木地板，右侧奶油白床铺，左侧木质电视柜，远处深棕色室内房门，米色墙面。人物正面看向镜头，头顶到鞋底完整入画，人物大部分轮廓清楚。左侧窗户透入柔和日光，面部与布料细节清楚，背景家具轮廓可辨，写实摄影。",
+    "seed": 2026092807,
+    "edition": "expanded"
+  },
+  "prompt_id": "9184f2ea-0c97-49a6-8e4f-1688fe66fa0b",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "竖幅全身环境人像，摄影机从卧室门口向内拍。画面左侧前景是一段很近的深棕色门框和银色门把手，门框约占画面宽度六分之一；人物位于门框后方的房间中段，右侧床铺更远，后墙与室内门在最深处。一位25岁的东亚成年女性，鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带缎面及膝连衣裙，细窄蕾丝领口，腰部合身，裙摆轻微散开，黑色平底鞋。家中卧室，连续蜂蜜棕色木地板，右侧奶油白床铺，左侧木质电视柜，远处深棕色室内房门，米色墙面。人物正面看向镜头，头顶到鞋底完整入画，人物大部分轮廓清楚。左侧窗户透入柔和日光，面部与布料细节清楚，背景家具轮廓可辨，写实摄影。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/e16_doorframe",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "3:4 (Portrait Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790556849.6154456,
+  "completed": true,
+  "history": {
+    "prompt": [
+      125,
+      "9184f2ea-0c97-49a6-8e4f-1688fe66fa0b",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "竖幅全身环境人像，摄影机从卧室门口向内拍。画面左侧前景是一段很近的深棕色门框和银色门把手，门框约占画面宽度六分之一；人物位于门框后方的房间中段，右侧床铺更远，后墙与室内门在最深处。一位25岁的东亚成年女性，鹅蛋脸、深棕色眼睛、栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。黑色细肩带缎面及膝连衣裙，细窄蕾丝领口，腰部合身，裙摆轻微散开，黑色平底鞋。家中卧室，连续蜂蜜棕色木地板，右侧奶油白床铺，左侧木质电视柜，远处深棕色室内房门，米色墙面。人物正面看向镜头，头顶到鞋底完整入画，人物大部分轮廓清楚。左侧窗户透入柔和日光，面部与布料细节清楚，背景家具轮廓可辨，写实摄影。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/e16_doorframe",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "3:4 (Portrait Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "e16_doorframe",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790556849615
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "e16_doorframe_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "9184f2ea-0c97-49a6-8e4f-1688fe66fa0b",
+            "timestamp": 1790556849616
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6"
+            ],
+            "prompt_id": "9184f2ea-0c97-49a6-8e4f-1688fe66fa0b",
+            "timestamp": 1790556849617
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "9184f2ea-0c97-49a6-8e4f-1688fe66fa0b",
+            "timestamp": 1790556870170
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\e16_doorframe_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\e16_doorframe.png",
+  "elapsed_seconds": 25.01
+}

@@ -1,0 +1,21 @@
+Create a complete, standalone portrait 2:3 experimental editorial poster on flat matte warm ivory paper with subtle paper grain. The sole subject is one upright roasted coffee bean with a clear, full oval silhouette, gently tapered ends, fine natural wrinkles, and a distinctive curved longitudinal groove. Present it as a high-contrast black-and-white still life, preserving the bean's shell texture, central groove, and natural tonal transitions.
+
+Divide the whole coffee bean from top to bottom into exactly seven ordered, thin horizontal slabs. Each slab retains the contour and surface texture of its corresponding part of the bean, with the groove aligned across the slabs so they still read at a glance as the same complete coffee bean. Separate every slab with a slim, even warm-white gap. Shift the slabs slightly left and right in alternating order from top to bottom, creating a restrained layered rhythm while preserving the bean's overall oval silhouette and top-to-bottom order. Color only the central fourth slab vivid orange; keep the other six slabs black, white, and gray. Preserve the shell texture, groove detail, and consistent lighting on the orange slab. Soft light enters from the upper left, with a small natural contact shadow beneath each slab and one coherent shadow direction.
+
+Place the complete bean in the upper-to-middle area, slightly left of center, at about 65% of the canvas width, leaving a clear narrow type column at the upper right. Use crisp, restrained editorial sans-serif typography in black ink. Stack the title on three separate lines with this exact wording:
+“BREAK”
+“YOUR”
+“ROUTINE”
+
+Place a separate small annotation on the right, one word per line, exactly:
+“Slice”
+“Shift”
+“Rethink”
+
+Set this line in bold at the lower left:
+“FIELD 07”
+
+Set this line in very small type at the lower right:
+“A different order”
+
+Use only the in-image text listed above, preserving its exact spelling, capitalization, and line order. Render the text clearly with generous paper space. Let the coffee bean, its horizontal slabs, and their contact shadows sit naturally on the same sheet, forming a complete, visually striking editorial poster.

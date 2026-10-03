@@ -1,17 +1,16 @@
-# 设计表现表
+# Design reference
 
-## 双向用法
+## Use the relevant domain checks
 
-- **正向写作**：按任务行取“提示词骨架”的顺序组织提示词，用“核验重点”列核对交付。
-- **反推识别**：反推海报、包装、白底图等设计图时，按对应任务行的“提示词骨架”顺序反向拆解——骨架的每一项（如主标题、品牌区、材质）都是要对照图面逐项记录的锚点。图面不属于任何一行任务时，按可见的结构层级直接拆，不强行套任务类别。
+For graphic designs, the [graphic-design SOP](graphic-design-sop.md) owns the process and prompt order. Use this table to identify observations and domain checks within that process. For a reference, inspect the visible structure without forcing it into a listed category. For other design tasks, compose from the relevant row and the user's constraints.
 
-| 任务 | 提示词骨架 | 核验重点 |
+| Task | Relevant content | Check |
 | --- | --- | --- |
-| 海报 | 画幅与阅读顺序 → 主标题逐字文本 → 副标题与信息区 → 图形 → 对齐／留白／色彩 | 文案准确、主次明确、安全边距 |
-| 包装 | 容器几何 → 品牌区与文案 → 材质、印刷、封口 → 陈列视角 | 结构可制造感与文字区域 |
-| 电商白底图 | 产品外形与比例 → 完整边缘 → 白背景与接触阴影 → 材质 | 无裁切、轮廓与颜色一致 |
-| 品牌产品场景 | 产品本体 → 使用环境 → 反射和落影 → 道具节制 | 产品没有变形且仍是焦点 |
-| 三维渲染 | 几何／尺度 → 表面粗糙度与透明度 → 灯光／环境反射 → 相机 | 结构和材料反应一致 |
-| 信息图 | 信息层级 → 图形编码与数值 → 标签 → 留白 | 数值和关系必须人工核验 |
+| Poster, cover, or editorial layout | Frame, reading order, image mechanism, relative areas, crop, exact copy, type groups, alignment, whitespace, and regional color. | The mechanism and hierarchy survive adaptation; the actual copy fits within safe margins and remains legible at the intended size. |
+| Packaging | Container geometry, brand and copy regions, materials, printing, closures, and display view. | Plausible construction, accurate known wording, and required package identity. Use the SOP when designing its graphic layout. |
+| White-background catalog image | Product shape and proportions, visible edges, white background, contact shadow, and materials. | Complete edges when requested, consistent silhouette, and accurate color. This framing default does not govern graphic-design crops. |
+| Branded product scene | Product identity, intended context, product-specific concept, contact, reflections, shadows, and supporting props. | Required product facts and focus survive the permitted treatment. Composed ads follow the SOP and product art direction. |
+| 3D render | Geometry, scale, roughness, transparency, lighting, environment reflection, and camera. | Consistent structure and material response. |
+| Infographic | Information hierarchy, graphical encoding, supplied values and relationships, labels, and whitespace. | Compare numbers and encoded relationships with supplied facts; inspect label legibility and reading order. |
 
-精确文字、标志、数据和结构是高风险项。对于多字海报和严格商标，可建议后期排版或专用编辑流程，但仍按用户要求先提供最佳可用提示词。
+Exact text, logos, data, and structure require output inspection. When the actual entry cannot preserve critical copy or marks, identify the need for separate typesetting or an appropriate editing workflow. Still deliver the best available prompt when that is the requested artifact.

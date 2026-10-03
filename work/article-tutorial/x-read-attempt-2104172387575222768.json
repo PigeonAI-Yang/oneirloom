@@ -1,0 +1,40 @@
+{
+  "task": "X source acquisition and structural analysis",
+  "source_url": "https://x.com/AdrianPunk115/status/2104172387575222768",
+  "read_attempt": {
+    "command": "uv run pyaireader read \"https://x.com/AdrianPunk115/status/2104172387575222768\" --auth-strategy user_session_only --fetch-strategy auto --pretty",
+    "request_id": "9c4cce58-d08c-4375-98a3-5394bf8f4f32",
+    "success": false,
+    "quality_level": "failed",
+    "quality_flags": [
+      "x_safety_cooldown"
+    ],
+    "error_code": "x_safety_cooldown",
+    "error_message": "x_safety_cooldown_active:49s",
+    "retryable": false,
+    "suggested_next_action": "wait_for_x_safety_cooldown",
+    "fetch_engine": null,
+    "browser_provider": null,
+    "user_session_used": false,
+    "attempts": [],
+    "visited_urls": []
+  },
+  "preflight": {
+    "provider": "edge_cdp_profile",
+    "launched_non_disruptive": true,
+    "endpoint_available": true,
+    "cookie_diagnostic": "x_cookie_db_unreadable: unable to open database file",
+    "note": "Cookie diagnostic is auxiliary only."
+  },
+  "smoke": {
+    "success": true,
+    "platform": "x",
+    "query": "AI infrastructure",
+    "auth_strategy": "user_session_fallback",
+    "user_session_used": true,
+    "browser_provider": "edge_cdp_profile",
+    "result_count": 1,
+    "source": "authenticated_browser"
+  },
+  "conclusion": "Target article content was not obtained. No further X requests were made after the cooldown response."
+}

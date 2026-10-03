@@ -1,0 +1,28 @@
+{
+  "images": 6,
+  "missingImageFiles": [],
+  "originalsRetouched": false,
+  "newImageGenerationPerformed": false,
+  "publication": "Saved in X Articles drafts; not published",
+  "xDraftUrl": "https://x.com/compose/articles/edit/2105577298582016000",
+  "xDraftReopenedAndVerified": true,
+  "xDraftBodyMatchesApprovedCopy": true,
+  "xDraftInlineImages": 6,
+  "xDraftPreviewVerified": true,
+  "viewports": [
+    {
+      "width": 1080,
+      "scrollWidth": 1080,
+      "imagesLoaded": 6
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "imagesLoaded": 6
+    }
+  ],
+  "visualInspectionComplete": true,
+  "selection": "2026-09-30 and 2026-10-01 generated outputs; older food and portrait examples removed",
+  "originalPromptFilesUnchanged": true,
+  "copyRevision": "Everyday Chinese; technical terms replaced or explained"
+}

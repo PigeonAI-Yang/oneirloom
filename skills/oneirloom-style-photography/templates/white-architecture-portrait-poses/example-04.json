@@ -1,0 +1,52 @@
+{
+  "kind": "generated",
+  "variant": "wall-lean-with-raised-leg",
+  "image": "images/result-04.png",
+  "prompt_file": "submitted-prompt-04-zh.txt",
+  "prompt_language": "zh-CN",
+  "prompt_node": "7",
+  "source_file_name": "Qwen21_official_00585_.png",
+  "image_sha256": "1a01426b0237717c57a8af8f205d48ee52c902c9d501d446675830726aed5aa5",
+  "prompt_sha256": "6cb63a7a51087318afb7b13e6ae0d2b9398ff8b3f1f36af301b45b0954523fcc",
+  "model": "Qwen-Image-2.1, local quantized checkpoint according to embedded loader filenames",
+  "entry": "ComfyUI, embedded PNG prompt graph and workflow",
+  "execution_receipt": null,
+  "loaders": {
+    "checkpoint": "qwen_image_2.1_int8_convrot.safetensors",
+    "text_encoder": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "settings": {
+    "seed": 148333297302529,
+    "steps": 40,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "width": 1248,
+    "height": 1664,
+    "dimension_source": "PNG image header",
+    "resolution_selector": {
+      "aspect_ratio": "3:4 (Portrait Standard)",
+      "megapixels": 2.0,
+      "multiple": 8
+    },
+    "text_encode_resolution": 1024,
+    "negative_prompt": "",
+    "batch_size": 1,
+    "weight_dtype": "default"
+  },
+  "processing": "None. Original PNG copied byte-for-byte, including prompt and workflow metadata.",
+  "verification": {
+    "status": "inspected_user_accepted_pose_set",
+    "inspected_on": "2026-10-01",
+    "observations": "The upper back and hip lean against the right wall; one sandal sole and heel rest on the ground, the other leg bends across the support leg, one hand hangs beside the wall, and the face looks toward the camera.",
+    "deviations": "The raised sandal is beside the wall; contact with the wall is not established. Arch details, sky color and exact leg geometry differ from the earlier reference photograph.",
+    "user_acceptance": {
+      "date": "2026-10-01",
+      "scope": "The four portrait poses as a set",
+      "statement": "这套人像姿态 我觉得可以,纳入模板里"
+    },
+    "limitations": "One supplied output per variant. No new generation or repeatability test. User acceptance of poses does not establish exact source-reference matching. New scaffold and appearance adaptations are untested."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sample_subject": "A glass conservatory with arched glazing and leafy plants, reflected in a polished chrome sphere.",
+  "requested_copy": {
+    "upper_right_handwriting": [
+      "More",
+      "ways",
+      "to see"
+    ],
+    "serif_footer": "FIELD 03",
+    "caption": "A different view"
+  },
+  "files": {
+    "submitted_prompt": "submitted.en.txt",
+    "style_reference": "images/reference.png",
+    "result": "images/transfer-01.png"
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlying_model": null,
+    "model_note": "The tool response did not identify an underlying model.",
+    "requested_aspect_ratio": "2:3",
+    "actual_dimensions_px": [
+      1024,
+      1536
+    ],
+    "returned_metadata": {
+      "result_keys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to J:\\Users\\yangda01\\.codex\\generated_images\\01a0f880-b437-7d43-a494-23ded92baadc as J:\\Users\\yangda01\\.codex\\generated_images\\01a0f880-b437-7d43-a494-23ded92baadc\\exec-c4a94fb3-5503-478b-b7c9-80f30648cbd9.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  },
+  "inspection": {
+    "sphere_boundary_complete": true,
+    "sphere_width_estimate_percent": 92,
+    "reflection": "Recognizable conservatory arches, glazing, and plants form a continuous monochrome reflection that curves across the sphere.",
+    "visible_copy": [
+      "More",
+      "ways",
+      "to see",
+      "FIELD 03",
+      "A different view"
+    ],
+    "poster": "One full-canvas off-white portrait poster with subtle paper grain.",
+    "deviations": [
+      "The blue handwriting is substantially larger than the requested small accent.",
+      "The upper-left microtype reads “03 Portfolio Studies Edition”; that copy was added by generation and was not specified in the prompt."
+    ]
+  }
+}

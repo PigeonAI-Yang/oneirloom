@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="2040" viewBox="0 0 1450 2040" role="img" aria-labelledby="title description">
+  <title id="title">06 source layout skeleton</title>
+  <desc id="description">A coarse editable layout map inferred from the 06 reference. Gray forms are placeholders, not finished creature artwork.</desc>
+  <defs>
+    <clipPath id="left-local-view" clipPathUnits="userSpaceOnUse">
+      <path id="source-left-local-contour" d="M826.5 82C720 82 520 82 342 92C278 100 252 130 261 194C259 277 270 361 300 407C328 446 430 487 551 510C586 517 612 548 628 617C657 750 700 911 742 1050C773 1154 800 1257 808 1322C815 1387 821 1440 826.5 1490Z"/>
+    </clipPath>
+  </defs>
+  <rect id="paper" x="0" y="0" width="1450" height="2040" fill="#F4F0E8"/>
+  <rect id="blue-panel" x="826.5" y="0" width="507.5" height="2040" fill="#4164D8"/>
+  <path id="right-sculpture-mass" fill="#999B9D" d="M826.5 0C907 24 1005 18 1076 54C1144 89 1205 91 1248 150C1263 202 1232 248 1214 292C1194 340 1207 390 1249 431C1281 464 1266 523 1240 572C1216 618 1204 657 1216 718C1237 833 1263 940 1248 1052C1234 1164 1206 1236 1201 1326C1197 1405 1205 1476 1159 1528C1125 1568 1073 1594 1030 1624C985 1654 968 1706 971 1767C974 1849 1003 1966 1044 2040H1011C957 2018 906 1983 867 1921C828 1860 803 1776 800 1686C797 1620 806 1569 800 1519C791 1442 803 1335 811 1218C820 1092 823 951 829 813C834 690 821 596 812 505C802 416 818 333 826.5 256C836 171 823 84 826.5 0Z"/>
+  <g id="left-local-pieces" clip-path="url(#left-local-view)" fill="#B9B8B2">
+    <rect x="250" y="76" width="600" height="210"/>
+    <rect x="250" y="300" width="600" height="190"/>
+    <rect x="495" y="505" width="355" height="238"/>
+    <rect x="570" y="758" width="300" height="300"/>
+    <rect x="690" y="1074" width="180" height="416"/>
+  </g>
+  <ellipse id="left-local-cue" cx="623.5" cy="367.2" rx="74" ry="91" fill="none" stroke="#E5E2DB" stroke-width="7"/>
+  <ellipse id="right-local-cue" cx="1116.5" cy="693.6" rx="88" ry="116" fill="none" stroke="#DAD9D5" stroke-width="7"/>
+  <path id="left-view-direction" d="M615 344L588 367L615 390" fill="none" stroke="#E5E2DB" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path id="right-view-direction" d="M1125 671L1152 694L1125 717" fill="none" stroke="#DAD9D5" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter"/>
+  <g id="source-title-placeholders" fill="#171717">
+    <rect id="source-title-visual" x="101.5" y="551" width="391.5" height="130"/>
+    <rect id="source-title-languages" x="101.5" y="696" width="638" height="130"/>
+    <rect id="source-title-live" x="101.5" y="841" width="246.5" height="130"/>
+    <rect id="source-title-together" x="101.5" y="986" width="551" height="130"/>
+  </g>
+  <g id="source-small-copy-placeholders" fill="#8C8984">
+    <rect x="101.5" y="1244.4" width="540" height="24"/>
+    <rect x="101.5" y="1364.4" width="448" height="24"/>
+    <rect x="101.5" y="1484.4" width="580" height="24"/>
+  </g>
+  <rect id="source-footer-placeholder" x="101.5" y="1754.4" width="335" height="90" fill="#615E58"/>
+</svg>

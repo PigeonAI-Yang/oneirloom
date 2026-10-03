@@ -12,6 +12,7 @@ description: Design character sheets, wardrobe sheets, multi-view identity ancho
 - Character sheets, wardrobe sheets, multi-view identity anchors, and production or expression cards
 - A requested wardrobe sheet, 4+4 card, or three-view card whose layout matches an indexed template
 - Ordinary single-image reconstruction belongs to `oneirloom-visual-analysis`, not here
+- An expression reference card records identity and expression range for production. For individually usable chat reactions or a sticker pack, use [expression stickers](../oneirloom-expression-stickers/SKILL.md). Reuse an existing identity reference; a sticker request does not require a new character sheet.
 
 ## Workflow
 

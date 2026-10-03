@@ -1,0 +1,14 @@
+# Linked Sticker Export Evidence
+
+Checked 2026-10-02 by reading the two assigned official pages directly. This is source evidence, not a unified cross-platform export profile or proof of upload/import acceptance. “Not stated” means the value was absent from that assigned page, not that the platform has no such limit.
+
+| Platform and assigned official page | Main sticker canvas | File format | Transparency | Per-file hard limit | Tray / pack icon | Pack count or server capacity | Padding / composition guidance |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WhatsApp Android, [Android Stickers Apps README](https://github.com/WhatsApp/stickers/blob/main/Android/README.md) | Exactly 512 × 512 px; an exact-size requirement, not a maximum. | WebP for stickers; the README applies this to static and animated stickers. | A transparent background is stated as a sticker requirement. | Static: ≤100 KB per sticker. Animated: ≤500 KB per sticker. | A separate Sticker Picker/Tray icon is specified: static, 96 × 96 px, maximum 50 KB. | One Android app may contain 1–10 packs. Each pack must contain 3–30 stickers. Static and animated stickers must not be mixed in one pack. | No padding or margin amount is given. Separately, the README recommends an 8 px white (#FFFFFF) stroke outside each sticker so it remains visible on varied backgrounds; this is a stroke recommendation, not padding. |
+| Discord, [Tips for Sticker Creators FAQ](https://support.discord.com/hc/en-us/articles/4402687377815-Tips-for-Sticker-Creators-FAQ) | Exactly 320 × 320 px; the requirements call this exact, not a maximum. | Static: PNG. Animated: APNG. | A transparent background is recommended under “Things to Keep in Mind”; it is not listed among the requirements. | Maximum 512 KB per file. | No separate tray or pack icon is stated. | No pack count or server slot capacity is stated on this page. It says custom stickers are available through server boosting and that server admins/owners can upload them. | No numeric padding or margin is given. The page recommends using as much canvas space as possible. |
+
+## Source notes and limits
+
+- The WhatsApp README points to a separate FAQ for complete sticker-art details. The canvas, file type, transparency, size caps, tray icon, pack counts, and 8 px stroke above are directly stated in the assigned Android README. Its `main` branch can change; the table records what was present on the check date.
+- The Discord article displays “May 26, 2022” and “Updated” without a visible update date. It separately says desktop chat renders stickers at 160 × 160 dp and recommends 320 × 320 px for crisp display; the exact canvas rule is stated in its requirements list.
+- This extraction did not open another WhatsApp page or any other platform page. In particular, the Discord page does not provide numeric sticker-slot limits, so no server-capacity number is inferred here.

@@ -1,0 +1,24 @@
+{
+  "tool": "built-in image_gen",
+  "model": "unknown (not exposed by native result)",
+  "transparent_background": false,
+  "native_output_path": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fbc6-b595-7313-ae87-2738b4bb0f28\\exec-67964f92-a800-4b38-9fd6-d8c68d2588b0.png",
+  "saved_output_path": "J:\\PigeonYang\\skills\\oneirloom\\work\\design-sop-unification-20261002\\regenerated-06-after-sop\\result.png",
+  "references": [
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png",
+      "role": "identity reference only"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\templates\\experimental-editorial-posters\\06-swiss-sculpture\\images\\reference.png",
+      "role": "design language and layout reference only"
+    }
+  ],
+  "submitted_prompt_sha256_utf8": "b888ceb946d3e69040068653e70dfb62ce0b89deea84be7201e3b6c12c506c07",
+  "output": {
+    "width": 1057,
+    "height": 1488,
+    "format_guid": "b96b3caf-0728-11d3-9d7b-0000f81ef32e",
+    "sha256": "bb88762a5a4993d564b61acca72f6267f966c3f6ee7236590c2ef48fefdf4532"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "generated",
+  "variant": "low-angle-side-seat",
+  "image": "images/result-02.png",
+  "prompt_file": "submitted-prompt-02-zh.txt",
+  "prompt_language": "zh-CN",
+  "prompt_node": "7",
+  "source_file_name": "Qwen21_official_00578_.png",
+  "image_sha256": "af707d05f7b94f1f277db53571d8bb382991fd60ac086fe40b5dfc36d063d978",
+  "prompt_sha256": "b14da408518dcdbe44f02108d98f8316a642cf6527e1dd3e43398e756ba828be",
+  "model": "Qwen-Image-2.1, local quantized checkpoint according to embedded loader filenames",
+  "entry": "ComfyUI, embedded PNG prompt graph and workflow",
+  "execution_receipt": null,
+  "loaders": {
+    "checkpoint": "qwen_image_2.1_int8_convrot.safetensors",
+    "text_encoder": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "settings": {
+    "seed": 1064220744934625,
+    "steps": 40,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "width": 1248,
+    "height": 1664,
+    "dimension_source": "PNG image header",
+    "resolution_selector": {
+      "aspect_ratio": "3:4 (Portrait Standard)",
+      "megapixels": 2.0,
+      "multiple": 8
+    },
+    "text_encode_resolution": 1024,
+    "negative_prompt": "",
+    "batch_size": 1,
+    "weight_dtype": "default"
+  },
+  "processing": "None. Original PNG copied byte-for-byte, including prompt and workflow metadata.",
+  "verification": {
+    "status": "inspected_user_accepted_pose_set",
+    "inspected_on": "2026-10-01",
+    "observations": "The hips rest on the right-side seat; both knees are bent, both sandals rest on lower steps, the face points upward, and a relaxed hand is visible between the legs.",
+    "deviations": "The prompt requests 3:5 but the output and resolution selector are 3:4. The observed foreground sandal is larger than the rear one, but the historical two-to-one head/foot width target was not verified.",
+    "user_acceptance": {
+      "date": "2026-10-01",
+      "scope": "The four portrait poses as a set",
+      "statement": "这套人像姿态 我觉得可以,纳入模板里"
+    },
+    "limitations": "One supplied output per variant. No new generation or repeatability test. User acceptance of poses does not establish exact source-reference matching. New scaffold and appearance adaptations are untested."
+  }
+}

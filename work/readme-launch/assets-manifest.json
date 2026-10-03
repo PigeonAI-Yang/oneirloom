@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-30",
+  "source_artwork": {
+    "chocolate": {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+      "sha256": "81219b00a9fbaded674c77161b3f7b69a624e7548ced5012a691750890080734"
+    },
+    "folklore": {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+      "sha256": "d5877fafe7cab1c2d090fbfc34ab567efbf5ea5accf29710ac9396f2560c0977"
+    },
+    "portrait": {
+      "path": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png",
+      "sha256": "00efffa9fa79fed0f99ea74c79dd81044f8cc79216e2bf789fcbf8882cf14f3d"
+    },
+    "wardrobe": {
+      "path": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.png",
+      "sha256": "fdc97fdce0772aa4cd2303d07da6d43fc28bff45d185aa14be759dffaa817b86"
+    },
+    "food_source": {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+      "sha256": "c0bed162a70ed3a0279ba486b4b2a216f4c44a6459a7504305262ab620ab30ae"
+    },
+    "food_result": {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+      "sha256": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607"
+    }
+  },
+  "assets": {
+    "hero.png": {
+      "size_px": [
+        1800,
+        950
+      ],
+      "bytes": 528157,
+      "sha256": "f87d274e86237c4fb0d8fda5a6b4020c8745c82e35c0972fcf597c80aa2df859"
+    },
+    "product-case.png": {
+      "size_px": [
+        1800,
+        1030
+      ],
+      "bytes": 1242019,
+      "sha256": "3d7dcf2b4a3f1bf7938bfcdfd8d8d51d24cac8eae10175e254fc94d8c0009394"
+    },
+    "prompt-anatomy.png": {
+      "size_px": [
+        1800,
+        820
+      ],
+      "bytes": 119872,
+      "sha256": "e66777ea48b8672ed0c3d86245b362d75c692831b093e2aa55d95780c54e89d4"
+    },
+    "showcase.png": {
+      "size_px": [
+        1800,
+        940
+      ],
+      "bytes": 1414198,
+      "sha256": "8024eeea410e864d932f4601f50810fb6752f874d7b68f0cb96b2e0df749e158"
+    },
+    "workflow.png": {
+      "size_px": [
+        1800,
+        700
+      ],
+      "bytes": 110635,
+      "sha256": "feaec4310ad46e3da309971c8c11502052f10ced0aba80ac23123f33c57be0ac"
+    }
+  },
+  "processing": "Existing artwork placed in deterministic layouts with proportional resizing. No crop, retouch, recoloring, or new image generation.",
+  "copy_claims": "The prompt anatomy is an untested writing illustration. Existing cases retain their evidence limitations in README.md.",
+  "text_boxes_within_canvas": 74,
+  "structural_references": [
+    "https://github.com/obra/superpowers",
+    "https://github.com/Comfy-Org/ComfyUI",
+    "https://github.com/anthropics/skills"
+  ]
+}

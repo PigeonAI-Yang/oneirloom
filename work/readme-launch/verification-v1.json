@@ -1,0 +1,53 @@
+{
+  "desktop": {
+    "images": [
+      {
+        "src": "docs/assets/hero.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/showcase.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/product-case.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/workflow.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/prompt-anatomy.png",
+        "loaded": true
+      }
+    ],
+    "navigation": [
+      {
+        "href": "#看它能帮你做什么",
+        "exists": true
+      },
+      {
+        "href": "#开始使用",
+        "exists": true
+      },
+      {
+        "href": "#它怎样把需求写成提示词",
+        "exists": true
+      },
+      {
+        "href": "#技能目录",
+        "exists": true
+      }
+    ],
+    "skill_rows": 14
+  },
+  "mobile": {
+    "viewport": 390,
+    "page": 390
+  },
+  "chromium_version": "149.0.7827.55",
+  "source_artwork_unchanged": true,
+  "english_overview_preserved": true,
+  "hosted_github_rendering": "Not published or tested remotely; local Markdown rendering inspected."
+}

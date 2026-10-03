@@ -1,0 +1,52 @@
+{
+  "attempt": "transfer-01",
+  "entry": "built-in image_gen",
+  "model": null,
+  "modelNote": "The tool response did not expose a model name.",
+  "request": {
+    "language": "English",
+    "requestedAspectRatio": "2:3",
+    "reference": {
+      "path": "images/reference.png",
+      "role": "style reference only"
+    },
+    "submittedPrompt": {
+      "path": "submitted.en.txt",
+      "copiedFrom": "prompt.en.txt",
+      "sha256": "FBA9E751EDD47B2022D5F45102000176B0D1EF34A5298F41B408C85CD0555A6C",
+      "matchesSource": true
+    },
+    "transparentBackground": false
+  },
+  "result": {
+    "path": "images/transfer-01.png",
+    "width": 1024,
+    "height": 1536,
+    "actualAspectRatio": "2:3",
+    "sha256": "3079B40D65BA4719E0FB900A4F502BF77FA0BBBF10AA9AC725EB1BD9A6CF5C73"
+  },
+  "visualObservation": {
+    "pear": "Centered, recognizable pear with a curved stem.",
+    "slabs": {
+      "count": 7,
+      "orderedTopToBottom": true,
+      "warmWhiteGapsVisible": true,
+      "leftRightStaggerVisible": true,
+      "onlyFourthSlabGreen": true,
+      "otherSlabsGrayscale": true
+    },
+    "text": {
+      "title": ["ONE", "FORM", "MANY", "VIEWS"],
+      "titleMatchesPromptVisually": true,
+      "annotation": ["Slice", "Shift", "Rethink"],
+      "lowerLeft": "FIELD 07",
+      "lowerRight": "A different order",
+      "visibleWordingMatchesPrompt": true
+    }
+  },
+  "limitations": {
+    "chinesePromptRun": false,
+    "repeatability": "Unknown; only one generation attempt was made.",
+    "settings": "Only the supplied reference image and transparent_background=false were specified; other generation settings were not exposed."
+  }
+}

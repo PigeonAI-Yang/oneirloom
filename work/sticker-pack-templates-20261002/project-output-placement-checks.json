@@ -1,0 +1,1652 @@
+{
+  "result": "PASS",
+  "delivery": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003",
+  "entry": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\index.html",
+  "evidence": "J:\\PigeonYang\\skills\\oneirloom\\work\\sticker-pack-templates-20261002\\project-output-placement-checks.json",
+  "archive": {
+    "source_sha256": "3a9b992d67a9800f87c90896b76eea8a28259274856af3fc243f1c04740c5698",
+    "copy_sha256": "3a9b992d67a9800f87c90896b76eea8a28259274856af3fc243f1c04740c5698",
+    "bytes": 150532430,
+    "extracted_file_count": 196,
+    "catalog_archive_path": "assets/generated/oneirloom-stickers-20261003.zip"
+  },
+  "catalog": {
+    "date": "2026-10-03",
+    "template_count": 14,
+    "image_count": 156,
+    "template_ids": [
+      "identity-acting-system",
+      "daily-sixteen",
+      "chat-coverage",
+      "pose-decomposition",
+      "emotion-five",
+      "eight-slot-workspace",
+      "source-export-workspace",
+      "custom-caption-layout",
+      "ten-reactions",
+      "extended-reaction-library",
+      "soft-six",
+      "nine-reaction-sheet",
+      "seven-poses",
+      "treatment-expression-family"
+    ]
+  },
+  "selected_png_hashes": [
+    {
+      "file": "assets/generated/identity-acting-system/I01-ready.png",
+      "sha256": "7dd73afdd6df4b58fe029d3f81d1fa621f4e68f1b67ef08a6230a4f14d7f4eb8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/identity-acting-system/I02-thankyou.png",
+      "sha256": "f6a547de274c9e9dcecd57a525de5adbf4714bba803c53db19bb6aa81e718674",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/identity-acting-system/I03-done.png",
+      "sha256": "aeae3e1986f34c8e011314c73add954560768121fd2f3a7876818a92af53669a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/identity-acting-system/I04-rest.png",
+      "sha256": "10bbe0e3b07ac392b477efb2f79d091368f44b536cae4b155aa2b9c255a75363",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D01.png",
+      "sha256": "368fe20c8ea6a3b3fd1bb2ce1fa7e3d90b0f6b1ac7e738c04da9730be6b05bee",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D02.png",
+      "sha256": "3f381a2d81f3bd984f198b6e8cebac99c875338c34fc9bdb30f44d9bdf68dc80",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D03.png",
+      "sha256": "f86673366606c9d9dcf7c63a93e39c129bde8a8e34ea101d783e59eb98ed7b44",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D04.png",
+      "sha256": "f63fcb84a32e135bf330daaa8cd2b00bd26554fe8d7d57c0c6c422ad3f5e3eef",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D05.png",
+      "sha256": "6512b57abb8f08c7c2ebed86f3e479a02d22dcfce4de1f524ff5aa6631295f85",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D06.png",
+      "sha256": "8fa387ec4c7399fa5881d65bb66bea5c5bdc756d654e3a5b6f015154bbea8999",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D07.png",
+      "sha256": "f38d208e59d2d3ec145ef5ce055189958c059a961a2ee0fa895012ce51147304",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D08.png",
+      "sha256": "e2ab524d85a9f343a894aab3f92c138068fa7d0ad8d2da5b8e4d7dbeff4323a8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D09.png",
+      "sha256": "9d01e9281368411f666b94b15de3a80fb360387bb7fff13195c0a8eb54888d46",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D10.png",
+      "sha256": "8c34c63d18310b74c9cf6855e831afc42dfb6049eee2345ba04d791238d72641",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D11.png",
+      "sha256": "00ef231f21a26ea5091ac4de05ba39d5e1bb3741d318230cca3ef17e65c615f5",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D12.png",
+      "sha256": "912e8c29fd3aee7a4e07c1509e6d060579b46de8340d2e362241fe5416dacafc",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D13.png",
+      "sha256": "551b1436cfbc52bbd9f4086b60e87f48f33e63d083978d0ff9e4688bf556a23b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D14.png",
+      "sha256": "be060cc494bfecc98c0d63b38da33e6224607b800d2549c29556732f14cc325a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D15.png",
+      "sha256": "a8a205fcb5c2b83fb7e7c32034738949cfaa789d3bd9f973c8cf53e5a73497ad",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/daily-sixteen/D16.png",
+      "sha256": "6b24599a84354093bd954d939f7b524468f50724c8bda3c39639c83127e04a18",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C01-hello.png",
+      "sha256": "549d5a24b3491c32143ba184d1b01c5cae101f9c526c24b52c178c237bb41033",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C02-thanks.png",
+      "sha256": "2d70d48cdf4ba50047ac43456c96b95c5b36eb3b4325bd4f19cec4e214b2c9d8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C04-okay.png",
+      "sha256": "29cc747751a39050ce124ac2f217f9d1ba32b6dbe9d75d80e993160857339b61",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C05-sorry.png",
+      "sha256": "8bb6e4994fdbd10e392e8a59faf73d0d4fd21573e8c1e46890c38adfa04c90e7",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C09-delight.png",
+      "sha256": "4e8bd699c7b13e88de2a62b1114e00b4756de7cf5340b0ccd9e15ecfe16ae1d1",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C10-waiting.png",
+      "sha256": "cb1775869dfe590aba29c9552768552d069674630575fba184c77e016417cf69",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C11-working.png",
+      "sha256": "a670722ad7466e652832e2ad8aa1167915d50590334a7813db9f1ba296113735",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C12-resting.png",
+      "sha256": "a3f189e5c7813bd78b720f2b9c30be0cfb7fe7b8665f3f0d206545537bec9fa2",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C03-love.png",
+      "sha256": "4f09a23c1ec89c020f35d0fffe5f0558fdcdc05e27f881b3bec2a8ef672d615f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C06-happiness.png",
+      "sha256": "c58a7c5155a82522001651aca3b9bd21a2f3d9b599095ed23d060bb0e26380d3",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C07-sadness.png",
+      "sha256": "a86af6d2428f5ff2b1957b7cc83cfb6443cfbd909b6c2e9d1be3e9442d52e8d6",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/chat-coverage/C08-anger.png",
+      "sha256": "a50069c41884178e7677abbf9507ea3e0a03bd77c269945b79faba4dfc9f52a6",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/pose-decomposition/P01-celebrate.png",
+      "sha256": "07415f9f725906b4012d64c0af410769fcf63dda6334c4bf4580426cd12bfd16",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/pose-decomposition/P02-apologize.png",
+      "sha256": "161004ed75b378f773d84b7e724498f470ceb7fdfa10e23e119f665b8ebf8b3e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/pose-decomposition/P03-consider.png",
+      "sha256": "791d778d292be385214563c88fc657e753478eb018a62fe8c60bcb5da5509d58",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/emotion-five/E01-happy.png",
+      "sha256": "c58a7c5155a82522001651aca3b9bd21a2f3d9b599095ed23d060bb0e26380d3",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/emotion-five/E02-angry.png",
+      "sha256": "a50069c41884178e7677abbf9507ea3e0a03bd77c269945b79faba4dfc9f52a6",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/emotion-five/E03-sad.png",
+      "sha256": "a86af6d2428f5ff2b1957b7cc83cfb6443cfbd909b6c2e9d1be3e9442d52e8d6",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/emotion-five/E04-shy.png",
+      "sha256": "d48b8ee92698738edc6624ff7e169b1f76c67c046a1a2d34274ac1718466ea4b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/emotion-five/E05-love.png",
+      "sha256": "4f09a23c1ec89c020f35d0fffe5f0558fdcdc05e27f881b3bec2a8ef672d615f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D01.png",
+      "sha256": "368fe20c8ea6a3b3fd1bb2ce1fa7e3d90b0f6b1ac7e738c04da9730be6b05bee",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D05.png",
+      "sha256": "6512b57abb8f08c7c2ebed86f3e479a02d22dcfce4de1f524ff5aa6631295f85",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D04.png",
+      "sha256": "f63fcb84a32e135bf330daaa8cd2b00bd26554fe8d7d57c0c6c422ad3f5e3eef",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D13.png",
+      "sha256": "551b1436cfbc52bbd9f4086b60e87f48f33e63d083978d0ff9e4688bf556a23b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D11.png",
+      "sha256": "00ef231f21a26ea5091ac4de05ba39d5e1bb3741d318230cca3ef17e65c615f5",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D14.png",
+      "sha256": "be060cc494bfecc98c0d63b38da33e6224607b800d2549c29556732f14cc325a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D16.png",
+      "sha256": "6b24599a84354093bd954d939f7b524468f50724c8bda3c39639c83127e04a18",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/D03.png",
+      "sha256": "f86673366606c9d9dcf7c63a93e39c129bde8a8e34ea101d783e59eb98ed7b44",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/source-export-workspace/reaction.png",
+      "sha256": "f63fcb84a32e135bf330daaa8cd2b00bd26554fe8d7d57c0c6c422ad3f5e3eef",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/top-greeting-base.png",
+      "sha256": "51a1c422e9496785a331b39d170aa0a03f6715c8ae4e53e373b21a0584a286b8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/top-greeting-caption.png",
+      "sha256": "b9d5207398711aa8391b5f822451550eae9415b988381869bb1ede5d690db9e9",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/left-reply-base.png",
+      "sha256": "449a92b835e225f3f9444daff491afe050bdec3ad5e8572d1c68c8fa3c6c7ac8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/left-reply-caption.png",
+      "sha256": "beead944a952a4e7d2a785c82429b484d6e04cef4a49ac5423be84265090738a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/bottom-reassurance-base.png",
+      "sha256": "3e801d47f02b0bcb2605e96b20b18a62a1ca3897198c0623cdc4728afb1edeba",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/bottom-reassurance-caption.png",
+      "sha256": "3ff6c4f1954425ef01ca2e7a3c01bfad7e2dc3dc21942f59a43ef9857579cd0e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T01.png",
+      "sha256": "d7d13f06e451dde45a395b97ef32ba63bec74a6b9f41b719743b242448505117",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T02.png",
+      "sha256": "e4fa5031dfef6b63cbe9c6e32fc05276ea5dc0774022e7fdc09c5e13483e653a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T03.png",
+      "sha256": "12ecac89286bd51d651e45ce7e7d4782f7c0915c5a9de6f0d5212935d1a3c8cf",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T04.png",
+      "sha256": "897a7616c61e001bb4bdb11696a40cdb4c289d06407e98d009110c2911e73615",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T05.png",
+      "sha256": "e2f5379d44753b08b3db5d72d6a5d731c17234f5021c5e023021a577e299b024",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T06.png",
+      "sha256": "27f5b1151a6b84ff84132104692f7e0e6e84ff403892754b52768ebf6bb2bbbd",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T07.png",
+      "sha256": "30550941a98cfdc82ffd78876b4ee2890eeccc469a1ada2c0d942b60997ee9fb",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T08.png",
+      "sha256": "b2d99f38512f120253eb393ef6ae63d6cdcc21bcbeeb22cb9c0e4676227362c7",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T09.png",
+      "sha256": "9fe21c574adfb455711dd3b7ccbca91b62d7babdfa42c544e1d12d63150de662",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/ten-reactions/T10.png",
+      "sha256": "1e4f65a6f2cc7a42a3327f4ebe46ea5a7e879086377cb56c8d7490d4dce964e9",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C01.png",
+      "sha256": "3eac3947cbaef63e2b6ed8637e240688514eb53729377ea4698157bd1043267e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C02.png",
+      "sha256": "fe0a496fd70a04adef183925ef43fac1966205762395b4556fd462f112de43c4",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C03.png",
+      "sha256": "c89bf1d18060eec7b34ebe0aa7a99b00da3f89a25481f23657e9391c348ff3f5",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C04.png",
+      "sha256": "0fd01fc960177c70bcf73ec32f30a5c0f04b8c328a2f005866460202604fe44c",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C05-v2.png",
+      "sha256": "c4ad8200f40e59e6270da6024ca35ee78143d5fa116be5e31515dcf9b19ec800",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C06.png",
+      "sha256": "cd4508b47e071a2731ae80ee3b6f5d4ab4233e1899f8243580b0c1eb84541d7e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C07-v2.png",
+      "sha256": "5c10fec93407d96e0cfa93b7c941aa7239540a8ff3e5451c2a22fe2d70ea5660",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/C08.png",
+      "sha256": "601eec69add269a0976616e16c82cc10a828d6c2c4d9e62ee4f6bea565e18887",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E01.png",
+      "sha256": "b9ca02324d7ef56bc6bb7e2255e77a76f03d04f70c844106628910a147965f09",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E02.png",
+      "sha256": "276ac1fbf5336c0fe0deebfc6a8c2a2ecdabbb9d456e4ff48b9ba0faea1c0947",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E03.png",
+      "sha256": "17951bd4766df8b639c89bc9454354fc08fdc2f401643260491138f5c5625f31",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E04.png",
+      "sha256": "aba0d63ab16cc9aeef60cda361187b864b00d34fa6ea99bf7c4fdc7f4458f45b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E05.png",
+      "sha256": "c010274699c0c0acf84383259cdd534e9a5e8d9d04152642033db32f488eb706",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E06.png",
+      "sha256": "2f2c9f6373d6bfc6e7ae9937b60af686570550110096daa28ea871cda7a142aa",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E07-v2.png",
+      "sha256": "7e360b58c02814cada18d914d5513e45ff2f4ccd1d6da95c591ebfbcdbb36fe1",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/E08-v2.png",
+      "sha256": "8b8e86ac8a9d695828e3300b4327fe03d306304ac90a7c2f29261b8e36ee791f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W01.png",
+      "sha256": "d28a7f49a71806c1da0f39e9ad0a593af362732ce671a1d4575fafac2fc7cf0f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W02-v2.png",
+      "sha256": "95a93ece16dd013388cae2ff15f9b76b28d2a509451695501b8164b66444627f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W03-v2.png",
+      "sha256": "f776d2816814b721a5cb4dc84587efa150b42ccc83c7685111ae2391518bc338",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W04.png",
+      "sha256": "36e3b4016316bb16dd4ffe6ef09c07f5305b013553689c359ef04e5384749888",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W05.png",
+      "sha256": "102cefe2f29ef31bd1a106997eece7f700c3759fcb0c8290b5bbf522aff8852c",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W06-v2.png",
+      "sha256": "69374eac1f449be0803ec6666e77600520f65d180fcbf23987cc1d3aa2c47a03",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W07.png",
+      "sha256": "9500416ceddaa88b0130780dc402c6fc86cd041a4ac8283dba7a803d33beaf19",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/W08.png",
+      "sha256": "75ebd958864f6104821c8beee0fc41ebe028dc912d5da02c64d3e75f6e9cd2cd",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/soft-six/S01.png",
+      "sha256": "f1e34d5dfd250d10b1dd418f0f3499f4f3fa394289bf5faf3216eeedd9b8177d",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/soft-six/S02.png",
+      "sha256": "f6a553260b501cee4978689f6e18e2dfa62325d94404daaffb6249214e2994b5",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/soft-six/S03.png",
+      "sha256": "3a80a6762fb670a693ac5646b84066b94c9f7d3470eddf120e52e781fcb10171",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/soft-six/S04.png",
+      "sha256": "08e8faee6247cccc62b9a146f94b8695167c99dce18465066e40880a4b05480e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/soft-six/S05.png",
+      "sha256": "ea8f0f4b94efad01503e75ecba1ef0e3e15576808d4c7c33201e30da2939fce2",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/soft-six/S06.png",
+      "sha256": "78b89e6585b97129974158831d02f15a50d040341d4b0b24512badb10696681c",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R1C1-happy.png",
+      "sha256": "eea101853ee07791cf589eb76a692620907760a32b55e2babf58076bf1c4d20e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R1C2-laughing.png",
+      "sha256": "5c198de0a04f7cffce239c3163d036a4b0a752959b183caef0bc002cc2d6f102",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R1C3-sad.png",
+      "sha256": "e80e4c2848b4418167fb120aec6f0e9f1bbe063b6ae01418a0cfa9da889e6a1a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R2C1-crying.png",
+      "sha256": "983243aea0115671c6535830ae39ff74191f3fb8052093ae3a0a168c5c23ce7b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R2C2-angry.png",
+      "sha256": "c50b9b73cb4bae5c750768d04108d1fea45a294ba0a4d7a4cc4f2ac8fe8d894e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R2C3-surprised.png",
+      "sha256": "1484b39d3062deaf8a1e50925cbc09a23cfdaf4a9d150f023df32ffa97ef932f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R3C1-love.png",
+      "sha256": "7cc441aaf057ae2b668e47e296427622a785b79bebb7f7c335e971d19f7ec92d",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R3C2-shy.png",
+      "sha256": "644e3b4febb6cca30c238530962a6432fa57e26cea8de361e4741cfb051c5d7c",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/R3C3-thinking.png",
+      "sha256": "15b5cb7d7ffdb0dfcd1ad6495d2c851c8be67a77a5561a232f915b9a306c93bd",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P01-neutral.png",
+      "sha256": "51056794715536e2e1568e6b1feb7648af6debe0c04cfaf894daf01e58bacf8d",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P02-hello.png",
+      "sha256": "38a8e382d02114b62f522c06d6d15f8b9b96c99650c20efe5cbd8aaffb4114f2",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P03-work-weaving.png",
+      "sha256": "087d0b270a08bd7a109d45e23564b7d688be66815ff78c5ffe224dc2e0f458bc",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P04-curious.png",
+      "sha256": "0ad2f58d54903a09f1e1c321954a36d8d4a7196cc99937c2ff83fc28175f24b8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P05-celebrate.png",
+      "sha256": "14989c8fb7bf784b8f6925cb13f1da1ed8a7e920365590d8e9a58f88f35cdde9",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P06-rest.png",
+      "sha256": "f61ff110fbefccc4316108f4ae71c4f100e29852ce5285fcc59f81ee7bbca285",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/seven-poses/P07-handoff.png",
+      "sha256": "1340698a2a6f5634049e264ec4a2966f1f7817d96433446e3638e9719e0d0045",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A01.png",
+      "sha256": "eea101853ee07791cf589eb76a692620907760a32b55e2babf58076bf1c4d20e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A02.png",
+      "sha256": "5c198de0a04f7cffce239c3163d036a4b0a752959b183caef0bc002cc2d6f102",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A03.png",
+      "sha256": "e80e4c2848b4418167fb120aec6f0e9f1bbe063b6ae01418a0cfa9da889e6a1a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A04.png",
+      "sha256": "983243aea0115671c6535830ae39ff74191f3fb8052093ae3a0a168c5c23ce7b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A05.png",
+      "sha256": "c50b9b73cb4bae5c750768d04108d1fea45a294ba0a4d7a4cc4f2ac8fe8d894e",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A06.png",
+      "sha256": "1484b39d3062deaf8a1e50925cbc09a23cfdaf4a9d150f023df32ffa97ef932f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A07.png",
+      "sha256": "7cc441aaf057ae2b668e47e296427622a785b79bebb7f7c335e971d19f7ec92d",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A08.png",
+      "sha256": "644e3b4febb6cca30c238530962a6432fa57e26cea8de361e4741cfb051c5d7c",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/F-A09.png",
+      "sha256": "15b5cb7d7ffdb0dfcd1ad6495d2c851c8be67a77a5561a232f915b9a306c93bd",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A01.png",
+      "sha256": "bc88c513be9c8ecb83f0756157d7a5c884ada19562c57066ff46937e73a17722",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A02.png",
+      "sha256": "7b90bc8ad5935f50cc3613fc2a5ae5c2f18fd5c00dbe6f4da01b0ac98353e697",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A03.png",
+      "sha256": "d4b45923b3f86b15fd5ee2370c1308ab290e04284034599dbc92362a4bb59071",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A04.png",
+      "sha256": "0e6e31a227a9710d2c827a9a1066a08af54be0c591e0ba938236b85c368073ee",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A05.png",
+      "sha256": "8acbca606ab2b452e1e68b177533cfddfe8f4147686cd9e19799e1f7d02673b1",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A06.png",
+      "sha256": "726ebf93b7ee7d0708ab1940e1aeb97e932698ed51dc60079d6e1c2be9e61e6b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A07.png",
+      "sha256": "2237b1a8d4d85c11c37d1e0be2c9ec20fef68e28e1e9f205eda353a9b2cd9497",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A08.png",
+      "sha256": "2e5710f3e0a36d893d137270c04adb03857a491147e8ffbc507d92c24d356a9a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/D-A09.png",
+      "sha256": "dfc149047b290522850b5b7550079f9210c1321cf99e83dc380bef194f8cd270",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A01.png",
+      "sha256": "68414b7f13f7f308bff77ac9387805d24aa903e255a6b1b3420462548cc60810",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A02.png",
+      "sha256": "916a5962b70439b0c50de04939d9eb1f62901f9d81a7f88d37504951b37f8a60",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A03.png",
+      "sha256": "c21307a1ebebfb53eb882dac49aa6f9c4edff645b58b5389e6bf7dc7f63a9f8f",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A04.png",
+      "sha256": "bfe9c7f80324b077d3c5cf174666c07fff77e069db4859189ab845f275e2a1fe",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A05-v3.png",
+      "sha256": "f24475c1d53203e63b79d6f1b76637449bc2d659fb79e5d553feb83331fd54da",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A06.png",
+      "sha256": "c35b7314672aa07ac5fd2dbfb82e451e9869284cb9bc40e8ae807966f90c74be",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A07-v2.png",
+      "sha256": "b9aa973ac9471a2c2ef563172a7b50492ecbbd611f635d1097a280184b8775be",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A08.png",
+      "sha256": "8aa51484e0ea85d08dfca66569cd02a1879a36dc53e4b248575249e86d677ae8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/P-A09.png",
+      "sha256": "319d743e2b61f5cc2c73ec61836e36a62f921af0e1ec9121ae1039c2d8164962",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A01-v2.png",
+      "sha256": "3e38149f680e724dbf0d226eda50296147e3086bc622deffed6709842b203723",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A02-v2.png",
+      "sha256": "0604885e5c78ea4ba11e914645b38c02d1323d825e539779e613675307a9e025",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A03.png",
+      "sha256": "48be0796a81ad8923a168cd2dcd5eee1f82255fdc7cf66da7ca30977b7b7b40b",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A04.png",
+      "sha256": "3db5e7f3e62599097a60ac5c136b4a4275cc7bad424c36ed496e0dc25b354875",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A05.png",
+      "sha256": "6cd46f0f213340bc4cf3596cf7a2fe056d703b81d0758f808b4862395e09d2b5",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A06.png",
+      "sha256": "ad88f0ae4e8e4e4483d6828ed8f24732afafcbb7d88d8fb1fdc73e4ec7876291",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A07.png",
+      "sha256": "a9a2cb26a22d7df0fa40912a759f22f002ca5dc0d5c3ea2a0f6adb26be964fb2",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A08.png",
+      "sha256": "c6fa961c0cf8abd61453d72d5d77afba85c988a424d6befa6f8efb65c2c69a6a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/C-A09.png",
+      "sha256": "e09d27445bd02663c53af56c28df39f0a340f453995663009650d6e1d0448d2d",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A01.png",
+      "sha256": "618b5b9340fdb73892be24e0077b9f220a92ba84476d77cf9dd3a0c5f06e0d85",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A02.png",
+      "sha256": "2d59d7c036236e6f7596d010f118d0bb0bb1ead81db7c9a6b7b20e06b00abc66",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A03.png",
+      "sha256": "8bcae9f7e8e4019ee92d2e03fb7fa74b0b8fff4ff59369671a434881b38ef75a",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A04.png",
+      "sha256": "1bdbd6adceab564c5a8d39d1769f01cfb22c13c6b0f3aeba24c314a5d6c1f677",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A05.png",
+      "sha256": "45b95d1d996816c25577f0cdd46326ab61105d62e0fe84cb565f7bad1100a3a0",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A06.png",
+      "sha256": "da64da6c2c0a82b8b71caff7f4c34e97e7fd483de82923d4c65c5e380e83bd48",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A07.png",
+      "sha256": "cf6aa8f6a545cc3acfa48934f84b5e21dc0b38e14f53da00b3de1e45534a72f8",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A08.png",
+      "sha256": "4ad3345fae8a59eff22c92e93e1d03129aeea0fa43a5d3928a4b268a0f0dfe1d",
+      "equal_to_source": true
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/M-A09.png",
+      "sha256": "eee7cc3fd7e9e78893bf9cf2fc86cdf454af15522cf2e093939dde90ed5c719f",
+      "equal_to_source": true
+    }
+  ],
+  "previews": [
+    {
+      "file": "assets/generated/identity-acting-system/preview.png",
+      "sha256": "f12051112aee8ffc5ed2ee1c359ffabc9f872d10f2cc8b165282b7c3062a6e10"
+    },
+    {
+      "file": "assets/generated/daily-sixteen/preview.png",
+      "sha256": "8ea5b9119f9636e150cd857234965d5293e12a2ef8994bbdd0ad7a1f322e8f86"
+    },
+    {
+      "file": "assets/generated/chat-coverage/preview.png",
+      "sha256": "aa6f09656b5163bb7bcc847bd9807c9dcc8900fb588604a3b46309614702f160"
+    },
+    {
+      "file": "assets/generated/pose-decomposition/preview.png",
+      "sha256": "f79547cb595a77755f50e1ba7d6a7be38d4896f8d92d731e6ca19add7901ff9e"
+    },
+    {
+      "file": "assets/generated/emotion-five/preview.png",
+      "sha256": "662c0d8335e8fa3cc4ea91a146c8266e9c9e17a0cbb6faa3110928a3d1014725"
+    },
+    {
+      "file": "assets/generated/eight-slot-workspace/preview.png",
+      "sha256": "41ca7d503d53cf27fda48416548628ce5bd7b23af0d8f0c2a5119d3ccb65ce28"
+    },
+    {
+      "file": "assets/generated/source-export-workspace/preview.png",
+      "sha256": "53731f69c0637ca482be51271dce0020a16a87b415f9ee9102ecf97f57fd1c32"
+    },
+    {
+      "file": "assets/generated/custom-caption-layout/review-light-dark-128-384.png",
+      "sha256": "7aef6cbc1b7a52a419a67e60016836a2e3b96e2c1c5a24cd9f6f4230d9686fd6"
+    },
+    {
+      "file": "assets/generated/ten-reactions/preview.png",
+      "sha256": "183484ebef64dbcfb6d0fac22114d70834f7d9e6b2e639da88aef3dfa63e5977"
+    },
+    {
+      "file": "assets/generated/extended-reaction-library/preview.png",
+      "sha256": "4ec77bf3cb3cbba7f71810cdbb52df472521bcad8546de00c7d567755df12b86"
+    },
+    {
+      "file": "assets/generated/soft-six/preview.png",
+      "sha256": "8b7dce392518ad2a7e2fd0d65b3d53ae9cfe6ec1fc39c05432b3e684dc9fe6f9"
+    },
+    {
+      "file": "assets/generated/nine-reaction-sheet/preview.png",
+      "sha256": "5ea33e9de872225d9f0d6af8720087d6612d4431946e6d8121e7a36122f9f30a"
+    },
+    {
+      "file": "assets/generated/seven-poses/preview.png",
+      "sha256": "48941923aaa91b3c4000f804ddb3f2ce53236c8ce9d77e8babf2e2412cb0a136"
+    },
+    {
+      "file": "assets/generated/treatment-expression-family/preview.png",
+      "sha256": "21180b8a5ebeae1cca72800cf32d61201718b3d892433b77214b7c1471266c7e"
+    }
+  ],
+  "source_tree": {
+    "template_files": 21,
+    "recipe_markdown_files": 17,
+    "reference_files": 4,
+    "browser_byte_identical": true,
+    "blank_workspace_svg_byte_identical": true
+  },
+  "local_file_links": [
+    {
+      "owner": "identity-acting-system Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/identity-acting-system/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\identity-acting-system\\template.md"
+    },
+    {
+      "owner": "identity-acting-system body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "identity-acting-system body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "identity-acting-system body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "identity-acting-system body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "identity-acting-system body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/identity-acting-system/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\identity-acting-system\\preview.png"
+    },
+    {
+      "owner": "identity-acting-system body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/identity-acting-system/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\identity-acting-system\\production.json"
+    },
+    {
+      "owner": "daily-sixteen Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/daily-sixteen/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\daily-sixteen\\template.md"
+    },
+    {
+      "owner": "daily-sixteen body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "daily-sixteen body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "daily-sixteen body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/daily-sixteen/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\daily-sixteen\\preview.png"
+    },
+    {
+      "owner": "daily-sixteen body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/daily-sixteen/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\daily-sixteen\\production.json"
+    },
+    {
+      "owner": "chat-coverage Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/chat-coverage/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\chat-coverage\\template.md"
+    },
+    {
+      "owner": "chat-coverage body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "chat-coverage body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "chat-coverage body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/chat-coverage/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\chat-coverage\\preview.png"
+    },
+    {
+      "owner": "chat-coverage body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/chat-coverage/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\chat-coverage\\production.json"
+    },
+    {
+      "owner": "pose-decomposition Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/pose-decomposition/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\pose-decomposition\\template.md"
+    },
+    {
+      "owner": "pose-decomposition body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "pose-decomposition body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "pose-decomposition body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/pose-decomposition/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\pose-decomposition\\preview.png"
+    },
+    {
+      "owner": "pose-decomposition body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/pose-decomposition/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\pose-decomposition\\production.json"
+    },
+    {
+      "owner": "emotion-five Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/emotion-five/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\emotion-five\\template.md"
+    },
+    {
+      "owner": "emotion-five body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "emotion-five body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "emotion-five body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/emotion-five/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\emotion-five\\preview.png"
+    },
+    {
+      "owner": "emotion-five body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/emotion-five/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\emotion-five\\production.json"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\template.md"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/workspace.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\workspace.svg"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/workspace-preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\workspace-preview.png"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/eight-slot-workspace/filled-workspace.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\eight-slot-workspace\\filled-workspace.svg"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/workspace.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\workspace.svg"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/eight-slot-workspace/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\eight-slot-workspace\\preview.png"
+    },
+    {
+      "owner": "eight-slot-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/eight-slot-workspace/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\eight-slot-workspace\\production.json"
+    },
+    {
+      "owner": "source-export-workspace Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/source-export-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\source-export-workspace\\template.md"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/daily-sixteen/D04.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\daily-sixteen\\D04.png"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/source-export-workspace/editable-source.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\source-export-workspace\\editable-source.svg"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/source-export-workspace/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\source-export-workspace\\preview.png"
+    },
+    {
+      "owner": "source-export-workspace body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/source-export-workspace/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\source-export-workspace\\production.json"
+    },
+    {
+      "owner": "custom-caption-layout Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/custom-caption-layout/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\custom-caption-layout\\template.md"
+    },
+    {
+      "owner": "custom-caption-layout body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "custom-caption-layout body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "custom-caption-layout body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/custom-caption-layout/review-light-dark-128-384.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\custom-caption-layout\\review-light-dark-128-384.png"
+    },
+    {
+      "owner": "custom-caption-layout body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/custom-caption-layout/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\custom-caption-layout\\production.json"
+    },
+    {
+      "owner": "ten-reactions Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/ten-reactions/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\ten-reactions\\template.md"
+    },
+    {
+      "owner": "ten-reactions body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "ten-reactions body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "ten-reactions body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "ten-reactions body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "ten-reactions body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/ten-reactions/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\ten-reactions\\preview.png"
+    },
+    {
+      "owner": "ten-reactions body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/ten-reactions/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\ten-reactions\\production.json"
+    },
+    {
+      "owner": "extended-reaction-library Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/extended-reaction-library/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\extended-reaction-library\\template.md"
+    },
+    {
+      "owner": "extended-reaction-library body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "extended-reaction-library body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "extended-reaction-library body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "extended-reaction-library body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "extended-reaction-library body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/extended-reaction-library/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\extended-reaction-library\\preview.png"
+    },
+    {
+      "owner": "extended-reaction-library body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/extended-reaction-library/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\extended-reaction-library\\production.json"
+    },
+    {
+      "owner": "soft-six Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/soft-six/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\soft-six\\template.md"
+    },
+    {
+      "owner": "soft-six body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "soft-six body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "soft-six body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "soft-six body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "soft-six body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/soft-six/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\soft-six\\preview.png"
+    },
+    {
+      "owner": "soft-six body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/soft-six/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\soft-six\\production.json"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/nine-reaction-sheet/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\nine-reaction-sheet\\template.md"
+    },
+    {
+      "owner": "nine-reaction-sheet body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "nine-reaction-sheet body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "nine-reaction-sheet body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "nine-reaction-sheet body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "nine-reaction-sheet body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/nine-reaction-sheet/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\nine-reaction-sheet\\preview.png"
+    },
+    {
+      "owner": "nine-reaction-sheet body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/nine-reaction-sheet/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\nine-reaction-sheet\\production.json"
+    },
+    {
+      "owner": "seven-poses Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/seven-poses/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\seven-poses\\template.md"
+    },
+    {
+      "owner": "seven-poses body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "seven-poses body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "seven-poses body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "seven-poses body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "seven-poses body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/seven-poses/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\seven-poses\\preview.png"
+    },
+    {
+      "owner": "seven-poses body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/seven-poses/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\seven-poses\\production.json"
+    },
+    {
+      "owner": "treatment-expression-family Markdown",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/treatment-expression-family/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\treatment-expression-family\\template.md"
+    },
+    {
+      "owner": "treatment-expression-family body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "treatment-expression-family body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "treatment-expression-family body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "treatment-expression-family body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "treatment-expression-family body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/treatment-expression-family/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\treatment-expression-family\\preview.png"
+    },
+    {
+      "owner": "treatment-expression-family body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/treatment-expression-family/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\treatment-expression-family\\production.json"
+    },
+    {
+      "owner": "ZIP download",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/oneirloom-stickers-20261003.zip",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\oneirloom-stickers-20261003.zip"
+    },
+    {
+      "owner": "Platform source",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "line-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/daily-sixteen/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\daily-sixteen\\template.md"
+    },
+    {
+      "owner": "line-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\template.md"
+    },
+    {
+      "owner": "telegram-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/ten-reactions/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\ten-reactions\\template.md"
+    },
+    {
+      "owner": "whatsapp-android-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/soft-six/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\soft-six\\template.md"
+    },
+    {
+      "owner": "discord-server-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/seven-poses/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\seven-poses\\template.md"
+    },
+    {
+      "owner": "wechat-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/chat-coverage/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\chat-coverage\\template.md"
+    },
+    {
+      "owner": "Coverage source",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/research-coverage.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\research-coverage.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/chat-coverage/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\chat-coverage\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/identity-acting-system/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\identity-acting-system\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/daily-sixteen/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\daily-sixteen\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/source-export-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\source-export-workspace\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/pose-decomposition/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\pose-decomposition\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/emotion-five/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\emotion-five\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/custom-caption-layout/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\custom-caption-layout\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/ten-reactions/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\ten-reactions\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/extended-reaction-library/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\extended-reaction-library\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/soft-six/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\soft-six\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/nine-reaction-sheet/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\nine-reaction-sheet\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/seven-poses/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\seven-poses\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/treatment-expression-family/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\treatment-expression-family\\template.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/index.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\index.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/catalog.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\generated\\catalog.json"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "Coverage guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "Brand source",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "Brand guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "Brand guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "Brand guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "Brand guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/index.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\index.md"
+    },
+    {
+      "owner": "Brand guidance",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\references\\platform-profiles.md"
+    }
+  ],
+  "ui": {
+    "index_redirected_to": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/browse.html",
+    "embedded_template_count": 14,
+    "embedded_image_count": 156,
+    "template_source_links": [
+      {
+        "id": "identity-acting-system",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/identity-acting-system/template.md",
+        "count": 4
+      },
+      {
+        "id": "daily-sixteen",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/daily-sixteen/template.md",
+        "count": 16
+      },
+      {
+        "id": "chat-coverage",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/chat-coverage/template.md",
+        "count": 12
+      },
+      {
+        "id": "pose-decomposition",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/pose-decomposition/template.md",
+        "count": 3
+      },
+      {
+        "id": "emotion-five",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/emotion-five/template.md",
+        "count": 5
+      },
+      {
+        "id": "eight-slot-workspace",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/eight-slot-workspace/template.md",
+        "count": 8
+      },
+      {
+        "id": "source-export-workspace",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/source-export-workspace/template.md",
+        "count": 1
+      },
+      {
+        "id": "custom-caption-layout",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/custom-caption-layout/template.md",
+        "count": 6
+      },
+      {
+        "id": "ten-reactions",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/ten-reactions/template.md",
+        "count": 10
+      },
+      {
+        "id": "extended-reaction-library",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/extended-reaction-library/template.md",
+        "count": 24
+      },
+      {
+        "id": "soft-six",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/soft-six/template.md",
+        "count": 6
+      },
+      {
+        "id": "nine-reaction-sheet",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/nine-reaction-sheet/template.md",
+        "count": 9
+      },
+      {
+        "id": "seven-poses",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/seven-poses/template.md",
+        "count": 7
+      },
+      {
+        "id": "treatment-expression-family",
+        "href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/templates/treatment-expression-family/template.md",
+        "count": 45
+      }
+    ],
+    "blank_workspace_svg": "J:\\PigeonYang\\skills\\oneirloom\\output\\oneirloom-stickers-20261003\\templates\\eight-slot-workspace\\workspace.svg",
+    "profile_ids": [
+      "line-static",
+      "telegram-static",
+      "whatsapp-android-static",
+      "discord-server-static",
+      "wechat-static"
+    ],
+    "profile_source": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/platform-profiles.md",
+    "coverage_source": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/research-coverage.md",
+    "brand_source": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/references/oneirloom-brand.md",
+    "first_image": {
+      "file": "assets/generated/identity-acting-system/I01-ready.png",
+      "natural_width": 1254
+    },
+    "last_image": {
+      "file": "assets/generated/treatment-expression-family/M-A09.png",
+      "natural_width": 1254
+    },
+    "light_dark_toggle": {
+      "dark": true,
+      "light": true
+    },
+    "archive_href": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/oneirloom-stickers-20261003.zip",
+    "download": {
+      "suggested_filename": "oneirloom-stickers-20261003.zip",
+      "sha256": "3a9b992d67a9800f87c90896b76eea8a28259274856af3fc243f1c04740c5698",
+      "matches_delivered_zip": true
+    },
+    "expected_download_request_aborts": [
+      {
+        "url": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/oneirloom-stickers-20261003.zip",
+        "failure": "net::ERR_ABORTED"
+      }
+    ],
+    "viewport": {
+      "desktop": {
+        "document": 1280,
+        "body": 1280,
+        "inner": 1280
+      },
+      "mobile": {
+        "document": 390,
+        "body": 390,
+        "inner": 390
+      }
+    },
+    "local_file_link_count": 127
+  },
+  "page_errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "failed_requests": [
+    {
+      "url": "file:///J:/PigeonYang/skills/oneirloom/output/oneirloom-stickers-20261003/assets/generated/oneirloom-stickers-20261003.zip",
+      "failure": "net::ERR_ABORTED"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "sample_subject": "A coarse photocopy-style, right-facing fox head profile with purple marker copy on warm paper, corrected from the cat-like first result.",
+  "requested_copy": {
+    "marker_headline": [
+      "STAY",
+      "CURIOUS"
+    ],
+    "right_note": [
+      "SEE",
+      "MORE"
+    ],
+    "footer": [
+      "FIELD 08",
+      "A poster study"
+    ]
+  },
+  "files": {
+    "submitted_prompt": "submitted-v2.en.txt",
+    "edit_target": "images/transfer-01.png",
+    "result": "images/transfer-02.png",
+    "generated_source": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0f89f-4881-7be1-b360-aa907d9f4183\\exec-81082375-d814-4b23-bb4c-c38de9eacc64.png",
+    "sha256": "753FF20F6AD3EF9D01D26054DAA9D23937EA641B667AA024D5BCD758CAC44195"
+  },
+  "generation": {
+    "operation": "single edit call",
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlying_model": null,
+    "model_note": "The tool response did not identify an underlying model.",
+    "requested_aspect_ratio": "2:3",
+    "actual_dimensions_px": [
+      1024,
+      1536
+    ],
+    "submitted_prompt_text": "Edit the supplied standalone portrait poster. Replace the dominant animal portrait with an unmistakable fox head in right-facing profile. The fox has a long narrow pointed snout extending distinctly beyond the cheek, a small canine nose at its tip, a sloping nasal bridge, two tall triangular ears, and shaggy cheek and neck fur. Render the fox as a dark monochrome photographic silhouette with the same coarse photocopy grain and broken ink as the existing artwork. Keep the head and neck in the same large left-and-center region, with the muzzle pointing into the right-side paper margin. Preserve the warm off-white paper, the existing purple handwritten STAY and CURIOUS on two lines across the lower-middle silhouette, the purple underline, the small SEE and MORE note at the right, and the FIELD 08 and A poster study footer at the lower left. Keep every existing word, its spelling, typography, placement, scale, and purple color unchanged. The result is one flat full-canvas 2:3 portrait poster, with the fox silhouette and handwritten phrase remaining the main visual hierarchy.",
+    "returned_metadata": {
+      "result_keys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to J:\\Users\\yangda01\\.codex\\generated_images\\01a0f89f-4881-7be1-b360-aa907d9f4183 as J:\\Users\\yangda01\\.codex\\generated_images\\01a0f89f-4881-7be1-b360-aa907d9f4183\\exec-81082375-d814-4b23-bb4c-c38de9eacc64.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  },
+  "inspection": {
+    "fox_profile_recognizable": "Pass: the right-facing profile reads as a fox, with two tall triangular ears and a long, narrow, tapered muzzle projecting beyond the cheek to a small canine nose.",
+    "fox_geometry": "The sloping nasal bridge leads to a pointed canine nose; shaggy cheek and neck fur frame the extended muzzle and paired tall ears.",
+    "silhouette_and_texture": "The large dark monochrome profile remains dominant, with coarse photocopy grain, broken ink, and shaggy fur texture on warm off-white paper.",
+    "visible_copy": [
+      "STAY",
+      "CURIOUS",
+      "SEE",
+      "MORE",
+      "FIELD 08",
+      "A poster study"
+    ],
+    "copy_accuracy": "All six requested strings are visibly present and spelled as specified.",
+    "palette_and_layout": "Purple remains confined to the two-line marker headline and underline. The note stays at the right and the footer at the lower left; the broad hierarchy and warm-paper, monochrome treatment are retained.",
+    "observed_deltas": [
+      "The first result has a short, rounded, cat-like muzzle and prominent whiskers; the edit has a much longer pointed fox muzzle and two tall triangular ears.",
+      "The six requested words and their broad placements remain visible in the edited image. This visual inspection does not establish pixel-identical typography or placement."
+    ],
+    "comparison_scope": "One generated edit result was inspected visually. No OCR or pixel-level comparison was performed; repeatability is untested."
+  }
+}

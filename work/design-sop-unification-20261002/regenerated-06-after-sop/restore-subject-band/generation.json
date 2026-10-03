@@ -1,0 +1,15 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "unknown",
+  "transparent_background": false,
+  "input_image": "J:\\PigeonYang\\skills\\oneirloom\\work\\design-sop-unification-20261002\\regenerated-06-after-sop\\refine-band\\result.png",
+  "generated_image_original": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fbd9-a851-72d0-a42f-ab1a01266829\\exec-6361a23e-c760-422b-a2e4-124ad45733fe.png",
+  "result_file": "result.png",
+  "prompt_file": "prompt.txt",
+  "dimensions": {
+    "width": 1056,
+    "height": 1489
+  },
+  "sha256": "AF1050B154F68083E1D586C07FA5171E22A478245D78F3B753511F8E9334CA71",
+  "output_hint": "Generated images are saved to J:\\Users\\yangda01\\.codex\\generated_images\\01a0fbd9-a851-72d0-a42f-ab1a01266829 as J:\\Users\\yangda01\\.codex\\generated_images\\01a0fbd9-a851-72d0-a42f-ab1a01266829\\exec-6361a23e-c760-422b-a2e4-124ad45733fe.png by default."
+}

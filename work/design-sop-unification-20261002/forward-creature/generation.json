@@ -1,0 +1,63 @@
+{
+  "generator": {
+    "entry": "built-in image_gen tool",
+    "tool": "image_gen.imagegen",
+    "call_count": 1,
+    "underlying_model": null,
+    "underlying_model_note": "The tool response did not expose the underlying model."
+  },
+  "transparent_background": false,
+  "prompt": {
+    "source_path": "prompt.en.txt",
+    "submitted_copy": "submitted.en.txt",
+    "sha256": "A68C0704DA7DFD9EE18DCCD7C9D44C96249292F84A8C7788D43C25BB498AB77A",
+    "character_count": 3825
+  },
+  "inputs": [
+    {
+      "role": "approved creature identity reference",
+      "source_path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png",
+      "sha256": "985A8246C49CEF7C6B2AAB480405D957E1FA27108448ED893542314496C1BAD6",
+      "dimensions_px": {
+        "width": 1254,
+        "height": 1254
+      }
+    },
+    {
+      "role": "editorial sculpture style reference",
+      "source_path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\templates\\experimental-editorial-posters\\06-swiss-sculpture\\images\\reference.png",
+      "sha256": "F188A4960A6C841D1879A31B8E9C09B7A19AE3729A70331091F8A78A45AAEBA6",
+      "dimensions_px": {
+        "width": 145,
+        "height": 204
+      }
+    }
+  ],
+  "result": {
+    "path": "output.png",
+    "sha256": "2E7B16C03F652625B6D7CAC73CECFCB5BA95A8E67FB0CB47AADD596C8E0B4D40",
+    "dimensions_px": {
+      "width": 1024,
+      "height": 1536
+    },
+    "bytes": 3450271,
+    "tool_output_path": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0faaf-5c7a-7682-a10a-2e0c7638d539\\exec-fdde2d21-1d5f-4a37-97a4-cd5b462f13b6.png"
+  },
+  "visual_check": {
+    "matched": [
+      "2:3 portrait poster; enlarged creature fills the center and right across the height.",
+      "Cobalt field is exposed at the right; right appendage curls inward into it.",
+      "Segmented, near-vertical paper-image seam visibly offsets crown, oval-panel edge and lower cords.",
+      "DREAM / WEAVER and ONEIRLOOM are the only visible text and are spelled correctly.",
+      "Four-point star, both gold antenna spheres, ring-ended tendrils, braided blue cords and gold crescent are visible; the sling continues beyond the bottom edge.",
+      "Four rounded ring-gripping hands are visible, two on each lower side; no unexplained extra limb is apparent."
+    ],
+    "missed": [
+      "Only the left antenna arch is cropped by the top edge; the right arch remains fully inside the frame, missing the requested crop through both arches."
+    ],
+    "minor_deviations": [
+      "The two-line headline occupies about 42% of page width, wider than the requested approximately one-third."
+    ],
+    "primary_review": "The main transfer relations are visible: page-height image, frame crop, segmented boundary through the subject, compact middle-left type, and exposed cobalt field. This is one inspected SOP-guided output with recorded crop and headline-width deviations, not complete prompt compliance or repeatability evidence."
+  }
+}

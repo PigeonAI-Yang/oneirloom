@@ -1,0 +1,82 @@
+# Sticker mode case evidence
+
+Research date: 2026-10-02. Scope: bounded source research for the Primary, not an accepted taxonomy, design specification, or SOP change. No generation, downloads of artwork, installation, purchase, or publication occurred. Existing skills and templates were not changed.
+
+## Evidence strength and coverage
+
+- Twelve distinct LINE STORE product pages were opened and their product identity and descriptions read. One official LINE format index was opened. These are thirteen supporting page URLs, all on two LINE domains; they are not thirteen independent studies.
+- **Images visually inspected by this researcher: 0. Animation playbacks inspected: 0.** Product pages expose named main-image links and preview sections, but the web reader returned text rather than gallery pixels. Two image clicks resolved to CDN image URLs without displaying pixels; a third timed out. Do not convert this into a claim that twelve galleries were reviewed.
+- All case descriptions below are **listing claims**, paraphrased from the actual opened page. They establish how a product is presented, not its production method, audience reception, popularity, rights status, visual execution, or AI provenance.
+- Proposed operational differences below are **researcher synthesis**, not observations of unseen images. Flat 2D, aggressive deformation, photo cutout quality, and miniature scene construction remain visual evidence gaps in this source pass.
+- Search results were locators only. Themes and unopenable products were excluded from the case table. No source owned by the separate browser collector was opened.
+
+## Case inventory
+
+In the image column, "linked; unseen" means the opened page has a named main-image link and a preview section. A preview section is not proof that every thumbnail loaded. "Sticker" is the product kind stated by LINE, not a separately tested assertion about its encoding. Only C12 has an animation icon explicitly observed in page text.
+
+| ID | Direct source, title, creator | Listing kind | Description evidence, paraphrased | Image evidence | What it can support; limits |
+| --- | --- | --- | --- | --- | --- |
+| C01 | [Girl and small animals. by Kanahei](https://store.line.me/stickershop/product/1000560/en), kanahei | Sticker | A carefree girl with small animals, birds, and a cat. | Main image linked; preview section; unseen. | Identifiable character ensemble source. Flat 2D treatment must be established from the gallery, not the creator's reputation. |
+| C02 | [Lazy Frog So Sleepy Stickers](https://store.line.me/stickershop/product/33009320/en), frog Huang | Sticker | A relaxed frog with a round chibi body, sleepy eyes, a yawn, and a lying pose. The public description ends mid-phrase. | Main image linked; preview section; unseen. | Explicit chibi proportion and pose claims. Does not establish flat rendering, exact head/body ratio, or successful expression reading. |
+| C03 | [The dog drawn by a rough line](https://store.line.me/stickershop/product/1094842/en), Bill | Sticker | A dog drawn with rough lines. | Main image linked; preview section; unseen. | Explicit rough-line style, useful for investigating deliberate imperfection rather than treating it as drawing failure. Actual stroke shape and consistency remain unseen. |
+| C04 | [Mood Words / Text Only](https://store.line.me/stickershop/product/31275612/en), HUANG YU PIN | Sticker | The title specifies text only; the description presents plain text as a way to convey mood. | Main image linked; preview section; unseen. CDN image request timed out. | Text can be the entire expressive subject. Does not prove the listing's claim of immediate comprehension, actual letterforms, or readability. |
+| C05 | [[Large letters] Shiba Inu photo Sticker](https://store.line.me/stickershop/product/26448605/en), mikenoki | Sticker | Daily-use large lettering with dog/photo/greeting tags. | Main image linked; preview section; unseen. | Photo plus prominent text is an explicit source-and-composition combination. Photo authenticity, cutout technique, edge treatment, and individual source rights are not verified. |
+| C06 | [Oyaji-kun Figure Stickers](https://store.line.me/stickershop/product/31019125), oyajikun_anime | Sticker | The figure is described as a plump, playful, toy-like 3D miniature using expressions and poses. | Main image linked; preview section; unseen. Image click resolved to a CDN URL, not visible pixels. | Explicit toy-like 3D presentation. Does not establish a real 3D model, rendering software, plastic shader, or actual manufactured figure. |
+| C07 | [Polite & Cute: Clay Animal Stickers](https://store.line.me/stickershop/product/30812091/en), Miiroworks | Sticker | Clay-style animals delivering polite phrases for everyday contexts. | Main image linked; preview section; unseen. Image click resolved to a CDN URL, not visible pixels. | Explicit clay-style claim, stronger than interpreting a creator name containing "clay." Does not prove physical clay manufacture. |
+| C08 | [Felt sloth stickers](https://store.line.me/stickershop/product/32815343/en), Pandora | Sticker | Sloths presented with a soft feel and fluffy felt material. | Main image linked; preview section; unseen. | Explicit felt/material claim. Must not report actual hand-felting, visible fibers, or a particular fiber density without image/process evidence. |
+| C09 | [Surreal Tuna](https://store.line.me/stickershop/product/1053259/en), KOHEI | Sticker | Tuna presented as a surreal conversational subject. | Main image linked; preview section; unseen. | Supports an unconventional subject and surreal framing. Does not establish specific exaggeration, limbs, metamorphosis, facial treatment, or intensity. |
+| C10 | [Surreal Stationery Sticker Series](https://store.line.me/stickershop/product/31434473/en), Rereponume | Sticker | Pens, erasers, staplers, and rulers are described as coming to life with odd, surreal expressions. | Main image linked; preview section; unseen. | Explicit object personification. Objects need not merely be accessories held by a mascot. Actual structural transformations remain unseen. |
+| C11 | [Everyday Toy Poodle 3D Nordic Cafe](https://store.line.me/stickershop/product/31991613/en), makitan | Sticker | A toy-poodle cafe with Scandinavian and monochrome themes. | Main image linked; preview section; unseen. | A setting/theme source for investigating prop or scene storytelling. **"Toy poodle" names a dog breed; it is not evidence of toy material.** Neither a miniature diorama nor any particular cafe prop is verified. |
+| C12 | [Adorable Animated Cat Photo Stickers](https://store.line.me/stickershop/product/31299473/en), mikenoki | Animated sticker: animation-only icon explicitly present | Cat-photo animation with basic everyday expressions. | Main image linked; preview section; unseen. No playback. | Source medium and motion can combine. The animation claim is a listing fact, not a verified loop, timing, or motion-quality observation. |
+
+The C06 thumbnail link resolved to `https://stickershop.line-scdn.net/stickershop/v1/product/31019125/LINEStorePC/main.png?v=1`; C07 resolved to `https://stickershop.line-scdn.net/stickershop/v1/product/30812091/LINEStorePC/main.png?v=1`. These are navigation evidence, not inspected artwork. The main-image link for C04 attempted `https://stickershop.line-scdn.net/stickershop/v1/product/31275612/LINEStorePC/main.png?v=1` and timed out; it was not retried.
+
+## Separate the decisions before naming modes
+
+This is a synthesis for the Primary to evaluate, not a universal classification.
+
+1. **Expression construction:** what carries the response: face crop, whole-body action, words, an interaction with a prop or another character, object personification, or visual exaggeration/metaphor. These may coexist in one sticker.
+2. **Visual treatment:** clean flat shapes, rough doodle marks, toy-like volume, clay-like surfaces, felt/plush softness, photographic texture, graphic lettering. A treatment changes line, volume, lighting, surface, and text choices; it does not determine the response by itself.
+3. **Source and transformation:** an existing original mascot, newly designed character, supplied photo, lettering, or an object. A photo cutout preserves supplied evidence; a newly invented pose or a transformation into clay-like art is a different operation. Do not silently treat these as equivalent.
+4. **Motion and delivery:** still versus animated and the platform's product behaviors. These are separate from drawing style.
+
+The official [LINE Creation Guidelines index](https://creator.line.me/en/guideline/) lists static stickers, animated stickers, custom stickers, message stickers, big stickers, pop-up stickers, effect stickers, emoji, and animated emoji. Its descriptions distinguish animation behavior, editable text, display scale, whole-chat animation, background animation, and inline emoji. This is evidence for separate technical product formats, **not** official support for our style families. A baked-in caption is not automatically a LINE Message Sticker; that product allows user-entered text.
+
+## Candidate families and the operational choice each would add
+
+The following table proposes useful decisions, with case support and unresolved visual checks kept separate. It should not be installed as an eight-mode or nine-mode standard merely because it fits a table.
+
+| Candidate | Evidence status | Distinct design decision | Best source fit | Typical design risk; useful check |
+| --- | --- | --- | --- | --- |
+| Compact illustrated mascot, optionally chibi | C01 character case; C02 explicitly claims chibi. Flat rendering unseen. | Decide how far proportions simplify while preserving identity; how much emotion comes from face versus whole silhouette. | Existing original mascot or new character. A supplied human photo would need an explicitly chosen illustration transformation. | Chibi conversion can erase characteristic proportions or required parts. Compare identity and legibility at delivery scale. |
+| Deliberately rough doodle | C03 explicit rough-line claim; mark quality unseen. | Specify controlled roughness, limited line/color vocabulary, and intentionally spare detail. | Original mascot, simple human/animal/object character. | Random inconsistency can look accidental; over-cleaning can erase the intended tone. Compare the whole set for repeatable line behavior. |
+| Text as the whole sticker | C04 title and description. Typography unseen. | Choose words, hierarchy, shape, scale, rhythm, and optional graphic emphasis before any character. | Authored copy; mascot optional or absent. | It can collapse into ordinary text or become unreadable decoration. Check exact wording, actual display size, and tone in a message exchange. |
+| Supplied photo cutout plus optional caption | C05 photo/lettering claims; cutout not visually verified. | Select a real source moment, crop it, preserve recognizable detail, then compose any words around it. | Supplied authorized person, pet, object, or product photo. | New generated expressions can drift from the source; poor masks can leave halos or remove ears/hair. Check source fidelity and edges on relevant backgrounds. |
+| Toy-like 3D figure | C06 explicitly claims toy-like 3D. Shader and volume unseen. | Define volume, surface, light, camera, and articulation while keeping silhouette simple. | Original mascot or deliberately stylized portrait. | Decorative rendering can overwhelm a response; pose changes may also change anatomy or material. Compare identity, contact points, light, and expression. |
+| Clay, felt, or plush treatment | C07 clay-style and C08 felt claims. Actual surfaces unseen. | Choose a material-specific visual language and deformation behavior; clay and felt are options within this family, not interchangeable adjectives. | Original mascot, new character, or an explicitly authorized material transformation of a reference. | Excess microtexture disappears at chat size; softness can blur important limbs or features. Check silhouette first, then material cues and edges. |
+| Exaggeration, absurd reaction, or object personification | C09 surreal subject; C10 explicit personification. Particular distortions unseen. | Decide the joke and permitted identity changes: deformation, scale shift, incongruous action, or an object acting as a character. | Original mascot or original object concept; supplied photo only with intentional transformation scope. | A strange image may have no clear reply function, or transformation may break identity. Test a specific incoming message and the intended response. |
+| Prop interaction or compact scene | C11 is a setting/theme lead only; miniature composition **not verified**. | Make a relation do the work: character versus workload, cup, blanket, door, or partner; reserve scene detail for what explains the response. | Original mascot with bounded props; compatible supplied source photos when available. | The result can become an illustration whose action disappears when small. Check contact, overlap, causal relation, and scene density at chat size. |
+
+These fit different axes. For example, an original mascot can use a rough doodle treatment, enact an absurd prop interaction, carry a caption, and be delivered as a still image. It is not useful to make the user choose only one of these four properties.
+
+## Mapping to the existing three starter templates
+
+The parent supplied the existing categories as head, action, and caption. This mapping is conceptual; exact current template wording was not reopened or revised by this researcher.
+
+| Existing starter | Cases/families it can already host | Actual boundary revealed by the cases |
+| --- | --- | --- |
+| Head / face | Illustrated mascot, doodle, photo portrait, toy/clay/felt head; mild or extreme face reactions. | "Head" chooses framing and the main expressive region. It does not specify style or source. A faceless mascot may need a body-based response instead. |
+| Action | Whole-body mascot, toy/clay/felt body, object personification, prop interaction, exaggerated reaction. | A prop or small scene can often be an action composition setting, rather than requiring an entirely new production workflow. A supplied photo may not contain the requested action. |
+| Caption | Character plus lettering, photo plus lettering, graphic text emphasis. | C04 exposes a possible text-only branch: if the current template requires a character, its character dependency is the gap. If the character is already optional, this may be configuration rather than a new template. |
+
+Candidate research conclusion: retain the three as starter construction patterns, and consider explicit choices for source, treatment, and motion alongside them. The strongest possible new construction branches to assess are text-only and relational/prop-driven composition. Whether either requires a new template depends on the actual existing template fields. This source evidence alone does not settle that implementation decision.
+
+## Gaps and exclusions
+
+- No visual claims were made from title text. C01 still needs actual gallery inspection before calling it flat 2D; C11 still needs a genuine scene/miniature example; C09 still needs visible exaggerated reaction evidence.
+- C03's rough-line wording and C07/C08 material wording are creator listing claims, not visual measurements or production provenance.
+- The tool reported inaccessible pages for `https://store.line.me/stickershop/product/5683320/en` and `https://store.line.me/stickershop/product/33677058/en`. Neither was retried or counted as a read supporting case.
+- C04's thumbnail timed out and was not retried. Other successful image navigation returned URLs without image pixels. No media was downloaded to bypass this limitation.
+- No authentication challenge, rate-limit bypass, or alternate-account attempt occurred. No access to private content was sought.
+- Search surfaced themes, social posts, physical sticker products, and other low-relevance items; none was used to prove digital sticker style. A product's "About content made using AI" help link was not interpreted as verified production history.
+- No sales, ranking, popularity, effectiveness, production-rights, or universal taxonomy claim is supported by this pass. Artwork remains owned by its respective rights holders; the research proposes transferable design decisions, not character copying.

@@ -1,0 +1,36 @@
+{
+  "sample": "12-xerox-technical",
+  "paths": {
+    "reference": "images/reference.png",
+    "submitted": "submitted.en.txt",
+    "result": "images/transfer-01.png"
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlyingModel": null,
+    "underlyingModelNote": "The built-in image_gen result exposed no underlying-model metadata.",
+    "requestedAspectRatio": "2:3",
+    "actualDimensionsPx": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actualAspectRatio": "2:3 (0.6667)",
+    "originalOutputPath": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0f897-b839-7bc2-89b3-67f1b4ea9213\\exec-0d96a44c-9663-40f2-acf5-630b9c449dc0.png",
+    "transparentBackgroundRequested": false,
+    "actualFilePixelFormat": "Format24bppRgb",
+    "englishPromptAttempts": 1,
+    "chinesePromptAttempted": false,
+    "repeatability": "Unknown after one generation."
+  },
+  "observations": [
+    "The output is a complete, flat 1024 x 1536 off-white portrait poster with visible paper margins.",
+    "The photographed fingerprint has continuous, recognizable ridges and a clear radial whorl; coarse photocopy speckle and broken ink remain visible without obscuring the whorl.",
+    "A fine white grid, crop-corner marks, ticks, and registration crosses overlay the photograph.",
+    "One translucent green rectangle leaves fingerprint texture visible beneath it.",
+    "The note reads PATTERNS / IN / PLAIN SIGHT, the date reads OCT 02 / 2026, and the footer and caption read FIELD 12 and Observe the ordinary with the requested spelling and line breaks."
+  ],
+  "deviations": [
+    "The fingerprint photograph extends to roughly four-fifths of the page height, deeper than the requested upper two-thirds, leaving a shallow footer margin.",
+    "The green rectangle is wider than the requested roughly one-quarter-page width and extends from the photograph into the right annotation rail."
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "origin": {
+    "base": "b0a7e5bb4a69606a0b778c7ac27986d81fb205d6",
+    "tree": "b84d8b19268e774297bcac451553067cf589a70e",
+    "commit": "a31404616a3d3943a0d69cd086ff16e8b64f494f",
+    "changes": [
+      {
+        "old": "LICENSE",
+        "new": "LICENSE",
+        "content_changed": true
+      },
+      {
+        "old": "README.md",
+        "new": "README.md",
+        "content_changed": true
+      },
+      {
+        "old": "docs/architecture.md",
+        "new": "docs/architecture.md",
+        "content_changed": true
+      },
+      {
+        "old": "scripts/check_skills.py",
+        "new": "scripts/check_skills.py",
+        "content_changed": true
+      },
+      {
+        "old": "scripts/publish-on-windows.ps1",
+        "new": "scripts/publish-on-windows.ps1",
+        "content_changed": true
+      },
+      {
+        "old": "skills/visual-prompt-director/SKILL.md",
+        "new": "skills/dreamweaver/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-camera-composition/SKILL.md",
+        "new": "skills/dreamweaver-camera-composition/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-color-light/SKILL.md",
+        "new": "skills/dreamweaver-color-light/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-model-krea-2/SKILL.md",
+        "new": "skills/dreamweaver-model-krea-2/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-model-krea-2/references/tasks.md",
+        "new": "skills/dreamweaver-model-krea-2/references/tasks.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-model-qwen-image-2-1/SKILL.md",
+        "new": "skills/dreamweaver-model-qwen-image-2-1/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-model-qwen-image-2-1/references/tasks.md",
+        "new": "skills/dreamweaver-model-qwen-image-2-1/references/tasks.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-result-diagnosis/SKILL.md",
+        "new": "skills/dreamweaver-result-diagnosis/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-design/SKILL.md",
+        "new": "skills/dreamweaver-style-design/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-design/references/styles.md",
+        "new": "skills/dreamweaver-style-design/references/styles.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-illustration/SKILL.md",
+        "new": "skills/dreamweaver-style-illustration/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-illustration/references/styles.md",
+        "new": "skills/dreamweaver-style-illustration/references/styles.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/SKILL.md",
+        "new": "skills/dreamweaver-style-photography/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-photography/references/styles.md",
+        "new": "skills/dreamweaver-style-photography/references/styles.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-visual-analysis/SKILL.md",
+        "new": "skills/dreamweaver-visual-analysis/SKILL.md",
+        "content_changed": true
+      }
+    ]
+  },
+  "private": {
+    "base": "f587d12b896e1448c07ead43bd186e85a8b2aad3",
+    "tree": "51e24afb56616be4fb57ab78bb5577c92b73b425",
+    "commit": "71d9f78e4b3ce98343dfa3cd812c6aa9f4dec3ab",
+    "changes": [
+      {
+        "old": ".gitattributes",
+        "new": ".gitattributes",
+        "content_changed": true
+      },
+      {
+        "old": "LICENSE",
+        "new": "LICENSE",
+        "content_changed": true
+      },
+      {
+        "old": "README.md",
+        "new": "README.md",
+        "content_changed": true
+      },
+      {
+        "old": "docs/architecture.md",
+        "new": "docs/architecture.md",
+        "content_changed": true
+      },
+      {
+        "old": "evals/cases.json",
+        "new": "evals/cases.json",
+        "content_changed": true
+      },
+      {
+        "old": "scripts/check_skills.py",
+        "new": "scripts/check_skills.py",
+        "content_changed": true
+      },
+      {
+        "old": "scripts/publish-on-windows.ps1",
+        "new": "scripts/publish-on-windows.ps1",
+        "content_changed": true
+      },
+      {
+        "old": "skills/visual-prompt-director/SKILL.md",
+        "new": "skills/dreamweaver/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/visual-prompt-director/references/person-prompts.md",
+        "new": "skills/dreamweaver/references/person-prompts.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-camera-composition/SKILL.md",
+        "new": "skills/dreamweaver-camera-composition/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-character-sheet/SKILL.md",
+        "new": "skills/dreamweaver-character-sheet/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-character-sheet/templates/four-plus-four/template.md",
+        "new": "skills/dreamweaver-character-sheet/templates/four-plus-four/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-character-sheet/templates/index.md",
+        "new": "skills/dreamweaver-character-sheet/templates/index.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-character-sheet/templates/three-view/template.md",
+        "new": "skills/dreamweaver-character-sheet/templates/three-view/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-color-light/SKILL.md",
+        "new": "skills/dreamweaver-color-light/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-figure-art/SKILL.md",
+        "new": "skills/dreamweaver-figure-art/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-image-tutorial/SKILL.md",
+        "new": "skills/dreamweaver-image-tutorial/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-image-tutorial/agents/openai.yaml",
+        "new": "skills/dreamweaver-image-tutorial/agents/openai.yaml",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-image-tutorial/references/teaching-depth.md",
+        "new": "skills/dreamweaver-image-tutorial/references/teaching-depth.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-model-krea-2/SKILL.md",
+        "new": "skills/dreamweaver-model-krea-2/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-model-krea-2/references/tasks.md",
+        "new": "skills/dreamweaver-model-krea-2/references/tasks.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-model-qwen-image-2-1/SKILL.md",
+        "new": "skills/dreamweaver-model-qwen-image-2-1/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-model-qwen-image-2-1/references/tasks.md",
+        "new": "skills/dreamweaver-model-qwen-image-2-1/references/tasks.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-result-diagnosis/SKILL.md",
+        "new": "skills/dreamweaver-result-diagnosis/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-design/SKILL.md",
+        "new": "skills/dreamweaver-style-design/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-design/references/styles.md",
+        "new": "skills/dreamweaver-style-design/references/styles.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/blind-box-comparison/template.md",
+        "new": "skills/dreamweaver-style-design/templates/blind-box-comparison/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/fuse-bead/images/result-01.png",
+        "new": "skills/dreamweaver-style-design/templates/fuse-bead/images/result-01.png",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/fuse-bead/images/source-01.png",
+        "new": "skills/dreamweaver-style-design/templates/fuse-bead/images/source-01.png",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/fuse-bead/reference-01.json",
+        "new": "skills/dreamweaver-style-design/templates/fuse-bead/reference-01.json",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/fuse-bead/result-01.json",
+        "new": "skills/dreamweaver-style-design/templates/fuse-bead/result-01.json",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/fuse-bead/template.md",
+        "new": "skills/dreamweaver-style-design/templates/fuse-bead/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-design/templates/index.md",
+        "new": "skills/dreamweaver-style-design/templates/index.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-illustration/SKILL.md",
+        "new": "skills/dreamweaver-style-illustration/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-illustration/references/styles.md",
+        "new": "skills/dreamweaver-style-illustration/references/styles.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-illustration/templates/decorative-rainy-night/template.md",
+        "new": "skills/dreamweaver-style-illustration/templates/decorative-rainy-night/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-illustration/templates/halftone-cutout/template.md",
+        "new": "skills/dreamweaver-style-illustration/templates/halftone-cutout/template.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-illustration/templates/index.md",
+        "new": "skills/dreamweaver-style-illustration/templates/index.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/SKILL.md",
+        "new": "skills/dreamweaver-style-photography/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "skills/vpd-style-photography/references/styles.md",
+        "new": "skills/dreamweaver-style-photography/references/styles.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/templates/index.md",
+        "new": "skills/dreamweaver-style-photography/templates/index.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/templates/indoor-full-length/example-01.json",
+        "new": "skills/dreamweaver-style-photography/templates/indoor-full-length/example-01.json",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/templates/indoor-full-length/images/result-01.png",
+        "new": "skills/dreamweaver-style-photography/templates/indoor-full-length/images/result-01.png",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/templates/indoor-full-length/template.md",
+        "new": "skills/dreamweaver-style-photography/templates/indoor-full-length/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-style-photography/templates/xiaohongshu-squat/template.md",
+        "new": "skills/dreamweaver-style-photography/templates/xiaohongshu-squat/template.md",
+        "content_changed": false
+      },
+      {
+        "old": "skills/vpd-visual-analysis/SKILL.md",
+        "new": "skills/dreamweaver-visual-analysis/SKILL.md",
+        "content_changed": true
+      },
+      {
+        "old": "work/article-tutorial/production.md",
+        "new": "work/article-tutorial/production.md",
+        "content_changed": true
+      },
+      {
+        "old": "work/article-tutorial/x-draft/manifest.json",
+        "new": "work/article-tutorial/x-draft/manifest.json",
+        "content_changed": true
+      },
+      {
+        "old": "work/article-tutorial/\u7f8e\u5973\u751f\u56fe\u6559\u7a0b.md",
+        "new": "work/article-tutorial/\u7f8e\u5973\u751f\u56fe\u6559\u7a0b.md",
+        "content_changed": true
+      }
+    ]
+  }
+}

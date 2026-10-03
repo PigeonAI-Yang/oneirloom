@@ -1,0 +1,33 @@
+{
+  "sample": "10-paper-typography",
+  "paths": {
+    "reference": "images/reference.png",
+    "submitted": "submitted.en.txt",
+    "result": "images/transfer-01.png"
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlyingModel": null,
+    "underlyingModelNote": "The tool response did not expose the underlying model.",
+    "requestedAspectRatio": "2:3",
+    "actualDimensionsPx": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actualAspectRatio": "2:3 (0.6667)",
+    "returnedMetadata": {
+      "resultKeys": [
+        "image_url",
+        "output_hint"
+      ]
+    }
+  },
+  "observations": [
+    "One flat, full-frame portrait poster uses warm off-white paper with broad photographed folds, fine creases, grain, and shallow relief.",
+    "A large near-black high-contrast serif headline is stacked at the upper left and reads exactly: Make / room / for / ideas.",
+    "One narrow warm-yellow oval encloses room only; the letters remain legible.",
+    "A crumpled matching-paper ball sits below the headline toward the lower left with a soft contact shadow under its base.",
+    "The right-side uppercase note reads exactly SAME / SPACE / NEW / THOUGHTS, and the lower-left footer reads exactly FIELD 10."
+  ],
+  "deviations": []
+}

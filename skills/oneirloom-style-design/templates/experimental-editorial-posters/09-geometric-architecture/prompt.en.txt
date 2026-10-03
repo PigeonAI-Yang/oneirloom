@@ -1,0 +1,21 @@
+Create a complete standalone portrait 2:3 experimental editorial poster. Show the finished work flat and front-facing on a matte warm ivory sheet with restrained fine paper grain and generous editorial margins. The subject is a sharply angular contemporary art museum with exposed-concrete character, presented as real architectural photography. Photograph it from a low position looking upward. Keep the facade, windows, beams, and concrete texture recognizable, with perspective lines continuing upward through the frame. Keep the recognizable facade, windows, beams, and concrete texture as the photographic subject.
+
+Give the high-contrast black-and-white architectural photograph a bold diagonal geometric crop. Use crisp diagonal edges, while the facade and its structural details follow the same continuous low-angle perspective upward through the image. Keep enough of the facade visible for the viewer to recognize one art museum. Align the photo crop, building edges, and upward view so they carry a clear diagonal movement from the middle of the poster toward the upper right.
+
+Place one flat, vivid orange triangular plane in the upper-left area, covering about 15% of the full poster, behind the architectural photograph. Let the diagonal photo cross over and obscure part of the triangle, so the black-and-white building and orange plane have a clear front-to-back order. Use this triangle as the poster's only vivid color; keep the architectural photograph grayscale and the paper warm off-white.
+
+Reserve a narrow, clear note column at the upper right. Use restrained, crisp black editorial sans-serif type, arranged on four separate lines exactly as follows:
+“Different”
+“angles”
+“New”
+“possibilities”
+Keep the spelling, capitalization, order, and line breaks exactly as shown.
+
+Set a small black note at the lower left on three separate lines exactly as follows:
+“Space”
+“Form”
+“Light”
+
+Place the very large, highly prominent, bold condensed black footer “NEW ANGLES” along the bottom, spanning horizontally as the largest text on the poster. Put the tiny black caption “FIELD 09” below the footer toward the lower right. Keep both corner notes clearly smaller than the main footer, and make “FIELD 09” the smallest text. Render every specified English string clearly and accurately; show only the listed poster copy.
+
+Let the building's diagonal perspective lead naturally toward the bottom title. Keep clear space around the footer and let the orange triangle serve as the only vivid color anchor. Present the complete poster flat and front-facing, with distinct layers of paper, architectural photograph, orange plane, and the specified typography.

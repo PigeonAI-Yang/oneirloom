@@ -1,0 +1,82 @@
+{
+  "sample": "11-transparent-botanical",
+  "revision": "v2",
+  "previousAttempt": {
+    "revision": "v1",
+    "status": "failed requested count and width",
+    "flowerHeadCount": 3,
+    "requestedFlowerHeadCount": 2,
+    "approximateArtworkWidthPercent": 90,
+    "record": "example.json",
+    "result": "images/transfer-01.png"
+  },
+  "operation": {
+    "kind": "edit",
+    "entrypoint": "built-in image_gen.imagegen",
+    "toolCalls": 1,
+    "editTarget": {
+      "path": "images/transfer-01.png",
+      "role": "edit target"
+    },
+    "submittedPromptFile": "submitted-v2.en.txt",
+    "actualPrompt": "Edit the supplied standalone botanical poster. Arrange the botanical artwork as exactly two iris flower heads: one large bloom in the upper central area and one smaller bloom beneath it, each attached to its own fine naturally curved stem. Each iris has graceful upright inner petals and three broader drooping outer petals, all rendered as delicate translucent blue membranes with fine visible veins. Concentrate the two flowers and their stems within roughly two-thirds of the poster width, leaving generous clear warm off-white paper around them. Preserve the X-ray-like transparency, deeper blue where petals overlap, navy flower centers and stems, and subtle paper grain. Keep the existing VISIBLE and WITHIN words at the upper right, Layers, Light, and Structure at the left, the FIELD 11 serif footer at the lower left, and Botanical study at the lower right. Preserve every word, spelling, typography, and position. The image is one complete flat 2:3 portrait editorial poster with exactly two distinct flower heads, one upper and one lower, and an airy composition.",
+    "result": "images/transfer-02.png",
+    "generatedToolOutputPath": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0f8a1-1b4c-7233-91fc-d6ab8fad0d22\\exec-3e720716-7e44-4402-8118-73ffe399091a.png",
+    "underlyingModel": null,
+    "underlyingModelNote": "The built-in tool response did not expose the underlying model.",
+    "transparentBackgroundRequested": false
+  },
+  "output": {
+    "widthPx": 1024,
+    "heightPx": 1536,
+    "aspectRatio": "2:3 (0.6667)",
+    "pixelFormat": "Format24bppRgb",
+    "copiedFileSha256": "2432C7EAE90C4F3DA7A97179AD79FDEEF3351EA8D1F73C5EC6F2A7493FF0F2FC",
+    "matchesGeneratedToolOutputByteForByte": true
+  },
+  "visualInspection": {
+    "flowerHeadCount": 2,
+    "arrangement": "One large iris bloom above one smaller iris bloom.",
+    "perFlowerStructure": "Each bloom visibly has upright inner petals and three broader drooping outer petals.",
+    "stems": "Two fine naturally curved navy stems, one attached to each bloom.",
+    "translucentTreatment": "Blue membrane-like petals with visible fine veins and darker blue at overlaps; navy centers and stems.",
+    "artworkWidthEstimate": {
+      "leftPixel": 118,
+      "rightPixel": 872,
+      "widthPx": 755,
+      "posterWidthPx": 1024,
+      "percent": 73.7,
+      "method": "Approximate horizontal bounds of strongly blue artwork pixels (blue minus red >= 25 and blue minus green >= 5)."
+    },
+    "text": {
+      "upperRight": [
+        "VISIBLE",
+        "WITHIN"
+      ],
+      "left": [
+        "Layers",
+        "Light",
+        "Structure"
+      ],
+      "lowerLeft": "FIELD 11",
+      "lowerRight": "Botanical study",
+      "spellingAndPlacement": "All specified wording appears legibly in the requested positions."
+    },
+    "format": "Complete flat off-white 2:3 portrait poster; PNG is opaque RGB, with translucency represented visually."
+  },
+  "evidenceStatus": {
+    "oneEditCompleted": true,
+    "requestedCountAndStructureObserved": true,
+    "width": "Approximately 73.7%, close to but somewhat wider than two-thirds.",
+    "chinesePrompt": "Untested",
+    "repeatability": "Unknown"
+  },
+  "deviations": [
+    "Floral artwork spans approximately 73.7% of poster width, slightly wider than the roughly two-thirds target.",
+    "The tool response did not expose the underlying model."
+  ],
+  "limitations": [
+    "The Chinese prompt remains untested.",
+    "Repeatability is unknown."
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "browser": "Microsoft Edge",
+  "page": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/browse.html",
+  "failures": [],
+  "external_requests": [],
+  "page_errors": [],
+  "console_errors": [],
+  "initial_title": {
+    "passed": true,
+    "details": "身份与动作库 · Oneirloom 表情贴图模板库"
+  },
+  "template_count": {
+    "passed": true,
+    "details": 14
+  },
+  "default_template": {
+    "passed": true,
+    "details": "identity-acting-system"
+  },
+  "template_navigation": {
+    "passed": true,
+    "details": {
+      "next": "daily-sixteen",
+      "previous": "identity-acting-system",
+      "last": "treatment-expression-family"
+    }
+  },
+  "copy_prompt": {
+    "passed": true,
+    "details": {
+      "status": "已复制首段英文提示词。",
+      "fallback_selection_matches": null,
+      "expected_characters": 1261
+    }
+  },
+  "template_local_links": {
+    "passed": true,
+    "details": {
+      "checked_templates": 14,
+      "broken": [],
+      "missing_source_files": []
+    }
+  },
+  "platform_profile_count": {
+    "passed": true,
+    "details": [
+      "line-static",
+      "telegram-static",
+      "whatsapp-android-static",
+      "discord-server-static",
+      "wechat-static"
+    ]
+  },
+  "profile_navigation": {
+    "passed": true,
+    "details": {
+      "next": "telegram-static",
+      "previous": "line-static"
+    }
+  },
+  "full_platform_profiles": {
+    "passed": true,
+    "details": {
+      "line-static": {
+        "title": "LINE 静态贴图",
+        "marker_present": true,
+        "characters": 1805
+      },
+      "telegram-static": {
+        "title": "Telegram 静态贴图",
+        "marker_present": true,
+        "characters": 1491
+      },
+      "whatsapp-android-static": {
+        "title": "WhatsApp 安卓静态贴图",
+        "marker_present": true,
+        "characters": 1840
+      },
+      "discord-server-static": {
+        "title": "Discord 服务器静态贴图",
+        "marker_present": true,
+        "characters": 1785
+      },
+      "wechat-static": {
+        "title": "微信静态贴图（规范待核实）",
+        "marker_present": true,
+        "characters": 1927,
+        "status_visible": true
+      }
+    }
+  },
+  "source_coverage_view": {
+    "passed": true,
+    "details": {
+      "characters": 11029,
+      "has_industry_and_platform_records": true
+    }
+  },
+  "brand_guide_view": {
+    "passed": true,
+    "details": {
+      "characters": 7029,
+      "images": [
+        {
+          "src": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+          "complete": true,
+          "width": 1254
+        }
+      ]
+    }
+  },
+  "blank_eight_slot_workspace": {
+    "passed": true,
+    "details": {
+      "image": {
+        "complete": true,
+        "width": 2184,
+        "height": 1288,
+        "alt": "空白绘制工作表，8个动作待绘制"
+      },
+      "download": {
+        "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace.svg",
+        "download": ""
+      },
+      "file_exists": true
+    }
+  },
+  "desktop_width": {
+    "passed": true,
+    "details": {
+      "width": 1280,
+      "documentWidth": 1280,
+      "bodyWidth": 1280
+    }
+  },
+  "mobile_width": {
+    "passed": true,
+    "details": {
+      "width": 390,
+      "documentWidth": 390,
+      "bodyWidth": 390
+    }
+  },
+  "local_images_loaded": {
+    "passed": true,
+    "details": [
+      {
+        "src": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/brand-lockup.svg",
+        "complete": true,
+        "width": 960,
+        "height": 220
+      },
+      {
+        "src": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+        "complete": true,
+        "width": 1254,
+        "height": 1254
+      },
+      {
+        "src": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace-preview.png",
+        "complete": true,
+        "width": 2184,
+        "height": 1288
+      },
+      {
+        "src": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+        "complete": true,
+        "width": 1254,
+        "height": 1254
+      }
+    ]
+  },
+  "javascript_errors": {
+    "passed": true,
+    "details": {
+      "page_errors": [],
+      "console_errors": []
+    }
+  },
+  "no_external_requests": {
+    "passed": true,
+    "details": []
+  },
+  "browser_version": "154.0.4258.48",
+  "screenshots": [
+    "work/sticker-pack-templates-20261002/browser-desktop.png",
+    "work/sticker-pack-templates-20261002/browser-mobile.png"
+  ],
+  "reference_local_links": {
+    "passed": true,
+    "details": {
+      "documents_and_profiles_checked": 21,
+      "broken": []
+    }
+  }
+}

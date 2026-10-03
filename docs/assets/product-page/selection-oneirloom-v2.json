@@ -1,0 +1,73 @@
+{
+  "panels": [
+    {
+      "file": "01-hero-oneirloom-v2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "446992b8a742f46b43292013869adf1187bd1e265f9afa92248b454f9b212257",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "02-value-oneirloom-v3.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "b66e28d9719710d38a3c34ee48c181daf07644bf7fb4aa4555a5256f8c2eb5c2",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "03-portraits-native-v2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "2108f01bbd27fa37d257b7a53c16264d542e40340b0b7800d1239fb992201282",
+      "kind": "archived-photo native layout"
+    },
+    {
+      "file": "04-product-oneirloom-v3.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "2bce382ca98aa96586fd304fdf443dc1d65969d21eb4e4a16036d1733692ad0c",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "05-worlds-oneirloom-v2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "ed93f505618a5c9014322df7e81ebc22ec60a54cf26a15efc9e099db0a248afa",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "06-character-oneirloom-v3.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "ea12c02f2ae47ce5cccbc8674a9626165557cd7ad33db2bd2cc1b90cbdd3a37d",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "07-start-oneirloom-v2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "908e3551879816d95ec99e327756b98ac84ddc67447ec28424cd8fbd499dd720",
+      "kind": "reference-conditioned generated promotional artwork"
+    }
+  ],
+  "panelCount": 7,
+  "allImagesLoaded": true,
+  "mobileWidth": 390,
+  "imageInspected": false,
+  "portraitGeneration": "Output rejected by service safety review; native archived-photo layout selected",
+  "remotePublication": "Not published"
+}

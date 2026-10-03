@@ -1,0 +1,60 @@
+{
+  "template": "06-swiss-sculpture",
+  "sample": {
+    "image": "images/transfer-01.png",
+    "submitted_prompt": "submitted.en.txt",
+    "reference": "images/reference.png",
+    "requested_aspect_ratio": "2:3",
+    "actual_dimensions_px": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actual_aspect_ratio": "2:3"
+  },
+  "generation": {
+    "date": "2026-10-02",
+    "entrypoint": "built-in image_gen",
+    "calls": 1,
+    "underlying_model": null,
+    "underlying_model_status": "Unknown; the response did not expose a model field."
+  },
+  "inspection": {
+    "reference_role": "style-only",
+    "reference_origin": "unknown",
+    "profile_direction": "right-facing",
+    "profile_features": "Eye, nose, lips, and jaw are clearly readable.",
+    "rough_vertical_boundary": "Present and irregular, forming a torn seam between the sculpture and the blue panel.",
+    "cobalt_panel": "Full height at far right; visually about one third of the page width, wider than the requested one fifth.",
+    "title_lines": [
+      "OLD",
+      "FORMS",
+      "NEW",
+      "VOICES"
+    ],
+    "title_rendering": "All specified words are present in order as large, bold, condensed black uppercase type. The wide FORMS and VOICES lines extend into the sculpture area, so the left text column is not fully clear.",
+    "annotations": [
+      "Shape",
+      "Time",
+      "Meaning"
+    ],
+    "footer": "FIELD 06",
+    "unrequested_text_observed": false
+  },
+  "verification": {
+    "english_prompt": "Generated with the exact manually paraphrased English prompt preserved in submitted.en.txt and visually inspected once.",
+    "chinese_prompt": "Not run.",
+    "repeatability": "Unverified.",
+    "baseline_prompt_status": "prompt.en.txt was not submitted verbatim; equivalence to the generated variant is unverified."
+  },
+  "prompt_record": {
+    "actual_prompt_file": "submitted.en.txt",
+    "trace_tool": "functions.exec calling tools.image_gen__imagegen",
+    "trace_source": "rollout-2026-10-02T01-29-58-01a0f884-0cab-76e2-b6a3-e837a8e83f7c.jsonl",
+    "trace_line": 48,
+    "prompt_sha256": "b5f12c9ffdbbb23ff142ebeaf4b4aa83edcbb970091e1db7d7ca4b0701fc855c",
+    "baseline_prompt_file": "prompt.en.txt",
+    "baseline_submitted_verbatim": false,
+    "baseline_equivalence": "Unverified",
+    "correction": "The prior submitted.en.txt record was a copied baseline prompt, not the actual call text; this file now preserves the exact prompt passed to the tool."
+  }
+}

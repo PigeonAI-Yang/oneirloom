@@ -1,0 +1,57 @@
+{
+  "sample_subject": "A rough black-and-white right-facing fox head profile with oversized purple marker copy on warm paper.",
+  "requested_copy": {
+    "marker_headline": [
+      "STAY",
+      "CURIOUS"
+    ],
+    "right_note": [
+      "SEE",
+      "MORE"
+    ],
+    "footer": [
+      "FIELD 08",
+      "A poster study"
+    ]
+  },
+  "files": {
+    "submitted_prompt": "submitted.en.txt",
+    "style_reference": "images/reference.png",
+    "result": "images/transfer-01.png"
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlying_model": null,
+    "model_note": "The tool response did not identify an underlying model.",
+    "requested_aspect_ratio": "2:3",
+    "actual_dimensions_px": [
+      1024,
+      1536
+    ],
+    "returned_metadata": {
+      "result_keys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to J:\\Users\\yangda01\\.codex\\generated_images\\01a0f886-52da-7a80-b394-be1e149b364c as J:\\Users\\yangda01\\.codex\\generated_images\\01a0f886-52da-7a80-b394-be1e149b364c\\exec-42e3d1dd-571f-429f-a041-7d2a02676e3a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  },
+  "inspection": {
+    "fox_profile_recognizable": "The right-facing profile has a short, rounded muzzle and prominent whiskers; visually it reads closer to a domestic cat than a fox, so the intended fox subject is not clearly communicated.",
+    "silhouette_and_texture": "The large dark profile dominates the poster, with coarse copier grain and broken ink flecks across the outline and fur while the facial profile remains legible.",
+    "purple_copy": "STAY and CURIOUS appear as oversized two-line purple marker lettering across the lower-middle of the silhouette, with a single long underline beneath CURIOUS.",
+    "visible_copy": [
+      "STAY",
+      "CURIOUS",
+      "SEE",
+      "MORE",
+      "FIELD 08",
+      "A poster study"
+    ],
+    "copy_accuracy": "All requested words are present and visually legible; the small right note and lower-left footer remain separate from the main phrase.",
+    "palette_and_layout": "Warm off-white grainy paper frames the monochrome silhouette; purple is the only accent and is confined to the main phrase and underline.",
+    "deviations": [
+      "The short, rounded muzzle and prominent whiskers make the requested fox profile read closer to a domestic cat."
+    ]
+  }
+}

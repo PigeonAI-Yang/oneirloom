@@ -1,0 +1,805 @@
+{
+  "prompt": [
+    77,
+    "a1e2c7cb-a299-43f4-8ac1-74dea3a7c363",
+    {
+      "4": {
+        "inputs": {
+          "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+          "weight_dtype": "default"
+        },
+        "class_type": "UNETLoader",
+        "_meta": {
+          "title": "UNet加载器"
+        }
+      },
+      "5": {
+        "inputs": {
+          "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+          "type": "qwen_image",
+          "device": "default"
+        },
+        "class_type": "CLIPLoader",
+        "_meta": {
+          "title": "加载CLIP"
+        }
+      },
+      "6": {
+        "inputs": {
+          "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+        },
+        "class_type": "VAELoader",
+        "_meta": {
+          "title": "加载VAE"
+        }
+      },
+      "7": {
+        "inputs": {
+          "prompt": "一张2×2四宫格时尚写真，四格呈现同一位25岁东亚成年女性，面容、黑色长卷发、服装和身材比例一致。纤细腰身、丰满臀型、修长四肢，整体苗条，腰臀轮廓鲜明。穿奶油白合身针织短裙，面料厚实，裙摆覆盖臀部与大腿上段。清透淡妆，浅粉唇色，清甜表情结合自信目光。\n\n左上：背身回眸。背部朝向镜头，身体向右转约四分之一圈，头部转过右肩，目光看向镜头；左腿承重，右膝轻微放松，一只手自然垂在身侧。画面从头顶延伸至小腿，完整呈现站姿与衣裙轮廓。\n\n右上：侧身倚窗。身体侧面对着镜头，左肩轻靠窗边，左手搭在窗台，右手将头发拢至耳后；两脚前后错开，脸朝镜头轻转，嘴角微扬。画面从头顶延伸至膝下。\n\n左下：斜坐椅边。坐在浅木色椅子的前半部，躯干保持舒展，双膝并拢朝画面右侧，脚尖落地，一手搭在椅面，另一手放在膝上；脸转向镜头，神态放松。画面完整容纳头部、椅子和双脚。\n\n右下：行走回头。身体朝画面左侧迈步，前脚落地、后脚脚跟抬起，肩膀和头部转向镜头，发梢随转身轻轻摆动，露出自然浅笑。全身构图，人物前方留出行走空间。\n\n四格均为平视人像，人物占据各格主要区域，形成清楚的站立、倚靠、坐姿和行走变化。暖白墙面与浅木家具构成统一室内场景，左侧窗光照亮脸颊和衣料，右侧保留柔和阴影，黑发保持深色层次，肤色自然暖亮。真实皮肤纹理，清晰针织质感，四格等大，以细白线分隔。",
+          "negative_prompt": "",
+          "resolution": 1024,
+          "clip": [
+            "5",
+            0
+          ]
+        },
+        "class_type": "TextEncodeQwenImage21",
+        "_meta": {
+          "title": "Text Encode Qwen Image 2.1"
+        }
+      },
+      "8": {
+        "inputs": {
+          "width": [
+            "17",
+            0
+          ],
+          "height": [
+            "17",
+            1
+          ],
+          "batch_size": 1
+        },
+        "class_type": "EmptyLatentImage",
+        "_meta": {
+          "title": "空Latent图像"
+        }
+      },
+      "9": {
+        "inputs": {
+          "seed": 1115195880819235,
+          "steps": 40,
+          "cfg": 1.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0,
+          "model": [
+            "4",
+            0
+          ],
+          "positive": [
+            "7",
+            0
+          ],
+          "negative": [
+            "7",
+            1
+          ],
+          "latent_image": [
+            "8",
+            0
+          ]
+        },
+        "class_type": "KSampler",
+        "_meta": {
+          "title": "K采样器"
+        }
+      },
+      "15": {
+        "inputs": {
+          "samples": [
+            "9",
+            0
+          ],
+          "vae": [
+            "6",
+            0
+          ]
+        },
+        "class_type": "VAEDecode",
+        "_meta": {
+          "title": "VAE解码"
+        }
+      },
+      "16": {
+        "inputs": {
+          "filename_prefix": "Qwen21_official",
+          "images": [
+            "15",
+            0
+          ]
+        },
+        "class_type": "SaveImage",
+        "_meta": {
+          "title": "保存图像"
+        }
+      },
+      "17": {
+        "inputs": {
+          "aspect_ratio": "9:16 (Portrait Widescreen)",
+          "megapixels": 2.0,
+          "multiple": 8
+        },
+        "class_type": "ResolutionSelector",
+        "_meta": {
+          "title": "分辨率选择器"
+        }
+      }
+    },
+    {
+      "comfy_usage_source": "comfyui-frontend",
+      "extra_pnginfo": {
+        "workflow": {
+          "id": "e8230276-45db-4981-8731-ceac5f9e83d8",
+          "revision": 0,
+          "last_node_id": 17,
+          "last_link_id": 18,
+          "nodes": [
+            {
+              "id": 4,
+              "type": "UNETLoader",
+              "pos": [
+                100,
+                130
+              ],
+              "size": [
+                270,
+                82
+              ],
+              "flags": {},
+              "order": 0,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "MODEL",
+                  "type": "MODEL",
+                  "links": [
+                    10
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "UNETLoader",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                "qwen_image_2.1_int8_convrot.safetensors",
+                "default"
+              ],
+              "widgets_values_named": {
+                "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+                "weight_dtype": "default"
+              }
+            },
+            {
+              "id": 5,
+              "type": "CLIPLoader",
+              "pos": [
+                94.21257208476678,
+                260.2525806973309
+              ],
+              "size": [
+                270,
+                106
+              ],
+              "flags": {},
+              "order": 1,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "CLIP",
+                  "type": "CLIP",
+                  "links": [
+                    9
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "CLIPLoader",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                "qwen3vl_8b_int8_convrot.safetensors",
+                "qwen_image",
+                "default"
+              ],
+              "widgets_values_named": {
+                "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+                "type": "qwen_image",
+                "device": "default"
+              }
+            },
+            {
+              "id": 6,
+              "type": "VAELoader",
+              "pos": [
+                89.87200114834187,
+                407.9943049900245
+              ],
+              "size": [
+                270,
+                58
+              ],
+              "flags": {},
+              "order": 2,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "VAE",
+                  "type": "VAE",
+                  "links": [
+                    15
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "VAELoader",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                "qwen_image_2.1_vae_bf16.safetensors"
+              ],
+              "widgets_values_named": {
+                "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+              }
+            },
+            {
+              "id": 7,
+              "type": "TextEncodeQwenImage21",
+              "pos": [
+                379.1038146489302,
+                -240.6278811746151
+              ],
+              "size": [
+                400.782213713831,
+                606.409194063786
+              ],
+              "flags": {},
+              "order": 4,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "clip",
+                  "type": "CLIP",
+                  "link": 9
+                },
+                {
+                  "name": "images.image_1",
+                  "shape": 7,
+                  "type": "IMAGE",
+                  "link": null
+                },
+                {
+                  "name": "vae",
+                  "shape": 7,
+                  "type": "VAE",
+                  "link": null
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "positive",
+                  "type": "CONDITIONING",
+                  "links": [
+                    11
+                  ]
+                },
+                {
+                  "name": "negative",
+                  "type": "CONDITIONING",
+                  "links": [
+                    12
+                  ]
+                },
+                {
+                  "name": "latent",
+                  "type": "LATENT",
+                  "links": null
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "TextEncodeQwenImage21",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                "一张2×2四宫格时尚写真，四格呈现同一位25岁东亚成年女性，面容、黑色长卷发、服装和身材比例一致。纤细腰身、丰满臀型、修长四肢，整体苗条，腰臀轮廓鲜明。穿奶油白合身针织短裙，面料厚实，裙摆覆盖臀部与大腿上段。清透淡妆，浅粉唇色，清甜表情结合自信目光。\n\n左上：背身回眸。背部朝向镜头，身体向右转约四分之一圈，头部转过右肩，目光看向镜头；左腿承重，右膝轻微放松，一只手自然垂在身侧。画面从头顶延伸至小腿，完整呈现站姿与衣裙轮廓。\n\n右上：侧身倚窗。身体侧面对着镜头，左肩轻靠窗边，左手搭在窗台，右手将头发拢至耳后；两脚前后错开，脸朝镜头轻转，嘴角微扬。画面从头顶延伸至膝下。\n\n左下：斜坐椅边。坐在浅木色椅子的前半部，躯干保持舒展，双膝并拢朝画面右侧，脚尖落地，一手搭在椅面，另一手放在膝上；脸转向镜头，神态放松。画面完整容纳头部、椅子和双脚。\n\n右下：行走回头。身体朝画面左侧迈步，前脚落地、后脚脚跟抬起，肩膀和头部转向镜头，发梢随转身轻轻摆动，露出自然浅笑。全身构图，人物前方留出行走空间。\n\n四格均为平视人像，人物占据各格主要区域，形成清楚的站立、倚靠、坐姿和行走变化。暖白墙面与浅木家具构成统一室内场景，左侧窗光照亮脸颊和衣料，右侧保留柔和阴影，黑发保持深色层次，肤色自然暖亮。真实皮肤纹理，清晰针织质感，四格等大，以细白线分隔。",
+                "",
+                1024
+              ],
+              "widgets_values_named": {
+                "prompt": "一张2×2四宫格时尚写真，四格呈现同一位25岁东亚成年女性，面容、黑色长卷发、服装和身材比例一致。纤细腰身、丰满臀型、修长四肢，整体苗条，腰臀轮廓鲜明。穿奶油白合身针织短裙，面料厚实，裙摆覆盖臀部与大腿上段。清透淡妆，浅粉唇色，清甜表情结合自信目光。\n\n左上：背身回眸。背部朝向镜头，身体向右转约四分之一圈，头部转过右肩，目光看向镜头；左腿承重，右膝轻微放松，一只手自然垂在身侧。画面从头顶延伸至小腿，完整呈现站姿与衣裙轮廓。\n\n右上：侧身倚窗。身体侧面对着镜头，左肩轻靠窗边，左手搭在窗台，右手将头发拢至耳后；两脚前后错开，脸朝镜头轻转，嘴角微扬。画面从头顶延伸至膝下。\n\n左下：斜坐椅边。坐在浅木色椅子的前半部，躯干保持舒展，双膝并拢朝画面右侧，脚尖落地，一手搭在椅面，另一手放在膝上；脸转向镜头，神态放松。画面完整容纳头部、椅子和双脚。\n\n右下：行走回头。身体朝画面左侧迈步，前脚落地、后脚脚跟抬起，肩膀和头部转向镜头，发梢随转身轻轻摆动，露出自然浅笑。全身构图，人物前方留出行走空间。\n\n四格均为平视人像，人物占据各格主要区域，形成清楚的站立、倚靠、坐姿和行走变化。暖白墙面与浅木家具构成统一室内场景，左侧窗光照亮脸颊和衣料，右侧保留柔和阴影，黑发保持深色层次，肤色自然暖亮。真实皮肤纹理，清晰针织质感，四格等大，以细白线分隔。",
+                "negative_prompt": "",
+                "resolution": 1024
+              }
+            },
+            {
+              "id": 8,
+              "type": "EmptyLatentImage",
+              "pos": [
+                91.97133222062617,
+                522.0904593391896
+              ],
+              "size": [
+                270,
+                106
+              ],
+              "flags": {},
+              "order": 5,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "width",
+                  "type": "INT",
+                  "widget": {
+                    "name": "width"
+                  },
+                  "link": 17
+                },
+                {
+                  "name": "height",
+                  "type": "INT",
+                  "widget": {
+                    "name": "height"
+                  },
+                  "link": 18
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "LATENT",
+                  "type": "LATENT",
+                  "links": [
+                    13
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "EmptyLatentImage",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                1024,
+                1920,
+                1
+              ],
+              "widgets_values_named": {
+                "width": 1024,
+                "height": 1920,
+                "batch_size": 1
+              }
+            },
+            {
+              "id": 9,
+              "type": "KSampler",
+              "pos": [
+                402.4398213801901,
+                407.89065797766574
+              ],
+              "size": [
+                316.7338283481285,
+                821.5586632942559
+              ],
+              "flags": {},
+              "order": 6,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "model",
+                  "type": "MODEL",
+                  "link": 10
+                },
+                {
+                  "name": "positive",
+                  "type": "CONDITIONING",
+                  "link": 11
+                },
+                {
+                  "name": "negative",
+                  "type": "CONDITIONING",
+                  "link": 12
+                },
+                {
+                  "name": "latent_image",
+                  "type": "LATENT",
+                  "link": 13
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "LATENT",
+                  "type": "LATENT",
+                  "links": [
+                    14
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "KSampler",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                1115195880819235,
+                "randomize",
+                40,
+                1,
+                "euler",
+                "simple",
+                1
+              ],
+              "widgets_values_named": {
+                "seed": 1115195880819235,
+                "control_after_generate": "randomize",
+                "steps": 40,
+                "cfg": 1,
+                "sampler_name": "euler",
+                "scheduler": "simple",
+                "denoise": 1
+              }
+            },
+            {
+              "id": 15,
+              "type": "VAEDecode",
+              "pos": [
+                132.53249641252154,
+                706.2451916860116
+              ],
+              "size": [
+                140,
+                46
+              ],
+              "flags": {},
+              "order": 7,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "samples",
+                  "type": "LATENT",
+                  "link": 14
+                },
+                {
+                  "name": "vae",
+                  "type": "VAE",
+                  "link": 15
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "IMAGE",
+                  "type": "IMAGE",
+                  "links": [
+                    16
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "VAEDecode",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              }
+            },
+            {
+              "id": 16,
+              "type": "SaveImage",
+              "pos": [
+                798.0495531512375,
+                -180.65647049115358
+              ],
+              "size": [
+                371.09342618606917,
+                657.0041917064755
+              ],
+              "flags": {},
+              "order": 8,
+              "mode": 0,
+              "inputs": [
+                {
+                  "name": "images",
+                  "type": "IMAGE",
+                  "link": 16
+                }
+              ],
+              "outputs": [
+                {
+                  "name": "images",
+                  "type": "IMAGE",
+                  "links": null
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.37.0",
+                "Node name for S&R": "SaveImage",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "input_ue_unconnectable": {},
+                  "version": "7.8"
+                }
+              },
+              "widgets_values": [
+                "Qwen21_official"
+              ],
+              "widgets_values_named": {
+                "filename_prefix": "Qwen21_official"
+              }
+            },
+            {
+              "id": 17,
+              "type": "ResolutionSelector",
+              "pos": [
+                -206.39082121888026,
+                532.0339259807126
+              ],
+              "size": [
+                274.01021553152884,
+                150
+              ],
+              "flags": {},
+              "order": 3,
+              "mode": 0,
+              "inputs": [],
+              "outputs": [
+                {
+                  "name": "width",
+                  "type": "INT",
+                  "links": [
+                    17
+                  ]
+                },
+                {
+                  "name": "height",
+                  "type": "INT",
+                  "links": [
+                    18
+                  ]
+                }
+              ],
+              "properties": {
+                "cnr_id": "comfy-core",
+                "ver": "0.25.0",
+                "Node name for S&R": "ResolutionSelector",
+                "ue_properties": {
+                  "widget_ue_connectable": {},
+                  "version": "7.8",
+                  "input_ue_unconnectable": {}
+                }
+              },
+              "widgets_values": [
+                "9:16 (Portrait Widescreen)",
+                2,
+                8
+              ],
+              "widgets_values_named": {
+                "aspect_ratio": "9:16 (Portrait Widescreen)",
+                "megapixels": 2,
+                "multiple": 8
+              }
+            }
+          ],
+          "links": [
+            [
+              9,
+              5,
+              0,
+              7,
+              0,
+              "CLIP"
+            ],
+            [
+              10,
+              4,
+              0,
+              9,
+              0,
+              "MODEL"
+            ],
+            [
+              11,
+              7,
+              0,
+              9,
+              1,
+              "CONDITIONING"
+            ],
+            [
+              12,
+              7,
+              1,
+              9,
+              2,
+              "CONDITIONING"
+            ],
+            [
+              13,
+              8,
+              0,
+              9,
+              3,
+              "LATENT"
+            ],
+            [
+              14,
+              9,
+              0,
+              15,
+              0,
+              "LATENT"
+            ],
+            [
+              15,
+              6,
+              0,
+              15,
+              1,
+              "VAE"
+            ],
+            [
+              16,
+              15,
+              0,
+              16,
+              0,
+              "IMAGE"
+            ],
+            [
+              17,
+              17,
+              0,
+              8,
+              0,
+              "INT"
+            ],
+            [
+              18,
+              17,
+              1,
+              8,
+              1,
+              "INT"
+            ]
+          ],
+          "groups": [],
+          "config": {},
+          "extra": {
+            "ue_links": [],
+            "links_added_by_ue": [],
+            "ds": {
+              "scale": 1.0252963762709328,
+              "offset": [
+                292.4613254038073,
+                361.6481118594722
+              ]
+            },
+            "k2cf_state_id": "k2cf_1789925616157_xy9hln87t8k",
+            "frontendVersion": "1.53.6",
+            "VHS_latentpreview": false,
+            "VHS_latentpreviewrate": 0,
+            "VHS_MetadataImage": true,
+            "VHS_KeepIntermediate": true
+          },
+          "extensions": {
+            "seed_widgets": {
+              "9": 0
+            }
+          },
+          "version": 0.4,
+          "seed_widgets": {
+            "9": 0
+          }
+        }
+      },
+      "client_id": "23926b41817e44a7aa01842ccba276d9",
+      "create_time": 1790552946985
+    },
+    [
+      "16"
+    ]
+  ],
+  "outputs": {
+    "16": {
+      "images": [
+        {
+          "filename": "Qwen21_official_00351_.png",
+          "subfolder": "",
+          "type": "output"
+        }
+      ]
+    }
+  },
+  "status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "a1e2c7cb-a299-43f4-8ac1-74dea3a7c363",
+          "timestamp": 1790553057062
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "17"
+          ],
+          "prompt_id": "a1e2c7cb-a299-43f4-8ac1-74dea3a7c363",
+          "timestamp": 1790553057063
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "a1e2c7cb-a299-43f4-8ac1-74dea3a7c363",
+          "timestamp": 1790553091056
+        }
+      ]
+    ]
+  },
+  "meta": {
+    "16": {
+      "node_id": "16",
+      "display_node": "16",
+      "parent_node": null,
+      "real_node_id": "16"
+    }
+  }
+}

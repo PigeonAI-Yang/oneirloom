@@ -1,0 +1,22 @@
+{
+  "entry": "Codex 0.159.0 native app-server skills/list with forceReload",
+  "cwd": "J:\\PigeonYang\\skills\\dreamweaver",
+  "discovered": {
+    "dreamweaver": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver\\SKILL.md",
+    "dreamweaver-camera-composition": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-camera-composition\\SKILL.md",
+    "dreamweaver-character-sheet": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-character-sheet\\SKILL.md",
+    "dreamweaver-color-light": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-color-light\\SKILL.md",
+    "dreamweaver-figure-art": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-figure-art\\SKILL.md",
+    "dreamweaver-image-tutorial": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-image-tutorial\\SKILL.md",
+    "dreamweaver-model-krea-2": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-model-krea-2\\SKILL.md",
+    "dreamweaver-model-qwen-image-2-1": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-model-qwen-image-2-1\\SKILL.md",
+    "dreamweaver-product-art-direction": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-product-art-direction\\SKILL.md",
+    "dreamweaver-result-diagnosis": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-result-diagnosis\\SKILL.md",
+    "dreamweaver-style-design": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-style-design\\SKILL.md",
+    "dreamweaver-style-illustration": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-style-illustration\\SKILL.md",
+    "dreamweaver-style-photography": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-style-photography\\SKILL.md",
+    "dreamweaver-visual-analysis": "J:\\PigeonYang\\skills\\dreamweaver\\skills\\dreamweaver-visual-analysis\\SKILL.md"
+  },
+  "expected_count": 14,
+  "result": "pass"
+}

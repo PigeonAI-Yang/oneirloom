@@ -1,0 +1,68 @@
+{
+  "sample": "04-torn-landscape",
+  "artifact": "images/transfer-01.png",
+  "generation": {
+    "entry": "built-in image_gen",
+    "model": null,
+    "modelNote": "The tool response did not report a model name.",
+    "calls": 1,
+    "sourcePromptAtRun": "prompt.en.txt",
+    "submittedPrompt": "submitted.en.txt",
+    "archivedSubmittedPromptSha256": "40265F47EFFDC619A557AC8C7F787BF7C0AEE8210C18E83DBD9B481A975B9259",
+    "sourceAndSubmittedPromptByteIdenticalAtRun": true,
+    "currentBaselinePrompt": "prompt.en.txt",
+    "currentBaselinePromptSha256": "B0974B649E06352FDB71A7F1135EB72DBFE5D51C096E18EAE086C860D50A802F",
+    "baselineSubmittedVerbatim": false,
+    "promptRevisionNote": "After this generation, prompt.en.txt was revised to remove exclusion wording while preserving the visual intent. The current baseline was not resubmitted verbatim; submitted.en.txt preserves the exact prompt used for this run.",
+    "referenceImage": "images/reference.png",
+    "transparentBackground": false,
+    "requestedAspectRatio": "2:3"
+  },
+  "image": {
+    "actualDimensionsPx": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actualAspectRatio": "2:3"
+  },
+  "inspection": {
+    "visibleAnchors": [
+      "Warm off-white paper with visible grain.",
+      "A coherent grayscale coast with cliffs, sea, and breaking foam across roughly the upper half.",
+      "Three horizontal torn landscape bands with irregular fibrous white gaps and visible side-to-side and vertical shifts.",
+      "A dominant two-line, tightly condensed black headline below the landscape.",
+      "One yellow torn-paper note at the right image-and-title junction.",
+      "A small FIELD STUDIES footer at the lower-left bottom margin."
+    ],
+    "landscapeStrips": {
+      "expectedCount": 3,
+      "observedCount": 3,
+      "offsetAndGapObservation": "The three strips have distinct, slight alignment shifts and uneven white fibrous seams. Their coastline remains recognizable as one scene."
+    },
+    "textAccuracy": {
+      "headline": {
+        "expected": "COAST / LINES",
+        "observed": "COAST / LINES",
+        "exact": true
+      },
+      "note": {
+        "expected": "Edges / keep / changing",
+        "observed": "Edges / keep / changing",
+        "exact": true
+      },
+      "footer": {
+        "expected": "FIELD STUDIES",
+        "observed": "FIELD STUDIES",
+        "exact": true
+      }
+    },
+    "deviations": [
+      "The widest headline line appears to span about 70–75% of the canvas width, slightly short of the requested about 80%.",
+      "The coast has grainy photographic detail rather than a strongly flat-print rendering."
+    ]
+  },
+  "untested": {
+    "chinesePrompt": "not run",
+    "repeatability": "unknown; only one generated result"
+  }
+}

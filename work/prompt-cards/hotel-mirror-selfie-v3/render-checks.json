@@ -1,0 +1,36 @@
+{
+  "canvas": [
+    1800,
+    2400
+  ],
+  "imageRegion": {
+    "x": 0,
+    "y": 0,
+    "width": 1800,
+    "height": 800
+  },
+  "promptRegion": {
+    "x": 0,
+    "y": 800,
+    "width": 1800,
+    "height": 1600
+  },
+  "sourceSize": [
+    1248,
+    1664
+  ],
+  "imageFit": "cover",
+  "imagePosition": "50% 6%",
+  "fontSize": "37px",
+  "textBottom": 2311.796875,
+  "textInside": true,
+  "pngSize": [
+    2700,
+    3600
+  ],
+  "sourceImageSha256": "44201d78565f1a00cd23a6dec7c1c12c388f9042fb4a45c6611bfbab700696bb",
+  "promptMatchesSource": true,
+  "imageInspected": true,
+  "inspectedOn": "2026-09-30",
+  "inspectionNotes": "Upper-third cover crop keeps the woman, camera, hair and coat recognizable. Lower two-thirds show all eight Chinese prompt paragraphs in order with readable dark text and no clipping. Crop and fixed split inspected in the rendered PNG."
+}

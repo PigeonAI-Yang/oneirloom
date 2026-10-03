@@ -1,0 +1,50 @@
+{
+  "active_skills": 13,
+  "indexed_templates": 6,
+  "structural_check": "passed: python scripts/check_skills.py",
+  "defined_behavior_cases": 33,
+  "behavior_cases_executed": 0,
+  "existing_image_inspected": "indoor-full-length/images/result-01.png",
+  "new_image_generation": false,
+  "fresh_session_discovery_tested": false,
+  "installed_readback": "All 13 active entries and all template assets match source through existing junctions.",
+  "latest_halftone_rules": "All four latest rule paragraphs preserved verbatim after user confirmed external writer stopped.",
+  "unchanged_snapshot_files": [
+    "skills/vpd-camera-composition/SKILL.md",
+    "skills/vpd-color-light/SKILL.md",
+    "skills/vpd-figure-art/SKILL.md",
+    "skills/vpd-image-tutorial/SKILL.md",
+    "skills/vpd-image-tutorial/agents/openai.yaml",
+    "skills/vpd-image-tutorial/references/teaching-depth.md",
+    "skills/vpd-model-krea-2/SKILL.md",
+    "skills/vpd-model-krea-2/references/tasks.md",
+    "skills/vpd-model-qwen-image-2-1/SKILL.md",
+    "skills/vpd-model-qwen-image-2-1/references/tasks.md",
+    "skills/vpd-result-diagnosis/SKILL.md",
+    "skills/vpd-style-design/SKILL.md",
+    "skills/vpd-style-design/references/styles.md",
+    "skills/vpd-style-photography/references/styles.md",
+    "skills/vpd-visual-analysis/SKILL.md"
+  ],
+  "changed_snapshot_files": [
+    "README.md",
+    "CONTRIBUTING.md",
+    "docs/architecture.md",
+    "evals/cases.json",
+    "scripts/check_skills.py",
+    "skills/visual-prompt-director/SKILL.md",
+    "skills/vpd-character-sheet/SKILL.md",
+    "skills/vpd-style-illustration/SKILL.md",
+    "skills/vpd-style-illustration/references/styles.md",
+    "skills/vpd-style-photography/SKILL.md"
+  ],
+  "migrated_snapshot_files": [
+    "skills/vpd-style-character-card/SKILL.md",
+    "skills/vpd-style-character-card/references/four-plus-four.md",
+    "skills/vpd-style-character-card/references/three-view.md",
+    "skills/vpd-style-halftone-cutout/SKILL.md",
+    "skills/vpd-style-illustration/references/decorative-rainy-night.md",
+    "skills/vpd-style-xiaohongshu-beauty-squat/SKILL.md"
+  ],
+  "limitations": "Static checks and same-session inspection do not establish new-session routing behavior or prompt repeatability."
+}

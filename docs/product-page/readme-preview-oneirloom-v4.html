@@ -1,0 +1,129 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="file:///J:/PigeonYang/skills/oneirloom/"><style>body{margin:0;color:#24292f;background:white;font:16px/1.7 "Microsoft YaHei",sans-serif}main{max-width:1012px;margin:auto;padding:32px}img{display:block;max-width:100%;height:auto}main>p:has(img){margin:0}a{color:#0969da}h1,h2{border-bottom:1px solid #d0d7de;padding-bottom:10px}pre{background:#f6f8fa;padding:16px;overflow:auto}table{border-collapse:collapse;display:block;overflow:auto}th,td{padding:8px 12px;border:1px solid #d0d7de}summary{cursor:pointer}@media(max-width:600px){main{padding:16px}body{font-size:14px}}</style></head><body><main><h1 id="织梦师-oneirloom">织梦师 · Oneirloom</h1>
+<p><strong>把想象，写成画面。</strong></p>
+<p>一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。</p>
+<p><a href="#开始使用">开始使用</a> · <a href="#案例与记录">案例与记录</a> · <a href="#技能目录">技能目录</a> · <a href="README.en.md">English</a> · <a href="docs/product-page/index-oneirloom-v4.html">完整详情页</a></p>
+<p><a href="docs/assets/product-page/01-hero-oneirloom-v4.png"><img alt="织梦师商品主视觉：织梦兽把人像、志怪插画与产品广告织进梦网。把想象，写成画面。" src="docs/assets/product-page/01-hero-oneirloom-v4.webp" /></a></p>
+<p><a href="docs/assets/product-page/02-value-oneirloom-v4.png"><img alt="一句日常表达，展开成一张画面。将卧室全身照的想法拆解为完整取景、居中姿态、缎面材质和左侧窗光。支持从零写提示词、分析参考图、构思广告和检查结果。" src="docs/assets/product-page/02-value-oneirloom-v4.webp" /></a></p>
+<p><a href="docs/assets/product-page/03-portraits-native-v4.png"><img alt="人像案例：脸部特写、完整全身、坐姿、硬光、夜间暖光和逆光发丝。选自既有人像教程的 Qwen-Image-2.1 结果。" src="docs/assets/product-page/03-portraits-native-v4.webp" /></a></p>
+<p><a href="docs/assets/product-page/04-product-oneirloom-v4.png"><img alt="产品广告案例：外卖照片参考与微缩食物小镇创意示意。春卷成为屋顶，薯条成为台阶，餐盒里出现手绘街巷。" src="docs/assets/product-page/04-product-oneirloom-v4.webp" /></a></p>
+<p><a href="docs/assets/product-page/05-worlds-oneirloom-v4.png"><img alt="继续做广告与插画：巧克力流入手绘可可庄园；人物关系、山雾与月色构成志怪叙事。根据已有案例制作的宣传画面。" src="docs/assets/product-page/05-worlds-oneirloom-v4.webp" /></a></p>
+<p><a href="docs/assets/product-page/06-character-oneirloom-v4.png"><img alt="角色资产案例：从织梦兽形象延展织梦、好奇、休息、完成四种动作。角色正面已获认可，新增资产设计稿待验收。" src="docs/assets/product-page/06-character-oneirloom-v4.webp" /></a></p>
+<p><a href="docs/assets/product-page/07-start-oneirloom-v4.png"><img alt="使用流程：给目标和材料，明确画面关系，交付完整中英提示词，检查结果继续修改。还可制作3:4提示词分享卡片。开源MIT，提供Krea 2和Qwen-Image-2.1专门适配。" src="docs/assets/product-page/07-start-oneirloom-v4.webp" /></a></p>
+<h2 id="案例与记录">案例与记录</h2>
+<p>这套详情页由织梦师的视觉分析、设计与光色方法指导制作。六张宣传图参考既有案例重新绘制；人像六宫格直接排版归档原图。宣传图中的场景与提示词示意不等同于原始案例记录，原图与已知提示词见下方链接。<a href="docs/assets/product-page/overview-oneirloom-v4.png">打开完整详情长图</a>。</p>
+<ul>
+<li><strong>人像摄影</strong>：<a href="docs/assets/portraits/manifest.json">12 张已归档人像的提示词与参数</a> · <a href="docs/美女生图教程.md">62 张生成结果的完整教程</a>。各样本可能同时改变身份、姿态、衣料与环境，不能据此判断精确身份锁定或单项调整的效果。</li>
+<li><strong>外卖小镇广告</strong>：<a href="skills/oneirloom-product-art-direction/references/takeaway-food-town/evidence.json">原始照片与认可结果记录</a>。实际提交提示词、模型与参数未记录。</li>
+<li><strong>巧克力广告</strong>：<a href="skills/oneirloom-style-design/templates/product-origin-world/template.md">原始提示词与案例</a>；<strong>志怪插画</strong>：<a href="skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md">氛围与观察记录</a>。两者的模型与参数均未知。</li>
+<li><strong>织梦兽资产</strong>：<a href="docs/assets/dream-cocoon/README.md">角色参考、配色、三视图与动作稿</a>。正面形象已获认可，新增资产设计稿仍待单独验收。</li>
+</ul>
+<details>
+<summary>继续看角色衣橱设定</summary>
+<p><img alt="包含服装、配件与材质细节的已有角色衣橱设定图" src="skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.webp" /></p>
+<p>这个用户提供的结果展示服装、配件、材质与版面安排。转身视图和部分服装头像仍有偏差，模型与参数未知。<a href="skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md">查看模板与记录</a>。</p>
+</details>
+<h2 id="开始使用">开始使用</h2>
+<h3 id="安装技能集合">安装技能集合</h3>
+<pre><code class="language-bash">git clone https://github.com/PigeonAI-Yang/oneirloom.git
+</code></pre>
+<p>将 <code>skills/</code> 下的所有 <code>oneirloom*</code> 目录放进 AI 助手的技能搜索目录，保持同级关系，并保留各目录中的参考资料、模板和图片。</p>
+<p>在新的对话中检查是否出现 <code>oneirloom</code>。你可以称呼它“织梦师”“织梦师Skill”或“Oneirloom”；支持显式调用的助手可用 <code>$oneirloom</code>。</p>
+<h3 id="用一个真实需求开始">用一个真实需求开始</h3>
+<p>以下指令发给 AI 助手。得到提示词后，再将提示词放进生图工具。</p>
+<pre><code class="language-text">用织梦师分析我上传的产品照片，帮我构思一张广告。
+保留产品的形状、包装和主要配色，加入手绘微缩世界。
+先根据产品本身选择创意，再给我完整提示词，只要中文。
+</code></pre>
+<pre><code class="language-text">用织梦师检查我上传的结果图和原提示词。
+现在鞋子被裁掉了，我想要完整全身取景。
+保留人物、衣服、房间和光线，给我完整修订提示词。
+</code></pre>
+<p>有参考图时，说明每张图负责身份、姿势、配色还是风格。已有目标模型、工具入口、原提示词或结果图时，也一起提供。</p>
+<h2 id="技能目录">技能目录</h2>
+<p>主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。</p>
+<details>
+<summary>展开全部技能</summary>
+<table>
+<thead>
+<tr>
+<th>技能</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="skills/oneirloom/SKILL.md">oneirloom</a></td>
+<td>主入口、上下文继承与完整交付</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-visual-analysis/SKILL.md">oneirloom-visual-analysis</a></td>
+<td>参考图拆解与视觉关系分析</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-product-art-direction/SKILL.md">oneirloom-product-art-direction</a></td>
+<td>产品广告概念与画面故事</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-camera-composition/SKILL.md">oneirloom-camera-composition</a></td>
+<td>景别、机位、透视、裁切与遮挡</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-color-light/SKILL.md">oneirloom-color-light</a></td>
+<td>区域配色、光向与材质受光</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-character-sheet/SKILL.md">oneirloom-character-sheet</a></td>
+<td>角色设定、三视图、表情与服装</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-figure-art/SKILL.md">oneirloom-figure-art</a></td>
+<td>成人非露骨人物艺术的姿态与遮挡</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-style-photography/SKILL.md">oneirloom-style-photography</a></td>
+<td>写实摄影、生活人像与电影感画面</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-style-illustration/SKILL.md">oneirloom-style-illustration</a></td>
+<td>绘画、版画、拼贴与叙事插画</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-style-design/SKILL.md">oneirloom-style-design</a></td>
+<td>海报、文字版式、包装、产品与 3D</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-model-krea-2/SKILL.md">oneirloom-model-krea-2</a></td>
+<td>Krea 2 提示词与入口适配</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-model-qwen-image-2-1/SKILL.md">oneirloom-model-qwen-image-2-1</a></td>
+<td>Qwen-Image-2.1 提示词与任务适配</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-result-diagnosis/SKILL.md">oneirloom-result-diagnosis</a></td>
+<td>生成偏差分析与提示词修正</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-image-tutorial/SKILL.md">oneirloom-image-tutorial</a></td>
+<td>图文教程写作、扩写与润色</td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-prompt-card/SKILL.md">oneirloom-prompt-card</a></td>
+<td>作品与完整提示词的 3:4 分享卡片</td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><a href="docs/architecture.md">三层架构</a> · <a href="docs/model-evidence.md">模型证据</a> · <a href="skills/oneirloom-style-photography/templates/index.md">摄影模板</a> · <a href="skills/oneirloom-character-sheet/templates/index.md">角色模板</a> · <a href="skills/oneirloom-style-illustration/templates/index.md">插画模板</a> · <a href="skills/oneirloom-style-design/templates/index.md">设计模板</a></p>
+<h2 id="常见问题">常见问题</h2>
+<p><strong>需要额外安装生图模型吗？</strong></p>
+<p>织梦师安装的是提示词与创作方法。图片生成通过你所用助手的工具或生图入口运行，是否需要本地模型由该工具决定。</p>
+<p><strong>模板里的例图都能复现吗？</strong></p>
+<p>案例记录会说明已有结果、已知参数和偏差。部分模板尚未生成验证；实际效果需要在你的入口中生成并检查。</p>
+<p><strong>可以只要中文吗？</strong></p>
+<p>可以。默认是中英文完整提示词，你也可以指定一种语言。教程采用你要求的文章语言和文风。</p>
+<h2 id="一起把好用的方法留下来">一起把好用的方法留下来</h2>
+<p>欢迎补充画面配方、修正方法，或提交带原图与提示词的案例。<a href="CONTRIBUTING.md">贡献指南</a>说明了模板和记录的组织方式。</p>
+<p>如果织梦师帮你写清了想画的图，欢迎给项目一颗 Star，或在 <a href="https://github.com/PigeonAI-Yang/oneirloom/issues">Issues</a> 分享需求与结果。</p>
+<h2 id="许可证">许可证</h2>
+<p><a href="LICENSE">MIT License</a>。模型与生成服务的使用条款另行适用。</p></main></body></html>

@@ -1,0 +1,232 @@
+{
+  "kind": "reference",
+  "role": "style reference sheet for the experimental editorial poster collection",
+  "image": "images/reference-sheet.png",
+  "image_sha256": "5508158313295026586cc50fac99e669376589b75f324d6fc32738e6fbb59b4e",
+  "source": "User-provided clipboard image copied byte-for-byte from J:\\Users\\yangda01\\Temp\\codex-clipboard-dae86be9-87a8-41b9-bc47-943e541a5b3b.png",
+  "original_filename": "codex-clipboard-dae86be9-87a8-41b9-bc47-943e541a5b3b.png",
+  "original_dimensions_px": {
+    "width": 612,
+    "height": 680
+  },
+  "original_mode": "RGB",
+  "creator": "unknown",
+  "date": "unknown",
+  "model": "unknown",
+  "prompt": "unknown",
+  "verification": {
+    "status": "reference_sheet_inspected",
+    "observations": "A 4-column by 3-row sheet contains twelve visually distinct poster studies and a footer. The reference sheet and crop boundaries were inspected; its small text and fine details are not treated as evidence beyond the supplied raster resolution."
+  },
+  "processing": {
+    "method": "Pillow Image.crop; source copied unchanged; crops saved as PNG without resizing or retouching.",
+    "coordinate_convention": "Zero-based pixel coordinates from the top-left; crop boxes are [left, top, right, bottom), with right and bottom exclusive.",
+    "source_preserved": true,
+    "crops": [
+      {
+        "id": "01-sculpture-tear",
+        "grid_row": 1,
+        "grid_column": 1,
+        "image": "01-sculpture-tear/images/reference.png",
+        "crop_box_px": [
+          9,
+          3,
+          148,
+          212
+        ],
+        "dimensions_px": {
+          "width": 139,
+          "height": 209
+        },
+        "image_sha256": "1ed2de2b154dda273f3c3ed16e364ddb732b2a5577ec1e4f37ca80c9f4588e72"
+      },
+      {
+        "id": "02-motion-blur",
+        "grid_row": 1,
+        "grid_column": 2,
+        "image": "02-motion-blur/images/reference.png",
+        "crop_box_px": [
+          155,
+          3,
+          300,
+          212
+        ],
+        "dimensions_px": {
+          "width": 145,
+          "height": 209
+        },
+        "image_sha256": "2369e76d96d51fd761e145f269694d1aaf6b29899bbb1cda64a2e46a6c4397ce"
+      },
+      {
+        "id": "03-mirror-sphere",
+        "grid_row": 1,
+        "grid_column": 3,
+        "image": "03-mirror-sphere/images/reference.png",
+        "crop_box_px": [
+          306,
+          3,
+          451,
+          212
+        ],
+        "dimensions_px": {
+          "width": 145,
+          "height": 209
+        },
+        "image_sha256": "c71542f030ee1ee3e31c6c21892a29b7e456c91021f1cf9c17406768785c57a4"
+      },
+      {
+        "id": "04-torn-landscape",
+        "grid_row": 1,
+        "grid_column": 4,
+        "image": "04-torn-landscape/images/reference.png",
+        "crop_box_px": [
+          457,
+          3,
+          603,
+          212
+        ],
+        "dimensions_px": {
+          "width": 146,
+          "height": 209
+        },
+        "image_sha256": "d99488f4559bb9a07835194a712eea598762040dffdb46fc9f4067c58da635b0"
+      },
+      {
+        "id": "05-botanical-engraving",
+        "grid_row": 2,
+        "grid_column": 1,
+        "image": "05-botanical-engraving/images/reference.png",
+        "crop_box_px": [
+          9,
+          217,
+          148,
+          421
+        ],
+        "dimensions_px": {
+          "width": 139,
+          "height": 204
+        },
+        "image_sha256": "6647bd3c7d64b55edfaef3b1fdb8043bd95b21a037aee4c58fdab2d2b943c6bc"
+      },
+      {
+        "id": "06-swiss-sculpture",
+        "grid_row": 2,
+        "grid_column": 2,
+        "image": "06-swiss-sculpture/images/reference.png",
+        "crop_box_px": [
+          155,
+          217,
+          300,
+          421
+        ],
+        "dimensions_px": {
+          "width": 145,
+          "height": 204
+        },
+        "image_sha256": "f188a4960a6c841d1879a31b8e9c09b7a19ae3729a70331091f8a78a45aaeba6"
+      },
+      {
+        "id": "07-object-slices",
+        "grid_row": 2,
+        "grid_column": 3,
+        "image": "07-object-slices/images/reference.png",
+        "crop_box_px": [
+          306,
+          217,
+          451,
+          421
+        ],
+        "dimensions_px": {
+          "width": 145,
+          "height": 204
+        },
+        "image_sha256": "bbd73f61250130d6adbf04c16ca33fe1759c88f83c4889d9596a7bd3da004801"
+      },
+      {
+        "id": "08-zine-silhouette",
+        "grid_row": 2,
+        "grid_column": 4,
+        "image": "08-zine-silhouette/images/reference.png",
+        "crop_box_px": [
+          457,
+          217,
+          603,
+          421
+        ],
+        "dimensions_px": {
+          "width": 146,
+          "height": 204
+        },
+        "image_sha256": "b1e0f99d30715bda36cfe3e86f9ac99921081c08663e183cdb41ca769299f0a0"
+      },
+      {
+        "id": "09-geometric-architecture",
+        "grid_row": 3,
+        "grid_column": 1,
+        "image": "09-geometric-architecture/images/reference.png",
+        "crop_box_px": [
+          9,
+          426,
+          148,
+          640
+        ],
+        "dimensions_px": {
+          "width": 139,
+          "height": 214
+        },
+        "image_sha256": "f4dffdae8e01c7e6c3aeb8639da2555e0879639d7b689b2f736d74d1c43ad041"
+      },
+      {
+        "id": "10-paper-typography",
+        "grid_row": 3,
+        "grid_column": 2,
+        "image": "10-paper-typography/images/reference.png",
+        "crop_box_px": [
+          155,
+          426,
+          300,
+          640
+        ],
+        "dimensions_px": {
+          "width": 145,
+          "height": 214
+        },
+        "image_sha256": "d4de1b4d45c08e01ea47db7fcf9ab54c1a06069b700d4f5c8239df1926c5db68"
+      },
+      {
+        "id": "11-transparent-botanical",
+        "grid_row": 3,
+        "grid_column": 3,
+        "image": "11-transparent-botanical/images/reference.png",
+        "crop_box_px": [
+          306,
+          426,
+          451,
+          640
+        ],
+        "dimensions_px": {
+          "width": 145,
+          "height": 214
+        },
+        "image_sha256": "4ffed5118fd7c5df5cc6624c38b3520be966cd72c904c2a79e67c00b5a339431"
+      },
+      {
+        "id": "12-xerox-technical",
+        "grid_row": 3,
+        "grid_column": 4,
+        "image": "12-xerox-technical/images/reference.png",
+        "crop_box_px": [
+          457,
+          426,
+          603,
+          640
+        ],
+        "dimensions_px": {
+          "width": 146,
+          "height": 214
+        },
+        "image_sha256": "f488174c5e6797d9c54083cc5059435f4e92e19c5deb5886a07bdc734af5f0d7"
+      }
+    ]
+  }
+}

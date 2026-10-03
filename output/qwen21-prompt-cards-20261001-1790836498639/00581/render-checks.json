@@ -1,0 +1,59 @@
+{
+  "canvas": [
+    1800,
+    2400
+  ],
+  "imageRegion": {
+    "x": 0,
+    "y": 0,
+    "width": 1800,
+    "height": 800
+  },
+  "promptRegion": {
+    "x": 0,
+    "y": 800,
+    "width": 1800,
+    "height": 1600
+  },
+  "sourceSize": [
+    1248,
+    1664
+  ],
+  "imageFit": "cover",
+  "imagePosition": "50% 0%",
+  "watermark": {
+    "x": 1404,
+    "y": 36,
+    "width": 360,
+    "height": 360,
+    "sourceSize": [
+      1254,
+      1254
+    ],
+    "widthRatio": 0.2,
+    "heightRatio": 0.45,
+    "topMargin": 36,
+    "rightMargin": 36,
+    "opacity": "0.9",
+    "insideImageRegion": true
+  },
+  "fontSize": "32px",
+  "textBottom": 2308.796875,
+  "textInside": true,
+  "pngSize": [
+    2700,
+    3600
+  ],
+  "sourceImageSha256": "0cf3bb1e323adec06dbb45766512eeda4eb00d8ac0a4114b1b7803405d993ba1",
+  "watermarkSha256": "3f7685c92a03db8b522b7b2a94ceb3d869ae0f8de61cdd3ccdcef1b27d2aa315",
+  "watermarkVariant": "white-black-outline",
+  "watermarkBackgroundLuminance": 0.6741891491388234,
+  "promptMatchesSource": true,
+  "imageInspected": true,
+  "visualInspection": {
+    "focalFaceVisible": true,
+    "signatureLegible": true,
+    "signatureCoversFace": false,
+    "textClippingObserved": false
+  }
+}

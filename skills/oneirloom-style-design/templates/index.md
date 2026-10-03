@@ -5,6 +5,7 @@ Read a template only when its visual relationships fit the request. Preserve the
 | Template | Select when | Defining relations |
 | --- | --- | --- |
 | [Physical fuse-bead artwork](fuse-bead/template.md) | Convert a supplied subject into a physical fuse-bead craft image | Uniform hollow cylindrical beads, regular grid, source-derived colors and silhouette, a single-bead-thick piece photographed on a tabletop |
+| [Experimental editorial poster collection](experimental-editorial-posters/template.md) | Create one editorial poster using one of twelve distinct graphic mechanisms | Warm off-white paper, dominant black, and recipe-specific color treatments (including monochrome for 02 and translucent-blue botanical imagery for 11); clear type hierarchy and generous margins; select one mechanism and its matching reference crop |
 | [Portrait to blind-box figure comparison](blind-box-comparison/template.md) | Create a vertical comparison with the original portrait above and the same person as a seated toy below | Original photograph in the upper panel; large-headed vinyl-and-textile figure in the lower panel; content input labeled `<image1>` |
 
 For a creative ad based on a supplied product image, follow [product art direction](../../oneirloom-product-art-direction/SKILL.md) to inspect the item before choosing a treatment.

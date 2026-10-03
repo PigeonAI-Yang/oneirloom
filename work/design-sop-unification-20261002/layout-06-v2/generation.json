@@ -1,0 +1,84 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": {
+    "known": false,
+    "name": null,
+    "reason": "The tool result exposed image_url and output_hint but no model name."
+  },
+  "generation": {
+    "transparent_background": false,
+    "source_result_path": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fb1c-8836-7c61-a9ef-0e8caa4cf114\\exec-21525155-3a45-472d-8f61-c05a76f564b9.png",
+    "output_hint": "Generated images are saved to the tool-provided path by default; the file was copied to output.png and the original was left in place."
+  },
+  "prompt": {
+    "source_path": "prompt.en.txt",
+    "submitted_path": "submitted.en.txt",
+    "sha256": "06CEC35675DEF2CC4B9A2E725DD170EC93C51F460D79F0A9C708BDAEEA3F6FEB",
+    "submitted_sha256": "06CEC35675DEF2CC4B9A2E725DD170EC93C51F460D79F0A9C708BDAEEA3F6FEB",
+    "byte_identical": true
+  },
+  "prompt_zh_correction": {
+    "path": "prompt.zh.txt",
+    "replacement": "织梦师 -> 织梦兽",
+    "replacements": 3,
+    "old_term_remaining": false,
+    "new_term_count": 3
+  },
+  "inputs": [
+    {
+      "role": "identity_reference",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png",
+      "sha256": "985A8246C49CEF7C6B2AAB480405D957E1FA27108448ED893542314496C1BAD6"
+    },
+    {
+      "role": "layout_reference",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\templates\\experimental-editorial-posters\\06-swiss-sculpture\\images\\reference.png",
+      "sha256": "F188A4960A6C841D1879A31B8E9C09B7A19AE3729A70331091F8A78A45AAEBA6"
+    }
+  ],
+  "output": {
+    "path": "output.png",
+    "source_result_path": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0fb1c-8836-7c61-a9ef-0e8caa4cf114\\exec-21525155-3a45-472d-8f61-c05a76f564b9.png",
+    "sha256": "E41A1E1DFCF853D680D40D177467DD7D5FBDAD7CE2A5065ACAB13E66C0133F24",
+    "width": 1060,
+    "height": 1484
+  },
+  "inspection": {
+    "method": "Viewed output and both source references with view_image at high detail.",
+    "overall": "partial_match_not_full_layout_pass",
+    "matches": [
+      "Portrait page is approximately 5:7; warm paper ground and a bounded cobalt strip with a right paper margin are present.",
+      "The upper-right head cluster is broad and the body crop below is narrower, reaching the bottom on the right; the lower-left remains open paper.",
+      "The identity reads as gray-lilac soft fur with indigo oval star panels and muted gold stars; no human face is visible.",
+      "Two opposing creature views and a vertical join are present; horizontal fragments stay local to the left view.",
+      "Title reads DREAM / WEAVER and footer reads ONEIRLOOM, with no extra visible copy; full cords, sling and crescent are omitted."
+    ],
+    "misses": [
+      "The title begins near 49% of page height, far below the requested 27% start, although its width is near the requested 40-44%.",
+      "The footer sits near 90% of page height rather than near 86%."
+    ],
+    "visual_estimates": {
+      "title_x": "about 6%",
+      "title_y": "about 49%",
+      "title_width": "about 42%",
+      "title_height": "about 27%",
+      "footer_y": "about 90%",
+      "blue_strip_x": "about 60-92%",
+      "right_paper_border": "about 8%"
+    }
+  },
+  "comparisons": {
+    "source_vs_result": {
+      "identity_reference": "The result carries over the purple-gray creature, oval indigo panel, gold star and antenna/tuft cues as photographic fur sculpture. The illustrated crescent, cords, sling and limbs are omitted.",
+      "layout_reference": "The result carries over the inset cobalt field, outer right paper border, right-side photographic mass, left paper field, vertical join and local horizontal fragments. The source poster title sits high; the result title sits substantially lower."
+    },
+    "prompt_vs_result": {
+      "honored": "Right-biased upper cluster tapering into a narrower right-side crop; open lower-left paper; two views and local left fragments; exact three words; bounded cobalt field and right border; no human face or full accessories.",
+      "gaps": [
+        "Title starts near 49% rather than 27% of page height.",
+        "Footer sits near 90% rather than 86%."
+      ],
+      "assessment": "partial_match_not_full_layout_pass"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "record_type": "Resumed conversational ecommerce text exercises",
+  "date": "2026-10-03",
+  "target": "J:\\PigeonYang\\skills\\oneirloom",
+  "provenance": "The delegated dialogue file was empty after restart. User explicitly asked Primary to take over; these five outputs were authored and checked by Primary. Expected criteria were already visible, so these are guided exercises, not independent blinded model tests.",
+  "model_exact_version": "Active Primary session; server response model not inspected",
+  "tool_scope": "No browsing, image upload/view/edit/generation or paid operations",
+  "run_records": [
+    {
+      "case_id": "ecommerce-clear-breakfast-direct",
+      "input": "TEXT FIXTURE, no image inspection: one intact oval bread, golden-brown crust, three shallow diagonal top scores, sparse white surface powder of unknown composition. Filling and dimensions unknown. User: Make a 3:4 realistic breakfast poster for commuters, pale wood table, morning light, title 把早晨留给自己. Chinese only. Deliver directly.",
+      "executor": "Primary after user-requested takeover",
+      "evidence_level": "guided text-fixture exercise; rubric already known; not an independent blind forward test",
+      "turns": [
+        {
+          "actual_output": "依据给定文字材料直接设计，未检查商品图。上班族早餐场景用晨光、浅木桌与杯子表达，保持完整外形；粉末成分、馅料和实际尺寸未确认。上传实际商品图时把它作为外形参考，先核对它与文字资料是否一致。以下仅为提示词，未生图或验收图片。\n\n中文提示词\n\n```text\n3:4竖版真实早餐广告摄影。一枚完整椭圆面包放在下半部白色陶瓷盘中央，金棕色表皮，顶部三条斜向浅划口，表面散布少量白色粉末，外皮连续完整。白盘放在浅木桌面上，右后方放一只白色陶瓷杯。左上方柔和晨光照亮面包顶部，盘子与桌面之间有自然接触阴影。上半部浅米色墙面留出标题空间，深棕色标题分两行左对齐，第一行“把早晨”，第二行“留给自己”。完整面包是画面主角，桌面和杯子交代晨间早餐场景。\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版真实早餐广告摄影。一枚完整椭圆面包放在下半部白色陶瓷盘中央，金棕色表皮，顶部三条斜向浅划口，表面散布少量白色粉末，外皮连续完整。白盘放在浅木桌面上，右后方放一只白色陶瓷杯。左上方柔和晨光照亮面包顶部，盘子与桌面之间有自然接触阴影。上半部浅米色墙面留出标题空间，深棕色标题分两行左对齐，第一行“把早晨”，第二行“留给自己”。完整面包是画面主角，桌面和杯子交代晨间早餐场景。"
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "pass",
+        "reason": "Direct delivery preserves format, exterior, powder appearance and title; no repeated consultation or invented ingredients."
+      },
+      "result_files": []
+    },
+    {
+      "case_id": "ecommerce-vague-bread-followup",
+      "input": "TEXT FIXTURE: one intact oval golden-brown bread, three top scores; internal structure unknown. Turn 1: Help me sell this bread; I have no visual direction. Turn 2, after relevant questions: Xiaohongshu; choose a miniature morning station; title 早安，下一站; refined model photography; Chinese only. Evaluate both turns.",
+      "executor": "Primary after user-requested takeover",
+      "evidence_level": "guided text-fixture exercise; rubric already known; not an independent blind forward test",
+      "turns": [
+        {
+          "actual_output": "材料是文字描述，当前确认完整椭圆外形、金棕表皮和三条浅划口，内部未知。我先确认主要发在哪里；如果你还没有方向，可以比较：早餐桌通过晨光与杯盘表达日常情境；简洁棚拍便于看清完整外形；微缩晨间车站利用椭圆拱顶形成记忆点。这三种分别突出用途、识别和创意。选一种后我继续细化，内部未知不影响这些完整外形方案。",
+          "prompt_blocks": []
+        },
+        {
+          "actual_output": "已接续小红书、微缩晨间车站、精致模型摄影与指定标题，采用3:4竖版作为本次版面选择。旅客与门廊属于幻想布景，商品不表现未知切面。实际上传时商品图负责外形，模型风格图只负责材质与景深；未生图，未进行外部平台调研。\n\n中文提示词\n\n```text\n3:4竖版精致微缩模型摄影海报。一枚完整椭圆面包位于画面中下部，金棕色圆拱表皮，顶部三条浅划口。面包的圆拱外形构成幻想晨间车站的屋顶，完整外皮朝向镜头。独立奶油色模型门廊立在面包前侧的模型底板上，门廊和面包之间有细小空隙；两位模型旅客站在门廊外，人物高度约为面包高度的十分之一。细小站牌和短轨道位于前景底板，与面包共享左上方柔光和接触阴影。门廊、旅客、站牌和轨道组成围绕面包搭建的虚构模型世界。暖白背景上方以深棕色排出标题“早安，下一站”，面包拱顶占主要画面体量。\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版精致微缩模型摄影海报。一枚完整椭圆面包位于画面中下部，金棕色圆拱表皮，顶部三条浅划口。面包的圆拱外形构成幻想晨间车站的屋顶，完整外皮朝向镜头。独立奶油色模型门廊立在面包前侧的模型底板上，门廊和面包之间有细小空隙；两位模型旅客站在门廊外，人物高度约为面包高度的十分之一。细小站牌和短轨道位于前景底板，与面包共享左上方柔光和接触阴影。门廊、旅客、站牌和轨道组成围绕面包搭建的虚构模型世界。暖白背景上方以深棕色排出标题“早安，下一站”，面包拱顶占主要画面体量。"
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "pass",
+        "reason": "One material placement question, three distinct reasoned directions, then full chosen prompt without asking again."
+      },
+      "result_files": []
+    },
+    {
+      "case_id": "ecommerce-sequential-background-style-copy",
+      "input": "TEXT FIXTURE: one intact oval golden bread with three top scores and unknown filling. Initial accepted design: 3:4 realistic breakfast poster, white plate at lower center on pale wood table, white cup at rear right, warm upper-left light, cream wall, title 把早晨留给自己. Chinese only. Turn 1: Change only wall to pale blue. Turn 2: Use colored-pencil illustration. Turn 3: Change title to 今天，也从容一点. Evaluate every assistant revision.",
+      "executor": "Primary after user-requested takeover",
+      "evidence_level": "guided text-fixture exercise; rubric already known; not an independent blind forward test",
+      "turns": [
+        {
+          "actual_output": "依文字材料修改，仅墙面改淡蓝色，其他当前约定保留。商品参考职责仍是外形；没有结果图，以下为完整文本改稿，未验图。\n\n中文提示词\n\n```text\n3:4竖版真实早餐宣传摄影。一枚完整椭圆面包置于画面下半部中央白色陶瓷盘上，金黄色表皮，顶部三条浅划口，外皮连续完整。盘子放在浅木桌面上，白色陶瓷杯位于右后方。左上方温暖晨光照亮面包顶部，盘底投下柔和接触阴影。上方淡蓝色墙面保持整洁，深棕色中文标题“把早晨留给自己”分两行左对齐，商品与标题之间留出清晰空间。\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版真实早餐宣传摄影。一枚完整椭圆面包置于画面下半部中央白色陶瓷盘上，金黄色表皮，顶部三条浅划口，外皮连续完整。盘子放在浅木桌面上，白色陶瓷杯位于右后方。左上方温暖晨光照亮面包顶部，盘底投下柔和接触阴影。上方淡蓝色墙面保持整洁，深棕色中文标题“把早晨留给自己”分两行左对齐，商品与标题之间留出清晰空间。"
+            }
+          ]
+        },
+        {
+          "actual_output": "接续淡蓝墙面，换成细腻彩铅；杯盘、桌面、构图、原标题和商品事实继续有效。商品图负责外形，新增风格图若提供则负责彩铅笔触。仍未生图。\n\n中文提示词\n\n```text\n3:4竖版细腻彩铅早餐宣传插画，细密线条和叠色呈现轻微纸面颗粒。一枚完整椭圆面包置于画面下半部中央白色陶瓷盘上，金黄色表皮，顶部三条浅划口，外皮连续完整。盘子放在浅木桌面上，白色陶瓷杯位于右后方。左上方暖光用柔和暖色彩铅层表现，盘底投下柔和接触阴影。上方淡蓝色墙面保持整洁，深棕色中文标题“把早晨留给自己”分两行左对齐，商品与标题之间留出清晰空间。\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版细腻彩铅早餐宣传插画，细密线条和叠色呈现轻微纸面颗粒。一枚完整椭圆面包置于画面下半部中央白色陶瓷盘上，金黄色表皮，顶部三条浅划口，外皮连续完整。盘子放在浅木桌面上，白色陶瓷杯位于右后方。左上方暖光用柔和暖色彩铅层表现，盘底投下柔和接触阴影。上方淡蓝色墙面保持整洁，深棕色中文标题“把早晨留给自己”分两行左对齐，商品与标题之间留出清晰空间。"
+            }
+          ]
+        },
+        {
+          "actual_output": "保留上一轮彩铅与淡蓝墙面，只换标题；两行分别放“今天，”和“也从容一点”，合起来保留原字句，调整标题行宽。商品事实与参考职责继续保留；未生图。\n\n中文提示词\n\n```text\n3:4竖版细腻彩铅早餐宣传插画，细密线条和叠色呈现轻微纸面颗粒。一枚完整椭圆面包置于画面下半部中央白色陶瓷盘上，金黄色表皮，顶部三条浅划口，外皮连续完整。盘子放在浅木桌面上，白色陶瓷杯位于右后方。左上方暖光用柔和暖色彩铅层表现，盘底投下柔和接触阴影。上方淡蓝色墙面保持整洁，深棕色中文标题分两行左对齐，第一行“今天，”，第二行“也从容一点”。标题与面包顶部之间留出清晰空间。\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版细腻彩铅早餐宣传插画，细密线条和叠色呈现轻微纸面颗粒。一枚完整椭圆面包置于画面下半部中央白色陶瓷盘上，金黄色表皮，顶部三条浅划口，外皮连续完整。盘子放在浅木桌面上，白色陶瓷杯位于右后方。左上方暖光用柔和暖色彩铅层表现，盘底投下柔和接触阴影。上方淡蓝色墙面保持整洁，深棕色中文标题分两行左对齐，第一行“今天，”，第二行“也从容一点”。标题与面包顶部之间留出清晰空间。"
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "pass",
+        "reason": "Each full revision retains all still-valid choices, with only requested background, medium or copy changes; no filling is invented."
+      },
+      "result_files": []
+    },
+    {
+      "case_id": "ecommerce-reject-old-direction",
+      "input": "TEXT FIXTURE: intact oval golden bread, three top scores, unknown filling. Current design is a 3:4 colored-pencil breakfast scene on pale wood, blue wall, cup and plate, title 今天，也从容一点. User: Reject this direction. Make a centered minimal product photograph against dark gray, no tableware or copy. Chinese only.",
+      "executor": "Primary after user-requested takeover",
+      "evidence_level": "guided text-fixture exercise; rubric already known; not an independent blind forward test",
+      "turns": [
+        {
+          "actual_output": "以文字材料为依据，新指令替换早餐、彩铅、杯盘和文案决定，保留一枚完整椭圆面包及已知表皮。原商品图若提供仍负责外形，旧场景不作为新目标。以下为完整改稿，未生图或验图。\n\n中文提示词\n\n```text\n3:4竖版极简商品摄影。一枚完整椭圆面包位于深灰色哑光台面中央，金黄色圆拱表皮，顶部三条浅划口，外皮连续完整。面包横向放置，主体宽度约占画面一半。深灰色背景与台面形成柔和明度过渡，左上方大面积柔光照亮顶部与边缘，底部有清晰柔和的接触阴影。画面由中央面包、深灰空间和均衡留白构成，完整外形与表皮质感是视觉中心。\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版极简商品摄影。一枚完整椭圆面包位于深灰色哑光台面中央，金黄色圆拱表皮，顶部三条浅划口，外皮连续完整。面包横向放置，主体宽度约占画面一半。深灰色背景与台面形成柔和明度过渡，左上方大面积柔光照亮顶部与边缘，底部有清晰柔和的接触阴影。画面由中央面包、深灰空间和均衡留白构成，完整外形与表皮质感是视觉中心。"
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "pass",
+        "reason": "Replaces rejected design decisions while retaining product identity and current 3:4 format."
+      },
+      "result_files": []
+    },
+    {
+      "case_id": "ecommerce-doubao-portable-language",
+      "input": "TEXT FIXTURE: one intact oval golden bread, unknown interior. User asks: Prepare a collaboration instruction for Doubao and complete prompts for a 3:4 realistic breakfast ad with title 早安，面包. No native Doubao Skill capability is established. The user has not requested Chinese only.",
+      "executor": "Primary after user-requested takeover",
+      "evidence_level": "guided text-fixture exercise; rubric already known; not an independent blind forward test",
+      "turns": [
+        {
+          "actual_output": "交给助手的工作指令：\n\n```text\n我提供商品图和现有资料，请帮我做3:4写实早餐广告，标题“早安，面包”。先核对图和资料，只把看得到或有来源支持的外形写进方案，内部和配料未知则保留未知。直接交付完整中英提示词，后续按我的局部修改保留其他有效决定。没有结果图时只修订方案，不声称检查了图片。\n```\n\n以下交给生图工具的提示词依据文字测试材料撰写，没有实际商品图。若所用入口支持上传，把实际商品图作为商品外形参考；这里没有建立豆包原生Skill能力，也没有调用或生成图片。说明和上传操作放在生图提示词之外。\n\n中文提示词\n\n```text\n3:4竖版真实早餐广告摄影。一枚完整椭圆面包位于画面下半部中央，金黄色表皮与连续圆拱外形清楚可见。面包置于白色陶瓷盘上，盘子放在浅木桌面，右后方摆一只白色陶瓷杯。左上方柔和晨光照亮面包与杯盘，底部有自然接触阴影。上方浅米色墙面留出舒展空间，深棕色中文标题“早安，面包”左对齐排布。面包是第一视觉主体，杯盘交代温暖早餐情境。\n```\n\nEnglish prompt\n\n```text\nA vertical 3:4 realistic breakfast advertisement photograph. One intact oval bread sits at the lower center, with a clearly visible golden crust and continuous domed exterior. Place the bread on a white ceramic plate on a pale wood table, with a white ceramic cup at the rear right. Soft morning light from the upper left illuminates the bread and tableware, with natural contact shadows underneath. Leave generous space on a pale cream wall in the upper area and place the left-aligned dark brown Chinese title \"早安，面包\" there. The bread is the primary visual focus; the plate and cup establish a warm breakfast setting.\n```",
+          "prompt_blocks": [
+            {
+              "language": "zh",
+              "text": "3:4竖版真实早餐广告摄影。一枚完整椭圆面包位于画面下半部中央，金黄色表皮与连续圆拱外形清楚可见。面包置于白色陶瓷盘上，盘子放在浅木桌面，右后方摆一只白色陶瓷杯。左上方柔和晨光照亮面包与杯盘，底部有自然接触阴影。上方浅米色墙面留出舒展空间，深棕色中文标题“早安，面包”左对齐排布。面包是第一视觉主体，杯盘交代温暖早餐情境。"
+            },
+            {
+              "language": "en",
+              "text": "A vertical 3:4 realistic breakfast advertisement photograph. One intact oval bread sits at the lower center, with a clearly visible golden crust and continuous domed exterior. Place the bread on a white ceramic plate on a pale wood table, with a white ceramic cup at the rear right. Soft morning light from the upper left illuminates the bread and tableware, with natural contact shadows underneath. Leave generous space on a pale cream wall in the upper area and place the left-aligned dark brown Chinese title \"早安，面包\" there. The bread is the primary visual focus; the plate and cup establish a warm breakfast setting."
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "status": "pass",
+        "reason": "Assistant instructions and complete image prompts are separate; bilingual versions match, including the literal Chinese title, with no native invocation claim."
+      },
+      "result_files": []
+    }
+  ]
+}

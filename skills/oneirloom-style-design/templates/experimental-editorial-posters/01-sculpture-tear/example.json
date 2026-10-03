@@ -1,0 +1,27 @@
+{
+  "sample": "01-sculpture-tear",
+  "paths": {
+    "reference": "images/reference.png",
+    "submitted": "submitted.en.txt",
+    "result": "images/transfer-01.png"
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlyingModel": null,
+    "underlyingModelNote": "The tool response did not expose the underlying model.",
+    "requestedAspectRatio": "2:3",
+    "actualDimensionsPx": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actualAspectRatio": "2:3 (0.6667)"
+  },
+  "observations": [
+    "One flat poster fills the canvas edge to edge.",
+    "A grayscale marble Athena bust occupies the right and lower area; warm off-white paper grain, a jagged white tear, and a saturated red strip at the far right are visible.",
+    "The requested copy appears in the specified order and spelling: FORM, 01, Old shapes, New readings, FIELD STUDIES, A poster study."
+  ],
+  "deviations": [
+    "FORM spans most of the canvas and intrudes into the tear/red-strip area, reducing the intended open space around the upper-left title."
+  ]
+}

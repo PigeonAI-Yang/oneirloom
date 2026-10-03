@@ -1,0 +1,22 @@
+{
+  "fallback": "暂无生成图像。登记本地生成素材后，会在这里显示。",
+  "desktop_width": {
+    "document": 1280,
+    "body": 1280,
+    "inner": 1280
+  },
+  "mobile_width": {
+    "document": 390,
+    "body": 390,
+    "inner": 390
+  },
+  "template_count": 14,
+  "platform_count": 5,
+  "current_generated_image": "../assets/generated/pose-decomposition/P01-celebrate.png",
+  "untrusted_json_text_only": true,
+  "default_build_without_catalog": true,
+  "page_errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "browser": "Microsoft Edge"
+}

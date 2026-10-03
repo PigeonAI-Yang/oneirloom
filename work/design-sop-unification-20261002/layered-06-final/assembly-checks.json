@@ -1,0 +1,109 @@
+{
+  "unchanged_draft_elements": {
+    "paper": true,
+    "blue-panel": true,
+    "adapted-title": true,
+    "title-dream": true,
+    "title-weaver": true,
+    "adapted-footer": true,
+    "left-local-view": true
+  },
+  "right_contour_unchanged": true,
+  "exact_text": true,
+  "screenshot_dimensions": [
+    1450,
+    2040
+  ],
+  "source_asset_embedded": true,
+  "uniform_scales": {
+    "right": 1.05,
+    "left_mirrored": 1.25
+  },
+  "star_centers_on_page": {
+    "right": [
+      1116.5,
+      693.6
+    ],
+    "left_base": [
+      623.5,
+      367.2
+    ]
+  },
+  "fragment_offsets": [
+    14,
+    0,
+    -16,
+    16,
+    -16,
+    14
+  ],
+  "native_alpha": {
+    "path": "subject-right.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "sha256": "0e34d35e3b6b321906032352762d8c4137b0831e66eeb2624b98aefb77f072a9",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "alpha_gt_127_bbox": [
+      16,
+      59,
+      1021,
+      1536
+    ],
+    "fully_transparent_fraction": 0.2548707326253255,
+    "alpha_corners": [
+      0,
+      0,
+      1,
+      20
+    ],
+    "manual_star_center": [
+      780,
+      780
+    ],
+    "manual_star_bbox": [
+      689,
+      650,
+      868,
+      909
+    ]
+  },
+  "browser": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "fonts": {
+    "status": "loaded",
+    "impactAvailable": true
+  },
+  "decoded_asset": [
+    {
+      "width": 1024,
+      "height": 1536,
+      "loaded": true
+    }
+  ],
+  "preview": {
+    "loaded": true,
+    "width": 1450,
+    "height": 2040
+  },
+  "page_errors": [],
+  "technical_checks_passed": true,
+  "visual_status": "coverage failure; root decision required before changing fixed layout or making another asset",
+  "observed_coverage_limit": {
+    "right_asset_canvas_bottom": 1487.4,
+    "required_right_contour_bottom": 2040,
+    "left_asset_canvas_bottom": 1312.2,
+    "lower_left_window_starts": 1326
+  },
+  "overall_accepted": false
+}

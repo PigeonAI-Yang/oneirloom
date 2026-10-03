@@ -1,0 +1,173 @@
+{
+  "html": "docs/product-page/index.html",
+  "width": 1080,
+  "panels": [
+    {
+      "name": "01-hero",
+      "geometry": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 1080
+      }
+    },
+    {
+      "name": "02-value",
+      "geometry": {
+        "x": 0,
+        "y": 1080,
+        "width": 1080,
+        "height": 800.3125
+      }
+    },
+    {
+      "name": "03-portraits",
+      "geometry": {
+        "x": 0,
+        "y": 1880.3125,
+        "width": 1080,
+        "height": 1429.28125
+      }
+    },
+    {
+      "name": "04-product",
+      "geometry": {
+        "x": 0,
+        "y": 3309.59375,
+        "width": 1080,
+        "height": 1270.796875
+      }
+    },
+    {
+      "name": "05-worlds",
+      "geometry": {
+        "x": 0,
+        "y": 4580.390625,
+        "width": 1080,
+        "height": 1140.46875
+      }
+    },
+    {
+      "name": "06-character",
+      "geometry": {
+        "x": 0,
+        "y": 5720.859375,
+        "width": 1080,
+        "height": 1291.859375
+      }
+    },
+    {
+      "name": "07-start",
+      "geometry": {
+        "x": 0,
+        "y": 7012.71875,
+        "width": 1080,
+        "height": 1239.28125
+      }
+    }
+  ],
+  "allImagesLoaded": true,
+  "horizontalOverflow": false,
+  "pageErrors": [],
+  "sourceAssets": [
+    {
+      "path": "docs/assets/portraits/19_close_fixed.webp",
+      "sha256": "b4643abcfb81d53fb81dcc03c45b522e63af69967c1fe140901bc84c9d869adf"
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp",
+      "sha256": "b955f997d2c2964f9f47dd745c1694ffcc1f693d72955140f5da99b697d34584"
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp",
+      "sha256": "4b065b4870ca1f0533556e53644320e13f31c1b0b3720ab76974c14b5cdeaa62"
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/assets/oneirloom-woven-signature-white-black-outline.png",
+      "sha256": "3f7685c92a03db8b522b7b2a94ceb3d869ae0f8de61cdd3ccdcef1b27d2aa315"
+    },
+    {
+      "path": "docs/assets/portraits/19_close_fixed.webp",
+      "sha256": "b4643abcfb81d53fb81dcc03c45b522e63af69967c1fe140901bc84c9d869adf"
+    },
+    {
+      "path": "docs/assets/portraits/01_full.webp",
+      "sha256": "91ae0801e2327b64d30d12ae74203aadcbdc64a51e77b4311ec7122bff683f02"
+    },
+    {
+      "path": "docs/assets/portraits/09_seated.webp",
+      "sha256": "5b3451624ca5b389c650de65c25b74bedbe47cd5e068487fdcf757febba86660"
+    },
+    {
+      "path": "docs/assets/portraits/25_hard_fixed.webp",
+      "sha256": "a068bc5e848d2f6c26b44b5531286ff785edbb03b8c4cc968fd0c2102fe02f1f"
+    },
+    {
+      "path": "docs/assets/portraits/26_warm_fixed.webp",
+      "sha256": "cf3b57df841aebd6ae1a98948d366a24b9ce3441759ddb32c9e064267fa89b9f"
+    },
+    {
+      "path": "docs/assets/portraits/e25_backlight.webp",
+      "sha256": "ed9c5e27381429015576e7f0aca2cd1902d408543492c82f382f7057761b7e0d"
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.webp",
+      "sha256": "1c23ad9eca26daa148b0a3bb1dd03d854d59e23b9f1c7b501e1fa3073789c8ec"
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.webp",
+      "sha256": "4b065b4870ca1f0533556e53644320e13f31c1b0b3720ab76974c14b5cdeaa62"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.webp",
+      "sha256": "0c63357eb5dcc741d2368fdead1c2a4e630d0fb6d86d1b23f4b2d72f930e4359"
+    },
+    {
+      "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.webp",
+      "sha256": "b955f997d2c2964f9f47dd745c1694ffcc1f693d72955140f5da99b697d34584"
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/assets/oneirloom-woven-signature-white-black-outline.png",
+      "sha256": "3f7685c92a03db8b522b7b2a94ceb3d869ae0f8de61cdd3ccdcef1b27d2aa315"
+    },
+    {
+      "path": "docs/assets/dream-cocoon/03-actions.png",
+      "sha256": "352751940cf38ddc7e7f225a3689b211f044d13a2295b6d51c995943789731c0"
+    },
+    {
+      "path": "skills/oneirloom-prompt-card/assets/oneirloom-woven-signature-white-black-outline.png",
+      "sha256": "3f7685c92a03db8b522b7b2a94ceb3d869ae0f8de61cdd3ccdcef1b27d2aa315"
+    }
+  ],
+  "readme": {
+    "localReferences": 52,
+    "missingReferences": [],
+    "anchors": [
+      {
+        "href": "#开始使用",
+        "exists": true
+      },
+      {
+        "href": "#案例与记录",
+        "exists": true
+      },
+      {
+        "href": "#技能目录",
+        "exists": true
+      }
+    ],
+    "viewports": [
+      {
+        "width": 1080,
+        "pageWidth": 1080
+      },
+      {
+        "width": 390,
+        "pageWidth": 390
+      }
+    ]
+  },
+  "imageInspected": true,
+  "portraitSourceHashesUnchanged": true,
+  "remotePublication": "Not published or verified remotely"
+}

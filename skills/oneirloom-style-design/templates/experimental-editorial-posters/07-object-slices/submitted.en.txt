@@ -1,0 +1,22 @@
+Create a complete, standalone portrait 2:3 experimental editorial poster on flat matte warm ivory paper with subtle paper grain. The subject is one ripe pear with a gently curved stem and a clear pear silhouette: a narrow neck above a full, rounded lower body. Present it as a high-contrast black-and-white still life, preserving the pear's skin speckles, fine surface grain, and natural tonal variation.
+
+Divide the whole pear from top to bottom into exactly seven ordered, thin horizontal slabs. Each slab retains the contour, skin texture, speckles, and tones of its corresponding part of the pear, so the seven pieces still read at a glance as the same pear. Keep the curved stem and top at the upper end, with the lower pear sections arranged beneath it in order. Separate every slab with a slim, even warm-white gap. Shift the slabs slightly left and right in alternating order from top to bottom, creating a clear, restrained stagger while preserving the overall pear silhouette. Color only the central fourth slab vivid green; keep the other six slabs black, white, and gray. Preserve pear-skin texture and consistent lighting on the green slab. Soft light enters from the upper left, with a small natural contact shadow beneath each slab and one coherent shadow direction.
+
+Center the complete pear in the upper-to-middle area of the canvas at about 70% of the canvas width. Leave a clear narrow column at the upper right. Set the title there in black ink and restrained, crisp editorial sans-serif type, stacked on four separate lines with this exact wording:
+“ONE”
+“FORM”
+“MANY”
+“VIEWS”
+
+Place a separate small annotation on the right, one word per line, exactly:
+“Slice”
+“Shift”
+“Rethink”
+
+Set this line in bold at the lower left:
+“FIELD 07”
+
+Set this line in very small type at the lower right:
+“A different order”
+
+Use only the in-image text listed above, preserving its exact spelling, capitalization, and line order. Render the text clearly in black ink with generous paper space. Let the pear, its slabs, and their shadows sit naturally on the same sheet, forming a complete, quiet, visually striking editorial poster.

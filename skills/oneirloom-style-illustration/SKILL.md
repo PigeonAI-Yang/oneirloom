@@ -14,6 +14,8 @@ description: Compose watercolor, print, comic, animation, concept-art, folkloric
 
 ## Method checklist
 
+When illustration is used in a poster, cover, editorial layout, infographic, or composed ad, read the [graphic-design SOP](../oneirloom-style-design/references/graphic-design-sop.md) before adapting a recipe. It owns the brief, layout, mechanism transfer, and review order; this method supplies linework, medium, texture, and color-layer decisions. Preserve the intended crop, relative areas, and overlap when changing medium. Illustration without a graphic-layout task keeps the checklist below.
+
 - Establish the medium and image structure, then specify lines and edges, marks and texture, color layers, the role of paper or canvas, and subject/background relationships.
 - The same style name can describe different techniques; specify the visible result.
 - For watercolor streets, describe light pencil structure, transparent washes spreading into damp paper, and paper-white window edges.

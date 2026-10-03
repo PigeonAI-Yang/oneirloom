@@ -1,0 +1,69 @@
+{
+  "public_name": "织梦师 Oneirloom",
+  "source_root": "J:\\PigeonYang\\skills\\oneirloom",
+  "main_invocation": "$oneirloom",
+  "method_namespace": "oneirloom-",
+  "active_skills": 14,
+  "github_repository": "https://github.com/PigeonAI-Yang/oneirloom",
+  "github_repository_id": 1388440925,
+  "rename_commit": "d54a6cef71f0e55679180276c75f06f6989fcb86",
+  "checker_removal_commit": "75b6f7a671a8a0bc8dc6b47d232657a6c26744d6",
+  "full_checker_removed": true,
+  "source_preservation_before_explicit_checker_removal": {
+    "status": "pass",
+    "source_files_preserved": 377,
+    "rename_only_changed_files": 30,
+    "original_dirty_entries_preserved": 39,
+    "installed_skills": 14,
+    "documents_with_valid_local_links": 50,
+    "public_files_verified_as_rename_only": 28
+  },
+  "native_discovery": {
+    "entry": {
+      "userAgent": "Codex Desktop/0.153.0 (Windows 10.0.26100; x86_64) dumb (oneirloom-migration; 1.0)",
+      "codexHome": "J:\\Users\\yangda01\\.codex",
+      "platformFamily": "windows",
+      "platformOs": "windows"
+    },
+    "cwd": "J:\\PigeonYang\\skills\\oneirloom",
+    "discovered": {
+      "oneirloom": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+      "oneirloom-camera-composition": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-camera-composition\\SKILL.md",
+      "oneirloom-character-sheet": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-character-sheet\\SKILL.md",
+      "oneirloom-color-light": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md",
+      "oneirloom-figure-art": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-figure-art\\SKILL.md",
+      "oneirloom-image-tutorial": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-image-tutorial\\SKILL.md",
+      "oneirloom-model-krea-2": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-model-krea-2\\SKILL.md",
+      "oneirloom-model-qwen-image-2-1": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-model-qwen-image-2-1\\SKILL.md",
+      "oneirloom-product-art-direction": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+      "oneirloom-result-diagnosis": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-result-diagnosis\\SKILL.md",
+      "oneirloom-style-design": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+      "oneirloom-style-illustration": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-illustration\\SKILL.md",
+      "oneirloom-style-photography": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+      "oneirloom-visual-analysis": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-visual-analysis\\SKILL.md"
+    },
+    "result": "pass"
+  },
+  "persisted_project": [
+    "01a0f154-75c6-77b1-89fe-6db0f3e747ba",
+    "oneirloom"
+  ],
+  "desktop_project_cache": {
+    "id": "100cc9b1-700e-42f3-846d-2fdabea695e7",
+    "name": "dreamweaver",
+    "rootPaths": [
+      "J:\\PigeonYang\\skills\\dreamweaver"
+    ],
+    "createdAt": 1790755239354,
+    "updatedAt": 1790755239354
+  },
+  "old_directory_exists": true,
+  "old_directory_empty": true,
+  "limitations": [
+    "Old source root remains empty and locked by a running Windows process.",
+    "Current desktop sidebar refresh is unverified."
+  ],
+  "historical_archives_unchanged": true,
+  "existing_uncommitted_work_published": false,
+  "full_checker_run_after_user_removal_request": false
+}

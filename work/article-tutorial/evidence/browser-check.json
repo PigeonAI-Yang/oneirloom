@@ -1,0 +1,20 @@
+{
+  "desktop": {
+    "chapters": 16,
+    "subsections": 37,
+    "figures": 39,
+    "loadedImages": 39,
+    "horizontalOverflow": false,
+    "copyButtons": 34,
+    "everySubsectionIllustrated": true,
+    "lightboxOpens": true,
+    "copyButtonFeedback": "已复制"
+  },
+  "mobile": {
+    "viewport": 390,
+    "scrollWidth": 390,
+    "horizontalOverflow": false,
+    "mobileTocVisible": true
+  },
+  "pageErrors": []
+}

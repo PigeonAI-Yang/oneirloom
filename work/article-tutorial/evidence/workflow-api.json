@@ -1,0 +1,134 @@
+{
+  "4": {
+    "inputs": {
+      "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader",
+    "_meta": {
+      "title": "UNet加载器"
+    }
+  },
+  "5": {
+    "inputs": {
+      "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+      "type": "qwen_image",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader",
+    "_meta": {
+      "title": "加载CLIP"
+    }
+  },
+  "6": {
+    "inputs": {
+      "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+    },
+    "class_type": "VAELoader",
+    "_meta": {
+      "title": "加载VAE"
+    }
+  },
+  "7": {
+    "inputs": {
+      "prompt": "一张2×2四宫格时尚写真，四格呈现同一位25岁东亚成年女性，面容、黑色长卷发、服装和身材比例一致。纤细腰身、丰满臀型、修长四肢，整体苗条，腰臀轮廓鲜明。穿奶油白合身针织短裙，面料厚实，裙摆覆盖臀部与大腿上段。清透淡妆，浅粉唇色，清甜表情结合自信目光。\n\n左上：背身回眸。背部朝向镜头，身体向右转约四分之一圈，头部转过右肩，目光看向镜头；左腿承重，右膝轻微放松，一只手自然垂在身侧。画面从头顶延伸至小腿，完整呈现站姿与衣裙轮廓。\n\n右上：侧身倚窗。身体侧面对着镜头，左肩轻靠窗边，左手搭在窗台，右手将头发拢至耳后；两脚前后错开，脸朝镜头轻转，嘴角微扬。画面从头顶延伸至膝下。\n\n左下：斜坐椅边。坐在浅木色椅子的前半部，躯干保持舒展，双膝并拢朝画面右侧，脚尖落地，一手搭在椅面，另一手放在膝上；脸转向镜头，神态放松。画面完整容纳头部、椅子和双脚。\n\n右下：行走回头。身体朝画面左侧迈步，前脚落地、后脚脚跟抬起，肩膀和头部转向镜头，发梢随转身轻轻摆动，露出自然浅笑。全身构图，人物前方留出行走空间。\n\n四格均为平视人像，人物占据各格主要区域，形成清楚的站立、倚靠、坐姿和行走变化。暖白墙面与浅木家具构成统一室内场景，左侧窗光照亮脸颊和衣料，右侧保留柔和阴影，黑发保持深色层次，肤色自然暖亮。真实皮肤纹理，清晰针织质感，四格等大，以细白线分隔。",
+      "negative_prompt": "",
+      "resolution": 1024,
+      "clip": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "TextEncodeQwenImage21",
+    "_meta": {
+      "title": "Text Encode Qwen Image 2.1"
+    }
+  },
+  "8": {
+    "inputs": {
+      "width": [
+        "17",
+        0
+      ],
+      "height": [
+        "17",
+        1
+      ],
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "空Latent图像"
+    }
+  },
+  "9": {
+    "inputs": {
+      "seed": 1115195880819235,
+      "steps": 40,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "7",
+        0
+      ],
+      "negative": [
+        "7",
+        1
+      ],
+      "latent_image": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "K采样器"
+    }
+  },
+  "15": {
+    "inputs": {
+      "samples": [
+        "9",
+        0
+      ],
+      "vae": [
+        "6",
+        0
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE解码"
+    }
+  },
+  "16": {
+    "inputs": {
+      "filename_prefix": "Qwen21_official",
+      "images": [
+        "15",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "保存图像"
+    }
+  },
+  "17": {
+    "inputs": {
+      "aspect_ratio": "9:16 (Portrait Widescreen)",
+      "megapixels": 2.0,
+      "multiple": 8
+    },
+    "class_type": "ResolutionSelector",
+    "_meta": {
+      "title": "分辨率选择器"
+    }
+  }
+}

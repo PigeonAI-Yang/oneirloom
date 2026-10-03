@@ -1,0 +1,93 @@
+{
+  "panels": [
+    {
+      "file": "01-hero-oneirloom-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "b15225acaa23fc465de69478c349e670a28d22e077a67d2304ec5a325022ab1b",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "02-value-oneirloom-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "d5c92ac7f1240b2a79256a9017194989bc5140747b6db0aa50c3c9aafc1b3e77",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "03-portraits-native-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "0f99133523300035f924f8c9774fccb69cf169e720f68b51149be208b56dbf33",
+      "kind": "archived-photo native layout"
+    },
+    {
+      "file": "04-product-oneirloom-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "c4ae4649fd4159c98fd379d31322db3b0d7c7ac0524d76571c0a0b1a33216390",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "05-worlds-oneirloom-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "63a3e41f66395e6fd109386cd01f507f386d51b2d2f76aa4364be573a879deac",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "06-character-oneirloom-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "0d1433147f67d160549c7265e8a4782c29c92f079e711aefb2bedb12c5400a42",
+      "kind": "reference-conditioned generated promotional artwork"
+    },
+    {
+      "file": "07-start-oneirloom-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "30297e787c9d3afb52389fce467a8051db5a08f0804c669503227c1c4bd0d564",
+      "kind": "reference-conditioned generated promotional artwork"
+    }
+  ],
+  "panelCount": 7,
+  "allImagesLoaded": true,
+  "mobileWidth": 390,
+  "imageInspected": true,
+  "portraitGeneration": "Output rejected by service safety review; native archived-photo layout selected",
+  "remotePublication": "Not published",
+  "readme": {
+    "missingReferences": [],
+    "viewports": [
+      {
+        "viewport": 1080,
+        "page": 1080
+      },
+      {
+        "viewport": 390,
+        "page": 390
+      }
+    ]
+  },
+  "portraitSourcesUnchanged": true,
+  "review": {
+    "background": "Near-black blue-violet; visibly darker than periwinkle mascot and cyan threads",
+    "mainTitles": "Visually inspected",
+    "portraitFooter": "Inside 1254 pixel panel",
+    "promotionalExamples": "Reference-conditioned artwork; original case records linked in README"
+  }
+}

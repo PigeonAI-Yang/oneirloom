@@ -1,0 +1,347 @@
+{
+  "job": {
+    "id": "19_close_fixed",
+    "prompt": "写实面部特写肖像，整张脸占画面高度约七成，头顶靠近画面上缘，画框下缘切在锁骨下方，只呈现头部、颈部和一小部分双肩。相机接近眼睛高度。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。目光直视镜头，嘴唇轻闭，表情平静。肩部可见黑色细肩带和少量缎面领口。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。背景是柔和的卧室米色墙面与深棕色门的局部色块。",
+    "seed": 2026092807,
+    "revision": "After inspecting initial crop and viewpoint misses"
+  },
+  "prompt_id": "23560423-7841-440b-aadc-e7bed44385fa",
+  "graph": {
+    "4": {
+      "inputs": {
+        "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "class_type": "UNETLoader",
+      "_meta": {
+        "title": "UNet加载器"
+      }
+    },
+    "5": {
+      "inputs": {
+        "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+        "type": "qwen_image",
+        "device": "default"
+      },
+      "class_type": "CLIPLoader",
+      "_meta": {
+        "title": "加载CLIP"
+      }
+    },
+    "6": {
+      "inputs": {
+        "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+      },
+      "class_type": "VAELoader",
+      "_meta": {
+        "title": "加载VAE"
+      }
+    },
+    "7": {
+      "inputs": {
+        "prompt": "写实面部特写肖像，整张脸占画面高度约七成，头顶靠近画面上缘，画框下缘切在锁骨下方，只呈现头部、颈部和一小部分双肩。相机接近眼睛高度。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。目光直视镜头，嘴唇轻闭，表情平静。肩部可见黑色细肩带和少量缎面领口。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。背景是柔和的卧室米色墙面与深棕色门的局部色块。",
+        "negative_prompt": "",
+        "resolution": 1024,
+        "clip": [
+          "5",
+          0
+        ]
+      },
+      "class_type": "TextEncodeQwenImage21",
+      "_meta": {
+        "title": "Text Encode Qwen Image 2.1"
+      }
+    },
+    "8": {
+      "inputs": {
+        "width": [
+          "17",
+          0
+        ],
+        "height": [
+          "17",
+          1
+        ],
+        "batch_size": 1
+      },
+      "class_type": "EmptyLatentImage",
+      "_meta": {
+        "title": "空Latent图像"
+      }
+    },
+    "9": {
+      "inputs": {
+        "seed": 2026092807,
+        "steps": 40,
+        "cfg": 1.0,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "denoise": 1.0,
+        "model": [
+          "4",
+          0
+        ],
+        "positive": [
+          "7",
+          0
+        ],
+        "negative": [
+          "7",
+          1
+        ],
+        "latent_image": [
+          "8",
+          0
+        ]
+      },
+      "class_type": "KSampler",
+      "_meta": {
+        "title": "K采样器"
+      }
+    },
+    "15": {
+      "inputs": {
+        "samples": [
+          "9",
+          0
+        ],
+        "vae": [
+          "6",
+          0
+        ]
+      },
+      "class_type": "VAEDecode",
+      "_meta": {
+        "title": "VAE解码"
+      }
+    },
+    "16": {
+      "inputs": {
+        "filename_prefix": "portrait_tutorial_20260928/19_close_fixed",
+        "images": [
+          "15",
+          0
+        ]
+      },
+      "class_type": "SaveImage",
+      "_meta": {
+        "title": "保存图像"
+      }
+    },
+    "17": {
+      "inputs": {
+        "aspect_ratio": "3:4 (Portrait Standard)",
+        "megapixels": 1.0,
+        "multiple": 8
+      },
+      "class_type": "ResolutionSelector",
+      "_meta": {
+        "title": "分辨率选择器"
+      }
+    }
+  },
+  "submitted_at": 1790554337.1637378,
+  "completed": true,
+  "history": {
+    "prompt": [
+      99,
+      "23560423-7841-440b-aadc-e7bed44385fa",
+      {
+        "4": {
+          "inputs": {
+            "unet_name": "qwen_image_2.1_int8_convrot.safetensors",
+            "weight_dtype": "default"
+          },
+          "class_type": "UNETLoader",
+          "_meta": {
+            "title": "UNet加载器"
+          }
+        },
+        "5": {
+          "inputs": {
+            "clip_name": "qwen3vl_8b_int8_convrot.safetensors",
+            "type": "qwen_image",
+            "device": "default"
+          },
+          "class_type": "CLIPLoader",
+          "_meta": {
+            "title": "加载CLIP"
+          }
+        },
+        "6": {
+          "inputs": {
+            "vae_name": "qwen_image_2.1_vae_bf16.safetensors"
+          },
+          "class_type": "VAELoader",
+          "_meta": {
+            "title": "加载VAE"
+          }
+        },
+        "7": {
+          "inputs": {
+            "prompt": "写实面部特写肖像，整张脸占画面高度约七成，头顶靠近画面上缘，画框下缘切在锁骨下方，只呈现头部、颈部和一小部分双肩。相机接近眼睛高度。一位25岁的东亚成年女性，鹅蛋脸，深棕色眼睛，栗棕色微卷长发，黑色缎带蝴蝶结固定半扎发，脸侧少量碎发，自然淡妆，柔和粉色唇，真实皮肤纹理。目光直视镜头，嘴唇轻闭，表情平静。肩部可见黑色细肩带和少量缎面领口。柔和日光从画面左侧照入，脸部左侧明亮，右侧留有淡淡阴影，肤色自然暖亮。背景是柔和的卧室米色墙面与深棕色门的局部色块。",
+            "negative_prompt": "",
+            "resolution": 1024,
+            "clip": [
+              "5",
+              0
+            ]
+          },
+          "class_type": "TextEncodeQwenImage21",
+          "_meta": {
+            "title": "Text Encode Qwen Image 2.1"
+          }
+        },
+        "8": {
+          "inputs": {
+            "width": [
+              "17",
+              0
+            ],
+            "height": [
+              "17",
+              1
+            ],
+            "batch_size": 1
+          },
+          "class_type": "EmptyLatentImage",
+          "_meta": {
+            "title": "空Latent图像"
+          }
+        },
+        "9": {
+          "inputs": {
+            "seed": 2026092807,
+            "steps": 40,
+            "cfg": 1.0,
+            "sampler_name": "euler",
+            "scheduler": "simple",
+            "denoise": 1.0,
+            "model": [
+              "4",
+              0
+            ],
+            "positive": [
+              "7",
+              0
+            ],
+            "negative": [
+              "7",
+              1
+            ],
+            "latent_image": [
+              "8",
+              0
+            ]
+          },
+          "class_type": "KSampler",
+          "_meta": {
+            "title": "K采样器"
+          }
+        },
+        "15": {
+          "inputs": {
+            "samples": [
+              "9",
+              0
+            ],
+            "vae": [
+              "6",
+              0
+            ]
+          },
+          "class_type": "VAEDecode",
+          "_meta": {
+            "title": "VAE解码"
+          }
+        },
+        "16": {
+          "inputs": {
+            "filename_prefix": "portrait_tutorial_20260928/19_close_fixed",
+            "images": [
+              "15",
+              0
+            ]
+          },
+          "class_type": "SaveImage",
+          "_meta": {
+            "title": "保存图像"
+          }
+        },
+        "17": {
+          "inputs": {
+            "aspect_ratio": "3:4 (Portrait Standard)",
+            "megapixels": 1.0,
+            "multiple": 8
+          },
+          "class_type": "ResolutionSelector",
+          "_meta": {
+            "title": "分辨率选择器"
+          }
+        }
+      },
+      {
+        "tutorial_job": "19_close_fixed",
+        "client_id": "portrait-tutorial-primary",
+        "create_time": 1790554337163
+      },
+      [
+        "16"
+      ]
+    ],
+    "outputs": {
+      "16": {
+        "images": [
+          {
+            "filename": "19_close_fixed_00001_.png",
+            "subfolder": "portrait_tutorial_20260928",
+            "type": "output"
+          }
+        ]
+      }
+    },
+    "status": {
+      "status_str": "success",
+      "completed": true,
+      "messages": [
+        [
+          "execution_start",
+          {
+            "prompt_id": "23560423-7841-440b-aadc-e7bed44385fa",
+            "timestamp": 1790554337164
+          }
+        ],
+        [
+          "execution_cached",
+          {
+            "nodes": [
+              "4",
+              "5",
+              "6"
+            ],
+            "prompt_id": "23560423-7841-440b-aadc-e7bed44385fa",
+            "timestamp": 1790554337165
+          }
+        ],
+        [
+          "execution_success",
+          {
+            "prompt_id": "23560423-7841-440b-aadc-e7bed44385fa",
+            "timestamp": 1790554357615
+          }
+        ]
+      ]
+    },
+    "meta": {
+      "16": {
+        "node_id": "16",
+        "display_node": "16",
+        "parent_node": null,
+        "real_node_id": "16"
+      }
+    }
+  },
+  "source": "I:\\ComfyUI-aki-v3.2\\ComfyUI\\output\\portrait_tutorial_20260928\\19_close_fixed_00001_.png",
+  "image": "J:\\PigeonYang\\skills\\visual-prompt-director\\work\\article-tutorial\\images\\19_close_fixed.png",
+  "elapsed_seconds": 25.02
+}

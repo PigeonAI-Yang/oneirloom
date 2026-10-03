@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-30",
+  "tool": "built-in image_gen",
+  "successful_hero_request": {
+    "prompt": "Use case: ads-marketing. Create the new flagship GitHub README brand cover for ONEIRLOOM / 织梦师, an open-source visual prompting skill. The supplied images are four actual previous adult fashion-portrait outputs from this project. Image 1 is a beautiful close-up with natural skin, dark loose hair and a black ribbon; image 2 is a rear three-quarter black satin lace-up fashion dress; image 3 is an elegant long black dress seated portrait; image 4 is a rim-lit face. Reuse the woman's visible facial traits, hair, adult appearance, black fashion wardrobe and these distinct photographic moments as the core visual material. Art direction: bold contemporary high-fashion magazine campaign, not conservative Chinese decorative illustration. Landscape 16:9 full-bleed editorial composite, sophisticated editorial photomontage with a visual hierarchy: an enormous crisp beautiful face fills the right 45 percent, smaller seated long-dress figure at center-left and back-view fashion figure partially overlapping behind her. Precisely cut photographic silhouettes and elegant overlapping photographic planes, with lively diagonal composition. Warm authentic skin and black satin against pearl-silver and deep ink-black sections, a small vivid cobalt-blue editorial stroke and tiny electric-lime punctuation. Integrate fine silver luminous threads and a very subtle film-strip rhythm to express weaving images; keep the portraits dominant. Strong graphic design, stunning typography, camera grain, clean high-fashion lighting, natural faces. Exact wordmark \"ONEIRLOOM\" across upper-left with very large refined condensed editorial letters. Exact Chinese title \"织梦师\" large in lower-left, sophisticated confident Chinese typography. One tagline exactly \"把想象，写成画面。\" beneath it. Small readable English line exactly \"PORTRAIT · FASHION · LIGHT\" in lower margin. Preserve the adult woman and recognizable dress designs; all clothing stays fully opaque and fashion-like. Keep eyes and faces unobstructed by text. Let cropped close-up photograph and full clothing silhouettes contrast dramatically. No gold ribbons, no mountains, no porcelain, no paper-scroll motifs, no ornamental flowers, no icons, no card grid, no mockup, no watermark, no fake statistics. This is a new promotional composite using archived examples as references, not a contact sheet or a technical comparison. Produce an outstanding visually daring fashion-editorial brand poster.",
+    "referenced_image_paths": [
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/19_close_fixed.png",
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/e07_backlace.png",
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/e11_longseated.png",
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/e25_backlight.png"
+    ],
+    "transparent_background": false
+  },
+  "successful_hero_file": "docs/assets/hero-v3.png",
+  "reference_roles": "Four archived adult-fashion outputs used as photographic source references; the final hero is a new generated composite.",
+  "inspection": "Project name and tagline readable. Large face portrait, back-laced black dress and seated black-dress portrait visible. Composite changes poses and lighting; it is not archival evidence.",
+  "user_direction_feedback": "User explicitly approved the fashion-portrait visual direction in the current chat.",
+  "supplemental_request": {
+    "prompt": "Use case: ads-marketing. Asset: supporting wide 16:9 editorial illustration for ONEIRLOOM / 织梦师 README, visually matching the first reference brand cover. Reference 1 is style only: confident fashion magazine typography, pearl-silver, black satin, vivid cobalt and tiny electric-lime, silver weaving threads and elegant photographic texture. References 2, 3, 4 are actual previous adult fashion portraits: use their faces, adult appearance and fashion character as source material. Produce a refined four-part full-bleed fashion editorial spread, an artful continuous montage rather than rectangular UI cards. Four photographic moments with different scale and dominant visual detail, joined by fine silver threads and contact-sheet film edges: a tight beautiful natural face close-up; a gracefully seated adult woman in a long opaque black satin dress; a rear three-quarter portrait highlighting the opaque black dress's lacing and drape; a warmly lit portrait with visible soft window rim light. Beautiful clear faces, natural skin, confident visual balance, highly polished editorial photomontage. Large exact Chinese heading \"你想改哪一处？\" at upper left in clean confident display typography. Each photographic moment has one clear exact Chinese label beneath it, in order \"取景\", \"姿态\", \"穿搭\", \"光线\". At bottom tiny English line exactly \"FRAMING / POSE / WARDROBE / LIGHT\". Keep all images adult fashion editorial and fully clothed. The labels have ample room and remain readable at 900px display width. The composition should be striking but cleaner and less dense than the hero; varied photo scale and diagonal alignment, controlled negative space. No ornamental mountains, no gold paper scrolls, no generic icon flowcharts, no extra paragraphs, no made-up metrics, no cards, no watermark. This is a new promotional montage based on archived portraits, not proof of pixel-identical continuity.",
+    "referenced_image_paths": [
+      "J:/Users/yangda01/.codex/generated_images/01a0f1d4-ffe5-7412-ac51-b8437c2d20fd/exec-77b74643-692a-41cc-b32a-a02c610789c8.png",
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/19_close_fixed.png",
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/e07_backlace.png",
+      "J:/PigeonYang/skills/oneirloom/work/article-tutorial/images/e11_longseated.png"
+    ],
+    "transparent_background": false
+  },
+  "supplemental_outcome": {
+    "status": "rejected_by_image_service",
+    "reported_category": "sexual",
+    "request_id": "378ba6fa-b213-44bf-9861-a5df5c038b6b",
+    "action": "Stopped the affected generation. No retry or bypass. Supplementary image removed from deliverable."
+  },
+  "final_original_gallery": {
+    "selected": 12,
+    "available": 62,
+    "manifest": "docs/assets/portraits/manifest.json",
+    "processing": "Byte-for-byte copies of original output PNGs."
+  }
+}

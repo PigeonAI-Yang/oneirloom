@@ -1,0 +1,70 @@
+{
+  "entry": "built-in image_gen.imagegen",
+  "generation_calls": 1,
+  "model": "unknown; tool did not expose model identifier",
+  "reference_images": [
+    "J:\\PigeonYang\\skills\\oneirloom\\work\\design-sop-unification-20261002\\layered-06-final\\subject-right.png",
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png"
+  ],
+  "reference_role": "previous asset pose and material; approved frontal identity",
+  "controls": {
+    "transparent_background": true,
+    "referenced_image_paths": "previous right-facing asset and approved frontal identity; no layout reference"
+  },
+  "submitted_prompt": "submitted.en.txt",
+  "submitted_prompt_sha256": "1c8d104bbfad531634d7efb72306479058ebdbd6967642c924e3c93b45dd8914",
+  "tool_saved_path": "J:/Users/yangda01/.codex/generated_images/01a0fb8b-d17b-7511-bbd9-c4a1134fe207/exec-f1af9c28-a400-4745-94c2-9164ad61307c.png",
+  "asset": {
+    "path": "subject-right.png",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "sha256": "82fe1fa940c5398c960861f70b083c142c9b35d0716ad6a042d132b724aa4071",
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_nonzero_bbox": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "alpha_gt_127_bbox": [
+      15,
+      35,
+      1016,
+      1536
+    ],
+    "fully_transparent_fraction": 0.24253145853678384,
+    "alpha_corners": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "manual_star_center": [
+      765,
+      596
+    ],
+    "manual_star_bbox": [
+      699,
+      500,
+      831,
+      692
+    ],
+    "prompt_star_center_height_fraction": [
+      0.22,
+      0.28
+    ],
+    "observed_star_center_height_fraction": 0.3880208333333333,
+    "observed_star_width_fraction": 0.12890625,
+    "prompt_match_status": "partial: star width is within requested range; star remains too low; panel remains taller than upper third"
+  },
+  "reference_sha256": {
+    "J:\\PigeonYang\\skills\\oneirloom\\work\\design-sop-unification-20261002\\layered-06-final\\subject-right.png": "0e34d35e3b6b321906032352762d8c4137b0831e66eeb2624b98aefb77f072a9",
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\assets\\dream-cocoon\\00-approved-reference.png": "985a8246c49cef7c6b2aab480405d957e1fa27108448ed893542314496c1bad6"
+  }
+}

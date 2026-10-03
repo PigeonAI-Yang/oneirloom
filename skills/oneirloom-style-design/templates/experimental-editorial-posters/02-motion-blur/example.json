@@ -1,0 +1,49 @@
+{
+  "id": "02-motion-blur-transfer-01",
+  "status": "generated",
+  "paths": {
+    "englishPromptSource": "prompt.en.txt",
+    "submittedPrompt": "submitted.en.txt",
+    "styleReference": "images/reference.png",
+    "generatedImage": "images/transfer-01.png"
+  },
+  "generation": {
+    "entry": "built-in image_gen",
+    "model": null,
+    "modelNote": "The tool did not return a model name.",
+    "originalOutputRoot": "$CODEX_HOME",
+    "originalOutputRelativePath": "generated_images/01a0f891-2db5-7bc2-879a-326c29761730/exec-b48a4432-4ed5-4a09-acbd-e3d5aab96c90.png",
+    "requestedAspectRatio": "2:3",
+    "actualDimensionsPx": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actualAspectRatio": "2:3",
+    "transparentBackground": false,
+    "referenceRole": "style-only"
+  },
+  "promptIntegrity": {
+    "source": "prompt.en.txt",
+    "submitted": "submitted.en.txt",
+    "byteIdentical": true,
+    "byteCount": 1766,
+    "sha256": "9972476CD0ACC00E0DDFEDE87BB10ECAE468D1EE13A4827B09A0FA5965EB044E"
+  },
+  "inspection": {
+    "paperAndPalette": "Warm off-white textured paper with black and gray monochrome elements.",
+    "baseAndLowerStructure": "The lamp base and articulated lower supports are crisp and sharply defined.",
+    "motion": "Fading horizontal echoes extend leftward from the lamp head and upper neck; the lamp remains recognizable.",
+    "typography": {
+      "accuracy": "STILL / IN / MOTION; Observe / Shift / Repeat; FIELD STUDIES; A poster study — all rendered as specified.",
+      "legibility": "The headline, notes, footer, and caption are sharp and readable."
+    },
+    "deviations": [
+      "The lamp reads right of the page's geometric center; its base sits lower-right of center rather than directly at lower center."
+    ]
+  },
+  "repeatability": {
+    "englishPromptRunCount": 1,
+    "chinesePromptRunCount": 0,
+    "repeatabilityTested": false
+  }
+}

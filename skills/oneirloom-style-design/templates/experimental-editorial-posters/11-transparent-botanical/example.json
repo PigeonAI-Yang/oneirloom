@@ -1,0 +1,32 @@
+{
+  "sample": "11-transparent-botanical",
+  "paths": {
+    "reference": "images/reference.png",
+    "submitted": "submitted.en.txt",
+    "result": "images/transfer-01.png"
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlyingModel": null,
+    "underlyingModelNote": "The tool response did not expose the underlying model.",
+    "requestedAspectRatio": "2:3",
+    "actualDimensionsPx": {
+      "width": 1024,
+      "height": 1536
+    },
+    "actualAspectRatio": "2:3 (0.6667)",
+    "originalOutputPath": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0f892-4ade-7033-a54c-236290dac2b7\\exec-d1b40d8d-d92d-44ca-8563-26c7bda4509f.png",
+    "transparentBackgroundRequested": false,
+    "actualFilePixelFormat": "Format24bppRgb"
+  },
+  "observations": [
+    "The output is a complete, flat 1024 x 1536 off-white portrait poster with visible margin space.",
+    "Blue petals read as translucent against the pale paper, with fine branching vein-like lines and darker blue where petal layers overlap.",
+    "Dark navy flower centers and stems are visible; VISIBLE / WITHIN, Layers / Light / Structure, FIELD 11, and Botanical study all appear with the specified spelling and placement.",
+    "The PNG is opaque RGB without an alpha channel; translucency is a visual treatment inside the poster."
+  ],
+  "deviations": [
+    "There are three distinct blooms, although the prompt requests two.",
+    "The floral artwork spans most of the poster width rather than roughly two-thirds."
+  ]
+}

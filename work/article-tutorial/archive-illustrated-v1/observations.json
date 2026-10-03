@@ -1,0 +1,42 @@
+{
+  "reviewer": "Primary, personally inspected generated images; no subagents used for this revision",
+  "repair_paragraph": "上图是我这次实际遇到的景别偏差。左图的开头已经写了面部特写，但后文仍要求黑色鞋子、双手完整可见，并铺陈了整间卧室。结果仍是一张全身照。我保留人物设定，把可见内容收紧为脸、颈部与肩部，删去鞋子、完整双手和整间房的展示要求，再用同一模型、种子和画幅重跑，得到右图。它明显收近了，但仍保留了比锁骨更多的肩胸部分。这个结果支持我继续检查提示词中的冲突，不能证明某一个词是唯一原因。",
+  "grid_paragraph": "这次实际输出里，2×2布局和细白分隔线成立，四格的发型、黑色发带、裙装与暖色房间也能连成一组；坐床、背身回头、坐椅、靠墙这四种安排都能辨认。也有没完全照做的地方：右上格仍裁在大腿附近，没达到我写的膝下取景，左下格的手也没有完全叠放在一起。我会保留整组效果，同时把这些具体偏差列为下一轮局部调整目标，不把它说成每个细节都已锁定。",
+  "selected_source_ids": ["01_full", "19_close_fixed", "20_half_fixed", "04_high", "21_low_fixed", "06_side", "07_back", "28_left_wood", "09_seated", "10_walk", "23_gaze_fixed", "12_hairhand", "13_vague_scene", "24_knit_fixed", "25_hard_fixed", "26_warm_fixed", "27_blur_fixed", "18_grid"],
+  "diagnostic_source_ids": ["02_close"],
+  "reviews": {
+    "01_full": "Accepted. Complete head-to-shoe frame; TV left, bed right, wooden floor and rear door visible. Feet are closer together than requested; not used as a feet-spacing example.",
+    "02_close": "Initial miss: remained full body despite close-up request. Retained as failure evidence in section 14.",
+    "03_half": "Initial miss: remained full body. Superseded by 20_half_fixed.",
+    "04_high": "Accepted. Clear downward view with top of head, floor and bed surface visible.",
+    "05_low": "Low-angle change too weak for teaching. Superseded by 21_low_fixed.",
+    "06_side": "Accepted as side-facing view, not a claim of exact 90-degree profile.",
+    "07_back": "Accepted. Rear body orientation with head looking back over shoulder.",
+    "08_left": "Position shift too weak. Superseded by later left-position revision.",
+    "09_seated": "Accepted. Seated support, bent knees, feet on floor and hands near knees visible.",
+    "10_walk": "Accepted. Staggered steps and arm movement visibly distinguish the walking pose.",
+    "11_gaze": "Gaze changed but initial framing remained full body. Superseded by close comparison.",
+    "12_hairhand": "Accepted for hand-contact contrast. Actual raised hand is subject's left rather than requested right; explicitly disclosed in article.",
+    "13_vague_scene": "Accepted. Bedroom exists but bed spans behind subject; no TV/rear-door arrangement. Not presented as an outdoor failure.",
+    "14_knit": "Material changed, but crop remained full and footwear changed. Superseded by close material comparison.",
+    "15_hardlight": "Stronger direct light and wall window shadow visible; replaced with near-shot comparison for teaching.",
+    "16_warmlight": "Warm lamp visible; replaced with near-shot comparison.",
+    "17_blur": "Background softened; replaced with near-shot comparison.",
+    "18_grid": "Accepted with disclosed deviations. Four equal panels and distinct poses present; upper-right crop ends near thigh rather than below knee. No claim of exact identity lock.",
+    "19_close_fixed": "Accepted as near portrait: much larger face and shoulder/chest crop. Clavicle-only boundary not achieved; described honestly rather than relabeled exact crop.",
+    "20_half_fixed": "Accepted. Upper-body/waist framing with identifiable room objects.",
+    "21_low_fixed": "Accepted. Ground-level upward view, ceiling visible and bed seen from below.",
+    "22_left_fixed": "Left-position change succeeded but an unrequested rug appeared. Superseded by 28_left_wood.",
+    "23_gaze_fixed": "Accepted. Eyes look to image right; head angle also changes slightly. Used for gaze example, not isolated eyeball-control claim.",
+    "24_knit_fixed": "Accepted. Visible ribbed knit instead of smooth satin. Neckline and small pose differences remain.",
+    "25_hard_fixed": "Accepted. Harder facial light and clear window shadow on wall; not described as precise window bars across face.",
+    "26_warm_fixed": "Accepted. Lamp and darker warm room visible. Day/night comparison changes several lighting attributes by design.",
+    "27_blur_fixed": "Accepted. Room edges are more blurred than 20; objects remain broadly recognizable. Not claimed fully obliterated background.",
+    "28_left_wood": "Accepted. Figure visibly left of center; right room space preserved; wooden floor restored. Dress folds vary, as expected from separate text-to-image outputs."
+  },
+  "limits": [
+    "These are text-to-image runs. Shared seed and descriptive anchors do not establish pixel-matched identity or exact causal isolation.",
+    "Figures resize and arrange original outputs with explanatory labels. No post-generation crop is presented as model compliance.",
+    "Prompt examples inside the prose include focused excerpts. The jobs manifest and per-run evidence retain full actual requests."
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "status": "draft-only; pending Primary visual review",
+  "source_faithfulness_approved": false,
+  "generation_used": false,
+  "rendering": {
+    "browser": "Microsoft Edge",
+    "executable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "playwright": "installed Python Playwright",
+    "source_reference_path": "skills/oneirloom-style-design/templates/experimental-editorial-posters/06-swiss-sculpture/images/reference.png",
+    "source_reference_dimensions": [
+      145,
+      204
+    ],
+    "source_reference_sha256_before_and_after": "f188a4960a6c841d1879a31b8e9c09b7a19ae3729a70331091f8a78a45aaeba6"
+  },
+  "canvas": {
+    "width": 1450,
+    "height": 2040,
+    "aspect": "145:204",
+    "paper": "#F4F0E8",
+    "blue_panel": "#4164D8",
+    "blue_panel_x": 826.5,
+    "blue_panel_width": 507.5,
+    "right_paper_border": 116
+  },
+  "comparison_labels": [
+    "06原图",
+    "原图粗分区（目测）",
+    "织梦兽版式骨架（待主体素材）"
+  ],
+  "source_layout_observations": {
+    "title_bars": 4,
+    "title_bar_tops": [
+      551,
+      696,
+      841,
+      986
+    ],
+    "title_bar_widths_visual_estimates": [
+      391.5,
+      638,
+      246.5,
+      551
+    ],
+    "title_bar_height_visual_estimate": 130,
+    "title_bar_coordinates": "manual visual estimates from the original 145x204 reference, not precise measurements",
+    "small_copy_bars": 3,
+    "footer_placeholder_top": 1754.4,
+    "left_view_shape": "hand-authored coarse gray contour spanning about y=0.04-0.73h; schematic shape only, not human anatomy or finished subject artwork",
+    "local_fragment_model": "five unequal horizontal gray pieces clipped to the local contour; their count is schematic and does not assert original cut count",
+    "source_coordinate_basis": "manual visual estimate from the original 145x204 reference"
+  },
+  "adapted_layout_choices": {
+    "title": [
+      "DREAM",
+      "WEAVER"
+    ],
+    "title_change": "four source title lines reduced to two complete words",
+    "title_font_size": 300,
+    "title_text_remains_editable": true,
+    "omitted_small_copy_areas": "left blank",
+    "footer": "ONEIRLOOM",
+    "gray_mass": "schematic low-detail placeholder, not approved subject artwork",
+    "adapted_crop": "upper local fur mass, a narrow x=0.52-0.57h strip beside the headline, and a lower x=0.52-0.57h contour near the splice; no full-body or limb depiction",
+    "layout_coordinates": "draft choices for review"
+  },
+  "measurements": {
+    "source_canvas": {
+      "width": 1450.0,
+      "height": 2040.0,
+      "viewBox": "0 0 1450 2040"
+    },
+    "adapted_canvas": {
+      "width": 1450.0,
+      "height": 2040.0,
+      "viewBox": "0 0 1450 2040"
+    },
+    "source_blue_panel": {
+      "x": 826.5,
+      "y": 0,
+      "width": 507.5,
+      "height": 2040
+    },
+    "adapted_blue_panel": {
+      "x": 826.5,
+      "y": 0,
+      "width": 507.5,
+      "height": 2040
+    },
+    "source_left_local_contour_svg_geometry": {
+      "x": 259.2705993652344,
+      "y": 82,
+      "width": 567.2293701171875,
+      "height": 1408
+    },
+    "source_title_placeholder_boxes": [
+      {
+        "x": 101.5,
+        "y": 551,
+        "width": 391.5,
+        "height": 130
+      },
+      {
+        "x": 101.5,
+        "y": 696,
+        "width": 638,
+        "height": 130
+      },
+      {
+        "x": 101.5,
+        "y": 841,
+        "width": 246.5,
+        "height": 130
+      },
+      {
+        "x": 101.5,
+        "y": 986,
+        "width": 551,
+        "height": 130
+      }
+    ],
+    "source_footer_placeholder_svg_geometry": {
+      "x": 101.5,
+      "y": 1754.4000244140625,
+      "width": 335,
+      "height": 90
+    },
+    "adapted_local_crop_svg_geometry": {
+      "upper_local_contour": {
+        "x": 259.2705993652344,
+        "y": 82,
+        "width": 567.2293701171875,
+        "height": 469
+      },
+      "headline_crop_strip": {
+        "x": 754,
+        "y": 551,
+        "width": 72.5,
+        "height": 551
+      },
+      "lower_local_contour": {
+        "x": 754,
+        "y": 1326,
+        "width": 72.5,
+        "height": 164
+      }
+    },
+    "adapted_left_direction_cue_center": {
+      "x": 623.5,
+      "y": 367.2
+    },
+    "adapted_svg_dom_boxes_not_actual_ink": {
+      "title-dream": {
+        "x": 101.5,
+        "y": 491,
+        "width": 551,
+        "height": 366
+      },
+      "title-weaver": {
+        "x": 101.5,
+        "y": 751,
+        "width": 638,
+        "height": 366
+      },
+      "adapted-footer": {
+        "x": 101.5,
+        "y": 1741,
+        "width": 360,
+        "height": 76
+      }
+    },
+    "adapted_actual_ink_pixel_bounds": {
+      "measurement_source": "rendered adapted-layout.png pixels read with PIL; SVG getBBox is reported separately as geometry only",
+      "pixel_test": "max(R,G,B) < 64",
+      "search_region_fraction": {
+        "x": [
+          0.05,
+          0.515
+        ],
+        "y": [
+          0.25,
+          0.56
+        ]
+      },
+      "line_split_y": 795,
+      "dream": {
+        "x": 110,
+        "y": 557,
+        "width": 534,
+        "height": 237,
+        "threshold_max_rgb_lt": 64
+      },
+      "weaver": {
+        "x": 102,
+        "y": 817,
+        "width": 629,
+        "height": 237,
+        "threshold_max_rgb_lt": 64
+      },
+      "overall": {
+        "x": 102,
+        "y": 557,
+        "width": 629,
+        "height": 497
+      },
+      "overall_top_fraction": 0.2730392156862745,
+      "overall_height_fraction": 0.24362745098039215,
+      "line_gap_pixels": 23,
+      "line_gap_fraction": 0.011274509803921568,
+      "footer": {
+        "x": 105,
+        "y": 1754,
+        "width": 353,
+        "height": 51,
+        "threshold_max_rgb_lt": 64
+      },
+      "footer_top_fraction": 0.8598039215686275,
+      "footer_bottom_margin_pixels": 235
+    },
+    "preview": {
+      "viewportWidth": 1920,
+      "documentWidth": 1920,
+      "clientWidth": 1920,
+      "documentHeight": 1120
+    },
+    "image_loads": [
+      {
+        "id": "reference-image",
+        "loaded": true,
+        "naturalWidth": 145,
+        "naturalHeight": 204,
+        "currentSrc": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/templates/experimental-editorial-posters/06-swiss-sculpture/images/reference.png"
+      },
+      {
+        "id": "source-layout-image",
+        "loaded": true,
+        "naturalWidth": 1450,
+        "naturalHeight": 2040,
+        "currentSrc": "file:///J:/PigeonYang/skills/oneirloom/work/design-sop-unification-20261002/layered-06-proof/source-layout.svg"
+      },
+      {
+        "id": "adapted-layout-image",
+        "loaded": true,
+        "naturalWidth": 1450,
+        "naturalHeight": 2040,
+        "currentSrc": "file:///J:/PigeonYang/skills/oneirloom/work/design-sop-unification-20261002/layered-06-proof/adapted-layout.svg"
+      }
+    ],
+    "screenshot_dimensions": {
+      "source-layout.png": [
+        1450,
+        2040
+      ],
+      "adapted-layout.png": [
+        1450,
+        2040
+      ],
+      "comparison.png": [
+        1920,
+        1120
+      ]
+    },
+    "page_errors": []
+  },
+  "checks": {
+    "source_canvas_1450x2040": true,
+    "adapted_canvas_1450x2040": true,
+    "source_and_adapted_aspect_145_204": true,
+    "source_blue_panel_geometry": true,
+    "adapted_blue_panel_geometry": true,
+    "source_and_adapted_right_border_116": true,
+    "source_left_contour_spans_0_04_to_0_73": true,
+    "source_title_bars_match_visual_estimates": true,
+    "source_footer_placeholder_at_0_86h": true,
+    "adapted_upper_and_lower_local_contours_present": true,
+    "adapted_headline_crop_strip_stays_at_x_0_52_to_0_57": true,
+    "adapted_upper_direction_cue_at_0_43_0_18": true,
+    "adapted_title_words_exact_once": true,
+    "adapted_title_ink_top_near_0_27h": true,
+    "adapted_title_ink_height_0_23_to_0_26h": true,
+    "adapted_title_ink_line_gap_at_most_0_018h": true,
+    "adapted_title_actual_ink_stays_left_of_crop_strip": true,
+    "adapted_footer_actual_ink_top_near_0_86h": true,
+    "adapted_footer_has_0_10h_bottom_margin": true,
+    "comparison_labels_exact": true,
+    "comparison_images_loaded": true,
+    "reference_is_original_and_unchanged": true,
+    "comparison_has_no_horizontal_overflow": true,
+    "canvas_screenshot_dimensions_exact": true,
+    "page_errors_empty": true
+  },
+  "all_checks_passed": true
+}

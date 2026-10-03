@@ -1,0 +1,684 @@
+[
+  {
+    "id": "01_full",
+    "prompt_id": "dc355fc3-4a1d-4427-bbd3-d2fe552d8a2e",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "02_close",
+    "prompt_id": "6e2aaa5e-3741-4f95-b8e4-c88d3aff29c7",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "03_half",
+    "prompt_id": "86e6995f-262d-4458-8896-91800342fa6d",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "04_high",
+    "prompt_id": "1d65b63c-76fe-4a58-a594-fe537a954ebe",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "05_low",
+    "prompt_id": "525ba873-fcf9-4bf4-8169-4538c531254a",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "06_side",
+    "prompt_id": "595343bd-bff8-427d-a34d-24c826794637",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "07_back",
+    "prompt_id": "6f876244-745c-44c6-82dc-2574e63ca1f7",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "08_left",
+    "prompt_id": "a3013c28-f70a-4872-9a7d-1549f737df0e",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "09_seated",
+    "prompt_id": "e5f251f8-d781-4f91-9533-9bdeb01fd3a4",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "10_walk",
+    "prompt_id": "a6d96e24-33e8-48c1-bd69-eb4374bdb829",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "11_gaze",
+    "prompt_id": "abafec61-4a23-44fe-93f9-a4def999f00a",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "12_hairhand",
+    "prompt_id": "c7a73ac8-cf22-450f-8a11-ce2b534ee0b0",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "13_vague_scene",
+    "prompt_id": "3675c5c5-45c8-429d-96e4-3a64900dcb1c",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "14_knit",
+    "prompt_id": "c9ae7626-bb1d-481b-aef9-10d429e41afa",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "15_hardlight",
+    "prompt_id": "07512561-1e42-435f-a218-a9ed6120ed45",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "16_warmlight",
+    "prompt_id": "37d864ac-ddb8-4c52-a842-920ac7c11105",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "17_blur",
+    "prompt_id": "1bdf870e-7f59-463d-bd75-6af16334d6f0",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "18_grid",
+    "prompt_id": "65b0c44b-2e30-468c-87ff-94aaf1a72d8c",
+    "size": [
+      1088,
+      1920
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "19_close_fixed",
+    "prompt_id": "23560423-7841-440b-aadc-e7bed44385fa",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "20_half_fixed",
+    "prompt_id": "4b450cb4-1f15-45cf-a9a5-bf92d6457499",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "21_low_fixed",
+    "prompt_id": "154c14c7-8c03-4c2d-ae10-e3cb70921e77",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "22_left_fixed",
+    "prompt_id": "2470a249-5573-46a8-b2a9-f0c7cf982042",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "23_gaze_fixed",
+    "prompt_id": "7ad13fb6-0e2e-47f5-89cc-de50079fcaa4",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "24_knit_fixed",
+    "prompt_id": "adeadd91-698c-4c57-a62b-89dbaa47a95b",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "25_hard_fixed",
+    "prompt_id": "5896775f-2550-4d5f-a458-233f51e57509",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "26_warm_fixed",
+    "prompt_id": "ac8f0afb-433f-4d17-ac14-9a9a84d9d1cc",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "27_blur_fixed",
+    "prompt_id": "617f2266-dc0b-42b2-8d77-f255f40eddf6",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "28_left_wood",
+    "prompt_id": "4569190f-d7b0-455a-8e61-6fa4068dc702",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e01_shift",
+    "prompt_id": "cf59b0ce-ef77-494a-9f13-a95cb542bf5b",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e02_aline",
+    "prompt_id": "c191e9b3-3dea-4ef7-899e-f4b0f02872dd",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e03_short",
+    "prompt_id": "20b0a1b8-395c-4d68-afae-168c6cd27d81",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e04_long",
+    "prompt_id": "8fb0b3db-0b94-4490-b718-58dfba0b2804",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e05_square",
+    "prompt_id": "983fb4c0-b64c-4e64-8338-6574999d43c9",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e06_sleeves",
+    "prompt_id": "468f7712-ca6f-4b42-a424-56ebcb3ce285",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e07_backlace",
+    "prompt_id": "5153b57c-7d11-4d9c-8c69-1d523192863e",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e08_sidewrap",
+    "prompt_id": "78a4e13d-443c-4d26-9bb8-f381ce53b892",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e09_layeropen",
+    "prompt_id": "85f8d920-fa1d-45a1-b520-d8e1d3174a85",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e10_layerclosed",
+    "prompt_id": "96f85224-89dc-4516-99e5-80f75bfa4ae6",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e11_longseated",
+    "prompt_id": "3474b875-a1f5-4acb-8826-f456ac77fb8a",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e12_head_down",
+    "prompt_id": "1f59f7ff-5962-45ee-bce3-df04ac2a5faa",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e13_head_only",
+    "prompt_id": "24b95d54-8174-4b32-9318-5db659ad4ebb",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e14_back_away",
+    "prompt_id": "0ca7f2bc-1b69-49e2-870b-4118de9bd639",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e15_environment",
+    "prompt_id": "f645d20d-0ec7-4c38-bd72-4ef97825b4f2",
+    "size": [
+      1184,
+      896
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e16_doorframe",
+    "prompt_id": "9184f2ea-0c97-49a6-8e4f-1688fe66fa0b",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e17_edge_seat",
+    "prompt_id": "77512bd9-9be9-4ee2-aafe-81aff9c8f5c2",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e18_recline",
+    "prompt_id": "a8b4ed47-e538-4f9d-abfb-901838ff4476",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e19_weight",
+    "prompt_id": "cca78055-68b8-49ac-9665-3e8bea3a55b1",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e20_smile",
+    "prompt_id": "b017a663-010e-4605-a502-d663b452b2dc",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e21_closedeyes",
+    "prompt_id": "907bb70a-236f-46ff-8cb2-afa45dc54ae4",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e22_mug",
+    "prompt_id": "36ece0f4-7c7b-47e6-9b7c-1a7d51ef4fab",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e23_chairhand",
+    "prompt_id": "81811faf-9cd3-47e8-8a58-d30b637279e1",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e24_rightlight",
+    "prompt_id": "cf447a65-dd93-4149-9bc9-0140ca492631",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e25_backlight",
+    "prompt_id": "2a02e055-4661-4d95-930e-6d8ab8eb24b6",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e26_focus_person",
+    "prompt_id": "a0c431a7-9ac1-4270-a85c-d60619c8a77c",
+    "size": [
+      1184,
+      896
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e27_focus_flowers",
+    "prompt_id": "997e8a2c-3580-4949-8def-b9df3075c931",
+    "size": [
+      1184,
+      896
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e28_expressions_grid",
+    "prompt_id": "ce4bb0a2-1f1f-43e0-a935-3be20fb684b4",
+    "size": [
+      1440,
+      1440
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e29_head_down_fixed",
+    "prompt_id": "5ac45255-b8aa-4282-b05a-f53f2bfb8464",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e30_back_away_fixed",
+    "prompt_id": "5e848bb6-333f-4f5c-9562-9f7e49bb133f",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e31_longsleeves_fixed",
+    "prompt_id": "9ec07eb7-d695-479d-8f53-e476830fa83a",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e32_focus_flowers_fixed",
+    "prompt_id": "1dc15e7b-cda0-439a-9140-e62a9f1284d5",
+    "size": [
+      1184,
+      896
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e33_environment_fixed",
+    "prompt_id": "a17e4905-b199-4937-b173-a80362505ff6",
+    "size": [
+      1184,
+      896
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  },
+  {
+    "id": "e34_mug_fixed",
+    "prompt_id": "6f353a99-0d0b-4330-9139-cc49c6880f12",
+    "size": [
+      896,
+      1184
+    ],
+    "seed": 2026092807,
+    "source_copy_matches": true,
+    "status": "success"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "status": "partial_private_remote_deletion_denied_and_desktop_cleanup_pending",
+  "source_root": "J:\\PigeonYang\\skills\\dreamweaver",
+  "file_inventory_count": 362,
+  "active_skills": 14,
+  "dirty_work_preserved": true,
+  "original_dirty_entries": 25,
+  "installed_junction_readback": "pass",
+  "active_markdown_links": "pass",
+  "native_discovery": "dreamweaver-native-discovery.json",
+  "remote_structure_checks": {
+    "public": "10 skills, 19 behavior cases, 2 example prompts",
+    "private": "13 skills, 8 templates, 3 image records, 33 cases defined not executed"
+  },
+  "remote_commits": {
+    "public": "a31404616a3d3943a0d69cd086ff16e8b64f494f",
+    "private": "71d9f78e4b3ce98343dfa3cd812c6aa9f4dec3ab"
+  },
+  "persisted_project_name": "dreamweaver",
+  "persisted_project_root": "J:\\PigeonYang\\skills\\dreamweaver",
+  "existing_gaps": [
+    "Full local checker already fails on historical design case being counted as an indexed template",
+    "Unchanged product-origin-world image record has a pre-existing hash mismatch",
+    "skill-creator quick_validate cannot run in default Python because PyYAML is absent"
+  ],
+  "remaining": [
+    "Windows holds the now-empty old main directory open",
+    "Existing managed worktree directory name and its unfinished work are preserved; Git common-directory pointer repaired",
+    "The running desktop overwrites its legacy local-projects JSON cache with the old name; database project and current-chat paths are migrated; current sidebar refresh is unverified"
+  ],
+  "new_model_generation_run": false,
+  "private_repository_deletion": {
+    "status": "needs_user",
+    "requested": true,
+    "github_repository": "PigeonAI-Yang/dreamweaver-private",
+    "result": "HTTP 403: Must have admin rights to Repository",
+    "retried": false,
+    "private_remote_removed": true,
+    "only_remaining_remote": "origin",
+    "default_push_and_tracking_remote": "origin",
+    "local_private_commits_retained_by_head": true
+  }
+}

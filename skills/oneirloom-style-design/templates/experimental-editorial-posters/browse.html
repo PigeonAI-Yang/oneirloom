@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>实验编辑海报 · 单张浏览</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f2efe6;
+      --paper-light: #fbf9f3;
+      --ink: #211f1b;
+      --muted: #69665f;
+      --rule: #302e28;
+      --soft-rule: #c9c4b8;
+      --accent: #d7a918;
+      --blue: #3c596a;
+      font-family: Inter, "Noto Sans SC", "Microsoft YaHei", sans-serif;
+      font-synthesis: none;
+    }
+    * { box-sizing: border-box; }
+    html { background: #e9e5da; color: var(--ink); }
+    body { margin: 0; min-width: 0; background: #e9e5da; }
+    button, select { color: inherit; font: inherit; }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .page { width: min(1320px, 100%); margin: 0 auto; padding: 28px clamp(16px, 3vw, 40px) 44px; }
+    .masthead { display: flex; align-items: end; justify-content: space-between; gap: 24px; padding: 0 0 17px; border-bottom: 1px solid var(--rule); }
+    .kicker, .eyebrow, .micro-label { margin: 0; color: var(--muted); font-size: 11px; letter-spacing: .15em; line-height: 1.5; text-transform: uppercase; }
+    .masthead h1 { margin: 5px 0 0; font: 600 clamp(24px, 3vw, 38px)/1.08 Georgia, "Noto Serif SC", serif; letter-spacing: -.035em; }
+    .masthead nav { display: flex; flex-wrap: wrap; gap: 8px 20px; align-items: center; font-size: 12px; }
+    .masthead nav a { white-space: nowrap; }
+    .layout { display: grid; grid-template-columns: minmax(0, 242px) minmax(0, 1fr); gap: clamp(20px, 3vw, 42px); padding-top: 24px; }
+    .selector-panel { min-width: 0; border-top: 2px solid var(--rule); padding-top: 13px; }
+    .selector-panel label { display: block; margin-bottom: 9px; }
+    .selector-panel select { width: 100%; min-height: 46px; padding: 0 36px 0 12px; border: 1px solid var(--rule); border-radius: 0; background: var(--paper-light); }
+    .sequence { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 8px; margin: 13px 0 27px; }
+    .sequence button, .mode-switch button, .language-switch button, .copy-button { min-height: 38px; border: 1px solid var(--rule); border-radius: 0; background: transparent; cursor: pointer; }
+    .sequence button { padding: 0 10px; }
+    .sequence button:last-child { justify-self: stretch; }
+    .sequence button:first-child { justify-self: stretch; }
+    .sequence button:hover, .mode-switch button:hover, .language-switch button:hover, .copy-button:hover { background: #e4dfd3; }
+    #position { min-width: 40px; text-align: center; font: 12px/1.2 Georgia, serif; font-variant-numeric: tabular-nums; }
+    .anchors { display: flex; flex-wrap: wrap; gap: 7px; margin: 0; padding: 0; list-style: none; }
+    .anchors li { padding: 5px 8px; border: 1px solid var(--soft-rule); background: rgba(251,249,243,.42); font-size: 11px; line-height: 1.25; }
+    .stage-panel { min-width: 0; border-top: 2px solid var(--rule); padding-top: 13px; }
+    .stage-header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 18px; margin-bottom: 12px; }
+    .mode-switch, .language-switch { display: inline-flex; flex-wrap: wrap; gap: 0; }
+    .mode-switch button, .language-switch button { padding: 0 11px; font-size: 12px; }
+    .mode-switch button + button, .language-switch button + button { border-left: 0; }
+    button[aria-pressed="true"] { background: var(--ink); color: var(--paper-light); }
+    .viewer { display: grid; grid-template-columns: minmax(230px, .9fr) minmax(0, 1.1fr); gap: clamp(18px, 2.6vw, 34px); align-items: start; }
+    .art-column { min-width: 0; }
+    .art-frame { width: 100%; aspect-ratio: 2 / 3; overflow: hidden; display: grid; place-items: center; border: 1px solid var(--soft-rule); background: var(--paper-light); }
+    #poster { display: block; width: 100%; height: 100%; object-fit: contain; }
+    .caption { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0 0; color: var(--muted); font-size: 11px; line-height: 1.45; }
+    #image-note { margin: 11px 0 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .details { min-width: 0; }
+    .details-head { padding: 4px 0 14px; border-bottom: 1px solid var(--soft-rule); }
+    .details-head h2 { margin: 5px 0 10px; font: 500 clamp(26px, 3.4vw, 42px)/1.04 Georgia, "Noto Serif SC", serif; letter-spacing: -.035em; }
+    .details-head .anchors { margin-top: 12px; }
+    .detail-links { display: flex; flex-wrap: wrap; gap: 7px 18px; margin-top: 14px; font-size: 12px; }
+    #evidence-note { margin: 13px 0 0; padding-left: 10px; border-left: 2px solid var(--accent); color: #4d4941; font-size: 11px; line-height: 1.55; }
+    .prompt-section { margin-top: 20px; }
+    .prompt-tools { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; }
+    .prompt-tools h3 { margin: 0; font: 600 15px/1.2 Georgia, "Noto Serif SC", serif; }
+    .prompt-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 9px; }
+    .copy-button { padding: 0 12px; font-size: 12px; }
+    #copy-status { color: var(--muted); font-size: 11px; }
+    #prompt-text { max-height: 470px; overflow: auto; margin: 12px 0 0; padding: 14px 15px; border: 1px solid var(--soft-rule); background: var(--paper-light); color: #282620; white-space: pre-wrap; overflow-wrap: anywhere; font: 12px/1.72 ui-monospace, SFMono-Regular, Consolas, monospace; user-select: text; }
+    .footnote { margin: 22px 0 0; padding-top: 11px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 10px; line-height: 1.5; }
+    @media (max-width: 850px) {
+      .page { padding: 18px 16px 32px; }
+      .masthead { align-items: flex-start; flex-direction: column; gap: 13px; }
+      .layout { grid-template-columns: minmax(0, 1fr); gap: 19px; padding-top: 17px; }
+      .selector-panel { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 12px; align-items: end; }
+      .selector-panel > .micro-label { grid-column: 1 / -1; }
+      .sequence { margin: 0; min-width: 174px; }
+    }
+    @media (max-width: 560px) {
+      .page { padding: 14px 14px 28px; }
+      .masthead nav { gap: 8px 15px; }
+      .selector-panel { display: block; }
+      .sequence { margin: 9px 0 14px; }
+      .viewer { grid-template-columns: minmax(0, 1fr); gap: 17px; }
+      .art-frame { width: min(100%, 390px); margin-inline: auto; }
+      .caption { width: min(100%, 390px); margin-inline: auto; }
+      .stage-header { align-items: flex-start; }
+      .details-head h2 { font-size: 30px; }
+      #prompt-text { max-height: 55vh; padding: 12px; font-size: 11px; }
+      .prompt-tools { align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="masthead">
+      <div>
+        <p class="kicker">Oneirloom / Visual index 01—12</p>
+        <h1>实验编辑海报 · 单张浏览</h1>
+      </div>
+      <nav aria-label="相关文档">
+        <a href="template.md">返回模板索引</a>
+        <span aria-hidden="true">/</span>
+        <span>本地离线页面</span>
+      </nav>
+    </header>
+    <main class="layout">
+      <aside class="selector-panel" aria-label="海报样式选择">
+        <label class="micro-label" for="recipe-select">选择一种样式 / 12 recipes</label>
+        <select id="recipe-select" aria-label="选择海报样式"></select>
+        <div class="sequence" aria-label="上一张和下一张">
+          <button id="previous" type="button" aria-label="上一种样式">← 上一张</button>
+          <span id="position" aria-live="polite">07 / 12</span>
+          <button id="next" type="button" aria-label="下一种样式">下一张 →</button>
+        </div>
+      </aside>
+      <section class="stage-panel" aria-label="海报与提示词">
+        <div class="stage-header">
+          <p class="micro-label">Poster / <span id="stage-number">07</span></p>
+          <div class="mode-switch" role="group" aria-label="显示内容">
+            <button id="sample-mode" type="button" aria-pressed="true">样图</button>
+            <button id="source-mode" type="button" aria-pressed="false">风格源图</button>
+          </div>
+        </div>
+        <div class="viewer">
+          <div class="art-column">
+            <figure style="margin:0">
+              <div class="art-frame"><img id="poster" alt="" src=""></div>
+              <figcaption class="caption"><span id="image-kind">样图</span><span id="image-file"></span></figcaption>
+            </figure>
+            <p id="image-note"></p>
+          </div>
+          <div class="details">
+            <div class="details-head">
+              <p class="eyebrow" id="english-title"></p>
+              <h2 id="recipe-title"></h2>
+              <p class="micro-label">视觉锚点 / Visual anchors</p>
+              <ul id="detail-anchors" class="anchors" aria-label="当前样式的三个视觉锚点"></ul>
+              <div class="detail-links">
+                <a id="example-link" href="">当前样例记录 ↗</a>
+                <a id="submitted-link" href="" hidden>样图所用英文提示词 ↗</a>
+              </div>
+              <p id="evidence-note"></p>
+            </div>
+            <section class="prompt-section" aria-labelledby="prompt-heading">
+              <div class="prompt-tools">
+                <h3 id="prompt-heading">完整提示词</h3>
+                <div class="prompt-actions">
+                  <div class="language-switch" role="group" aria-label="提示词语言">
+                    <button id="zh-language" type="button" aria-pressed="true">中文</button>
+                    <button id="en-language" type="button" aria-pressed="false">English</button>
+                  </div>
+                  <button id="copy-prompt" class="copy-button" type="button">复制提示词</button>
+                </div>
+              </div>
+              <p id="copy-status" role="status" aria-live="polite"></p>
+              <pre id="prompt-text" tabindex="0" aria-label="完整提示词文本"></pre>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <p class="footnote">风格源图是目录中的单张裁切参考，分辨率有限，仅用于辨认风格；样图与提示词的可重复性需按实际运行单独判断。</p>
+  </div>
+  <script id="poster-data" type="application/json">[{"id":"01-sculpture-tear","title":"雕塑撕页","english":"Sculpture tear","anchors":["灰阶古典雕像","撕纸强调色边","大幅人物肖像"],"example":"example.json","sample":"01-sculpture-tear/images/transfer-01.png","source":"01-sculpture-tear/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张单幅、完整、独立的2:3竖版平面印刷海报，让画面铺满整张画布。若附上参考图，只把它作为风格参考，借鉴暖白纸感、不对称构图、灰度雕塑，以及竖向白色撕口与红色纸条的关系；主体和文案按本提示中的新内容创作。背景采用暖白哑光纸，保留细微、自然的印刷纸面颗粒。整体以黑色、灰度和暖白为主，只用一条红色纸条作强调，留白清楚，视觉重心保持不对称。\n\n准确排版以下六行文案，保留拼写、大小写和顺序。画面上方左侧的标题分两行：第一行写 \"FORM\"，第二行写 \"01\"。把 \"FORM\" 设为画面最大、第一层级的黑色高反差衬线展示字，字母高度约为海报宽度的四分之一。标题靠近左上区域并留出纸边距。将 \"01\" 紧接在标题下方，与标题左缘对齐，字号明显更小，作为次级编号。\n\n在画面右侧和下半部放置一尊古典大理石雅典娜胸像的灰度摄影式剪贴图。面部横向约占画面宽度的一半，主体贴近右下区域。保留石雕纹理和清楚的明暗层次，并为左侧标题与小字留出空间。\n\n在胸像右边设置一条竖向白色撕纸边，让边缘自然参差并形成清晰锯齿。撕口从画面上部延伸至下部，把胸像与最右侧的饱和红色纸条分开。红条宽度小于全画幅的六分之一，作为画面唯一的彩色强调。\n\n在左侧中下部以小号简洁无衬线黑字排两行说明，左对齐：第一行 \"Old shapes\"，第二行 \"New readings\"。在左下方设置更小的两行页脚，左对齐：第一行 \"FIELD STUDIES\"，第二行 \"A poster study\"。说明和页脚清晰易读，字号低于标题。\n\n保持标题为最强视觉层级，雕塑为第二视觉重心，说明和页脚作为小型编辑信息。保留暖白纸面、轻微天然纸纹和单一红色点缀。输出一张边缘完整、画面平整的独立海报。\n","en":"Create one complete, flat 2:3 portrait print poster with the artwork filling the full canvas edge to edge. If the source image is attached, use it as a style reference for warm paper, asymmetry, the grayscale sculpture, and the relation between the torn white edge and red strip. Create the new subject and copy specified below. Use warm off-white matte paper with subtle natural print grain. Keep the base palette black, grayscale, and warm off-white, with one red paper strip as the sole color accent. Leave clear negative space and keep the visual balance asymmetric.\n\nSet the poster copy in these exact six lines, preserving spelling, capitalization, and order. At the upper left, place \"FORM\" on the first line and \"01\" on the second line. Make \"FORM\" the largest, primary title in black high-contrast serif display type, with letter height about one-quarter of the poster width. Place the title in the upper-left area with a paper margin. Set \"01\" directly beneath it, flush left, and clearly smaller as the secondary index.\n\nPlace a grayscale photographic cutout of a classical marble bust of Athena across the right and lower area. Let the face occupy about half the canvas width and anchor the bust near the lower right. Preserve the carved stone texture and the contrast between lit and shaded planes, with open space for the title and small copy on the left.\n\nBeside the right side of the bust, make a vertical white torn-paper edge with a naturally jagged contour. Extend the tear from the upper area toward the bottom so it separates the bust from a saturated red paper strip at the far right. Keep the strip narrower than one-sixth of the full canvas width. Use the strip as the single color accent.\n\nAround the middle-to-lower left, set two small, simple black sans-serif notes, flush left: \"Old shapes\" on the first line and \"New readings\" on the second line. At the lower left, set a smaller two-line footer, flush left: \"FIELD STUDIES\" on the first line and \"A poster study\" on the second line. Keep the notes and footer clear but smaller than the headline.\n\nKeep the title as the strongest visual level, the sculpture as the second visual focus, and the notes and footer as small editorial details. Preserve the warm off-white paper, subtle natural grain, and single red accent. Render one complete, flat poster as the full-canvas image.\n"}},{"id":"02-motion-blur","title":"动态拖影","english":"Motion blur","anchors":["清晰静止主体","局部方向拖影","克制速度线"],"example":"example.json","sample":"02-motion-blur/images/transfer-01.png","source":"02-motion-blur/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张可独立呈现的平面竖版 2:3 编辑海报，正面展示完整画幅。纸面为带有细微颗粒与纤维质感的暖白色，整体以黑色、灰色和暖白构成克制的单色层次，明暗变化呈现主体的体积和运动感。\n\n画面中央放置一盏黑色可调节金属工作台灯，灯具主体约占画面宽度的 60%。将灯座与底部支撑结构置于画面下方中央，轮廓清晰、边缘锐利、结构稳定；灯臂斜向上延伸，灯头位于画面上半部中央。让上方灯臂和灯头产生水平向左的运动拖影：在原始形体后方排列数道轻盈、半透明的重复轮廓与细长条痕，沿水平方向向左延伸约一个灯头的宽度，并随着距离增加逐渐变淡、变细、间距变疏。保留灯具原有形体的辨识度，底座与下方结构保持锐利清晰。将浅灰色拖影安排在文字层之后，文字作为独立的清晰前景层呈现。\n\n在画面左上方以粗体窄体无衬线大写字堆叠三行标题，三行文字逐字准确为“STILL” / “IN” / “MOTION”，每个词单独占一行。在右上方放置三行极小但清楚可读的注释，文字准确为“Observe” / “Shift” / “Repeat”。在画面左下方设置醒目的粗体页脚“FIELD STUDIES”，并在其正下方以极小字号放置说明文字“A poster study”。让标题、右侧注释、页脚和说明各自保持清晰的阅读层级，同时留出从容的暖白边距，使灯具、横向拖影与排版形成平衡的编辑构图。成品呈现为纸感细腻、边缘清晰的平面印刷海报。\n","en":"Create a complete, flat, standalone portrait 2:3 editorial poster, shown straight on. Use warm off-white paper with subtle grain and fiber, and build a restrained monochrome palette of black, gray, and off-white, using tonal contrast to show form and motion.\n\nCenter one black articulated metal desk lamp, with the lamp occupying about 60% of the page width. Place its base and lower support structure at the lower center, with a stable silhouette, crisp edges, and sharply defined details. Angle the neck upward so the lamp head sits in the upper middle. Give only the raised neck and head a horizontal leftward motion drag: arrange several light, translucent echo contours and narrow streaks behind the original form, extending leftward by about one lamp-head width and becoming progressively lighter, thinner, and more widely spaced with distance. Keep the lamp recognizable and its base and lower structure sharply defined. Place the pale gray motion echoes behind the typography, with all text on a separate, crisp foreground layer.\n\nAt the upper left, stack a bold, condensed, uppercase sans-serif title in three lines, with the exact words “STILL” / “IN” / “MOTION”, one word per line. At the upper right, set three tiny but clearly readable notes, exactly “Observe” / “Shift” / “Repeat”, one per line. At the lower left, place a prominent bold footer reading “FIELD STUDIES”, with the tiny caption “A poster study” directly beneath it. Keep the title, right-side notes, footer, and caption in a clear reading hierarchy with generous warm off-white margins, balancing the lamp, horizontal trails, and typography in an editorial composition. Render the result as a flat printed poster with subtle paper texture and crisp edges.\n"}},{"id":"03-mirror-sphere","title":"镜面球体","english":"Mirror sphere","anchors":["镜面球体","弯曲室内倒影","冷静建筑空间"],"example":"example.json","sample":"03-mirror-sphere/images/transfer-01.png","source":"03-mirror-sphere/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张独立的竖版编辑实验海报，纵横比为2:3，整张画布直接呈现海报本身。纸面为温暖的灰白色未涂布纸张，带有细微、均匀的纸张颗粒。版面简洁而有鲜明层级：上方两角放置小型文字，中上部由一枚占据画面主体的镜面球体构成主视觉，下方留出清楚的标题页脚。\n\n在画面中上部水平居中放置一枚大型、光滑、抛光铬面镜球，球体宽度约为画布宽度的90%，完整呈现清晰、连续的圆形边界，左右留出窄而均匀的纸面边距。球面具有明亮而克制的银色高光、深浅分明的灰阶反射和真实镜面质感。\n\n镜球映出一座玻璃温室内部：可辨认的拱形玻璃屋顶与金属弧梁、层叠的玻璃结构，以及几组枝叶舒展的植物。温室景象以黑白单色呈现在镜面上，拱梁与植物沿凸起球面连续弯曲，在边缘处产生自然的压缩和透视变化，让人一眼看出它们是真实空间在球形镜面上的连续倒影，同时仍能识别温室的拱顶和植物。镜球的银灰反光、高光与温室倒影共同构成有深度的球面。\n\n在上方左侧安排一组小巧、清晰、锐利印刷的黑色编辑注记，作为克制的微型文字层。上方右侧写入三行小型随性手写蓝字，逐字写成三行：第一行“More”，第二行“ways”，第三行“to see”。蓝色仅作为这处小型手写强调色，其余纸面、印刷文字和球内反射保持黑、白、灰的中性配色。\n\n在镜球下方的页脚位置设置醒目的高反差衬线大字“FIELD 03”，文字保持完整清晰，并沿一条稳定、笔直的水平基线排布。标题附近加入极小号说明文字“A different view”。印刷字体边缘清楚，手写字保留自然笔触；标题、微型注记、手写强调和镜球之间留有干净的纸面空间，最终形成一张完整、平面、纸感细腻的2:3竖版编辑海报。\n\n","en":"Create a standalone vertical experimental editorial poster in a 2:3 aspect ratio, with the poster artwork filling the entire canvas. Use warm off-white uncoated paper with fine, even paper grain. Keep the layout spare and clearly tiered: small type sits in the two upper corners, one mirror sphere dominates the middle-upper field, and a clean footer area remains below it.\n\nCenter one large, smooth, polished chrome mirror sphere horizontally in the middle-upper part of the poster. Make it about 90% of the canvas width, with a complete, continuous circular boundary and a narrow, even paper margin on both sides. Give the sphere restrained bright silver highlights, deep and light grayscale reflections, and a convincing mirrored finish.\n\nReflect the interior of a glass conservatory in the sphere: recognizable arched glass roofing and curved metal ribs, layered glazing, and several leafy plants with spreading foliage. Render the conservatory in monochrome across the mirror surface. Let the ribs and plant forms bend continuously over the convex sphere, compressing naturally toward its edges with spherical perspective. The arches and plants remain recognizable as a real conservatory while reading as one continuous reflection across a curved mirror surface. Build the sphere’s depth from its silver-gray reflections, highlights, and reflected interior.\n\nPlace a compact block of small, crisp, sharply printed black editorial notes in the upper-left corner as a restrained microtype layer. In the upper-right corner, write the small casual blue handwritten accent on exactly three separate lines: “More” on the first line, “ways” on the second, and “to see” on the third. Reserve blue for this small handwritten accent; keep the paper, printed type, and reflected interior in a neutral black, white, and gray palette.\n\nBelow the sphere, set the prominent high-contrast serif footer “FIELD 03” on one firm, straight horizontal baseline. Add the tiny caption “A different view” near the title. Keep printed letterforms crisp, preserve natural handwritten strokes, and leave clean paper space between the sphere, notes, accent, and footer. Present the result as a complete, flat 2:3 portrait editorial poster with subtle paper texture.\n\n"}},{"id":"04-torn-landscape","title":"撕纸风景","english":"Torn landscape","anchors":["黑白撕纸山景","超窄大标题","黄色小面积点睛"],"example":"example.json","sample":"04-torn-landscape/images/transfer-01.png","source":"04-torn-landscape/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"生成一张完整、可独立观看的竖版编辑风格海报，画布比例为 2:3。以参考图 04 号版面的撕纸构图、印刷质感和灰阶加黄色点缀作为风格依据；主体内容是一处由海岸悬崖与拍岸浪花构成的连贯景观。画面铺满一张温暖偏白的哑光纸张画布，呈现克制、鲜明、易读的平面印刷拼贴。\n\n将黑白海岸景观安排在画面上半部，覆盖约上半幅，并拆成三条横向撕开的纸质图像带。三条纸带来自同一处海岸：让悬崖轮廓、海平线与浪花在视觉上保持可辨认的连续关系，同时给每条带不同的轻微位移。顶条相对原位向右约画面宽度的 3% 并上移约画面高度的 1%；中条向左约画面宽度的 2% 并下移约画面高度的 1%；底条向右约画面宽度的 1% 并下移约画面高度的 2%。错位清晰可见但幅度克制，让同一片海岸在撕裂之后仍一眼可认。每条撕口保留纤维感、不规则的白色纸边与细窄露底缝隙。景观保持黑白灰层次，悬崖、海面、海平线和浪花泡沫清楚分层。\n\n在画面下方的中部设置最醒目的标题，用厚重、紧凑、极窄体的黑色无衬线大字，左对齐为上下两行，准确写作“COAST”和“LINES”。两行标题共同占据约画面宽度的 80%，轮廓清楚、字距紧密，在海岸拼贴下方形成强烈稳定的文字块。标题是主视觉中心，海岸画面与标题构成一张统一的编辑海报。\n\n在图像与标题交接处的右侧叠放一张小巧的明黄色手撕便签，让它跨在海岸拼贴右下缘与标题区域的连接位置。便签保留细微的纸张翘边，面积低于整张画布的 10%，作为醒目但克制的色彩点缀；便签上的手写黑字逐行准确写作“Edges”、“keep”、“changing”。便签文字与标题字形各自保持清晰间距，文字清楚可读。\n\n沿画面左下方的底边距加入小号、安静的黑色大写页脚“FIELD STUDIES”。保持阅读层级明确：紧凑的大标题最突出，黑白海岸景观提供内容，黄色手写便签作为第三层点缀，页脚最小。全画面保持温暖白纸底、黑白景观、黑色标题与单块黄色便签的鲜明对比，边缘撕口自然可见，构图完整而利落。\n","en":"Create one complete, standalone editorial poster on a portrait 2:3 canvas. Use panel 04 of the style reference for its torn-paper composition, printed texture, and grayscale palette with one yellow accent. The poster depicts one coherent coastal landscape of sea cliffs and breaking waves. Fill the canvas with warm off-white matte paper and a restrained, high-contrast flat-print collage.\n\nPlace the grayscale coast across roughly the upper half of the canvas and divide it into three horizontally torn image strips. Keep all three strips from the same coast, with recognizable continuity in the cliff contours, horizon, and wave foam. Give every strip its own slight displacement: move the top strip about 3% of the canvas width to the right and 1% of its height upward; move the middle strip about 2% of the canvas width to the left and 1% of its height downward; move the bottom strip about 1% of the canvas width to the right and 2% of its height downward. Make the offsets distinct but restrained, so the same coastline remains immediately recognizable after the tear. Show irregular fibrous white paper edges and narrow off-white gaps at each torn seam. Keep the cliffs, sea, horizon, and breaking foam clearly separated in grayscale tones.\n\nSet the most prominent headline in the lower-middle area. Use heavy, tightly condensed black sans-serif lettering, left-aligned on two separate lines reading exactly “COAST” and “LINES”. Together the two lines occupy about 80% of the canvas width, with clear letterforms and tight spacing, forming a strong, stable text block beneath the coastal collage. Let the headline lead the visual hierarchy while the coastline and type read as one unified editorial poster.\n\nOverlap one small, bright yellow torn-paper note at the right-side junction between the image and headline, crossing the lower-right edge of the coastal collage and the adjoining title area. Give the note subtle lifted paper edges and keep its area below 10% of the full canvas. Use clear black handwriting on exactly three lines with the exact words: “Edges” / “keep” / “changing”. Keep the note vivid but restrained and place its lettering clear of the headline letterforms.\n\nAdd the exact small, quiet black uppercase footer text “FIELD STUDIES” at the lower-left end of the bottom margin. Preserve the reading hierarchy: the tightly condensed headline is strongest, the grayscale coast supplies the scene, the yellow handwritten note is the third accent, and the footer is smallest. Keep the warm white paper, grayscale landscape, black type, and single yellow note in crisp contrast, with visible natural torn edges and a complete, balanced composition.\n"}},{"id":"05-botanical-engraving","title":"植物版画","english":"Botanical engraving","anchors":["植物铜版线描","橙色细轮廓","少量注释标记"],"example":"example.json","sample":"05-botanical-engraving/images/transfer-01.png","source":"05-botanical-engraving/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"创作一张独立完整的竖版 2:3 植物观察海报，画面是平面图形构成，浅暖米白纸面带有轻微细腻的纸纹。画面上方约三分之二由一幅大幅黑白植物插画占据：一朵盛开的鸢尾，花瓣自然弯卷，细长叶片向外舒展，花瓣与叶片的形态清晰可辨。以锐利、细密、类似雕版的交叉排线表现花瓣和叶片的明暗、转折与叠压，让黑白线稿清楚而有层次。\n\n沿植物真实的外轮廓和少数花瓣边缘添加纤细的橙色手绘线条；线条轻微起伏，像手绘墨线，橙色只占很小面积，并准确贴合可见的花瓣与叶片边缘。右上方用松散的黑色手写字分三行写出 \"Study\"、\"Explore\"、\"Repeat\"，旁边配一个小小的手绘箭头。左下方安排粗体无衬线页脚标题 \"FIELD 05\"，其下以更小字号写出 \"Botanical observations\"。保持海报的留白与文字层级清楚，整张纸平展完整可见，植物线稿锐利，纸张颗粒轻微；所有指定英文文字逐字准确、清晰可读。\n","en":"Create a complete, standalone 2:3 portrait botanical study poster as a flat graphic composition on warm off-white paper with subtle fine grain. Let a large black-and-white botanical illustration fill roughly the upper two-thirds: a blooming iris with naturally curling petals and long leaves that extend outward, with each petal and leaf shape clearly readable. Use crisp, fine engraving-like crosshatching to show the light, turns, and overlapping forms of the petals and leaves, keeping the monochrome linework sharp and layered.\n\nAdd narrow orange hand-drawn lines along the plant's real outer silhouette and a few petal edges. Give the strokes a slight hand-drawn wobble, like ink traced by hand; keep the orange area small and accurately aligned to visible petal and leaf edges. In the upper-right area, write three loose lines of black handwriting, exactly \"Study\", \"Explore\", and \"Repeat\", with one tiny hand-drawn arrow beside them. In the lower-left footer, set the bold sans-serif title \"FIELD 05\" and place the smaller caption \"Botanical observations\" beneath it. Keep the poster's whitespace and type hierarchy clear, show the full sheet flat and complete, preserve crisp botanical linework and subtle paper grain, and render every specified English phrase legibly and exactly.\n"}},{"id":"06-swiss-sculpture","title":"瑞士雕塑拼接","english":"Swiss sculpture","anchors":["古典雕像","蓝色几何切分","瑞士网格字块"],"example":"example.json","sample":"06-swiss-sculpture/images/transfer-01.png","source":"06-swiss-sculpture/images/reference.png","note":"样图对应 submitted.en.txt；prompt.en.txt baseline 未按原文运行。样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"06-swiss-sculpture/submitted.en.txt","prompts":{"zh":"制作一张独立、平面的竖版 2:3 编辑海报，正面呈现完整画幅，背景为温和的暖白色纸面，并带有细微自然的纸张纤维感。采用受瑞士式编辑设计启发的不对称排版网格。左侧保留清晰的暖白文字栏；在画面中右区域放置一颗黑白灰阶的古典大理石女性头像雕塑切图，头像占据画面中间约一半宽度，以面向右侧的侧面轮廓呈现，眼睛、鼻梁、鼻尖、嘴唇和下颌线都清楚易辨，石质轮廓与灰阶细节分明。让雕塑切图延伸至一道粗粝、不规则的竖向拼贴断边；沿断边外侧在画面最右方接入一条贯穿全高的高饱和钴蓝色竖直色块，色块约占画面宽度的五分之一。左侧以黑色粗体窄体无衬线大写字紧凑堆叠四行标题，四行共用一条左边线，字距克制、行距紧密、主次鲜明，文字和顺序准确为：“OLD”“FORMS”“NEW”“VOICES”。标题下沿同一左边线放置三行小号、清晰可读的注释，逐行准确写为：“Shape”“Time”“Meaning”。在画面底部左侧沿该边线放置醒目的粗体页脚“FIELD 06”。让雕塑切图、粗粝断边、钴蓝色块和左侧文字彼此分明，保留充足暖白留白，以强烈黑白与钴蓝对比形成紧凑、有秩序的编辑张力。成品呈现为清晰的平面印刷海报，所有画内文字严格使用指定的拼写、大小写、行序和位置。\n","en":"Create a standalone, flat portrait 2:3 editorial poster, shown straight on as a complete page. Use warm off-white paper with subtle natural fiber texture and an asymmetric editorial grid inspired by Swiss design. Reserve a clear off-white text column on the left. Place a grayscale classical marble woman head as a sculptural cutout in the center-right, occupying about half the composition width. Show the head in a right-facing side profile, with the eye, bridge and tip of the nose, lips, and jaw unmistakably readable and the marble form rendered with clear tonal detail. Bring the sculpture cutout to a rough, irregular vertical collage edge. Immediately beyond that edge, place a saturated cobalt-blue vertical panel at the far right, extending the full page height and taking about one fifth of the page width. In the left column, stack four lines of large, bold, black, condensed uppercase sans-serif type. Give the lines tight spacing, strong hierarchy, and one shared left edge. Set the title exactly as “OLD”, “FORMS”, “NEW”, “VOICES”, in that order, one word per line. Beneath it, align three smaller readable notes to the same left edge, exactly “Shape”, “Time”, and “Meaning”, one per line. Place a bold footer reading exactly “FIELD 06” at the lower left, aligned to that edge. Keep the sculpture cutout, rough edge, cobalt panel, and type distinct, with ample off-white space and decisive black, white, and blue contrast. Render the finished work as a crisp flat printed poster, preserving the exact spelling, capitalization, line order, and placement of every specified word.\n"}},{"id":"07-object-slices","title":"物体切片","english":"Object slices","anchors":["单体分层切片","细小色彩点","侧边注记"],"example":"example.json","sample":"07-object-slices/images/transfer-01.png","source":"07-object-slices/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张独立完整的竖版 2:3 实验性编辑海报，画面是一张哑光暖象牙白、带细腻纸张颗粒感的平面纸。主体是一只成熟的梨，带一根轻轻弯曲的果梗，保留清晰的梨形轮廓：上方果颈较窄，下方果身饱满圆润。以高反差黑白静物摄影呈现梨，清楚保留果皮斑点、细小纹理和自然明暗变化。\n\n将完整梨从顶部到根部切分为恰好七块有序的水平薄片。每一块都保留梨对应部位的轮廓、果皮纹理、斑点与明暗，使七片合起来仍然一眼可辨为同一个梨；弯曲果梗与梨的上端在最上方，梨的下半部依次排列在其下。片与片之间留出细窄、均匀的暖白色间隙。各片按从上到下左右交替轻微错位，形成清楚而克制的层叠节奏，同时维持整体梨形。梨身只在中央第四片使用鲜明的绿色，其余六片保持黑、白、灰色调；绿色片仍保留与其他梨片连续一致的果皮纹理和受光。柔和光线从左上方照入，每片下方都有细小自然的接触阴影，所有阴影方向一致。\n\n把完整的梨居中放在画面上半部至中部，整体宽度约占画面宽度的 70%。右上方保留清晰的窄栏，使用黑色墨字和克制、清晰的编辑式无衬线排版，将标题逐行排成四层，文字必须逐字为：\n“ONE”\n“FORM”\n“MANY”\n“VIEWS”\n\n在右侧另设一组小号注释，逐行写成：\n“Slice”\n“Shift”\n“Rethink”\n\n在左下角以粗体排入：\n“FIELD 07”\n\n在右下角以很小的字号排入：\n“A different order”\n\n画面上只出现以上列出的文字，并保持原英文拼写、大小写和逐行顺序。文字使用清晰的黑色，留白宽松，梨、切片和所有阴影自然地落在同一张纸面上，构成完整、安静而有张力的编辑海报。\n","en":"Create a complete, standalone portrait 2:3 experimental editorial poster on flat matte warm ivory paper with subtle paper grain. The subject is one ripe pear with a gently curved stem and a clear pear silhouette: a narrow neck above a full, rounded lower body. Present it as a high-contrast black-and-white still life, preserving the pear's skin speckles, fine surface grain, and natural tonal variation.\n\nDivide the whole pear from top to bottom into exactly seven ordered, thin horizontal slabs. Each slab retains the contour, skin texture, speckles, and tones of its corresponding part of the pear, so the seven pieces still read at a glance as the same pear. Keep the curved stem and top at the upper end, with the lower pear sections arranged beneath it in order. Separate every slab with a slim, even warm-white gap. Shift the slabs slightly left and right in alternating order from top to bottom, creating a clear, restrained stagger while preserving the overall pear silhouette. Color only the central fourth slab vivid green; keep the other six slabs black, white, and gray. Preserve pear-skin texture and consistent lighting on the green slab. Soft light enters from the upper left, with a small natural contact shadow beneath each slab and one coherent shadow direction.\n\nCenter the complete pear in the upper-to-middle area of the canvas at about 70% of the canvas width. Leave a clear narrow column at the upper right. Set the title there in black ink and restrained, crisp editorial sans-serif type, stacked on four separate lines with this exact wording:\n“ONE”\n“FORM”\n“MANY”\n“VIEWS”\n\nPlace a separate small annotation on the right, one word per line, exactly:\n“Slice”\n“Shift”\n“Rethink”\n\nSet this line in bold at the lower left:\n“FIELD 07”\n\nSet this line in very small type at the lower right:\n“A different order”\n\nUse only the in-image text listed above, preserving its exact spelling, capitalization, and line order. Render the text clearly in black ink with generous paper space. Let the pear, its slabs, and their shadows sit naturally on the same sheet, forming a complete, quiet, visually striking editorial poster.\n"}},{"id":"08-zine-silhouette","title":"独立刊物剪影","english":"Zine silhouette","anchors":["高反差剪影","紫色手写字","复印颗粒纸感"],"example":"example-v2.json","sample":"08-zine-silhouette/images/transfer-02.png","source":"08-zine-silhouette/images/reference.png","note":"样图包含一次编辑；样图记录当时提交的提示词，通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张完整独立、正视呈现的竖幅 2:3 平面编辑海报，画面是一张暖白色、带细微纸张颗粒的印刷纸。画面主体是一颗大幅黑白狐狸头侧面剪影，面向画面右侧，尖耳和向右收窄延伸的口鼻部清晰可辨。狐狸剪影占据大部分画幅，以深黑形体、纸白与灰阶建立强烈明暗关系；轮廓和毛发内部覆盖粗颗粒复印质感、网点与轻微断墨的毛边，让毛发纹理遍布主体，同时保留清楚完整的狐狸轮廓。主体周围显露暖白纸面，右侧保留一条干净的排字区域。\n\n在黑色剪影的下半部中央，用宽大、松弛的紫色马克笔手写字绘制两行主标题，笔画粗细略有变化，带真实手绘的轻微飞白，整体从左向右略微上扬。第一行准确写成 “STAY”，第二行准确写成 “CURIOUS”。在 “CURIOUS” 下方加一条同色紫色手绘下划线，向右延伸一点。\n\n在右侧留白处安排小号黑色文字，上下堆叠、清晰易读：第一行准确写成 “SEE”，第二行准确写成 “MORE”。在画面左下方纸面边缘放置两行极小但清楚的黑色页脚：第一行准确写成 “FIELD 08”，第二行准确写成 “A poster study”。\n\n整张海报以狐狸剪影和紫色主标题为第一视觉层级，右侧短注和页脚为克制的微型排字。色彩由黑、白、灰、暖白纸张和唯一的紫色强调色组成；紫色只用于两行手写主标题与下划线。所有文字保持准确拼写、清楚分隔，构成简洁、粗粝、有复印机印刷质感的平面 zine 海报。\n","en":"Create a complete, standalone, front-facing vertical 2:3 editorial poster as a flat print on warm off-white paper with fine visible grain. A large black-and-white fox head in profile dominates the canvas and faces right; its pointed ears and tapered muzzle extending to the right are unmistakable. Build the fox as a strong dark silhouette in paper white and grayscale, with coarse photocopy grain, halftone flecks, and lightly broken ink along the edge and through the fur. Let the rough fur texture spread across the subject while keeping the full fox outline recognizable. Leave warm paper visible around the profile and a clean narrow type area on the right.\n\nAcross the lower-middle of the dark silhouette, draw a loose oversized two-line headline in purple marker, with thick strokes, slight changes in hand pressure, a few dry streaks, and a gentle upward slant from left to right. The first line must read exactly “STAY”; the second line must read exactly “CURIOUS”. Add one hand-drawn underline in the same purple just beneath “CURIOUS”, extending slightly to the right.\n\nIn the open right-side paper area, set a small, crisp black note as a vertical stack: first line exactly “SEE”, second line exactly “MORE”. At the lower-left paper margin, place a tiny but legible two-line black footer: first line exactly “FIELD 08”, second line exactly “A poster study”.\n\nMake the fox silhouette and purple marker phrase the primary visual hierarchy, with the right note and footer as restrained microtype. Use black, white, gray, warm off-white paper, and purple as the single accent hue; purple appears only in the two handwritten headline lines and their underline. Keep all lettering accurately spelled and clearly separated in a concise, rough-textured photocopy zine poster.\n"}},{"id":"09-geometric-architecture","title":"几何建筑","english":"Geometric architecture","anchors":["锐角建筑透视","橙色几何色块","硬朗空间线"],"example":"example.json","sample":"09-geometric-architecture/images/transfer-01.png","source":"09-geometric-architecture/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张独立完整的竖版 2:3 实验性编辑海报。成品是平面、正视、完整呈现在一张哑光暖象牙白纸面上的海报，带克制的细纸纹和宽松的编辑留白。主体是一栋棱角分明、具有裸露清水混凝土质感的当代艺术博物馆，以真实建筑摄影呈现。相机从低处向上拍摄，立面、窗格、梁板和混凝土纹理清楚可辨，透视线连续地向画面上方延伸。建筑立面、窗格、梁板及混凝土纹理共同构成可辨认的建筑摄影主体。\n\n让高反差黑白建筑照片形成大胆的斜向几何裁切：照片具有清楚锐利的对角边界，建筑立面和内部结构沿同一组连续的低角度透视线向上穿过画面。保留足够的立面细节，使人仍能看出这是同一栋艺术博物馆。照片的剪裁、建筑边缘和向上的视线保持一致，形成从画面中段通向右上方的清晰对角动势。\n\n在左上方放置一块平整鲜明的橙色三角形色面，约占整张海报面积的 15%，位于建筑照片后方。建筑照片以斜向裁切越过这个三角形，并遮住其中一部分，让黑白建筑与橙色平面之间明确呈现前后层次。整张海报只用这一块橙色作为鲜明色彩，其余建筑摄影保持黑、白、灰色调，纸张保持暖白。\n\n在右上方保留窄而清晰的注释栏，用黑色、克制而清晰的编辑式无衬线排版，逐行排成四行，文字必须逐字如下：\n“Different”\n“angles”\n“New”\n“possibilities”\n保留原有大小写、拼写、顺序和分行。\n\n在左下侧设置一组小号黑色注释，逐行排成三行，文字必须逐字如下：\n“Space”\n“Form”\n“Light”\n\n在画面底部排入非常醒目的超大黑色窄体粗字“NEW ANGLES”，横向延展并成为整张海报最大的文字。标题下方靠右，用极小的黑字排入“FIELD 09”。右上注释和左下小注释明显小于主标题，“FIELD 09”是最小的文字。所有指定英文必须清晰、准确，画面文字只包含以上列出的内容。\n\n让建筑的斜向透视自然引导视线通向底部标题；保留标题周围的清楚留白，让橙色三角成为唯一鲜明的色彩锚点。整张海报完整地平铺正视呈现，纸面、建筑摄影、橙色平面与指定文字各自保持清晰层次。\n","en":"Create a complete standalone portrait 2:3 experimental editorial poster. Show the finished work flat and front-facing on a matte warm ivory sheet with restrained fine paper grain and generous editorial margins. The subject is a sharply angular contemporary art museum with exposed-concrete character, presented as real architectural photography. Photograph it from a low position looking upward. Keep the facade, windows, beams, and concrete texture recognizable, with perspective lines continuing upward through the frame. Keep the recognizable facade, windows, beams, and concrete texture as the photographic subject.\n\nGive the high-contrast black-and-white architectural photograph a bold diagonal geometric crop. Use crisp diagonal edges, while the facade and its structural details follow the same continuous low-angle perspective upward through the image. Keep enough of the facade visible for the viewer to recognize one art museum. Align the photo crop, building edges, and upward view so they carry a clear diagonal movement from the middle of the poster toward the upper right.\n\nPlace one flat, vivid orange triangular plane in the upper-left area, covering about 15% of the full poster, behind the architectural photograph. Let the diagonal photo cross over and obscure part of the triangle, so the black-and-white building and orange plane have a clear front-to-back order. Use this triangle as the poster's only vivid color; keep the architectural photograph grayscale and the paper warm off-white.\n\nReserve a narrow, clear note column at the upper right. Use restrained, crisp black editorial sans-serif type, arranged on four separate lines exactly as follows:\n“Different”\n“angles”\n“New”\n“possibilities”\nKeep the spelling, capitalization, order, and line breaks exactly as shown.\n\nSet a small black note at the lower left on three separate lines exactly as follows:\n“Space”\n“Form”\n“Light”\n\nPlace the very large, highly prominent, bold condensed black footer “NEW ANGLES” along the bottom, spanning horizontally as the largest text on the poster. Put the tiny black caption “FIELD 09” below the footer toward the lower right. Keep both corner notes clearly smaller than the main footer, and make “FIELD 09” the smallest text. Render every specified English string clearly and accurately; show only the listed poster copy.\n\nLet the building's diagonal perspective lead naturally toward the bottom title. Keep clear space around the footer and let the orange triangle serve as the only vivid color anchor. Present the complete poster flat and front-facing, with distinct layers of paper, architectural photograph, orange plane, and the specified typography.\n"}},{"id":"10-paper-typography","title":"纸感大字","english":"Paper typography","anchors":["叠置衬线大字","皱褶纸张","黄色小标记"],"example":"example.json","sample":"10-paper-typography/images/transfer-01.png","source":"10-paper-typography/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"创作一张平整、独立呈现的编辑风格海报，竖版 2:3 画幅，正面观看，纸面铺满整个画面。整张纸为暖调米白色，呈现丰富、真实的褶皱纸张质感：柔和的大幅折痕、细密皱纹、轻微纸纹和浅浅的纸面起伏。让褶皱贯穿版面，同时保留清晰易读的印刷区域。\n\n在左上方排入一组近黑色的超大号、高对比度优雅衬线标题，紧凑地分成四行并全部左对齐。标题形成宽阔、不对称的版面重心，占据海报上方约三分之二。下面四个英文单词必须逐字准确，拼写、标点和换行均保持如下：\n\n“Make”\n“room”\n“for”\n“ideas.”\n\n用暖黄色手绘记号笔画一个纤细的椭圆，只圈住单词 “room”。让字母清晰露在圈内，线条保持窄而单一，不做填色，黄色笔迹的可见面积约占海报的百分之五。\n\n在标题下方偏左的位置放置一个小巧、真实可触的同款皱纸团。在纸团底部添一段短而柔和的接触阴影，使它自然落在纸面上。\n\n在画面右侧排一组极小、整齐、右对齐的大写英文注释，层级明显低于主标题。四行文字逐字准确写为：\n\n“SAME”\n“SPACE”\n“NEW”\n“THOUGHTS”\n\n在左下边缘附近加入一行极小的页脚，文字准确写为：“FIELD 10”。整体构图安静而留有呼吸感，以清晰的衬线标题作为主视觉，以黄色椭圆作为唯一鲜亮点缀，并让每个印刷文字都能跨越纸张褶皱保持易读。\n","en":"Create a flat, standalone editorial poster in a portrait 2:3 composition, viewed straight on, with the paper surface filling the whole frame. Make the entire sheet warm off-white paper with a richly photographed, naturally crumpled texture: broad soft folds, fine creases, subtle grain, and shallow paper relief. Keep the folds visible across the design while preserving clear, readable print areas.\n\nSet one oversized, elegant, high-contrast serif headline in near-black, tightly stacked at the upper left and left aligned. Let the broad, asymmetric headline block dominate roughly the upper two-thirds of the poster. Print the following four words on four separate lines, with the spelling, punctuation, and line breaks exactly as shown:\n\n“Make”\n“room”\n“for”\n“ideas.”\n\nDraw one narrow, hand-marked warm-yellow oval around the word “room” only. Keep the letters unobscured inside the loop; make the oval a single slender stroke whose visible area is about five percent of the poster.\n\nPlace one small, tangible ball of crumpled matching paper below the headline toward the lower left. Give it a short, soft contact shadow tucked beneath its base so the paper ball rests believably on the sheet.\n\nPlace a tiny, neat, right-aligned uppercase note block on the right side, subordinate to the headline. Set its four lines exactly as follows:\n\n“SAME”\n“SPACE”\n“NEW”\n“THOUGHTS”\n\nSet a tiny footer near the lower-left edge exactly as follows: “FIELD 10”. Keep the composition quiet and spacious, with the crisp serif headline as the main focal point, the marker loop as the sole bright accent, and every printed word legible across the photographed paper folds.\n"}},{"id":"11-transparent-botanical","title":"透明花卉","english":"Transparent botanical","anchors":["半透明蓝色花叶","细密叶脉","疏朗辅助文字"],"example":"example-v2.json","sample":"11-transparent-botanical/images/transfer-02.png","source":"11-transparent-botanical/images/reference.png","note":"样图包含一次编辑；样图记录当时提交的提示词，通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"创作一张完整、独立、平面呈现的竖版 2:3 植物主题编辑海报。使用大面积留白的浅暖米白纸色底，纸面只有极轻微的细腻纸感，整体轻盈、安静、清晰。中央植物图像组合约占画面宽度的三分之二，四周保留充足空白。\n\n画面中安排两朵鸢尾：盛开的大花位于上方，较小的一朵位于下方，两朵以纤细、自然弯曲的茎呈现。每片花瓣都呈薄而透光的蓝色膜状层，浅色纸底能透过花瓣显现；保留细致、清晰可见的脉络状内部线条，让花瓣内部结构在层层叠合中仍然可辨。花瓣相互叠合的位置逐层加深为蓝色，最深的蓝集中在重叠处；花心和细茎使用深海军蓝。整体呈现 X-ray-like 的半透明视觉效果，这只是画面风格的视觉描述。\n\n把小型编辑标签疏落地放在图像周围：右上方分两行准确写出 \"VISIBLE\" 和 \"WITHIN\"；左侧用小字号分三行准确写出 \"Layers\"、\"Light\"、\"Structure\"。下方页脚左侧用克制、优雅的衬线字准确写出 \"FIELD 11\"，右侧用极小字号准确写出 \"Botanical study\"。保持标签与花朵互不遮挡，留白充足，文字层级清楚。整张海报平整、完整可见；所有指定英文文字拼写正确、位置准确并清晰可读。\n","en":"Create a complete, standalone 2:3 portrait botanical editorial poster as a flat composition. Use a large, airy field of warm off-white paper with only a trace of fine paper grain. Keep the mood light, quiet, and clear. Let the central botanical artwork span roughly two-thirds of the poster width, with generous open space around it.\n\nArrange two iris blooms: one large flower above and one smaller flower below, shown on fine, naturally curved stems. Render every petal as a thin, translucent blue membrane through which the pale paper remains visible. Preserve delicate, clearly visible vein-like internal lines so the inner structure of each petal stays readable through the layered forms. Deepen the blue where petals overlap, concentrating the darkest blue at those crossings; use dark navy for the flower centers and fine stems. Give the image an X-ray-like translucent visual effect as an art direction.\n\nPlace sparse, small editorial labels around the artwork: set \"VISIBLE\" and \"WITHIN\" on two lines at the upper right; set \"Layers\", \"Light\", and \"Structure\" as three small lines at the left. In the footer, set \"FIELD 11\" in modest, elegant serif type at the lower left and \"Botanical study\" in tiny type at the lower right. Keep labels clear of the flowers, preserve generous whitespace and a clear type hierarchy, and show the complete flat poster. Render every specified English phrase with exact spelling, accurate placement, and clear legibility.\n"}},{"id":"12-xerox-technical","title":"复印技术拼贴","english":"Xerox technical","anchors":["黑白微距图像","技术网格","半透明绿色层"],"example":"example.json","sample":"12-xerox-technical/images/transfer-01.png","source":"12-xerox-technical/images/reference.png","note":"样图记录当时提交的提示词；通用提示词可能已在之后修订。中文提示词尚未运行；可重复性未知。","submitted":"","prompts":{"zh":"制作一张完整、独立、平面的竖版 2:3 编辑海报，以正面视角呈现印刷纸张上的整幅作品。使用带有细微纸纤维质感的暖白色纸面。将一张高反差的黑白微距照片置于画面中央并延伸至上方约三分之二，照片横向占据大部分版面，右侧留出一条狭窄的暖白注释栏。照片聚焦放大的指尖指纹，呈现清晰的径向旋涡中心、连续可辨的真实皮肤脊线，以及自然的微距摄影光线和皮肤质感。把照片处理成粗粝的高反差黑白复印影像，加入清晰可见的阈值化颗粒、复印散斑、局部断墨和轻微墨粉不均，同时让指纹脊线与旋涡仍然明确可读。将极细的白色技术网格叠加在照片上，并在网格上加入少量对齐的注册十字、裁切角标和刻度；所有线条轻薄、准确、克制，让指纹照片保持主导。在照片右上区域覆盖一块平整的半透明绿色矩形，约占整张海报宽度的四分之一、高度的六分之一；让绿色下方的皮肤脊线仍然清楚可见，并以这唯一的绿色矩形作为画面的色彩强调。在右侧暖白注释栏上方，以极小号黑色无衬线字逐行排出并准确写为：“PATTERNS”“IN”“PLAIN SIGHT”；在注释栏靠下处沿同一边线分两行排出：“OCT 02”“2026”。海报底部左侧用厚重、醒目的黑色无衬线字准确排出页脚“FIELD 12”，并紧邻其下用极小字号准确排出说明“Observe the ordinary”。形成明确的图层顺序：微距照片、黑白复印颗粒与断墨、白色技术网格和定位标记、半透明绿色矩形、最后是文字。保持照片细节、技术标记、单块绿色强调和文字层级清晰，留出干净的暖白纸面边缘，所有画内文字的拼写、大小写、分行和位置准确。\n","en":"Create one complete, standalone, flat portrait 2:3 editorial poster, shown straight on as a full printed page. Use warm off-white paper with subtle fiber texture. Center a high-contrast grayscale macro photograph in the upper two-thirds of the page; let it span most of the width while keeping a narrow warm off-white annotation rail at the right. The photograph shows an enlarged fingertip fingerprint with a clear radial whorl, continuous recognizable skin ridges, and natural macro-photographic light and skin texture. Give the photograph a coarse, high-contrast black-and-white photocopy treatment with visible threshold grain, copy speckle, broken ink, and slight toner unevenness while keeping the fingerprint ridges and whorl clearly readable. Overlay an extremely fine white technical grid across the photograph, then add a small set of aligned registration crosses, crop-corner marks, and ticks. Keep every line precise, light, and restrained so the fingerprint photograph remains dominant. Place one flat translucent green rectangle over the upper-right area of the photograph, about one quarter of the full page width and one sixth of its height. Keep the skin ridges clearly visible beneath the green and use this single green rectangle as the poster's color accent. In the upper part of the off-white right rail, set tiny black sans-serif type on three exact stacked lines: “PATTERNS” / “IN” / “PLAIN SIGHT”. Lower in the rail, align the two-line date exactly as “OCT 02” / “2026”. At the bottom left, set a heavy, prominent black sans-serif footer reading exactly “FIELD 12”, with the tiny caption “Observe the ordinary” directly beneath it. Build the layers in this order: macro photograph, grayscale photocopy grain and broken ink, white technical grid and alignment marks, translucent green rectangle, then typography. Keep the photographic detail, technical marks, single color accent, and type hierarchy clear, with clean warm off-white paper margins. Preserve the exact spelling, capitalization, line breaks, and placement of every in-image word.\n"}}]</script>
+  <script>
+    (() => {
+      const posters = JSON.parse(document.getElementById('poster-data').textContent);
+      const select = document.getElementById('recipe-select');
+      const image = document.getElementById('poster');
+      const promptText = document.getElementById('prompt-text');
+      let activeIndex = 6;
+      let mode = 'sample';
+      let language = 'zh';
+
+      for (const item of posters) {
+        const option = document.createElement('option');
+        option.value = item.id;
+        option.textContent = `${item.id.slice(0, 2)} · ${item.title}`;
+        select.append(option);
+      }
+
+      function setAnchors(target, anchors) {
+        target.replaceChildren(...anchors.map((label) => {
+          const chip = document.createElement('li');
+          chip.textContent = label;
+          return chip;
+        }));
+      }
+
+      function render() {
+        const item = posters[activeIndex];
+        const number = item.id.slice(0, 2);
+        const imagePath = mode === 'sample' ? item.sample : item.source;
+        document.title = `${number} ${item.title} · 实验编辑海报`;
+        select.value = item.id;
+        document.getElementById('position').textContent = `${number} / 12`;
+        document.getElementById('stage-number').textContent = number;
+        document.getElementById('recipe-title').textContent = item.title;
+        document.getElementById('english-title').textContent = `${number} / ${item.english}`;
+        setAnchors(document.getElementById('detail-anchors'), item.anchors);
+        image.src = imagePath;
+        image.alt = `${number}号${item.title}：${item.anchors.join('、')}`;
+        document.getElementById('image-kind').textContent = mode === 'sample' ? '生成样图' : '风格源图';
+        document.getElementById('image-file').textContent = imagePath.split('/').at(-1);
+        document.getElementById('image-note').textContent = mode === 'source'
+          ? '裁切源图分辨率有限，仅用于风格识别。'
+          : item.note;
+        document.getElementById('sample-mode').setAttribute('aria-pressed', String(mode === 'sample'));
+        document.getElementById('source-mode').setAttribute('aria-pressed', String(mode === 'source'));
+        document.getElementById('example-link').href = `${item.id}/${item.example}`;
+        const submitted = document.getElementById('submitted-link');
+        submitted.hidden = !item.submitted;
+        if (item.submitted) submitted.href = item.submitted;
+        promptText.textContent = item.prompts[language];
+        document.getElementById('zh-language').setAttribute('aria-pressed', String(language === 'zh'));
+        document.getElementById('en-language').setAttribute('aria-pressed', String(language === 'en'));
+        document.getElementById('copy-status').textContent = '';
+      }
+
+      function choose(index) {
+        activeIndex = (index + posters.length) % posters.length;
+        render();
+      }
+
+      select.addEventListener('change', () => choose(posters.findIndex((item) => item.id === select.value)));
+      document.getElementById('previous').addEventListener('click', () => choose(activeIndex - 1));
+      document.getElementById('next').addEventListener('click', () => choose(activeIndex + 1));
+      document.getElementById('sample-mode').addEventListener('click', () => { mode = 'sample'; render(); });
+      document.getElementById('source-mode').addEventListener('click', () => { mode = 'source'; render(); });
+      document.getElementById('zh-language').addEventListener('click', () => { language = 'zh'; render(); });
+      document.getElementById('en-language').addEventListener('click', () => { language = 'en'; render(); });
+      document.getElementById('copy-prompt').addEventListener('click', async () => {
+        const text = promptText.textContent;
+        try {
+          await navigator.clipboard.writeText(text);
+          document.getElementById('copy-status').textContent = '已复制；也可直接选择上方文本。';
+        } catch {
+          const range = document.createRange();
+          range.selectNodeContents(promptText);
+          const selection = window.getSelection();
+          selection.removeAllRanges();
+          selection.addRange(range);
+          document.getElementById('copy-status').textContent = '自动复制不可用，提示词已选中，可使用系统复制。';
+        }
+      });
+      render();
+    })();
+  </script>
+</body>
+</html>

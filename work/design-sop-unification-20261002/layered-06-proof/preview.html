@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>06 排版骨架对照</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body { background: #F4F0E8; color: #222; font: 16px/1.5 Arial, "Microsoft YaHei", sans-serif; }
+    main { width: 100%; padding: 34px 40px 28px; }
+    h1 { margin: 0 0 22px; font-size: 23px; font-weight: 600; }
+    .comparison { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: start; }
+    figure { min-width: 0; margin: 0; }
+    figcaption { min-height: 30px; margin: 0 0 10px; font-size: 17px; font-weight: 600; }
+    img { display: block; width: 100%; height: auto; }
+    .note { margin: 20px 0 0; max-width: 1300px; font-size: 14px; line-height: 1.65; color: #55534D; }
+    @media (max-width: 1000px) { main { padding: 20px; } .comparison { gap: 14px; } figcaption { font-size: 14px; } }
+    @media (max-width: 650px) { .comparison { grid-template-columns: 1fr; gap: 24px; } img { max-width: 520px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>06 · Swiss Sculpture</h1>
+    <section class="comparison" aria-label="原图、目测分区与适配版式对照">
+      <figure>
+        <figcaption>06原图</figcaption>
+        <img id="reference-image" src="../../../skills/oneirloom-style-design/templates/experimental-editorial-posters/06-swiss-sculpture/images/reference.png" alt="06 模板原始参考图，未修改">
+      </figure>
+      <figure>
+        <figcaption>原图粗分区（目测）</figcaption>
+        <img id="source-layout-image" src="source-layout.svg" alt="根据原图目测重建的粗分区示意">
+      </figure>
+      <figure>
+        <figcaption>织梦兽版式骨架（待主体素材）</figcaption>
+        <img id="adapted-layout-image" src="adapted-layout.svg" alt="待主体素材的织梦兽版式骨架">
+      </figure>
+    </section>
+    <p class="note">中栏是按原图位置人工估读的分区示意；灰形是低细节版式占位，不是最终主体素材。右栏是本次排版坐标稿：原图四行标题改为 DREAM / WEAVER 两行，未沿用的小字区域暂留白。原图分区属于目测记录，右栏坐标属于本次设计草案。</p>
+  </main>
+</body>
+</html>

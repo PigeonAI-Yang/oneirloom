@@ -1,0 +1,52 @@
+{
+  "kind": "generated",
+  "variant": "overhead-forward-lean",
+  "image": "images/result-01.png",
+  "prompt_file": "submitted-prompt-01-zh.txt",
+  "prompt_language": "zh-CN",
+  "prompt_node": "7",
+  "source_file_name": "Qwen21_official_00581_.png",
+  "image_sha256": "0cf3bb1e323adec06dbb45766512eeda4eb00d8ac0a4114b1b7803405d993ba1",
+  "prompt_sha256": "9350878e8e3e205cbdfdfb8c7ee0bdf6d71762455d5b5e3d4fdfb880e4e2186c",
+  "model": "Qwen-Image-2.1, local quantized checkpoint according to embedded loader filenames",
+  "entry": "ComfyUI, embedded PNG prompt graph and workflow",
+  "execution_receipt": null,
+  "loaders": {
+    "checkpoint": "qwen_image_2.1_int8_convrot.safetensors",
+    "text_encoder": "qwen3vl_8b_int8_convrot.safetensors",
+    "vae": "qwen_image_2.1_vae_bf16.safetensors"
+  },
+  "settings": {
+    "seed": 461980665418721,
+    "steps": 40,
+    "cfg": 1.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "width": 1248,
+    "height": 1664,
+    "dimension_source": "PNG image header",
+    "resolution_selector": {
+      "aspect_ratio": "3:4 (Portrait Standard)",
+      "megapixels": 2.0,
+      "multiple": 8
+    },
+    "text_encode_resolution": 1024,
+    "negative_prompt": "",
+    "batch_size": 1,
+    "weight_dtype": "default"
+  },
+  "processing": "None. Original PNG copied byte-for-byte, including prompt and workflow metadata.",
+  "verification": {
+    "status": "inspected_user_accepted_pose_set",
+    "inspected_on": "2026-10-01",
+    "observations": "The full figure leans forward toward a steeply elevated camera, with both arms reaching out of image left, direct eye contact and separated feet on stairs.",
+    "deviations": "The accepted output has caramel flat thong sandals rather than the heeled sandals used by other variants. Hair and skin appearance differ from the earlier reference photograph.",
+    "user_acceptance": {
+      "date": "2026-10-01",
+      "scope": "The four portrait poses as a set",
+      "statement": "这套人像姿态 我觉得可以,纳入模板里"
+    },
+    "limitations": "One supplied output per variant. No new generation or repeatability test. User acceptance of poses does not establish exact source-reference matching. New scaffold and appearance adaptations are untested."
+  }
+}

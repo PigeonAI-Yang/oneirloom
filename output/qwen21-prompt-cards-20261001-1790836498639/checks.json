@@ -1,0 +1,15 @@
+{
+  "cards": 4,
+  "cardSize": [
+    2700,
+    3600
+  ],
+  "combinedSize": [
+    5400,
+    7200
+  ],
+  "promptSource": "Embedded PNG prompt metadata, TextEncodeQwenImage21 node 7",
+  "completePromptsPreserved": true,
+  "visualInspectionComplete": true,
+  "combinedLayout": "2 by 2, attachment order"
+}

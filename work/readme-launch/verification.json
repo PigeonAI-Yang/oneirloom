@@ -1,0 +1,117 @@
+{
+  "local_references_checked": 65,
+  "missing_local_references": [],
+  "archived_case_art_unchanged": true,
+  "portrait_originals": 12,
+  "source_portrait_collection": 62,
+  "new_promotion_images": {
+    "hero-v3.png": {
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "93fe827d3f62a7721f540566ccc1d94a58c976eb71c8e05bc1c16a1c03608cb7"
+    }
+  },
+  "generation_tool": "built-in image_gen",
+  "hosted_github": "Not published or remotely tested",
+  "desktop": {
+    "loaded_images": [
+      {
+        "src": "docs/assets/hero-v3.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/19_close_fixed.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/20_half_fixed.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/01_full.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/09_seated.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/e07_backlace.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/e11_longseated.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/e03_short.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/e04_long.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/e09_layeropen.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/25_hard_fixed.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/26_warm_fixed.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/portraits/e25_backlight.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+        "loaded": true
+      }
+    ],
+    "anchors": [
+      {
+        "href": "#作品与案例",
+        "exists": true
+      },
+      {
+        "href": "#创作方式",
+        "exists": true
+      },
+      {
+        "href": "#开始使用",
+        "exists": true
+      },
+      {
+        "href": "#技能目录",
+        "exists": true
+      }
+    ],
+    "skill_rows": 14
+  },
+  "mobile": {
+    "viewport": 390,
+    "page": 390
+  }
+}

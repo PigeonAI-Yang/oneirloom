@@ -1,0 +1,2521 @@
+{
+  "result": "PASS",
+  "browser": "Microsoft Edge",
+  "browser_path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "page": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/browse.html",
+  "catalog": {
+    "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\catalog.json",
+    "date": "2026-10-03",
+    "template_count": 14,
+    "image_count": 156,
+    "archive": "assets/generated/oneirloom-stickers-20261003.zip",
+    "archive_file_exists": true,
+    "template_ids": [
+      "identity-acting-system",
+      "daily-sixteen",
+      "chat-coverage",
+      "pose-decomposition",
+      "emotion-five",
+      "eight-slot-workspace",
+      "source-export-workspace",
+      "custom-caption-layout",
+      "ten-reactions",
+      "extended-reaction-library",
+      "soft-six",
+      "nine-reaction-sheet",
+      "seven-poses",
+      "treatment-expression-family"
+    ]
+  },
+  "templates": [
+    {
+      "id": "identity-acting-system",
+      "ui_count": 4,
+      "asset_ids": [
+        "I01-ready",
+        "I02-thankyou",
+        "I03-done",
+        "I04-rest"
+      ],
+      "source_markdown": "identity-acting-system/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/identity-acting-system/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "daily-sixteen",
+      "ui_count": 16,
+      "asset_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16"
+      ],
+      "source_markdown": "daily-sixteen/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/daily-sixteen/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "chat-coverage",
+      "ui_count": 12,
+      "asset_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C03",
+        "C06",
+        "C07",
+        "C08"
+      ],
+      "source_markdown": "chat-coverage/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/chat-coverage/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "pose-decomposition",
+      "ui_count": 3,
+      "asset_ids": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "source_markdown": "pose-decomposition/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/pose-decomposition/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "emotion-five",
+      "ui_count": 5,
+      "asset_ids": [
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05"
+      ],
+      "source_markdown": "emotion-five/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/emotion-five/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "eight-slot-workspace",
+      "ui_count": 8,
+      "asset_ids": [
+        "D01",
+        "D05",
+        "D04",
+        "D13",
+        "D11",
+        "D14",
+        "D16",
+        "D03"
+      ],
+      "source_markdown": "eight-slot-workspace/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "source-export-workspace",
+      "ui_count": 1,
+      "asset_ids": [
+        "SE01-thankyou"
+      ],
+      "source_markdown": "source-export-workspace/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/source-export-workspace/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/source-export-workspace/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "custom-caption-layout",
+      "ui_count": 6,
+      "asset_ids": [
+        "topCorrected",
+        "topCaptionCorrected",
+        "leftResult",
+        "leftCaptionResult",
+        "bottomResult",
+        "bottomCaptionResult"
+      ],
+      "source_markdown": "custom-caption-layout/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/custom-caption-layout/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/review-light-dark-128-384.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "ten-reactions",
+      "ui_count": 10,
+      "asset_ids": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08",
+        "T09",
+        "T10"
+      ],
+      "source_markdown": "ten-reactions/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/ten-reactions/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "extended-reaction-library",
+      "ui_count": 24,
+      "asset_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "E01",
+        "E02",
+        "E03",
+        "E04",
+        "E05",
+        "E06",
+        "E07",
+        "E08",
+        "W01",
+        "W02",
+        "W03",
+        "W04",
+        "W05",
+        "W06",
+        "W07",
+        "W08"
+      ],
+      "source_markdown": "extended-reaction-library/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/extended-reaction-library/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "soft-six",
+      "ui_count": 6,
+      "asset_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06"
+      ],
+      "source_markdown": "soft-six/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/soft-six/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "nine-reaction-sheet",
+      "ui_count": 9,
+      "asset_ids": [
+        "R1C1",
+        "R1C2",
+        "R1C3",
+        "R2C1",
+        "R2C2",
+        "R2C3",
+        "R3C1",
+        "R3C2",
+        "R3C3"
+      ],
+      "source_markdown": "nine-reaction-sheet/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/nine-reaction-sheet/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "seven-poses",
+      "ui_count": 7,
+      "asset_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07"
+      ],
+      "source_markdown": "seven-poses/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/seven-poses/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    },
+    {
+      "id": "treatment-expression-family",
+      "ui_count": 45,
+      "asset_ids": [
+        "F-A01",
+        "F-A02",
+        "F-A03",
+        "F-A04",
+        "F-A05",
+        "F-A06",
+        "F-A07",
+        "F-A08",
+        "F-A09",
+        "D-A01",
+        "D-A02",
+        "D-A03",
+        "D-A04",
+        "D-A05",
+        "D-A06",
+        "D-A07",
+        "D-A08",
+        "D-A09",
+        "P-A01",
+        "P-A02",
+        "P-A03",
+        "P-A04",
+        "P-A05",
+        "P-A06",
+        "P-A07",
+        "P-A08",
+        "P-A09",
+        "C-A01",
+        "C-A02",
+        "C-A03",
+        "C-A04",
+        "C-A05",
+        "C-A06",
+        "C-A07",
+        "C-A08",
+        "C-A09",
+        "M-A01",
+        "M-A02",
+        "M-A03",
+        "M-A04",
+        "M-A05",
+        "M-A06",
+        "M-A07",
+        "M-A08",
+        "M-A09"
+      ],
+      "source_markdown": "treatment-expression-family/template.md",
+      "source_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/treatment-expression-family/template.md",
+      "contact_sheet_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/preview.png",
+      "archive_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/oneirloom-stickers-20261003.zip",
+      "guidance_visible": true
+    }
+  ],
+  "assets": [
+    {
+      "template_id": "identity-acting-system",
+      "id": "I01-ready",
+      "caption": "",
+      "intent": "准备好了",
+      "file": "assets/generated/identity-acting-system/I01-ready.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I01-ready.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I01-ready.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "identity-acting-system",
+      "id": "I02-thankyou",
+      "caption": "",
+      "intent": "感谢",
+      "file": "assets/generated/identity-acting-system/I02-thankyou.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I02-thankyou.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I02-thankyou.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "identity-acting-system",
+      "id": "I03-done",
+      "caption": "",
+      "intent": "完成",
+      "file": "assets/generated/identity-acting-system/I03-done.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I03-done.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I03-done.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "identity-acting-system",
+      "id": "I04-rest",
+      "caption": "",
+      "intent": "休息",
+      "file": "assets/generated/identity-acting-system/I04-rest.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I04-rest.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I04-rest.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D01",
+      "caption": "你好呀",
+      "intent": "你好呀",
+      "file": "assets/generated/daily-sixteen/D01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D02",
+      "caption": "早安",
+      "intent": "早安",
+      "file": "assets/generated/daily-sixteen/D02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D03",
+      "caption": "晚安",
+      "intent": "晚安",
+      "file": "assets/generated/daily-sixteen/D03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D04",
+      "caption": "谢谢你",
+      "intent": "谢谢你",
+      "file": "assets/generated/daily-sixteen/D04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D05",
+      "caption": "收到",
+      "intent": "收到",
+      "file": "assets/generated/daily-sixteen/D05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D06",
+      "caption": "好呀",
+      "intent": "好呀",
+      "file": "assets/generated/daily-sixteen/D06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D07",
+      "caption": "等一下",
+      "intent": "等一下",
+      "file": "assets/generated/daily-sixteen/D07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D08",
+      "caption": "这就来",
+      "intent": "这就来",
+      "file": "assets/generated/daily-sixteen/D08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D09",
+      "caption": "忙着呢",
+      "intent": "忙着呢",
+      "file": "assets/generated/daily-sixteen/D09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D09.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D10",
+      "caption": "歇一会儿",
+      "intent": "歇一会儿",
+      "file": "assets/generated/daily-sixteen/D10.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D10.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D10.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D11",
+      "caption": "搞定",
+      "intent": "搞定",
+      "file": "assets/generated/daily-sixteen/D11.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D11.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D11.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D12",
+      "caption": "对不起",
+      "intent": "对不起",
+      "file": "assets/generated/daily-sixteen/D12.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D12.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D12.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D13",
+      "caption": "没看懂",
+      "intent": "没看懂",
+      "file": "assets/generated/daily-sixteen/D13.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D13.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D13.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D14",
+      "caption": "累了",
+      "intent": "累了",
+      "file": "assets/generated/daily-sixteen/D14.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D14.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D14.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D15",
+      "caption": "加油",
+      "intent": "加油",
+      "file": "assets/generated/daily-sixteen/D15.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D15.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D15.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "daily-sixteen",
+      "id": "D16",
+      "caption": "想你了",
+      "intent": "想你了",
+      "file": "assets/generated/daily-sixteen/D16.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D16.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D16.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C01",
+      "caption": "你好",
+      "intent": "Hello",
+      "file": "assets/generated/chat-coverage/C01-hello.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C01-hello.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C01-hello.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C02",
+      "caption": "谢谢",
+      "intent": "Thanks",
+      "file": "assets/generated/chat-coverage/C02-thanks.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C02-thanks.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C02-thanks.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C04",
+      "caption": "好呀",
+      "intent": "Okay",
+      "file": "assets/generated/chat-coverage/C04-okay.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C04-okay.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C04-okay.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C05",
+      "caption": "抱歉",
+      "intent": "Sorry",
+      "file": "assets/generated/chat-coverage/C05-sorry.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C05-sorry.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C05-sorry.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C09",
+      "caption": "太棒了",
+      "intent": "Delight",
+      "file": "assets/generated/chat-coverage/C09-delight.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C09-delight.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C09-delight.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C10",
+      "caption": "等你",
+      "intent": "Waiting",
+      "file": "assets/generated/chat-coverage/C10-waiting.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C10-waiting.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C10-waiting.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C11",
+      "caption": "忙着呢",
+      "intent": "Working",
+      "file": "assets/generated/chat-coverage/C11-working.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C11-working.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C11-working.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C12",
+      "caption": "休息一下",
+      "intent": "Resting",
+      "file": "assets/generated/chat-coverage/C12-resting.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C12-resting.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C12-resting.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C03",
+      "caption": "爱你",
+      "intent": "Love",
+      "file": "assets/generated/chat-coverage/C03-love.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C03-love.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C03-love.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C06",
+      "caption": "开心",
+      "intent": "Happiness",
+      "file": "assets/generated/chat-coverage/C06-happiness.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C06-happiness.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C06-happiness.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C07",
+      "caption": "难过",
+      "intent": "Sadness",
+      "file": "assets/generated/chat-coverage/C07-sadness.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C07-sadness.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C07-sadness.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "chat-coverage",
+      "id": "C08",
+      "caption": "生气了",
+      "intent": "Anger",
+      "file": "assets/generated/chat-coverage/C08-anger.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C08-anger.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/C08-anger.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "pose-decomposition",
+      "id": "P01",
+      "caption": "太棒了",
+      "intent": "celebrate",
+      "file": "assets/generated/pose-decomposition/P01-celebrate.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/P01-celebrate.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/P01-celebrate.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "pose-decomposition",
+      "id": "P02",
+      "caption": "对不起",
+      "intent": "apologize",
+      "file": "assets/generated/pose-decomposition/P02-apologize.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/P02-apologize.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/P02-apologize.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "pose-decomposition",
+      "id": "P03",
+      "caption": "让我想想",
+      "intent": "consider",
+      "file": "assets/generated/pose-decomposition/P03-consider.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/P03-consider.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/P03-consider.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "emotion-five",
+      "id": "E01",
+      "caption": "开心",
+      "intent": "happy",
+      "file": "assets/generated/emotion-five/E01-happy.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E01-happy.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E01-happy.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "emotion-five",
+      "id": "E02",
+      "caption": "生气了",
+      "intent": "angry",
+      "file": "assets/generated/emotion-five/E02-angry.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E02-angry.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E02-angry.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "emotion-five",
+      "id": "E03",
+      "caption": "难过",
+      "intent": "sad",
+      "file": "assets/generated/emotion-five/E03-sad.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E03-sad.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E03-sad.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "emotion-five",
+      "id": "E04",
+      "caption": "害羞",
+      "intent": "shy",
+      "file": "assets/generated/emotion-five/E04-shy.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E04-shy.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E04-shy.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "emotion-five",
+      "id": "E05",
+      "caption": "爱你",
+      "intent": "love",
+      "file": "assets/generated/emotion-five/E05-love.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E05-love.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/E05-love.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D01",
+      "caption": "你好呀",
+      "intent": "Hello: body tilts slightly viewer-left; one antenna arches higher. UL raises its outer thread high in greeting; UR stays at shoulder height; LL and LR level the lower net so the crescent remains seated.",
+      "file": "assets/generated/eight-slot-workspace/D01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D05",
+      "caption": "收到",
+      "intent": "Received: body upright and composed, antennae make small forward dip. UL and UR hold outer threads at EVEN MIDDLE height; LL and LR steady a SMALL CENTERED net close to body. Restrained compact acknowledgment.",
+      "file": "assets/generated/eight-slot-workspace/D05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D04",
+      "caption": "谢谢你",
+      "intent": "Thank you: body bows forward in gratitude; antennae bend inward. UL and UR narrow upper rim; LL and LR gather lower sides against body without hiding grips. Moderate respectful bow, net gathered at middle height, not low apology crouch.",
+      "file": "assets/generated/eight-slot-workspace/D04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D13",
+      "caption": "没看懂",
+      "intent": "Confused: body tilts viewer-LEFT; antennae unequal arcs with one strongly curled. UL holds thread HIGHER than UR; LL and LR compensate below to keep crescent UPRIGHT in noticeably SKEWED net. Quizzical lopsided tilt, no question mark.",
+      "file": "assets/generated/eight-slot-workspace/D13.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D13.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D13.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D11",
+      "caption": "搞定",
+      "intent": "Finished: body tall, star centered upright. UL and UR raise outer threads SYMMETRICALLY; LL and LR spread lower sides into WIDE LEVEL display of crescent. Proud symmetrical finished-work presentation.",
+      "file": "assets/generated/eight-slot-workspace/D11.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D11.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D11.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D14",
+      "caption": "累了",
+      "intent": "Tired: body COMPRESSES VERTICALLY into low squat shape; antennae HANG to either side. All FOUR arms bend DOWN but retain SEPARATE grips; LOW net stays well above canvas edge with crescent visibly supported. Slumped exhausted, not tucked-in sleeping.",
+      "file": "assets/generated/eight-slot-workspace/D14.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D14.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D14.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D16",
+      "caption": "想你了",
+      "intent": "Thinking of you: body leans toward CLOSE-HELD crescent; antennae curve INWARD. UL and UR draw upper threads toward window; LL and LR cradle lower net AGAINST body while preserving CLEAR GAP around star. Tender inward hug of net-held moon.",
+      "file": "assets/generated/eight-slot-workspace/D16.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D16.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D16.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "eight-slot-workspace",
+      "id": "D03",
+      "caption": "晚安",
+      "intent": "Good night: body sinks behind the CLOSE net; both antennae droop outward. UL and UR lower outer threads; LL and LR pull lower side threads inward to deepen a snug DEEP hammock around the crescent. Quiet tucked-in sleeping posture without a face.",
+      "file": "assets/generated/eight-slot-workspace/D03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/D03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "source-export-workspace",
+      "id": "SE01-thankyou",
+      "caption": "谢谢你",
+      "intent": "感谢",
+      "file": "assets/generated/source-export-workspace/reaction.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/source-export-workspace/reaction.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/source-export-workspace/reaction.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "custom-caption-layout",
+      "id": "topCorrected",
+      "caption": "",
+      "intent": "上方问候留白",
+      "file": "assets/generated/custom-caption-layout/top-greeting-base.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/top-greeting-base.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/top-greeting-base.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "custom-caption-layout",
+      "id": "topCaptionCorrected",
+      "caption": "你好呀",
+      "intent": "上方问候留白",
+      "file": "assets/generated/custom-caption-layout/top-greeting-caption.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/top-greeting-caption.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/top-greeting-caption.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "custom-caption-layout",
+      "id": "leftResult",
+      "caption": "",
+      "intent": "左侧回复留白",
+      "file": "assets/generated/custom-caption-layout/left-reply-base.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/left-reply-base.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/left-reply-base.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "custom-caption-layout",
+      "id": "leftCaptionResult",
+      "caption": "收到",
+      "intent": "左侧回复留白",
+      "file": "assets/generated/custom-caption-layout/left-reply-caption.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/left-reply-caption.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/left-reply-caption.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "custom-caption-layout",
+      "id": "bottomResult",
+      "caption": "",
+      "intent": "下方安慰留白",
+      "file": "assets/generated/custom-caption-layout/bottom-reassurance-base.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/bottom-reassurance-base.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/bottom-reassurance-base.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "custom-caption-layout",
+      "id": "bottomCaptionResult",
+      "caption": "会好的",
+      "intent": "下方安慰留白",
+      "file": "assets/generated/custom-caption-layout/bottom-reassurance-caption.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/bottom-reassurance-caption.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/bottom-reassurance-caption.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T01",
+      "caption": "开心",
+      "intent": "开心",
+      "file": "assets/generated/ten-reactions/T01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T02",
+      "caption": "懂你",
+      "intent": "懂你",
+      "file": "assets/generated/ten-reactions/T02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T03",
+      "caption": "嘿嘿",
+      "intent": "嘿嘿",
+      "file": "assets/generated/ten-reactions/T03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T04",
+      "caption": "就知道",
+      "intent": "就知道",
+      "file": "assets/generated/ten-reactions/T04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T05",
+      "caption": "又来了",
+      "intent": "又来了",
+      "file": "assets/generated/ten-reactions/T05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T06",
+      "caption": "想想",
+      "intent": "想想",
+      "file": "assets/generated/ten-reactions/T06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T07",
+      "caption": "我来",
+      "intent": "我来",
+      "file": "assets/generated/ten-reactions/T07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T08",
+      "caption": "喜欢",
+      "intent": "喜欢",
+      "file": "assets/generated/ten-reactions/T08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T09",
+      "caption": "啊？",
+      "intent": "啊？",
+      "file": "assets/generated/ten-reactions/T09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T09.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "ten-reactions",
+      "id": "T10",
+      "caption": "不好意思",
+      "intent": "不好意思",
+      "file": "assets/generated/ten-reactions/T10.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T10.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/T10.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C01",
+      "caption": "收到",
+      "intent": "Acknowledge receipt",
+      "file": "assets/generated/extended-reaction-library/C01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C02",
+      "caption": "你好呀",
+      "intent": "Greet someone",
+      "file": "assets/generated/extended-reaction-library/C02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C03",
+      "caption": "好呀",
+      "intent": "Agree to proceed",
+      "file": "assets/generated/extended-reaction-library/C03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C04",
+      "caption": "等一下",
+      "intent": "Ask for a pause",
+      "file": "assets/generated/extended-reaction-library/C04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C05",
+      "caption": "谢谢你",
+      "intent": "Thank someone",
+      "file": "assets/generated/extended-reaction-library/C05-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C05-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C05-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C06",
+      "caption": "抱歉",
+      "intent": "Apologize",
+      "file": "assets/generated/extended-reaction-library/C06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C07",
+      "caption": "我帮你",
+      "intent": "Offer help",
+      "file": "assets/generated/extended-reaction-library/C07-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C07-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C07-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "C08",
+      "caption": "再说说？",
+      "intent": "Ask for clarification",
+      "file": "assets/generated/extended-reaction-library/C08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/C08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E01",
+      "caption": "开心",
+      "intent": "Quiet pleasure",
+      "file": "assets/generated/extended-reaction-library/E01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E02",
+      "caption": "太棒了",
+      "intent": "Big excitement",
+      "file": "assets/generated/extended-reaction-library/E02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E03",
+      "caption": "有点难过",
+      "intent": "Low-energy sadness",
+      "file": "assets/generated/extended-reaction-library/E03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E04",
+      "caption": "呜呜",
+      "intent": "Intense sadness",
+      "file": "assets/generated/extended-reaction-library/E04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E05",
+      "caption": "气鼓鼓",
+      "intent": "Frustration",
+      "file": "assets/generated/extended-reaction-library/E05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E06",
+      "caption": "居然！",
+      "intent": "Astonishment",
+      "file": "assets/generated/extended-reaction-library/E06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E07",
+      "caption": "喜欢你",
+      "intent": "Affection",
+      "file": "assets/generated/extended-reaction-library/E07-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E07-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E07-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "E08",
+      "caption": "害羞",
+      "intent": "Embarrassment",
+      "file": "assets/generated/extended-reaction-library/E08-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E08-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/E08-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W01",
+      "caption": "开工",
+      "intent": "Begin weaving",
+      "file": "assets/generated/extended-reaction-library/W01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W02",
+      "caption": "进行中",
+      "intent": "Work steadily",
+      "file": "assets/generated/extended-reaction-library/W02-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W02-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W02-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W03",
+      "caption": "专心一下",
+      "intent": "Concentrate",
+      "file": "assets/generated/extended-reaction-library/W03-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W03-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W03-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W04",
+      "caption": "理理思路",
+      "intent": "Untangle a snag",
+      "file": "assets/generated/extended-reaction-library/W04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W05",
+      "caption": "完成啦",
+      "intent": "Complete the work",
+      "file": "assets/generated/extended-reaction-library/W05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W06",
+      "caption": "等你",
+      "intent": "Wait for a reply",
+      "file": "assets/generated/extended-reaction-library/W06-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W06-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W06-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W07",
+      "caption": "歇一会儿",
+      "intent": "Rest",
+      "file": "assets/generated/extended-reaction-library/W07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "extended-reaction-library",
+      "id": "W08",
+      "caption": "给你",
+      "intent": "Hand over a dream",
+      "file": "assets/generated/extended-reaction-library/W08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/W08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "soft-six",
+      "id": "S01",
+      "caption": "慢慢来",
+      "intent": "慢慢来",
+      "file": "assets/generated/soft-six/S01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "soft-six",
+      "id": "S02",
+      "caption": "有点喜欢",
+      "intent": "有点喜欢",
+      "file": "assets/generated/soft-six/S02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "soft-six",
+      "id": "S03",
+      "caption": "有点难过",
+      "intent": "有点难过",
+      "file": "assets/generated/soft-six/S03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "soft-six",
+      "id": "S04",
+      "caption": "撑住",
+      "intent": "撑住",
+      "file": "assets/generated/soft-six/S04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "soft-six",
+      "id": "S05",
+      "caption": "好开心",
+      "intent": "好开心",
+      "file": "assets/generated/soft-six/S05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "soft-six",
+      "id": "S06",
+      "caption": "做个好梦",
+      "intent": "做个好梦",
+      "file": "assets/generated/soft-six/S06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/S06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R1C1",
+      "caption": "",
+      "intent": "Happy",
+      "file": "assets/generated/nine-reaction-sheet/R1C1-happy.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R1C1-happy.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R1C1-happy.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R1C2",
+      "caption": "",
+      "intent": "Laughing",
+      "file": "assets/generated/nine-reaction-sheet/R1C2-laughing.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R1C2-laughing.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R1C2-laughing.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R1C3",
+      "caption": "",
+      "intent": "Sad",
+      "file": "assets/generated/nine-reaction-sheet/R1C3-sad.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R1C3-sad.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R1C3-sad.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R2C1",
+      "caption": "",
+      "intent": "Crying",
+      "file": "assets/generated/nine-reaction-sheet/R2C1-crying.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R2C1-crying.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R2C1-crying.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R2C2",
+      "caption": "",
+      "intent": "Angry",
+      "file": "assets/generated/nine-reaction-sheet/R2C2-angry.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R2C2-angry.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R2C2-angry.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R2C3",
+      "caption": "",
+      "intent": "Surprised",
+      "file": "assets/generated/nine-reaction-sheet/R2C3-surprised.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R2C3-surprised.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R2C3-surprised.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R3C1",
+      "caption": "",
+      "intent": "Love",
+      "file": "assets/generated/nine-reaction-sheet/R3C1-love.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R3C1-love.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R3C1-love.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R3C2",
+      "caption": "",
+      "intent": "Shy",
+      "file": "assets/generated/nine-reaction-sheet/R3C2-shy.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R3C2-shy.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R3C2-shy.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "nine-reaction-sheet",
+      "id": "R3C3",
+      "caption": "",
+      "intent": "Thinking",
+      "file": "assets/generated/nine-reaction-sheet/R3C3-thinking.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R3C3-thinking.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/R3C3-thinking.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P01",
+      "caption": "",
+      "intent": "neutral",
+      "file": "assets/generated/seven-poses/P01-neutral.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P01-neutral.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P01-neutral.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P02",
+      "caption": "你好呀",
+      "intent": "hello",
+      "file": "assets/generated/seven-poses/P02-hello.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P02-hello.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P02-hello.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P03",
+      "caption": "织梦中",
+      "intent": "work-weaving",
+      "file": "assets/generated/seven-poses/P03-work-weaving.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P03-work-weaving.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P03-work-weaving.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P04",
+      "caption": "这是什么？",
+      "intent": "curious",
+      "file": "assets/generated/seven-poses/P04-curious.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P04-curious.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P04-curious.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P05",
+      "caption": "太好了",
+      "intent": "celebrate",
+      "file": "assets/generated/seven-poses/P05-celebrate.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P05-celebrate.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P05-celebrate.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P06",
+      "caption": "歇一会儿",
+      "intent": "rest",
+      "file": "assets/generated/seven-poses/P06-rest.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P06-rest.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P06-rest.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "seven-poses",
+      "id": "P07",
+      "caption": "给你",
+      "intent": "handoff",
+      "file": "assets/generated/seven-poses/P07-handoff.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P07-handoff.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/P07-handoff.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A01",
+      "caption": "",
+      "intent": "Happy",
+      "file": "assets/generated/treatment-expression-family/F-A01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A02",
+      "caption": "",
+      "intent": "Laughing",
+      "file": "assets/generated/treatment-expression-family/F-A02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A03",
+      "caption": "",
+      "intent": "Sad",
+      "file": "assets/generated/treatment-expression-family/F-A03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A04",
+      "caption": "",
+      "intent": "Crying",
+      "file": "assets/generated/treatment-expression-family/F-A04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A05",
+      "caption": "",
+      "intent": "Angry",
+      "file": "assets/generated/treatment-expression-family/F-A05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A06",
+      "caption": "",
+      "intent": "Surprised",
+      "file": "assets/generated/treatment-expression-family/F-A06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A07",
+      "caption": "",
+      "intent": "Love",
+      "file": "assets/generated/treatment-expression-family/F-A07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A08",
+      "caption": "",
+      "intent": "Shy",
+      "file": "assets/generated/treatment-expression-family/F-A08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "F-A09",
+      "caption": "",
+      "intent": "Thinking",
+      "file": "assets/generated/treatment-expression-family/F-A09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/F-A09.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A01",
+      "caption": "",
+      "intent": "Happy",
+      "file": "assets/generated/treatment-expression-family/D-A01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A02",
+      "caption": "",
+      "intent": "Laughing",
+      "file": "assets/generated/treatment-expression-family/D-A02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A03",
+      "caption": "",
+      "intent": "Sad",
+      "file": "assets/generated/treatment-expression-family/D-A03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A04",
+      "caption": "",
+      "intent": "Crying",
+      "file": "assets/generated/treatment-expression-family/D-A04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A05",
+      "caption": "",
+      "intent": "Angry",
+      "file": "assets/generated/treatment-expression-family/D-A05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A06",
+      "caption": "",
+      "intent": "Surprised",
+      "file": "assets/generated/treatment-expression-family/D-A06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A07",
+      "caption": "",
+      "intent": "Love",
+      "file": "assets/generated/treatment-expression-family/D-A07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A08",
+      "caption": "",
+      "intent": "Shy",
+      "file": "assets/generated/treatment-expression-family/D-A08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "D-A09",
+      "caption": "",
+      "intent": "Thinking",
+      "file": "assets/generated/treatment-expression-family/D-A09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/D-A09.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A01",
+      "caption": "",
+      "intent": "Happy",
+      "file": "assets/generated/treatment-expression-family/P-A01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A02",
+      "caption": "",
+      "intent": "Laughing",
+      "file": "assets/generated/treatment-expression-family/P-A02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A03",
+      "caption": "",
+      "intent": "Sad",
+      "file": "assets/generated/treatment-expression-family/P-A03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A04",
+      "caption": "",
+      "intent": "Crying",
+      "file": "assets/generated/treatment-expression-family/P-A04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A05",
+      "caption": "",
+      "intent": "Angry",
+      "file": "assets/generated/treatment-expression-family/P-A05-v3.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A05-v3.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A05-v3.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A06",
+      "caption": "",
+      "intent": "Surprised",
+      "file": "assets/generated/treatment-expression-family/P-A06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A07",
+      "caption": "",
+      "intent": "Love",
+      "file": "assets/generated/treatment-expression-family/P-A07-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A07-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A07-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A08",
+      "caption": "",
+      "intent": "Shy",
+      "file": "assets/generated/treatment-expression-family/P-A08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "P-A09",
+      "caption": "",
+      "intent": "Thinking",
+      "file": "assets/generated/treatment-expression-family/P-A09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/P-A09.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A01",
+      "caption": "",
+      "intent": "Happy",
+      "file": "assets/generated/treatment-expression-family/C-A01-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A01-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A01-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A02",
+      "caption": "",
+      "intent": "Laughing",
+      "file": "assets/generated/treatment-expression-family/C-A02-v2.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A02-v2.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A02-v2.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A03",
+      "caption": "",
+      "intent": "Sad",
+      "file": "assets/generated/treatment-expression-family/C-A03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A04",
+      "caption": "",
+      "intent": "Crying",
+      "file": "assets/generated/treatment-expression-family/C-A04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A05",
+      "caption": "",
+      "intent": "Angry",
+      "file": "assets/generated/treatment-expression-family/C-A05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A06",
+      "caption": "",
+      "intent": "Surprised",
+      "file": "assets/generated/treatment-expression-family/C-A06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A07",
+      "caption": "",
+      "intent": "Love",
+      "file": "assets/generated/treatment-expression-family/C-A07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A08",
+      "caption": "",
+      "intent": "Shy",
+      "file": "assets/generated/treatment-expression-family/C-A08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "C-A09",
+      "caption": "",
+      "intent": "Thinking",
+      "file": "assets/generated/treatment-expression-family/C-A09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/C-A09.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A01",
+      "caption": "",
+      "intent": "Happy",
+      "file": "assets/generated/treatment-expression-family/M-A01.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A01.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A01.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A02",
+      "caption": "",
+      "intent": "Laughing",
+      "file": "assets/generated/treatment-expression-family/M-A02.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A02.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A02.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A03",
+      "caption": "",
+      "intent": "Sad",
+      "file": "assets/generated/treatment-expression-family/M-A03.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A03.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A03.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A04",
+      "caption": "",
+      "intent": "Crying",
+      "file": "assets/generated/treatment-expression-family/M-A04.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A04.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A04.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A05",
+      "caption": "",
+      "intent": "Angry",
+      "file": "assets/generated/treatment-expression-family/M-A05.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A05.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A05.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A06",
+      "caption": "",
+      "intent": "Surprised",
+      "file": "assets/generated/treatment-expression-family/M-A06.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A06.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A06.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A07",
+      "caption": "",
+      "intent": "Love",
+      "file": "assets/generated/treatment-expression-family/M-A07.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A07.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A07.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A08",
+      "caption": "",
+      "intent": "Shy",
+      "file": "assets/generated/treatment-expression-family/M-A08.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A08.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A08.png",
+      "natural_width": 1254
+    },
+    {
+      "template_id": "treatment-expression-family",
+      "id": "M-A09",
+      "caption": "",
+      "intent": "Thinking",
+      "file": "assets/generated/treatment-expression-family/M-A09.png",
+      "download_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A09.png",
+      "image_href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/M-A09.png",
+      "natural_width": 1254
+    }
+  ],
+  "local_file_links": [
+    {
+      "owner": "initial page images",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "initial page images",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "initial page images",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace-preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\eight-slot-workspace\\workspace-preview.png"
+    },
+    {
+      "owner": "initial page images",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/I01-ready.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\identity-acting-system\\I01-ready.png"
+    },
+    {
+      "owner": "initial page images",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "identity-acting-system Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "identity-acting-system Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "identity-acting-system Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "identity-acting-system Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "identity-acting-system Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\identity-acting-system\\preview.png"
+    },
+    {
+      "owner": "identity-acting-system Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/identity-acting-system/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\identity-acting-system\\production.json"
+    },
+    {
+      "owner": "daily-sixteen Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "daily-sixteen Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "daily-sixteen Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\daily-sixteen\\preview.png"
+    },
+    {
+      "owner": "daily-sixteen Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\daily-sixteen\\production.json"
+    },
+    {
+      "owner": "chat-coverage Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "chat-coverage Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "chat-coverage Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\chat-coverage\\preview.png"
+    },
+    {
+      "owner": "chat-coverage Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/chat-coverage/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\chat-coverage\\production.json"
+    },
+    {
+      "owner": "pose-decomposition Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "pose-decomposition Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "pose-decomposition Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\pose-decomposition\\preview.png"
+    },
+    {
+      "owner": "pose-decomposition Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/pose-decomposition/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\pose-decomposition\\production.json"
+    },
+    {
+      "owner": "emotion-five Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "emotion-five Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "emotion-five Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\emotion-five\\preview.png"
+    },
+    {
+      "owner": "emotion-five Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/emotion-five/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\emotion-five\\production.json"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\eight-slot-workspace\\workspace.svg"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace-preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\eight-slot-workspace\\workspace-preview.png"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/filled-workspace.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\eight-slot-workspace\\filled-workspace.svg"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/workspace.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\eight-slot-workspace\\workspace.svg"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\eight-slot-workspace\\preview.png"
+    },
+    {
+      "owner": "eight-slot-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/eight-slot-workspace/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\eight-slot-workspace\\production.json"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/daily-sixteen/D04.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\daily-sixteen\\D04.png"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/source-export-workspace/editable-source.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\source-export-workspace\\editable-source.svg"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/source-export-workspace/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\source-export-workspace\\preview.png"
+    },
+    {
+      "owner": "source-export-workspace Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/source-export-workspace/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\source-export-workspace\\production.json"
+    },
+    {
+      "owner": "custom-caption-layout Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "custom-caption-layout Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "custom-caption-layout Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/review-light-dark-128-384.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\custom-caption-layout\\review-light-dark-128-384.png"
+    },
+    {
+      "owner": "custom-caption-layout Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/custom-caption-layout/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\custom-caption-layout\\production.json"
+    },
+    {
+      "owner": "ten-reactions Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "ten-reactions Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "ten-reactions Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "ten-reactions Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "ten-reactions Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\ten-reactions\\preview.png"
+    },
+    {
+      "owner": "ten-reactions Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/ten-reactions/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\ten-reactions\\production.json"
+    },
+    {
+      "owner": "extended-reaction-library Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "extended-reaction-library Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "extended-reaction-library Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "extended-reaction-library Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "extended-reaction-library Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\extended-reaction-library\\preview.png"
+    },
+    {
+      "owner": "extended-reaction-library Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/extended-reaction-library/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\extended-reaction-library\\production.json"
+    },
+    {
+      "owner": "soft-six Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "soft-six Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "soft-six Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "soft-six Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "soft-six Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\soft-six\\preview.png"
+    },
+    {
+      "owner": "soft-six Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/soft-six/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\soft-six\\production.json"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\nine-reaction-sheet\\preview.png"
+    },
+    {
+      "owner": "nine-reaction-sheet Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/nine-reaction-sheet/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\nine-reaction-sheet\\production.json"
+    },
+    {
+      "owner": "seven-poses Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "seven-poses Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "seven-poses Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "seven-poses Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "seven-poses Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\seven-poses\\preview.png"
+    },
+    {
+      "owner": "seven-poses Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/seven-poses/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\seven-poses\\production.json"
+    },
+    {
+      "owner": "treatment-expression-family Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "treatment-expression-family Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "treatment-expression-family Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "treatment-expression-family Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "treatment-expression-family Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/preview.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\treatment-expression-family\\preview.png"
+    },
+    {
+      "owner": "treatment-expression-family Markdown body",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/treatment-expression-family/production.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\treatment-expression-family\\production.json"
+    },
+    {
+      "owner": "platform intro",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "line-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/daily-sixteen/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\daily-sixteen\\template.md"
+    },
+    {
+      "owner": "line-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\eight-slot-workspace\\template.md"
+    },
+    {
+      "owner": "telegram-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/ten-reactions/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\ten-reactions\\template.md"
+    },
+    {
+      "owner": "whatsapp-android-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/soft-six/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\soft-six\\template.md"
+    },
+    {
+      "owner": "discord-server-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/seven-poses/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\seven-poses\\template.md"
+    },
+    {
+      "owner": "wechat-static profile",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/chat-coverage/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\chat-coverage\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/chat-coverage/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\chat-coverage\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/identity-acting-system/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\identity-acting-system\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/daily-sixteen/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\daily-sixteen\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/source-export-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\source-export-workspace\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/eight-slot-workspace/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\eight-slot-workspace\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/pose-decomposition/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\pose-decomposition\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/emotion-five/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\emotion-five\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/custom-caption-layout/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\custom-caption-layout\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/ten-reactions/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\ten-reactions\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/extended-reaction-library/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\extended-reaction-library\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/soft-six/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\soft-six\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/nine-reaction-sheet/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\nine-reaction-sheet\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/seven-poses/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\seven-poses\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/treatment-expression-family/template.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\treatment-expression-family\\template.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/index.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\index.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/generated/catalog.json",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\generated\\catalog.json"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\oneirloom-brand.md"
+    },
+    {
+      "owner": "coverage guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    },
+    {
+      "owner": "brand guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "brand guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/mascot-reference.png",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\mascot-reference.png"
+    },
+    {
+      "owner": "brand guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/assets/brand-lockup.svg",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\assets\\brand-lockup.svg"
+    },
+    {
+      "owner": "brand guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/templates/index.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\templates\\index.md"
+    },
+    {
+      "owner": "brand guide",
+      "href": "file:///J:/PigeonYang/skills/oneirloom/skills/oneirloom-expression-stickers/references/platform-profiles.md",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-expression-stickers\\references\\platform-profiles.md"
+    }
+  ],
+  "interactions": {
+    "template_count": 14,
+    "asset_selector_previous_next": true,
+    "template_previous_next": true,
+    "light_dark_aria_pressed": true,
+    "png_downloads_resolve_to_actual_files": 156,
+    "contact_sheets_resolve_to_actual_files": 14,
+    "archive_href": "assets/generated/oneirloom-stickers-20261003.zip",
+    "archive_target_exists_without_fetch": true,
+    "copy_first_prompt": true,
+    "profiles": [
+      "line-static",
+      "telegram-static",
+      "whatsapp-android-static",
+      "discord-server-static",
+      "wechat-static"
+    ],
+    "wechat_source_gap_preserved": true,
+    "coverage_and_brand_rendered": true
+  },
+  "screenshots": {
+    "desktop": "J:\\PigeonYang\\skills\\oneirloom\\work\\sticker-pack-templates-20261002\\complete-browser-desktop.png",
+    "mobile": "J:\\PigeonYang\\skills\\oneirloom\\work\\sticker-pack-templates-20261002\\complete-browser-mobile.png"
+  },
+  "layout": {
+    "desktop": {
+      "document": 1280,
+      "body": 1280,
+      "inner": 1280
+    },
+    "mobile": {
+      "document": 390,
+      "body": 390,
+      "inner": 390
+    }
+  },
+  "browser_errors": [],
+  "console_errors": [],
+  "external_requests": [],
+  "failed_requests": []
+}

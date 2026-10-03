@@ -1,0 +1,63 @@
+{
+  "sample_subject": "An angular exposed-concrete contemporary art museum facade photographed from below.",
+  "requested_copy": {
+    "upper_right_note": [
+      "Different",
+      "angles",
+      "New",
+      "possibilities"
+    ],
+    "lower_left_note": [
+      "Space",
+      "Form",
+      "Light"
+    ],
+    "footer": "NEW ANGLES",
+    "caption": "FIELD 09"
+  },
+  "files": {
+    "submitted_prompt": "submitted.en.txt",
+    "style_reference": "images/reference.png",
+    "result": "images/transfer-01.png"
+  },
+  "prompt_revision": {
+    "archived_submitted_prompt": "submitted.en.txt",
+    "archived_submitted_prompt_sha256": "454C990ED12EFC1DF9B23999B4BA17C3E20CBAD13175BBA863C3E674FEF80E30",
+    "current_baseline_prompt": "prompt.en.txt",
+    "current_baseline_prompt_sha256": "D4AB97F8CE68EF22B814C3BBA843485443207D401CA2EF71EA8FAD3294CA920C",
+    "baseline_submitted_verbatim": false,
+    "note": "After the recorded generation, the current prompt baseline was revised to use affirmative wording while preserving the visual intent. The current baseline was not resubmitted verbatim; submitted.en.txt preserves the exact prompt used for the run."
+  },
+  "generation": {
+    "entrypoint": "built-in image_gen.imagegen",
+    "underlying_model": null,
+    "model_note": "The tool response did not identify an underlying model.",
+    "requested_aspect_ratio": "2:3",
+    "actual_dimensions_px": [
+      1024,
+      1536
+    ],
+    "aspect_ratio_matches_request": true,
+    "original_output_path": "J:\\Users\\yangda01\\.codex\\generated_images\\01a0f886-9ddf-7303-aad7-a9ee740dc000\\exec-93e9fb8f-2795-40f2-bada-d52120349a2a.png",
+    "returned_metadata": {
+      "result_keys": [
+        "image_url",
+        "output_hint"
+      ],
+      "output_hint": "Generated images are saved to J:\\Users\\yangda01\\.codex\\generated_images\\01a0f886-9ddf-7303-aad7-a9ee740dc000 as J:\\Users\\yangda01\\.codex\\generated_images\\01a0f886-9ddf-7303-aad7-a9ee740dc000\\exec-93e9fb8f-2795-40f2-bada-d52120349a2a.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it."
+    }
+  },
+  "inspection": {
+    "facade": "A real-looking angular exposed-concrete facade with clear windows, beams, and concrete texture fills the frame in a low-angle upward view.",
+    "diagonal_crop": "The black-and-white architectural photo is clipped into strong diagonal planes, with continuous perspective leading toward the footer.",
+    "orange_triangle": "One vivid orange triangle sits at the upper left behind the facade; the building visibly overlaps it. It is the only vivid accent.",
+    "upper_right_note": "All four specified lines are present, correctly spelled, and arranged as a narrow upper-right column.",
+    "lower_left_note": "Space, Form, and Light are present on three separate lines at the lower left.",
+    "footer": "NEW ANGLES is very large and bold along the bottom; FIELD 09 appears in small type at the lower right.",
+    "poster": "A full-canvas warm off-white portrait poster with subtle paper grain and clear margins.",
+    "unexpected_copy": [],
+    "deviations": [
+      "The facade reads as contemporary exposed-concrete architecture, but its museum function is not independently identifiable from the image."
+    ]
+  }
+}

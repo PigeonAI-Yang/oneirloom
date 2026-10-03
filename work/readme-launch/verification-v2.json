@@ -1,0 +1,93 @@
+{
+  "local_references_checked": 43,
+  "missing_local_references": [],
+  "archived_case_art_unchanged": true,
+  "new_promotion_images": {
+    "hero-v2.png": {
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "f9b096e1d4ecbebcaab50778af45dd28c8b46016ac9a99ce1c6126d2766c8b43"
+    },
+    "workflow-v2.png": {
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "0810d3f8e176a5fb9fb20cc1ad177ff5b8efb09daa3e1732c88dd96c632a2cfe"
+    },
+    "prompt-anatomy-v2.png": {
+      "size_px": [
+        1672,
+        941
+      ],
+      "sha256": "fe90c0c7cbc9d153b0ae9d08efac5e207066c6f0aba8455418243db6dc050df3"
+    }
+  },
+  "generation_tool": "built-in image_gen",
+  "hosted_github": "Not published or remotely tested",
+  "desktop": {
+    "loaded_images": [
+      {
+        "src": "docs/assets/hero-v2.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/images/example-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-character-sheet/templates/wardrobe-sheet/images/result-01.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png",
+        "loaded": true
+      },
+      {
+        "src": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/workflow-v2.png",
+        "loaded": true
+      },
+      {
+        "src": "docs/assets/prompt-anatomy-v2.png",
+        "loaded": true
+      }
+    ],
+    "anchors": [
+      {
+        "href": "#作品与案例",
+        "exists": true
+      },
+      {
+        "href": "#创作方式",
+        "exists": true
+      },
+      {
+        "href": "#开始使用",
+        "exists": true
+      },
+      {
+        "href": "#技能目录",
+        "exists": true
+      }
+    ],
+    "skill_rows": 14
+  },
+  "mobile": {
+    "viewport": 390,
+    "page": 390
+  }
+}
