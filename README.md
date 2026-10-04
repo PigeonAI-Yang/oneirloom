@@ -117,9 +117,9 @@
 | [oneirloom-camera-composition](skills/oneirloom-camera-composition/SKILL.md) | 景别、机位、透视、裁切与遮挡 |
 | [oneirloom-color-light](skills/oneirloom-color-light/SKILL.md) | 区域配色、光向与材质受光 |
 | [oneirloom-character-sheet](skills/oneirloom-character-sheet/SKILL.md) | 角色设定、三视图、表情与服装 |
-| [oneirloom-expression-stickers](skills/oneirloom-expression-stickers/SKILL.md) | Reaction intent, consistent character identity, and individual sticker delivery |
-| [oneirloom-icon-design](skills/oneirloom-icon-design/SKILL.md) | UI icon families, app symbols, and native vector assets |
-| [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | Coherent VI foundations, applications, guidelines, and asset handoff |
+| [oneirloom-expression-stickers](skills/oneirloom-expression-stickers/SKILL.md) | 贴图反应设计、角色一致性与单张贴图交付 |
+| [oneirloom-icon-design](skills/oneirloom-icon-design/SKILL.md) | UI 图标系列、应用符号与原生矢量资源 |
+| [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | 统一的 VI 基础、应用延展、规范与资源交接 |
 | [oneirloom-figure-art](skills/oneirloom-figure-art/SKILL.md) | 成人非露骨人物艺术的姿态与遮挡 |
 | [oneirloom-style-photography](skills/oneirloom-style-photography/SKILL.md) | 写实摄影、生活人像与电影感画面 |
 | [oneirloom-style-illustration](skills/oneirloom-style-illustration/SKILL.md) | 绘画、版画、拼贴与叙事插画 |
@@ -144,7 +144,7 @@
 
 [表情贴图模板](skills/oneirloom-expression-stickers/templates/index.md) · [图标模板](skills/oneirloom-icon-design/templates/index.md) · [品牌视觉模板](skills/oneirloom-brand-identity/templates/index.md)
 
-这三种方法包含九个经过调研的基础起始模板，不代表全部模板。表情贴图方法另提供 14 个扩展模板，离线浏览器检查已通过。新角色/VI 生图和完整 VI 制作仍未验收。请求 SVG、资产套件或 VI 指南时，按成果约定交付；只需提示词时，仍提供完整中英双语提示词。联系表或品牌板本身不代表完整资产交付。
+这三种方法包含九个经过调研的基础起始模板，不代表全部模板。表情贴图方法另提供 14 个扩展模板，离线浏览器检查已通过。新角色/VI 生图和完整 VI 制作仍未验收。请求 SVG、资产套件或 VI 指南时，按成果约定交付；只需提示词时，仍提供完整中英双语提示词。资产预览拼图或品牌板本身不代表完整资产交付。
 
 ## 常见问题
 
