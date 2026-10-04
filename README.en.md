@@ -4,7 +4,9 @@
 
 <p><strong>Turn imagination into images.</strong></p>
 
-<p>An open-source collection of visual prompting skills for analyzing images, developing concepts, writing complete prompts, and refining generated results.</p>
+<p>An open-source collection of 18 free visual-creation Agent Skills. Work with your AI assistant to discuss ideas and references, develop designs, and revise prompts for product campaigns, photography and illustration, characters and stickers, icons and brand identity, result diagnosis, and prompt cards.</p>
+
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">Current preview: 0.2.0-preview.1</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">Download the complete package (18 free skills)</a></p>
 
 <p>
   <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
@@ -38,9 +40,17 @@ Turn visual requests, references, and generation misses into complete image prom
 
 The collection uses three layers: **one main skill, reusable method skills, and indexed templates**. Concrete recipes live with their prompts and example records instead of becoming separate skills.
 
+## What this preview adds
+
+- For a clear brief, work within the constraints you provide. For an open brief, inspect the references and available material, ask only necessary questions, then offer two or three reasoned directions.
+- For product campaigns, preserve confirmed facts and make no claims about unknown ingredients. A fantasy concept can change the product's scale or surroundings without inventing product facts.
+- For local revisions, keep the other confirmed requirements. When you provide a real result image, use visible deviations to write a complete, specific revision prompt. Without a result image, do not claim the result was inspected.
+
+These are workflow instructions in the skills, not evidence that new-session behavior or generated image quality has been verified. The new-session check remains incomplete: the current ChatGPT account returned HTTP 400 for both specified model requests. See [current publication status](docs/releases/0.2.0-preview.1-publication.md).
+
 ## Use
 
-The `0.2.0-preview.1` preview package is available with **18 free skills**. Download the publisher-built ZIP from the [fixed package URL](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip) and verify it with [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt). Do not use GitHub's generated source archive as the inspected installation package. See [installation and rollback](docs/INSTALL.md), [release notes and current publication status](docs/releases/0.2.0-preview.1-publication.md), and [verification status](docs/COMPATIBILITY.md).
+The `0.2.0-preview.1` preview package is available with **18 free skills**. Download the publisher-built ZIP from the [fixed package URL](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip) and verify it with [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt). Do not use GitHub's generated source archive as the inspected installation package. See [installation and rollback](docs/INSTALL.md), [current publication status](docs/releases/0.2.0-preview.1-publication.md), and [prepublication compatibility and verification records](docs/COMPATIBILITY.md).
 
 The `main` branch is for development. Use a confirmed versioned package for installation; contributors need Git LFS to fetch the complete source images. The core skills require no Go runtime or local image model. Generation tools and optional card-rendering dependencies are separate. Public prompt cards are unbranded by default; an authorized local watermark is optional.
 
@@ -58,7 +68,7 @@ For tutorials, invoke `oneirloom-image-tutorial` or ask the main skill to write,
 | Layer | Contents |
 | --- | --- |
 | Main | [Oneirloom](skills/oneirloom/SKILL.md): context, routing, integration, output contract |
-| Methods | Visual analysis; character sheets; expression stickers; icons; brand identity; figure art; camera/composition; color/light; photography; illustration; design; Krea 2; Qwen-Image-2.1; result diagnosis; tutorial writing |
+| Methods | Visual analysis; character sheets; product art direction; expression stickers; icons; brand identity; figure art; camera/composition; color/light; photography; illustration; design; Krea 2; Qwen-Image-2.1; result diagnosis; prompt cards; tutorial writing |
 | Templates | [Photography](skills/oneirloom-style-photography/templates/index.md), [character sheets](skills/oneirloom-character-sheet/templates/index.md), [illustration](skills/oneirloom-style-illustration/templates/index.md), and [design](skills/oneirloom-style-design/templates/index.md): selection, visual anchors, slots, prompt scaffolds, image paths and evidence |
 
 Templates include crouching selfies, indoor full-length portraits, four-view plus four-expression cards, three-view cards, character wardrobe sheets, decorative rainy-night prints, halftone portrait cutouts, physical fuse-bead artworks, and portrait-to-blind-box comparison images.
@@ -73,7 +83,7 @@ A method directory includes its own template assets. Method skills remain usable
 | [oneirloom-icon-design](skills/oneirloom-icon-design/SKILL.md) | UI icon families, app symbols, and native vector assets | [Outline UI, solid UI, app symbol](skills/oneirloom-icon-design/templates/index.md) |
 | [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | Coherent VI foundations, applications, guidelines, and asset handoff | [Wordmark, mascot, editorial systems](skills/oneirloom-brand-identity/templates/index.md) |
 
-These methods reuse the graphic-design SOP within the existing three layers. Their nine recipes are researched starting points with no corresponding generated examples or end-to-end VI production tests. A requested SVG, asset set, or VI guideline uses its artifact contract; prompt-only work retains complete bilingual prompts. A contact sheet or brand board does not establish complete asset delivery.
+These methods reuse the graphic-design SOP within the existing three layers. The three methods contain nine researched starter templates, not nine templates in total. The expression-sticker method also has 14 extension templates, and its offline browser check passed. The nine starter templates have no matching generated examples. New character/VI image generation and complete VI production remain unaccepted. A requested SVG, asset set, or VI guideline uses its artifact contract; prompt-only work retains complete bilingual prompts. A contact sheet or brand board does not establish complete asset delivery.
 
 ## Example evidence
 

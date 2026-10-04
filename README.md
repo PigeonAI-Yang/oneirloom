@@ -4,7 +4,9 @@
 
 <p><strong>把想象，写成画面。</strong></p>
 
-<p>一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。</p>
+<p>一套包含 18 个免费技能的开源视觉创作 Skill。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品带货、摄影与插画、角色与表情贴图、图标、品牌视觉、结果诊断和提示词分享卡片。</p>
+
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">当前预览版：0.2.0-preview.1</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载完整安装包（18 个免费技能）</a></p>
 
 <p>
   <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
@@ -44,6 +46,14 @@
 
 [![使用流程：给目标和材料，明确画面关系，交付完整中英提示词，检查结果继续修改。还可制作3:4提示词分享卡片。开源MIT，提供Krea 2和Qwen-Image-2.1专门适配。](docs/assets/product-page/07-start-oneirloom-v4.webp)](docs/assets/product-page/07-start-oneirloom-v4.webp)
 
+## 这次更新能怎么用
+
+- 需求明确时，按你给出的约束继续构思。需求开放时，先检查参考图和已有材料，只追问必要问题，再给出 2–3 个有理由的方向。
+- 设计产品广告时，保留已确认的产品事实，不对未知成分作断言。幻想场景可以改变产品的尺度或周围环境，但不编造产品事实。
+- 局部修改时，保留其他已确认要求。提供真实结果图后，依据图中可见偏差写出完整、具体的修订提示词；未提供结果图时，不声称检查过生成结果。
+
+这些是技能提供的工作指导，不代表已验证新对话行为或生成图像质量。新对话行为仍未完成验证；当前 ChatGPT 账户对两次指定模型请求均返回 HTTP 400。详见[当前发布状态](docs/releases/0.2.0-preview.1-publication.md)。
+
 ## 案例与记录
 
 这套详情页由织梦师的视觉分析、设计与光色方法指导制作。六张宣传图参考既有案例重新绘制；人像六宫格直接排版归档原图。宣传图中的场景与提示词示意不等同于原始案例记录，原图与已知提示词见下方链接。[打开完整详情长图](docs/assets/product-page/overview-oneirloom-v4.webp)。
@@ -51,7 +61,7 @@
 - **人像摄影**：[12 张已归档人像的提示词与参数](docs/assets/portraits/manifest.json) · [62 张生成结果的完整教程](docs/美女生图教程.md)。各样本可能同时改变身份、姿态、衣料与环境，不能据此判断精确身份锁定或单项调整的效果。
 - **外卖小镇广告**：[原始照片与认可结果记录](skills/oneirloom-product-art-direction/references/takeaway-food-town/evidence.json)。实际提交提示词、模型与参数未记录。
 - **巧克力广告**：[原始提示词与案例](skills/oneirloom-style-design/templates/product-origin-world/template.md)；**志怪插画**：[氛围与观察记录](skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md)。两者的模型与参数均未知。
-- **织梦兽资产**：[角色参考、配色、三视图与动作稿](docs/assets/dream-cocoon/README.md)。正面形象已获认可，新增资产设计稿仍待单独验收。
+- **织梦兽资产**：[公开角色展示](docs/assets/product-page/06-character-oneirloom-v4.webp)。正面形象已获认可，新增资产设计稿仍待单独验收。
 
 <details>
 <summary>继续看角色衣橱设定</summary>
@@ -68,7 +78,7 @@
 
 当前提供包含 **18 个免费技能**的 `0.2.0-preview.1` 预览版。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
 
-按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。候选包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。[版本说明与当前发布状态](docs/releases/0.2.0-preview.1-publication.md)和[验证状态](docs/COMPATIBILITY.md)区分历史记录与本次待验事项。
+按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[当前发布状态](docs/releases/0.2.0-preview.1-publication.md)为准；[0.2.0 发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
 
 `main` 供开发使用，会继续变化。参与开发时可克隆仓库并通过 Git LFS 获取完整图片；日常安装使用确认过的固定版本包。核心技能无需 Go 或本地生图模型，生图服务和可选卡片渲染依赖另行提供。
 
@@ -122,11 +132,19 @@
 
 </details>
 
+## 专项设计方法
+
+| 方法 | 用途 | 模板 |
+| --- | --- | --- |
+| [oneirloom-expression-stickers](skills/oneirloom-expression-stickers/SKILL.md) | 贴图反应设计、角色一致性与单张贴图交付 | [头部反应、动作手势、文字反应](skills/oneirloom-expression-stickers/templates/index.md) |
+| [oneirloom-icon-design](skills/oneirloom-icon-design/SKILL.md) | UI 图标系列、应用符号与原生矢量资源 | [线框 UI、实心 UI、应用符号](skills/oneirloom-icon-design/templates/index.md) |
+| [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | 统一的 VI 基础、应用延展、规范与资源交接 | [字标、角色、编辑视觉体系](skills/oneirloom-brand-identity/templates/index.md) |
+
 [三层架构](docs/architecture.md) · [模型证据](docs/model-evidence.md) · [摄影模板](skills/oneirloom-style-photography/templates/index.md) · [角色模板](skills/oneirloom-character-sheet/templates/index.md) · [插画模板](skills/oneirloom-style-illustration/templates/index.md) · [设计模板](skills/oneirloom-style-design/templates/index.md)
 
-[Expression-sticker templates](skills/oneirloom-expression-stickers/templates/index.md) · [Icon templates](skills/oneirloom-icon-design/templates/index.md) · [Brand identity templates](skills/oneirloom-brand-identity/templates/index.md)
+[表情贴图模板](skills/oneirloom-expression-stickers/templates/index.md) · [图标模板](skills/oneirloom-icon-design/templates/index.md) · [品牌视觉模板](skills/oneirloom-brand-identity/templates/index.md)
 
-These three methods contain nine researched starter recipes. No corresponding generated examples or end-to-end VI production tests are recorded. A requested SVG, asset set, or VI guideline uses its artifact contract; prompt-only work retains complete bilingual prompts.
+这三种方法包含九个经过调研的基础起始模板，不代表全部模板。表情贴图方法另提供 14 个扩展模板，离线浏览器检查已通过。新角色/VI 生图和完整 VI 制作仍未验收。请求 SVG、资产套件或 VI 指南时，按成果约定交付；只需提示词时，仍提供完整中英双语提示词。联系表或品牌板本身不代表完整资产交付。
 
 ## 常见问题
 
