@@ -75,3 +75,4 @@ work/article-tutorial/*.zip filter=lfs diff=lfs merge=lfs -text
 /skills/oneirloom-style-design/templates/product-origin-world/images/example-01.png filter=lfs diff=lfs merge=lfs -text
 /skills/oneirloom-product-art-direction/references/takeaway-food-town/images/source.png filter=lfs diff=lfs merge=lfs -text
 /skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png filter=lfs diff=lfs merge=lfs -text
+*.html linguist-detectable=false
