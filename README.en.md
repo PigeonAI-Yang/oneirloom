@@ -5,11 +5,11 @@
 <p><strong>Turn imagination into images.</strong></p>
 
 <!-- project-metadata:source-summary:start -->
-<p>The current source contains 22 visual-creation Agent Skills. 0.3.0-preview is a development source preview with no matching package. The published frozen package is 0.2.0-preview.1 with 18 skills. <a href="docs/releases/0.3.0-preview.md">Read the source record</a>.</p>
+<p>An open-source collection of 22 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.</p>
 <!-- project-metadata:source-summary:end -->
 
 <!-- project-metadata:package-badge:start -->
-<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">Frozen released version: 0.2.0-preview.1 (18 skills)</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">Download the frozen package (18 skills)</a></p>
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">Download skills (18 skills)</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">Release notes</a></p>
 <!-- project-metadata:package-badge:end -->
 
 <p>

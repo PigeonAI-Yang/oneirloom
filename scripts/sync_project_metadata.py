@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import html
 import json
 import os
 import re
@@ -226,21 +227,24 @@ def make_artifact(inputs: dict[str, Any]) -> dict[str, Any]:
         "skills": skills,
         "copy": {
             "zh": {
-                "summary": "围绕视觉提示词、参考图分析、创作方法与结果诊断提供 Agent Skills。",
+                "summary": (
+                    f"一套包含 {source_count} 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；"
+                    "覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。"
+                ),
                 "sourceStatus": f"{source_version} 是开发源码预览，包含 {source_count} 个 Skill。",
                 "packageStatus": f"已发布的冻结包 {package_version} 包含 {package_count} 个 Skill。",
             },
             "en": {
-                "summary": "Agent Skills for visual prompts, reference analysis, creation methods, and result diagnosis.",
+                "summary": (
+                    f"An open-source collection of {source_count} free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts."
+                ),
                 "sourceStatus": f"{source_version} is a development source preview with {source_count} skills.",
                 "packageStatus": f"The published frozen package {package_version} contains {package_count} skills.",
             },
         },
         "github": {
             "description": (
-                f"Oneirloom / 织梦师: {source_count} visual creation Agent Skills in "
-                f"{source_version} source; frozen {package_version} package has {package_count}. "
-                "Prompts, reference analysis, craft, digital form, and spatial concepts."
+                f"Oneirloom / 织梦师: {source_count} free visual creation Agent Skills. Explore ideas, analyze references, write image prompts, and refine results across photography, illustration, branding, crafts, digital art, and spatial concepts."
             )
         },
     }
@@ -294,21 +298,8 @@ def replace_region(path: Path, name: str, replacement: str, inline: bool = False
 
 
 def source_intro(artifact: dict[str, Any], language: str) -> str:
-    source = artifact["source"]
-    package = artifact["package"]
-    if language == "zh":
-        return (
-            f'<p>当前源码包含 {source["skillCount"]} 个视觉创作 Skill。'
-            f'{source["version"]} 是开发源码预览，尚无对应发布包；已发布的冻结包为 '
-            f'{package["version"]}，包含 {package["skillCount"]} 项。'
-            f'<a href="docs/releases/{source["version"]}.md">查看源码记录</a></p>'
-        )
-    return (
-        f'<p>The current source contains {source["skillCount"]} visual-creation Agent Skills. '
-        f'{source["version"]} is a development source preview with no matching package. '
-        f'The published frozen package is {package["version"]} with {package["skillCount"]} skills. '
-        f'<a href="docs/releases/{source["version"]}.md">Read the source record</a>.</p>'
-    )
+    summary = html.escape(artifact["copy"][language]["summary"])
+    return f"<p>{summary}</p>"
 
 
 def table_cell(value: str) -> str:
@@ -337,15 +328,12 @@ def package_badge(artifact: dict[str, Any], language: str) -> str:
     package = artifact["package"]
     if language == "zh":
         return (
-            f'<p align="center"><a href="{package["releaseUrl"]}">已发布的冻结版本：'
-            f'{package["version"]}（{package["skillCount"]} 项）</a> · '
-            f'<a href="{package["downloadUrl"]}">下载冻结安装包（{package["skillCount"]} 项）</a></p>'
+            f'<p align="center"><a href="{package["downloadUrl"]}">下载技能包（{package["skillCount"]} 个技能）</a> · '
+            f'<a href="{package["releaseUrl"]}">版本记录</a></p>'
         )
     return (
-        f'<p align="center"><a href="{package["releaseUrl"]}">Frozen released version: '
-        f'{package["version"]} ({package["skillCount"]} skills)</a> · '
-        f'<a href="{package["downloadUrl"]}">Download the frozen package '
-        f'({package["skillCount"]} skills)</a></p>'
+        f'<p align="center"><a href="{package["downloadUrl"]}">Download skills ({package["skillCount"]} skills)</a> · '
+        f'<a href="{package["releaseUrl"]}">Release notes</a></p>'
     )
 
 

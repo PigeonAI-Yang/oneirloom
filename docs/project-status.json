@@ -197,17 +197,17 @@
   ],
   "copy": {
     "zh": {
-      "summary": "围绕视觉提示词、参考图分析、创作方法与结果诊断提供 Agent Skills。",
+      "summary": "一套包含 22 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。",
       "sourceStatus": "0.3.0-preview 是开发源码预览，包含 22 个 Skill。",
       "packageStatus": "已发布的冻结包 0.2.0-preview.1 包含 18 个 Skill。"
     },
     "en": {
-      "summary": "Agent Skills for visual prompts, reference analysis, creation methods, and result diagnosis.",
+      "summary": "An open-source collection of 22 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.",
       "sourceStatus": "0.3.0-preview is a development source preview with 22 skills.",
       "packageStatus": "The published frozen package 0.2.0-preview.1 contains 18 skills."
     }
   },
   "github": {
-    "description": "Oneirloom / 织梦师: 22 visual creation Agent Skills in 0.3.0-preview source; frozen 0.2.0-preview.1 package has 18. Prompts, reference analysis, craft, digital form, and spatial concepts."
+    "description": "Oneirloom / 织梦师: 22 free visual creation Agent Skills. Explore ideas, analyze references, write image prompts, and refine results across photography, illustration, branding, crafts, digital art, and spatial concepts."
   }
 }

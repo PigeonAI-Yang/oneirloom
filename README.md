@@ -5,11 +5,11 @@
 <p><strong>把想象，写成画面。</strong></p>
 
 <!-- project-metadata:source-summary:start -->
-<p>当前源码包含 22 个视觉创作 Skill。0.3.0-preview 是开发源码预览，尚无对应发布包；已发布的冻结包为 0.2.0-preview.1，包含 18 项。<a href="docs/releases/0.3.0-preview.md">查看源码记录</a></p>
+<p>一套包含 22 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。</p>
 <!-- project-metadata:source-summary:end -->
 
 <!-- project-metadata:package-badge:start -->
-<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">已发布的冻结版本：0.2.0-preview.1（18 项）</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载冻结安装包（18 项）</a></p>
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载技能包（18 个技能）</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">版本记录</a></p>
 <!-- project-metadata:package-badge:end -->
 
 <p>
