@@ -1,16 +1,27 @@
+<!-- project-metadata:package-title:start -->
 # Install Oneirloom 0.2.0-preview.1
+<!-- project-metadata:package-title:end -->
 
-This candidate contains 18 free sibling skills. Version `0.2.0-preview.1` and tag `v0.2.0-preview.1` are proposed release identifiers, pending approval. The release has not been published. The `main` branch is for development and is not a fixed installation version.
+<!-- project-metadata:current-package-status:start -->
+This guide installs the published frozen package `0.2.0-preview.1`, which contains 18 sibling skills.
+The current `0.3.0-preview` source contains 22 skills and remains a development preview with no matching package.
+See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.md) and the [frozen-package publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.2.0-preview.1-publication.md).
+<!-- project-metadata:current-package-status:end -->
 
-The instructions below describe the candidate package. See [candidate release notes](releases/0.2.0-preview.1.md) and [compatibility evidence](COMPATIBILITY.md) before choosing it. A prepared package, a successful install, and release approval are separate states.
+<!-- project-metadata:package-obtain:start -->
+## Obtain and check the frozen package
 
-## Obtain and check the versioned package
+Download the publisher-built [oneirloom-0.2.0-preview.1.zip](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip) and its [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt).
+Compare the downloaded ZIP with its exact filename in the checksum file before extraction.
+<!-- project-metadata:package-obtain:end -->
 
-After publication, use the publisher-built [oneirloom-0.2.0-preview.1.zip](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip) and companion [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt). These are reserved release URLs, **not yet published downloads**. Before publication, use only the local candidate files supplied for review.
-
+<!-- project-metadata:package-hash-command:start -->
 1. Compare the ZIP's SHA-256 with the exact filename in `SHA256SUMS.txt`. In PowerShell, run `Get-FileHash -Algorithm SHA256 -LiteralPath './oneirloom-0.2.0-preview.1.zip'` in the download directory.
+<!-- project-metadata:package-hash-command:end -->
 2. Extract the ZIP into a new directory. Find the package root containing `skills/` and `SOURCE-MANIFEST.json`.
+<!-- project-metadata:manifest-count:start -->
 3. Check that the manifest records package version `0.2.0-preview.1` and the 18 skill IDs listed below. Keep the ZIP, `SHA256SUMS.txt`, and manifest together with your installation record.
+<!-- project-metadata:manifest-count:end -->
 
 The manifest uses schema version 2. It records the package name and version, `skillIds`, hashes and sizes in `packagedFilesExceptThisManifest`, and `sourceSnapshot` provenance. The snapshot includes the base commit, dirty working-tree state, skill-content fingerprint, and LFS payload provenance. The ZIP checksum covers the manifest too. A base commit alone does not identify this candidate's uncommitted source content.
 
@@ -18,7 +29,9 @@ Use the built ZIP rather than GitHub's automatically generated source ZIP. The d
 
 ## Install in a new Codex project
 
+<!-- project-metadata:install-copy:start -->
 Start with an empty project so existing skills do not need to be overwritten. Copy all 18 directories inside the package's `skills/` into the project's `.agents/skills/`, retaining every directory name and its internal files. Do not put the collection inside one extra `oneirloom/` directory.
+<!-- project-metadata:install-copy:end -->
 
 The candidate's skill IDs are:
 

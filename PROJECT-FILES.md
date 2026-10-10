@@ -27,6 +27,11 @@ output/
 ├── dream-cocoon-asset-cards-20261001/ (mascot asset cards)
 ├── oneirloom-plugin-icon-0.1.2/ (selected plugin icon and complete candidate package)
 └── oneirloom-stickers-20261003/ (selected sticker pack and offline browsing)
+scripts/
+└── sync_project_metadata.py (check and update deterministic project metadata)
+docs/
+├── project-copy.json (bilingual labels for current source skills)
+└── project-status.json (generated source, package, and skill metadata)
 work/
 ├── readme-launch/badges-20261003/ (README desktop/mobile previews and verification receipt)
 ├── sticker-pack-templates-20261002/ (sticker browser and file-placement verification)
@@ -50,8 +55,9 @@ work/
 | Dream-weaving trial | [Local skill](skills/oneirloom-dream-weaving/), [Dialogue examples](skills/oneirloom-dream-weaving/references/dialogue-examples.md), [Case definitions](evals/dream-weaving-cases.json), [Source checks and text trials](work/dream-weaving-20261010/) |
 | Ecommerce collaboration | [Workflow guidance](skills/oneirloom-product-art-direction/references/ecommerce-workflow.md), [Chinese text-fixture examples](skills/oneirloom-product-art-direction/references/ecommerce-examples.md) |
 | Progressive-disclosure instructions | [Shared interaction contract](skills/oneirloom/references/interaction-contract.md), [graphic design and conditional references](skills/oneirloom-style-design/) |
-| Local 0.3.0-preview source | 22 source skills, including three new methods; development source preview with no corresponding package. See the [source record](docs/releases/0.3.0-preview.md). The 18-skill `v0.2.0-preview.1` package remains frozen. |
-| Free 18-skill preview | [Release notes and current publication status](docs/releases/0.2.0-preview.1-publication.md), [versioned installation and rollback](docs/INSTALL.md), [verification status](docs/COMPATIBILITY.md) |
+| Metadata maintenance | [Maintenance commands](docs/MAINTENANCE.md), [bilingual labels](docs/project-copy.json), [generated project status](docs/project-status.json), and [sync tool](scripts/sync_project_metadata.py) |
+| <!-- project-metadata:local-source-row:start --> Current 0.3.0-preview source | 22 source skills; development preview with no corresponding package. The published frozen `0.2.0-preview.1` package contains 18 skills. See the [source record](docs/releases/0.3.0-preview.md) and [frozen-package publication record](docs/releases/0.2.0-preview.1-publication.md).<!-- project-metadata:local-source-row:end --> |
+| Published 0.2.0-preview.1 frozen-package record (18 skills) | [Publication record](docs/releases/0.2.0-preview.1-publication.md), [versioned installation and rollback](docs/INSTALL.md), [prepublication verification record](docs/COMPATIBILITY.md) |
 | Verification records | [Sticker verification](work/sticker-pack-templates-20261002/), [Ecommerce checks and text exercises](work/ecommerce-workflow-20261003/), [Progressive-disclosure verification](work/progressive-disclosure-20261003/), [Independent structure receipt](work/progressive-disclosure-20261003/structure-checks.json), [Actual text answers](work/progressive-disclosure-20261003/actual-answers.md), [Acceptance report](work/progressive-disclosure-20261003/acceptance-report.md), [Closure behavior checks](work/progressive-disclosure-20261003/closure-behavior-checks.json), [Closure actual answers](work/progressive-disclosure-20261003/closure-actual-answers.md), [Closure acceptance report](work/progressive-disclosure-20261003/closure-acceptance-report.md) |
 
 Plugin 0.1.2 is a validated local candidate using the selected purple rounded icon. Installation, publication, and the connected Sites plugin icon update have not been performed.

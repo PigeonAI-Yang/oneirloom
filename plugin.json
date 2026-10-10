@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "oneirloom",
-  "version": "0.2.0-preview.1",
-  "description": "Visual prompting, reference analysis, and result diagnosis with 18 skills.",
+  "version": "0.3.0-preview",
+  "description": "Visual prompting, reference analysis, craft construction, digital form, spatial concepts, and result diagnosis with 22 source skills.",
   "author": {
     "name": "PigeonAI-Yang",
     "url": "https://github.com/PigeonAI-Yang"
@@ -23,7 +23,7 @@
       "interface": {
         "displayName": "Oneirloom · 织梦师",
         "shortDescription": "Turn visual ideas into prompts",
-        "longDescription": "Oneirloom bundles 18 skills for turning visual ideas into image prompts, analyzing references, shaping composition and light, adapting writing guidance for Krea 2 and Qwen-Image-2.1, and diagnosing results. A host with image input is needed for visual analysis. Prompts do not generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, background service, or automatic upload is bundled. 0.2.0-preview.1 is an unpublished preview of the 18-skill free collection, including progressive disclosure and ecommerce collaboration. Package and text checks do not establish image-generation quality.",
+        "longDescription": "The 0.3.0-preview source tree contains 22 skills for visual prompts, reference analysis, craft construction, digital form, space conception, composition and light, model adaptation, and result diagnosis. This is a development source preview with no corresponding package; the published frozen 0.2.0-preview.1 package remains at 18 skills. A host with image input is needed for visual analysis. Prompts do not generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, background service, or automatic upload is bundled. Package and text checks do not establish image-generation quality.",
         "developerName": "PigeonAI-Yang",
         "category": "Productivity",
         "capabilities": [],
@@ -40,7 +40,7 @@
         "logo": "./assets/icon.svg"
       },
       "publication": {
-        "release_notes": "0.2.0-preview.1 is an unpublished preview of the 18-skill free collection, including progressive disclosure and ecommerce collaboration. Package and text checks do not establish image-generation quality."
+        "release_notes": "0.3.0-preview is a development source preview with 22 skills and no corresponding package. The published frozen 0.2.0-preview.1 package contains 18 skills. Package and text checks do not establish image-generation quality."
       }
     }
   }

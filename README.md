@@ -4,9 +4,13 @@
 
 <p><strong>把想象，写成画面。</strong></p>
 
-<p>当前源码包含 22 个视觉创作 Skill：原有 19 项，加上工艺构造、数字造型和空间构想三个方法。工艺构造负责拼豆配方。0.3.0-preview 是开发中的源码预览，尚无对应发布包；已发布的冻结包仍是 0.2.0-preview.1，包含 18 项。<a href="docs/releases/0.3.0-preview.md">查看源码记录</a></p>
+<!-- project-metadata:source-summary:start -->
+<p>当前源码包含 22 个视觉创作 Skill。0.3.0-preview 是开发源码预览，尚无对应发布包；已发布的冻结包为 0.2.0-preview.1，包含 18 项。<a href="docs/releases/0.3.0-preview.md">查看源码记录</a></p>
+<!-- project-metadata:source-summary:end -->
 
+<!-- project-metadata:package-badge:start -->
 <p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">已发布的冻结版本：0.2.0-preview.1（18 项）</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载冻结安装包（18 项）</a></p>
+<!-- project-metadata:package-badge:end -->
 
 <p>
   <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
@@ -45,13 +49,17 @@
 
 [![使用流程：给目标和材料，明确画面关系，交付完整中英提示词，检查结果继续修改。还可制作3:4提示词分享卡片。开源MIT，提供Krea 2和Qwen-Image-2.1专门适配。](docs/assets/product-page/07-start-oneirloom-v4.webp)](docs/assets/product-page/07-start-oneirloom-v4.webp)
 
+<!-- project-metadata:guidance-heading:start -->
 ## 冻结的 0.2.0-preview.1 版本包含的工作指导
+<!-- project-metadata:guidance-heading:end -->
 
 - 需求明确时，按你给出的约束继续构思。需求开放时，先检查参考图和已有材料，只追问必要问题，再给出 2–3 个有理由的方向。
 - 设计产品广告时，保留已确认的产品事实，不对未知成分作断言。幻想场景可以改变产品的尺度或周围环境，但不编造产品事实。
 - 局部修改时，保留其他已确认要求。提供真实结果图后，依据图中可见偏差写出完整、具体的修订提示词；未提供结果图时，不声称检查过生成结果。
 
-这些指导属于冻结的 0.2.0-preview.1 包。0.3.0-preview 源码仍是开发预览，尚无对应发布包；其新对话行为和生成图像质量尚未验证。0.2.0 的日期化发布记录见[发布状态](docs/releases/0.2.0-preview.1-publication.md)。
+<!-- project-metadata:guidance-current-status:start -->
+这些指导属于冻结的 0.2.0-preview.1 包。0.3.0-preview 源码仍是开发预览，尚无对应发布包；其新对话行为和生成图像质量尚未验证。0.2.0-preview.1 的日期化发布记录见[发布状态](docs/releases/0.2.0-preview.1-publication.md)。
+<!-- project-metadata:guidance-current-status:end -->
 
 ## 案例与记录
 
@@ -73,11 +81,17 @@
 
 ## 开始使用
 
+<!-- project-metadata:install-heading:start -->
 ### 安装冻结的 0.2.0-preview.1 技能包
+<!-- project-metadata:install-heading:end -->
 
+<!-- project-metadata:install-intro:start -->
 以下安装步骤只适用于冻结的 `0.2.0-preview.1` 发布包，包含 **18 个免费技能**，不含 0.3.0-preview 源码改动。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
+<!-- project-metadata:install-intro:end -->
 
-按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[冻结包发布状态](docs/releases/0.2.0-preview.1-publication.md)为准；[0.2.0 发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
+<!-- project-metadata:install-copy:start -->
+按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[冻结包发布状态](docs/releases/0.2.0-preview.1-publication.md)为准；[发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
+<!-- project-metadata:install-copy:end -->
 
 `main` 供开发使用，会继续变化。参与开发时可克隆仓库并通过 Git LFS 获取完整图片；日常安装使用确认过的固定版本包。核心技能无需 Go 或本地生图模型，生图服务和可选卡片渲染依赖另行提供。
 
@@ -103,14 +117,17 @@
 
 ## 技能目录
 
-主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。以下目录列出 0.3.0-preview 源码中的 22 个 Skill。
+<!-- project-metadata:skill-directory:start -->
+主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
+以下目录列出 `0.3.0-preview` 源码中的 22 个 Skill。
 
 <details>
 <summary>展开全部技能</summary>
 
 | 技能 | 用途 |
 | --- | --- |
-| [oneirloom](skills/oneirloom/SKILL.md) | 主入口、上下文继承与完整交付 |
+| [oneirloom](skills/oneirloom/SKILL.md) | 任务路由、上下文继承与完整交付 |
+| [oneirloom-dream-weaving](skills/oneirloom-dream-weaving/SKILL.md) | 把感受、记忆与零散画面发展成可绘制场景 |
 | [oneirloom-visual-analysis](skills/oneirloom-visual-analysis/SKILL.md) | 参考图拆解与视觉关系分析 |
 | [oneirloom-product-art-direction](skills/oneirloom-product-art-direction/SKILL.md) | 产品广告概念与画面故事 |
 | [oneirloom-camera-composition](skills/oneirloom-camera-composition/SKILL.md) | 景别、机位、透视、裁切与遮挡 |
@@ -118,7 +135,7 @@
 | [oneirloom-character-sheet](skills/oneirloom-character-sheet/SKILL.md) | 角色设定、三视图、表情与服装 |
 | [oneirloom-expression-stickers](skills/oneirloom-expression-stickers/SKILL.md) | 贴图反应设计、角色一致性与单张贴图交付 |
 | [oneirloom-icon-design](skills/oneirloom-icon-design/SKILL.md) | UI 图标系列、应用符号与原生矢量资源 |
-| [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | 统一的 VI 基础、应用延展、规范与资源交接 |
+| [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | VI 基础、应用延展、规范与资源交接 |
 | [oneirloom-figure-art](skills/oneirloom-figure-art/SKILL.md) | 成人非露骨人物艺术的姿态与遮挡 |
 | [oneirloom-style-photography](skills/oneirloom-style-photography/SKILL.md) | 写实摄影、生活人像与电影感画面 |
 | [oneirloom-style-illustration](skills/oneirloom-style-illustration/SKILL.md) | 绘画、版画、拼贴与叙事插画 |
@@ -133,6 +150,7 @@
 | [oneirloom-prompt-card](skills/oneirloom-prompt-card/SKILL.md) | 作品与完整提示词的 3:4 分享卡片 |
 
 </details>
+<!-- project-metadata:skill-directory:end -->
 
 ## 专项设计方法
 

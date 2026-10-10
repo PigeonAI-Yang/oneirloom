@@ -1,5 +1,13 @@
 # Compatibility and verification status
 
+<!-- project-metadata:current-status:start -->
+## Current source and package status
+
+The current `0.3.0-preview` source contains 22 skills and remains a development preview without a matching package.
+The published frozen `0.2.0-preview.1` package contains 18 skills. See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.md) and [publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.2.0-preview.1-publication.md).
+The candidate table below preserves prepublication checks. Its pending items describe that earlier review, not current package availability.
+<!-- project-metadata:current-status:end -->
+
 ## Historical 0.1.1 results
 
 The table and website observations in this section describe the earlier 15-skill delivery. They do not verify 0.2.0-preview.1. The archived 0.1.1 packages contain private brand watermarks and are not public rollback downloads. The later 0.1.2 icon candidate was locally validated but was not installed or published.
@@ -23,9 +31,9 @@ The final 0.1.1 documentation update changed only status documents and their sou
 
 The package has not been submitted to or approved by the OpenAI plugin directory.
 
-## 0.2.0-preview.1 candidate status
+## 0.2.0-preview.1 prepublication evidence
 
-The proposed version contains 18 free skills and uses a separate versioned package. It is pending acceptance and publication. See [installation](INSTALL.md) and [release notes](releases/0.2.0-preview.1.md). The candidate starts from base commit `f8059e1a8b512d3af0302f4212521a82cade964c` plus working-tree changes. The bundled `SOURCE-MANIFEST.json` must identify the actual source snapshot; the base commit alone is insufficient.
+This section records the 18-skill package before publication. At that point, the separate versioned package was still pending publication. The package is now published; see the [publication record](releases/0.2.0-preview.1-publication.md), [installation guide](INSTALL.md), and [release notes](releases/0.2.0-preview.1.md). The candidate started from base commit `f8059e1a8b512d3af0302f4212521a82cade964c` plus working-tree changes. The bundled `SOURCE-MANIFEST.json` must identify the actual source snapshot; the base commit alone is insufficient.
 
 | Check | Available evidence and limits | Candidate status |
 | --- | --- | --- |

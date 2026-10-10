@@ -1,0 +1,134 @@
+{
+  "oneirloom": {
+    "zh": "织梦师主入口",
+    "en": "Oneirloom",
+    "zhDescription": "任务路由、上下文继承与完整交付",
+    "enDescription": "Request routing, conversation context, and complete delivery."
+  },
+  "oneirloom-dream-weaving": {
+    "zh": "梦织",
+    "en": "Dream weaving",
+    "zhDescription": "把感受、记忆与零散画面发展成可绘制场景",
+    "enDescription": "Develop feelings, memories, and fragments into a drawable scene."
+  },
+  "oneirloom-visual-analysis": {
+    "zh": "视觉分析",
+    "en": "Visual analysis",
+    "zhDescription": "参考图拆解与视觉关系分析",
+    "enDescription": "Reference-image analysis and visual relationships."
+  },
+  "oneirloom-product-art-direction": {
+    "zh": "产品美术指导",
+    "en": "Product art direction",
+    "zhDescription": "产品广告概念与画面故事",
+    "enDescription": "Product-ad concepts and visual storytelling."
+  },
+  "oneirloom-camera-composition": {
+    "zh": "景别与构图",
+    "en": "Camera and composition",
+    "zhDescription": "景别、机位、透视、裁切与遮挡",
+    "enDescription": "Shot size, camera position, perspective, crops, and occlusion."
+  },
+  "oneirloom-color-light": {
+    "zh": "色彩与光线",
+    "en": "Color and light",
+    "zhDescription": "区域配色、光向与材质受光",
+    "enDescription": "Color regions, light direction, and material response."
+  },
+  "oneirloom-character-sheet": {
+    "zh": "角色设定",
+    "en": "Character sheets",
+    "zhDescription": "角色设定、三视图、表情与服装",
+    "enDescription": "Character, multi-view, expression, and wardrobe sheets."
+  },
+  "oneirloom-expression-stickers": {
+    "zh": "表情贴图",
+    "en": "Expression stickers",
+    "zhDescription": "贴图反应设计、角色一致性与单张贴图交付",
+    "enDescription": "Sticker reactions, consistent characters, and individual sticker files."
+  },
+  "oneirloom-icon-design": {
+    "zh": "图标设计",
+    "en": "Icon design",
+    "zhDescription": "UI 图标系列、应用符号与原生矢量资源",
+    "enDescription": "UI icon families, app symbols, and native vector assets."
+  },
+  "oneirloom-brand-identity": {
+    "zh": "品牌视觉",
+    "en": "Brand identity",
+    "zhDescription": "VI 基础、应用延展、规范与资源交接",
+    "enDescription": "VI foundations, applications, guidelines, and asset handoff."
+  },
+  "oneirloom-figure-art": {
+    "zh": "艺术人体",
+    "en": "Artistic figure",
+    "zhDescription": "成人非露骨人物艺术的姿态与遮挡",
+    "enDescription": "Poses and coverage for non-explicit adult figure art."
+  },
+  "oneirloom-style-photography": {
+    "zh": "摄影",
+    "en": "Photography",
+    "zhDescription": "写实摄影、生活人像与电影感画面",
+    "enDescription": "Realistic photography, lifestyle portraits, and film-still imagery."
+  },
+  "oneirloom-style-illustration": {
+    "zh": "插画",
+    "en": "Illustration",
+    "zhDescription": "绘画、版画、拼贴与叙事插画",
+    "enDescription": "Painting, print, collage, and narrative illustration."
+  },
+  "oneirloom-style-design": {
+    "zh": "平面设计",
+    "en": "Graphic design",
+    "zhDescription": "海报、文字版式、广告与包装图文",
+    "enDescription": "Posters, typography, ads, and packaging graphics."
+  },
+  "oneirloom-craft-construction": {
+    "zh": "工艺构造",
+    "en": "Craft construction",
+    "zhDescription": "拼豆等实体工艺的单元、连接、层厚与支撑",
+    "enDescription": "Units, joins, layers, and supports in crafts such as fuse beads."
+  },
+  "oneirloom-digital-form": {
+    "zh": "数字造型",
+    "en": "Digital form",
+    "zhDescription": "数字体积、形变、连接与视觉变换",
+    "enDescription": "Digital volume, deformation, connections, and visual transformation."
+  },
+  "oneirloom-space-conception": {
+    "zh": "空间构想",
+    "en": "Space conception",
+    "zhDescription": "房间、布景与环境的空间关系",
+    "enDescription": "Spatial relations for rooms, sets, and environments."
+  },
+  "oneirloom-model-krea-2": {
+    "zh": "Krea 2 适配",
+    "en": "Krea 2 adapter",
+    "zhDescription": "Krea 2 提示词与入口适配",
+    "enDescription": "Krea 2 prompts and entry-point adaptation."
+  },
+  "oneirloom-model-qwen-image-2-1": {
+    "zh": "Qwen-Image-2.1 适配",
+    "en": "Qwen-Image-2.1 adapter",
+    "zhDescription": "Qwen-Image-2.1 提示词与任务适配",
+    "enDescription": "Qwen-Image-2.1 prompts and task adaptation."
+  },
+  "oneirloom-result-diagnosis": {
+    "zh": "结果诊断",
+    "en": "Result diagnosis",
+    "zhDescription": "生成偏差分析与提示词修正",
+    "enDescription": "Analyze generation misses and revise prompts."
+  },
+  "oneirloom-image-tutorial": {
+    "zh": "图像教程",
+    "en": "Image tutorials",
+    "zhDescription": "图文教程写作、扩写与润色",
+    "enDescription": "Write, expand, and polish illustrated tutorials."
+  },
+  "oneirloom-prompt-card": {
+    "zh": "提示词卡片",
+    "en": "Prompt cards",
+    "zhDescription": "作品与完整提示词的 3:4 分享卡片",
+    "enDescription": "3:4 share cards for images and complete prompts."
+  }
+}
