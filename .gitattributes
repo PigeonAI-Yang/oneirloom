@@ -1,6 +1,6 @@
 work/article-tutorial/*.zip filter=lfs diff=lfs merge=lfs -text
-/skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png filter=lfs diff=lfs merge=lfs -text
-/skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png filter=lfs diff=lfs merge=lfs -text
+/skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.png filter=lfs diff=lfs merge=lfs -text
+/skills/oneirloom-craft-construction/templates/fuse-bead/images/source-01.png filter=lfs diff=lfs merge=lfs -text
 /skills/oneirloom-style-photography/templates/indoor-full-length/images/result-01.png filter=lfs diff=lfs merge=lfs -text
 /work/article-tutorial/archive-before-language-polish/美女生图教程.html filter=lfs diff=lfs merge=lfs -text
 /work/article-tutorial/archive-illustrated-v1/美女生图教程.html filter=lfs diff=lfs merge=lfs -text

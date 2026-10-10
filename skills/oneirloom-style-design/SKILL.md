@@ -1,15 +1,15 @@
 ---
 name: oneirloom-style-design
-description: Understand visual intent and subject identity, observe references, and design graphic compositions before choosing production. Write complete prompts or create requested graphics, product and packaging studies, 3D renders, and craft mockups. Use product art direction for supplied-product ads.
+description: Understand visual intent and subject identity, observe references, and design composed graphics before choosing production. Write complete prompts or create requested posters, covers, editorial layouts, infographics, composed ads, and packaging graphics. Use product art direction for supplied-product ads.
 ---
 
-# Graphic, product, and 3D design
+# Graphic design
 
 Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
 
 This capability owns the complete graphic-design process below for original and reference-based posters, covers, editorial layouts, infographics, and composed ads. Specialist capabilities supply their subject decisions. Keep reasoning in compact internal notes or the existing task record, without a new questionnaire, ledger, fixed alternative count, or approval round.
 
-For real-product depictions, read [product art direction](../oneirloom-product-art-direction/SKILL.md) for evidence, facts, conflicts, and permitted transformations. For a sticker pack, icon family, or VI system, use the relevant specialist for its deliverable and family decisions; this process owns individual graphic compositions. Pure photography, isolated 3D rendering, character turnarounds, tutorials, and existing-image prompt cards retain their own procedures.
+For real-product depictions, read [product art direction](../oneirloom-product-art-direction/SKILL.md) for evidence, facts, conflicts, and permitted transformations. For a sticker pack, icon family, or VI system, use the relevant specialist for its deliverable and family decisions; this process owns individual graphic compositions. Pure photography, digital-form concepts, physical craft construction, character turnarounds, tutorials, and existing-image prompt cards retain their own procedures.
 
 ## 1. Understand the intent and subject
 
@@ -49,8 +49,10 @@ Repair the responsible stage and preserve successful work. Conceptual failures r
 
 Prompt-only delivery includes complete usable prompts for the selected path and truthful unrendered status. Finished graphics require a final preview, actual inspection status, and editable source or assets when warranted. A prompt or queue receipt is not a visually verified graphic. Preserve historical evidence; revised guidance inherits no validation from old outputs.
 
-## Other design tasks and optional recipes
+## Packaging graphics and optional recipes
 
-For isolated product, packaging, pure 3D, or craft studies, read the relevant [domain checks](references/styles.md). Describe supported geometry, marks, materials, light, and space without imposing a graphic layout. Complete silhouettes are required when the catalog brief calls for them, not for every creative crop. Add photographic materials, depth of field, or skin detail only when the medium calls for them.
+Use this process for packaging graphics, including typography, hierarchy, and copy placement. Read product art direction for a real product's facts. Package construction and product photography stay with their respective methods. For a digital form or physical craft object inside a composition, read its method for that object and keep this process responsible for the graphic layout.
+
+For cross-medium style exploration, family disambiguation, or an explicit family-level request, use the [visual-family index](../oneirloom/references/visual-families/index.md) as an optional discovery aid. This capability continues to own the requested graphic or design deliverable.
 
 When a concrete recipe helps, read the [template index](templates/index.md), then the selected recipe. Inspect its actual image before relying on its prose. No match permits composition from this method, and a new design does not require a persistent template. A source image does not prove its stored prompt generated it. The [source notes](references/graphic-design-sources.md) explain this local synthesis and do not establish an industry-standard stage count.

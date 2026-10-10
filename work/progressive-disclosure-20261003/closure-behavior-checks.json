@@ -1,0 +1,650 @@
+{
+  "record_version": 1,
+  "source_root": "J:\\PigeonYang\\skills\\oneirloom",
+  "scope": "Initial 10-session actual prompt-delivery closure batch plus one fresh C2 rerun of its sole failed case. Receipt assembly only; no source skill edits.",
+  "actual_turn_count": 17,
+  "actual_turn_field_count": 34,
+  "native_child_session_count": 11,
+  "session_count_basis": "Ten initial actual JSON receipts plus one fresh C2 JSON receipt; the receipt schema does not expose opaque runtime session IDs.",
+  "source_versions": {
+    "C1": {
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "initial_batch_turns": 16,
+      "initial_sessions": 10
+    },
+    "C2": {
+      "interaction_contract_sha256": "13dc08d40afff785d96f0e6855f23981d4ba047d619beb3072cef33810b23449",
+      "current_source_sha256": "13dc08d40afff785d96f0e6855f23981d4ba047d619beb3072cef33810b23449",
+      "rerun_case": "ingredient-claim-fallback",
+      "rerun_turns": 1,
+      "rerun_sessions": 1,
+      "author_receipt": "closure-inventory-author-checks.json",
+      "author_receipt_sha256": "b8ecfbc12cd87d44a27dedbc6a6d49591a216a676f63cda6bcd4e9655c833c40",
+      "exact_single_replacement_bytes": true,
+      "all_other_bytes_unchanged": true
+    }
+  },
+  "initial_C1_primary_verdict": {
+    "scoped_cases": 13,
+    "passed": 12,
+    "failed": 1,
+    "unexecuted": 0
+  },
+  "C2_rerun_primary_verdict": {
+    "scoped_cases": 1,
+    "passed": 1,
+    "failed": 0,
+    "unexecuted": 0,
+    "receipt": "closure-ingredient-final.json",
+    "receipt_sha256": "486e9f96a1b0ee2d4315c1612c0d13a8258484735c272e01a2a2ad788a6defd3"
+  },
+  "latest_scoped_case_status": {
+    "scoped_cases": 13,
+    "passed": 13,
+    "failed": 0,
+    "unexecuted": 0,
+    "derivation": "Twelve C1 passes plus the one C2 rerun of the sole C1 failure. This is not a 13-case rerun on one source hash."
+  },
+  "case_results": [
+    {
+      "case_id": "clear-breakfast-direct",
+      "evidence_reason": "Proceeds without renewed consultation; complete fenced Chinese prompt retains one intact oval bread, three shallow scores, unspecified white powder and exact supplied title.",
+      "source": "closure-clear.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "vague-bread-followup",
+      "evidence_reason": "Two consequential questions and three different mechanisms precede the actual choice; the second turn delivers the selected miniature station with its literal title, independent fantasy scenery and no unsupported-fact inventory.",
+      "source": "closure-vague.json",
+      "turns": "1-2",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "diagnose-package-structure",
+      "evidence_reason": "Labels deviations as user-reported, leaves execution causes unresolved, and restores one whole bread in a transparent soft bag with left fold and upper-right label in a complete fenced correction.",
+      "source": "closure-package.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "blurred-label-unknown-filling",
+      "evidence_reason": "Declares exact brand text unavailable, does not guess it, and explicitly keeps the requested brand-accurate final image incomplete while preserving independent subject/layout work.",
+      "source": "closure-package.json",
+      "turns": "2",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "no-search-no-result",
+      "evidence_reason": "Discloses no competitor research or inspected image; proceeds with the supplied warm-breakfast direction and complete prompt, using the title as the only text instead of a prohibited-claims list.",
+      "source": "closure-no-search.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "confirmed-chocolate-architecture",
+      "evidence_reason": "Attributes the ingredient to the supplied manufacturer-sheet description, uses chocolate as imaginary architectural material and keeps the rectangular packaged bar prominent without invented brand details.",
+      "source": "closure-chocolate.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "critical-material-conflict",
+      "evidence_reason": "Names packaging, shape and count conflicts between two uninspected descriptions, asks which current item to use and continues independent background/layout choices.",
+      "source": "closure-conflict.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "doubao-portable-language",
+      "evidence_reason": "Separates assistant instructions from complete Chinese/English image prompts; preserves literal Chinese title in both, reference guidance outside blocks and no native-installation or unverified-control claim.",
+      "source": "closure-doubao.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "research-denial-local-progress",
+      "evidence_reason": "Treats supplied access denial as a stop, reports no retry or invented findings, and continues with three product-grounded directions and complete Chinese prompts.",
+      "source": "closure-denial.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "sequential-background-style-copy",
+      "evidence_reason": "Across three actual turns, updates wall then medium then exact title while retaining one intact bread, scores, object placement and other current choices; each revision is a full fenced prompt.",
+      "source": "closure-local-edits.json",
+      "turns": "1-3",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "reject-old-direction",
+      "evidence_reason": "Replaces the rejected illustrated breakfast scene with a centered dark-gray product photograph while retaining supported bread facts and omitting old props/copy.",
+      "source": "closure-local-edits.json",
+      "turns": "4",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "realistic-and-miniature",
+      "evidence_reason": "Delivers two complete prompts with the same supported exterior; factory facilities are clearly imaginary scenery rather than filling or real-production evidence.",
+      "source": "closure-truth.json",
+      "turns": "1",
+      "initial_c1_verdict": "passed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": false
+    },
+    {
+      "case_id": "ingredient-claim-fallback",
+      "evidence_reason": "C1 correctly rejected unsupported strawberry/health facts but exported an unknown-fact list; C2 instead uses closed decorative-liquid pipes on a separate platform, suggested replacement copy and a complete fenced prompt without that inventory.",
+      "source": "closure-truth.json; closure-ingredient-final.json",
+      "turns": "C1 turn 2; C2 turn 1",
+      "initial_c1_verdict": "failed",
+      "latest_verdict": "passed",
+      "rerun_on_c2": true
+    }
+  ],
+  "receipts": [
+    {
+      "receipt": "closure-clear.json",
+      "receipt_sha256": "1c43e618daee178211719fb6120d93d760a340c9354ee0c508a411b85ff682eb",
+      "case_id": "closure-clear-20261003",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+          "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+          "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+          "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-camera-composition\\SKILL.md",
+          "sha256": "AFE39C8D770ACEE8F8B95EBC971F9407D5C9E78F2B20AD8B744E49201EF91DA7"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md",
+          "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-vague.json",
+      "receipt_sha256": "630acaf060a6c047d229987b2b69cceaf069bbed844c46dc216e53ccf245814f",
+      "case_id": "closure-vague",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicitly reading source",
+      "turn_count": 2,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:/Users/yangda01/.codex/local-plugins/pstack/CODEX.md",
+          "sha256": "999858F016B10649C8B7F199CEEF3B3BC6488782B4580954DA4C50058449EF03"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/AGENTS.md",
+          "sha256": "DE3A8D6CF1BEA56355C7D32DB38E701DAE0C9151034E9CC211454DA830A04D07"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/PROJECT-FILES.md",
+          "sha256": "994DF4B63CA8BEE300D75943EC2FA173F274B47C597E7C539B1B2A53E33EBE67"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/SKILL.md",
+          "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/references/interaction-contract.md",
+          "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/SKILL.md",
+          "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+          "sha256": "23554D4A3EEF50787DA0D2B659EDAA9CF8BF4596A71EA1B980FA6F378158310D"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/SKILL.md",
+          "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-photography/SKILL.md",
+          "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-package.json",
+      "receipt_sha256": "de15548c539e4eaddb69ad4416299735fcbae36c93bec25ffb40214ab9a1d116",
+      "case_id": "closure-package-dialogue-20261003",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 2,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/PROJECT-FILES.md",
+          "sha256": "994df4b63ca8bee300d75943ec2fa173f274b47c597e7c539b1b2a53e33ebe67"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-result-diagnosis/SKILL.md",
+          "sha256": "81acde8c5da6a3a1e7f1e0a477e00b799a559b01680a761eedb9b38657f77c60"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/references/interaction-contract.md",
+          "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/SKILL.md",
+          "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/references/graphic-review.md",
+          "sha256": "7e8b6807223820fa064b92b60a295b94f8da78a0598e864601fa09cb5616e44f"
+        },
+        {
+          "path": "J:/Users/yangda01/.codex/local-plugins/pstack/CODEX.md",
+          "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-no-search.json",
+      "receipt_sha256": "71149cec0ef4c3b3fa7cf83b6c3df9655be8a18ef5973094cf2a65cf67e9399d",
+      "case_id": "closure-no-search",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+          "sha256": "b779ca6691995e5252b666324d9505301d4ae49a4feba16038e36e98a347eab9"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+          "sha256": "49eaffb4a83528dd1cd48f5aedc53ed6991b68fadd3ab457813940d9d4369ad5"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\references\\ecommerce-workflow.md",
+          "sha256": "23554d4a3eef50787da0d2b659edaa9cf8bf4596a71ea1b980fa6f378158310d"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\PROJECT-FILES.md",
+          "sha256": "994df4b63ca8bee300d75943ec2fa173f274b47c597e7c539b1b2a53e33ebe67"
+        },
+        {
+          "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+          "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-chocolate.json",
+      "receipt_sha256": "df90c660d82fa7dccb1c25b0e768c0a79042cb731eb6599dfb1d00be53e83ef7",
+      "case_id": "closure-chocolate",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\PigeonYang\\pigeonstack\\AGENTS.md",
+          "sha256": "D70B35F2A1CC9342EDAF206B3873E10E0CB4AF8B561914F4B1B55B39F242CB8A"
+        },
+        {
+          "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+          "sha256": "999858F016B10649C8B7F199CEEF3B3BC6488782B4580954DA4C50058449EF03"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+          "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-conflict.json",
+      "receipt_sha256": "5929b95f27d85794cadb8387a794efab00bc2c8eb47c139257a0b55e56e75858",
+      "case_id": "closure-conflict",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+          "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+          "sha256": "49eaffb4a83528dd1cd48f5aedc53ed6991b68fadd3ab457813940d9d4369ad5"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-doubao.json",
+      "receipt_sha256": "59b86d3a09b6cd34097b9ab330fa709ced1665c8f9798cdcbcb819402710dc2a",
+      "case_id": "closure-doubao-text-fixture-20261003",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+          "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+          "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+          "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\references\\ecommerce-workflow.md",
+          "sha256": "23554D4A3EEF50787DA0D2B659EDAA9CF8BF4596A71EA1B980FA6F378158310D"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md",
+          "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-camera-composition\\SKILL.md",
+          "sha256": "AFE39C8D770ACEE8F8B95EBC971F9407D5C9E78F2B20AD8B744E49201EF91DA7"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\AGENTS.md",
+          "sha256": "DE3A8D6CF1BEA56355C7D32DB38E701DAE0C9151034E9CC211454DA830A04D07"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\PROJECT-FILES.md",
+          "sha256": "994DF4B63CA8BEE300D75943EC2FA173F274B47C597E7C539B1B2A53E33EBE67"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-denial.json",
+      "receipt_sha256": "7f94b1179013a0135bd22d97ba822f04509431bdce6f52609b0b25313ace2f4e",
+      "case_id": "closure-denial-oneirloom-20261003",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:/Users/yangda01/.codex/local-plugins/pstack/CODEX.md",
+          "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/PROJECT-FILES.md",
+          "sha256": "994df4b63ca8bee300d75943ec2fa173f274b47c597e7c539b1b2a53e33ebe67"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/AGENTS.md",
+          "sha256": "de3a8d6cf1bea56355c7d32db38e701dae0c9151034e9cc211454da830a04d07"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/SKILL.md",
+          "sha256": "b779ca6691995e5252b666324d9505301d4ae49a4feba16038e36e98a347eab9"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/references/interaction-contract.md",
+          "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/SKILL.md",
+          "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+          "sha256": "23554d4a3eef50787da0d2b659edaa9cf8bf4596a71ea1b980fa6f378158310d"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/references/ecommerce-examples.md",
+          "sha256": "06a7f03496a16851ceaad29e4771ce2a5da2048239d44816ea46f0305857e187"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-local-edits.json",
+      "receipt_sha256": "0d695e567f58018ecd811d4e1f720e391cb15e7acc66d45621079b384faf6760",
+      "case_id": "closure-local-edits",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 4,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\PROJECT-FILES.md",
+          "sha256": "994DF4B63CA8BEE300D75943EC2FA173F274B47C597E7C539B1B2A53E33EBE67"
+        },
+        {
+          "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+          "sha256": "999858F016B10649C8B7F199CEEF3B3BC6488782B4580954DA4C50058449EF03"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+          "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\references\\ecommerce-workflow.md",
+          "sha256": "23554D4A3EEF50787DA0D2B659EDAA9CF8BF4596A71EA1B980FA6F378158310D"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\references\\ecommerce-examples.md",
+          "sha256": "06A7F03496A16851CEAAD29E4771CE2A5DA2048239D44816EA46F0305857E187"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md",
+          "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+          "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+          "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-illustration\\SKILL.md",
+          "sha256": "D132EDD36DFF7F524981B2EEA36B32FFA0CAE33462E0F01042FEDA2FB738FDE2"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-truth.json",
+      "receipt_sha256": "1c836cc396edb6499d59bd73cd43683419307d401078ad0f6c395a991e8821da",
+      "case_id": "closure-truth-20261003-01",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 2,
+      "interaction_contract_sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "reads": [
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+          "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+          "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+          "sha256": "bcfc91521664abf3aec7edb605d9c9b2c82e0280f954bae0f49c9d9aeba36aa7"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-illustration\\SKILL.md",
+          "sha256": "d132edd36dff7f524981b2eea36b32ffa0cae33462e0f01042feda2fb738fde2"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\AGENTS.md",
+          "sha256": "de3a8d6cf1bea56355c7d32db38e701dae0c9151034e9cc211454da830a04d07"
+        },
+        {
+          "path": "J:\\PigeonYang\\skills\\oneirloom\\PROJECT-FILES.md",
+          "sha256": "994df4b63ca8bee300d75943ec2fa173f274b47c597e7c539b1b2a53e33ebe67"
+        }
+      ]
+    },
+    {
+      "receipt": "closure-ingredient-final.json",
+      "receipt_sha256": "486e9f96a1b0ee2d4315c1612c0d13a8258484735c272e01a2a2ad788a6defd3",
+      "case_id": "closure-ingredient-final",
+      "requested_model": "gpt-6-luna",
+      "requested_effort": "max",
+      "host": "native child explicit source read",
+      "turn_count": 1,
+      "interaction_contract_sha256": "13dc08d40afff785d96f0e6855f23981d4ba047d619beb3072cef33810b23449",
+      "reads": [
+        {
+          "path": "J:/Users/yangda01/.codex/local-plugins/pstack/CODEX.md",
+          "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/SKILL.md",
+          "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/references/interaction-contract.md",
+          "sha256": "13dc08d40afff785d96f0e6855f23981d4ba047d619beb3072cef33810b23449"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/SKILL.md",
+          "sha256": "49eaffb4a83528dd1cd48f5aedc53ed6991b68fadd3ab457813940d9d4369ad5"
+        },
+        {
+          "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+          "sha256": "23554d4a3eef50787da0d2b659edaa9cf8bf4596a71ea1b980fa6f378158310d"
+        }
+      ]
+    }
+  ],
+  "model_boundary": {
+    "requested_model": "gpt-6-luna",
+    "requested_effort": "max",
+    "server_response_model": "unknown",
+    "host": "native child explicit source read",
+    "installed_skill_discovery_verified": false
+  },
+  "static_structure_receipt": {
+    "file": "closure-structure-checks.json",
+    "sha256": "31fcaf45dcd93cc87eefe83fd9784e802f6ef30ce1b1a75a0846db2e2afacc38",
+    "status": "structural_pass",
+    "checked_at_utc": "2026-10-03T14:32:46.648921+08:00",
+    "snapshot_commit": "f8059e1a8b512d3af0302f4212521a82cade964c",
+    "reported_pass_count": 18,
+    "rerun_after_C2": false,
+    "note": "Static structure evidence predates C2 and is not behavior or image evidence."
+  },
+  "teacher_reference_boundary": {
+    "static_ecommerce_examples_read_in": "closure-denial.json and closure-local-edits.json",
+    "recorded_in_source_receipts": true,
+    "treated_as_prior_runtime_evidence_or_eval_expectation": false
+  },
+  "explicit_visual_exclusion_boundary": "A specific visible exclusion such as no copy or no tableware is legitimate when requested; no blanket lexical ban on negative wording was applied.",
+  "verification_limits": {
+    "image_generation_performed": false,
+    "actual_image_viewed_or_checked": false,
+    "installed_skill_discovery_verified": false,
+    "whole_eval_runner": "not run; scripts/check_skills.py is absent per the static receipt and was not repaired",
+    "preserved_eval_fixture_count": 60
+  },
+  "deliverable_preservation": {
+    "turn_fields_copied_verbatim": true,
+    "input_and_answer_field_count": 34,
+    "markdown_file": "closure-actual-answers.md",
+    "markdown_sha256": "ad55fa07d542593a00dfc5716c7945eb347cc712fe1bb2c88805eadb59c4d823",
+    "source_receipts_rewritten": false
+  }
+}

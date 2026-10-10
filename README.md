@@ -4,9 +4,9 @@
 
 <p><strong>把想象，写成画面。</strong></p>
 
-<p>一套包含 18 个免费技能的开源视觉创作 Skill。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品带货、摄影与插画、角色与表情贴图、图标、品牌视觉、结果诊断和提示词分享卡片。</p>
+<p>当前源码包含 22 个视觉创作 Skill：原有 19 项，加上工艺构造、数字造型和空间构想三个方法。工艺构造负责拼豆配方。0.3.0-preview 是开发中的源码预览，尚无对应发布包；已发布的冻结包仍是 0.2.0-preview.1，包含 18 项。<a href="docs/releases/0.3.0-preview.md">查看源码记录</a></p>
 
-<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">当前预览版：0.2.0-preview.1</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载完整安装包（18 个免费技能）</a></p>
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">已发布的冻结版本：0.2.0-preview.1（18 项）</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载冻结安装包（18 项）</a></p>
 
 <p>
   <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
@@ -33,7 +33,6 @@
   <a href="docs/assets/product-page/01-hero-oneirloom-v4.webp"><img src="docs/assets/product-page/01-hero-oneirloom-v4.webp" alt="织梦师商品主视觉：织梦兽把人像、志怪插画与产品广告织进梦网。把想象，写成画面。" /></a>
 </p>
 
-
 [![一句日常表达，展开成一张画面。将卧室全身照的想法拆解为完整取景、居中姿态、缎面材质和左侧窗光。支持从零写提示词、分析参考图、构思广告和检查结果。](docs/assets/product-page/02-value-oneirloom-v4.webp)](docs/assets/product-page/02-value-oneirloom-v4.webp)
 
 [![人像案例：脸部特写、完整全身、坐姿、硬光、夜间暖光和逆光发丝。选自既有人像教程的 Qwen-Image-2.1 结果。](docs/assets/product-page/03-portraits-native-v4.webp)](docs/assets/product-page/03-portraits-native-v4.webp)
@@ -46,13 +45,13 @@
 
 [![使用流程：给目标和材料，明确画面关系，交付完整中英提示词，检查结果继续修改。还可制作3:4提示词分享卡片。开源MIT，提供Krea 2和Qwen-Image-2.1专门适配。](docs/assets/product-page/07-start-oneirloom-v4.webp)](docs/assets/product-page/07-start-oneirloom-v4.webp)
 
-## 这次更新能怎么用
+## 冻结的 0.2.0-preview.1 版本包含的工作指导
 
 - 需求明确时，按你给出的约束继续构思。需求开放时，先检查参考图和已有材料，只追问必要问题，再给出 2–3 个有理由的方向。
 - 设计产品广告时，保留已确认的产品事实，不对未知成分作断言。幻想场景可以改变产品的尺度或周围环境，但不编造产品事实。
 - 局部修改时，保留其他已确认要求。提供真实结果图后，依据图中可见偏差写出完整、具体的修订提示词；未提供结果图时，不声称检查过生成结果。
 
-这些是技能提供的工作指导，不代表已验证新对话行为或生成图像质量。新对话行为仍未完成验证；当前 ChatGPT 账户对两次指定模型请求均返回 HTTP 400。详见[当前发布状态](docs/releases/0.2.0-preview.1-publication.md)。
+这些指导属于冻结的 0.2.0-preview.1 包。0.3.0-preview 源码仍是开发预览，尚无对应发布包；其新对话行为和生成图像质量尚未验证。0.2.0 的日期化发布记录见[发布状态](docs/releases/0.2.0-preview.1-publication.md)。
 
 ## 案例与记录
 
@@ -74,11 +73,11 @@
 
 ## 开始使用
 
-### 安装技能集合
+### 安装冻结的 0.2.0-preview.1 技能包
 
-当前提供包含 **18 个免费技能**的 `0.2.0-preview.1` 预览版。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
+以下安装步骤只适用于冻结的 `0.2.0-preview.1` 发布包，包含 **18 个免费技能**，不含 0.3.0-preview 源码改动。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
 
-按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[当前发布状态](docs/releases/0.2.0-preview.1-publication.md)为准；[0.2.0 发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
+按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[冻结包发布状态](docs/releases/0.2.0-preview.1-publication.md)为准；[0.2.0 发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
 
 `main` 供开发使用，会继续变化。参与开发时可克隆仓库并通过 Git LFS 获取完整图片；日常安装使用确认过的固定版本包。核心技能无需 Go 或本地生图模型，生图服务和可选卡片渲染依赖另行提供。
 
@@ -104,7 +103,7 @@
 
 ## 技能目录
 
-主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
+主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。以下目录列出 0.3.0-preview 源码中的 22 个 Skill。
 
 <details>
 <summary>展开全部技能</summary>
@@ -123,7 +122,10 @@
 | [oneirloom-figure-art](skills/oneirloom-figure-art/SKILL.md) | 成人非露骨人物艺术的姿态与遮挡 |
 | [oneirloom-style-photography](skills/oneirloom-style-photography/SKILL.md) | 写实摄影、生活人像与电影感画面 |
 | [oneirloom-style-illustration](skills/oneirloom-style-illustration/SKILL.md) | 绘画、版画、拼贴与叙事插画 |
-| [oneirloom-style-design](skills/oneirloom-style-design/SKILL.md) | 海报、文字版式、包装、产品与 3D |
+| [oneirloom-style-design](skills/oneirloom-style-design/SKILL.md) | 海报、文字版式、广告与包装图文 |
+| [oneirloom-craft-construction](skills/oneirloom-craft-construction/SKILL.md) | 拼豆等实体工艺的单元、连接、层厚与支撑 |
+| [oneirloom-digital-form](skills/oneirloom-digital-form/SKILL.md) | 数字体积、形变、连接与视觉变换 |
+| [oneirloom-space-conception](skills/oneirloom-space-conception/SKILL.md) | 房间、布景与环境的空间关系 |
 | [oneirloom-model-krea-2](skills/oneirloom-model-krea-2/SKILL.md) | Krea 2 提示词与入口适配 |
 | [oneirloom-model-qwen-image-2-1](skills/oneirloom-model-qwen-image-2-1/SKILL.md) | Qwen-Image-2.1 提示词与任务适配 |
 | [oneirloom-result-diagnosis](skills/oneirloom-result-diagnosis/SKILL.md) | 生成偏差分析与提示词修正 |
@@ -140,7 +142,7 @@
 | [oneirloom-icon-design](skills/oneirloom-icon-design/SKILL.md) | UI 图标系列、应用符号与原生矢量资源 | [线框 UI、实心 UI、应用符号](skills/oneirloom-icon-design/templates/index.md) |
 | [oneirloom-brand-identity](skills/oneirloom-brand-identity/SKILL.md) | 统一的 VI 基础、应用延展、规范与资源交接 | [字标、角色、编辑视觉体系](skills/oneirloom-brand-identity/templates/index.md) |
 
-[三层架构](docs/architecture.md) · [模型证据](docs/model-evidence.md) · [摄影模板](skills/oneirloom-style-photography/templates/index.md) · [角色模板](skills/oneirloom-character-sheet/templates/index.md) · [插画模板](skills/oneirloom-style-illustration/templates/index.md) · [设计模板](skills/oneirloom-style-design/templates/index.md)
+[三层架构](docs/architecture.md) · [模型证据](docs/model-evidence.md) · [摄影模板](skills/oneirloom-style-photography/templates/index.md) · [角色模板](skills/oneirloom-character-sheet/templates/index.md) · [插画模板](skills/oneirloom-style-illustration/templates/index.md) · [设计模板](skills/oneirloom-style-design/templates/index.md) · [工艺模板](skills/oneirloom-craft-construction/templates/index.md)
 
 [表情贴图模板](skills/oneirloom-expression-stickers/templates/index.md) · [图标模板](skills/oneirloom-icon-design/templates/index.md) · [品牌视觉模板](skills/oneirloom-brand-identity/templates/index.md)
 

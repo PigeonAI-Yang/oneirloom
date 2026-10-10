@@ -1,0 +1,53 @@
+{
+  "raw_input": "我们是在写生图提示词。已认可：25岁中国女性，红色蕾丝内衣和吊带袜，落地镜自拍，下蹲，臀部侧面自然圆润；完整身体、拍摄距离远，人物占画面高度约45%，房间明亮疏朗、空气感强。可以，试试看吧。",
+  "actual_user_facing_complete_reply": "**中文提示词**\n\n```text\n竖幅写实室内时尚镜中自拍：一面落地全身镜在明亮、疏朗、空气感清透的房间里，完整映出一位25岁的中国成年女性。她穿红色蕾丝内衣，搭配腰间吊袜带与长筒吊带袜，吊带自然连接袜口。她面向镜子保持稳定的深蹲：双膝深屈并顺着脚尖方向，髋部自然下沉至靠近脚跟的位置，双脚略宽于髋、脚尖自然外转，脚跟、前脚掌与脚尖都稳稳贴地；上身略向前倾保持平衡，双腿折叠的轮廓彼此清楚。骨盆和躯干呈三分之四侧后方角度，靠近镜面一侧的髋部略微前移，臀部侧面呈自然圆润的轮廓，腰背保持平顺自然的曲线。她将脸转回镜面并看向手机镜头，面部完整清晰，手机位于脸侧，不遮住面部或身体线条。用较远的镜前自拍取景距离和自然透视，镜面视角略低并带轻微仰角；全身从头到脚完整入镜，人物约占画面高度45%，位于画面下方中部，头部约在画面上方45%–50%处，双脚接近90%处，人物上方和两侧留出充足房间空间，脚下地面清楚可见。柔和明亮的自然光充满室内，轻柔侧向阴影保留空间层次；肤质纹理自然，人体比例可信，腿部呈修长时尚比例、躯干紧凑自然、腰线偏高，红色蕾丝与吊带连接细节清楚，背景明亮疏朗且可辨，整体呈从容中性的时尚编辑摄影质感。\n```\n\n**English prompt**\n\n```text\nA vertical, realistic indoor fashion mirror selfie. In a bright, spacious, airy room, a full-length floor mirror clearly reflects a 25-year-old Chinese adult woman. She wears red lace lingerie with a waist garter belt and thigh-high stockings; the garter straps visibly connect to the stocking tops. She holds a balanced deep squat facing the mirror: both knees deeply bent and tracking over naturally turned-out toes, hips lowered near the heels, feet slightly wider than hip-width, with heels, balls, and toes firmly on the floor. Her torso leans gently forward for balance, and the contours of both folded legs remain distinct. Her pelvis and torso turn to a three-quarter side/rear angle, the hip nearest the mirror slightly forward to show a naturally rounded side silhouette, with a relaxed, natural back curve. She turns her face back toward the mirror and looks toward the phone camera; her face stays fully visible, while the phone sits beside it without covering her face or body outline. Use a comfortably distant mirror-selfie framing with natural perspective and a slightly low mirror viewpoint with a mild upward angle. Show her entire figure from head to feet, about 45% of image height, in the lower middle of the frame; her head falls around 45–50% from the top and her feet near 90%, leaving ample visible room above and on both sides, plus floor beneath her. Soft, bright natural light fills the room, with gentle side shadows preserving depth. Keep natural skin texture and believable anatomy, fashion-proportioned elongated legs with a compact natural torso and higher waistline, clearly visible red lace and garter connections, and a bright, uncluttered, legible room background. Calm, neutral fashion-editorial photography.\n```",
+  "source_reads": [
+    {
+      "path": "skills/oneirloom/SKILL.md",
+      "sha256": "6A57F3CB32E2642B03C403C20F8A1F0124F317F7382023AEEDDD2EA1A9E29AFD"
+    },
+    {
+      "path": "skills/oneirloom-dream-weaving/SKILL.md",
+      "sha256": "2E68C82685488659E9B3BF84CF215A37549F66A4D14BFC1DA33C8B6E6CA9C307"
+    },
+    {
+      "path": "skills/oneirloom/references/interaction-contract.md",
+      "sha256": "13DC08D40AFFF785D96F0E6855F23981D4BA047D619BEB3072CEF33810B23449"
+    },
+    {
+      "path": "skills/oneirloom/references/person-prompts.md",
+      "sha256": "A58FA4E477A1D81C2333D9040B12060DBD8ADBB75A512220221CF147280D43FC"
+    },
+    {
+      "path": "skills/oneirloom-style-photography/SKILL.md",
+      "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+    },
+    {
+      "path": "skills/oneirloom-camera-composition/SKILL.md",
+      "sha256": "AFE39C8D770ACEE8F8B95EBC971F9407D5C9E78F2B20AD8B744E49201EF91DA7"
+    },
+    {
+      "path": "skills/oneirloom-color-light/SKILL.md",
+      "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A"
+    },
+    {
+      "path": "skills/oneirloom-figure-art/SKILL.md",
+      "sha256": "F83C6D43E867DB94BB6567666C079F1ACD78BD6BDF5B94B8941D97B5EE0077E9"
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/index.md",
+      "sha256": "865B3CCB2C66454CDE2E9F508E6C7809362BFFED873571BB00570E88267252D7"
+    },
+    {
+      "path": "skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md",
+      "sha256": "3948675759903BC5C787A0054E5D5B671F51C26597FEDD1D18123C703360C6B7"
+    },
+    {
+      "path": "PROJECT-FILES.md",
+      "sha256": "A6286B2F20E72D280DE8324462BB89EA4C9B859EB57723D97B18A803E8591EA0"
+    }
+  ],
+  "utc_time": "2026-10-10T07:21:43Z",
+  "requested_model": "gpt-6-luna/max",
+  "server_model": "unobserved"
+}

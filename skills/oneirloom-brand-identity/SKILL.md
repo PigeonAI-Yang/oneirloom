@@ -31,6 +31,8 @@ Resolve the mark and lockup inventory, color roles, typography, auxiliary graphi
 
 Use the existing medium and model methods only when the selected production needs them. Route an actual icon family to [icon design](../oneirloom-icon-design/SKILL.md) and requested expressive character extensions to [expression stickers](../oneirloom-expression-stickers/SKILL.md). Supply their fixed identity rules and application context. Use [character sheets](../oneirloom-character-sheet/SKILL.md) when a character needs identity or view continuity. These extensions are not prerequisites for every VI project.
 
+For a selected application that uses a physical craft object or a digital-form concept, read [craft construction](../oneirloom-craft-construction/SKILL.md) or [digital form](../oneirloom-digital-form/SKILL.md) only for that asset. Keep the approved identity system and brand facts with this method.
+
 ## Produce and review the agreed deliverable
 
 Choose native design, code, image generation, or compositing after the system decisions, respecting the user's tools and constraints. A generated brand board can explore appearance. It cannot establish editable vector masters, correct lettering, font rights, print colors, or separate application files.

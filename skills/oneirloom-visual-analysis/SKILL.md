@@ -1,11 +1,13 @@
 ---
 name: oneirloom-visual-analysis
-description: 拆解参考图或模糊视觉需求，提取可检验的主体、空间、区域色彩和媒介锚点。用于参考图反推、图像复现、跨模型迁移与将“梦幻”“高级”等抽象词转成具体画面关系。
+description: 拆解参考图或已成形画面的模糊视觉需求，提取可检验的主体、空间、区域色彩和媒介锚点。用于参考图反推、图像复现、跨模型迁移与将“梦幻”“高级”等抽象词转成具体画面关系。
 ---
 
 # Visual analysis
 
 Read the [shared interaction contract](../oneirloom/references/interaction-contract.md) before the first substantive response unless its unchanged content is already available. For person prompts, including new images and grid panels, read [person defaults and proportions](../oneirloom/references/person-prompts.md).
+
+Use [dream weaving](../oneirloom-dream-weaving/SKILL.md) when an emotional seed or fragment does not yet have a drawable scene. Reference reconstruction and translating an abstract effect into concrete relations remain here.
 
 Split a reference image or a vague visual request into checkable anchors before any prompt is drafted. This skill supplies the active task's internal visual specification; it does not redraft the final prompt itself.
 
@@ -21,6 +23,8 @@ Route the incoming task before reading further:
 | The user asks for the analysis itself, not a prompt | Workflow steps 1–2, then deliver the inventory with facts, inferences, and unknowns kept separate |
 
 For any reconstruction, keep observed facts, user-confirmed targets, reasonable inferences, and unknowns separate throughout. Only facts and user-confirmed intent go into the prompt; do not guess lens models, the original prompt, or unseen garment parts.
+
+After collecting image evidence, read [craft construction](../oneirloom-craft-construction/SKILL.md) only when units, joins, thickness, or support define a requested craft transformation. Read [digital form](../oneirloom-digital-form/SKILL.md) for a requested change to volume, repeated parts, or connected geometry, and [space conception](../oneirloom-space-conception/SKILL.md) when the requested change depends on room layout or circulation. These methods guide the requested design decision; visual analysis retains source facts and uncertainty.
 
 For graphic source observation or layout reconstruction, read [graphic observation](../oneirloom-style-design/references/graphic-observation.md) directly. It supplies detailed composition, fragments, joins, material, and subject-transfer checks. Analysis-only work does not require the creation process. If the task also creates or redesigns a graphic, read [graphic design](../oneirloom-style-design/SKILL.md) for process order. Preserve all applicable portrait, garment, and pose checks; style-only examples do not make their pose or content mandatory.
 

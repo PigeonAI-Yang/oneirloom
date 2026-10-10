@@ -4,14 +4,18 @@ Proposal A was approved for source implementation on 2026-10-03. This document d
 
 ## Responsibilities and reading units
 
-The collection retains 18 public sibling `skills/*/SKILL.md` entries. A host discovers their metadata and explicitly reads the chosen entry. The coordinator is optional for direct capability use. This is a document-reading design, not a runtime loader or a required layer count.
+The 0.3.0-preview source contains 22 sibling `skills/*/SKILL.md` entries: the 19 entries present before this change and three added methods for craft construction, digital form, and space conception. It is a development source preview with no corresponding package or installation. The new method guidance is text only; no new render or native-model result validates it. The frozen `v0.2.0-preview.1` package remains at 18 skills. A host discovers metadata and explicitly reads the chosen entry. The coordinator is optional for direct capability use. This is a document-reading design, not a runtime loader or a required layer count.
 
 | Owner | Responsibility | Conditional reads |
 | --- | --- | --- |
 | [Coordinator](../skills/oneirloom/SKILL.md) | Public aliases, current deliverable selection, and visual intent before model adaptation | Selected capabilities only |
 | [Shared interaction contract](../skills/oneirloom/references/interaction-contract.md) | Output-type selection, complete affirmative prompt language and blocks, continuity, portable Doubao limits, and evidence status | No capability-body dependencies |
+| [Dream weaving](../skills/oneirloom-dream-weaving/SKILL.md) | Collaboratively develop unformed feelings, memories, and fragments into a drawable scene while preserving the initial feeling and accepted choices | Shared contract at entry; product art direction before transforming a real product; visual analysis only for unresolved relations; medium and production after the scene is formed |
 | [Product art direction](../skills/oneirloom-product-art-direction/SKILL.md) | Product facts and provenance, unknowns, critical conflicts, concepts, permitted fiction, and product-result checks | Ecommerce collaboration for vague briefs, research, copy gaps, or portable handoff; design for a composed graphic |
-| [Graphic design](../skills/oneirloom-style-design/SKILL.md) | Complete Understand, Observe, Design, production-selection, review, and correction process | Observation for reference transfer, production for actual artifacts or selected composites, review for actual or reported results, and isolated-domain checks |
+| [Graphic design](../skills/oneirloom-style-design/SKILL.md) | Complete Understand, Observe, Design, production-selection, review, and correction process for composed graphics and packaging graphics | Observation for reference transfer, production for actual artifacts or selected composites, and review for actual or reported results |
+| [Craft construction](../skills/oneirloom-craft-construction/SKILL.md) | Physical craft units, joins, layers, thickness, edges, and support | Its construction reference and optional fuse-bead template; product art direction for real-product facts; graphic design for a composed layout |
+| [Digital form](../skills/oneirloom-digital-form/SKILL.md) | Digital geometry, volume, repeated parts, deformation, connections, and form transformation | Its form mechanisms; material response for surface appearance; camera composition for the view; graphic design for composed layout |
+| [Space conception](../skills/oneirloom-space-conception/SKILL.md) | Masses, enclosure, openings, adjacency, circulation, focus, scale, and depth | Its spatial reference first; camera composition for viewpoint after the place is organized; photography for capture |
 | [Visual analysis](../skills/oneirloom-visual-analysis/SKILL.md) | Source evidence, reconstruction anchors, portrait and garment checks, and abstract visual language | Its reconstruction and subject references; graphic observation directly for graphic evidence |
 | [Result diagnosis](../skills/oneirloom-result-diagnosis/SKILL.md) | Source-to-prompt versus prompt-to-result misses and bounded causal attribution | Graphic review directly, product art direction for real products, and design only for a conceptual repair |
 | Other public capabilities | Medium, camera, light, characters, stickers, icons, brand systems, model adaptation, tutorials, and prompt cards | Their actual task references and optional recipes |
@@ -19,6 +23,8 @@ The collection retains 18 public sibling `skills/*/SKILL.md` entries. A host dis
 Every public entry explicitly reads the shared contract before its first substantive response unless the unchanged content is already available. No capability reads the whole coordinator merely to obtain policy. A directly chosen capability maintains the current conversation notes itself. Unchanged prior reads and confirmed decisions remain reusable; reading another file does not evict earlier context.
 
 Each relevant person-producing entry directly links [person defaults](../skills/oneirloom/references/person-prompts.md) under a person-prompt trigger. Product-only work does not load portrait detail. Photography and illustration style catalogues are conditional on medium selection or a needed technique distinction; an already specified medium uses its entry checklist.
+
+An unformed feeling or fragment goes to dream weaving. A formed scene with an open visual direction can optionally read the [visual-family index](../skills/oneirloom/references/visual-families/index.md) and only notes that help compare mechanisms. Its ten names are overlapping search dimensions, so they do not replace the deliverable owner or require a medium change. A settled style and a clear medium such as watercolor go directly to their methods.
 
 Resolve a selected skill through the actual host catalog, with its sibling path as the repository fallback, and read the file explicitly. Markdown links are navigation, not automatic calls. Missing specialist resources block only dependent work. Independent distribution of a capability requires that its shared contract and selected resources remain resolvable; the source migration does not prove a particular installed package includes them.
 
@@ -34,7 +40,7 @@ Its references expand particular tasks without another routing layer:
 
 The former `graphic-design-sop.md` is retired from active instructions. Historical snapshots and records preserve their original contents and are not runtime guidance. The [source notes](../skills/oneirloom-style-design/references/graphic-design-sources.md) retain the rationale and external-source limits.
 
-Pure photography, isolated 3D rendering, character turnarounds, tutorials, and existing image-and-prompt cards retain their own procedures. Direct generation, native design, and compositing remain conditional choices. A rendered skeleton and separate assets are not universal prerequisites. Explicit code, vector, model, and single-model requests remain constraints.
+Pure photography, digital form, craft construction, spatial layout, character turnarounds, tutorials, and existing image-and-prompt cards retain their own procedures. Direct generation, native design, and compositing remain conditional choices. A rendered skeleton and separate assets are not universal prerequisites. Explicit code, vector, model, and single-model requests remain constraints.
 
 ## Specialist deliverables retain their owners
 
@@ -56,11 +62,17 @@ Read the shared contract once while unchanged. Main-entry paths begin with the c
 
 | Current request | Instructions needed |
 | --- | --- |
+| Unformed feeling, memory, or fragments with no drawable scene | Shared contract and dream weaving; product art direction first for a real product, then the relevant medium and production owner after the scene forms. |
 | Clear photographic product poster, prompt only | Shared contract, product, design, photography. No automatic ecommerce reference, style catalogue, production, or review file. |
 | Vague product selling brief | Shared contract, product, ecommerce collaboration. Add design and a medium after the selected direction needs them. |
 | Confirmed background-only prompt change | Current notes and prompt, shared contract, and product rules for a real item. No automatic diagnosis or new concept search. |
 | Reported wrong package in a graphic result | Shared contract, diagnosis, product, and graphic review. Add design only if findings require redesign. |
 | Original illustration poster | Shared contract, design, illustration. Add observation for a chosen style reference and catalogue detail only for an unresolved technique. |
+| Clear watercolor prompt | Shared contract and illustration. No family-index read is needed for a settled medium. |
+| Formed scene with an open visual direction | Shared contract, the optional family index, relevant family notes, and the selected owner after direction is chosen. |
+| Physical fuse-bead conversion | Shared contract, craft construction and its recipe; add product art direction for a real product or graphic design when the result needs a composed layout. |
+| Fictional 3D form concept | Shared contract, digital form, and its selected mechanism; add color and light or camera only for those decisions. |
+| Room or set with undecided layout | Shared contract and space conception before camera composition or photography. |
 | Finished graphic or selected composite | Relevant capability plus graphic production, then review when a result exists. |
 | Existing-image prompt card or prose-only article edit | Shared contract and the card or tutorial owner. New generation branches remain conditional. |
 
@@ -103,6 +115,7 @@ An untested template, a user-reported success without the image, and an inspecte
 | Illustration reference `decorative-rainy-night.md` | [Illustration: rainy-night print](../skills/oneirloom-style-illustration/templates/decorative-rainy-night/template.md) |
 | `vpd-style-halftone-cutout` | [Illustration: halftone cutout](../skills/oneirloom-style-illustration/templates/halftone-cutout/template.md) |
 | Existing tutorial full-length portrait evidence | [Photography: indoor portrait](../skills/oneirloom-style-photography/templates/indoor-full-length/template.md) |
+| `skills/oneirloom-style-design/templates/fuse-bead/` | [Craft construction: physical fuse-bead artwork](../skills/oneirloom-craft-construction/templates/fuse-bead/template.md) |
 
 The retired recipe names no longer define separate active skills. Invoke their owning method or the main skill with the desired recipe. The migration preserves the existing character-card and rainy-night prompt blocks. It adds untested scaffolds for the former squat and halftone instruction-only recipes.
 
@@ -112,4 +125,12 @@ Source implementation and local structural checks do not establish actual assist
 
 The nine initial sticker, icon, and brand recipes remain researched starting points without associated generated examples. Existing later cases retain only their recorded evidence. A historical accepted result or text judgment does not validate the new instruction revision.
 
-Actual generation quality requires inspection under the recorded entry and settings. Fresh-session discovery requires a new host session. Installed-resource readback proves only availability at the inspected path. Deployment, installation, packaging, generation, and publication were not performed by this source migration. Runtime read-path exercises and all unperformed image checks remain pending.
+The initial seven fresh native child-agent conversations explicitly read the edited source and produced 14 actual text responses. They do not verify installed discovery or a production image-tool entry. The initial ecommerce judgments were 6 passed, 3 failed, and 4 not executed, with two additional nonproduct text exercises passing. Core product evidence and revision behavior passed in the covered exchanges; the initial failures concerned a missing copyable prompt block and internal prohibition lists appearing in generation prose. See the [actual answers](../work/progressive-disclosure-20261003/actual-answers.md) and [acceptance report](../work/progressive-disclosure-20261003/acceptance-report.md) in the verification directory. No image generation or visual inspection was performed by this migration. Installation, deployment, publication, image fidelity, and repeatability remain unverified by this task.
+
+Prompt-delivery closure executed 11 fresh native source-reading conversations with 17 actual text responses. The first closure batch passed 12 of 13 ecommerce cases. One response still serialized an unknown-fact inventory. A one-sentence clarification of the shared contract was followed by a fresh run of that case, which passed. The latest case judgments are 13 passed, 0 failed, and 0 unexecuted.
+
+Twelve results came from C1 and one rerun from C2. This does not establish that all cases were rerun on C2 or that behavior is repeatable. Original failed answers remain preserved. The [actual closure answers](../work/progressive-disclosure-20261003/closure-actual-answers.md) and [closure acceptance report](../work/progressive-disclosure-20261003/closure-acceptance-report.md) record the inputs, outputs, read hashes, and verdicts.
+
+The [C1 structural receipt](../work/progressive-disclosure-20261003/closure-structure-checks.json) records 18 successful entry validations and 60 unchanged evaluation fixtures. The [C2 author receipt](../work/progressive-disclosure-20261003/closure-inventory-author-checks.json) verifies the exact sentence replacement and preservation of all other shared-contract bytes. Product and diagnosis cues remain unchanged from C1. The 18-entry validation was not rerun on C2. Installation discovery, native Doubao invocation, generation, image inspection, image fidelity, deployment, and publication remain unverified.
+
+For 0.3.0-preview, the approved source foundation and reviewed fuse-bead migration are recorded in the [implementation record](../work/visual-families-20261010/implementation-0.3.0-preview.md) and [migration record](../work/visual-families-20261010/migration-preservation-0.3.0-preview.json). Ten actual local source-guided text cases are preserved in the [visual route report](../work/visual-families-20261010/text-exercises-visual-0.3.0-preview.md) and [continuity report](../work/visual-families-20261010/text-exercises-continuity-0.3.0-preview.md): the initial visual run passed 4/5 cases, with case 1 failing one bilingual-equivalence criterion; a manual, unblinded correction supplied corrected outputs for cases 1 and 2 and carried cases 3–5 forward unchanged, bringing the visual result to 5/5 cases and 14/14 current criteria. Case 2 had passed its original criteria; its correction only removed an unrequested English translation. Continuity cases 6–10 passed all 20 listed criteria. The reports preserve the initial responses and case-1 failure. These source-guided text results do not establish automatic invocation or fresh installed-session behavior. The SVG case passed XML and source-contract checks without rendering. No image generation or image-quality review, installation, packaging, or publication is claimed.

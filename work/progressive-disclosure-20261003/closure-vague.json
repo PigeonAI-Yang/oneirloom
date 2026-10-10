@@ -1,0 +1,60 @@
+{
+  "case_id": "closure-vague",
+  "requested_model": "gpt-6-luna",
+  "effort": "max",
+  "host": "native child explicitly reading source",
+  "turns": [
+    {
+      "input": "TEXT FIXTURE: one intact oval golden-brown bread, three top scores; internal structure unknown. 我要带货，但不知道这个面包该怎么做视觉。",
+      "answer": "按你给的文字，我目前能确认的只有：完整椭圆面包、金棕色表皮、顶部三道割口；内部结构未知，所以首轮视觉先保留完整面包，不切开，也不写馅料、原料或口感卖点。\n\n如果是为了带货，我建议先做一张“看得清是什么”的商品主视觉：面包居中略偏下、暖米色背景、侧上方柔光突出表皮和三道割口，旁边留少量空间放你确认过的卖点文字。另有两条更有记忆点的路：早餐桌场景（生活化使用画面），或微缩山脊探索（把三道割口做成小小地形，并明确是幻想布景）。\n\n你准备把图放在哪个平台或版位？想先做清晰商品主图、早餐场景，还是更有创意的广告图？如果还没决定，我可以先按商品主图推进。"
+    },
+    {
+      "input": "发小红书，我选微缩创意广告，但具体做成「微观早晨车站」。标题「早安，下一站」，用精致模型摄影。只用中文，给完整提示词。",
+      "answer": "完整中文提示词\n\n~~~text\n为小红书创作一张竖幅微缩创意广告，主题为“微观早晨车站”，采用精致模型摄影。\n\n画面中心是一只完整的椭圆形金棕色面包，顶部三道割口清晰可见。面包保持完整，作为微缩车站旁圆润的金色地标山体；车站、列车和旅客都是明确独立的微缩布景。细窄铁轨从画面左下方沿着面包底座弯向前景站台，一辆小型列车刚刚停靠，几位微小旅客在站台候车。木质站台、长椅和复古站灯贴着面包下缘安排，大小比例统一，接触关系清楚。构图完整露出面包轮廓和顶部三道割口，让面包始终是第一视觉主体，铁路与车站共同构成温暖的早晨故事。\n\n采用竖幅海报式构图，面包置于画面中央偏下并完整呈现，微缩车站围绕其下缘展开，铁轨形成由左下通往站台的清楚引导线。画面上方留出干净的暖米色空间，排入唯一标题“早安，下一站”，文字清晰准确、容易辨认；小站牌使用简洁图形标识，不出现其他可读文字。\n\n以近距离微距模型摄影呈现，视角略高于站台、轻微俯拍；面包和站台清晰，远处背景柔和虚化并保留清晨环境层次。温暖的晨光从右上方斜照下来，照亮金棕色表皮和三道割口，在站台上形成柔和连贯的阴影。细致表现面包表皮的色泽与割口边缘，以及微缩木质站台、细小金属轨道和手工模型边缘。以金棕色、奶油白和浅暖木色为主，画面安静、温暖、精巧，像真实拍摄的收藏级微缩模型广告，主体与标题层级清晰。\n~~~"
+    }
+  ],
+  "reads": [
+    {
+      "path": "J:/Users/yangda01/.codex/local-plugins/pstack/CODEX.md",
+      "sha256": "999858F016B10649C8B7F199CEEF3B3BC6488782B4580954DA4C50058449EF03"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/AGENTS.md",
+      "sha256": "DE3A8D6CF1BEA56355C7D32DB38E701DAE0C9151034E9CC211454DA830A04D07"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/PROJECT-FILES.md",
+      "sha256": "994DF4B63CA8BEE300D75943EC2FA173F274B47C597E7C539B1B2A53E33EBE67"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/SKILL.md",
+      "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/references/interaction-contract.md",
+      "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/SKILL.md",
+      "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+      "sha256": "23554D4A3EEF50787DA0D2B659EDAA9CF8BF4596A71EA1B980FA6F378158310D"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/SKILL.md",
+      "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-photography/SKILL.md",
+      "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+    }
+  ],
+  "limitations": [
+    "Text fixture only; the bread was not visually inspected.",
+    "No image, web, or generation tools were used.",
+    "Prompt authored only; no generated result was visually inspected.",
+    "No expected-answer or prior-answer records were read."
+  ]
+}

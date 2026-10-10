@@ -19,6 +19,8 @@ Preserve exact supplied copy and the requested output. Distinguish prompts, a si
 
 Inspect the original identity before designing emotions. Record the silhouette, anatomy, part counts and connections, colors, materials, and meaningful accessories. Identify what each part is and does. Separate observed features, user-defined meaning, design inference, and unknown structure. Resolve fixed identity facts and variable expression, including permitted tilt, compression, reach, orientation, and prop movement. Identity continuity does not require an unchanged silhouette. Choose a view supported by known anatomy rather than inventing a hidden side.
 
+When a requested sticker treatment depends on physical craft assembly or a digital shape transformation, read [craft construction](../oneirloom-craft-construction/SKILL.md) or [digital form](../oneirloom-digital-form/SKILL.md) for that decision. This method remains responsible for reaction intent, identity, and individual sticker delivery.
+
 A faceless creature can communicate through posture, appendages, a star, or the tension and position of a net. Use the features that actually exist. Do not add a human face merely because a template mentions expressions. For example, when a supplied dream creature has four tentacles and a dream-catching net, understand how those parts connect and what the net does before changing its gesture. This example is not a default character design.
 
 Reuse an existing usable master reference or suitable accepted view. Use the [character-sheet method](../oneirloom-character-sheet/SKILL.md) only if the task needs unresolved identity construction. An existing usable identity reference does not require a new sheet.

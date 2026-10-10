@@ -1,0 +1,37 @@
+{
+  "case_id": "closure-ingredient-final",
+  "requested_model": "gpt-6-luna",
+  "effort": "max",
+  "host": "native child explicit source read",
+  "turns": [
+    {
+      "input": "TEXT FIXTURE: intact golden oval bread, three top scores, no ingredient or nutrition information. User asks for strawberry syrup being pumped into the bread in a miniature factory, plus 低糖更健康, and authorizes a usable alternative if facts are missing. Chinese only.",
+      "answer": "按你提供的文字设定，产品是完整的金黄色椭圆面包，顶部有三道割纹；我没有检查产品照片。由于内馅、配料和营养数据未知，不能把草莓糖浆画成注入面包，也不能把“低糖更健康”作为产品宣称。可以保留微缩工厂和草莓色液体：将工厂作为与面包分开的微缩布景，液体只在布景内的闭合管路中循环。文案可改为“三道割纹，启发微缩工坊”。\n\n```text\n4:5竖幅商业静物广告，温暖明亮的棚拍质感。画面中央偏下是一只完整的金黄色椭圆面包，平放在浅色台面上；从略高的三分之四视角清楚看见顶部三道割纹和连续的外壳轮廓，面包保持完整闭合。面包右侧另设一个独立的透明亚克力展示台，台上是一座草莓主题微缩工厂模型：微型泵、储液罐和透明管线组成一条清楚可见的闭合循环，鲜艳的粉红色装饰液体只在展示台内的管线中流动。展示台与面包之间留出明显空隙，所有管线都停留在展示台上，整体读作独立的幻想布景。工厂尺度明显小于面包，面包始终是第一视觉主体。顶部排标题“三道割纹，启发微缩工坊”，底部排小字“金黄椭圆面包”；文字清晰，不加入其他文案。画面层次简洁，主体与展示台的接触关系明确，柔和暖光，精致微缩模型与食品静物结合的广告摄影效果。\n```"
+    }
+  ],
+  "reads": [
+    {
+      "path": "J:/Users/yangda01/.codex/local-plugins/pstack/CODEX.md",
+      "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/SKILL.md",
+      "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom/references/interaction-contract.md",
+      "sha256": "13dc08d40afff785d96f0e6855f23981d4ba047d619beb3072cef33810b23449"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-style-design/SKILL.md",
+      "sha256": "49eaffb4a83528dd1cd48f5aedc53ed6991b68fadd3ab457813940d9d4369ad5"
+    },
+    {
+      "path": "J:/PigeonYang/skills/oneirloom/skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+      "sha256": "23554d4a3eef50787da0d2b659edaa9cf8bf4596a71ea1b980fa6f378158310d"
+    }
+  ],
+  "limitations": [
+    "仅依据用户提供的文字设定；未检查产品照片，未生成或检查图像。"
+  ]
+}

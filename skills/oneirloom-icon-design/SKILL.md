@@ -34,6 +34,8 @@ Resolve a common construction language and each icon's metaphor together. Keep c
 
 Set dimensions and stroke rules for the current brief. A 24-unit or 32-unit canvas can be appropriate, but neither is a universal default. Likewise, IBM's documented grid and stroke settings apply to IBM's family. Optical correction and pixel alignment depend on the actual target size and renderer.
 
+Read [digital form](../oneirloom-digital-form/SKILL.md) only when the requested icon uses a volume transformation or connected geometry that needs that method. Read [craft construction](../oneirloom-craft-construction/SKILL.md) only for a requested physical craft treatment. Neither replaces the icon's semantic, family, or vector-delivery requirements.
+
 Keep the details that distinguish meaning and remove decoration that disappears at the target size. A filled icon needs readable internal openings as well as a recognizable outer contour. Do not close those openings to gain density. If states are requested, design their differences in the same native language and preserve the base meaning. Do not invent state variants for every asset.
 
 For an app symbol, choose one focused product or brand idea and preserve its recognition through the requested treatment. Separate a container or mask preview from an actual platform export. When platform delivery is requested, verify the current official platform requirements before choosing export sizes, layers, masks, or packaging. The [source notes](references/sources.md) do not establish current platform specifications.

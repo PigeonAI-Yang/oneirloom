@@ -1,0 +1,44 @@
+[
+  {
+    "id": "emotion-seed-no-scene",
+    "input": "我想画一种终于不用向谁证明什么的感觉。现在还没什么具体画面。先陪我想，别急着写提示词。",
+    "expected": "Reply in Chinese with a tentative, concrete scene or relationship that can carry the feeling of no longer needing to prove anything. Ask only a direction-changing question, and continue exploration instead of writing a prompt.",
+    "failure": "Return a finished prompt, repeat only abstract mood words, turn the exchange into a questionnaire, or invent autobiographical facts about the user."
+  },
+  {
+    "id": "fragments-need-a-relationship",
+    "input": "脑海里是玻璃、很远的广播声和一条看不到尽头的长廊。它们应该有联系，但我还不知道是什么。",
+    "expected": "Offer a tentative concrete relationship that connects the supplied glass, distant broadcast, and endless corridor, clearly leave it open to correction, and ask only if an answer would change the direction.",
+    "failure": "Repeat the three objects without connecting them, add a stock surreal motif as if it were required, or present an arbitrary collage as the user's settled meaning."
+  },
+  {
+    "id": "reject-cinematic-scale",
+    "input": "我们在做“热闹里有一点孤独”，你刚提出高楼屋顶上的霓虹城市。我觉得太宏大也太电影化了，想贴近日常。保留热闹与孤独之间的关系，再试一个画面。",
+    "expected": "Acknowledge the rejected rooftop and cinematic scale, retain the accepted relationship between bustle and loneliness, and propose a concrete everyday-scale scene without requiring a prompt.",
+    "failure": "Reintroduce the rooftop, neon city, or cinematic scale; preserve only abstract labels; or decorate the rejected idea instead of changing its scale or underlying scene."
+  },
+  {
+    "id": "partial-rejection-preserve-room-sea",
+    "input": "刚才房间里窗外倒映海水的想法我认可，但不喜欢漂浮的床。保留房间和海水的联系，床落回地面，收掉魔法感，继续帮我想。",
+    "expected": "Keep the accepted relation between the room and sea reflected outside, put the bed on the floor, remove the magical treatment, and continue with a concrete scene direction.",
+    "failure": "Restore the floating bed or magical treatment, discard the room-sea relation, or ask the user to repeat choices already made."
+  },
+  {
+    "id": "real-product-facts-before-concept",
+    "input": "文字资料：商品是四片吐司，袋上名称是“晨麦”，只知道这些外观信息。我想画“工作日的小逃离”，先给我一个画面方向，别写最终提示词。",
+    "expected": "Read product art direction before proposing a transformation. Offer a tentative scene direction while preserving the known four-toast quantity and exact package name, keeping other product facts unknown, and avoiding a final prompt.",
+    "failure": "Invent ingredients, product claims, or additional package facts; treat fiction as verified product information; or ignore the request to offer a direction rather than a finished prompt."
+  },
+  {
+    "id": "clear-scene-direct-handoff",
+    "input": "已经想清楚了：窗边木桌上一本翻开的书，一只黑猫睡在旁边，午后阳光，淡彩水彩。只给一个完整中文生图提示词，不用继续讨论。",
+    "expected": "Hand the clear scene directly to the relevant prompt capability and return one complete Chinese prompt preserving the table, open book, sleeping black cat, afternoon light, and watercolor medium, without questions or further discussion.",
+    "failure": "Continue ideation, ask the user to approve a concept, omit a specified relation, add an unrequested second language, or return only a fragment."
+  },
+  {
+    "id": "prompt-handoff-assent-systematic",
+    "input": "我们是在写生图提示词。已认可：25岁中国女性，红色蕾丝内衣和吊带袜，落地镜自拍，下蹲，臀部侧面自然圆润；完整身体、拍摄距离远，人物占画面高度约45%，房间明亮疏朗、空气感强。可以，试试看吧。",
+    "expected": "Treat this as prompt development: \"可以，试试看吧\" continues the requested text deliverable, and no image-generation tool is called. The scene is already clear, so do not restart ideation. Read the photography method, its template index and matching Xiaohongshu crouching-selfie template, plus the person defaults and camera-composition method that define this person's pose and framing. Use the color-light method where needed to express the requested airy room. Return complete fenced Chinese and semantically equivalent English prompts, with controls and commentary outside the blocks. Carry the accepted relations into both versions: a clearly adult 25-year-old Chinese woman; red lace lingerie with garter straps visibly connected to the stockings; a balanced deep squat with both knees folded, pelvis low, both full soles and heel-floor contacts visible, and the two folded leg silhouettes separated; a coherent three-quarter mirror selfie with the phone, reflection, and clearly visible face aligned; a naturally rounded buttock contour scoped to that region without changing the overall build; the whole head-to-feet figure inside the frame with margin, about 45% of image height, and recognizable room space around it; and bright, airy room light with coherent material and shadow detail.",
+    "failure": "Call image generation after the assent; continue brainstorming instead of drafting the requested prompts; omit either required language or return fragments; read no matching photo method/template or use an unrelated template; reduce the composition to style or pose labels; describe a half-squat, lunge, unsupported feet, or merged leg silhouettes; disconnect the garters from the stockings; make the mirror, phone, and face geometry incoherent; crop the full figure or ignore the 45% scale and room margins; turn local buttock fullness into a generalized body-build change; or leave the requested airy lighting and room feeling out of the prompts."
+  }
+]

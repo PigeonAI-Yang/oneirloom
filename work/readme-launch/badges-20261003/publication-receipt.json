@@ -1,0 +1,28 @@
+{
+  "status": "published",
+  "remote": "https://github.com/PigeonAI-Yang/oneirloom.git",
+  "branch": "main",
+  "parent": "f8059e1a8b512d3af0302f4212521a82cade964c",
+  "commit": "4c478e730b12c9941ca22318b240be530695fafc",
+  "commit_url": "https://github.com/PigeonAI-Yang/oneirloom/commit/4c478e730b12c9941ca22318b240be530695fafc",
+  "changed_paths": [
+    "README.en.md",
+    "README.md"
+  ],
+  "verification": {
+    "push": "non-force native Git push succeeded",
+    "remote_main_sha": "4c478e730b12c9941ca22318b240be530695fafc",
+    "commit_parent": "f8059e1a8b512d3af0302f4212521a82cade964c",
+    "commit_paths": [
+      "README.en.md",
+      "README.md"
+    ],
+    "diff_check": "passed",
+    "github_api_readback": "both README blobs byte-match the prepared candidates; remote body suffixes are byte-identical to parent",
+    "each_readme": {
+      "shield_badges": 9,
+      "hero_images": 1,
+      "xiaohongshu_profile": "https://www.xiaohongshu.com/user/profile/689af6b90000000019016082"
+    }
+  }
+}

@@ -15,6 +15,7 @@ Read the [shared interaction contract](../oneirloom/references/interaction-contr
 - 把“鲜活”“梦幻”等抽象氛围转成光色机制
 - 反推或修正任务中的区域色彩对照、材质基色判定、人像光向推断（配合 `oneirloom-visual-analysis` 的 reconstruction workflow 使用）
 - 透明/透光面料的色彩记录
+- When material appearance is the unresolved decision, read [material response](references/material-response.md) for base color, reflected illumination, finish, transmission, and scale cues. Transparent-fabric evidence specifics remain in [evidence checks](references/evidence-checks.md).
 
 ## Regional color method
 

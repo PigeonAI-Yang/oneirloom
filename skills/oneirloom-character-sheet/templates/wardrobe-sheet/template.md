@@ -18,6 +18,8 @@ Resolve identity, medium, outfits, accessories, palette, labels, background, and
 
 Assign reference roles outside the prompt. A drawn wardrobe board can supply layout and clothing; an actual portrait can supply facial identity. Clothing or layout references do not establish an unrelated person's exact face. Unknown rear garment construction remains unknown or an explicitly identified design inference.
 
+For reusable outfit coordination beyond this six-look layout, read the [fashion styling reference](../../references/fashion-styling.md). The six looks remain this template's default.
+
 Keep the six outfit descriptions separate and complete, including shoe and accessory assignments. The front/side/back views use the signature outfit. Each bottom portrait uses its corresponding outfit's actual neckline, rather than repeating the signature shirt across the row. Describe selected lighting and observable materials when changing medium. Preserve requested labels as literal text; exact label accuracy remains a result to inspect.
 
 The scaffold is in Chinese. Deliver its complete English equivalent when required by the router. Resolve every slot before delivery. The generalized scaffold below has not been generation-tested.

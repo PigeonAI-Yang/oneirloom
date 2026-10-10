@@ -22,6 +22,8 @@ An image-generation instruction to retain the upper photograph does not prove ex
 
 ## Prompt scaffold
 
+Use the [identity-to-collectible-volume reference](../../../oneirloom-digital-form/references/form-and-transformation.md#identity-translated-into-collectible-volume) for the general form transformation. This template retains its two-panel layout, accepted proportions, pose, materials, and `<image1>` input role.
+
 Deliver the required language or the Chinese/English pair under [shared interaction contract](../../../oneirloom/references/interaction-contract.md). Keep input images and canvas controls outside the copyable text.
 
 ### Chinese

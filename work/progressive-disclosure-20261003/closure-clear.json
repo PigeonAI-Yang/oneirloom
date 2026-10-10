@@ -1,0 +1,45 @@
+{
+  "case_id": "closure-clear-20261003",
+  "requested_model": "gpt-6-luna",
+  "effort": "max",
+  "host": "native child explicit source read",
+  "turns": [
+    {
+      "answer": "下面是一份可直接用于生成的中文海报提示词。本次未生成海报图，也未进行视觉检查。\n\n中文海报提示词\n\n```\n竖版3:4写实早餐海报，面向清晨通勤人群，真实美食摄影结合简洁现代平面设计。浅色原木早餐桌靠近窗边，清晨柔和的暖金色侧光从左上方照入，在木纹桌面和面包下方形成自然过渡的明暗与柔软阴影。画面下半部中央摆放一只完整的椭圆面包，保持完整轮廓和自然接触桌面的状态；外壳呈金棕色，顶部有三道浅浅的斜向割纹，表面零星附着白色粉末。以桌面上方约四十五度的近景三分之四视角拍摄，面包清晰突出，作为首要视觉焦点。背景轻微虚化但仍可辨认：一只简洁的通勤布包和一串钥匙放在桌面后侧，窗边晨光与安静的早餐时刻相连。画面上方保留干净留白，只排入标题“把早晨留给自己”，使用清晰现代的中文无衬线字体，深暖棕色，字形准确、易读，不遮挡面包。整体以浅木色、奶油白和金棕色为主，明亮温暖而克制，表皮纹理细腻真实，食物呈现自然诱人的烘焙质感，画面整洁舒展，适合手机竖屏浏览。\n```",
+      "input": "TEXT FIXTURE, no image inspection: one intact oval bread, golden-brown crust, three shallow diagonal top scores, sparse white surface powder of unknown composition. Filling and dimensions unknown. Make a 3:4 realistic breakfast poster for commuters, pale wood table, morning light, title 把早晨留给自己. Chinese only. Deliver directly."
+    }
+  ],
+  "reads": [
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md",
+      "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+      "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+      "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md",
+      "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+      "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-camera-composition\\SKILL.md",
+      "sha256": "AFE39C8D770ACEE8F8B95EBC971F9407D5C9E78F2B20AD8B744E49201EF91DA7"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md",
+      "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A"
+    }
+  ],
+  "limitations": [
+    "No image generation or visual inspection was performed; only a Chinese image-generation prompt is delivered."
+  ]
+}

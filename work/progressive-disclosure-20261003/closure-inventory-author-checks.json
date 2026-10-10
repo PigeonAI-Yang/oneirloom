@@ -1,0 +1,34 @@
+{
+  "checked_at_utc": "2026-10-03T06:37:07.134014+00:00",
+  "source_root": "J:\\PigeonYang\\skills\\oneirloom",
+  "scope": "One Primary-selected sentence replacement in the shared interaction contract. Static checks only.",
+  "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+  "before_sha256_C1": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+  "after_sha256_C2": "13dc08d40afff785d96f0e6855f23981d4ba047d619beb3072cef33810b23449",
+  "line": 25,
+  "before_sentence": "A single exclusion may remain when needed to express the target.",
+  "after_sentences": "A concise exclusion may express an explicit visible requirement. A list of unknown facts remains an internal inventory even when condensed into one sentence.",
+  "before_line": "Write affirmative, concrete, observable target states: shape, position, direction, coverage boundaries, openings, connectors, layer order, and material appearance. Replace abstract fidelity commands and negated failed variants with the intended visible construction. This is a semantic rewrite, not a ban on individual words. A single exclusion may remain when needed to express the target. Preserve literal image text and required relations. State decisive spatial, scale, and occlusion relations first and supporting details once. Check both that every required relation survives and that each visual claim comes from evidence, user intent, or an applicable default.",
+  "after_line": "Write affirmative, concrete, observable target states: shape, position, direction, coverage boundaries, openings, connectors, layer order, and material appearance. Replace abstract fidelity commands and negated failed variants with the intended visible construction. This is a semantic rewrite, not a ban on individual words. A concise exclusion may express an explicit visible requirement. A list of unknown facts remains an internal inventory even when condensed into one sentence. Preserve literal image text and required relations. State decisive spatial, scale, and occlusion relations first and supporting details once. Check both that every required relation survives and that each visual claim comes from evidence, user intent, or an applicable default.",
+  "exact_single_replacement_bytes": true,
+  "all_other_bytes_unchanged": true,
+  "utf8_encoding_and_existing_line_endings_preserved": true,
+  "balanced_fences": true,
+  "fence_count": 0,
+  "local_links_checked": [],
+  "git_diff_check": {
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "c1_c2_diff": "--- C1/interaction-contract.md\n+++ C2/interaction-contract.md\n@@ -22,7 +22,7 @@\n \r\n Put each complete prompt in its own fenced Markdown code block. Keep titles, numbering, language labels, explanations, reference roles and inputs, masks, seeds, and other controls outside. Supply controls only when the actual entry confirms them and they are useful. Return complete revised prompts, not fragments that depend on previous blocks.\r\n \r\n-Write affirmative, concrete, observable target states: shape, position, direction, coverage boundaries, openings, connectors, layer order, and material appearance. Replace abstract fidelity commands and negated failed variants with the intended visible construction. This is a semantic rewrite, not a ban on individual words. A single exclusion may remain when needed to express the target. Preserve literal image text and required relations. State decisive spatial, scale, and occlusion relations first and supporting details once. Check both that every required relation survives and that each visual claim comes from evidence, user intent, or an applicable default.\r\n+Write affirmative, concrete, observable target states: shape, position, direction, coverage boundaries, openings, connectors, layer order, and material appearance. Replace abstract fidelity commands and negated failed variants with the intended visible construction. This is a semantic rewrite, not a ban on individual words. A concise exclusion may express an explicit visible requirement. A list of unknown facts remains an internal inventory even when condensed into one sentence. Preserve literal image text and required relations. State decisive spatial, scale, and occlusion relations first and supporting details once. Check both that every required relation survives and that each visual claim comes from evidence, user intent, or an applicable default.\r\n \r\n At final assembly, turn known facts and resolved choices into visible geometry, text, and spatial relationships. For example, describe an intact product, continuous package surfaces and seals, the exact supplied in-image copy, and unlettered open background where these match the source and chosen concept. Keep unknown product facts and unsupported-claim inventories outside the prompt instead of serializing them as prohibitions. Preserve agreed fantasy and empty backgrounds. If required exact text lacks a reliable source, leave that dependent delivery unresolved and continue independent work. Do not silently replace the required text with blank or unreadable lettering.\r\n \r\n",
+  "evidence_read": "work/progressive-disclosure-20261003/closure-truth.json, turns[1].answer",
+  "not_performed": [
+    "behavior rerun",
+    "source checker rerun",
+    "image generation",
+    "installation",
+    "deployment",
+    "Git mutations"
+  ]
+}

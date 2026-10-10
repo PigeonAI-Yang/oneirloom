@@ -1,0 +1,59 @@
+{
+  "case_id": "closure-doubao-text-fixture-20261003",
+  "requested_model": "gpt-6-luna",
+  "effort": "max",
+  "host": "native child explicit source read",
+  "turns": [
+    {
+      "answer": "# 豆包协作说明与面包早餐广告提示词\n\n下面是一份可复制给豆包的通用协作说明。没有假设豆包已安装 Oneirloom 专属 Skill，也没有调用生图。\n\n**协作说明**\n\n当前产品资料来自文字描述：一只完整、椭圆、金黄色外表的面包；内部未知。把这条文字作为当前唯一的产品事实，不推测馅料、配料、包装、品牌、规格或功效。采用清晨早餐桌写实广告方向，唯一画面文案为“早安，面包”。若用户提供面包照片，将其作为产品外观参考；其他参考图只按用户明确指定的风格或构图用途使用。现在只给了文字，没有可供检查的实物照片。之后根据用户意见只修改指定部分，保留其余已确认的产品外观、文案和构图选择。如果生成后能查看图片，检查面包是否保持完整椭圆形和标题是否正确；如未能确认图片或文字，直接说明，不要声称已经验证或保证豆包具备身份锁定、文字恢复等未确认功能。\n\n**方向**：完整面包作画面主体，以清晨窗光和留白标题传达早餐氛围；画面只展示已知外表，不表现未知内部。\n\n**中文提示词**\n```\n3:4竖版写实早餐广告照片。唯一主角是一只完整的椭圆形面包，外表呈金黄色，放在浅木色早餐桌前景下方中央的一只暖白陶瓷盘上。完整显示椭圆轮廓与连续外表，只呈现面包完整外部，不展示内部。面包是画面中最大、最清晰的主体。相机位于桌面上方略高处，以轻微三分之四角度取景，让椭圆底形与圆润顶部都清楚可见。画面上方约四分之一留出干净明亮的空间，放置唯一标题“早安，面包”，使用字形清晰准确的现代中文无衬线字体，深咖啡棕色；标题是画面唯一可读文字。右后方放置一只素色陶瓷咖啡杯，最左后方露出一角叠好的燕麦色亚麻餐巾，二者尺寸较小、呈柔和焦外，仅作早餐陪衬。清晨窗光从画面左侧照入，在面包顶部形成温暖亮面，并在盘子与桌面向右投下方向一致的柔和阴影。整体色彩以奶油白、浅木色、天然面包金和克制的咖啡棕为主，呈现可信的食物摄影质感、自然明暗细节，以及轻柔但仍能辨认的早餐背景。保持清晰诱人的主次关系：先看到完整面包，再看到标题。\n```\n\n**English prompt**\n```\nA 3:4 vertical, photorealistic breakfast-ad image. The sole hero is one whole oval loaf of bread with a golden exterior, placed on a warm-white ceramic plate in the lower-center foreground of a light natural-wood breakfast table. Show its complete oval silhouette and continuous exterior; present only the intact outside of the loaf, with no interior visible. Make the loaf the largest and sharpest subject. Frame from slightly above the tabletop at a gentle three-quarter angle so both the oval footprint and rounded top are clear. Leave clean, bright space across roughly the upper quarter of the image for the single headline “早安，面包,” set in clearly formed modern Chinese sans-serif characters in deep coffee brown; this headline is the only readable text in the image. Place a plain ceramic coffee cup farther back on the right and a small portion of a folded oat-colored linen napkin near the far-left edge; keep both smaller and softly out of focus as supporting breakfast props. Soft early-morning window light enters from the left, making a warm highlight across the loaf's top and casting gentle shadows consistently toward the right across the plate and table. Use a restrained palette of cream, light wood, natural bread-gold, and coffee brown, with believable food-photography texture, natural tonal detail, and a gently softened yet recognizable breakfast background. Keep a clear, appetizing hierarchy: the whole loaf first, then the headline.\n```\n\n这里只完成提示词，未调用生图或检查生成结果。",
+      "input": "TEXT FIXTURE: one intact oval golden bread, unknown interior. User asks: Prepare a collaboration instruction for Doubao and complete prompts for a 3:4 realistic breakfast ad with title 早安，面包. No native Doubao Skill capability is established. The user has not requested Chinese only."
+    }
+  ],
+  "reads": [
+    {
+      "sha256": "B779CA6691995E5252B666324D9505301D4AE49A4FEBA16038E36E98A347EAB9",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\SKILL.md"
+    },
+    {
+      "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md"
+    },
+    {
+      "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md"
+    },
+    {
+      "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md"
+    },
+    {
+      "sha256": "BCFC91521664ABF3AEC7EDB605D9C9B2C82E0280F954BAE0F49C9D9AEBA36AA7",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\SKILL.md"
+    },
+    {
+      "sha256": "23554D4A3EEF50787DA0D2B659EDAA9CF8BF4596A71EA1B980FA6F378158310D",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\references\\ecommerce-workflow.md"
+    },
+    {
+      "sha256": "8EE415079754568ECB5376212B7C868A5F10525733E8525B5DB02AE56E21487A",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-color-light\\SKILL.md"
+    },
+    {
+      "sha256": "AFE39C8D770ACEE8F8B95EBC971F9407D5C9E78F2B20AD8B744E49201EF91DA7",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-camera-composition\\SKILL.md"
+    },
+    {
+      "sha256": "DE3A8D6CF1BEA56355C7D32DB38E701DAE0C9151034E9CC211454DA830A04D07",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\AGENTS.md"
+    },
+    {
+      "sha256": "994DF4B63CA8BEE300D75943EC2FA173F274B47C597E7C539B1B2A53E33EBE67",
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\PROJECT-FILES.md"
+    }
+  ],
+  "limitations": [
+    "The product evidence is a text fixture; no product image was supplied or inspected.",
+    "No image was generated or visually inspected; Doubao rendering of the exact Chinese title remains unverified.",
+    "The read sources establish no Doubao-native Oneirloom skill or model-specific image controls."
+  ]
+}

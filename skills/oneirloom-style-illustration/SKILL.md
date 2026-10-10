@@ -28,6 +28,8 @@ When illustration is used in a poster, cover, editorial layout, infographic, or 
 ## Templates and references
 
 - Read the [illustration styles](references/styles.md) only to select an unresolved medium or distinguish a needed technique. A fully specified medium uses the checklist without an automatic catalogue read.
+- For cross-medium style exploration, family disambiguation, or an explicit family-level request, consult the [visual-family index](../oneirloom/references/visual-families/index.md) and only the relevant family note; use this method for the illustrative treatment.
+- A clear watercolor or other settled medium goes directly through this checklist. Read [craft construction](../oneirloom-craft-construction/SKILL.md) only when physical paper layers, joins, or supports define the requested object. Read [digital form](../oneirloom-digital-form/SKILL.md) only when a digital shape transformation is a main decision. For a still image whose event staging needs separate planning, use the [still-frame staging reference](../oneirloom-style-photography/references/still-frame-staging.md); keep illustration responsible for its marks and medium.
 - For a specific preset, read the [template index](templates/index.md), then the matching template only. Match defining visual relations rather than one color or weather word. Use the method above if nothing fits.
 - Preserve user and source-image details when adapting slots, and inspect example images before describing their results. A sample image is not automatically a generation input.
 

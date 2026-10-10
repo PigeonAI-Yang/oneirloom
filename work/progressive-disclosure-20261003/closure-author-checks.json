@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-10-03T06:07:09.457260+00:00",
+  "source_root": "J:\\PigeonYang\\skills\\oneirloom",
+  "head": "f8059e1a8b512d3af0302f4212521a82cade964c",
+  "scope": "Author static checks only; no behavioral pass or installed-runtime claim.",
+  "changed_source_files": [
+    {
+      "path": "skills/oneirloom/references/interaction-contract.md",
+      "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1",
+      "head_clauses_preserved_except_explicit_block_wording": true,
+      "balanced_fences": true,
+      "fence_pair_count": 0,
+      "local_links_checked": []
+    },
+    {
+      "path": "skills/oneirloom-product-art-direction/SKILL.md",
+      "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce",
+      "head_clauses_preserved_except_explicit_block_wording": true,
+      "balanced_fences": true,
+      "fence_pair_count": 0,
+      "local_links_checked": [
+        "../oneirloom/references/interaction-contract.md",
+        "../oneirloom/references/person-prompts.md",
+        "../oneirloom-style-design/SKILL.md",
+        "references/ecommerce-workflow.md",
+        "../oneirloom-style-design/templates/product-origin-world/template.md",
+        "references/takeaway-food-town/case.md",
+        "references/ecommerce-examples.md"
+      ]
+    },
+    {
+      "path": "skills/oneirloom-result-diagnosis/SKILL.md",
+      "sha256": "81acde8c5da6a3a1e7f1e0a477e00b799a559b01680a761eedb9b38657f77c60",
+      "head_clauses_preserved_except_explicit_block_wording": true,
+      "balanced_fences": true,
+      "fence_pair_count": 0,
+      "local_links_checked": [
+        "../oneirloom/references/interaction-contract.md",
+        "../oneirloom/references/person-prompts.md",
+        "../oneirloom-style-design/references/graphic-review.md",
+        "../oneirloom-visual-analysis/SKILL.md",
+        "../oneirloom-product-art-direction/SKILL.md",
+        "../oneirloom-style-design/SKILL.md"
+      ]
+    }
+  ],
+  "quick_validate": {
+    "script": "J:/Users/yangda01/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+    "entries": [
+      "oneirloom-product-art-direction",
+      "oneirloom-result-diagnosis"
+    ],
+    "result": "Both printed Skill is valid! and exited 0."
+  },
+  "git_diff_check": "Path-scoped diff --check exited 0 with no output.",
+  "review": "The shared contract alone defines explicit Markdown fences and final assembly. P/R each add one short shared-rule cue. Existing language scope, continuity, artifact exceptions, literal copy, and separate negative-field requirements remain.",
+  "not_performed": [
+    "behavior reruns",
+    "image generation or inspection",
+    "commit",
+    "push",
+    "deployment",
+    "installation"
+  ]
+}

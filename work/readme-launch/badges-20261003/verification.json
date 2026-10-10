@@ -1,0 +1,1052 @@
+{
+  "result": "passed",
+  "rendering_scope": "Local Markdown and Chromium preview; hosted GitHub rendering was not checked.",
+  "source_sha256": {
+    "zh": "ccb26e382f2239dbefcb47021c1a061aa853a3f2a1b421aa71fb59fa1e820580",
+    "en": "f118916f23cd3790cb166066369b88a37744c7e6449050ab49daccc927075b88"
+  },
+  "css_source": "docs/product-page/readme-preview-oneirloom-v4.html",
+  "preview_html": [
+    "zh.html",
+    "en.html"
+  ],
+  "badge_endpoints_fetched_once": [
+    {
+      "url": "https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+      "http_status": 200,
+      "bytes": 1954,
+      "svg_label": "stars 2",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+      "http_status": 200,
+      "bytes": 1956,
+      "svg_label": "forks 0",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+      "http_status": 200,
+      "bytes": 1955,
+      "svg_label": "watchers 0",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/badge/License-MIT-blue?style=flat-square",
+      "http_status": 200,
+      "bytes": 553,
+      "svg_label": "License: MIT",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square",
+      "http_status": 200,
+      "bytes": 572,
+      "svg_label": "Website: Oneirloom",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square",
+      "http_status": 200,
+      "bytes": 566,
+      "svg_label": "Examples: Browse",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+      "http_status": 200,
+      "bytes": 1754,
+      "svg_label": "issues: 0 open",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&logo=github&label=Follow%20author",
+      "http_status": 200,
+      "bytes": 1842,
+      "svg_label": "Follow author: 0",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/badge/X-KimbomArtist-000000?style=flat-square&logo=x&logoColor=white",
+      "http_status": 200,
+      "bytes": 1055,
+      "svg_label": "X: KimbomArtist",
+      "service_error_label": false
+    },
+    {
+      "url": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&logo=xiaohongshu&logoColor=white",
+      "http_status": 200,
+      "bytes": 5435,
+      "svg_label": "小红书: Dibo",
+      "service_error_label": false
+    }
+  ],
+  "browser_badge_requests_fulfilled_from_memory": 10,
+  "unexpected_remote_requests": [],
+  "browser_errors": [],
+  "pages": [
+    {
+      "language": "zh",
+      "viewport_name": "desktop",
+      "checks": {
+        "viewport": {
+          "width": 1280,
+          "height": 1000
+        },
+        "document": {
+          "clientWidth": 1280,
+          "scrollWidth": 1280
+        },
+        "header": {
+          "badgeCount": 10,
+          "scrollWidth": 1012,
+          "clientWidth": 1012,
+          "left": 134,
+          "right": 1146,
+          "h1BorderBottomStyle": "none"
+        },
+        "allImages": [
+          {
+            "src": "https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 93,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/License-MIT-blue?style=flat-square",
+            "complete": true,
+            "naturalWidth": 82,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square",
+            "complete": true,
+            "naturalWidth": 120,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square",
+            "complete": true,
+            "naturalWidth": 114,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 107,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&logo=github&label=Follow%20author",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/X-KimbomArtist-000000?style=flat-square&logo=x&logoColor=white",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&logo=xiaohongshu&logoColor=white",
+            "complete": true,
+            "naturalWidth": 95,
+            "naturalHeight": 20
+          },
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/02-value-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/03-portraits-native-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/04-product-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/05-worlds-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/06-character-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/07-start-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          }
+        ],
+        "headerBadgesLoaded": true,
+        "headerText": [
+          {
+            "text": "织梦师 · Oneirloom",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "把想象，写成画面。",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "开始使用 · 案例与记录 · 技能目录 · 中文 | English · 完整详情页 · 网站",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "开始使用",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "案例与记录",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "技能目录",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "中文",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "English",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "完整详情页",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "网站",
+            "visible": true,
+            "clipped": false
+          }
+        ],
+        "headerTextReadable": true,
+        "internalLinks": [
+          {
+            "href": "#案例与记录",
+            "target": "案例与记录",
+            "exists": true
+          },
+          {
+            "href": "#开始使用",
+            "target": "开始使用",
+            "exists": true
+          },
+          {
+            "href": "#案例与记录",
+            "target": "案例与记录",
+            "exists": true
+          },
+          {
+            "href": "#技能目录",
+            "target": "技能目录",
+            "exists": true
+          }
+        ],
+        "internalAnchorsValid": true,
+        "repoBadgeTargets": [
+          {
+            "alt": "GitHub stars",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/stargazers"
+          },
+          {
+            "alt": "GitHub forks",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/forks"
+          },
+          {
+            "alt": "GitHub watchers",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/watchers"
+          }
+        ],
+        "repoBadgeTargetsValid": true,
+        "xhsHref": "https://www.xiaohongshu.com/user/profile/689af6b90000000019016082",
+        "xhsAlt": "小红书 Dibo",
+        "xhsHrefExact": true,
+        "xhsAltExact": true,
+        "xHref": "https://x.com/KimbomArtist",
+        "xAlt": "X KimbomArtist",
+        "xBadgeUnique": true,
+        "xHrefExact": true,
+        "xAltExact": true,
+        "horizontalOverflow": false,
+        "headerHorizontalOverflow": false,
+        "headerWithinViewport": true,
+        "headerH1BorderRemoved": true,
+        "relativeImagePaths": [
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/02-value-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/03-portraits-native-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/04-product-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/05-worlds-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/06-character-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/07-start-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          }
+        ],
+        "relativeImagesExistAndLoaded": true,
+        "allImagesLoaded": true
+      },
+      "screenshot": "zh-desktop.png"
+    },
+    {
+      "language": "zh",
+      "viewport_name": "mobile",
+      "checks": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "clientWidth": 390,
+          "scrollWidth": 390
+        },
+        "header": {
+          "badgeCount": 10,
+          "scrollWidth": 358,
+          "clientWidth": 358,
+          "left": 16,
+          "right": 374,
+          "h1BorderBottomStyle": "none"
+        },
+        "allImages": [
+          {
+            "src": "https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 93,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/License-MIT-blue?style=flat-square",
+            "complete": true,
+            "naturalWidth": 82,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square",
+            "complete": true,
+            "naturalWidth": 120,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square",
+            "complete": true,
+            "naturalWidth": 114,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 107,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&logo=github&label=Follow%20author",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/X-KimbomArtist-000000?style=flat-square&logo=x&logoColor=white",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&logo=xiaohongshu&logoColor=white",
+            "complete": true,
+            "naturalWidth": 95,
+            "naturalHeight": 20
+          },
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/02-value-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/03-portraits-native-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/04-product-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/05-worlds-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/06-character-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          },
+          {
+            "src": "docs/assets/product-page/07-start-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          }
+        ],
+        "headerBadgesLoaded": true,
+        "headerText": [
+          {
+            "text": "织梦师 · Oneirloom",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "把想象，写成画面。",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "一套开源的视觉创作 Skill。让你的 AI 助手学会看图、构思、写完整提示词，再对照生成结果继续修改。你可以从人像开始，也可以做产品广告、角色设定和叙事插画。",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "开始使用 · 案例与记录 · 技能目录 · 中文 | English · 完整详情页 · 网站",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "开始使用",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "案例与记录",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "技能目录",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "中文",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "English",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "完整详情页",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "网站",
+            "visible": true,
+            "clipped": false
+          }
+        ],
+        "headerTextReadable": true,
+        "internalLinks": [
+          {
+            "href": "#案例与记录",
+            "target": "案例与记录",
+            "exists": true
+          },
+          {
+            "href": "#开始使用",
+            "target": "开始使用",
+            "exists": true
+          },
+          {
+            "href": "#案例与记录",
+            "target": "案例与记录",
+            "exists": true
+          },
+          {
+            "href": "#技能目录",
+            "target": "技能目录",
+            "exists": true
+          }
+        ],
+        "internalAnchorsValid": true,
+        "repoBadgeTargets": [
+          {
+            "alt": "GitHub stars",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/stargazers"
+          },
+          {
+            "alt": "GitHub forks",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/forks"
+          },
+          {
+            "alt": "GitHub watchers",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/watchers"
+          }
+        ],
+        "repoBadgeTargetsValid": true,
+        "xhsHref": "https://www.xiaohongshu.com/user/profile/689af6b90000000019016082",
+        "xhsAlt": "小红书 Dibo",
+        "xhsHrefExact": true,
+        "xhsAltExact": true,
+        "xHref": "https://x.com/KimbomArtist",
+        "xAlt": "X KimbomArtist",
+        "xBadgeUnique": true,
+        "xHrefExact": true,
+        "xAltExact": true,
+        "horizontalOverflow": false,
+        "headerHorizontalOverflow": false,
+        "headerWithinViewport": true,
+        "headerH1BorderRemoved": true,
+        "relativeImagePaths": [
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/02-value-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/03-portraits-native-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/04-product-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/05-worlds-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/06-character-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          },
+          {
+            "src": "docs/assets/product-page/07-start-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          }
+        ],
+        "relativeImagesExistAndLoaded": true,
+        "allImagesLoaded": true
+      },
+      "screenshot": "zh-mobile.png"
+    },
+    {
+      "language": "en",
+      "viewport_name": "desktop",
+      "checks": {
+        "viewport": {
+          "width": 1280,
+          "height": 1000
+        },
+        "document": {
+          "clientWidth": 1280,
+          "scrollWidth": 1280
+        },
+        "header": {
+          "badgeCount": 10,
+          "scrollWidth": 1012,
+          "clientWidth": 1012,
+          "left": 134,
+          "right": 1146,
+          "h1BorderBottomStyle": "none"
+        },
+        "allImages": [
+          {
+            "src": "https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 93,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/License-MIT-blue?style=flat-square",
+            "complete": true,
+            "naturalWidth": 82,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square",
+            "complete": true,
+            "naturalWidth": 120,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square",
+            "complete": true,
+            "naturalWidth": 114,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 107,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&logo=github&label=Follow%20author",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/X-KimbomArtist-000000?style=flat-square&logo=x&logoColor=white",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&logo=xiaohongshu&logoColor=white",
+            "complete": true,
+            "naturalWidth": 95,
+            "naturalHeight": 20
+          },
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          }
+        ],
+        "headerBadgesLoaded": true,
+        "headerText": [
+          {
+            "text": "Oneirloom · 织梦师",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Turn imagination into images.",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "An open-source collection of visual prompting skills for analyzing images, developing concepts, writing complete prompts, and refining generated results.",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Use · Examples · Skills · 中文 | English · Website",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Use",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Examples",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Skills",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "中文",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "English",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Website",
+            "visible": true,
+            "clipped": false
+          }
+        ],
+        "headerTextReadable": true,
+        "internalLinks": [
+          {
+            "href": "#example-evidence",
+            "target": "example-evidence",
+            "exists": true
+          },
+          {
+            "href": "#use",
+            "target": "use",
+            "exists": true
+          },
+          {
+            "href": "#example-evidence",
+            "target": "example-evidence",
+            "exists": true
+          },
+          {
+            "href": "#three-layers",
+            "target": "three-layers",
+            "exists": true
+          }
+        ],
+        "internalAnchorsValid": true,
+        "repoBadgeTargets": [
+          {
+            "alt": "GitHub stars",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/stargazers"
+          },
+          {
+            "alt": "GitHub forks",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/forks"
+          },
+          {
+            "alt": "GitHub watchers",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/watchers"
+          }
+        ],
+        "repoBadgeTargetsValid": true,
+        "xhsHref": "https://www.xiaohongshu.com/user/profile/689af6b90000000019016082",
+        "xhsAlt": "Xiaohongshu Dibo",
+        "xhsHrefExact": true,
+        "xhsAltExact": true,
+        "xHref": "https://x.com/KimbomArtist",
+        "xAlt": "X KimbomArtist",
+        "xBadgeUnique": true,
+        "xHrefExact": true,
+        "xAltExact": true,
+        "horizontalOverflow": false,
+        "headerHorizontalOverflow": false,
+        "headerWithinViewport": true,
+        "headerH1BorderRemoved": true,
+        "relativeImagePaths": [
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          }
+        ],
+        "relativeImagesExistAndLoaded": true,
+        "allImagesLoaded": true
+      },
+      "screenshot": "en-desktop.png"
+    },
+    {
+      "language": "en",
+      "viewport_name": "mobile",
+      "checks": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "document": {
+          "clientWidth": 390,
+          "scrollWidth": 390
+        },
+        "header": {
+          "badgeCount": 10,
+          "scrollWidth": 358,
+          "clientWidth": 358,
+          "left": 16,
+          "right": 374,
+          "h1BorderBottomStyle": "none"
+        },
+        "allImages": [
+          {
+            "src": "https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 71,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 93,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/License-MIT-blue?style=flat-square",
+            "complete": true,
+            "naturalWidth": 82,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square",
+            "complete": true,
+            "naturalWidth": 120,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square",
+            "complete": true,
+            "naturalWidth": 114,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&logo=github",
+            "complete": true,
+            "naturalWidth": 107,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&logo=github&label=Follow%20author",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/X-KimbomArtist-000000?style=flat-square&logo=x&logoColor=white",
+            "complete": true,
+            "naturalWidth": 119,
+            "naturalHeight": 20
+          },
+          {
+            "src": "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&logo=xiaohongshu&logoColor=white",
+            "complete": true,
+            "naturalWidth": 95,
+            "naturalHeight": 20
+          },
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "complete": true,
+            "naturalWidth": 1254,
+            "naturalHeight": 1254
+          }
+        ],
+        "headerBadgesLoaded": true,
+        "headerText": [
+          {
+            "text": "Oneirloom · 织梦师",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Turn imagination into images.",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "An open-source collection of visual prompting skills for analyzing images, developing concepts, writing complete prompts, and refining generated results.",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Use · Examples · Skills · 中文 | English · Website",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Use",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Examples",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Skills",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "中文",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "English",
+            "visible": true,
+            "clipped": false
+          },
+          {
+            "text": "Website",
+            "visible": true,
+            "clipped": false
+          }
+        ],
+        "headerTextReadable": true,
+        "internalLinks": [
+          {
+            "href": "#example-evidence",
+            "target": "example-evidence",
+            "exists": true
+          },
+          {
+            "href": "#use",
+            "target": "use",
+            "exists": true
+          },
+          {
+            "href": "#example-evidence",
+            "target": "example-evidence",
+            "exists": true
+          },
+          {
+            "href": "#three-layers",
+            "target": "three-layers",
+            "exists": true
+          }
+        ],
+        "internalAnchorsValid": true,
+        "repoBadgeTargets": [
+          {
+            "alt": "GitHub stars",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/stargazers"
+          },
+          {
+            "alt": "GitHub forks",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/forks"
+          },
+          {
+            "alt": "GitHub watchers",
+            "href": "https://github.com/PigeonAI-Yang/oneirloom/watchers"
+          }
+        ],
+        "repoBadgeTargetsValid": true,
+        "xhsHref": "https://www.xiaohongshu.com/user/profile/689af6b90000000019016082",
+        "xhsAlt": "Xiaohongshu Dibo",
+        "xhsHrefExact": true,
+        "xhsAltExact": true,
+        "xHref": "https://x.com/KimbomArtist",
+        "xAlt": "X KimbomArtist",
+        "xBadgeUnique": true,
+        "xHrefExact": true,
+        "xAltExact": true,
+        "horizontalOverflow": false,
+        "headerHorizontalOverflow": false,
+        "headerWithinViewport": true,
+        "headerH1BorderRemoved": true,
+        "relativeImagePaths": [
+          {
+            "src": "docs/assets/product-page/01-hero-oneirloom-v4.webp",
+            "relative": true,
+            "exists": true
+          }
+        ],
+        "relativeImagesExistAndLoaded": true,
+        "allImagesLoaded": true
+      },
+      "screenshot": "en-mobile.png"
+    }
+  ]
+}

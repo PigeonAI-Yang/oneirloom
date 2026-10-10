@@ -1,0 +1,660 @@
+{
+  "record_version": 1,
+  "scope": {
+    "source_root": "J:/PigeonYang/skills/oneirloom",
+    "baseline_commit": "d5df2ed5fb84fb3f04ba35c33fb36f8f6fe16ebd",
+    "verification_kind": "static structure and source preservation",
+    "checked_date": "2026-10-03"
+  },
+  "snapshot": {
+    "head_when_structural_checks_ran": "b6397ec43adcad75ec738496a42f0d9f1da0085d",
+    "head_at_receipt_finalization": "f8059e1a8b512d3af0302f4212521a82cade964c",
+    "head_at_receipt_subject": "Record latest Oneirloom progressive disclosure updates",
+    "external_commit_c0ba990_is_ancestor": true,
+    "initial_checks_were_on_the_uncommitted_worktree": true,
+    "pretransition_per_file_fingerprints_available": false,
+    "snapshot_gap": "No per-file fingerprints were emitted before HEAD advanced. The earlier structural results are recorded against the observed b6397ec worktree; final HEAD f8059e1 now contains the implementation. Current fingerprints below identify the final 33 manifest files but are not represented as a cryptographic comparison to the earlier working-tree snapshot. No structural suite was rerun after the transition.",
+    "final_status_observed_outside_receipt_paths": [
+      "PROJECT-FILES.md (late modified status record; contents not rechecked)",
+      "docs/architecture-progressive-disclosure-proposal.md (late modified status record; contents not rechecked)",
+      "docs/architecture.md (late modified status record; contents not rechecked)",
+      "work/progressive-disclosure-20261003/nonproduct-graphic-dialogue.json (modified by another operator; left untouched)"
+    ],
+    "git_index_or_commit_actions_by_this_task": [],
+    "post_fingerprint_status_observation": {
+      "modified_manifest_paths_observed_after_fingerprint_capture": [
+        "PROJECT-FILES.md",
+        "docs/architecture-progressive-disclosure-proposal.md",
+        "docs/architecture.md"
+      ],
+      "known_owner": "Primary-designated record_source_acceptance_status writer",
+      "scope_as_reported_by_primary": "Acceptance-status text updates only; source implementation paths are not in this late edit set.",
+      "contents_read_or_rechecked": false,
+      "handling": "Retain the checked snapshot and its fingerprint gap; no suite rerun or source read was performed while the single-owner update could be active."
+    }
+  },
+  "results": {
+    "quick_validate": {
+      "runner": "J:/Users/yangda01/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+      "command": "python -B <quick_validate.py> <each skills/* directory containing SKILL.md>",
+      "skills_found": 18,
+      "passed": 18,
+      "failed": [],
+      "bytecode_cache_used": false
+    },
+    "public_skill_names": {
+      "count": 18,
+      "matched_pinned_d5df2ed": 18,
+      "mismatches": []
+    },
+    "shared_contract_read_cues": {
+      "count": 18,
+      "explicit_links_to_interaction-contract.md": 18,
+      "missing": []
+    },
+    "authored_manifest": {
+      "expected_markdown_files": 33,
+      "present": 33,
+      "missing": [],
+      "local_relative_links_checked": 183,
+      "broken_local_links": [],
+      "parser_scope": "Inline and reference-definition links outside fenced and inline code; external URLs and fragment-only targets excluded."
+    },
+    "fences": {
+      "manifest_files_checked": 33,
+      "unbalanced_or_unclosed": []
+    },
+    "retired_sop_references": {
+      "search_scope": "all current skills/**/*.md",
+      "path": "graphic-design-sop.md",
+      "active_references": [],
+      "retired_file_absent": true
+    },
+    "evaluation_cases": {
+      "path": "evals/cases.json",
+      "valid_json": true,
+      "current_cases": 60,
+      "pinned_cases": 60,
+      "current_raw_bytes": 39507,
+      "current_raw_sha256": "c870d1e3411305ee7e8326490ea063ced52cecc40add749ab1e7527fb45ab5af",
+      "pinned_gitlf_bytes": 39445,
+      "pinned_gitlf_sha256": "513acb521024af0d77586094423567ef762f5b9ef2dff1ebe0ede512d449eb77",
+      "crlf_normalized_equal_to_pinned": true,
+      "normalized_sha256": "513acb521024af0d77586094423567ef762f5b9ef2dff1ebe0ede512d449eb77",
+      "split_verified": "First 47 cases exactly match the e8e4d8a fixture and remain an exact prefix; 13 newer cases follow; current normalized content exactly matches pinned d5df2ed."
+    },
+    "retired_sop_section_preservation": {
+      "method": "Compared complete old section bodies from the d5df2ed Git blob with new leaves after CRLF/CR to LF normalization; exact full-body substring match required.",
+      "sections": [
+        {
+          "section": "Observe",
+          "owner": "skills/oneirloom-style-design/references/graphic-observation.md",
+          "full_body_exact": true
+        },
+        {
+          "section": "Design",
+          "owner": "skills/oneirloom-style-design/references/graphic-observation.md",
+          "full_body_exact": true
+        },
+        {
+          "section": "Production",
+          "owner": "skills/oneirloom-style-design/references/graphic-production.md",
+          "full_body_exact": true
+        },
+        {
+          "section": "Review",
+          "owner": "skills/oneirloom-style-design/references/graphic-review.md",
+          "full_body_exact": true
+        },
+        {
+          "section": "Correct",
+          "owner": "skills/oneirloom-style-design/references/graphic-review.md",
+          "full_body_exact": true
+        }
+      ],
+      "Understand_and_Carry_design_review": "Not performed; assigned to Primary."
+    },
+    "approved_additional_callers": {
+      "scope": "Reviewed the pinned-to-current diff for exactly the seven named paths in the proposal; content changes were limited to the approved routes/cues, with no unrelated text hunks.",
+      "paths": [
+        "skills/oneirloom-visual-analysis/references/reconstruction-workflow.md",
+        "skills/oneirloom-style-design/references/styles.md",
+        "skills/oneirloom-style-design/references/graphic-design-sources.md",
+        "skills/oneirloom-style-design/templates/experimental-editorial-posters/template.md",
+        "skills/oneirloom-model-qwen-image-2-1/references/writing.md",
+        "skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md",
+        "skills/oneirloom-style-design/templates/blind-box-comparison/template.md"
+      ],
+      "result": "Diff hunks matched proposal-specified SOP-to-design-process, main-to-shared-contract, and direct observation routing edits. Domain rows, sources, template relation/scaffold content, and other visible text remained unchanged."
+    },
+    "template_fence_and_evidence_preservation": {
+      "method": "For the three changed templates, apply only the exact proposal-approved text replacements to the pinned LF text and compare the entire result to current LF text; separately compare fenced block payloads.",
+      "files": [
+        {
+          "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
+          "only_approved_replacement": true,
+          "fenced_blocks": 2,
+          "fenced_payloads_identical": true
+        },
+        {
+          "path": "skills/oneirloom-style-design/templates/experimental-editorial-posters/template.md",
+          "only_approved_replacement": true,
+          "fenced_blocks": 0,
+          "fenced_payloads_identical": true
+        },
+        {
+          "path": "skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md",
+          "only_approved_replacement": true,
+          "fenced_blocks": 1,
+          "fenced_payloads_identical": true
+        }
+      ]
+    },
+    "static_content_measurements": {
+      "claim_boundary": "UTF-8 file byte, character, and splitline counts only. They do not measure tokens, latency, context retention, or runtime behavior.",
+      "main_body": {
+        "pinned_gitlf": {
+          "bytes": 14096,
+          "chars": 14070,
+          "splitlines": 57,
+          "body_chars": 13701
+        },
+        "after_raw": {
+          "bytes": 4528,
+          "chars": 4502,
+          "splitlines": 40
+        },
+        "after_lf": {
+          "bytes": 4488,
+          "chars": 4462,
+          "splitlines": 40,
+          "body_chars": 4093
+        },
+        "body_char_delta_lf": -9608
+      },
+      "representative_scenarios": [
+        {
+          "name": "clear_bread_poster",
+          "after_symbols": [
+            "M",
+            "C",
+            "P",
+            "D",
+            "F"
+          ],
+          "after_paths": [
+            "skills/oneirloom/SKILL.md",
+            "skills/oneirloom/references/interaction-contract.md",
+            "skills/oneirloom-product-art-direction/SKILL.md",
+            "skills/oneirloom-style-design/SKILL.md",
+            "skills/oneirloom-style-photography/SKILL.md"
+          ],
+          "after_raw": {
+            "bytes": 30373,
+            "chars": 30225,
+            "splitlines": 199
+          },
+          "after_lf": {
+            "bytes": 30174,
+            "chars": 30026,
+            "splitlines": 199
+          },
+          "pinned_baseline_set": "M P D G F FS",
+          "pinned_gitlf": {
+            "files": 6,
+            "bytes": 45465,
+            "chars": 44389,
+            "splitlines": 267
+          },
+          "lf_delta": {
+            "bytes": -15291,
+            "chars": -14363,
+            "splitlines": -68
+          }
+        },
+        {
+          "name": "vague_bread_first_turn",
+          "after_symbols": [
+            "M",
+            "C",
+            "P",
+            "E"
+          ],
+          "after_paths": [
+            "skills/oneirloom/SKILL.md",
+            "skills/oneirloom/references/interaction-contract.md",
+            "skills/oneirloom-product-art-direction/SKILL.md",
+            "skills/oneirloom-product-art-direction/references/ecommerce-workflow.md"
+          ],
+          "after_raw": {
+            "bytes": 22519,
+            "chars": 22489,
+            "splitlines": 139
+          },
+          "after_lf": {
+            "bytes": 22380,
+            "chars": 22350,
+            "splitlines": 139
+          },
+          "pinned_baseline_set": "M P E",
+          "pinned_gitlf": {
+            "files": 3,
+            "bytes": 28110,
+            "chars": 28064,
+            "splitlines": 131
+          },
+          "lf_delta": {
+            "bytes": -5730,
+            "chars": -5714,
+            "splitlines": 8
+          }
+        },
+        {
+          "name": "selected_miniature_poster",
+          "after_symbols": [
+            "M",
+            "C",
+            "P",
+            "E",
+            "D",
+            "F"
+          ],
+          "after_paths": [
+            "skills/oneirloom/SKILL.md",
+            "skills/oneirloom/references/interaction-contract.md",
+            "skills/oneirloom-product-art-direction/SKILL.md",
+            "skills/oneirloom-product-art-direction/references/ecommerce-workflow.md",
+            "skills/oneirloom-style-design/SKILL.md",
+            "skills/oneirloom-style-photography/SKILL.md"
+          ],
+          "after_raw": {
+            "bytes": 34625,
+            "chars": 34477,
+            "splitlines": 232
+          },
+          "after_lf": {
+            "bytes": 34393,
+            "chars": 34245,
+            "splitlines": 232
+          },
+          "pinned_baseline_set": "M P E D G F FS",
+          "pinned_gitlf": {
+            "files": 7,
+            "bytes": 52223,
+            "chars": 51131,
+            "splitlines": 312
+          },
+          "lf_delta": {
+            "bytes": -17830,
+            "chars": -16886,
+            "splitlines": -80
+          }
+        },
+        {
+          "name": "background_only_direct_entry",
+          "after_symbols": [
+            "P",
+            "C"
+          ],
+          "after_paths": [
+            "skills/oneirloom-product-art-direction/SKILL.md",
+            "skills/oneirloom/references/interaction-contract.md"
+          ],
+          "after_raw": {
+            "bytes": 13739,
+            "chars": 13735,
+            "splitlines": 66
+          },
+          "after_lf": {
+            "bytes": 13673,
+            "chars": 13669,
+            "splitlines": 66
+          },
+          "pinned_baseline_set": "M P D G F FS R",
+          "pinned_gitlf": {
+            "files": 7,
+            "bytes": 52963,
+            "chars": 50639,
+            "splitlines": 306
+          },
+          "lf_delta": {
+            "bytes": -39290,
+            "chars": -36970,
+            "splitlines": -240
+          },
+          "entry_variant": "Proposal explicitly names direct P+C cold path; main-entry M+C+P after_lf is 18161 bytes, 18131 chars, 106 lines."
+        },
+        {
+          "name": "package_structure_miss",
+          "after_symbols": [
+            "M",
+            "C",
+            "R",
+            "P",
+            "V"
+          ],
+          "after_paths": [
+            "skills/oneirloom/SKILL.md",
+            "skills/oneirloom/references/interaction-contract.md",
+            "skills/oneirloom-result-diagnosis/SKILL.md",
+            "skills/oneirloom-product-art-direction/SKILL.md",
+            "skills/oneirloom-style-design/references/graphic-review.md"
+          ],
+          "after_raw": {
+            "bytes": 28470,
+            "chars": 28440,
+            "splitlines": 174
+          },
+          "after_lf": {
+            "bytes": 28296,
+            "chars": 28266,
+            "splitlines": 174
+          },
+          "pinned_baseline_set": "M P D G R",
+          "pinned_gitlf": {
+            "files": 5,
+            "bytes": 48163,
+            "chars": 46885,
+            "splitlines": 252
+          },
+          "lf_delta": {
+            "bytes": -19867,
+            "chars": -18619,
+            "splitlines": -78
+          }
+        },
+        {
+          "name": "original_illustration_poster",
+          "after_symbols": [
+            "M",
+            "C",
+            "D",
+            "I"
+          ],
+          "after_paths": [
+            "skills/oneirloom/SKILL.md",
+            "skills/oneirloom/references/interaction-contract.md",
+            "skills/oneirloom-style-design/SKILL.md",
+            "skills/oneirloom-style-illustration/SKILL.md"
+          ],
+          "after_raw": {
+            "bytes": 21414,
+            "chars": 21254,
+            "splitlines": 167
+          },
+          "after_lf": {
+            "bytes": 21247,
+            "chars": 21087,
+            "splitlines": 167
+          },
+          "pinned_baseline_set": "M D G I IS",
+          "pinned_gitlf": {
+            "files": 5,
+            "bytes": 37836,
+            "chars": 36744,
+            "splitlines": 235
+          },
+          "lf_delta": {
+            "bytes": -16589,
+            "chars": -15657,
+            "splitlines": -68
+          }
+        }
+      ]
+    },
+    "image_payload_identity": {
+      "baseline_image_paths": 1106,
+      "baseline_git_blob_hashes_validated": 1106,
+      "direct_payloads_identical_after_svg_lf_normalization": 1098,
+      "lfs_pointer_payloads_verified_by_local_sha256_and_size": 8,
+      "missing_or_unverified": 0,
+      "different_payloads": 0,
+      "network_or_lfs_fetch_used": false,
+      "boundary": "Static payload identity against pinned baseline. This does not assign unrelated baseline-to-HEAD add/delete history to the migration."
+    },
+    "foreign_dirty_path_hashes": {
+      ".gitattributes": {
+        "baseline_sha256": "abe5c0de09dec339fd60e646b10a7d4c7752bef72bf6d97b579726b4c77ed4b3",
+        "current_sha256": "abe5c0de09dec339fd60e646b10a7d4c7752bef72bf6d97b579726b4c77ed4b3",
+        "bytes": 6858,
+        "matches": true
+      },
+      ".gitignore": {
+        "baseline_sha256": "0bda9c2f086fb87f77df3e0875e698123674bf886ac4a9c587f1a0b876da47eb",
+        "current_sha256": "0bda9c2f086fb87f77df3e0875e698123674bf886ac4a9c587f1a0b876da47eb",
+        "bytes": 1107,
+        "matches": true
+      },
+      "AGENTS.md": {
+        "baseline_sha256": "de3a8d6cf1bea56355c7d32db38e701dae0c9151034e9cc211454da830a04d07",
+        "current_sha256": "de3a8d6cf1bea56355c7d32db38e701dae0c9151034e9cc211454da830a04d07",
+        "bytes": 1125,
+        "matches": true
+      },
+      "result": "Source-preservation hashes match the baseline; the paths are outside the authored-path manifest."
+    },
+    "git_diff_check": {
+      "pinned_to_worktree": {
+        "command": "git diff --check d5df2ed -- <33 proposal-manifest paths plus deleted retired SOP path>",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "current_unstaged_to_index_at_check_time": {
+        "command": "git diff --check -- <same owned paths>",
+        "exit_code": 0,
+        "stdout": "",
+        "stderr": ""
+      },
+      "scope_note": "Both checks ran before the external HEAD transition and were path-scoped; no .gitattributes/.gitignore/AGENTS or unrelated LFS paths were included."
+    },
+    "script_environment_gaps": {
+      "scripts/check_skills.py": {
+        "present": false,
+        "action": "Not repaired or substituted; no cached pyc counted."
+      },
+      "runtime_behavior_or_new_session_discovery": "Not tested in this structural assignment.",
+      "install_deploy_or_generation": "Not run."
+    }
+  },
+  "final_manifest_fingerprints": {
+    "skills/oneirloom-brand-identity/SKILL.md": {
+      "raw_sha256": "39e6d1f2505b4eb06b6197082d644c55e5159c7adc755ce13133da9196420640",
+      "lf_sha256": "016e6b5018342c543fc7db5ab7879688c7f38da994da43fb9014216dee269bff",
+      "raw_bytes": 6055,
+      "lf_bytes": 6011
+    },
+    "skills/oneirloom-camera-composition/SKILL.md": {
+      "raw_sha256": "afe39c8d770acee8f8b95ebc971f9407d5c9e78f2b20ad8b744e49201ef91da7",
+      "lf_sha256": "be2f83d228e3a85d616df46e6a836cdc62f7a984903656337b760a288d147a9d",
+      "raw_bytes": 4015,
+      "lf_bytes": 3971
+    },
+    "skills/oneirloom-character-sheet/SKILL.md": {
+      "raw_sha256": "ef6c064bf70b80a3fab1f9977191227f5aec48dab9e1854edbd87eec89280c8c",
+      "lf_sha256": "691cea2678e2eaf3c28b3aae7199c7d0090e47d49a7cc0039ab921fcd0abd226",
+      "raw_bytes": 4441,
+      "lf_bytes": 4410
+    },
+    "skills/oneirloom-color-light/SKILL.md": {
+      "raw_sha256": "8ee415079754568ecb5376212b7c868a5f10525733e8525b5db02ae56e21487a",
+      "lf_sha256": "0cfde7211479de59c2c3678958fcf3458e103c51a65d1b2b26582911a92623ca",
+      "raw_bytes": 3150,
+      "lf_bytes": 3108
+    },
+    "skills/oneirloom-expression-stickers/SKILL.md": {
+      "raw_sha256": "af002b3f3258620c3a281dd88508287f2440d095fb66397f1aa8fcd97ab819c8",
+      "lf_sha256": "cf08e6eb3d9677879de70a4d05a48437dca5e428954af9866b75b7e6b46612e3",
+      "raw_bytes": 15070,
+      "lf_bytes": 14984
+    },
+    "skills/oneirloom-figure-art/SKILL.md": {
+      "raw_sha256": "f83c6d43e867db94bb6567666c079f1acd78bd6bdf5b94b8941d97b5ee0077e9",
+      "lf_sha256": "e71a197b4af4f8a9ccd86d9389d42b1389077ea79c86143ac43112e1308f09c7",
+      "raw_bytes": 4129,
+      "lf_bytes": 4098
+    },
+    "skills/oneirloom-icon-design/SKILL.md": {
+      "raw_sha256": "b1f3e1f9e58b7d3a9ad5064d5677c11d35e987cc8aa47691e0610382e3b9e6bf",
+      "lf_sha256": "2cbaded60bbab3ca80e9a2f87d51dc98796d86b5f470395347a5de5f7d722f28",
+      "raw_bytes": 7353,
+      "lf_bytes": 7294
+    },
+    "skills/oneirloom-image-tutorial/SKILL.md": {
+      "raw_sha256": "128b67e8b191fece8bebb3c70caba3c51ddcef913bfc6a750541a8ffed47bb17",
+      "lf_sha256": "2e5deace5cb145916a8bfe46cb629424130a35e8c9e1534d2c83f2f44582215a",
+      "raw_bytes": 9552,
+      "lf_bytes": 9472
+    },
+    "skills/oneirloom-model-krea-2/SKILL.md": {
+      "raw_sha256": "5c9c4d38351b1d475146a7202c3f007271101211617b36cca1d1623a92d4382e",
+      "lf_sha256": "cb90d825ac999cb7495b6b2f76bb9b1079a0fb73260c0cd1ee657e76124d8f7d",
+      "raw_bytes": 3650,
+      "lf_bytes": 3621
+    },
+    "skills/oneirloom-model-qwen-image-2-1/SKILL.md": {
+      "raw_sha256": "a86eab49993fd4ebb29da779f5d5f1517b60eab060ed6288cbf3c3531b496704",
+      "lf_sha256": "f3e7c9779639b347b3aa011255b775f2d6ff03453517062f0e698b07a7996df8",
+      "raw_bytes": 4416,
+      "lf_bytes": 4385
+    },
+    "skills/oneirloom-product-art-direction/SKILL.md": {
+      "raw_sha256": "e7d506c85205080e0acb8bc731f0d25e157eea77795b21662fc65437c65d8282",
+      "lf_sha256": "af4334d7ced9e188193e5fde08cc85c4d9f409c9adde3af787743bbbac17ce5f",
+      "raw_bytes": 8393,
+      "lf_bytes": 8362
+    },
+    "skills/oneirloom-prompt-card/SKILL.md": {
+      "raw_sha256": "41ef2d5549f8fa02d4f3db2872dee494a8eb7a37ac9eda5c13791da842fbe0c4",
+      "lf_sha256": "379f767b14f9a16a74373db758931ec854722ac608cc49358a1e19978d2de7ba",
+      "raw_bytes": 7008,
+      "lf_bytes": 6961
+    },
+    "skills/oneirloom-result-diagnosis/SKILL.md": {
+      "raw_sha256": "7ad9cb5536fafcea5f4dd3f8c527a1d51f0de928ec72e9e2b4891232ebe294da",
+      "lf_sha256": "720818ee39e7d5bdcb9f163946518d121faf94dfdf37a77b352efb21e3e4b7fd",
+      "raw_bytes": 5991,
+      "lf_bytes": 5952
+    },
+    "skills/oneirloom-style-design/SKILL.md": {
+      "raw_sha256": "49eaffb4a83528dd1cd48f5aedc53ed6991b68fadd3ab457813940d9d4369ad5",
+      "lf_sha256": "e877c8a9441fa1eec2df129ca39fb2653869a5fa027af82ec43a798f548a3614",
+      "raw_bytes": 8166,
+      "lf_bytes": 8110
+    },
+    "skills/oneirloom-style-illustration/SKILL.md": {
+      "raw_sha256": "d132edd36dff7f524981b2eea36b32ffa0cae33462e0f01042feda2fb738fde2",
+      "lf_sha256": "b3b970245b428256fff9320ae737b5a8773856ad3b73518d839f2a329415018c",
+      "raw_bytes": 3374,
+      "lf_bytes": 3338
+    },
+    "skills/oneirloom-style-photography/SKILL.md": {
+      "raw_sha256": "bcfc91521664abf3aec7edb605d9c9b2c82e0280f954bae0f49c9d9aeba36aa7",
+      "lf_sha256": "07849a94ea48535fe0ab37f8d51a3beda4536a657e7076b093bbceca3a00ed11",
+      "raw_bytes": 3940,
+      "lf_bytes": 3903
+    },
+    "skills/oneirloom-visual-analysis/SKILL.md": {
+      "raw_sha256": "309d2a7f149a0507b538e91ceb25c0539be3189a7a9af4c16a12b5d3b5c329dc",
+      "lf_sha256": "6ff59b794020ec4247c2a628cb4d93e57294fee46a734239d782ebb893976065",
+      "raw_bytes": 6120,
+      "lf_bytes": 6062
+    },
+    "skills/oneirloom/SKILL.md": {
+      "raw_sha256": "b779ca6691995e5252b666324d9505301d4ae49a4feba16038e36e98a347eab9",
+      "lf_sha256": "148fc7c4b0fcf3a6496f90e55a17bfcd2aa53cad932741357f3061a95cc13828",
+      "raw_bytes": 4528,
+      "lf_bytes": 4488
+    },
+    "skills/oneirloom/references/interaction-contract.md": {
+      "raw_sha256": "069cd30e4edccdb43bf95e234fe3dbc9ca79e314ac69b61147d601b098fefb29",
+      "lf_sha256": "cddb7f7f21e11c43f05367faac3ca6448e15cfc3648b4275722cabdcd8e040db",
+      "raw_bytes": 5346,
+      "lf_bytes": 5311
+    },
+    "skills/oneirloom-product-art-direction/references/ecommerce-workflow.md": {
+      "raw_sha256": "23554d4a3eef50787da0d2b659edaa9cf8bf4596a71ea1b980fa6f378158310d",
+      "lf_sha256": "77fb767833199dad79401b25b25747d3cd3c2760f12c0f24a74e3b159d0a2553",
+      "raw_bytes": 4252,
+      "lf_bytes": 4219
+    },
+    "skills/oneirloom-style-design/references/graphic-observation.md": {
+      "raw_sha256": "b64e7f5b652e0219a6f52019ea046bae4846145ca265111c9c12f9f84820801a",
+      "lf_sha256": "85245e6fe004d06ce4585f8fe708e26f8977d1a50379e64cd8f868299c78f18f",
+      "raw_bytes": 6394,
+      "lf_bytes": 6357
+    },
+    "skills/oneirloom-style-design/references/graphic-production.md": {
+      "raw_sha256": "f4aeb9cc3b08b04379f0720ed023ce768b0d47be181a1d0c0589c6261c3bd42b",
+      "lf_sha256": "284bf82c4fdaf566d71a30bb72e106083a9207f3aec326242c816a7eade8e947",
+      "raw_bytes": 2846,
+      "lf_bytes": 2827
+    },
+    "skills/oneirloom-style-design/references/graphic-review.md": {
+      "raw_sha256": "7e8b6807223820fa064b92b60a295b94f8da78a0598e864601fa09cb5616e44f",
+      "lf_sha256": "b01f2345e747598b8d37c56d647eda27d46aeb99e2b30589e70158669e0482e1",
+      "raw_bytes": 4212,
+      "lf_bytes": 4183
+    },
+    "skills/oneirloom-visual-analysis/references/reconstruction-workflow.md": {
+      "raw_sha256": "0ea268aecfd2192187ab00ab92f7a4c8db4cbd3acb5a1238e579974063d7e99d",
+      "lf_sha256": "3574baef20c47e96f87a0d7d07cf69a2cdd0d68e0a32b010dd48ef6657915480",
+      "raw_bytes": 17716,
+      "lf_bytes": 17605
+    },
+    "skills/oneirloom-style-design/references/styles.md": {
+      "raw_sha256": "3ae41a30327664659296e9d74e4f939ab1616608aad996209e098a0a8f0ba3f7",
+      "lf_sha256": "9dabab73e54d0a323f0e09f182b9877c023c477ffcd12bee9b856211502a147b",
+      "raw_bytes": 2236,
+      "lf_bytes": 2220
+    },
+    "skills/oneirloom-style-design/references/graphic-design-sources.md": {
+      "raw_sha256": "cce7c99dbe1c7d3c0f980162f2d1981bcc1088161fc290b115ff4ec9cefe3955",
+      "lf_sha256": "cce7c99dbe1c7d3c0f980162f2d1981bcc1088161fc290b115ff4ec9cefe3955",
+      "raw_bytes": 2673,
+      "lf_bytes": 2673
+    },
+    "skills/oneirloom-style-design/templates/experimental-editorial-posters/template.md": {
+      "raw_sha256": "2d735c35661e81312b55ac88a0fef276838b16a7cf4ecf09ce06b8a43308b672",
+      "lf_sha256": "2d735c35661e81312b55ac88a0fef276838b16a7cf4ecf09ce06b8a43308b672",
+      "raw_bytes": 12767,
+      "lf_bytes": 12767
+    },
+    "skills/oneirloom-model-qwen-image-2-1/references/writing.md": {
+      "raw_sha256": "4381ffc49acd59919d7906f846b794417f4258eb0a9cd9c65a44b9667fb271cb",
+      "lf_sha256": "4381ffc49acd59919d7906f846b794417f4258eb0a9cd9c65a44b9667fb271cb",
+      "raw_bytes": 3502,
+      "lf_bytes": 3502
+    },
+    "skills/oneirloom-style-photography/templates/xiaohongshu-squat/template.md": {
+      "raw_sha256": "3948675759903bc5c787a0054e5d5b671f51c26597fedd1d18123c703360c6b7",
+      "lf_sha256": "5fcc5594cbbe9b7ad664572fec585110c6fb5660ccbdfd94ba7e01343bd640cb",
+      "raw_bytes": 6719,
+      "lf_bytes": 6686
+    },
+    "skills/oneirloom-style-design/templates/blind-box-comparison/template.md": {
+      "raw_sha256": "0aedd2454284b9dc0e48f1e25f83a7bb31d94d1c9004acfb54e07e8698404c25",
+      "lf_sha256": "0aedd2454284b9dc0e48f1e25f83a7bb31d94d1c9004acfb54e07e8698404c25",
+      "raw_bytes": 8559,
+      "lf_bytes": 8559
+    },
+    "docs/architecture.md": {
+      "raw_sha256": "71f0487f691249723d7e6bf8cc55221e8f2dc2ef8cccc3204957084f0310a66d",
+      "lf_sha256": "fe596d17c282ac69762725111ad9d8f2d7edb2010b5c83a62b05edabee250a3d",
+      "raw_bytes": 16293,
+      "lf_bytes": 16178
+    },
+    "docs/architecture-progressive-disclosure-proposal.md": {
+      "raw_sha256": "209d7b6fc82c0952238069d8c8136dbb54772ffddbb54c023096632f82124e72",
+      "lf_sha256": "3556c66f9f6e63acf1b0b86dce957069dbe26589522f347a30077fe0e595b1f1",
+      "raw_bytes": 57357,
+      "lf_bytes": 57002
+    },
+    "PROJECT-FILES.md": {
+      "raw_sha256": "1294f0c02ca4b79e44a0ab7b4a735c415524b320311073182f83d06ffd9a2dfb",
+      "lf_sha256": "f2920428ca8747489fd6bb2c3cdd84ffd28c9d6a7814874dd305be6ad77a5c15",
+      "raw_bytes": 3214,
+      "lf_bytes": 3174
+    }
+  }
+}

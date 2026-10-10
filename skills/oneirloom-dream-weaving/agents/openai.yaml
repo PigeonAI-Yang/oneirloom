@@ -1,0 +1,4 @@
+interface:
+  display_name: "织梦"
+  short_description: "把模糊的感觉、记忆与零碎意象，逐步织成保留原始气息的具体画面。"
+  default_prompt: "请用 $oneirloom-dream-weaving 帮我把一个还说不清的灵感慢慢织成画面。"

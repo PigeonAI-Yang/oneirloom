@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-10T07:14:05Z",
+  "scope": "Source validation only for the prompt-handoff correction. No behavior trial or image generation was run.",
+  "checks": [
+    {
+      "command": "py -3 J:/Users/yangda01/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/oneirloom-dream-weaving",
+      "result": "pass: Skill is valid"
+    },
+    {
+      "command": "py -3 J:/Users/yangda01/.codex/skills/.system/skill-creator/scripts/quick_validate.py skills/oneirloom",
+      "result": "pass: Skill is valid"
+    },
+    {
+      "command": "json.loads on evals/dream-weaving-cases.json; assert seven cases, unique IDs, and first six entries equal their pre-edit semantic records",
+      "result": "pass: seven unique IDs; original six entries are semantically unchanged; the new case is prompt-handoff-assent-systematic"
+    },
+    {
+      "command": "git -c core.whitespace=cr-at-eol diff --check -- skills/oneirloom/SKILL.md; UTF-8 trailing-whitespace scan of the three edited source files",
+      "result": "pass: no reported diff errors or trailing whitespace"
+    },
+    {
+      "command": "Check local Markdown links added by this correction",
+      "result": "not applicable: no Markdown links were added"
+    }
+  ],
+  "changed_source_sha256": {
+    "skills/oneirloom-dream-weaving/SKILL.md": "2E68C82685488659E9B3BF84CF215A37549F66A4D14BFC1DA33C8B6E6CA9C307",
+    "skills/oneirloom/SKILL.md": "6A57F3CB32E2642B03C403C20F8A1F0124F317F7382023AEEDDD2EA1A9E29AFD",
+    "evals/dream-weaving-cases.json": "608AF37CB4A6758329EFF748CCF6E0E540A847B01F4BC73119B0D63DB3304C91"
+  },
+  "historical_trials": {
+    "receipts": [
+      "trial-clear.json",
+      "trial-emotion.json",
+      "trial-fragments.json",
+      "trial-partial.json",
+      "trial-product.json",
+      "trial-rejection.json"
+    ],
+    "recorded_skill_sha256": "BB05A7EA51F24F82F5695BC6CB0C21B1548223548F425F46878D1E77AED2B36C",
+    "status": "These six unchanged receipts describe earlier single-run trials against the older skill hash. They do not verify the revised handoff behavior."
+  },
+  "prior_human_report": "The earlier human run failed at the handoff: after the prompt-writing context and '可以，试试看吧', the assistant switched to image generation and returned a prompt that omitted systematic method and template relations. No image-generation tool was called.",
+  "limits": [
+    "This receipt proves source validation only, not behavior in a fresh run.",
+    "Run a fresh forward trial before claiming the handoff correction works at runtime.",
+    "No image prompt was generated during this implementation assignment; no image-generation tool was called.",
+    "The six historical trial receipts and prior structure-checks.json remain unchanged."
+  ]
+}

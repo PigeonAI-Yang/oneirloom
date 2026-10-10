@@ -1,0 +1,73 @@
+{
+  "29": {
+    "inputs": {
+      "filename_prefix": "oneirloom",
+      "images": ["56", 0]
+    },
+    "class_type": "SaveImage"
+  },
+  "51": {
+    "inputs": {
+      "text": "",
+      "clip": ["53", 0]
+    },
+    "class_type": "CLIPTextEncode"
+  },
+  "52": {
+    "inputs": {
+      "unet_name": "moodyKrea2Mix_v40BF16.safetensors",
+      "weight_dtype": "default"
+    },
+    "class_type": "UNETLoader"
+  },
+  "53": {
+    "inputs": {
+      "clip_name": "QWEN\\QWEN_VL\\Qwen3-VL-4B-Instruct-Heretic.safetensors",
+      "type": "krea2",
+      "device": "default"
+    },
+    "class_type": "CLIPLoader"
+  },
+  "54": {
+    "inputs": {
+      "seed": 1,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "er_sde",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "model": ["52", 0],
+      "positive": ["51", 0],
+      "negative": ["55", 0],
+      "latent_image": ["57", 0]
+    },
+    "class_type": "KSampler"
+  },
+  "55": {
+    "inputs": {
+      "conditioning": ["51", 0]
+    },
+    "class_type": "ConditioningZeroOut"
+  },
+  "56": {
+    "inputs": {
+      "samples": ["54", 0],
+      "vae": ["58", 0]
+    },
+    "class_type": "VAEDecode"
+  },
+  "57": {
+    "inputs": {
+      "width": 888,
+      "height": 1184,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage"
+  },
+  "58": {
+    "inputs": {
+      "vae_name": "krea2RealVae_v10.safetensors"
+    },
+    "class_type": "VAELoader"
+  }
+}

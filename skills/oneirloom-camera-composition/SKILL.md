@@ -15,6 +15,8 @@ Read the [shared interaction contract](../oneirloom/references/interaction-contr
 - 参考图构图复现（配合 `oneirloom-visual-analysis` 的 reconstruction workflow）
 - 主体布局、大留白、抓拍动势等布局表达
 
+When the room, set, or environment's masses, openings, adjacency, or circulation are still undecided, read [space conception](../oneirloom-space-conception/SKILL.md) first. Once the place is organized, this method owns its viewpoint, projection, crop, and occlusion.
+
 ## Spatial method checklist
 
 - 从相机位置、相机朝向、主体相对位置、远近尺度、边缘裁切、前后遮挡六项里选择必要内容。焦段词只描述视觉效果；未确认设备时不写具体毫米数。

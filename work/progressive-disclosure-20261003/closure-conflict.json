@@ -1,0 +1,34 @@
+{
+  "case_id": "closure-conflict",
+  "requested_model": "gpt-6-luna",
+  "effort": "max",
+  "host": "native child explicit source read",
+  "turns": [
+    {
+      "input": "TEXT FIXTURE records two conflicting sources, neither is personally inspected: the supplied product-image description says a green pouch containing two round rolls; the user says it is a red box containing one oval bread and asks for a realistic product poster. Which source is current is unknown.",
+      "answer": "我目前只看到两段文字记录，没有实际检查商品图：一段写的是绿色袋装、两只圆形面包；另一段是你的描述：红色盒装、一只椭圆面包。包装、形状和数量都冲突，写实海报不能把任一版本擅自认定为现售商品。\n\n海报方向可以先定为真实棚拍：浅暖灰背景，商品居中并带自然接触阴影，上方留标题区、下方留商品信息区；商品本体与具体文案等确认后再定。\n\n请确认现售款是绿色袋装两只圆面包，还是红盒装一只椭圆面包？如果都不准确，请给出现售商品的正确描述或当前包装图。"
+    }
+  ],
+  "reads": [
+    {
+      "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+      "sha256": "999858f016b10649c8b7f199ceef3b3bc6488782b4580954da4c50058449ef03"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+      "sha256": "735b625d57c57481fbf6fe05801c89d4a23630b81c9bfc2e3b73270fa9b0e7ce"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+      "sha256": "146d2abce476fc525e5b2086fc0a5866a028cd0ad5c95f0e519531f03e579ac1"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+      "sha256": "49eaffb4a83528dd1cd48f5aedc53ed6991b68fadd3ab457813940d9d4369ad5"
+    }
+  ],
+  "limitations": [
+    "The input was a text fixture; no product image was personally inspected.",
+    "No image, web, or generation tools were used."
+  ]
+}

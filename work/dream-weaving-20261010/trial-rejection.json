@@ -1,0 +1,22 @@
+{
+  "input": "我们在做“热闹里有一点孤独”，你刚提出高楼屋顶上的霓虹城市。我觉得太宏大也太电影化了，想贴近日常。保留热闹与孤独之间的关系，再试一个画面。",
+  "reply": "那就把尺度收回到一家晚饭时分的小面馆：几张桌子挨得很近，邻桌边吃边聊，老板从桌间穿过上菜；靠窗的双人桌上，一个人独自吃面，对面空着一把椅子。热闹贴在身边，那把空椅子留出一点孤独。你更想让这点孤独落在独自吃饭的人身上，还是让空着的椅子更显眼？",
+  "actual_reads": [
+    {
+      "path": "skills/oneirloom/SKILL.md",
+      "sha256": "18CFEA214B7361DD651D19618B7E66A482A73169FF91E1AF8F95CC712DE2C7EB"
+    },
+    {
+      "path": "skills/oneirloom-dream-weaving/SKILL.md",
+      "sha256": "BB05A7EA51F24F82F5695BC6CB0C21B1548223548F425F46878D1E77AED2B36C"
+    },
+    {
+      "path": "skills/oneirloom/references/interaction-contract.md",
+      "sha256": "13DC08D40AFFF785D96F0E6855F23981D4BA047D619BEB3072CEF33810B23449"
+    }
+  ],
+  "timestamp_utc": "2026-10-10T06:56:40Z",
+  "requested_model_and_effort": "gpt-6-luna effort max",
+  "server_model": "unknown",
+  "scope": "single-turn source trial with user-supplied prior-context fixture; not a live multi-turn conversation or installed discovery/human acceptance"
+}

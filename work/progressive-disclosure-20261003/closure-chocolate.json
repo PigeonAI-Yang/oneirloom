@@ -1,0 +1,39 @@
+{
+  "case_id": "closure-chocolate",
+  "requested_model": "gpt-6-luna",
+  "effort": "max",
+  "host": "native child explicit source read",
+  "turns": [
+    {
+      "input": "TEXT FIXTURE: a rectangular packaged chocolate bar; supplied manufacturer product sheet identifies chocolate as its ingredient. User explicitly wants a fantasy miniature town with chocolate buildings and a prominently recognizable bar. Only Chinese.",
+      "answer": "按你提供的文字资料，厂家产品表将巧克力列为原料，因此把巧克力用作幻想小镇建筑有明确的创意依据。主体保持为完整的矩形包装巧克力棒，并置于前景中央；小镇围绕它展开，确保包装棒一眼可辨。文字资料未提供包装的具体颜色、图案、品牌或文案，我不会替产品补造这些细节。\n\n**图像提示词**\n\n```text\n竖幅 3:4 的奇幻微缩城镇商品静物画。画面前景中央放置一块完整的矩形包装巧克力棒，横向摆放，长方形包装轮廓和封装状态清楚可辨，无遮挡，约占画面宽度三分之一，焦点锐利，视觉层级高于周围小镇。包装保持为独立商品主体，不变形成建筑。\n\n一座精致的幻想微缩城镇在巧克力棒的两侧与后方铺展开来，尺度明显小于产品。街道由前景两侧汇向城镇中心；小屋、拱门、塔楼和层叠屋顶由厚实的巧克力砖块与巧克力板搭成，表面呈自然巧克力棕色，切面与叠层清晰，材质有柔和光泽。城镇是明显想象出来的微缩布景，与包装产品之间留有清楚的空间层次。\n\n采用略高的三分之四视角和微距模型摄影质感；让巧克力棒与近处建筑清晰，远处街巷柔和虚化。温暖柔光、细腻接触阴影、简洁背景，画面童话而精致，商品主体醒目，微缩城镇一眼可读。\n```\n\n目前只有文字资料，没有可对照的产品图；这是未生成、未验图的提示词版本。"
+    }
+  ],
+  "reads": [
+    {
+      "path": "J:\\PigeonYang\\pigeonstack\\AGENTS.md",
+      "sha256": "D70B35F2A1CC9342EDAF206B3873E10E0CB4AF8B561914F4B1B55B39F242CB8A"
+    },
+    {
+      "path": "J:\\Users\\yangda01\\.codex\\local-plugins\\pstack\\CODEX.md",
+      "sha256": "999858F016B10649C8B7F199CEEF3B3BC6488782B4580954DA4C50058449EF03"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+      "sha256": "735B625D57C57481FBF6FE05801C89D4A23630B81C9BFC2E3B73270FA9B0E7CE"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+      "sha256": "146D2ABCE476FC525E5B2086FC0A5866A028CD0AD5C95F0E519531F03E579AC1"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-design\\SKILL.md",
+      "sha256": "49EAFFB4A83528DD1CD48F5AEDC53ED6991B68FADD3AB457813940D9D4369AD5"
+    }
+  ],
+  "limitations": [
+    "Only a text fixture was supplied; no product image was available to inspect packaging colors, graphics, brand, or exact text.",
+    "The manufacturer product-sheet claim is represented only in the supplied text and was not independently checked.",
+    "No image-generation tool was available; the answer is a prompt-only draft and no image was generated or visually inspected."
+  ]
+}

@@ -1,10 +1,10 @@
 # Oneirloom progressive-disclosure remediation proposal
 
-Status: **Proposal A approved by the user and implemented in source on 2026-10-03. Structural checks are recorded below; behavioral acceptance and deployment remain pending.**
+Status: **Proposal A approved by the user and implemented in source on 2026-10-03. Structural checks and bounded prompt-delivery closure are recorded below. Installed behavior and deployment remain unverified.**
 
 Prepared on 2026-10-03 against source checkout `J:/PigeonYang/skills/oneirloom`, commit `d5df2ed`. The original proposal recorded a clean working tree at preparation. The user subsequently authorized implementation with "可以实施". The [architecture](architecture.md) now describes the edited source. At implementation start, `.gitattributes`, `.gitignore`, `AGENTS.md`, and `PROJECT-FILES.md` were dirty, and this proposal was untracked. Existing unrelated working-tree changes were preserved. A separate operator advanced HEAD and staged files during authorship; the instruction baseline remains pinned to `d5df2ed`, and those external Git/LFS changes are not this migration's work. Installed skills, deployment, historical prompts, images, and evaluation answers were not updated by this migration.
 
-The research, baseline counts, alternatives, proposed topology, and staged acceptance below retain the decision record. Their original future-tense wording describes the approved plan, not an assertion that implementation is still unapproved. The final implementation section records what changed and what remains unverified.
+The research, baseline counts, alternatives, proposed topology, and staged acceptance below retain the decision record. Their original future-tense wording describes the approved plan, not an assertion that implementation is still unapproved. The final implementation section records what changed and what remains unverified. The proposal and future-tense tables retain the original approved plan; the actual source implementation and post-implementation text acceptance are recorded in the sections below.
 
 ## Decision proposed
 
@@ -353,3 +353,15 @@ PROJECT-FILES.md
 ```
 
 Retired instruction: `skills/oneirloom-style-design/references/graphic-design-sop.md`.
+
+## Post-implementation text acceptance
+
+The initial seven fresh native child-agent conversations explicitly read the edited source and produced 14 actual text responses. They do not verify installed discovery or a production image-tool entry. The initial ecommerce judgments were 6 passed, 3 failed, and 4 not executed, with two additional nonproduct text exercises passing. Core product evidence and revision behavior passed in the covered exchanges; the initial failures concerned a missing copyable prompt block and internal prohibition lists appearing in generation prose. See the [actual answers](../work/progressive-disclosure-20261003/actual-answers.md) and [acceptance report](../work/progressive-disclosure-20261003/acceptance-report.md) in the verification directory. No image generation or visual inspection was performed by this migration. Installation, deployment, publication, image fidelity, and repeatability remain unverified by this task.
+
+## Prompt-delivery closure
+
+Prompt-delivery closure executed 11 fresh native source-reading conversations with 17 actual text responses. The first closure batch passed 12 of 13 ecommerce cases. One response still serialized an unknown-fact inventory. A one-sentence clarification of the shared contract was followed by a fresh run of that case, which passed. The latest case judgments are 13 passed, 0 failed, and 0 unexecuted.
+
+Twelve results came from C1 and one rerun from C2. This does not establish that all cases were rerun on C2 or that behavior is repeatable. Original failed answers remain preserved. The [actual closure answers](../work/progressive-disclosure-20261003/closure-actual-answers.md) and [closure acceptance report](../work/progressive-disclosure-20261003/closure-acceptance-report.md) record the inputs, outputs, read hashes, and verdicts.
+
+The [C1 structural receipt](../work/progressive-disclosure-20261003/closure-structure-checks.json) records 18 successful entry validations and 60 unchanged evaluation fixtures. The [C2 author receipt](../work/progressive-disclosure-20261003/closure-inventory-author-checks.json) verifies the exact sentence replacement and preservation of all other shared-contract bytes. Product and diagnosis cues remain unchanged from C1. The 18-entry validation was not rerun on C2. Installation discovery, native Doubao invocation, generation, image inspection, image fidelity, deployment, and publication remain unverified.

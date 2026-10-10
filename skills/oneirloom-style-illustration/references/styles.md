@@ -1,5 +1,7 @@
 # 绘画与插画风格表
 
+For cross-medium style exploration or a family-level request, use the [visual-family index](../../oneirloom/references/visual-families/index.md); this table remains illustration-specific.
+
 ## 双向用法
 
 - **正向写作**：按行选一种媒介，把“优先写的可见属性”列写进提示词，用“验收”列核对表述是否可检验。

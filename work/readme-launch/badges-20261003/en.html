@@ -1,0 +1,111 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="file:///J:/PigeonYang/skills/oneirloom/"><style>body{margin:0;color:#24292f;background:white;font:16px/1.7 "Microsoft YaHei",sans-serif}main{max-width:1012px;margin:auto;padding:32px}img{display:block;max-width:100%;height:auto}main>p:has(img){margin:0}a{color:#0969da}h1,h2{border-bottom:1px solid #d0d7de;padding-bottom:10px}pre{background:#f6f8fa;padding:16px;overflow:auto}table{border-collapse:collapse;display:block;overflow:auto}th,td{padding:8px 12px;border:1px solid #d0d7de}summary{cursor:pointer}@media(max-width:600px){main{padding:16px}body{font-size:14px}}
+main > div[align="center"] h1 { border: none; }
+main > div[align="center"] p img[src^="https://img.shields.io/"] {
+  display: inline-block; width: auto; height: 20px; max-width: 100%;
+}
+</style></head><body><main><div align="center">
+
+<h1>Oneirloom · 织梦师</h1>
+
+<p><strong>Turn imagination into images.</strong></p>
+
+<p>An open-source collection of visual prompting skills for analyzing images, developing concepts, writing complete prompts, and refining generated results.</p>
+
+<p>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/forks"><img alt="GitHub forks" src="https://img.shields.io/github/forks/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" /></a>
+</p>
+
+<p>
+  <a href="https://www.pigeonyang.top/en/skills/oneirloom/"><img alt="Website" src="https://img.shields.io/badge/Website-Oneirloom-7c3aed?style=flat-square" /></a>
+  <a href="#example-evidence"><img alt="Examples" src="https://img.shields.io/badge/Examples-Browse-f59e0b?style=flat-square" /></a>
+  <a href="https://github.com/PigeonAI-Yang/oneirloom/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/PigeonAI-Yang/oneirloom?style=flat-square&amp;logo=github" /></a>
+  <a href="https://github.com/PigeonAI-Yang"><img alt="GitHub followers" src="https://img.shields.io/github/followers/PigeonAI-Yang?style=flat-square&amp;logo=github&amp;label=Follow%20author" /></a>
+  <a href="https://x.com/KimbomArtist"><img alt="X KimbomArtist" src="https://img.shields.io/badge/X-KimbomArtist-000000?style=flat-square&amp;logo=x&amp;logoColor=white" /></a>
+  <a href="https://www.xiaohongshu.com/user/profile/689af6b90000000019016082"><img alt="Xiaohongshu Dibo" src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-Dibo-ff2442?style=flat-square&amp;logo=xiaohongshu&amp;logoColor=white" /></a>
+</p>
+
+<p>
+  <a href="#use">Use</a> · <a href="#example-evidence">Examples</a> · <a href="#three-layers">Skills</a> · <a href="README.md">中文</a> | <a href="README.en.md">English</a> · <a href="https://www.pigeonyang.top/en/skills/oneirloom/">Website</a>
+</p>
+</div>
+
+<p align="center">
+  <a href="docs/assets/product-page/01-hero-oneirloom-v4.webp"><img src="docs/assets/product-page/01-hero-oneirloom-v4.webp" alt="Oneirloom hero image featuring Dream Cocoon, portraits, a folklore illustration, and product advertising." /></a>
+</p>
+
+<p>Oneirloom is the public name of this collection, also called "织梦师", "织梦师Skill", or "Oneirloom Skill". The main technical skill ID is <code>oneirloom</code>; method IDs use the <code>oneirloom-</code> prefix.</p>
+<p>Turn visual requests, references, and generation misses into complete image prompts, or develop illustrated image-generation tutorials.</p>
+<p>The collection uses three layers: <strong>one main skill, reusable method skills, and indexed templates</strong>. Concrete recipes live with their prompts and example records instead of becoming separate skills.</p>
+<h2 id="use">Use</h2>
+<p>The proposed <code>0.2.0-preview.1</code> candidate contains <strong>18 free skills</strong>. Its <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">fixed package URL</a> is <strong>not yet published</strong>. Version and release approval are pending. After publication, use the publisher-built ZIP and companion <code>SHA256SUMS</code>, rather than GitHub's generated source archive. See <a href="docs/INSTALL.md">installation and rollback</a>, <a href="docs/releases/0.2.0-preview.1.md">release notes</a>, and <a href="docs/COMPATIBILITY.md">verification status</a>.</p>
+<p>The <code>main</code> branch is for development. Use a confirmed versioned package for installation; contributors need Git LFS to fetch the complete source images. The core skills require no Go runtime or local image model. Generation tools and optional card-rendering dependencies are separate. Public prompt cards are unbranded by default; an authorized local watermark is optional.</p>
+<ol>
+<li>Follow the installation guide to copy all 18 directories under <code>skills/</code> as siblings into a new project's <code>.agents/skills/</code>. Preserve the exact prior installation and package hash before an upgrade.</li>
+<li>Ask for Oneirloom, "织梦师", or "织梦师Skill"; explicitly invoke <code>$oneirloom</code> when using the technical ID. Method skills remain available directly.</li>
+<li>Give the requested image or tutorial goal and any model, reference, or result already available. Confirmed conversation settings are inherited.</li>
+<li>The main skill selects methods. A method reads its template index only when a concrete recipe helps, then loads a matching template. Without a match, it composes from its reusable method.</li>
+</ol>
+<p>For standalone image prompts, the default output is a complete Chinese prompt followed by an equivalent English prompt, with one pair per explicitly requested model. An explicit single-language request overrides this default. Parameters and reference-image inputs remain outside prompt text.</p>
+<p>For tutorials, invoke <code>oneirloom-image-tutorial</code> or ask the main skill to write, expand, or polish an illustrated lesson. The requested article language and author voice govern the deliverable. Prose-only revisions reuse existing evidence.</p>
+<h2 id="three-layers">Three layers</h2>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main</td>
+<td><a href="skills/oneirloom/SKILL.md">Oneirloom</a>: context, routing, integration, output contract</td>
+</tr>
+<tr>
+<td>Methods</td>
+<td>Visual analysis; character sheets; expression stickers; icons; brand identity; figure art; camera/composition; color/light; photography; illustration; design; Krea 2; Qwen-Image-2.1; result diagnosis; tutorial writing</td>
+</tr>
+<tr>
+<td>Templates</td>
+<td><a href="skills/oneirloom-style-photography/templates/index.md">Photography</a>, <a href="skills/oneirloom-character-sheet/templates/index.md">character sheets</a>, <a href="skills/oneirloom-style-illustration/templates/index.md">illustration</a>, and <a href="skills/oneirloom-style-design/templates/index.md">design</a>: selection, visual anchors, slots, prompt scaffolds, image paths and evidence</td>
+</tr>
+</tbody>
+</table>
+<p>Templates include crouching selfies, indoor full-length portraits, four-view plus four-expression cards, three-view cards, character wardrobe sheets, decorative rainy-night prints, halftone portrait cutouts, physical fuse-bead artworks, and portrait-to-blind-box comparison images.</p>
+<p>A method directory includes its own template assets. Method skills remain usable without a matching template. Skill lookup uses exact names; Markdown links do not automatically invoke skills. For installation and ownership details, see the <a href="docs/architecture.md">architecture</a>.</p>
+<h2 id="specialist-design-methods">Specialist design methods</h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Scope</th>
+<th>Templates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="skills/oneirloom-expression-stickers/SKILL.md">oneirloom-expression-stickers</a></td>
+<td>Reaction intent, consistent character identity, and individual sticker delivery</td>
+<td><a href="skills/oneirloom-expression-stickers/templates/index.md">Head reactions, action gestures, caption reactions</a></td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-icon-design/SKILL.md">oneirloom-icon-design</a></td>
+<td>UI icon families, app symbols, and native vector assets</td>
+<td><a href="skills/oneirloom-icon-design/templates/index.md">Outline UI, solid UI, app symbol</a></td>
+</tr>
+<tr>
+<td><a href="skills/oneirloom-brand-identity/SKILL.md">oneirloom-brand-identity</a></td>
+<td>Coherent VI foundations, applications, guidelines, and asset handoff</td>
+<td><a href="skills/oneirloom-brand-identity/templates/index.md">Wordmark, mascot, editorial systems</a></td>
+</tr>
+</tbody>
+</table>
+<p>These methods reuse the graphic-design SOP within the existing three layers. Their nine recipes are researched starting points with no corresponding generated examples or end-to-end VI production tests. A requested SVG, asset set, or VI guideline uses its artifact contract; prompt-only work retains complete bilingual prompts. A contact sheet or brand board does not establish complete asset delivery.</p>
+<h2 id="example-evidence">Example evidence</h2>
+<p>The <a href="skills/oneirloom-style-photography/templates/indoor-full-length/template.md">indoor full-length template</a> contains an existing generated PNG and its exact submitted prompt and settings. The image was inspected during migration, with framing and foot-spacing limitations recorded. Its generalized scaffold has not been generated.</p>
+<p>Other migrated templates explicitly distinguish missing image evidence from user-reported results. Adding an image path does not itself establish visual success.</p>
+<p>The <a href="skills/oneirloom-character-sheet/templates/wardrobe-sheet/template.md">character wardrobe sheet</a> contains an original illustrated reference, a user-provided realistic result, and the Chinese prompt delivered in the conversation. The result was inspected with turnaround and costume-portrait deviations. Its actual execution metadata is unknown, and the generalized scaffold has not been generated.</p>
+<h2 id="maintenance">Maintenance</h2>
+<p>Read <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> for adding templates and examples, and <a href="docs/model-evidence.md">model evidence</a> for model-specific claims. This repository uses the MIT license; model and service terms remain separate.</p></main></body></html>

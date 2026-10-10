@@ -1,0 +1,179 @@
+{
+  "created_utc": "2026-10-10T16:22:32.597583Z",
+  "baseline_commit": "3c15c394b6feff57c7a2193f8d524e2475b90148",
+  "branch": "codex/oneirloom-0.3.0-preview",
+  "source": "skills/oneirloom-style-design/templates/fuse-bead",
+  "destination": "skills/oneirloom-craft-construction/templates/fuse-bead",
+  "fuse_bead_files": [
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png",
+      "length": 135,
+      "sha256": "02b4f77f8caeac3b796b5e9e825e25b87cf68b7e63f74b338d49e216f1de0146"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.webp",
+      "length": 1590322,
+      "sha256": "70b13d0c310b79fd34ea0dce640619736201c0613e232725b2e10c39c15decc2"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png",
+      "length": 135,
+      "sha256": "f80384b618414ca338041b2ceee61a45460977f3e3bec1c154a877a3cbb626fb"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.webp",
+      "length": 1218620,
+      "sha256": "00df33b13aa9ed48e7591f3850ccf407d7e6a7dc7ff4612fe7157967900b52d1"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/reference-01.json",
+      "length": 870,
+      "sha256": "a87d37784396cc7d3e6b534728d87706927ca205540ee768ca83aea957657b9f"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/result-01.json",
+      "length": 1802,
+      "sha256": "53e056582887bb53313ff1cb69b59d70245f880433f5640de72db3d05f5dd138"
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/template.md",
+      "length": 7368,
+      "sha256": "02ab45657879a19a1ead8e32cbfed33f09d58a4fb20a84e04ff84ab5502e56d8"
+    }
+  ],
+  "fuse_bead_fenced_prompt_blocks": [
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/template.md",
+      "ordinal": 1,
+      "sha256": "a94edaec5e06fd41f595aadf231d6f323a16fe6422a325bff823389f504a9d5a",
+      "content_base64": "YGBgdGV4dA0K5qC55o2u6L6T5YWl55qE5YaF5a655Y+C6ICD5Zu+77yM5bCG5Li75L2T6L2s5YyW5Li65LiA5Lu257K+57uG55qE5a6e5L2T5ou86LGG5omL5bel5L2c5ZOB44CC5L+d55WZ5Y6f5Li75L2T55qE6L6o6K+G54m55b6B44CB5aSW6L2u5buT44CB5q+U5L6L44CB5ae/5oCB44CB6KeC5a+f6KeS5bqm44CB5Li76KaB6Imy5b2p5Y+K5YaF6YOo5YWD57Sg55qE5L2N572u5YWz57O777yM5bCG6L+Z5Lqb6KeG6KeJ5L+h5oGv6YeN5paw57uE57uH5Li655Sx5b2p6Imy5ou86LGG57uE5oiQ55qE5bmz6Z2i5Zu+5qGI44CCDQoNCuaVtOS7tuS9nOWTgeeUseWwuuWvuOS4gOiHtOeahOefreWchuafseW9ouWhkeaWmeaLvOixhue0p+WvhuaOkuWIl+iAjOaIkO+8jOavj+mil+aLvOixhumDveWFt+aciea4heaZsOeahOS4reWkruWchuWtlOOAgeeVpeW+ruWchua2pueahOeOr+W9oumhtumdouWSjOWPr+ingeeahOS+p+WjgeWOmuW6puOAguaJgOacieaLvOixhuerluebtOeri+S6juWQjOS4gOW5s+mdou+8jOaMieinhOWImeeahOawtOW5s+ihjOWIl+aOkuWIl++8jOavj+mil+aLvOixhuS9nOS4uuS4gOS4queLrOeri+eahOiJsuW9qeWNleWFg+OAguS7peaciemZkOiAjOWNj+iwg+eahOe6r+iJsuiJsumYtui/mOWOn+WPguiAg+WbvuS4reeahOaYjuaal+S4juiJsuW9qeWPmOWMlu+8jOeUqOebuOmCu+ixhueykueahOminOiJsuaOkuWIl+ihqOeOsOe7huiKguWSjOa4kOWPmOOAguS4u+S9k+i9ruW7k+maj+e9keagvOW9ouaIkOe7huWwj+eahOmYtuair+eKtui+uee8mO+8jOWFs+mUruWGhemDqOe7k+aehOmAmui/h+a3sea1heiJsuixhueykuS/neaMgea4healmuWPr+i+qO+8jOWklue8mOWinuWKoOS4gOWciOWltuayueeZveiJsuaLvOixhuaUtui+ueOAgg0KDQrkvZzlk4HlkYjljZXlsYLoloTniYfnirbvvIzlubPmlL7lnKjmuKnmmpbnmoTosaHniZnnmb3oibLlk5HlhYnmoYzpnaLkuIrjgILku6XmjqXov5HlnoLnm7Tkv6/mi43nmoTop4bop5LlrozmlbTlsZXnpLrkvZzlk4HvvIzkuLvkvZPlsYXkuK3vvIzlm5vlkajnlZnlh7roiJLpgILnqbrpl7TjgILmn5TlkozlhYnnur/ku47lt6bkuIrmlrnnhaflhaXvvIzosYbnspLnjq/lvaLpobbpnaLluKbmnInnu4bohbvnmoTloZHmlpnpq5jlhYnvvIzlnIblrZTlhoXpg6jlkYjnjrDoh6rnhLbmmpfpg6jvvIzosYbnspLkuYvpl7Tku6Xlj4rkvZzlk4Hlj7PkuIvmlrnlvaLmiJDovbvmn5TnmoTmjqXop6bpmLTlvbHjgILmlbTluYXlkYjnjrDnnJ/lrp7miYvlt6Xmi7zosYbmiJDlk4HnmoTpnZnnianmkYTlvbHotKjmhJ/vvIzosYbnspLpopfpopfliIbmmI7vvIzoibLlvanlubLlh4DvvIznu4boioLmuIXmmbDjgIINCmBgYA0="
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/fuse-bead/template.md",
+      "ordinal": 2,
+      "sha256": "6c556d684b28143aa97db8772d75098baa35cee01104a1c9a9de1305be0f9079",
+      "content_base64": "YGBgdGV4dA0KVHJhbnNmb3JtIHRoZSBzdWJqZWN0IGluIHRoZSBpbnB1dCBjb250ZW50IHJlZmVyZW5jZSBpbnRvIGEgZmluZWx5IGNyYWZ0ZWQgcGh5c2ljYWwgZnVzZS1iZWFkIGFydHdvcmsuIFByZXNlcnZlIHRoZSBzdWJqZWN04oCZcyByZWNvZ25pemFibGUgZmVhdHVyZXMsIHNpbGhvdWV0dGUsIHByb3BvcnRpb25zLCBwb3NlLCB2aWV3aW5nIGFuZ2xlLCBwcmluY2lwYWwgY29sb3JzLCBhbmQgdGhlIHJlbGF0aXZlIHBvc2l0aW9ucyBvZiBpdHMgaW50ZXJuYWwgZWxlbWVudHMuIFJlY29uc3RydWN0IHRoaXMgdmlzdWFsIGluZm9ybWF0aW9uIGFzIGEgZmxhdCBkZXNpZ24gYXNzZW1ibGVkIGVudGlyZWx5IGZyb20gY29sb3JlZCBwbGFzdGljIGJlYWRzLg0KDQpCdWlsZCB0aGUgYXJ0d29yayBmcm9tIHRpZ2h0bHkgYXJyYW5nZWQsIHVuaWZvcm1seSBzaXplZCBzaG9ydCBjeWxpbmRyaWNhbCBmdXNlIGJlYWRzLiBFYWNoIGJlYWQgaGFzIGEgY2xlYXJseSB2aXNpYmxlIGNlbnRyYWwgaG9sZSwgYSBzbGlnaHRseSByb3VuZGVkIHJpbmctc2hhcGVkIHRvcCwgYW5kIGRpc2Nlcm5pYmxlIHNpZGV3YWxsIHRoaWNrbmVzcy4gQWxsIGJlYWRzIHN0YW5kIHBlcnBlbmRpY3VsYXIgdG8gdGhlIHNhbWUgcGxhbmUgaW4gcmVndWxhciBob3Jpem9udGFsIHJvd3MgYW5kIHZlcnRpY2FsIGNvbHVtbnMsIHdpdGggZWFjaCBiZWFkIGFjdGluZyBhcyBhIHNpbmdsZSBjb2xvciB1bml0LiBSZXByb2R1Y2UgdGhlIHJlZmVyZW5jZeKAmXMgc2hhZGluZyBhbmQgY29sb3IgcmVsYXRpb25zaGlwcyB0aHJvdWdoIGEgbGltaXRlZCwgaGFybW9uaW91cyBwYWxldHRlIG9mIHNvbGlkLWNvbG9yZWQgYmVhZHMuIFJlbmRlciBkZXRhaWxzIGFuZCB0b25hbCB0cmFuc2l0aW9ucyB0aHJvdWdoIHRoZSBhcnJhbmdlbWVudCBvZiBuZWlnaGJvcmluZyBiZWFkIGNvbG9ycy4gTGV0IHRoZSBzaWxob3VldHRlIGZvbGxvdyB0aGUgZ3JpZCBpbiBzbWFsbCBzdGVwcGVkIGVkZ2VzLCBwcmVzZXJ2ZSByZWNvZ25pemFibGUgaW50ZXJuYWwgc3RydWN0dXJlcyB0aHJvdWdoIGNvbnRyYXN0aW5nIGJlYWQgY29sb3JzLCBhbmQgZmluaXNoIHRoZSBvdXRlciBjb250b3VyIHdpdGggYSBzaW5nbGUgcm93IG9mIGNyZWFtLXdoaXRlIGJlYWRzLg0KDQpUaGUgZmluaXNoZWQgYXJ0d29yayBpcyBhIGZsYXQsIHNpbmdsZS1iZWFkLXRoaWNrIHBpZWNlIHJlc3Rpbmcgb24gYSB3YXJtIGl2b3J5IG1hdHRlIHRhYmxldG9wLiBTaG93IHRoZSBlbnRpcmUgcGllY2UgZnJvbSBhbiBhbG1vc3QgZGlyZWN0bHkgb3ZlcmhlYWQgdmlld3BvaW50LCBjZW50ZXJlZCB3aXRoIGNvbWZvcnRhYmxlIHNwYWNlIGFyb3VuZCBpdC4gU29mdCBsaWdodCBlbnRlcnMgZnJvbSB0aGUgdXBwZXIgbGVmdCwgcHJvZHVjaW5nIHN1YnRsZSBwbGFzdGljIGhpZ2hsaWdodHMgb24gdGhlIGJlYWQgcmltcywgbmF0dXJhbCBkYXJrbmVzcyBpbnNpZGUgdGhlIGhvbGVzLCBhbmQgZ2VudGxlIGNvbnRhY3Qgc2hhZG93cyBiZXR3ZWVuIHRoZSBiZWFkcyBhbmQgYmVuZWF0aCB0aGUgbG93ZXItcmlnaHQgZWRnZSBvZiB0aGUgYXJ0d29yay4gUHJlc2VudCBpdCBhcyBhIHJlYWxpc3RpYyBzdGlsbC1saWZlIHBob3RvZ3JhcGggb2YgYSBoYW5kbWFkZSBmdXNlLWJlYWQgb2JqZWN0LCB3aXRoIGluZGl2aWR1YWxseSBkaXN0aW5ndWlzaGFibGUgYmVhZHMsIGNsZWFuIGNvbG9ycywgYW5kIGNyaXNwIGRldGFpbC4NCmBgYA0="
+    }
+  ],
+  "blind_box_fenced_prompt_blocks": [
+    {
+      "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
+      "ordinal": 1,
+      "sha256": "811f201b97be0f20a98668b0c0d0f27d7fb5084cad2b3c5abe0ddce24e5a4939",
+      "content_base64": "YGBgdGV4dArliLbkvZzkuIDlvKDnq5bniYjkuIrkuIvlr7nnhaflm77vvIznlLvpnaLliIbkuLrkuIrkuIvkuKTkuKrnrYnlrr3ljLrln5/vvIzkuIrljYrpg6jliIbnuqbljaDmgLvpq5jluqbnmoQ0NSXvvIzkuIvljYrpg6jliIbnuqbljaA1NSXvvIzkuKTpg6jliIbnm7TmjqXkuIrkuIvmi7zmjqXjgIIKCuS4iuWNiumDqOWIhuWxleekujxpbWFnZTE+5Y6f5aeL54Wn54mH77yM5L+d55WZ5Y6f54Wn54mH5Lit55qE5Lq654mp44CB55yf5a6e6Z2i6LKM44CB5Y+R5Z6L44CB6KGo5oOF44CB5pyN6KOF44CB6IOM5pmv5ZKM5pGE5b2x6LSo5oSf44CC5oyJ5Y6f5Zu+5q+U5L6L562J5q+U57yp5pS+77yM5Lul5a6M5pW05L+d55WZ5Lq654mp5aS06YOo5LiO5Li76KaB5pyN6KOF54m55b6B55qE5pa55byP5o6S5YWl5LiK5pa55Yy65Z+f44CCCgrkuIvljYrpg6jliIblsZXnpLrmoLnmja48aW1hZ2UxPuS4reWQjOS4gOS6uueJqeiuvuiuoeeahOeyvuiHtOaUtuiXj+e6p+ebsuebkueOqeWBtuOAguiuqeS4iuS4i+S4pOS4quS6uueJqeWcqOWPkeWei+i9ruW7k+OAgeWPkeiJsuOAgeecieecvOeJueeCueOAgeelnuaAgeS7peWPiuacjeijheasvuW8j+WSjOmFjeiJsuS4iuW9ouaIkOaYjuehruWvueW6lOOAguWwhuecn+S6uueJueW+gei9rOivkeaIkOWkp+WktOefrei6q+eahOeOqeWBtumAoOWei++8muWktOmDqOi/nuWQjOWktOWPkee6puWNoOWdkOWnv+aAu+mrmOW6pueahOS4gOWNiu+8jOWktOWuveaYjuaYvuWkp+S6jui6r+W5su+8jOi6q+S9k+efreWwj+e0p+WHke+8jOWbm+iCouWchua2puOAguiEuOmiiumlsea7oe+8jOS4i+W3tOWwj+W3p++8jOecvOedm+mAguW6puaUvuWkp+W5tuS/neeVmeWOn+S6uueJqeeahOecvOW9oueJueeCue+8jOWRiOeOsOS+p+ebrua1heeskeeahOS/j+earuelnuaAge+8jOWPjOmiiuS4jum8u+WwluW4puacieaflOWSjOeyieiJsuaZleafk+OAggoK546p5YG26Z2i6YOo5ZKM5Y+M5omL6YeH55So57uG6IW755qE5Y2K5ZOR5YWJ5pCq6IO26LSo5oSf77yM55y8552b5YW35pyJ5riF5r6I55qE546755KD5oSf5LiO5bCP6ICM5piO5Lqu55qE5Y+N5YWJ44CC5aS05Y+R5Lul5bGC5Y+g44CB5Y6a5a6e55qE56uL5L2T5Y+R5p2f5aGR6YCg77yM5L+d55WZ5Y6f5Y+R5Z6L55qE5YiG57yd44CB6JOs5p2+6L2u5buT5LiO5Y+R5Lid6LWw5ZCR77yM5Y+R5p2f5YW35pyJ5riF5qWa55qE5L2T56ev5ZKM57uG6Ie05Yi757q544CC5pyN6KOF5rK/55SoPGltYWdlMT7kuK3nmoTmrL7lvI/lkozphY3oibLvvIzku6Xnsr7nu4blvq7nvKnnu4fnianliLbkvZzvvIznu5LpnaLpg6jliIblhbfmnInnu4blr4bnn63nu5LvvIzooaPoopblkozooaPouqvlvaLmiJDmn5Tova/ljprlrp7nmoTopLbnmrHjgIIKCueOqeWBtuato+mdouWdkOWcqOWcsOmdouS4iu+8jOWktOmDqOi9u+W+ruS+p+i9rOW5tueVpeW+ruWAvuaWnO+8jOiCqeiGgOW+ruW+ruaKrOi1t+OAguS4pOadoeefreiFv+WQkei6q+S9k+S4pOS+p+iHqueEtuaJk+W8gO+8jOiGneebluW8r+absu+8jOS4pOWPquWchua2pueahOiEmuacneWQkemVnOWktO+8jOmcsuWHuuaflOi9r+eahOeyieiJsue7h+eJqemei+W6leOAguWPjOiHguWeguWcqOi6q+S9k+WJjeaWue+8jOS4pOWPquWwj+aJi+S7juiiluWPo+aOouWHuu+8jOW5tuaOkuiQveWcqOS4pOiEmuS5i+mXtO+8jOaMh+WwluacneWJje+8jOW9ouaIkOS5luW3p+OAgeeVpeW4pue+nua2qeeahOWdkOWnv+OAggoK5LiL5Y2K6YOo5YiG6YeH55So5pqW57KJ57Gz6Imy5peg57yd6IOM5pmv5LiO5ZCM6Imy5Zyw6Z2i77yM5a6M5pW05a6557qz546p5YG255qE5aS05Y+R44CB6Lqr5L2T44CB5Y+M5omL5ZKM5Y+M6ISa44CC5p+U5ZKM55qE5aSn6Z2i56ev5YWJ57q/5aGR6YCg5ZyG5ram5L2T56ev77yM5Zyw6Z2i5L+d55WZ6L275p+U55qE5o6l6Kem6Zi05b2x77yM5ZGI546w55yf5a6e5a6e5L2T546p5YG255qE57K+57uG5Lqn5ZOB5pGE5b2x5pWI5p6c44CC5LiK5LiL5Lik6YOo5YiG55qE5Li75L2T5Lit5b+D5a+56b2Q77yM5LiK5pa55ZGI546w5Y6f5aeL55yf5Lq654Wn54mH77yM5LiL5pa55ZGI546w5a+55bqU55qE5a6M5pW05Z2Q5ae/546p5YG277yM5p6E5oiQ5riF5qWa55u06KeC55qE5pS56YCg5YmN5ZCO5a+554Wn44CCCmBgYA=="
+    },
+    {
+      "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
+      "ordinal": 2,
+      "sha256": "bb86c92319b6dd37e7b83671d25b7d844d2ee289a90e0be7dae420663e314ec7",
+      "content_base64": "YGBgdGV4dApDcmVhdGUgYSB2ZXJ0aWNhbCBiZWZvcmUtYW5kLWFmdGVyIGNvbXBhcmlzb24gaW1hZ2Ugd2l0aCB0d28gZXF1YWwtd2lkdGggcGFuZWxzIHN0YWNrZWQgZGlyZWN0bHkgYWJvdmUgYW5kIGJlbG93IGVhY2ggb3RoZXIuIFRoZSB1cHBlciBwYW5lbCBvY2N1cGllcyBhcHByb3hpbWF0ZWx5IDQ1JSBvZiB0aGUgdG90YWwgaGVpZ2h0LCBhbmQgdGhlIGxvd2VyIHBhbmVsIG9jY3VwaWVzIGFwcHJveGltYXRlbHkgNTUlLgoKSW4gdGhlIHVwcGVyIHBhbmVsLCBkaXNwbGF5IHRoZSBvcmlnaW5hbCBwaG90b2dyYXBoIGZyb20gPGltYWdlMT4sIHByZXNlcnZpbmcgdGhlIHBlcnNvbuKAmXMgcmVhbCBhcHBlYXJhbmNlLCBoYWlyc3R5bGUsIGV4cHJlc3Npb24sIGNsb3RoaW5nLCBiYWNrZ3JvdW5kLCBhbmQgcGhvdG9ncmFwaGljIHRleHR1cmUuIFNjYWxlIHRoZSBwaG90b2dyYXBoIHByb3BvcnRpb25hbGx5IGFuZCBhcnJhbmdlIGl0IHRvIHJldGFpbiB0aGUgZW50aXJlIGhlYWQgYW5kIHRoZSBwcmluY2lwYWwgY2xvdGhpbmcgZmVhdHVyZXMuCgpJbiB0aGUgbG93ZXIgcGFuZWwsIGRpc3BsYXkgYSBmaW5lbHkgY3JhZnRlZCBjb2xsZWN0aWJsZSBibGluZC1ib3ggZmlndXJlIGRlc2lnbmVkIGZyb20gdGhlIHNhbWUgcGVyc29uIGluIDxpbWFnZTE+LiBFc3RhYmxpc2ggY2xlYXIgY29ycmVzcG9uZGVuY2UgYmV0d2VlbiB0aGUgdHdvIHZlcnNpb25zIHRocm91Z2ggdGhlIGhhaXIgc2lsaG91ZXR0ZSBhbmQgY29sb3IsIGNoYXJhY3RlcmlzdGljIGV5ZWJyb3dzIGFuZCBleWVzLCBleHByZXNzaW9uLCBjbG90aGluZyBkZXNpZ24sIGFuZCBjbG90aGluZyBjb2xvcnMuIFRyYW5zbGF0ZSB0aGUgcGVyc29uIGludG8gYSBsYXJnZS1oZWFkZWQsIGNvbXBhY3QgdG95OiB0aGUgaGVhZCBpbmNsdWRpbmcgaXRzIGhhaXIgb2NjdXBpZXMgYXBwcm94aW1hdGVseSBoYWxmIHRoZSBzZWF0ZWQgZmlndXJl4oCZcyBoZWlnaHQsIHRoZSBoZWFkIGlzIGRpc3RpbmN0bHkgd2lkZXIgdGhhbiB0aGUgdG9yc28sIGFuZCB0aGUgYm9keSBhbmQgbGltYnMgYXJlIHNob3J0IGFuZCByb3VuZGVkLiBHaXZlIHRoZSBmYWNlIGZ1bGwgY2hlZWtzLCBhIHNtYWxsIGNoaW4sIGFuZCBtb2RlcmF0ZWx5IGVubGFyZ2VkIGV5ZXMgdGhhdCByZXRhaW4gdGhlIHBlcnNvbuKAmXMgY2hhcmFjdGVyaXN0aWMgZXllIHNoYXBlLiBVc2UgYSBwbGF5ZnVsIHNpZGVsb25nIGdsYW5jZSBhbmQgc3VidGxlIHNtaWxlLCB3aXRoIHNvZnQgcGluayBibHVzaCBvbiB0aGUgY2hlZWtzIGFuZCBub3NlIHRpcC4KClJlbmRlciB0aGUgZmlndXJl4oCZcyBmYWNlIGFuZCBoYW5kcyBpbiBmaW5lbHkgZmluaXNoZWQgc2VtaS1tYXR0ZSB2aW55bCwgd2l0aCBjbGVhciBnbGFzcy1saWtlIGV5ZXMgYW5kIHNtYWxsIGJyaWdodCBjYXRjaGxpZ2h0cy4gQ29uc3RydWN0IHRoZSBoYWlyIGZyb20gbGF5ZXJlZCwgc3Vic3RhbnRpYWwgc2N1bHB0ZWQgbG9ja3MgdGhhdCBwcmVzZXJ2ZSB0aGUgb3JpZ2luYWwgcGFydGluZywgdm9sdW1lLCBhbmQgaGFpciBkaXJlY3Rpb24sIHdpdGggZGlzdGluY3QgdGhyZWUtZGltZW5zaW9uYWwgZm9ybXMgYW5kIGRlbGljYXRlIGVuZ3JhdmVkIHN0cmFuZHMuIFJlY3JlYXRlIHRoZSBjbG90aGluZyBkZXNpZ24gYW5kIGNvbG9ycyBmcm9tIDxpbWFnZTE+IGluIGRldGFpbGVkIG1pbmlhdHVyZSB0ZXh0aWxlcywgd2l0aCBmaW5lIHNob3J0LXBpbGUgdGV4dHVyZSBvbiBwbHVzaCBhcmVhcyBhbmQgc29mdCwgdGhpY2sgZm9sZHMgYWNyb3NzIHRoZSBzbGVldmVzIGFuZCBib2R5LgoKU2VhdCB0aGUgZmlndXJlIGZhY2luZyBmb3J3YXJkLCB3aXRoIHRoZSBoZWFkIHNsaWdodGx5IHR1cm5lZCBhbmQgdGlsdGVkIGFuZCB0aGUgc2hvdWxkZXJzIGdlbnRseSByYWlzZWQuIFNwcmVhZCB0aGUgc2hvcnQgYmVudCBsZWdzIG5hdHVyYWxseSB0byBlaXRoZXIgc2lkZS4gUG9pbnQgYm90aCByb3VuZGVkIGZlZXQgdG93YXJkIHRoZSBjYW1lcmEsIHNob3dpbmcgc29mdCBwaW5rIGZhYnJpYyBzb2xlcy4gTG93ZXIgdGhlIGFybXMgaW4gZnJvbnQgb2YgdGhlIGJvZHksIHdpdGggYm90aCBzbWFsbCBoYW5kcyBlbWVyZ2luZyBmcm9tIHRoZSBjdWZmcyBhbmQgcmVzdGluZyBzaWRlIGJ5IHNpZGUgYmV0d2VlbiB0aGUgZmVldCwgZmluZ2VydGlwcyBwb2ludGluZyBmb3J3YXJkLiBUaGUgc2VhdGVkIHBvc2UgZmVlbHMgZW5kZWFyaW5nIGFuZCBzbGlnaHRseSBzaHkuCgpVc2UgYSBzZWFtbGVzcyB3YXJtIGJsdXNoLWJlaWdlIGJhY2tncm91bmQgYW5kIG1hdGNoaW5nIGZsb29yIGluIHRoZSBsb3dlciBwYW5lbC4gSW5jbHVkZSB0aGUgZmlndXJl4oCZcyBlbnRpcmUgaGFpciBzaWxob3VldHRlLCBib2R5LCBoYW5kcywgYW5kIGZlZXQuIFNvZnQgYnJvYWQgbGlnaHRpbmcgc2hhcGVzIHRoZSByb3VuZGVkIGZvcm1zLCB3aXRoIGdlbnRsZSBjb250YWN0IHNoYWRvd3Mgb24gdGhlIGZsb29yIGFuZCB0aGUgZGV0YWlsZWQgcHJvZHVjdC1waG90b2dyYXBoeSBhcHBlYXJhbmNlIG9mIGEgcGh5c2ljYWwgY29sbGVjdGlibGUuIEFsaWduIHRoZSBzdWJqZWN0cyBjZW50cmFsbHkgYWNyb3NzIGJvdGggcGFuZWxzOiB0aGUgb3JpZ2luYWwgcmVhbC1wZXJzb24gcGhvdG9ncmFwaCBhYm92ZSBhbmQgdGhlIGNvcnJlc3BvbmRpbmcgY29tcGxldGUgc2VhdGVkIHRveSBiZWxvdywgZm9ybWluZyBhIGNsZWFyIGJlZm9yZS1hbmQtYWZ0ZXIgdHJhbnNmb3JtYXRpb24gY29tcGFyaXNvbi4KYGBg"
+    }
+  ],
+  "checkpoint_tag": "checkpoint/pre-0.3.0-preview-20261010",
+  "post_migration_verification": {
+    "status": "passed",
+    "verification_utc": "2026-10-10T16:36:25Z",
+    "branch": "codex/oneirloom-0.3.0-preview",
+    "baseline_head_and_checkpoint_tag_commit": "3c15c394b6feff57c7a2193f8d524e2475b90148",
+    "current_source_skill_count": 22,
+    "checkpoint_baseline_skill_paths": 19,
+    "checkpoint_baseline_missing_paths": [],
+    "migrated_files": {
+      "recorded_source_files": 7,
+      "source_template_hash_matches_record": true,
+      "images_and_json_byte_identical": 6,
+      "template_change": "One 550-byte mapping paragraph insertion; all other original bytes retained"
+    },
+    "archived_fenced_prompt_blocks": {
+      "fuse_bead_preserved": 2,
+      "comparison": "Base64-decoded exact text and SHA-256; each present once",
+      "blind_box_preserved": 2
+    },
+    "active_relative_image_fields": {
+      "count": 3,
+      "all_resolve": true
+    },
+    "historical_publication_encoding_paths": "Unchanged in the byte-identical moved JSON records",
+    "image_compression_history": {
+      "note": "Working-tree CRLF differs from LF Git blob; normalized content matches and file is unmodified",
+      "current_crlf_normalized_sha256": "b38515928fd234cc7e42ddf8c7880d2bb67ff258bd4c061e138864b6a70d0898",
+      "raw_worktree_sha256": "3531b4fc397b747efbe499ad8a864140e0e1b6fb02974808d05505fc48409fa1",
+      "baseline_blob_sha256": "b38515928fd234cc7e42ddf8c7880d2bb67ff258bd4c061e138864b6a70d0898",
+      "git_status": "clean"
+    },
+    "json_documents_parsed": 7,
+    "changed_markdown_local_link_check": {
+      "files": 43,
+      "missing_paths": 0,
+      "anchors_checked": false,
+      "local_paths": 427
+    },
+    "targeted_skill_validation": {
+      "changed_or_new_skill_directories": 17,
+      "passed": 17
+    },
+    "visual_family_code_count": 10,
+    "frozen_manifest": {
+      "skill_ids": 18,
+      "unchanged": true,
+      "version": "0.2.0-preview.1"
+    },
+    "active_plugin_version": "0.3.0-preview",
+    "marketplace": {
+      "display_name": "Oneirloom 0.3.0 Preview",
+      "name": "oneirloom-0-3-0-preview"
+    },
+    "crlf_aware_diff_check": "git -c core.autocrlf=false -c core.whitespace=cr-at-eol diff --check: passed",
+    "behavior_limits": [
+      "No text conversation exercised the optional reading paths",
+      "No image generation, new-session behavior, installation, package build, or publication was checked"
+    ]
+  },
+  "observed_destination_payloads": {
+    "observed_date": "2026-10-11",
+    "network_download_performed": false,
+    "lfs_hydration_performed": false,
+    "image_rendered_or_viewed": false,
+    "files": [
+      {
+        "source_record_path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.png",
+        "destination_path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.png",
+        "path_extension": ".png",
+        "stored_representation": "Git LFS v1 pointer file; PNG payload not hydrated",
+        "stored_bytes": 135,
+        "stored_sha256": "02b4f77f8caeac3b796b5e9e825e25b87cf68b7e63f74b338d49e216f1de0146",
+        "lfs_oid_sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+        "lfs_payload_bytes": 3024239,
+        "pre_move_stored_hash_matches": true
+      },
+      {
+        "source_record_path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.png",
+        "destination_path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/source-01.png",
+        "path_extension": ".png",
+        "stored_representation": "Git LFS v1 pointer file; PNG payload not hydrated",
+        "stored_bytes": 135,
+        "stored_sha256": "f80384b618414ca338041b2ceee61a45460977f3e3bec1c154a877a3cbb626fb",
+        "lfs_oid_sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+        "lfs_payload_bytes": 1735041,
+        "pre_move_stored_hash_matches": true
+      },
+      {
+        "source_record_path": "skills/oneirloom-style-design/templates/fuse-bead/images/result-01.webp",
+        "destination_path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.webp",
+        "stored_representation": "WebP image bytes; RIFF/WEBP signature observed",
+        "stored_bytes": 1590322,
+        "stored_sha256": "70b13d0c310b79fd34ea0dce640619736201c0613e232725b2e10c39c15decc2",
+        "pre_move_stored_hash_matches": true
+      },
+      {
+        "source_record_path": "skills/oneirloom-style-design/templates/fuse-bead/images/source-01.webp",
+        "destination_path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/source-01.webp",
+        "stored_representation": "WebP image bytes; RIFF/WEBP signature observed",
+        "stored_bytes": 1218620,
+        "stored_sha256": "00df33b13aa9ed48e7591f3850ccf407d7e6a7dc7ff4612fe7157967900b52d1",
+        "pre_move_stored_hash_matches": true
+      }
+    ],
+    "claim_boundary": "The stored-file hashes verify preservation of the two Git LFS pointer files and two WebP files. They do not verify hydrated original PNG payload bytes, which were not downloaded or read."
+  }
+}

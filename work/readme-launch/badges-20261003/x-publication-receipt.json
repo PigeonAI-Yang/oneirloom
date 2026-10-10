@@ -1,0 +1,100 @@
+{
+  "status": "published",
+  "remote": "https://github.com/PigeonAI-Yang/oneirloom.git",
+  "branch": "main",
+  "parent": "4c478e730b12c9941ca22318b240be530695fafc",
+  "commit": "ea2c0496b2227f9e7c61987213e66317019441aa",
+  "commit_url": "https://github.com/PigeonAI-Yang/oneirloom/commit/ea2c0496b2227f9e7c61987213e66317019441aa",
+  "changed_paths": [
+    "README.en.md",
+    "README.md"
+  ],
+  "verification": {
+    "push": "non-force native Git push succeeded once",
+    "remote_main_sha": "ea2c0496b2227f9e7c61987213e66317019441aa",
+    "commit_parent": "4c478e730b12c9941ca22318b240be530695fafc",
+    "commit_paths": [
+      "README.en.md",
+      "README.md"
+    ],
+    "commit_diff": "one approved X badge line inserted per README; no deletions",
+    "diff_check": "passed",
+    "github_api_readback": {
+      "compare_status": "ahead",
+      "ahead_by": 1,
+      "paths": [
+        "README.en.md",
+        "README.md"
+      ],
+      "patches": "one approved insertion per README; no deletions",
+      "candidate_full_blob_equality": true
+    },
+    "each_readme": {
+      "header_badges": 10,
+      "x_profile": "https://x.com/KimbomArtist",
+      "x_profile_occurrences_in_header": 1,
+      "xiaohongshu_profile_preserved": "https://www.xiaohongshu.com/user/profile/689af6b90000000019016082",
+      "github_api_candidate_bytes_match": true
+    },
+    "preview": {
+      "result": "passed",
+      "badge_endpoints_fetched_once": 10,
+      "browser_badges_fulfilled_from_memory": 10,
+      "views": [
+        {
+          "language": "zh",
+          "viewport": "desktop",
+          "badges": 10,
+          "badges_loaded": true,
+          "x_href_exact": true,
+          "x_badge_unique": true,
+          "xhs_href_exact": true,
+          "internal_anchors_valid": true,
+          "horizontal_overflow": false,
+          "header_horizontal_overflow": false,
+          "screenshot": "zh-desktop.png"
+        },
+        {
+          "language": "zh",
+          "viewport": "mobile",
+          "badges": 10,
+          "badges_loaded": true,
+          "x_href_exact": true,
+          "x_badge_unique": true,
+          "xhs_href_exact": true,
+          "internal_anchors_valid": true,
+          "horizontal_overflow": false,
+          "header_horizontal_overflow": false,
+          "screenshot": "zh-mobile.png"
+        },
+        {
+          "language": "en",
+          "viewport": "desktop",
+          "badges": 10,
+          "badges_loaded": true,
+          "x_href_exact": true,
+          "x_badge_unique": true,
+          "xhs_href_exact": true,
+          "internal_anchors_valid": true,
+          "horizontal_overflow": false,
+          "header_horizontal_overflow": false,
+          "screenshot": "en-desktop.png"
+        },
+        {
+          "language": "en",
+          "viewport": "mobile",
+          "badges": 10,
+          "badges_loaded": true,
+          "x_href_exact": true,
+          "x_badge_unique": true,
+          "xhs_href_exact": true,
+          "internal_anchors_valid": true,
+          "horizontal_overflow": false,
+          "header_horizontal_overflow": false,
+          "screenshot": "en-mobile.png"
+        }
+      ]
+    },
+    "local_preservation": "removing the X line from each local README restores its pre-task SHA-256"
+  }
+}
