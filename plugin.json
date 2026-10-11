@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "oneirloom",
-  "version": "0.3.0-preview",
+  "version": "0.3.0-preview.1",
   "description": "Visual prompting, reference analysis, craft construction, digital form, spatial concepts, and result diagnosis with 22 source skills.",
   "author": {
     "name": "PigeonAI-Yang",
@@ -23,7 +23,7 @@
       "interface": {
         "displayName": "Oneirloom · 织梦师",
         "shortDescription": "Turn visual ideas into prompts",
-        "longDescription": "The 0.3.0-preview source tree contains 22 skills for visual prompts, reference analysis, craft construction, digital form, space conception, composition and light, model adaptation, and result diagnosis. This is a development source preview with no corresponding package; the published frozen 0.2.0-preview.1 package remains at 18 skills. A host with image input is needed for visual analysis. Prompts do not generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, background service, or automatic upload is bundled. Package and text checks do not establish image-generation quality.",
+        "longDescription": "Oneirloom 0.3.0-preview.1 contains 22 skills for visual prompts, reference analysis, craft construction, digital form, space conception, composition and light, model adaptation, and result diagnosis. Use an image-capable host for visual analysis and a separately configured image model or tool for generation. The optional prompt-card renderer uses local Python, Pillow and Playwright. No MCP server, account connection, background service or automatic upload is bundled.",
         "developerName": "PigeonAI-Yang",
         "category": "Productivity",
         "capabilities": [],
@@ -40,7 +40,7 @@
         "logo": "./assets/icon.svg"
       },
       "publication": {
-        "release_notes": "0.3.0-preview is a development source preview with 22 skills and no corresponding package. The published frozen 0.2.0-preview.1 package contains 18 skills. Package and text checks do not establish image-generation quality."
+        "release_notes": "0.3.0-preview.1 source preview contains 22 skills. Fixed package availability and its exact inventory are recorded in the release metadata. Six inspected teaching examples retain their passed, partial and failed observations."
       }
     }
   }

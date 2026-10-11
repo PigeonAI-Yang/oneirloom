@@ -16,6 +16,8 @@ Use this method when a digital shape or its transformation is the main decision.
 3. Define how repeated parts align and vary, how connected parts meet, and which layers sit in front. Bound deformation with the features or proportions that must survive.
 4. Read [form and transformation mechanisms](references/form-and-transformation.md) for 3D structure and identity-to-volume examples. Use [material response](../oneirloom-color-light/references/material-response.md) for roughness, transparency, light, and reflection. [Camera composition](../oneirloom-camera-composition/SKILL.md) owns viewpoint and projection. [Graphic design](../oneirloom-style-design/SKILL.md) owns type and page layout.
 
+For a requested sculptural product variant, optionally consult the [template index](templates/index.md).
+
 For an existing product, preserve its known geometry and facts. A fictional product concept may introduce visual choices, but label them as concept choices rather than product specifications.
 
 ## Correct a form miss

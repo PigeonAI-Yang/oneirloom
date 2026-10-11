@@ -18,10 +18,13 @@ Use this reference to describe how visible parts form a craft object. Keep a tem
 - **ID:** `craft.layered-paper-relief`
 - **Tags:** M, R
 - **Owner:** `oneirloom-craft-construction`
+- **Names and search synonyms:** 立体分层纸艺、层叠纸浮雕、layered-paper relief, layered-paper backdrop
+- **Updated:** 2026-10-11
+- **Scope and constraints:** Retain the existing layered-paper relief scope for cut-paper artwork and raised paper forms. It also applies to a seasonal merchant display when paper is a separate setting behind or beside the real product; it does not redefine or replace the product or its packaging.
 - **Visible mechanism:** Cut paper layers have thickness. Their spacing, overlap, and exposed edges create occlusion and contact shadows. A backing or attachment supports each raised part.
 - **Variables:** Layer count, cut contour, spacing, overlap order, paper colors, support points, and display angle.
-- **Failure and correction:** If the result reads as a flat print, specify separate cut layers, visible side edges, a small depth gap, and shadows where one layer covers another. If a shape appears to float, identify its attachment or backing.
-- **Source and evidence:** Independently authored from the local visual-capability plan. No external catalog text or image was imported. This entry is authored and unrendered; no generated result or repeatability is established.
+- **Failure and correction:** If the result reads as a flat print, specify separate cut layers, visible side edges, a small depth gap, and shadows where one layer covers another. If a shape appears to float, show its visible relation to a backing or support point. If paper merges with or covers the product, place the relief in the setting and keep the confirmed product and package visibly separate.
+- **Source and evidence:** The core mechanism was independently authored from the local visual-capability plan. The merchant-display scope and synonyms were added in Oneirloom on 2026-10-11; no external catalog text, recipe, or image was imported. The new backdrop recipe is authored text and unrendered; no generated result, physical assembly, or repeatability is established.
 
 ### Fuse-bead sheet
 

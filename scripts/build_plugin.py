@@ -24,6 +24,8 @@ PUBLIC_FILES = (
     "docs/SAFETY.md",
     "docs/model-evidence.md",
     "docs/releases/0.2.0-preview.1.md",
+    "docs/releases/0.2.0-preview.1-publication.md",
+    "docs/releases/0.3.0-preview.1.md",
     "plugin.json",
     "scripts/build_plugin.py",
     "scripts/verify_plugin.py",

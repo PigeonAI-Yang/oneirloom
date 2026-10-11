@@ -6,6 +6,12 @@ Separate a material's supported base identity from the scene's illumination. Des
 
 For transparent-fabric reconstruction, keep evidence-specific checks in [evidence checks](evidence-checks.md). This reference does not replace them.
 
+## Product-photography adaptation
+
+For a product photograph, keep supported product identity, base color, package, and visible wording fixed. Preserve any confirmed background choice. If the user changes only the background, keep other confirmed choices fixed unless a coupled adjustment is needed. Describe illumination separately from the base color. Keep highlights local to the surface region that shows them, and keep reflections aligned with the light and visible surroundings. Attach contact shadows to the product's support points.
+
+When you request separate full-product and close-detail views, use the same product identity, base color, package, and selected light direction in each prompt. If the material is not confirmed, describe its visible appearance instead of naming a material. The [product surface study recipe](../../oneirloom-style-photography/templates/product-surface-study/template.md) applies these rules to full and close-detail views.
+
 ## Selected mechanism entries
 
 These locally identified entries record useful visual variables and correction cues. They are authored guidance, not claims that a particular material or image result has been tested.
@@ -15,10 +21,12 @@ These locally identified entries record useful visual variables and correction c
 - **ID:** `MR-01`
 - **Tags:** `base-color`, `illumination`, `regional-consistency`
 - **Owner:** `oneirloom-color-light`
+- **Search synonyms (zh):** 商品底色与区域受光
+- **Search synonyms (en):** product base color and regional illumination
 - **Variables:** supported base hue; key and fill light; nearby reflected color; lit and shadowed regions.
 - **Failure:** a bright patch is mistaken for the material's identity, or a global tint erases distinct regional colors.
 - **Correction:** name the base identity and illumination separately, compare lit planes with shadows, and revise only the affected regional cue while preserving colors that already read correctly.
-- **Provenance:** generalizes the regional comparison rule in [evidence checks](evidence-checks.md) and the material-response scope in the [visual-capability expansion plan](../../../docs/visual-capability-expansion-plan.md) §5.
+- **Provenance:** generalizes the regional comparison rule in [evidence checks](evidence-checks.md) and the material-response scope in the [visual-capability expansion plan](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/visual-capability-expansion-plan.md) §5.
 - **Unrendered state:** written guidance only; no new image was rendered to validate it.
 
 ### MR-02. Roughness, highlights, and reflectivity
@@ -26,10 +34,12 @@ These locally identified entries record useful visual variables and correction c
 - **ID:** `MR-02`
 - **Tags:** `roughness`, `highlight-shape`, `reflectivity`
 - **Owner:** `oneirloom-color-light`
+- **Search synonyms (zh):** 粗糙度、高光形状与反射
+- **Search synonyms (en):** roughness, highlight shape, and reflection
 - **Variables:** surface roughness; highlight width and edge softness; reflection strength and clarity; visible reflected surroundings.
 - **Failure:** surfaces with different finishes receive the same highlight treatment, or reflections do not correspond to the surrounding scene.
 - **Correction:** use broader, softer highlights and weaker environmental reflections for a diffuse finish; use more defined highlights and clearer reflections for a polished finish when supported by the intended or observed appearance. Keep the cue about appearance rather than asserting an unverified product specification.
-- **Provenance:** newly organized material-response guidance scoped by the [visual-capability expansion plan](../../../docs/visual-capability-expansion-plan.md) §5; no prior rendering is attributed to this entry.
+- **Provenance:** newly organized material-response guidance scoped by the [visual-capability expansion plan](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/visual-capability-expansion-plan.md) §5; no prior rendering is attributed to this entry.
 - **Unrendered state:** written guidance only; no new image was rendered to validate it.
 
 ### MR-03. Transmission, thickness, and scale
@@ -37,8 +47,10 @@ These locally identified entries record useful visual variables and correction c
 - **ID:** `MR-03`
 - **Tags:** `transmission`, `thickness`, `scale`
 - **Owner:** `oneirloom-color-light`
+- **Search synonyms (zh):** 透光、边缘厚度与纹理尺度
+- **Search synonyms (en):** transmission, edge thickness, and texture scale
 - **Variables:** visible transmission; supported boundary or edge cues; apparent thickness; texture size relative to the object and nearby scale references.
 - **Failure:** a surface is called transparent without describing what is visibly transmitted, or texture and thickness cues make the object read at an inconsistent scale.
 - **Correction:** state what can be seen through or at the material boundary only when supported; relate texture size and visible thickness to the object's boundaries and nearby scale cues.
-- **Provenance:** newly organized material-response guidance scoped by the [visual-capability expansion plan](../../../docs/visual-capability-expansion-plan.md) §5. Transparent-fabric evidence remains in [evidence checks](evidence-checks.md).
+- **Provenance:** newly organized material-response guidance scoped by the [visual-capability expansion plan](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/visual-capability-expansion-plan.md) §5. Transparent-fabric evidence remains in [evidence checks](evidence-checks.md).
 - **Unrendered state:** written guidance only; no new image was rendered to validate it.

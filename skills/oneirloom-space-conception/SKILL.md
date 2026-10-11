@@ -16,6 +16,8 @@ Use this method to organize a depicted place. It resolves what occupies the spac
 3. Map adjacency and a continuous visible circulation route. Establish the focal area, scale relationships, and front, middle, and rear depth layers.
 4. Read [spatial relations](references/spatial-relations.md) for the mass, enclosure, and circulation checks. Only after those relations hold, use [camera composition](../oneirloom-camera-composition/SKILL.md) to choose viewpoint and projection. [Photography](../oneirloom-style-photography/SKILL.md) owns photographic treatment. [Color and light](../oneirloom-color-light/SKILL.md) owns light and material response. Graphic hierarchy belongs to [graphic design](../oneirloom-style-design/SKILL.md).
 
+For a tabletop seasonal merchant display, use the optional [space template index](templates/index.md) when a concrete layout recipe fits.
+
 Use relative scale when dimensions are unknown. Keep a visual concept distinct from a measured plan or construction claim.
 
 ## Correct a spatial miss

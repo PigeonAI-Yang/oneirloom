@@ -32,6 +32,22 @@ Use this reference for digital geometry and transformations. Graphic layout stay
 - **Failure and correction:** If the figure becomes generic, restore the source's strongest visible identity cues and their relation to the chosen volumes. If it no longer resembles the requested style, adjust the stated proportions rather than adding unrelated detail.
 - **Source and evidence:** Extracted from the local [blind-box comparison template](../../oneirloom-style-design/templates/blind-box-comparison/template.md). Its two-panel layout, proportions, pose, materials, background, and `<image1>` token remain template-specific. The template records no verified repeatability, and this generalized entry has no new rendered result.
 
+### Anchored product deformation
+
+- **ID:** `digital.anchored-product-deformation`
+- **Tags:** D, T, M, G
+- **Owner:** `oneirloom-digital-form`
+- **Name:** Anchored product deformation / 商品锚点形变
+- **Synonyms:** sculptural product variant, regional product deformation / 雕塑化商品变体、区域商品形变
+- **Date:** 2026-10-11
+- **Scope:** A still-image concept or prompt that gives a fictional object a sculptural form, or applies a specifically permitted visual variation to a real product. For real products, begin with product art direction and supported product evidence.
+- **Visible mechanism:** A defined deformation region changes the silhouette or volume while named identity anchors remain readable. State whether the changed region blends continuously into the main body or stays a separate component with a visible join. Describe surface appearance through color and light; use graphic design for any composed layout.
+- **Invariants:** Preserve the subject's identity anchors and every part outside the permitted change. For a real product, keep supported shape, sold material and construction, labels, marks, package information, quantity, and other known facts fixed unless the current user explicitly permits a particular concept-only change. Never present a permitted imagined change as a fact about the sold item. Keep unknown facts unknown.
+- **Variables:** Outer silhouette; major volumes and their relative scale; named deformation region, direction, and extent; identity anchors; continuous or separated joins; surface response; and, when requested, the relation to a graphic layout.
+- **Failure and correction:** If the object loses its identity, restore its named silhouette and identity anchors, then reduce or relocate the deformation. If a join reads ambiguously, state whether the changed region is continuous or separate and clarify its boundary. If a material or package fact changes without permission, restore the supported fact and confine the variation to the permitted appearance. Keep material response and layout decisions with their owners.
+- **Source and evidence:** Independently authored by Oneirloom for this local method, drawing on the silhouette, volume, deformation, and join distinctions in [Resolve the shape](#resolve-the-shape), the real-product fact boundary in [product art direction](../../oneirloom-product-art-direction/SKILL.md), and the surface-response boundary in [material response](../../oneirloom-color-light/references/material-response.md). The matching [sculptural product variant template](../templates/product-sculptural-variant/template.md) is an original, fictional, unbranded geometric-container teaching example. No external recipe or prior render is attributed.
+- **Unrendered state:** Written guidance only; the mechanism and template have not been rendered or visually validated.
+
 ## Assign reference roles
 
 Use the role convention supported by the active image entry. A reference can supply identity, shape, material, or another explicitly requested feature. The blind-box template uses `<image1>` for its supplied identity photograph. That literal token does not apply to every model or entry. Do not invent an input label when the active entry does not support it; describe the role in portable text instead.

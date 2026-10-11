@@ -48,7 +48,7 @@ The finished artwork is a flat, single-bead-thick piece resting on a warm ivory 
 
 ## Examples
 
-This directory moved on 2026-10-11 from `skills/oneirloom-style-design/templates/fuse-bead/` to `skills/oneirloom-craft-construction/templates/fuse-bead/`. The JSON `publication_encoding.image` fields and `docs/image-compression.json` retain their historical paths. The active `image` and `input_image` record fields remain relative to each JSON file and resolve within this directory. The [migration preservation record](../../../../work/visual-families-20261010/migration-preservation-0.3.0-preview.json) records the mapping and original bytes.
+This directory moved on 2026-10-11 from `skills/oneirloom-style-design/templates/fuse-bead/` to `skills/oneirloom-craft-construction/templates/fuse-bead/`. The JSON `publication_encoding.image` fields and `docs/image-compression.json` retain their historical paths. The active `image` and `input_image` record fields remain relative to each JSON file and resolve within this directory. The [migration preservation record](../../../oneirloom/references/teaching-observations.md) records the mapping and original bytes.
 
 | ID | Role | Image | Record | Verification |
 | --- | --- | --- | --- | --- |

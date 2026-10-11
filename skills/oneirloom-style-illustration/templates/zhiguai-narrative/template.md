@@ -52,3 +52,13 @@ A Chinese zhiguai narrative illustration in {the aspect ratio chosen for this re
 | example-01 | User-accepted generated result | [Original PNG](images/example-01.webp) | [Image evidence](example-01.json) | Inspected; 1248 × 1664 pixels (3:4) |
 
 The exact submitted prompt, model, entry, and generation settings are unknown. Earlier direction specified landscape 16:9, a fox-shaped shadow, and upward-falling petals; the stored result is portrait 3:4, and the still image does not clearly verify those motifs. They are recorded as unverified and are not defaults in this scaffold. The scaffold is newly generalized from the accepted image and has not been generation-tested. No repeatability claim is made.
+
+## Output checks
+
+Apply these checks against the current story and requested crop. The scaffold remains unrendered.
+
+- The current event reads through the requested subject count, positions, actions, and contact, without inheriting the sample encounter.
+- Foreground, focal distance, and background relations follow the current scene and keep the focal action legible.
+- Ink contours and layered wash remain visible on the aged paper or silk ground while faces, hands, and important linework stay legible.
+- The local palette and any uncanny cue follow the current story rather than importing sample motifs by default.
+- The crop and aspect ratio follow the current request. The accepted example's 3:4 crop and earlier 16:9 direction remain historical evidence only.

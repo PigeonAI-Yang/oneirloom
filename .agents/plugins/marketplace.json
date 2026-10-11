@@ -1,7 +1,7 @@
 {
-  "name": "oneirloom-0-3-0-preview",
+  "name": "oneirloom-0-3-0-preview-1",
   "interface": {
-    "displayName": "Oneirloom 0.3.0 Preview"
+    "displayName": "Oneirloom 0.3.0 Preview.1"
   },
   "plugins": [
     {

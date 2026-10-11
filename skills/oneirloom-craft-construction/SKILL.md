@@ -18,6 +18,8 @@ Use this method when the way an object is assembled matters to the requested ima
 5. Read [construction mechanisms](references/construction.md) for fuse-bead and layered-paper guidance. Use [material response](../oneirloom-color-light/references/material-response.md) for surface color, light, and reflection. Graphic hierarchy and layout belong to [graphic design](../oneirloom-style-design/SKILL.md).
 6. When a concrete recipe fits, read the optional [template index](templates/index.md), then only the selected template. A visual recipe does not prove a counted pattern or physical buildability.
 
+For a seasonal merchant display with a separate layered-paper setting, see the optional [layered-paper backdrop recipe](templates/layered-paper-backdrop/template.md).
+
 For a real product, preserve known product facts and route product decisions through [product art direction](../oneirloom-product-art-direction/SKILL.md). A visually plausible craft mockup remains a concept unless the user requests and receives a verified pattern or construction artifact.
 
 ## Correct a construction miss
