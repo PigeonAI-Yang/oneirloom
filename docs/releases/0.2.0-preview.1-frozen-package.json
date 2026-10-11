@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "releaseUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1",
+  "id": "oneirloom@0.2.0-preview.1",
+  "version": "0.2.0-preview.1",
+  "filename": "oneirloom-0.2.0-preview.1.zip",
+  "downloadUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip",
+  "sha256": "38abe37cfa430f4876fb573f94e7d17d3344681513d9c3c77a29781ce24bbb4b",
+  "manifestSha256": "d9f9384c8111da20cb4a52ca401826b4a8ac3f91e0e5834b06d664ce03d1ebd4",
+  "sourceFingerprint": "7008c5007daff844a0c7daba7387d90e0ce6405c82c2b18e1dfc2d60dea3145e",
+  "publishedAt": "2026-10-03T15:01:49.000Z",
+  "skillIds": [
+    "oneirloom-brand-identity",
+    "oneirloom-camera-composition",
+    "oneirloom-character-sheet",
+    "oneirloom-color-light",
+    "oneirloom-expression-stickers",
+    "oneirloom-figure-art",
+    "oneirloom-icon-design",
+    "oneirloom-image-tutorial",
+    "oneirloom-model-krea-2",
+    "oneirloom-model-qwen-image-2-1",
+    "oneirloom-product-art-direction",
+    "oneirloom-prompt-card",
+    "oneirloom-result-diagnosis",
+    "oneirloom-style-design",
+    "oneirloom-style-illustration",
+    "oneirloom-style-photography",
+    "oneirloom-visual-analysis",
+    "oneirloom"
+  ]
+}

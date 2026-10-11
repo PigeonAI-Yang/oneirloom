@@ -9,7 +9,7 @@
 <!-- project-metadata:source-summary:end -->
 
 <!-- project-metadata:package-badge:start -->
-<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip">下载技能包（18 个技能）</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.2.0-preview.1">版本记录</a></p>
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip">下载技能包（22 个技能）</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.3.0-preview.1">版本记录</a></p>
 <!-- project-metadata:package-badge:end -->
 
 <p>
@@ -50,7 +50,7 @@
 [![使用流程：给目标和材料，明确画面关系，交付完整中英提示词，检查结果继续修改。还可制作3:4提示词分享卡片。开源MIT，提供Krea 2和Qwen-Image-2.1专门适配。](docs/assets/product-page/07-start-oneirloom-v4.webp)](docs/assets/product-page/07-start-oneirloom-v4.webp)
 
 <!-- project-metadata:guidance-heading:start -->
-## 冻结的 0.2.0-preview.1 版本包含的工作指导
+## 冻结的 0.3.0-preview.1 版本包含的工作指导
 <!-- project-metadata:guidance-heading:end -->
 
 - 需求明确时，按你给出的约束继续构思。需求开放时，先检查参考图和已有材料，只追问必要问题，再给出 2–3 个有理由的方向。
@@ -58,7 +58,7 @@
 - 局部修改时，保留其他已确认要求。提供真实结果图后，依据图中可见偏差写出完整、具体的修订提示词；未提供结果图时，不声称检查过生成结果。
 
 <!-- project-metadata:guidance-current-status:start -->
-这些指导属于冻结的 0.2.0-preview.1 包。0.3.0-preview 源码仍是开发预览，尚无对应发布包；其新对话行为和生成图像质量尚未验证。0.2.0-preview.1 的日期化发布记录见[发布状态](docs/releases/0.2.0-preview.1-publication.md)。
+这些指导属于冻结的 0.3.0-preview.1 包。0.3.0-preview.1 源码仍是开发预览，已有对应固定版本包；其新对话行为尚未验证，整体生成图像质量尚未验收。六个产品配方均有单例结果的视觉检查记录：3 项通过、3 项未通过；其他配方分支和重复生成结果尚未验证，详见[六项视觉检查收据](skills/oneirloom/references/teaching-observations.md)。0.3.0-preview.1 的日期化发布记录见[发布状态](docs/releases/0.3.0-preview.1-publication.md)。
 <!-- project-metadata:guidance-current-status:end -->
 
 ## 案例与记录
@@ -82,15 +82,15 @@
 ## 开始使用
 
 <!-- project-metadata:install-heading:start -->
-### 安装冻结的 0.2.0-preview.1 技能包
+### 安装冻结的 0.3.0-preview.1 技能包
 <!-- project-metadata:install-heading:end -->
 
 <!-- project-metadata:install-intro:start -->
-以下安装步骤只适用于冻结的 `0.2.0-preview.1` 发布包，包含 **18 个免费技能**，不含 0.3.0-preview 源码改动。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/oneirloom-0.2.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.2.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
+以下安装步骤只适用于冻结的 `0.3.0-preview.1` 发布包，包含 **22 个免费技能**。请从[固定安装包地址](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip)下载发布者提供的 ZIP，并使用[同页校验文件 SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/SHA256SUMS.txt)核对；不要把 GitHub 自动生成的源码 ZIP 当作已检查安装包。
 <!-- project-metadata:install-intro:end -->
 
 <!-- project-metadata:install-copy:start -->
-按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 18 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[冻结包发布状态](docs/releases/0.2.0-preview.1-publication.md)为准；[发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
+按[安装与升级回退说明](docs/INSTALL.md)，将包内 `skills/` 的 22 个目录完整复制到新项目的 `.agents/skills/`，保持同级关系。公开包默认不含私有品牌水印，提示词卡可直接制作无水印版本。已有安装先保留准确备份与包哈希。请以[冻结包发布状态](docs/releases/0.3.0-preview.1-publication.md)为准；[发布前候选验证记录](docs/COMPATIBILITY.md)保留的是发布前准备阶段的待验状态。
 <!-- project-metadata:install-copy:end -->
 
 `main` 供开发使用，会继续变化。参与开发时可克隆仓库并通过 Git LFS 获取完整图片；日常安装使用确认过的固定版本包。核心技能无需 Go 或本地生图模型，生图服务和可选卡片渲染依赖另行提供。
@@ -119,7 +119,7 @@
 
 <!-- project-metadata:skill-directory:start -->
 主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
-以下目录列出 `0.3.0-preview` 源码中的 22 个 Skill。
+以下目录列出 `0.3.0-preview.1` 源码中的 22 个 Skill。
 
 <details>
 <summary>展开全部技能</summary>

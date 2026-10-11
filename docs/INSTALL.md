@@ -3,7 +3,7 @@
 <!-- project-metadata:package-title:end -->
 
 <!-- project-metadata:current-package-status:start -->
-This release-candidate guide installs the fixed package `0.3.0-preview.1`, which contains 22 sibling skills.
+This guide installs the published frozen package `0.3.0-preview.1`, which contains 22 sibling skills.
 The current `0.3.0-preview.1` source contains 22 skills and remains a source preview; the frozen package version is recorded separately.
 See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.1.md) and the [frozen-package publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.1-publication.md).
 <!-- project-metadata:current-package-status:end -->

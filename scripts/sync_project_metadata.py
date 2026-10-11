@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import html
 import json
 import os
@@ -13,6 +14,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -49,6 +51,19 @@ VERSION_PATTERN = re.compile(
     r"[0-9]+(?:\.[0-9]+){2}(?:-[0-9A-Za-z.-]+)?(?:\+[0-9A-Za-z.-]+)?\Z"
 )
 SKILL_ID_PATTERN = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
+SHA256_PATTERN = re.compile(r"[0-9a-f]{64}\Z")
+PUBLISHED_AT_PATTERN = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]{3}Z\Z")
+FROZEN_RELEASE_FIELDS = (
+    "id",
+    "version",
+    "filename",
+    "downloadUrl",
+    "sha256",
+    "manifestSha256",
+    "sourceFingerprint",
+    "publishedAt",
+    "skillIds",
+)
 
 
 class MetadataError(Exception):
@@ -87,6 +102,92 @@ def validate_skill_id(value: Any, label: str) -> str:
     if not isinstance(value, str) or not SKILL_ID_PATTERN.fullmatch(value):
         raise MetadataError(f"{label} contains an invalid skill ID: {value!r}")
     return value
+
+
+def validate_frozen_package_release(
+    value: Any,
+    package_manifest: dict[str, Any],
+    manifest_sha256: str,
+) -> dict[str, Any]:
+    label = "docs/frozen-package-release.json"
+    release = require_object(value, label)
+    allowed_fields = set(FROZEN_RELEASE_FIELDS) | {"schemaVersion", "releaseUrl"}
+    missing_fields = set(FROZEN_RELEASE_FIELDS) - release.keys()
+    unknown_fields = release.keys() - allowed_fields
+    if missing_fields or unknown_fields:
+        details = []
+        if missing_fields:
+            details.append("missing " + ", ".join(sorted(missing_fields)))
+        if unknown_fields:
+            details.append("unknown " + ", ".join(sorted(unknown_fields)))
+        raise MetadataError(f"{label} has invalid fields: {'; '.join(details)}.")
+    if "schemaVersion" in release and (type(release["schemaVersion"]) is not int or release["schemaVersion"] != 1):
+        raise MetadataError(f"{label}.schemaVersion must be the integer 1.")
+
+    package = require_object(package_manifest.get("package"), "SOURCE-MANIFEST.json.package")
+    package_name = package.get("name")
+    version = require_version(release["version"], f"{label}.version")
+    if package_name != "oneirloom" or package.get("version") != version:
+        raise MetadataError(f"{label}.version must match the frozen Oneirloom package in SOURCE-MANIFEST.json.")
+    if release["id"] != f"{package_name}@{version}":
+        raise MetadataError(f"{label}.id must match the frozen package name and version.")
+
+    filename = f"oneirloom-{version}.zip"
+    download_url = f"{REPOSITORY}/releases/download/v{version}/{filename}"
+    if release["filename"] != filename:
+        raise MetadataError(f"{label}.filename must be {filename!r}.")
+    if not isinstance(release["downloadUrl"], str) or release["downloadUrl"] != download_url:
+        raise MetadataError(f"{label}.downloadUrl must match the versioned GitHub release asset URL.")
+    expected_release_url = f"{REPOSITORY}/releases/tag/v{version}"
+    if "releaseUrl" in release and (
+        not isinstance(release["releaseUrl"], str) or release["releaseUrl"] != expected_release_url
+    ):
+        raise MetadataError(f"{label}.releaseUrl must match the versioned GitHub release page URL.")
+
+    for field in ("sha256", "manifestSha256", "sourceFingerprint"):
+        if not isinstance(release[field], str) or not SHA256_PATTERN.fullmatch(release[field]):
+            raise MetadataError(f"{label}.{field} must be a lowercase SHA-256 hex digest.")
+    if not SHA256_PATTERN.fullmatch(manifest_sha256) or release["manifestSha256"] != manifest_sha256:
+        raise MetadataError(f"{label}.manifestSha256 must match the actual SOURCE-MANIFEST.json bytes.")
+
+    source_snapshot = require_object(package_manifest.get("sourceSnapshot"), "SOURCE-MANIFEST.json.sourceSnapshot")
+    source_fingerprint = source_snapshot.get("workingTreeContentSha256")
+    if (
+        not isinstance(source_fingerprint, str)
+        or not SHA256_PATTERN.fullmatch(source_fingerprint)
+        or release["sourceFingerprint"] != source_fingerprint
+    ):
+        raise MetadataError(
+            f"{label}.sourceFingerprint must match SOURCE-MANIFEST.json.sourceSnapshot.workingTreeContentSha256."
+        )
+
+    manifest_skill_ids = package_manifest.get("skillIds")
+    if not isinstance(manifest_skill_ids, list) or not manifest_skill_ids:
+        raise MetadataError("SOURCE-MANIFEST.json.skillIds must contain the frozen package skill IDs.")
+    for skill_id in manifest_skill_ids:
+        validate_skill_id(skill_id, "SOURCE-MANIFEST.json.skillIds")
+    if len(manifest_skill_ids) != len(set(manifest_skill_ids)):
+        raise MetadataError("SOURCE-MANIFEST.json.skillIds contains duplicate IDs.")
+    skill_ids = release["skillIds"]
+    if not isinstance(skill_ids, list) or len(skill_ids) != len(manifest_skill_ids):
+        raise MetadataError(f"{label}.skillIds must contain the frozen package skill IDs.")
+    for skill_id in skill_ids:
+        validate_skill_id(skill_id, f"{label}.skillIds")
+    if skill_ids != manifest_skill_ids:
+        raise MetadataError(f"{label}.skillIds must match SOURCE-MANIFEST.json.skillIds in manifest order.")
+
+    published_at = release["publishedAt"]
+    if not isinstance(published_at, str) or not PUBLISHED_AT_PATTERN.fullmatch(published_at):
+        raise MetadataError(f"{label}.publishedAt must be a canonical UTC timestamp with millisecond precision.")
+    try:
+        datetime.strptime(published_at, "%Y-%m-%dT%H:%M:%S.%fZ")
+    except ValueError as exc:
+        raise MetadataError(f"{label}.publishedAt must be a valid calendar timestamp.") from exc
+
+    return {
+        field: list(release[field]) if field == "skillIds" else release[field]
+        for field in FROZEN_RELEASE_FIELDS
+    }
 
 
 def discover_skill_ids() -> list[str]:
@@ -158,7 +259,8 @@ def read_inputs() -> dict[str, Any]:
         raise MetadataError(".codex-plugin/plugin.json must name the plugin oneirloom.")
     source_version = require_version(source_plugin.get("version"), ".codex-plugin/plugin.json.version")
 
-    package_manifest = require_object(load_json(ROOT / "SOURCE-MANIFEST.json"), "SOURCE-MANIFEST.json")
+    package_manifest_path = ROOT / "SOURCE-MANIFEST.json"
+    package_manifest = require_object(load_json(package_manifest_path), "SOURCE-MANIFEST.json")
     package = require_object(package_manifest.get("package"), "SOURCE-MANIFEST.json.package")
     if package.get("name") != "oneirloom":
         raise MetadataError("SOURCE-MANIFEST.json.package.name must be oneirloom.")
@@ -170,6 +272,15 @@ def read_inputs() -> dict[str, Any]:
         validate_skill_id(skill_id, "SOURCE-MANIFEST.json.skillIds")
     if len(package_skill_ids) != len(set(package_skill_ids)):
         raise MetadataError("SOURCE-MANIFEST.json.skillIds contains duplicate IDs.")
+    try:
+        manifest_sha256 = hashlib.sha256(package_manifest_path.read_bytes()).hexdigest()
+    except OSError as exc:
+        raise MetadataError(f"Cannot hash SOURCE-MANIFEST.json: {exc}") from exc
+    frozen_package_release = validate_frozen_package_release(
+        load_json(ROOT / "docs" / "frozen-package-release.json"),
+        package_manifest,
+        manifest_sha256,
+    )
 
     source_skill_ids = discover_skill_ids()
     copies = validate_copy_labels(load_json(ROOT / "docs" / "project-copy.json"), source_skill_ids)
@@ -185,7 +296,18 @@ def read_inputs() -> dict[str, Any]:
         "copies": copies,
         "packageVersion": package_version,
         "packageSkillIds": package_skill_ids,
+        "frozenPackageRelease": frozen_package_release,
     }
+
+
+def historical_package_releases() -> list[dict[str, Any]]:
+    releases = []
+    for record_path in sorted((ROOT / "docs" / "releases").glob("*-frozen-package.json")):
+        record = require_object(load_json(record_path), relative(record_path))
+        manifest_path = record_path.with_name(record_path.name.replace("-frozen-package.json", "-source-manifest.json"))
+        manifest = require_object(load_json(manifest_path), relative(manifest_path))
+        releases.append(validate_frozen_package_release(record, manifest, hashlib.sha256(manifest_path.read_bytes()).hexdigest()))
+    return releases
 
 
 def make_artifact(inputs: dict[str, Any]) -> dict[str, Any]:
@@ -224,6 +346,7 @@ def make_artifact(inputs: dict[str, Any]) -> dict[str, Any]:
             "checksumUrl": f"{REPOSITORY}/releases/download/{package_tag}/SHA256SUMS.txt",
             "releaseUrl": f"{REPOSITORY}/releases/tag/{package_tag}",
         },
+        "packages": [inputs["frozenPackageRelease"], *historical_package_releases()],
         "skills": skills,
         "copy": {
             "zh": {
@@ -348,17 +471,21 @@ def readme_current_status(artifact: dict[str, Any], language: str) -> str:
     source = artifact["source"]
     package = artifact["package"]
     publication_url = f"docs/releases/{package['version']}-publication.md"
+    receipt_url = "skills/oneirloom/references/teaching-observations.md"
     if language == "zh":
         return (
             f'这些指导属于冻结的 {package["version"]} 包。{source["version"]} 源码仍是开发预览，'
-            f'尚无对应发布包；其新对话行为和生成图像质量尚未验证。{package["version"]} 的日期化发布记录'
-            f'见[发布状态]({publication_url})。'
+            f'{"已有对应固定版本包" if source["version"] == package["version"] else "尚无对应发布包"}；其新对话行为尚未验证，整体生成图像质量尚未验收。'
+            f'六个产品配方均有单例结果的视觉检查记录：3 项通过、3 项未通过；其他配方分支和重复生成结果尚未验证，'
+            f'详见[六项视觉检查收据]({receipt_url})。{package["version"]} 的日期化发布记录见[发布状态]({publication_url})。'
         )
     return (
         f'These instructions belong to the frozen {package["version"]} package. The {source["version"]} '
-        f'source remains a development preview with no corresponding package; its new-session behavior and '
-        f'generated image quality have not been verified. See the dated [{package["version"]} publication '
-        f'record]({publication_url}) for its account checks.'
+        f'source remains a preview {"with a corresponding fixed package" if source["version"] == package["version"] else "with no corresponding package"}; its new-session behavior has not been '
+        f'verified, and overall generated-image quality has not been accepted. Six product recipes have single-example '
+        f'visual-check records: three passed and three did not pass. Other recipe branches and repeated generations '
+        f'remain unverified; see the [six-recipe visual-check receipt]({receipt_url}). See the dated '
+        f'[{package["version"]} publication record]({publication_url}) for its account checks.'
     )
 
 
@@ -373,14 +500,13 @@ def readme_install_intro(artifact: dict[str, Any], language: str) -> str:
     if language == "zh":
         return (
             f'以下安装步骤只适用于冻结的 `{package["version"]}` 发布包，包含 '
-            f'**{package["skillCount"]} 个免费技能**，不含 {source["version"]} 源码改动。'
+            f'**{package["skillCount"]} 个免费技能**。'
             f'请从[固定安装包地址]({package["downloadUrl"]})下载发布者提供的 ZIP，并使用'
             f'[同页校验文件 SHA256SUMS.txt]({package["checksumUrl"]})核对；不要把 GitHub 自动生成的源码 ZIP '
             f'当作已检查安装包。'
         )
     return (
-        f'The frozen `{package["version"]}` package has **{package["skillCount"]} free skills** and does not '
-        f'contain the {source["version"]} source changes. Download the publisher-built ZIP from the '
+        f'The frozen `{package["version"]}` package has **{package["skillCount"]} free skills**. Download the publisher-built ZIP from the '
         f'[fixed package URL]({package["downloadUrl"]}) and verify it with '
         f'[SHA256SUMS.txt]({package["checksumUrl"]}). Do not use GitHub\'s generated source archive as the '
         f'inspected installation package. See [installation and rollback](docs/INSTALL.md), '
@@ -432,7 +558,7 @@ def install_intro(artifact: dict[str, Any]) -> str:
     return "\n".join(
         [
             f'This guide installs the published frozen package `{package["version"]}`, which contains {package["skillCount"]} sibling skills.',
-            f'The current `{source["version"]}` source contains {source["skillCount"]} skills and remains a development preview with no matching package.',
+            f'The current `{source["version"]}` source contains {source["skillCount"]} skills and remains a source preview; the frozen package version is recorded separately.',
             f'See the [source record]({source["notesUrl"]}) and the [frozen-package publication record]({publication_url}).',
         ]
     )
@@ -485,7 +611,7 @@ def compatibility_status(artifact: dict[str, Any]) -> str:
         [
             "## Current source and package status",
             "",
-            f'The current `{source["version"]}` source contains {source["skillCount"]} skills and remains a development preview without a matching package.',
+            f'The current `{source["version"]}` source contains {source["skillCount"]} skills and remains a source preview; the frozen package version is recorded separately.',
             f'The published frozen `{package["version"]}` package contains {package["skillCount"]} skills. See the [source record]({source["notesUrl"]}) and [publication record]({publication_url}).',
             "The candidate table below preserves prepublication checks. Its pending items describe that earlier review, not current package availability.",
         ]
@@ -496,7 +622,7 @@ def project_files_source_row(artifact: dict[str, Any]) -> str:
     source = artifact["source"]
     package = artifact["package"]
     return (
-        f' Current {source["version"]} source | {source["skillCount"]} source skills; development preview with no corresponding package. '
+        f' Current {source["version"]} source | {source["skillCount"]} source skills; source preview; fixed package version recorded separately. '
         f'The published frozen `{package["version"]}` package contains {package["skillCount"]} skills. '
         f'See the [source record](docs/releases/{source["version"]}.md) and [frozen-package publication record]'
         f'(docs/releases/{package["version"]}-publication.md).'
@@ -512,25 +638,21 @@ def source_description(source_count: int) -> str:
 
 def long_description(artifact: dict[str, Any]) -> str:
     source = artifact["source"]
-    package = artifact["package"]
     return (
-        f'The {source["version"]} source tree contains {source["skillCount"]} skills for visual prompts, reference analysis, '
+        f'Oneirloom {source["version"]} contains {source["skillCount"]} skills for visual prompts, reference analysis, '
         "craft construction, digital form, space conception, composition and light, model adaptation, and result diagnosis. "
-        f'This is a development source preview with no corresponding package; the published frozen {package["version"]} '
-        f'package remains at {package["skillCount"]} skills. A host with image input is needed for visual analysis. Prompts do not '
-        "generate images; generation requires a separately available model or tool and is not guaranteed. The optional prompt-card "
-        "renderer requires local Python, Pillow, Playwright, a browser, and file access. No MCP server, account connection, "
-        "background service, or automatic upload is bundled. Package and text checks do not establish image-generation quality."
+        "Use an image-capable host for visual analysis and a separately configured image model or tool for generation. "
+        "The optional prompt-card renderer uses local Python, Pillow and Playwright. No MCP server, account connection, "
+        "background service or automatic upload is bundled."
     )
 
 
 def release_note(artifact: dict[str, Any]) -> str:
     source = artifact["source"]
-    package = artifact["package"]
     return (
-        f'{source["version"]} is a development source preview with {source["skillCount"]} skills and no corresponding package. '
-        f'The published frozen {package["version"]} package contains {package["skillCount"]} skills. '
-        "Package and text checks do not establish image-generation quality."
+        f'{source["version"]} source preview contains {source["skillCount"]} skills. '
+        "Fixed package availability and its exact inventory are recorded in the release metadata. "
+        "Six inspected teaching examples retain their passed, partial and failed observations."
     )
 
 

@@ -5,7 +5,7 @@ Proposal A was approved for source implementation on 2026-10-03. This document d
 ## Responsibilities and reading units
 
 <!-- project-metadata:source-status:start -->
-The 0.3.0-preview source contains 22 sibling `skills/*/SKILL.md` entries. It is a development source preview with no corresponding package or installation. The new method guidance is text only. No new render or native-model result validates it, and image generation and image quality remain unverified. The frozen `v0.2.0-preview.1` package remains at 18 skills. A host discovers metadata and explicitly reads the chosen entry. The coordinator is optional for direct capability use. This is a document-reading design, not a runtime loader or a required layer count.
+The 0.3.0-preview.1 source contains 22 sibling `skills/*/SKILL.md` entries. It is a development source preview with no corresponding package or installation. The new method guidance is text only. No new render or native-model result validates it, and image generation and image quality remain unverified. The frozen `v0.3.0-preview.1` package remains at 22 skills. A host discovers metadata and explicitly reads the chosen entry. The coordinator is optional for direct capability use. This is a document-reading design, not a runtime loader or a required layer count.
 <!-- project-metadata:source-status:end -->
 
 | Owner | Responsibility | Conditional reads |
