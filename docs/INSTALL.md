@@ -49,6 +49,7 @@ oneirloom-figure-art
 oneirloom-icon-design
 oneirloom-image-tutorial
 oneirloom-model-krea-2
+oneirloom-model-qwen-image-2-1-comfyui-edit
 oneirloom-model-qwen-image-2-1
 oneirloom-product-art-direction
 oneirloom-prompt-card
@@ -66,14 +67,14 @@ Uploading the ZIP to an ordinary chat does not install skills. Hosts other than 
 
 ## Optionally register an isolated Codex marketplace
 
-Use this route only with a host that exposes the relevant plugin commands. Inspect the extracted `.agents/plugins/marketplace.json` first. The published `0.3.0-preview.1` package records the isolated marketplace name `oneirloom-0-3-0-preview-1`, with plugin `oneirloom` and local source path `./` inside that marketplace root. Its `plugin.json` and `.codex-plugin/plugin.json` record version `0.3.0-preview.1`. Keep an existing `oneirloom-local` registration and its installed copy unchanged.
+Use this route only with a host that exposes the relevant plugin commands. Inspect the extracted `.agents/plugins/marketplace.json` first. The published `0.3.1-preview` package records the isolated marketplace name `oneirloom-0-3-1-preview`, with plugin `oneirloom` and local source path `./` inside that marketplace root. Its `plugin.json` and `.codex-plugin/plugin.json` record version `0.3.1-preview`. Keep an existing `oneirloom-local` registration and its installed copy unchanged.
 
 Replace the example with the absolute extracted package root:
 
 ```sh
 codex plugin marketplace add /absolute/path/to/extracted-package
-codex plugin add oneirloom@oneirloom-0-3-0-preview-1
-codex plugin list --marketplace oneirloom-0-3-0-preview-1 --json
+codex plugin add oneirloom@oneirloom-0-3-1-preview
+codex plugin list --marketplace oneirloom-0-3-1-preview --json
 ```
 
 This candidate's native plugin installation is pending verification. The older 0.1.1 local-marketplace result does not prove these commands install the new package. Confirm the installed version and file hashes, then use a new chat to check discovery and invocation. Do not register `main` as a substitute for this versioned candidate.
@@ -84,7 +85,7 @@ Before replacing an existing installation, back up its exact Oneirloom directori
 
 Compare the candidate's explicit `skillIds` with the previous installation's inventory. Replace only the Oneirloom directories owned by that installation. Preserve unrelated skills and edits of unknown origin. Do not use a wildcard to delete every `oneirloom*` directory, and do not delete `.agents/skills/` itself.
 
-To revert, remove only the candidate-owned directories identified by its inventory, after preserving edits made since installation. Restore the exact previous backup or verified package. Restore the previous inventory as a unit: a known 15-skill installation must not retain any candidate-only directories. Do not assume an arbitrary older tag is a tested rollback. If you used the isolated marketplace, remove only `oneirloom@oneirloom-0-3-0-preview-1` when that is the intended candidate, leaving other registrations intact. Refresh the host in a new chat and repeat the previously successful request.
+To revert, remove only the candidate-owned directories identified by its inventory, after preserving edits made since installation. Restore the exact previous backup or verified package. Restore the previous inventory as a unit: a known 15-skill installation must not retain any candidate-only directories. Do not assume an arbitrary older tag is a tested rollback. If you used the isolated marketplace, remove only `oneirloom@oneirloom-0-3-1-preview` when that is the intended candidate, leaving other registrations intact. Refresh the host in a new chat and repeat the previously successful request.
 
 ## Use optional tools
 
@@ -94,7 +95,7 @@ The optional prompt-card renderer requires local Python, Pillow, Playwright, and
 
 ## Historical installation evidence and license
 
-The earlier frozen `0.2.0-preview.1` package contains 18 skills. Its [publication record](releases/0.2.0-preview.1-publication.md) retains the exact ZIP and manifest hashes, installation observations, incomplete behavior runs and historical failures. Its isolated marketplace name is `oneirloom-0-2-0-preview-1`; that historical name is not the current 22-skill package's registration. Keep the old package and evidence unchanged when recording an upgrade or rollback baseline.
+The earlier frozen `0.2.0-preview.1` package contains 18 skills. Its [publication record](releases/0.2.0-preview.1-publication.md) retains the exact ZIP and manifest hashes, installation observations, incomplete behavior runs and historical failures. Its isolated marketplace name is `oneirloom-0-2-0-preview-1`; that historical name is not the current 23-skill package's registration. Keep the old package and evidence unchanged when recording an upgrade or rollback baseline.
 
 The 0.1.1 package had 15 skills from snapshot `8d195d4fc9404d5da71733c861fd947aa109d4f1`. Codex CLI 0.153.0 installed the corrected local package and a complete public clone through separate local marketplace wrappers. The published-clone check matched 343 files, decoded 25 raster images, verified eight LFS payloads, and discovered all 15 skills. The exact GitHub shorthand `PigeonAI-Yang/oneirloom --ref main` was not tested. These are historical observations, not current candidate results or a stable rollback promise. Full limits remain in [compatibility](COMPATIBILITY.md).
 

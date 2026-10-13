@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-13T20:12:29Z",
+  "generatedAt": "2026-10-13T22:35:32Z",
   "package": {
     "name": "oneirloom",
     "version": "0.3.1-preview"
@@ -40,10 +40,10 @@
     0
   ],
   "sourceSnapshot": {
-    "baseCommit": "ca3dde98e0082b01f0737778e31dd0e0cde540c9",
+    "baseCommit": "cdbbc3dfc9b76959b3692935d0a3ed3077ee85a7",
     "workingTreeDirty": true,
     "dirtyStatusScope": "repository excluding generated SOURCE-MANIFEST.json",
-    "workingTreeContentSha256": "69d2cf50c9b451a7b0b13fb579d23eef8bdffe6a3e9709710e3a8807572d8042",
+    "workingTreeContentSha256": "a9ee954034ea16ead077a40301beb183c16754320a5bd9cf850c791b8a73ebc3",
     "skillFiles": [
       {
         "path": "skills/oneirloom-brand-identity/SKILL.md",
@@ -97,8 +97,8 @@
       },
       {
         "path": "skills/oneirloom-character-sheet/references/fashion-styling.md",
-        "sha256": "04fddf16ef4fa1fa579b7abb9179d0c850859723eb33bffb44012a8b88d39fa3",
-        "bytes": 6093
+        "sha256": "3f86300b0fb20e862ef9ebc61cf4a3fa6c985478d2d12f619c50798e09bba211",
+        "bytes": 6130
       },
       {
         "path": "skills/oneirloom-character-sheet/templates/four-plus-four/template.md",
@@ -107,13 +107,13 @@
       },
       {
         "path": "skills/oneirloom-character-sheet/templates/index.md",
-        "sha256": "a3cf96fc4b566d933803a41cb0e0188b974a6c3dabf4daecf6fc62b951855780",
-        "bytes": 1507
+        "sha256": "17296f35eb890d5be9c5a528906e374bcf1714dc9b41d2bec0e2a779eb9de7ff",
+        "bytes": 1517
       },
       {
         "path": "skills/oneirloom-character-sheet/templates/single-garment-look/template.md",
-        "sha256": "757f116d32f4e97e773d3438c184c17f298e2850a5ec260522f66f13e77a7e42",
-        "bytes": 9934
+        "sha256": "a96143a2c34cc8f598e92a6bbe9fd93270b9ff17463fd5eca6b27763607e625a",
+        "bytes": 10025
       },
       {
         "path": "skills/oneirloom-character-sheet/templates/three-view/template.md",
@@ -177,18 +177,18 @@
       },
       {
         "path": "skills/oneirloom-craft-construction/SKILL.md",
-        "sha256": "148299e537d5726095a9a14a055fcfaed375592eb18e524e6c702a51531eb614",
-        "bytes": 3057
+        "sha256": "9b99880cd6d07c604b54a9b1bc3b2ac9f2e0e674c5e94fec975b1662b22baf79",
+        "bytes": 3088
       },
       {
         "path": "skills/oneirloom-craft-construction/references/construction.md",
-        "sha256": "16cae5746a7850e64e43b8ba0a0b28a109a676955b68d2251d77c5bd872d1ff6",
-        "bytes": 4666
+        "sha256": "23f94edd20d9c31b20d0dd476080002573a8c657688536228e7da1d158aa064e",
+        "bytes": 4707
       },
       {
         "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.png",
-        "sha256": "02b4f77f8caeac3b796b5e9e825e25b87cf68b7e63f74b338d49e216f1de0146",
-        "bytes": 135
+        "sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
+        "bytes": 3024239
       },
       {
         "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.webp",
@@ -197,8 +197,8 @@
       },
       {
         "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/source-01.png",
-        "sha256": "f80384b618414ca338041b2ceee61a45460977f3e3bec1c154a877a3cbb626fb",
-        "bytes": 135
+        "sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
+        "bytes": 1735041
       },
       {
         "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/source-01.webp",
@@ -222,8 +222,8 @@
       },
       {
         "path": "skills/oneirloom-craft-construction/templates/index.md",
-        "sha256": "89afaa2213757909215cc6f911970a00858fc9caa5920515f07a0d29b6fa8e26",
-        "bytes": 949
+        "sha256": "9e0b7c58c9c0b30171e5ddd52494c37ee93160201fcbb649697c2c9cf7cdbae7",
+        "bytes": 957
       },
       {
         "path": "skills/oneirloom-craft-construction/templates/layered-paper-backdrop/template.md",
@@ -232,18 +232,18 @@
       },
       {
         "path": "skills/oneirloom-digital-form/SKILL.md",
-        "sha256": "45b6e1cd8904418cd0416728cb4025d76975ef72d7c2d17e7dc6784c4a5804d6",
-        "bytes": 2701
+        "sha256": "f70b89e778cfa888fb792499423ab1c3dc8b055c281f8fe552fff447174951d0",
+        "bytes": 2730
       },
       {
         "path": "skills/oneirloom-digital-form/references/form-and-transformation.md",
-        "sha256": "4b522ce602f25ba892772d8a9ead561327e100e34b60d83cafda78cfa1653e34",
-        "bytes": 7672
+        "sha256": "6766e5e89196e264a463e0580df4be98cd5ea829c53a051446ef8712f5823ca8",
+        "bytes": 7729
       },
       {
         "path": "skills/oneirloom-digital-form/templates/index.md",
-        "sha256": "67be912abda9a112c90d72807d882be494b8cdfe9fb326aae4604e649a4bc78b",
-        "bytes": 643
+        "sha256": "90a593809a17970967e71a6d538ad06921e2a07e8cc227deb8dbf2d99ad40c7c",
+        "bytes": 650
       },
       {
         "path": "skills/oneirloom-digital-form/templates/product-sculptural-variant/template.md",
@@ -252,8 +252,8 @@
       },
       {
         "path": "skills/oneirloom-dream-weaving/SKILL.md",
-        "sha256": "eda6c1668a0730737440ff243ea65d6d019644b654f60d48d0f2c49160964971",
-        "bytes": 6469
+        "sha256": "91ae656afcef2a1b623a16319f8981cb759c8f2104b7744392ac0551564a8b11",
+        "bytes": 6517
       },
       {
         "path": "skills/oneirloom-dream-weaving/agents/openai.yaml",
@@ -267,8 +267,8 @@
       },
       {
         "path": "skills/oneirloom-expression-stickers/SKILL.md",
-        "sha256": "8c286d77f26b90d9a99cd77285b8c4adad466c23b13a1efe09e10ecfc08c1f97",
-        "bytes": 15875
+        "sha256": "a7ff974d1889edac2d0350b29a5d0a6073e5808331c48b4c91027594968c6ecd",
+        "bytes": 15963
       },
       {
         "path": "skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
@@ -477,8 +477,8 @@
       },
       {
         "path": "skills/oneirloom-model-qwen-image-2-1-comfyui-edit/SKILL.md",
-        "sha256": "0f33439eb616db2f1bdc24f36dc9cf550a187a9bc555ad1964fffa8583dca5e2",
-        "bytes": 8319
+        "sha256": "b67ff56fbd70f24e24f5eba41befaeb74f0d03c74eaffdf43533e4a8886cba77",
+        "bytes": 8442
       },
       {
         "path": "skills/oneirloom-model-qwen-image-2-1/SKILL.md",
@@ -547,8 +547,8 @@
       },
       {
         "path": "skills/oneirloom-product-art-direction/SKILL.md",
-        "sha256": "208483a9f37f93dd3ace39e68d94678e8135d2b3e7751b62d91b5d587d6a4d79",
-        "bytes": 8920
+        "sha256": "4d9dd9399a58cb746315aae8b836787402cf873b0a0a60d99a1855defc92886d",
+        "bytes": 8954
       },
       {
         "path": "skills/oneirloom-product-art-direction/references/ecommerce-examples.md",
@@ -562,8 +562,8 @@
       },
       {
         "path": "skills/oneirloom-product-art-direction/references/product-form-as-scene.md",
-        "sha256": "b5d758110f591c360b21796db5d57f92a925d0f0dc3e36f29d03afd090642ba2",
-        "bytes": 13131
+        "sha256": "090e564ede4d93b1b5e528959563c1a4c78f87b89b5baa902a61582788c6240a",
+        "bytes": 13255
       },
       {
         "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/case.md",
@@ -622,8 +622,8 @@
       },
       {
         "path": "skills/oneirloom-space-conception/SKILL.md",
-        "sha256": "709b020d322d71df7fd87f17b90446a93e7b8bbc0600ece9c3107b94c4f2718d",
-        "bytes": 2584
+        "sha256": "a2774064052af6b4e74e79681e92e6dbccbaf7bb3cdcbc7006fe870fd2608f29",
+        "bytes": 2613
       },
       {
         "path": "skills/oneirloom-space-conception/references/spatial-relations.md",
@@ -632,8 +632,8 @@
       },
       {
         "path": "skills/oneirloom-space-conception/templates/index.md",
-        "sha256": "dc247aa1276baa2f35bc9931a3f996becd73132a28ea6492f267ce9f2d3d1b89",
-        "bytes": 603
+        "sha256": "54bdc6a3aa46ae20b9364aaed411d03eaecf766bc12224d5f69e078f0e9845ba",
+        "bytes": 610
       },
       {
         "path": "skills/oneirloom-space-conception/templates/seasonal-product-display/template.md",
@@ -672,8 +672,8 @@
       },
       {
         "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
-        "sha256": "d16557242adaa924407640fdfe673e256216c52a6db540e7336d20f0b79ccf9f",
-        "bytes": 8873
+        "sha256": "392e453d1a0fa5b6bd0bfe86babfb7bd5a328a14c1df85ca7c70ca3aaf0fd553",
+        "bytes": 8946
       },
       {
         "path": "skills/oneirloom-style-design/templates/experimental-editorial-posters/01-sculpture-tear/example.json",
@@ -1147,8 +1147,8 @@
       },
       {
         "path": "skills/oneirloom-style-design/templates/index.md",
-        "sha256": "0d7b4ddaac27e967173540a116968d9e1806e64e8adb9f4af12ef14ff72d55ce",
-        "bytes": 1460
+        "sha256": "1b45ace04513cf5f8a32cfd68670b29e73c2a42962b6ffaf254cf8edf7d009d9",
+        "bytes": 1472
       },
       {
         "path": "skills/oneirloom-style-design/templates/product-origin-world/example-01.json",
@@ -1237,8 +1237,8 @@
       },
       {
         "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md",
-        "sha256": "179d9964266aaf3c7bb9c9745a4ffc492e358f670e9f63bd9cb7764ee8eae9b7",
-        "bytes": 6471
+        "sha256": "db2e33f5502b655441f2cd14dfabba8d018c7f8fca9a501eb0138cc8e787da7f",
+        "bytes": 6535
       },
       {
         "path": "skills/oneirloom-style-photography/SKILL.md",
@@ -1297,8 +1297,8 @@
       },
       {
         "path": "skills/oneirloom-style-photography/templates/index.md",
-        "sha256": "ca7eb1ef8778ce962b2584e613a754d60e35361082f01a1b6263b8ba34c3579a",
-        "bytes": 1899
+        "sha256": "1cde312efc5f7cf872b818986cb3747699bf1ca5d9478c8f8668f54a5d20b2aa",
+        "bytes": 1911
       },
       {
         "path": "skills/oneirloom-style-photography/templates/indoor-full-length/example-01.json",
@@ -1472,8 +1472,8 @@
       },
       {
         "path": "skills/oneirloom/references/visual-families/index.md",
-        "sha256": "34f6b3d5626cbec1c4766c30ce1d0f9372b0c55abc20a123d520f69684aaa81a",
-        "bytes": 5992
+        "sha256": "f66778fac2cd5e668b7bde5027c32f4476174444bc8ad5fb2266e4a106dc51e6",
+        "bytes": 6014
       },
       {
         "path": "skills/oneirloom/references/visual-families/materials.md",
@@ -1497,24 +1497,6 @@
       }
     ],
     "lfsPayloadResolutions": [
-      {
-        "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.png",
-        "oid": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
-        "bytes": 3024239,
-        "sha256": "9a872810ecd8964c85d892991d0ffae1848b3e06789d4bdbb5eeca0cd5034282",
-        "pointerSha256": "02b4f77f8caeac3b796b5e9e825e25b87cf68b7e63f74b338d49e216f1de0146",
-        "pointerBytes": 135,
-        "source": "git-lfs-object-store"
-      },
-      {
-        "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/source-01.png",
-        "oid": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
-        "bytes": 1735041,
-        "sha256": "a343d18c955f1212aca444620a1324bb69dcdc51201bb34f09135d253dccf750",
-        "pointerSha256": "f80384b618414ca338041b2ceee61a45460977f3e3bec1c154a877a3cbb626fb",
-        "pointerBytes": 135,
-        "source": "git-lfs-object-store"
-      },
       {
         "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/images/accepted.png",
         "oid": "ac711aa18cad0556215cf597f38ede46d0fdcf9c13824e9bc7883fb8555f3607",
@@ -1599,13 +1581,13 @@
     },
     {
       "path": "docs/COMPATIBILITY.md",
-      "sha256": "88837282fd55f9921711d3bb8d6d4d62a1c53c81c822e8a5fa5ad38f537a75e1",
-      "bytes": 8097
+      "sha256": "236cfbc66d068dddce63606d275f4b07b88496c38d1f7f9e712ec169275ffcfd",
+      "bytes": 8093
     },
     {
       "path": "docs/INSTALL.md",
-      "sha256": "8595484d9af3f525e261d007b7d86be492d5ac201e31e151d4c1394fccc8b18c",
-      "bytes": 9116
+      "sha256": "0d6cb54055c25a7526cb456e63e21914475c55f75c567d9da1ae63ccd6cad052",
+      "bytes": 9232
     },
     {
       "path": "docs/SAFETY.md",
@@ -1699,8 +1681,8 @@
     },
     {
       "path": "skills/oneirloom-character-sheet/references/fashion-styling.md",
-      "sha256": "04fddf16ef4fa1fa579b7abb9179d0c850859723eb33bffb44012a8b88d39fa3",
-      "bytes": 6093
+      "sha256": "3f86300b0fb20e862ef9ebc61cf4a3fa6c985478d2d12f619c50798e09bba211",
+      "bytes": 6130
     },
     {
       "path": "skills/oneirloom-character-sheet/templates/four-plus-four/template.md",
@@ -1709,13 +1691,13 @@
     },
     {
       "path": "skills/oneirloom-character-sheet/templates/index.md",
-      "sha256": "a3cf96fc4b566d933803a41cb0e0188b974a6c3dabf4daecf6fc62b951855780",
-      "bytes": 1507
+      "sha256": "17296f35eb890d5be9c5a528906e374bcf1714dc9b41d2bec0e2a779eb9de7ff",
+      "bytes": 1517
     },
     {
       "path": "skills/oneirloom-character-sheet/templates/single-garment-look/template.md",
-      "sha256": "757f116d32f4e97e773d3438c184c17f298e2850a5ec260522f66f13e77a7e42",
-      "bytes": 9934
+      "sha256": "a96143a2c34cc8f598e92a6bbe9fd93270b9ff17463fd5eca6b27763607e625a",
+      "bytes": 10025
     },
     {
       "path": "skills/oneirloom-character-sheet/templates/three-view/template.md",
@@ -1779,13 +1761,13 @@
     },
     {
       "path": "skills/oneirloom-craft-construction/SKILL.md",
-      "sha256": "148299e537d5726095a9a14a055fcfaed375592eb18e524e6c702a51531eb614",
-      "bytes": 3057
+      "sha256": "9b99880cd6d07c604b54a9b1bc3b2ac9f2e0e674c5e94fec975b1662b22baf79",
+      "bytes": 3088
     },
     {
       "path": "skills/oneirloom-craft-construction/references/construction.md",
-      "sha256": "16cae5746a7850e64e43b8ba0a0b28a109a676955b68d2251d77c5bd872d1ff6",
-      "bytes": 4666
+      "sha256": "23f94edd20d9c31b20d0dd476080002573a8c657688536228e7da1d158aa064e",
+      "bytes": 4707
     },
     {
       "path": "skills/oneirloom-craft-construction/templates/fuse-bead/images/result-01.png",
@@ -1824,8 +1806,8 @@
     },
     {
       "path": "skills/oneirloom-craft-construction/templates/index.md",
-      "sha256": "89afaa2213757909215cc6f911970a00858fc9caa5920515f07a0d29b6fa8e26",
-      "bytes": 949
+      "sha256": "9e0b7c58c9c0b30171e5ddd52494c37ee93160201fcbb649697c2c9cf7cdbae7",
+      "bytes": 957
     },
     {
       "path": "skills/oneirloom-craft-construction/templates/layered-paper-backdrop/template.md",
@@ -1834,18 +1816,18 @@
     },
     {
       "path": "skills/oneirloom-digital-form/SKILL.md",
-      "sha256": "45b6e1cd8904418cd0416728cb4025d76975ef72d7c2d17e7dc6784c4a5804d6",
-      "bytes": 2701
+      "sha256": "f70b89e778cfa888fb792499423ab1c3dc8b055c281f8fe552fff447174951d0",
+      "bytes": 2730
     },
     {
       "path": "skills/oneirloom-digital-form/references/form-and-transformation.md",
-      "sha256": "4b522ce602f25ba892772d8a9ead561327e100e34b60d83cafda78cfa1653e34",
-      "bytes": 7672
+      "sha256": "6766e5e89196e264a463e0580df4be98cd5ea829c53a051446ef8712f5823ca8",
+      "bytes": 7729
     },
     {
       "path": "skills/oneirloom-digital-form/templates/index.md",
-      "sha256": "67be912abda9a112c90d72807d882be494b8cdfe9fb326aae4604e649a4bc78b",
-      "bytes": 643
+      "sha256": "90a593809a17970967e71a6d538ad06921e2a07e8cc227deb8dbf2d99ad40c7c",
+      "bytes": 650
     },
     {
       "path": "skills/oneirloom-digital-form/templates/product-sculptural-variant/template.md",
@@ -1854,8 +1836,8 @@
     },
     {
       "path": "skills/oneirloom-dream-weaving/SKILL.md",
-      "sha256": "eda6c1668a0730737440ff243ea65d6d019644b654f60d48d0f2c49160964971",
-      "bytes": 6469
+      "sha256": "91ae656afcef2a1b623a16319f8981cb759c8f2104b7744392ac0551564a8b11",
+      "bytes": 6517
     },
     {
       "path": "skills/oneirloom-dream-weaving/agents/openai.yaml",
@@ -1869,8 +1851,8 @@
     },
     {
       "path": "skills/oneirloom-expression-stickers/SKILL.md",
-      "sha256": "8c286d77f26b90d9a99cd77285b8c4adad466c23b13a1efe09e10ecfc08c1f97",
-      "bytes": 15875
+      "sha256": "a7ff974d1889edac2d0350b29a5d0a6073e5808331c48b4c91027594968c6ecd",
+      "bytes": 15963
     },
     {
       "path": "skills/oneirloom-expression-stickers/references/oneirloom-brand.md",
@@ -2079,8 +2061,8 @@
     },
     {
       "path": "skills/oneirloom-model-qwen-image-2-1-comfyui-edit/SKILL.md",
-      "sha256": "0f33439eb616db2f1bdc24f36dc9cf550a187a9bc555ad1964fffa8583dca5e2",
-      "bytes": 8319
+      "sha256": "b67ff56fbd70f24e24f5eba41befaeb74f0d03c74eaffdf43533e4a8886cba77",
+      "bytes": 8442
     },
     {
       "path": "skills/oneirloom-model-qwen-image-2-1/SKILL.md",
@@ -2149,8 +2131,8 @@
     },
     {
       "path": "skills/oneirloom-product-art-direction/SKILL.md",
-      "sha256": "208483a9f37f93dd3ace39e68d94678e8135d2b3e7751b62d91b5d587d6a4d79",
-      "bytes": 8920
+      "sha256": "4d9dd9399a58cb746315aae8b836787402cf873b0a0a60d99a1855defc92886d",
+      "bytes": 8954
     },
     {
       "path": "skills/oneirloom-product-art-direction/references/ecommerce-examples.md",
@@ -2164,8 +2146,8 @@
     },
     {
       "path": "skills/oneirloom-product-art-direction/references/product-form-as-scene.md",
-      "sha256": "b5d758110f591c360b21796db5d57f92a925d0f0dc3e36f29d03afd090642ba2",
-      "bytes": 13131
+      "sha256": "090e564ede4d93b1b5e528959563c1a4c78f87b89b5baa902a61582788c6240a",
+      "bytes": 13255
     },
     {
       "path": "skills/oneirloom-product-art-direction/references/takeaway-food-town/case.md",
@@ -2224,8 +2206,8 @@
     },
     {
       "path": "skills/oneirloom-space-conception/SKILL.md",
-      "sha256": "709b020d322d71df7fd87f17b90446a93e7b8bbc0600ece9c3107b94c4f2718d",
-      "bytes": 2584
+      "sha256": "a2774064052af6b4e74e79681e92e6dbccbaf7bb3cdcbc7006fe870fd2608f29",
+      "bytes": 2613
     },
     {
       "path": "skills/oneirloom-space-conception/references/spatial-relations.md",
@@ -2234,8 +2216,8 @@
     },
     {
       "path": "skills/oneirloom-space-conception/templates/index.md",
-      "sha256": "dc247aa1276baa2f35bc9931a3f996becd73132a28ea6492f267ce9f2d3d1b89",
-      "bytes": 603
+      "sha256": "54bdc6a3aa46ae20b9364aaed411d03eaecf766bc12224d5f69e078f0e9845ba",
+      "bytes": 610
     },
     {
       "path": "skills/oneirloom-space-conception/templates/seasonal-product-display/template.md",
@@ -2274,8 +2256,8 @@
     },
     {
       "path": "skills/oneirloom-style-design/templates/blind-box-comparison/template.md",
-      "sha256": "d16557242adaa924407640fdfe673e256216c52a6db540e7336d20f0b79ccf9f",
-      "bytes": 8873
+      "sha256": "392e453d1a0fa5b6bd0bfe86babfb7bd5a328a14c1df85ca7c70ca3aaf0fd553",
+      "bytes": 8946
     },
     {
       "path": "skills/oneirloom-style-design/templates/experimental-editorial-posters/01-sculpture-tear/example.json",
@@ -2749,8 +2731,8 @@
     },
     {
       "path": "skills/oneirloom-style-design/templates/index.md",
-      "sha256": "0d7b4ddaac27e967173540a116968d9e1806e64e8adb9f4af12ef14ff72d55ce",
-      "bytes": 1460
+      "sha256": "1b45ace04513cf5f8a32cfd68670b29e73c2a42962b6ffaf254cf8edf7d009d9",
+      "bytes": 1472
     },
     {
       "path": "skills/oneirloom-style-design/templates/product-origin-world/example-01.json",
@@ -2839,8 +2821,8 @@
     },
     {
       "path": "skills/oneirloom-style-illustration/templates/zhiguai-narrative/template.md",
-      "sha256": "179d9964266aaf3c7bb9c9745a4ffc492e358f670e9f63bd9cb7764ee8eae9b7",
-      "bytes": 6471
+      "sha256": "db2e33f5502b655441f2cd14dfabba8d018c7f8fca9a501eb0138cc8e787da7f",
+      "bytes": 6535
     },
     {
       "path": "skills/oneirloom-style-photography/SKILL.md",
@@ -2899,8 +2881,8 @@
     },
     {
       "path": "skills/oneirloom-style-photography/templates/index.md",
-      "sha256": "ca7eb1ef8778ce962b2584e613a754d60e35361082f01a1b6263b8ba34c3579a",
-      "bytes": 1899
+      "sha256": "1cde312efc5f7cf872b818986cb3747699bf1ca5d9478c8f8668f54a5d20b2aa",
+      "bytes": 1911
     },
     {
       "path": "skills/oneirloom-style-photography/templates/indoor-full-length/example-01.json",
@@ -3074,8 +3056,8 @@
     },
     {
       "path": "skills/oneirloom/references/visual-families/index.md",
-      "sha256": "34f6b3d5626cbec1c4766c30ce1d0f9372b0c55abc20a123d520f69684aaa81a",
-      "bytes": 5992
+      "sha256": "f66778fac2cd5e668b7bde5027c32f4476174444bc8ad5fb2266e4a106dc51e6",
+      "bytes": 6014
     },
     {
       "path": "skills/oneirloom/references/visual-families/materials.md",
