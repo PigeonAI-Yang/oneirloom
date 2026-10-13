@@ -58,7 +58,7 @@
 - 局部修改时，保留其他已确认要求。提供真实结果图后，依据图中可见偏差写出完整、具体的修订提示词；未提供结果图时，不声称检查过生成结果。
 
 <!-- project-metadata:guidance-current-status:start -->
-这些指导属于冻结的 0.3.0-preview.1 包。0.3.0-preview.1 源码仍是开发预览，已有对应固定版本包；其新对话行为尚未验证，整体生成图像质量尚未验收。六个产品配方均有单例结果的视觉检查记录：3 项通过、3 项未通过；其他配方分支和重复生成结果尚未验证，详见[六项视觉检查收据](skills/oneirloom/references/teaching-observations.md)。0.3.0-preview.1 的日期化发布记录见[发布状态](docs/releases/0.3.0-preview.1-publication.md)。
+这些指导属于冻结的 0.3.0-preview.1 包。0.3.1-preview 源码仍是开发预览，尚无对应发布包；其新对话行为尚未验证，整体生成图像质量尚未验收。六个产品配方均有单例结果的视觉检查记录：3 项通过、3 项未通过；其他配方分支和重复生成结果尚未验证，详见[六项视觉检查收据](skills/oneirloom/references/teaching-observations.md)。0.3.0-preview.1 的日期化发布记录见[发布状态](docs/releases/0.3.0-preview.1-publication.md)。
 <!-- project-metadata:guidance-current-status:end -->
 
 ## 案例与记录
@@ -119,7 +119,7 @@
 
 <!-- project-metadata:skill-directory:start -->
 主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
-以下目录列出 `0.3.0-preview.1` 源码中的 23 个 Skill。
+以下目录列出 `0.3.1-preview` 源码中的 23 个 Skill。
 
 <details>
 <summary>展开全部技能</summary>

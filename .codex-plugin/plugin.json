@@ -1,6 +1,6 @@
 {
   "name": "oneirloom",
-  "version": "0.3.0-preview.1",
+  "version": "0.3.1-preview",
   "description": "Visual prompting, reference analysis, craft construction, digital form, spatial concepts, and result diagnosis with 23 source skills.",
   "author": {
     "name": "PigeonAI-Yang",
@@ -10,7 +10,7 @@
   "interface": {
     "displayName": "Oneirloom · 织梦师",
     "shortDescription": "Turn visual ideas into prompts",
-    "longDescription": "Oneirloom 0.3.0-preview.1 contains 23 skills for visual prompts, reference analysis, craft construction, digital form, space conception, composition and light, model adaptation, and result diagnosis. Use an image-capable host for visual analysis and a separately configured image model or tool for generation. The optional prompt-card renderer uses local Python, Pillow and Playwright. No MCP server, account connection, background service or automatic upload is bundled.",
+    "longDescription": "Oneirloom 0.3.1-preview contains 23 skills for visual prompts, reference analysis, craft construction, digital form, space conception, composition and light, model adaptation, and result diagnosis. Use an image-capable host for visual analysis and a separately configured image model or tool for generation. The optional prompt-card renderer uses local Python, Pillow and Playwright. No MCP server, account connection, background service or automatic upload is bundled.",
     "developerName": "PigeonAI-Yang",
     "category": "Productivity",
     "capabilities": [],

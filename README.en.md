@@ -52,7 +52,7 @@ The collection uses three layers: **one main skill, reusable method skills, and 
 - For local revisions, keep the other confirmed requirements. When you provide a real result image, use visible deviations to write a complete, specific revision prompt. Without a result image, do not claim the result was inspected.
 
 <!-- project-metadata:guidance-current-status:start -->
-These instructions belong to the frozen 0.3.0-preview.1 package. The 0.3.0-preview.1 source remains a preview with a corresponding fixed package; its new-session behavior has not been verified, and overall generated-image quality has not been accepted. Six product recipes have single-example visual-check records: three passed and three did not pass. Other recipe branches and repeated generations remain unverified; see the [six-recipe visual-check receipt](skills/oneirloom/references/teaching-observations.md). See the dated [0.3.0-preview.1 publication record](docs/releases/0.3.0-preview.1-publication.md) for its account checks.
+These instructions belong to the frozen 0.3.0-preview.1 package. The 0.3.1-preview source remains a preview with no corresponding package; its new-session behavior has not been verified, and overall generated-image quality has not been accepted. Six product recipes have single-example visual-check records: three passed and three did not pass. Other recipe branches and repeated generations remain unverified; see the [six-recipe visual-check receipt](skills/oneirloom/references/teaching-observations.md). See the dated [0.3.0-preview.1 publication record](docs/releases/0.3.0-preview.1-publication.md) for its account checks.
 <!-- project-metadata:guidance-current-status:end -->
 
 ## Use the frozen package
@@ -87,7 +87,7 @@ For tutorials, invoke `oneirloom-image-tutorial` or ask the main skill to write,
 <!-- project-metadata:skill-directory:start -->
 ## Skill directory
 
-This table lists all 23 skills in the `0.3.0-preview.1` source tree.
+This table lists all 23 skills in the `0.3.1-preview` source tree.
 
 | Skill | Purpose |
 | --- | --- |

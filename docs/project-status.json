@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "repository": "https://github.com/PigeonAI-Yang/oneirloom",
   "source": {
-    "version": "0.3.0-preview.1",
+    "version": "0.3.1-preview",
     "skillCount": 23,
     "skillIds": [
       "oneirloom",
@@ -30,7 +30,7 @@
       "oneirloom-prompt-card"
     ],
     "status": "development-preview",
-    "notesUrl": "https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.1.md"
+    "notesUrl": "https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview.md"
   },
   "package": {
     "version": "0.3.0-preview.1",
@@ -272,12 +272,12 @@
   "copy": {
     "zh": {
       "summary": "一套包含 23 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。",
-      "sourceStatus": "0.3.0-preview.1 是开发源码预览，包含 23 个 Skill。",
+      "sourceStatus": "0.3.1-preview 是开发源码预览，包含 23 个 Skill。",
       "packageStatus": "已发布的冻结包 0.3.0-preview.1 包含 22 个 Skill。"
     },
     "en": {
       "summary": "An open-source collection of 23 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.",
-      "sourceStatus": "0.3.0-preview.1 is a development source preview with 23 skills.",
+      "sourceStatus": "0.3.1-preview is a development source preview with 23 skills.",
       "packageStatus": "The published frozen package 0.3.0-preview.1 contains 22 skills."
     }
   },
