@@ -4,7 +4,7 @@
 ## Current source and package status
 
 The current `0.3.1-preview` source contains 23 skills and remains a source preview; the frozen package version is recorded separately.
-The published frozen `0.3.0-preview.1` package contains 22 skills. See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview.md) and [publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.1-publication.md).
+The published frozen `0.3.1-preview` package contains 23 skills. See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview.md) and [publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview-publication.md).
 The candidate table below preserves prepublication checks. Its pending items describe that earlier review, not current package availability.
 <!-- project-metadata:current-status:end -->
 

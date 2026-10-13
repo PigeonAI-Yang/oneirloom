@@ -33,23 +33,23 @@
     "notesUrl": "https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview.md"
   },
   "package": {
-    "version": "0.3.0-preview.1",
-    "skillCount": 22,
-    "tag": "v0.3.0-preview.1",
-    "downloadUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip",
-    "checksumUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/SHA256SUMS.txt",
-    "releaseUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.3.0-preview.1"
+    "version": "0.3.1-preview",
+    "skillCount": 23,
+    "tag": "v0.3.1-preview",
+    "downloadUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/oneirloom-0.3.1-preview.zip",
+    "checksumUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/SHA256SUMS.txt",
+    "releaseUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.3.1-preview"
   },
   "packages": [
     {
-      "id": "oneirloom@0.3.0-preview.1",
-      "version": "0.3.0-preview.1",
-      "filename": "oneirloom-0.3.0-preview.1.zip",
-      "downloadUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip",
-      "sha256": "738ff6ded83f060bcb3dd226f194cfa8f03ad1c18086faf3bfdc49c0743f7743",
-      "manifestSha256": "3148d84269ce32f974105db7613e3c30d99429961c1f43dd4d59217be79c9d88",
-      "sourceFingerprint": "71b6262f161f8cbd02a6bcbd711bed0eac37b0aa03ba4656a694c554cfc51c60",
-      "publishedAt": "2026-10-11T18:32:59.000Z",
+      "id": "oneirloom@0.3.1-preview",
+      "version": "0.3.1-preview",
+      "filename": "oneirloom-0.3.1-preview.zip",
+      "downloadUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/oneirloom-0.3.1-preview.zip",
+      "sha256": "96f082fcb3e07f28b8cba8e76585ba8893fce95affc7062d55b9b2a67ab3392a",
+      "manifestSha256": "a2a61e37992715e8b6b7b2f02a71088a8f3c933dea7671f0c8abddf51444e7f7",
+      "sourceFingerprint": "69d2cf50c9b451a7b0b13fb579d23eef8bdffe6a3e9709710e3a8807572d8042",
+      "publishedAt": "2026-10-13T21:04:48.000Z",
       "skillIds": [
         "oneirloom-brand-identity",
         "oneirloom-camera-composition",
@@ -63,6 +63,7 @@
         "oneirloom-icon-design",
         "oneirloom-image-tutorial",
         "oneirloom-model-krea-2",
+        "oneirloom-model-qwen-image-2-1-comfyui-edit",
         "oneirloom-model-qwen-image-2-1",
         "oneirloom-product-art-direction",
         "oneirloom-prompt-card",
@@ -98,6 +99,40 @@
         "oneirloom-product-art-direction",
         "oneirloom-prompt-card",
         "oneirloom-result-diagnosis",
+        "oneirloom-style-design",
+        "oneirloom-style-illustration",
+        "oneirloom-style-photography",
+        "oneirloom-visual-analysis",
+        "oneirloom"
+      ]
+    },
+    {
+      "id": "oneirloom@0.3.0-preview.1",
+      "version": "0.3.0-preview.1",
+      "filename": "oneirloom-0.3.0-preview.1.zip",
+      "downloadUrl": "https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip",
+      "sha256": "738ff6ded83f060bcb3dd226f194cfa8f03ad1c18086faf3bfdc49c0743f7743",
+      "manifestSha256": "3148d84269ce32f974105db7613e3c30d99429961c1f43dd4d59217be79c9d88",
+      "sourceFingerprint": "71b6262f161f8cbd02a6bcbd711bed0eac37b0aa03ba4656a694c554cfc51c60",
+      "publishedAt": "2026-10-11T18:32:59.000Z",
+      "skillIds": [
+        "oneirloom-brand-identity",
+        "oneirloom-camera-composition",
+        "oneirloom-character-sheet",
+        "oneirloom-color-light",
+        "oneirloom-craft-construction",
+        "oneirloom-digital-form",
+        "oneirloom-dream-weaving",
+        "oneirloom-expression-stickers",
+        "oneirloom-figure-art",
+        "oneirloom-icon-design",
+        "oneirloom-image-tutorial",
+        "oneirloom-model-krea-2",
+        "oneirloom-model-qwen-image-2-1",
+        "oneirloom-product-art-direction",
+        "oneirloom-prompt-card",
+        "oneirloom-result-diagnosis",
+        "oneirloom-space-conception",
         "oneirloom-style-design",
         "oneirloom-style-illustration",
         "oneirloom-style-photography",
@@ -273,12 +308,12 @@
     "zh": {
       "summary": "一套包含 23 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。",
       "sourceStatus": "0.3.1-preview 是开发源码预览，包含 23 个 Skill。",
-      "packageStatus": "已发布的冻结包 0.3.0-preview.1 包含 22 个 Skill。"
+      "packageStatus": "已发布的冻结包 0.3.1-preview 包含 23 个 Skill。"
     },
     "en": {
       "summary": "An open-source collection of 23 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.",
       "sourceStatus": "0.3.1-preview is a development source preview with 23 skills.",
-      "packageStatus": "The published frozen package 0.3.0-preview.1 contains 22 skills."
+      "packageStatus": "The published frozen package 0.3.1-preview contains 23 skills."
     }
   },
   "github": {

@@ -9,7 +9,7 @@
 <!-- project-metadata:source-summary:end -->
 
 <!-- project-metadata:package-badge:start -->
-<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip">Download skills (22 skills)</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.3.0-preview.1">Release notes</a></p>
+<p align="center"><a href="https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/oneirloom-0.3.1-preview.zip">Download skills (23 skills)</a> · <a href="https://github.com/PigeonAI-Yang/oneirloom/releases/tag/v0.3.1-preview">Release notes</a></p>
 <!-- project-metadata:package-badge:end -->
 
 <p>
@@ -44,7 +44,7 @@ Turn visual requests, references, and generation misses into complete image prom
 The collection uses three layers: **one main skill, reusable method skills, and indexed templates**. Concrete recipes live with their prompts and example records instead of becoming separate skills. See the skill directory below for the available entries.
 
 <!-- project-metadata:guidance-heading:start -->
-## Guidance in the frozen 0.3.0-preview.1 package
+## Guidance in the frozen 0.3.1-preview package
 <!-- project-metadata:guidance-heading:end -->
 
 - For a clear brief, work within the constraints you provide. For an open brief, inspect the references and available material, ask only necessary questions, then offer two or three reasoned directions.
@@ -52,19 +52,19 @@ The collection uses three layers: **one main skill, reusable method skills, and 
 - For local revisions, keep the other confirmed requirements. When you provide a real result image, use visible deviations to write a complete, specific revision prompt. Without a result image, do not claim the result was inspected.
 
 <!-- project-metadata:guidance-current-status:start -->
-These instructions belong to the frozen 0.3.0-preview.1 package. The 0.3.1-preview source remains a preview with no corresponding package; its new-session behavior has not been verified, and overall generated-image quality has not been accepted. Six product recipes have single-example visual-check records: three passed and three did not pass. Other recipe branches and repeated generations remain unverified; see the [six-recipe visual-check receipt](skills/oneirloom/references/teaching-observations.md). See the dated [0.3.0-preview.1 publication record](docs/releases/0.3.0-preview.1-publication.md) for its account checks.
+These instructions belong to the frozen 0.3.1-preview package. The 0.3.1-preview source remains a preview with a corresponding fixed package; its new-session behavior has not been verified, and overall generated-image quality has not been accepted. Six product recipes have single-example visual-check records: three passed and three did not pass. Other recipe branches and repeated generations remain unverified; see the [six-recipe visual-check receipt](skills/oneirloom/references/teaching-observations.md). See the dated [0.3.1-preview publication record](docs/releases/0.3.1-preview-publication.md) for its account checks.
 <!-- project-metadata:guidance-current-status:end -->
 
 ## Use the frozen package
 
 <!-- project-metadata:install-intro:start -->
-The frozen `0.3.0-preview.1` package has **22 free skills**. Download the publisher-built ZIP from the [fixed package URL](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip) and verify it with [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/SHA256SUMS.txt). Do not use GitHub's generated source archive as the inspected installation package. See [installation and rollback](docs/INSTALL.md), [frozen-package publication status](docs/releases/0.3.0-preview.1-publication.md), and [prepublication compatibility and verification records](docs/COMPATIBILITY.md).
+The frozen `0.3.1-preview` package has **23 free skills**. Download the publisher-built ZIP from the [fixed package URL](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/oneirloom-0.3.1-preview.zip) and verify it with [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/SHA256SUMS.txt). Do not use GitHub's generated source archive as the inspected installation package. See [installation and rollback](docs/INSTALL.md), [frozen-package publication status](docs/releases/0.3.1-preview-publication.md), and [prepublication compatibility and verification records](docs/COMPATIBILITY.md).
 <!-- project-metadata:install-intro:end -->
 
 The `main` branch is for development. Use a confirmed versioned package for installation; contributors need Git LFS to fetch the complete source images. The core skills require no Go runtime or local image model. Generation tools and optional card-rendering dependencies are separate. Public prompt cards are unbranded by default; an authorized local watermark is optional.
 
 <!-- project-metadata:install-copy:start -->
-1. Follow the installation guide to copy all 22 directories in the frozen package under `skills/` as siblings into a new project's `.agents/skills/`. Preserve the exact prior installation and package hash before an upgrade.
+1. Follow the installation guide to copy all 23 directories in the frozen package under `skills/` as siblings into a new project's `.agents/skills/`. Preserve the exact prior installation and package hash before an upgrade.
 <!-- project-metadata:install-copy:end -->
 2. Ask for Oneirloom, "织梦师", or "织梦师Skill"; explicitly invoke `$oneirloom` when using the technical ID. Method skills remain available directly.
 3. Give the requested image or tutorial goal and any model, reference, or result already available. Confirmed conversation settings are inherited.
