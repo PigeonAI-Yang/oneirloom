@@ -5,7 +5,7 @@
 <p><strong>把想象，写成画面。</strong></p>
 
 <!-- project-metadata:source-summary:start -->
-<p>一套包含 22 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。</p>
+<p>一套包含 23 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。</p>
 <!-- project-metadata:source-summary:end -->
 
 <!-- project-metadata:package-badge:start -->
@@ -119,7 +119,7 @@
 
 <!-- project-metadata:skill-directory:start -->
 主技能负责理解任务与整合交付，方法技能负责各自的判断。具体画面配方放在所属方法的模板目录中。
-以下目录列出 `0.3.0-preview.1` 源码中的 22 个 Skill。
+以下目录列出 `0.3.0-preview.1` 源码中的 23 个 Skill。
 
 <details>
 <summary>展开全部技能</summary>
@@ -145,6 +145,7 @@
 | [oneirloom-space-conception](skills/oneirloom-space-conception/SKILL.md) | 房间、布景与环境的空间关系 |
 | [oneirloom-model-krea-2](skills/oneirloom-model-krea-2/SKILL.md) | Krea 2 提示词与入口适配 |
 | [oneirloom-model-qwen-image-2-1](skills/oneirloom-model-qwen-image-2-1/SKILL.md) | Qwen-Image-2.1 提示词与任务适配 |
+| [oneirloom-model-qwen-image-2-1-comfyui-edit](skills/oneirloom-model-qwen-image-2-1-comfyui-edit/SKILL.md) | Qwen-Image-2.1 的真编辑接线、denoise 与验证 |
 | [oneirloom-result-diagnosis](skills/oneirloom-result-diagnosis/SKILL.md) | 生成偏差分析与提示词修正 |
 | [oneirloom-image-tutorial](skills/oneirloom-image-tutorial/SKILL.md) | 图文教程写作、扩写与润色 |
 | [oneirloom-prompt-card](skills/oneirloom-prompt-card/SKILL.md) | 作品与完整提示词的 3:4 分享卡片 |
@@ -185,6 +186,10 @@
 欢迎补充画面配方、修正方法，或提交带原图与提示词的案例。[贡献指南](CONTRIBUTING.md)说明了模板和记录的组织方式。
 
 如果织梦师帮你写清了想画的图，欢迎给项目一颗 Star，或在 [Issues](https://github.com/PigeonAI-Yang/oneirloom/issues) 分享需求与结果。
+
+## 原创补充内容候选
+
+本地已备好[《商品视觉迭代工作包》](docs/member-resources/product-visual-iteration-workpack-candidate-20261012/index.md)：完整教程、两轮文字练习和可复制填写的工作表。它作为私有内容草稿保留，会员资源售卖方向已撤销。当前商业方向[只卖 Skill](docs/skill-commercial-scope-20261012.md)，现有免费 Skill 包、四篇文章及六课免费学习保留。
 
 ## 许可证
 

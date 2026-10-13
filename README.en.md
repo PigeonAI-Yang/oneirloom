@@ -5,7 +5,7 @@
 <p><strong>Turn imagination into images.</strong></p>
 
 <!-- project-metadata:source-summary:start -->
-<p>An open-source collection of 22 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.</p>
+<p>An open-source collection of 23 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.</p>
 <!-- project-metadata:source-summary:end -->
 
 <!-- project-metadata:package-badge:start -->
@@ -80,14 +80,14 @@ For tutorials, invoke `oneirloom-image-tutorial` or ask the main skill to write,
 | --- | --- |
 | Main | [Oneirloom](skills/oneirloom/SKILL.md): context, routing, integration, output contract |
 <!-- project-metadata:methods-summary:start -->
-| Methods | Dream weaving; Visual analysis; Product art direction; Camera and composition; Color and light; Character sheets; Expression stickers; Icon design; Brand identity; Artistic figure; Photography; Illustration; Graphic design; Craft construction; Digital form; Space conception; Krea 2 adapter; Qwen-Image-2.1 adapter; Result diagnosis; Image tutorials; Prompt cards |
+| Methods | Dream weaving; Visual analysis; Product art direction; Camera and composition; Color and light; Character sheets; Expression stickers; Icon design; Brand identity; Artistic figure; Photography; Illustration; Graphic design; Craft construction; Digital form; Space conception; Krea 2 adapter; Qwen-Image-2.1 adapter; Qwen ComfyUI editing; Result diagnosis; Image tutorials; Prompt cards |
 <!-- project-metadata:methods-summary:end -->
 | Templates | [Photography](skills/oneirloom-style-photography/templates/index.md), [character sheets](skills/oneirloom-character-sheet/templates/index.md), [illustration](skills/oneirloom-style-illustration/templates/index.md), [design](skills/oneirloom-style-design/templates/index.md), and [craft construction](skills/oneirloom-craft-construction/templates/index.md): selection, visual anchors, slots, prompt scaffolds, image paths and evidence |
 
 <!-- project-metadata:skill-directory:start -->
 ## Skill directory
 
-This table lists all 22 skills in the `0.3.0-preview.1` source tree.
+This table lists all 23 skills in the `0.3.0-preview.1` source tree.
 
 | Skill | Purpose |
 | --- | --- |
@@ -110,6 +110,7 @@ This table lists all 22 skills in the `0.3.0-preview.1` source tree.
 | [oneirloom-space-conception](skills/oneirloom-space-conception/SKILL.md) | Spatial relations for rooms, sets, and environments. |
 | [oneirloom-model-krea-2](skills/oneirloom-model-krea-2/SKILL.md) | Krea 2 prompts and entry-point adaptation. |
 | [oneirloom-model-qwen-image-2-1](skills/oneirloom-model-qwen-image-2-1/SKILL.md) | Qwen-Image-2.1 prompts and task adaptation. |
+| [oneirloom-model-qwen-image-2-1-comfyui-edit](skills/oneirloom-model-qwen-image-2-1-comfyui-edit/SKILL.md) | Qwen-Image-2.1 editing wiring, denoise, and checks. |
 | [oneirloom-result-diagnosis](skills/oneirloom-result-diagnosis/SKILL.md) | Analyze generation misses and revise prompts. |
 | [oneirloom-image-tutorial](skills/oneirloom-image-tutorial/SKILL.md) | Write, expand, and polish illustrated tutorials. |
 | [oneirloom-prompt-card](skills/oneirloom-prompt-card/SKILL.md) | 3:4 share cards for images and complete prompts. |

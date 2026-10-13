@@ -3,7 +3,7 @@
   "repository": "https://github.com/PigeonAI-Yang/oneirloom",
   "source": {
     "version": "0.3.0-preview.1",
-    "skillCount": 22,
+    "skillCount": 23,
     "skillIds": [
       "oneirloom",
       "oneirloom-dream-weaving",
@@ -24,6 +24,7 @@
       "oneirloom-space-conception",
       "oneirloom-model-krea-2",
       "oneirloom-model-qwen-image-2-1",
+      "oneirloom-model-qwen-image-2-1-comfyui-edit",
       "oneirloom-result-diagnosis",
       "oneirloom-image-tutorial",
       "oneirloom-prompt-card"
@@ -240,6 +241,13 @@
       "enDescription": "Qwen-Image-2.1 prompts and task adaptation."
     },
     {
+      "id": "oneirloom-model-qwen-image-2-1-comfyui-edit",
+      "zh": "Qwen 编辑流程",
+      "en": "Qwen ComfyUI editing",
+      "zhDescription": "Qwen-Image-2.1 的真编辑接线、denoise 与验证",
+      "enDescription": "Qwen-Image-2.1 editing wiring, denoise, and checks."
+    },
+    {
       "id": "oneirloom-result-diagnosis",
       "zh": "结果诊断",
       "en": "Result diagnosis",
@@ -263,17 +271,17 @@
   ],
   "copy": {
     "zh": {
-      "summary": "一套包含 22 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。",
-      "sourceStatus": "0.3.0-preview.1 是开发源码预览，包含 22 个 Skill。",
+      "summary": "一套包含 23 个免费技能的开源视觉创作技能集。让你的 AI 助手结合参考图和想法，边讨论、边设计、边修改；覆盖产品视觉、摄影与插画、角色与贴图、品牌设计、手工艺、数字艺术与空间构想。",
+      "sourceStatus": "0.3.0-preview.1 是开发源码预览，包含 23 个 Skill。",
       "packageStatus": "已发布的冻结包 0.3.0-preview.1 包含 22 个 Skill。"
     },
     "en": {
-      "summary": "An open-source collection of 22 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.",
-      "sourceStatus": "0.3.0-preview.1 is a development source preview with 22 skills.",
+      "summary": "An open-source collection of 23 free visual creation skills. Work with your AI assistant to explore ideas, analyze references, design images, and refine the results—from product visuals, photography and illustration to characters, branding, crafts, digital art, and spatial concepts.",
+      "sourceStatus": "0.3.0-preview.1 is a development source preview with 23 skills.",
       "packageStatus": "The published frozen package 0.3.0-preview.1 contains 22 skills."
     }
   },
   "github": {
-    "description": "Oneirloom / 织梦师: 22 free visual creation Agent Skills. Explore ideas, analyze references, write image prompts, and refine results across photography, illustration, branding, crafts, digital art, and spatial concepts."
+    "description": "Oneirloom / 织梦师: 23 free visual creation Agent Skills. Explore ideas, analyze references, write image prompts, and refine results across photography, illustration, branding, crafts, digital art, and spatial concepts."
   }
 }
