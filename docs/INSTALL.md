@@ -1,26 +1,26 @@
 <!-- project-metadata:package-title:start -->
-# Install Oneirloom 0.3.0-preview.1
+# Install Oneirloom 0.3.1-preview
 <!-- project-metadata:package-title:end -->
 
 <!-- project-metadata:current-package-status:start -->
-This guide installs the published frozen package `0.3.0-preview.1`, which contains 22 sibling skills.
-The current `0.3.0-preview.1` source contains 22 skills and remains a source preview; the frozen package version is recorded separately.
-See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.1.md) and the [frozen-package publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.0-preview.1-publication.md).
+This guide installs the published frozen package `0.3.1-preview`, which contains 23 sibling skills.
+The current `0.3.1-preview` source contains 23 skills and remains a source preview; the frozen package version is recorded separately.
+See the [source record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview.md) and the [frozen-package publication record](https://github.com/PigeonAI-Yang/oneirloom/blob/main/docs/releases/0.3.1-preview-publication.md).
 <!-- project-metadata:current-package-status:end -->
 
 <!-- project-metadata:package-obtain:start -->
 ## Obtain and check the frozen package
 
-Download the publisher-built [oneirloom-0.3.0-preview.1.zip](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/oneirloom-0.3.0-preview.1.zip) and its [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.0-preview.1/SHA256SUMS.txt).
+Download the publisher-built [oneirloom-0.3.1-preview.zip](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/oneirloom-0.3.1-preview.zip) and its [SHA256SUMS.txt](https://github.com/PigeonAI-Yang/oneirloom/releases/download/v0.3.1-preview/SHA256SUMS.txt).
 Compare the downloaded ZIP with its exact filename in the checksum file before extraction.
 <!-- project-metadata:package-obtain:end -->
 
 <!-- project-metadata:package-hash-command:start -->
-1. Compare the ZIP's SHA-256 with the exact filename in `SHA256SUMS.txt`. In PowerShell, run `Get-FileHash -Algorithm SHA256 -LiteralPath './oneirloom-0.3.0-preview.1.zip'` in the download directory.
+1. Compare the ZIP's SHA-256 with the exact filename in `SHA256SUMS.txt`. In PowerShell, run `Get-FileHash -Algorithm SHA256 -LiteralPath './oneirloom-0.3.1-preview.zip'` in the download directory.
 <!-- project-metadata:package-hash-command:end -->
 2. Extract the ZIP into a new directory. Find the package root containing `skills/` and `SOURCE-MANIFEST.json`.
 <!-- project-metadata:manifest-count:start -->
-3. Check that the manifest records package version `0.3.0-preview.1` and the 22 skill IDs listed below. Keep the ZIP, `SHA256SUMS.txt`, and manifest together with your installation record.
+3. Check that the manifest records package version `0.3.1-preview` and the 23 skill IDs listed below. Keep the ZIP, `SHA256SUMS.txt`, and manifest together with your installation record.
 <!-- project-metadata:manifest-count:end -->
 
 The manifest uses schema version 2. It records the package name and version, `skillIds`, hashes and sizes in `packagedFilesExceptThisManifest`, and `sourceSnapshot` provenance. The snapshot includes the base commit, dirty working-tree state, skill-content fingerprint, and LFS payload provenance. The ZIP checksum covers the manifest too. A base commit alone does not identify this candidate's uncommitted source content.
@@ -30,7 +30,7 @@ Use the built ZIP rather than GitHub's automatically generated source ZIP. The d
 ## Install in a new Codex project
 
 <!-- project-metadata:install-copy:start -->
-Start with an empty project so existing skills do not need to be overwritten. Copy all 22 directories inside the package's `skills/` into the project's `.agents/skills/`, retaining every directory name and its internal files. Do not put the collection inside one extra `oneirloom/` directory.
+Start with an empty project so existing skills do not need to be overwritten. Copy all 23 directories inside the package's `skills/` into the project's `.agents/skills/`, retaining every directory name and its internal files. Do not put the collection inside one extra `oneirloom/` directory.
 <!-- project-metadata:install-copy:end -->
 
 The candidate's skill IDs are:

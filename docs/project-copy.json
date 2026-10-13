@@ -113,6 +113,12 @@
     "zhDescription": "Qwen-Image-2.1 提示词与任务适配",
     "enDescription": "Qwen-Image-2.1 prompts and task adaptation."
   },
+  "oneirloom-model-qwen-image-2-1-comfyui-edit": {
+    "zh": "Qwen 编辑流程",
+    "en": "Qwen ComfyUI editing",
+    "zhDescription": "Qwen-Image-2.1 的真编辑接线、denoise 与验证",
+    "enDescription": "Qwen-Image-2.1 editing wiring, denoise, and checks."
+  },
   "oneirloom-result-diagnosis": {
     "zh": "结果诊断",
     "en": "Result diagnosis",

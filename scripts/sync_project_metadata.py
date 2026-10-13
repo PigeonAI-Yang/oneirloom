@@ -42,6 +42,7 @@ CATALOG_ORDER = [
     "oneirloom-space-conception",
     "oneirloom-model-krea-2",
     "oneirloom-model-qwen-image-2-1",
+    "oneirloom-model-qwen-image-2-1-comfyui-edit",
     "oneirloom-result-diagnosis",
     "oneirloom-image-tutorial",
     "oneirloom-prompt-card",

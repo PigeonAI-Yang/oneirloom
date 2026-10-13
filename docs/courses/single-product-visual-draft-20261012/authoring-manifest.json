@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-11T17:57:12.717Z",
+  "status": "authored_private_review_draft",
+  "title": "完成一份单品宣传视觉：从需求简报到结果修正",
+  "authoredBy": "Codex Primary; prepared for human review",
+  "courseId": "course:oneirloom.single-product-visual.draft-20261012",
+  "learningOutcomes": [
+    "整理有来源的商品简报与事实表",
+    "为一项用途选择主方法和可检查关系",
+    "写出完整图像提示词并记录实际提交",
+    "依据资料、提交文字和真实结果逐项检查",
+    "只改当前偏差并交付完整修订和交接记录"
+  ],
+  "units": [
+    {
+      "id": "brief-and-facts",
+      "title": "把要求说清楚",
+      "lessonIds": [
+        "oneirloom.single-product-visual.brief",
+        "oneirloom.single-product-visual.facts"
+      ]
+    },
+    {
+      "id": "task-to-image",
+      "title": "把任务变成画面",
+      "lessonIds": [
+        "oneirloom.single-product-visual.method",
+        "oneirloom.single-product-visual.prompt"
+      ]
+    },
+    {
+      "id": "review-and-iterate",
+      "title": "把结果修到位",
+      "lessonIds": [
+        "oneirloom.single-product-visual.review",
+        "oneirloom.single-product-visual.iterate"
+      ]
+    }
+  ],
+  "unitPersistence": "Authoring-layer grouping only. Existing model stores ordered Course.lessonIds and CourseCatalogVersion.lessons; no Unit kind or contract change.",
+  "lessons": [
+    {
+      "file": "01-brief.md",
+      "slug": "brief",
+      "lessonId": "oneirloom.single-product-visual.brief",
+      "id": "lesson:oneirloom.single-product-visual.brief@draft-1",
+      "title": "从“好看一点”到可执行简报",
+      "bytes": 5112,
+      "characters": 1802,
+      "sha256": "73bf217245c808860f888fdf7311d24c5c18d4c29898873802edd165a181d5fa",
+      "order": 1
+    },
+    {
+      "file": "02-facts.md",
+      "slug": "facts",
+      "lessonId": "oneirloom.single-product-visual.facts",
+      "id": "lesson:oneirloom.single-product-visual.facts@draft-1",
+      "title": "锁定商品事实，留下可改空间",
+      "bytes": 3837,
+      "characters": 1477,
+      "sha256": "bf935ad58b6f1835d5d8ad08bac4d7c8cc243673a6b2ec7b83e21a28211cf895",
+      "order": 2
+    },
+    {
+      "file": "03-method.md",
+      "slug": "method",
+      "lessonId": "oneirloom.single-product-visual.method",
+      "id": "lesson:oneirloom.single-product-visual.method@draft-1",
+      "title": "按关系选方法，而不只选风格",
+      "bytes": 4031,
+      "characters": 1631,
+      "sha256": "0bd2d7484ba6acb140882b1b27471f2d9822f5cde02e80a6cd14ed1ac93af45e",
+      "order": 3
+    },
+    {
+      "file": "04-prompt.md",
+      "slug": "prompt",
+      "lessonId": "oneirloom.single-product-visual.prompt",
+      "id": "lesson:oneirloom.single-product-visual.prompt@draft-1",
+      "title": "写出完整提示词并提交一轮",
+      "bytes": 4042,
+      "characters": 1452,
+      "sha256": "54ae53c3a119f925f387193e4ae8f9a0d6dac76afc536c907dc994bcdb063e5c",
+      "order": 4
+    },
+    {
+      "file": "05-review.md",
+      "slug": "review",
+      "lessonId": "oneirloom.single-product-visual.review",
+      "id": "lesson:oneirloom.single-product-visual.review@draft-1",
+      "title": "用六个样本学习检查结果",
+      "bytes": 4635,
+      "characters": 1835,
+      "sha256": "b700952c66bc277d98ca4899f637e7c0157515afa661b90247759232e696adcc",
+      "order": 5
+    },
+    {
+      "file": "06-iterate.md",
+      "slug": "iterate",
+      "lessonId": "oneirloom.single-product-visual.iterate",
+      "id": "lesson:oneirloom.single-product-visual.iterate@draft-1",
+      "title": "只改当前问题，完成交接",
+      "bytes": 4819,
+      "characters": 1677,
+      "sha256": "e0e0aa6ddf5dd9d4dba002dc1f7a8aa27abe3e5bc9160ebb20336e167046f36d",
+      "order": 6
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\install-fixed-package.md",
+      "sha256": "12b13cf392bcb12f575fc5c4fc7c4fc042583c2587eeea7d04f0eab17a84492c"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\first-product-task.md",
+      "sha256": "99cf3ee2e8fdd9fcf916778e687534eb8bf2abfd452210dc351cc2b514953387"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\preserve-product-facts.md",
+      "sha256": "70c679a80875a9ee5aed1b7fa47af3977fd749dfb8e98db67dcdc131f5c07a60"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\review-and-iterate.md",
+      "sha256": "e8658a3541da6c17fa913860e7821aef345c70f8fa8583052dc5ee42ad385b41"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\SKILL.md",
+      "sha256": "208483a9f37f93dd3ace39e68d94678e8135d2b3e7751b62d91b5d587d6a4d79"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom\\references\\interaction-contract.md",
+      "sha256": "6922d5220f34397a16cbabd8ba7f6e6987219183930cdc9cab879bcda2ddbd93"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-product-art-direction\\references\\ecommerce-workflow.md",
+      "sha256": "23554d4a3eef50787da0d2b659edaa9cf8bf4596a71ea1b980fa6f378158310d"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\templates\\product-surface-study\\template.md",
+      "sha256": "9815d25865eb5f22df2d8aa6982cecd239a50b6388bc2fb0c11fc37ce7b7c2bf"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-style-photography\\templates\\product-use-instant\\template.md",
+      "sha256": "2f96106c27a06997b7b4c9d223c892207ba6484fdfcfa3e8dc9975cf94a5fdef"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\skills\\oneirloom-result-diagnosis\\SKILL.md",
+      "sha256": "a7ec855aeaa41cfc930f10faf6c232f596c6b26aac4c6f758182ea642cdd8cc6"
+    },
+    {
+      "path": "J:\\PigeonYang\\skills\\oneirloom\\work\\product-expansion-20261011\\visual-inspection-corrections-round1.md",
+      "sha256": "c9504789a0840a1a1a0b5fff31c04da6f5655293000cf4a11cd056215082170b"
+    }
+  ],
+  "actualRecipeSources": [
+    {
+      "kind": "recipeVersion",
+      "id": "recipe:photo.product-surface-study@2",
+      "revision": 1,
+      "payloadHash": "06fac0a8412f2755624a4602662e5a5896e9290956dc2af24440fb52760fa97e",
+      "sourceBindingsHash": "4ba6504f32ae6d14bab69572b4db9d6a1c3ddc12e24f2de47159b1c380a5e10e",
+      "facts": [
+        {
+          "evidenceRefs": [
+            "evidence:oneirloom.product-expansion.2026-10-11.item-1"
+          ],
+          "id": "observed-result",
+          "text": "单次样图检查通过：奶油白纸包装完整，青绿色条纹、珊瑚色圆点与空白奶油白标签清楚可见；背景为浅蓝灰色，光线从左侧照入。"
+        }
+      ]
+    },
+    {
+      "kind": "recipeVersion",
+      "id": "recipe:photo.product-use-instant@2",
+      "revision": 1,
+      "payloadHash": "286117c62b43cbf66e4f3a2b45990dff544f4b314e56af9514ea55faa804b993",
+      "sourceBindingsHash": "bbd807318721886421251943afe4022dfaab5736db48e3ff76221517469bb9d6",
+      "facts": [
+        {
+          "evidenceRefs": [
+            "evidence:oneirloom.product-expansion.2026-10-11.item-2"
+          ],
+          "id": "observed-result",
+          "text": "单次样图检查未通过：右手手指仍遮住杯套正面右侧。左侧底部支撑和间隙清楚可见，商品正面的遮挡问题仍需修正。"
+        }
+      ]
+    },
+    {
+      "kind": "recipeVersion",
+      "id": "recipe:space.seasonal-product-display@2",
+      "revision": 1,
+      "payloadHash": "c2bd30bd56d218add06c0c5725849ae8404264fadd6f2c9b1de68e8424afeb61",
+      "sourceBindingsHash": "c39f44c6b650c384874d192b06c0f7dfeec01dd146a146e25cf8c5e321de84e6",
+      "facts": [
+        {
+          "evidenceRefs": [
+            "evidence:oneirloom.product-expansion.2026-10-11.item-3"
+          ],
+          "id": "observed-result",
+          "text": "单次样图检查部分未通过：前缘入口更宽，右侧留有宽阔空道；入口却接到暗沟槽或高差处，同一桌面上的连续路线仍不清楚。"
+        }
+      ]
+    },
+    {
+      "kind": "recipeVersion",
+      "id": "recipe:craft.layered-paper-backdrop@2",
+      "revision": 1,
+      "payloadHash": "12eca1b07cedb6f150ade4f56be62f6057930e98c4470b4fc0d3c5b3bab25c7a",
+      "sourceBindingsHash": "ac605e96e572d6ad714e50c92d7ed7b398c09c79247f277326beaa305cee2d3d",
+      "facts": [
+        {
+          "evidenceRefs": [
+            "evidence:oneirloom.product-expansion.2026-10-11.item-4"
+          ],
+          "id": "observed-result",
+          "text": "单次样图检查通过：白色纸舌或纸桥支撑抬起的红色莓果与松枝纸片；分层纸张的厚度、底部接触、完整罐体和空白标签清楚可见，背板顶部被画面裁切。"
+        }
+      ]
+    },
+    {
+      "kind": "recipeVersion",
+      "id": "recipe:digital.product-sculptural-variant@2",
+      "revision": 1,
+      "payloadHash": "45fcab91df5d629a18d1ca116086dadd76aab520bd9b76f57f9866a446ff630c",
+      "sourceBindingsHash": "3f6f5d1a76b58e354e352672d3af6ca16076dedc8e7686f67c09f4bb18de7587",
+      "facts": [
+        {
+          "evidenceRefs": [
+            "evidence:oneirloom.product-expansion.2026-10-11.item-5"
+          ],
+          "id": "observed-result",
+          "text": "单次样图检查部分未通过：另一侧多余的凸起已去除，保留了要求的单侧凸起；右侧圆片和边缘接缝仍像附加部件，尚未形成从主体下三分之一区域连续膨出的曲面。"
+        }
+      ]
+    },
+    {
+      "kind": "recipeVersion",
+      "id": "recipe:fashion.single-garment-look@2",
+      "revision": 1,
+      "payloadHash": "23507e2c0e2d78a34c279d553b1292ad089e6b85d21be5258cddc61d3ac3084e",
+      "sourceBindingsHash": "95ce5c6fddf0b744e59128d0cb3baee97282243d79786952877b1a0ff4f916c1",
+      "facts": [
+        {
+          "evidenceRefs": [
+            "evidence:oneirloom.product-expansion.2026-10-11.item-6"
+          ],
+          "id": "observed-result",
+          "text": "单次样图检查通过：短拉链止于上胸，下方青绿色针织面连续延伸到完整下摆；短袖、立领、无头躯干与暖灰色场景清楚可见。"
+        }
+      ]
+    }
+  ],
+  "proposedPreviewLessonId": "oneirloom.single-product-visual.brief",
+  "officialPreviewSelected": false,
+  "storedIsPreview": false,
+  "authorCreditConfirmed": false,
+  "licenseConfirmed": false,
+  "priceChosen": false,
+  "offersCreated": 0,
+  "publicationPerformed": false,
+  "newImagesOrVideosGenerated": 0,
+  "paidServicesUsed": false,
+  "fictionalExercises": "Cup briefs, prompts and rounded-lid iteration are authored text exercises, not new image results.",
+  "inspectionReuse": "Six real prior single-example observations are cited; no repeated reproduction claim.",
+  "preserveFreeArticleFiles": [
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\install-fixed-package.md",
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\first-product-task.md",
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\preserve-product-facts.md",
+    "J:\\PigeonYang\\skills\\oneirloom\\docs\\learning\\review-and-iterate.md"
+  ]
+}
