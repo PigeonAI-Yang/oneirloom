@@ -25,4 +25,4 @@
 
 三个单元是本文的课时分组。现有维护模型保存有序 `Course.lessonIds`、六个完整 `LessonVersion` 与对应课程目录，未新增 Unit 类型或修改契约。四篇免费文章保留原文，本课通过链接引用：[免费学习路径](../../learning/index.md)。
 
-正文来源与实际私有接入记录见[作者维护清单](authoring-manifest.json)及[维护收据](../../../work/product-expansion-20261011/first-course-private-draft-receipt-20261012.md)。
+正文来源与实际私有接入记录见[作者维护清单](authoring-manifest.json)；维护收据属于私有记录，未随本源码公开。
